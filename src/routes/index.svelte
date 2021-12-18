@@ -12,9 +12,8 @@
     });
 </script>
 
-<div class="outer">
+<div bind:this={img} class="fill">
     <img
-        bind:this={img}
         src="/img/home.jpg"
         alt="Christ's College Second Court"
         class="darkened"
@@ -92,9 +91,16 @@
 </div>
 
 <style lang="scss">
-    @import "bulma/sass/utilities/_all";
-    img {
-        @include overlay(0);
+    .fill {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        height: max(50vh, 500px);
+    }
+    .fill img {
+        min-height: 100%;
+        min-width: 100%;
         object-fit: cover;
     }
 </style>
