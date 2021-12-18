@@ -65,7 +65,11 @@
                 <span style="color:white" aria-hidden="true" />
             </p>
         </div>
-        <div class="navbar-menu" class:is-active={expanded}>
+        <div
+            class="navbar-menu"
+            class:is-active={expanded}
+            on:click={() => (expanded = false)}
+        >
             <div class="navbar-end">
                 {#each layout as parent}
                     {#if parent.children?.length}
