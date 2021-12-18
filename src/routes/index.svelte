@@ -1,5 +1,5 @@
 <script lang="ts">
-    import Navbar from "../components/nav/Navbar.svelte";
+    import Navbar from "../components/Navbar.svelte";
 
     let el: HTMLElement = null;
 </script>
