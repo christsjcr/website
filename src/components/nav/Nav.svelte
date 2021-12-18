@@ -10,12 +10,16 @@
 </script>
 
 <nav
-    class={"navbar is-fixed-top" +
-        (transparent ? " is-transparent pushback" : " is-primary")}
+    class={"navbar is-fixed-top"}
+    class:barshow={!transparent || expanded}
     role="navigation"
 >
     <div class="navbar-brand">
-        <a class={"navbar-item"} class:is-hidden={transparent} href="/">
+        <a
+            class={"navbar-item logo"}
+            class:logoshow={!transparent || expanded}
+            href="/"
+        >
             <img
                 src="https://qjcr.org.uk/content/logo.svg"
                 width="112"
@@ -76,3 +80,25 @@
         </div>
     </div>
 </nav>
+
+<style lang="scss">
+    .navbar {
+        transition: background-color 0.4s ease-in-out;
+        background-color: rgba($primary, 0);
+    }
+
+    .barshow {
+        transition: background-color 0.4s ease-in-out;
+        background-color: rgba($primary, 1);
+    }
+
+    .logo {
+        transition: opacity 0.4s ease-in-out;
+        opacity: 0;
+    }
+
+    .logoshow {
+        transition: opacity 0.4s ease-in-out;
+        opacity: 1;
+    }
+</style>

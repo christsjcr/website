@@ -1,8 +1,6 @@
 <script lang="ts">
     import type { NavbarItem } from "./NavbarItem";
     import Nav from "./Nav.svelte";
-    import { fade } from "svelte/transition";
-    import stateTransition from "../stateTransition";
 
     export let current: string;
     export let transparent: boolean = false;
@@ -12,16 +10,11 @@
     let expanded = false;
     let width;
 
-    const animation = stateTransition(transparent);
-    const state = animation.state;
-
     $: isTransparent =
         transparent &&
         !expanded &&
         (scroll_limit == null ||
             y < scroll_limit.offsetTop + scroll_limit.offsetHeight);
-
-    $: animation.transitionTo(isTransparent);
 
     $: if (width >= 1024) expanded = false;
 
@@ -45,21 +38,13 @@
 <svelte:window bind:scrollY={y} bind:innerWidth={width} />
 
 <div class="has-navbar-fixed-top">
-    {#if $state === true}
-        <div transition:fade on:outroend={animation.onOutro}>
-            <Nav
-                {current}
-                {layout}
-                {expanded}
-                {toggleExpanded}
-                transparent={true}
-            />
-        </div>
-    {:else if $state === false}
-        <div transition:fade on:outroend={animation.onOutro}>
-            <Nav {current} {layout} {expanded} {toggleExpanded} />
-        </div>
-    {/if}
+    <Nav
+        {current}
+        {layout}
+        {expanded}
+        {toggleExpanded}
+        transparent={isTransparent}
+    />
 
     <div class={"pushmiddle" + (transparent ? "" : " pushdown")}>
         <slot />
