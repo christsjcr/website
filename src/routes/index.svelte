@@ -12,12 +12,15 @@
     });
 </script>
 
-<div bind:this={img} class="fill">
-    <img
-        src="/img/home.jpg"
-        alt="Christ's College Second Court"
-        class="darkened"
-    />
+<div id="wrapper">
+    <div bind:this={img} class="fill">
+        <img
+            src="/img/home.jpg"
+            alt="Christ's College Second Court"
+            class="darkened"
+        />
+    </div>
+    <img src="/img/logo_big.png" alt="JCR Logo" class="centered" />
 </div>
 
 <div class="block">
@@ -102,5 +105,15 @@
         min-height: 100%;
         min-width: 100%;
         object-fit: cover;
+    }
+    #wrapper {
+        position: relative;
+    }
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        height: 75%;
+        transform: translate(-50%, -50%);
     }
 </style>
