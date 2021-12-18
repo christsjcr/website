@@ -1,5 +1,10 @@
-<script>
-    import Navbar from "../components/Navbar.svelte";
-</script>
+<script lang="ts">
+    import { page } from "../components/Navbar.svelte";
+    import { onMount } from "svelte";
 
-<Navbar current="/resources" />
+    onMount(() => {
+        page.set({
+            current: "/resources",
+        });
+    });
+</script>

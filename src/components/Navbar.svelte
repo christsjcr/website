@@ -1,7 +1,21 @@
+<script lang="ts" context="module">
+    export interface NavbarItem {
+        route: string;
+        label: string;
+        children?: NavbarItem[];
+    }
+
+    export interface Page {
+        current: string;
+        img?: HTMLElement;
+    }
+
+    export const page: Writable<Page> = writable({ current: null });
+</script>
+
 <script lang="ts">
-    export let current: string;
-    export let transparent: boolean = false;
-    export let scroll_limit: HTMLElement = null;
+    import { writable, Writable } from "svelte/store";
+    export let layout: NavbarItem[];
 
     let y = 0;
     let expanded = false;
@@ -10,40 +24,25 @@
     // for the case when the user expands the menu, then resizes the screen
     $: if (width >= 1024) expanded = false;
 
+    $: hasImage = $page.img != null;
+
     // show if not transparent, if menu expanded, or if scrolled down far enough
     $: show =
-        !transparent ||
+        !hasImage ||
         expanded ||
-        (scroll_limit != null &&
-            y >= scroll_limit.offsetTop + scroll_limit.offsetHeight);
+        y >= $page.img.offsetTop + $page.img.offsetHeight - 64;
 
-    interface NavbarItem {
-        route: string;
-        label: string;
-        children?: NavbarItem[];
-    }
-
-    let layout: NavbarItem[] = [
-        { route: "/", label: "Home" },
-        {
-            route: "/resources",
-            label: "Resources",
-            children: [
-                { route: "", label: "X" },
-                { route: "", label: "Y" },
-            ],
-        },
-        { route: "/roles", label: "Roles" },
-        { route: "/meetings", label: "Meetings" },
-    ];
-
-    const active = (item: NavbarItem) => item.route == current;
+    const active = (item: NavbarItem) => item.route == $page.current;
 </script>
 
 <svelte:window bind:scrollY={y} bind:innerWidth={width} />
 
 <div class="has-navbar-fixed-top">
-    <nav class={"navbar is-fixed-top"} class:barshow={show} role="navigation">
+    <nav
+        class={"navbar is-fixed-top is-transparent"}
+        class:barshow={show}
+        role="navigation"
+    >
         <div class="navbar-brand">
             <a class={"navbar-item logo"} class:logoshow={show} href="/">
                 <img
@@ -74,17 +73,19 @@
                             <a
                                 class="navbar-link"
                                 class:is-active={active(parent)}
-                                class:has-text-white={show && !expanded}
+                                class:has-text-white={!expanded}
                                 href={parent.route}
                             >
-                                {parent.label}
+                                <b>{parent.label}</b>
                             </a>
 
-                            <div class="navbar-dropdown">
+                            <div class="navbar-dropdown" class:is-boxed={!show}>
                                 {#each parent.children as child}
                                     <a
                                         class="navbar-item"
                                         class:is-active={active(child)}
+                                        class:has-text-white={!expanded &&
+                                            width <= 1024}
                                         href={child.route}
                                     >
                                         {child.label}
@@ -96,10 +97,10 @@
                         <a
                             class="navbar-item"
                             class:is-active={active(parent)}
-                            class:has-text-white={!show}
+                            class:has-text-white={!expanded}
                             href={parent.route}
                         >
-                            {parent.label}
+                            <b>{parent.label}</b>
                         </a>
                     {/if}
                 {/each}
@@ -107,29 +108,29 @@
         </div>
     </nav>
 
-    <div class="pushmiddle" class:pushdown={!transparent}>
+    <div class="pushmiddle" class:pushdown={!hasImage}>
         <slot />
     </div>
 </div>
 
 <style lang="scss">
     .navbar {
-        transition: background-color 0.4s ease-in-out;
+        transition: background-color 0.3s ease-in-out;
         background-color: rgba($primary, 0);
     }
 
     .barshow {
-        transition: background-color 0.4s ease-in-out;
+        transition: background-color 0.3s ease-in-out;
         background-color: rgba($primary, 1);
     }
 
     .logo {
-        transition: opacity 0.4s ease-in-out;
+        transition: opacity 0.3s ease-in-out;
         opacity: 0;
     }
 
     .logoshow {
-        transition: opacity 0.4s ease-in-out;
+        transition: opacity 0.3s ease-in-out;
         opacity: 1;
     }
 
