@@ -23,19 +23,70 @@
     <img src="/img/logo_big.png" alt="JCR Logo" class="centered" />
 </div>
 
-<div class="container">
-    <div class="notification is-primary m-3">
-        The JCR (Junior Combination Room) is the undergraduate student body at
-        Christ's College. The student-led Committee represents the students in
-        Christ's to the College, so you can make the most of your time here.
+<div class="container p-5">
+    <div class="content m-5">
+        <blockquote>
+            Christ's JCR (Junior Combination Room) is the undergraduate student
+            body at Christ's College, Cambridge. The student-elected Committee
+            represents the interests of the undergrads at Christ's, so you can
+            make the most of your time here!
+        </blockquote>
     </div>
-    <div class="columns">
-        <div class="column">
-            <div class="block">
-                <h1 class="title is-1">Welcome to Christ's JCR</h1>
+
+    <div class="columns m-3">
+        <div class="column is-one-third">
+            <div class="notification is-primary">
+                <h3 class="title is-5">The Committee</h3>
+                <p class="block">
+                    Get to know the current members of the JCR Comittee!
+                </p>
+                <p class="block"><a href="/">Read more</a></p>
             </div>
         </div>
-        <div class="column is-one-quarter">Fourth column</div>
+        <div class="column is-one-third">
+            <div class="notification is-primary">
+                <h3 class="title is-5">Prospective Students</h3>
+                <p class="block">
+                    Interested in applying to Christ's? Read our alternative
+                    prospectus!
+                </p>
+                <p class="block"><a href="/">Coming Soon</a></p>
+            </div>
+        </div>
+        <div class="column is-one-third">
+            <div class="notification is-primary">
+                <h3 class="title is-5">Christ's Freshers</h3>
+                <p class="block">
+                    Take a look at our freshers' guide, or check out the
+                    freshers' week timetable!
+                </p>
+                <p class="block"><a href="/">Read more</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="content section">
+        <h1 class="title">Quick Links</h1>
+        <ul class="list">
+            <li>
+                <a href="https://intranet.christs.cam.ac.uk/mealbooking/"
+                    >Meal booking</a
+                >
+            </li>
+            <li>
+                <a
+                    href="https://christscollege.roombookingsystem.co.uk/overviewday"
+                    >Room booking</a
+                >
+            </li>
+            <li>
+                <a href="https://intranet.christs.cam.ac.uk/fault-reporting"
+                    >Fault reporting</a
+                >
+            </li>
+            <li>
+                <a href="/">Reimbursement</a>
+            </li>
+        </ul>
     </div>
 </div>
 
@@ -45,7 +96,7 @@
         justify-content: center;
         align-items: center;
         overflow: hidden;
-        height: 100vh;
+        height: 100%;
     }
     .fill img {
         min-height: 100%;
@@ -54,6 +105,8 @@
     }
     #wrapper {
         position: relative;
+        background-color: black;
+        height: 70vh;
     }
     .centered {
         position: absolute;
