@@ -24,7 +24,7 @@
     onMount(() => {
         const classes = document.body.classList;
         let timer;
-        window.addEventListener("resize", function () {
+        const disableTransitions = () => {
             if (timer) {
                 clearTimeout(timer);
                 timer = null;
@@ -34,7 +34,9 @@
                 classes.remove("stop-transitions");
                 timer = null;
             }, 100);
-        });
+        };
+        disableTransitions();
+        window.addEventListener("resize", disableTransitions);
     });
 </script>
 
