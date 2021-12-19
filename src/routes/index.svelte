@@ -12,10 +12,10 @@
     });
 </script>
 
-<div id="wrapper">
-    <div bind:this={img} class="fill">
+<div bind:this={img} id="wrapper">
+    <div class="fill">
         <img
-            src="/img/home.jpg"
+            src="https://www.christs.cam.ac.uk/sites/www.christs.cam.ac.uk/files/styles/banner/public/2018-01/Christs_College_banner.jpg"
             alt="Christ's College Second Court"
             class="darkened"
         />
@@ -64,29 +64,75 @@
             </div>
         </div>
     </div>
-    <div class="content section">
-        <h1 class="title">Quick Links</h1>
-        <ul class="list">
-            <li>
-                <a href="https://intranet.christs.cam.ac.uk/mealbooking/"
-                    >Meal booking</a
-                >
-            </li>
-            <li>
-                <a
-                    href="https://christscollege.roombookingsystem.co.uk/overviewday"
-                    >Room booking</a
-                >
-            </li>
-            <li>
-                <a href="https://intranet.christs.cam.ac.uk/fault-reporting"
-                    >Fault reporting</a
-                >
-            </li>
-            <li>
-                <a href="/">Reimbursement</a>
-            </li>
-        </ul>
+    <h1 class="title is-2 m-5">Quick Links</h1>
+    <div class="columns m-5">
+        <div class="column">
+            <div class="content">
+                <subtitle class="subtitle">Food</subtitle>
+                <ul class="list">
+                    <li>
+                        <a href="https://intranet.christs.cam.ac.uk/meal-times"
+                            >Menu</a
+                        >
+                    </li>
+                    <li>
+                        <a href="https://intranet.christs.cam.ac.uk/meal-times"
+                            >Meal times</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://intranet.christs.cam.ac.uk/mealbooking/"
+                            >Meal booking</a
+                        >
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <subtitle class="subtitle">Facilities</subtitle>
+                <ul class="list">
+                    <li>
+                        <a
+                            href="https://christscollege.roombookingsystem.co.uk/overviewday"
+                            >Room booking</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://intranet.christs.cam.ac.uk/fault-reporting"
+                            >Fault reporting</a
+                        >
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <subtitle class="subtitle">Porters</subtitle>
+                <ul class="list">
+                    <li>
+                        <a href="tel:+44-1223-334900">+44 1223 334900</a>
+                    </li>
+                    <li>
+                        <a href="mailto:porters@christs.cam.ac.uk"
+                            >porters@christs.cam.ac.uk</a
+                        >
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <subtitle class="subtitle">Misc</subtitle>
+                <ul class="list">
+                    <li>
+                        <a href="/">Reimbursement</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
 </div>
 
