@@ -38,12 +38,34 @@
     });
 </script>
 
-<Navbar {layout}>
-    <slot />
-</Navbar>
+<div class="page">
+    <Navbar {layout}>
+        <slot />
+    </Navbar>
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+                    >© Christ's JCR 2021</a
+                >
+            </p>
+        </div>
+    </footer>
+</div>
 
 <style>
     :global(body.stop-transitions *) {
         transition: none !important;
+    }
+
+    .page {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        margin-top: auto;
     }
 </style>

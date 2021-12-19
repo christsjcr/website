@@ -1,5 +1,9 @@
 /* Variables and mixins declared here will be available in all other SCSS files */ /* https://github.com/jgthms/bulma/issues/1293 */
-$body-overflow-y: auto;
+$body-overflow-y: scroll;
 $primary: #1B458F;
-$link: #C8AC00;
+$link: #A28000; // #C8AC00;
+$background: #EBEDF0;
+
 $navbar-height: 4rem;
+$footer-background-color: $background;
+$footer-padding: 2rem;
