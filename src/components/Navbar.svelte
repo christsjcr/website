@@ -32,7 +32,7 @@
         expanded ||
         y >= $page.img.offsetTop + $page.img.offsetHeight - 64;
 
-    const active = (item: NavbarItem) => item.route == $page.current;
+    $: active = (item: NavbarItem) => item.route === $page.current;
 </script>
 
 <svelte:window bind:scrollY={y} bind:innerWidth={width} />
