@@ -21,8 +21,10 @@
     let expanded = false;
     let width: number;
 
+    $: desktop = width >= 1024;
+
     // for the case when the user expands the menu, then resizes the screen
-    $: if (width >= 1024) expanded = false;
+    $: if (desktop) expanded = false;
 
     $: hasImage = $page.img != null;
 
@@ -41,6 +43,7 @@
     <nav
         class={"navbar is-fixed-top is-transparent"}
         class:barshow={show}
+        class:pr-4={desktop}
         role="navigation"
     >
         <div class="navbar-brand">
@@ -118,9 +121,32 @@
 </div>
 
 <style lang="scss">
+    @import "bulma/sass/utilities/_all";
+
     .navbar {
         transition: background-color 0.3s ease-in-out;
         background-color: rgba($primary, 0);
+    }
+
+    @include until($desktop) {
+        .navbar-menu {
+            display: block;
+            opacity: 0;
+
+            position: absolute;
+            left: 0;
+            right: 0;
+
+            transform: translateY(-50%);
+            transition: all 0.3s ease-in-out;
+            pointer-events: none;
+        }
+
+        .navbar-menu.is-active {
+            opacity: 1;
+            transform: none;
+            pointer-events: auto;
+        }
     }
 
     .barshow {
