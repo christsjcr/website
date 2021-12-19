@@ -55,6 +55,11 @@
 </div>
 
 <style>
+    :global(body) {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
     :global(body.stop-transitions *) {
         transition: none !important;
     }
