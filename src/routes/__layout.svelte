@@ -5,6 +5,15 @@
     import type { NavbarItem } from "../components/Navbar.svelte";
     import Navbar from "../components/Navbar.svelte";
 
+    import { library } from "@fortawesome/fontawesome-svg-core";
+    import {
+        faInstagram,
+        faFacebook,
+    } from "@fortawesome/free-brands-svg-icons";
+    import { FontAwesomeIcon } from "fontawesome-svelte";
+
+    library.add(faInstagram, faFacebook);
+
     const layout: NavbarItem[] = [
         { route: "/", label: "Home" },
         {
@@ -47,16 +56,36 @@
 
     <footer class="footer">
         <div class="content has-text-centered">
-            <p>
-                <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
-                    >© Christ's JCR 2021</a
-                >
-            </p>
+            <nav class="level is-mobile">
+                <div class="level-item has-text-centered">
+                    <a
+                        href="https://www.instagram.com/christsjcr/"
+                        target="_blank"
+                    >
+                        <span class="icon is-large">
+                            <FontAwesomeIcon icon={faInstagram} size="2x" />
+                        </span>
+                        <p class="heading">@christsjcr</p>
+                    </a>
+                </div>
+                <div class="level-item has-text-centered">
+                    <a
+                        href="https://www.facebook.com/ChristsJCR"
+                        target="_blank"
+                    >
+                        <span class="icon is-large">
+                            <FontAwesomeIcon icon={faFacebook} size="2x" />
+                        </span>
+                        <p class="heading">@ChristsJCR</p>
+                    </a>
+                </div>
+            </nav>
+            <p>© Christ's JCR 2021</p>
         </div>
     </footer>
 </div>
 
-<style>
+<style lang="scss">
     :global(body) {
         overflow-x: hidden;
         width: 100%;
