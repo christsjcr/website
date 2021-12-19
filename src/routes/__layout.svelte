@@ -55,8 +55,8 @@
     </Navbar>
 
     <footer class="footer">
-        <div class="content has-text-centered">
-            <nav class="level is-mobile">
+        <div class="container has-text-centered">
+            <div class="level is-mobile">
                 <div class="level-item has-text-centered">
                     <a
                         href="https://www.instagram.com/christsjcr/"
@@ -79,7 +79,7 @@
                         <p class="heading">@ChristsJCR</p>
                     </a>
                 </div>
-            </nav>
+            </div>
             <p>© Christ's JCR 2021</p>
         </div>
     </footer>
