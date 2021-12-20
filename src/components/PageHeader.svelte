@@ -8,30 +8,58 @@
     export let titleSrc: string = null;
     export let large: boolean = false;
 
+    let smallDelay = false;
+    let mounted = false;
+    let bgShowing = false;
+    let fgShowing = false;
+
     let img;
 
     onMount(() => {
+        mounted = true;
         page.set({
             current,
             img,
         });
+        setTimeout(() => (smallDelay = true), 300);
     });
+
+    const bgload = (el) => {
+        el.addEventListener("load", () => {
+            bgShowing = true;
+        });
+    };
+
+    const fgload = (el) => {
+        el.addEventListener("load", () => {
+            fgShowing = true;
+        });
+    };
 </script>
 
-<div
-    bind:this={img}
-    class="wrapper"
-    class:black={titleSrc != null}
-    style={`height: ${large ? "70vh" : "30vh"};`}
->
+<div bind:this={img} class="wrapper" class:black={titleSrc != null} class:large>
     {#if background}
-        <div class="fill">
-            <img src={background.src} alt={background.alt} class="darkened" />
-        </div>
+        {#if mounted}
+            <div class="fill" class:showing={bgShowing}>
+                <img
+                    src={background.src}
+                    alt={background.alt}
+                    class="darkened"
+                    use:bgload
+                />
+            </div>
+        {/if}
     {/if}
-    {#if titleSrc}
-        <img src={titleSrc} alt={title} class="headerImg" />
-    {:else}
+    {#if titleSrc && mounted}
+        <img
+            src={titleSrc}
+            alt={title}
+            class="headerImg"
+            use:fgload
+            class:showing={fgShowing}
+        />
+    {/if}
+    {#if !titleSrc || (!fgShowing && smallDelay)}
         <div class="header">
             <h1 class="title is-1 has-text-white">{title}</h1>
         </div>
@@ -45,6 +73,11 @@
         align-items: center;
         overflow: hidden;
         height: 100%;
+        opacity: 0;
+    }
+    .showing {
+        opacity: 1 !important;
+        transition: opacity 0.3s ease-in-out;
     }
     .fill img {
         min-height: 100%;
@@ -54,6 +87,10 @@
     .wrapper {
         position: relative;
         background-color: $primary;
+        height: 20vh;
+    }
+    .wrapper.large {
+        height: 70vh;
     }
     .black {
         background-color: black;
@@ -65,6 +102,7 @@
         height: 75%;
         transform: translate(-50%, -50%);
         object-fit: contain;
+        opacity: 0;
     }
     .header {
         position: absolute;
