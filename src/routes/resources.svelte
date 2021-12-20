@@ -1,10 +1,5 @@
 <script lang="ts">
-    import { page } from "../components/Navbar.svelte";
-    import { onMount } from "svelte";
-
-    onMount(() => {
-        page.set({
-            current: "/resources",
-        });
-    });
+    import PageHeader from "../components/PageHeader.svelte";
 </script>
+
+<PageHeader current="/resources" title="Resources" />

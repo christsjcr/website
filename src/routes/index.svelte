@@ -1,27 +1,17 @@
 <script lang="ts">
-    import { page } from "../components/Navbar.svelte";
-    import { onMount } from "svelte";
-
-    let img;
-
-    onMount(() => {
-        page.set({
-            current: "/",
-            img,
-        });
-    });
+    import PageHeader from "../components/PageHeader.svelte";
 </script>
 
-<div bind:this={img} id="wrapper">
-    <div class="fill">
-        <img
-            src="https://www.christs.cam.ac.uk/sites/www.christs.cam.ac.uk/files/styles/banner/public/2018-01/Christs_College_banner.jpg"
-            alt="Christ's College Second Court"
-            class="darkened"
-        />
-    </div>
-    <img src="/img/logo_big.png" alt="JCR Logo" class="centered" />
-</div>
+<PageHeader
+    current="/"
+    title="Christ's JCR"
+    titleSrc="/img/logo_big.png"
+    background={{
+        src: "https://www.christs.cam.ac.uk/sites/www.christs.cam.ac.uk/files/styles/banner/public/2018-01/Christs_College_banner.jpg",
+        alt: "Christ's College Second Court",
+    }}
+    large
+/>
 
 <div class="container p-5">
     <div class="content m-5">
@@ -38,7 +28,7 @@
             <div class="notification is-primary">
                 <h3 class="title is-5">The Committee</h3>
                 <p class="block">
-                    Get to know the current members of the JCR Comittee!
+                    Get to know the current members of the JCR Committee!
                 </p>
                 <p class="block"><a href="/">Read more</a></p>
             </div>
@@ -135,31 +125,3 @@
         </div>
     </div>
 </div>
-
-<style lang="scss">
-    .fill {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
-        height: 100%;
-    }
-    .fill img {
-        min-height: 100%;
-        min-width: 100%;
-        object-fit: cover;
-    }
-    #wrapper {
-        position: relative;
-        background-color: black;
-        height: 70vh;
-    }
-    .centered {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        height: 75%;
-        transform: translate(-50%, -50%);
-        object-fit: contain;
-    }
-</style>
