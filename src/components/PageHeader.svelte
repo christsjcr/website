@@ -66,6 +66,8 @@
     {/if}
 </div>
 
+<div class="container px-5"><div class="m-5"><slot /></div></div>
+
 <style lang="scss">
     .fill {
         display: flex;

@@ -11,10 +11,8 @@
         alt: "Christ's College Second Court",
     }}
     large
-/>
-
-<div class="container p-5">
-    <div class="content m-5">
+>
+    <div class="content">
         <blockquote>
             Christ's JCR (Junior Combination Room) is the undergraduate student
             body at Christ's College, Cambridge. The student-elected Committee
@@ -23,7 +21,7 @@
         </blockquote>
     </div>
 
-    <div class="columns m-3">
+    <div class="columns my-6">
         <div class="column is-one-third">
             <div class="notification is-primary">
                 <h3 class="title is-5">The Committee</h3>
@@ -54,8 +52,9 @@
             </div>
         </div>
     </div>
-    <h1 class="title is-2 m-5">Quick Links</h1>
-    <div class="columns m-5">
+
+    <h1 class="title is-2">Quick Links</h1>
+    <div class="columns m-1">
         <div class="column">
             <div class="content">
                 <subtitle class="subtitle">Food</subtitle>
@@ -115,13 +114,19 @@
         </div>
         <div class="column">
             <div class="content">
-                <subtitle class="subtitle">Misc</subtitle>
+                <subtitle class="subtitle">Finance</subtitle>
                 <ul class="list">
                     <li>
                         <a href="/">Reimbursement</a>
+                    </li>
+                    <li>
+                        <a
+                            href="https://intranet.christs.cam.ac.uk/mealbooking/EPOS.aspx"
+                            >College Balance</a
+                        >
                     </li>
                 </ul>
             </div>
         </div>
     </div>
-</div>
+</PageHeader>
