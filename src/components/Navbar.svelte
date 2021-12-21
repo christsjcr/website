@@ -136,6 +136,10 @@
         transition: background-color 0.3s ease-in-out;
     }
 
+    .logo img {
+        width: 70px;
+    }
+
     @include until($desktop) {
         .navbar-menu {
             display: block;
