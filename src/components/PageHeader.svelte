@@ -91,7 +91,7 @@
     .wrapper {
         position: relative;
         background-color: $primary;
-        height: 20vh;
+        height: max(20vh, 12rem);
     }
     .wrapper.large {
         height: 70vh;
@@ -113,5 +113,7 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        width: 100%;
+        text-align: center;
     }
 </style>

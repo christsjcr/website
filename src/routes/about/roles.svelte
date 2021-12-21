@@ -7,8 +7,6 @@
     $: fromDesktop = $width >= desktop.min;
     $: fromWidescreen = $width >= widescreen.min;
 
-    $: console.log(width);
-
     interface Role {
         label?: string;
         title: string;
