@@ -58,7 +58,7 @@
             </a>
             <p
                 role="button"
-                class={"navbar-burger pushfront"}
+                class={"navbar-burger"}
                 class:is-active={expanded}
                 aria-label="menu"
                 aria-expanded={expanded}
@@ -116,7 +116,7 @@
         </div>
     </nav>
 
-    <div class="pushmiddle" class:pushdown={!hasImage}>
+    <div>
         <slot />
     </div>
 </div>
@@ -163,17 +163,5 @@
     .logoshow {
         transition: opacity 0.3s ease-in-out;
         opacity: 1;
-    }
-
-    .pushmiddle {
-        z-index: 200;
-    }
-
-    .pushfront {
-        z-index: 1000;
-    }
-
-    .pushdown {
-        margin-top: 52px;
     }
 </style>
