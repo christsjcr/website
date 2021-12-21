@@ -11,6 +11,7 @@
         faFacebook,
     } from "@fortawesome/free-brands-svg-icons";
     import { FontAwesomeIcon } from "fontawesome-svelte";
+    import WidthUpdater from "@components/WidthUpdater.svelte";
 
     library.add(faInstagram, faFacebook);
 
@@ -55,6 +56,8 @@
         window.addEventListener("resize", disableTransitions);
     });
 </script>
+
+<WidthUpdater />
 
 <div class="page">
     <Navbar {layout}>

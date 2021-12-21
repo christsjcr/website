@@ -1,10 +1,11 @@
 <script lang="ts">
     import PageHeader from "@components/PageHeader.svelte";
 
-    let width;
-    $: profileColumns = width >= 512;
-    $: desktop = width >= 1024;
-    $: widescreen = width >= 1216;
+    import width, { desktop, widescreen } from "@lib/width";
+
+    $: profileColumns = $width >= 512;
+    $: fromDesktop = $width >= desktop.min;
+    $: fromWidescreen = $width >= widescreen.min;
 
     $: console.log(width);
 
@@ -181,8 +182,6 @@
     ];
 </script>
 
-<svelte:window bind:innerWidth={width} />
-
 <PageHeader current="/about/roles" title="JCR Roles">
     <div class="content">
         <blockquote>
@@ -200,8 +199,8 @@
     <div class="columns">
         <div
             class="column"
-            class:is-one-quarter={widescreen}
-            class:is-one-third={!widescreen}
+            class:is-one-quarter={fromWidescreen}
+            class:is-one-third={!fromWidescreen}
         >
             <aside class="menu my-6">
                 <ul class="menu-list">
@@ -255,15 +254,15 @@
                             <div class="column is-two-thirds">
                                 <div class="content">
                                     <h3 class="title is-4 my-1">{role.name}</h3>
-                                    <div class="my-0" class:level={desktop}>
+                                    <div class="my-0" class:level={fromDesktop}>
                                         <div
-                                            class:level-left={desktop}
+                                            class:level-left={fromDesktop}
                                             class="title is-6 my-0"
                                         >
                                             {role.title}
                                         </div>
 
-                                        <small class:level-right={desktop}
+                                        <small class:level-right={fromDesktop}
                                             >{role.email_prefix}@thejcr.co.uk</small
                                         >
                                     </div>

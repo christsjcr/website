@@ -8,17 +8,17 @@
 
 <script lang="ts">
     import { page } from "@lib/page";
+    import width, { desktop } from "@lib/width";
 
     export let layout: NavbarItem[];
 
     let y = 0;
     let expanded = false;
-    let width: number;
 
-    $: desktop = width >= 1024;
+    $: fromDesktop = $width >= desktop.min;
 
     // for the case when the user expands the menu, then resizes the screen
-    $: if (desktop) expanded = false;
+    $: if (fromDesktop) expanded = false;
 
     $: hasImage = $page.transparentLimit != null;
 
@@ -34,13 +34,13 @@
     $: active = (item: NavbarItem) => item.route === $page.current;
 </script>
 
-<svelte:window bind:scrollY={y} bind:innerWidth={width} />
+<svelte:window bind:scrollY={y} />
 
 <div class="has-navbar-fixed-top">
     <nav
         class={"navbar is-fixed-top is-transparent"}
         class:barshow={show}
-        class:pr-4={desktop}
+        class:pr-4={fromDesktop}
         role="navigation"
     >
         <div class="navbar-brand">
@@ -93,7 +93,7 @@
                                         class="navbar-item"
                                         class:is-active={active(child)}
                                         class:has-text-white={!expanded &&
-                                            width <= 1024}
+                                            !fromDesktop}
                                         href={child.route}
                                     >
                                         {child.label}
