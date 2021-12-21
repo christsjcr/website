@@ -24,9 +24,42 @@
     function scrollTo(e: Event, id: string) {
         e.preventDefault();
         let pos = document.getElementById(id).getBoundingClientRect().top;
-        console.log(pos);
-        window.scrollBy(0, pos - 70);
+        let doc = document.documentElement;
+        let top = (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 0);
+        animateScrollTo(top + pos - 70, 500);
     }
+
+    const animateScrollTo = (to: number, duration: number) => {
+        const element = document.scrollingElement || document.documentElement;
+        const start = element.scrollTop;
+        const change = to - start;
+        const startDate = +new Date();
+        // t = current time
+        // b = start value
+        // c = change in value
+        // d = duration
+        const easeInOutQuad = (t, b, c, d) => {
+            let t2 = t;
+            t2 /= d / 2;
+            if (t2 < 1) return (c / 2) * t2 * t2 + b;
+            t2 -= 1;
+            return (-c / 2) * (t2 * (t2 - 2) - 1) + b;
+        };
+        const animateScroll = () => {
+            const currentDate = +new Date();
+            const currentTime = currentDate - startDate;
+            element.scrollTop = parseInt(
+                easeInOutQuad(currentTime, start, change, duration),
+                10
+            );
+            if (currentTime < duration) {
+                requestAnimationFrame(animateScroll);
+            } else {
+                element.scrollTop = to;
+            }
+        };
+        animateScroll();
+    };
 
     const categories: Category[] = [
         {
@@ -41,6 +74,11 @@
                     title: "Vice President",
                     name: "Tamsin Wood",
                     email_prefix: "vicepresident",
+                },
+                {
+                    title: "Treasurer",
+                    name: "Fergus Kirman",
+                    email_prefix: "treasurer",
                 },
                 {
                     title: "Secretary",
