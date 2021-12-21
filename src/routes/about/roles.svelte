@@ -1,10 +1,10 @@
 <script lang="ts">
-    import PageHeader from "../components/PageHeader.svelte";
+    import PageHeader from "../../components/PageHeader.svelte";
 
     let width;
     $: profileColumns = width >= 512;
     $: desktop = width >= 1024;
-    $: widescreen = width >= 2016;
+    $: widescreen = width >= 1216;
 
     $: console.log(width);
 
@@ -183,7 +183,7 @@
 
 <svelte:window bind:innerWidth={width} />
 
-<PageHeader current="/roles" title="JCR Roles">
+<PageHeader current="/about/roles" title="JCR Roles">
     <div class="content">
         <blockquote>
             The JCR Committee is made up of a group of Christ's students who

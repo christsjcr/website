@@ -17,6 +17,14 @@
     const layout: NavbarItem[] = [
         { route: "/", label: "Home" },
         {
+            route: "/about",
+            label: "About",
+            children: [
+                { route: "/about/roles", label: "Roles" },
+                { route: "/about/constitution", label: "Constitution" },
+            ],
+        },
+        {
             route: "/resources",
             label: "Resources",
             children: [
@@ -24,7 +32,6 @@
                 { route: "", label: "Y" },
             ],
         },
-        { route: "/roles", label: "Roles" },
         { route: "/meetings", label: "Meetings" },
     ];
 
