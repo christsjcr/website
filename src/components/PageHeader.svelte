@@ -1,6 +1,6 @@
 <script lang="ts">
     import { onMount } from "svelte";
-    import { page } from "../components/Navbar.svelte";
+    import { page } from "@lib/page";
 
     export let current: string;
     export let background: { src: string; alt: string } = null;

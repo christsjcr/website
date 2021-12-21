@@ -4,18 +4,11 @@
         label: string;
         children?: NavbarItem[];
     }
-
-    export interface Page {
-        current: string;
-        transparentLimit?: HTMLElement;
-        hideLogo?: boolean;
-    }
-
-    export const page: Writable<Page> = writable({ current: null });
 </script>
 
 <script lang="ts">
-    import { writable, Writable } from "svelte/store";
+    import { page } from "@lib/page";
+
     export let layout: NavbarItem[];
 
     let y = 0;

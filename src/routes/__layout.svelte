@@ -2,8 +2,8 @@
     import { onMount } from "svelte";
 
     import "../app.scss";
-    import type { NavbarItem } from "../components/Navbar.svelte";
-    import Navbar from "../components/Navbar.svelte";
+    import type { NavbarItem } from "@components/Navbar.svelte";
+    import Navbar from "@components/Navbar.svelte";
 
     import { library } from "@fortawesome/fontawesome-svg-core";
     import {
