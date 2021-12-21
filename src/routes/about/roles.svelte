@@ -185,13 +185,12 @@
         <blockquote>
             The JCR Committee is made up of a group of Christ's students who
             have been elected to represent the views of the undergraduate
-            students at college and university level. The JCR President,
-            Vice-President and Treasurer also make up the CCSU committee. The
-            central role of the JCR Committee is to represent the interests and
-            look after the welfare of the student body. This could include
-            anything from running events to discussing food, accommodation or
-            access in our meetings. Each member of the JCR committee has a
-            specific responsibility. Find out more about each position below!
+            students at college and university level. The central role of the
+            JCR Committee is to represent the interests and look after the
+            welfare of the student body. This could include anything from
+            running events to discussing food, accommodation or access in our
+            meetings. Each member of the JCR committee has a specific
+            responsibility. Find out more about each position below!
         </blockquote>
     </div>
     <div class="columns">
