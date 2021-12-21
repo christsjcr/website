@@ -11,6 +11,7 @@
         alt: "Christ's College Second Court",
     }}
     large
+    hideLogo
 >
     <div class="content">
         <blockquote>

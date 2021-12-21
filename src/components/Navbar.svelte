@@ -7,7 +7,8 @@
 
     export interface Page {
         current: string;
-        img?: HTMLElement;
+        transparentLimit?: HTMLElement;
+        hideLogo?: boolean;
     }
 
     export const page: Writable<Page> = writable({ current: null });
@@ -26,13 +27,16 @@
     // for the case when the user expands the menu, then resizes the screen
     $: if (desktop) expanded = false;
 
-    $: hasImage = $page.img != null;
+    $: hasImage = $page.transparentLimit != null;
 
     // show if not transparent, if menu expanded, or if scrolled down far enough
     $: show =
         !hasImage ||
         expanded ||
-        y >= $page.img.offsetTop + $page.img.offsetHeight - 64;
+        y >=
+            $page.transparentLimit.offsetTop +
+                $page.transparentLimit.offsetHeight -
+                64;
 
     $: active = (item: NavbarItem) => item.route === $page.current;
 </script>
@@ -47,7 +51,11 @@
         role="navigation"
     >
         <div class="navbar-brand">
-            <a class={"navbar-item logo"} class:logoshow={show} href="/">
+            <a
+                class={"navbar-item logo"}
+                class:logoshow={!$page.hideLogo || show}
+                href="/"
+            >
                 <img
                     src="https://qjcr.org.uk/content/logo.svg"
                     width="112"

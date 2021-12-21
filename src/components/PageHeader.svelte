@@ -7,6 +7,7 @@
     export let title: string;
     export let titleSrc: string = null;
     export let large: boolean = false;
+    export let hideLogo: boolean = false;
 
     let smallDelay = false;
     let mounted = false;
@@ -19,7 +20,8 @@
         mounted = true;
         page.set({
             current,
-            img,
+            transparentLimit: img,
+            hideLogo,
         });
         setTimeout(() => (smallDelay = true), 300);
     });
