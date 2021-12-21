@@ -22,14 +22,17 @@
 
     $: hasImage = $page.transparentLimit != null;
 
-    // show if not transparent, if menu expanded, or if scrolled down far enough
-    $: show =
-        !hasImage ||
-        expanded ||
+    $: belowHeader =
+        hasImage &&
         y >=
             $page.transparentLimit.offsetTop +
                 $page.transparentLimit.offsetHeight -
                 64;
+
+    // show if not transparent, if menu expanded, or if scrolled down far enough
+    $: show = !hasImage || expanded || belowHeader;
+
+    $: animated = $page.hideLogo || !belowHeader;
 
     $: active = (item: NavbarItem) => item.route === $page.current;
 </script>
@@ -41,6 +44,7 @@
         class={"navbar is-fixed-top is-transparent"}
         class:barshow={show}
         class:pr-4={fromDesktop}
+        class:animated
         role="navigation"
     >
         <div class="navbar-brand">
@@ -125,8 +129,11 @@
     @import "bulma/sass/utilities/_all";
 
     .navbar {
-        transition: background-color 0.3s ease-in-out;
         background-color: rgba($primary, 0);
+    }
+
+    .navbar.animated {
+        transition: background-color 0.3s ease-in-out;
     }
 
     @include until($desktop) {
@@ -151,8 +158,11 @@
     }
 
     .barshow {
-        transition: background-color 0.3s ease-in-out;
         background-color: rgba($primary, 1);
+    }
+
+    .barshow.animated {
+        transition: background-color 0.3s ease-in-out;
     }
 
     .logo {
