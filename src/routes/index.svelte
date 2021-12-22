@@ -1,5 +1,6 @@
 <script lang="ts">
     import PageHeader from "@components/PageHeader.svelte";
+    import week from "@lib/week";
 </script>
 
 <PageHeader
@@ -61,7 +62,8 @@
                 <subtitle class="subtitle">Food</subtitle>
                 <ul class="list">
                     <li>
-                        <a href="https://intranet.christs.cam.ac.uk/meal-times"
+                        <a
+                            href={`https://intranet.christs.cam.ac.uk/upper-hall-menus#Week${week()}`}
                             >Menu</a
                         >
                     </li>

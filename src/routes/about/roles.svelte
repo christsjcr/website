@@ -193,12 +193,8 @@
             responsibility. Find out more about each position below!
         </blockquote>
     </div>
-    <div class="columns">
-        <div
-            class="column"
-            class:is-one-quarter={fromWidescreen}
-            class:is-one-third={!fromWidescreen}
-        >
+    <div class="columns is-variable is-5 is-desktop">
+        <div class="column is-one-third-desktop is-one-quarter-widescreen">
             <aside class="menu my-6">
                 <ul class="menu-list">
                     {#each categories as category}
@@ -259,8 +255,12 @@
                                             {role.title}
                                         </div>
 
-                                        <small class:level-right={fromDesktop}
-                                            >{role.email_prefix}@thejcr.co.uk</small
+                                        <a
+                                            href={`mailto:${role.email_prefix}@thejcr.co.uk`}
+                                            ><small
+                                                class:level-right={fromDesktop}
+                                                >{role.email_prefix}@thejcr.co.uk</small
+                                            ></a
                                         >
                                     </div>
                                     <p>
