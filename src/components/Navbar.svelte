@@ -8,7 +8,7 @@
 
 <script lang="ts">
     import { page } from "@lib/page";
-    import width, { desktop } from "@lib/width";
+    import width, { desktop, widescreen } from "@lib/width";
 
     export let layout: NavbarItem[];
 
@@ -16,6 +16,7 @@
     let expanded = false;
 
     $: fromDesktop = $width >= desktop.min;
+    $: fromWidescreen = $width >= widescreen.min;
 
     // for the case when the user expands the menu, then resizes the screen
     $: if (fromDesktop) expanded = false;
@@ -23,11 +24,11 @@
     $: hasImage = $page.type != "primary";
 
     $: belowHeader =
-        $page.type != "primary" &&
+        $page.header != null &&
         y >= $page.header.offsetTop + $page.header.offsetHeight - 64;
 
     // show if not transparent, if menu expanded, or if scrolled down far enough
-    $: show = !hasImage || expanded || belowHeader;
+    $: show = (!hasImage && !fromWidescreen) || expanded || belowHeader;
 
     $: animated = $page.type == "home" || !belowHeader;
 
