@@ -32,7 +32,7 @@
     // show if not transparent, if menu expanded, or if scrolled down far enough
     $: show = !hasImage || expanded || belowHeader;
 
-    $: animated = $page.hideLogo || !belowHeader;
+    $: animated = $page.type === "home" || !belowHeader;
 
     $: active = (item: NavbarItem) => item.route === $page.current;
 </script>
@@ -50,7 +50,7 @@
         <div class="navbar-brand">
             <a
                 class={"navbar-item logo"}
-                class:logoshow={!$page.hideLogo || show}
+                class:logoshow={$page.type != "home" || show}
                 href="/"
             >
                 <img

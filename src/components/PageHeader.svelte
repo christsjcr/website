@@ -16,12 +16,16 @@
 
     let img;
 
+    $: console.log(
+        background == null ? "primary" : hideLogo ? "home" : "image"
+    );
+
     onMount(() => {
         mounted = true;
         page.set({
             current,
             transparentLimit: img,
-            hideLogo,
+            type: background == null ? "primary" : hideLogo ? "home" : "image",
         });
         setTimeout(() => (smallDelay = true), 300);
     });
