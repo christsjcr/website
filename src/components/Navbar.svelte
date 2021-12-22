@@ -20,19 +20,16 @@
     // for the case when the user expands the menu, then resizes the screen
     $: if (fromDesktop) expanded = false;
 
-    $: hasImage = $page.transparentLimit != null;
+    $: hasImage = $page.type != "primary";
 
     $: belowHeader =
-        hasImage &&
-        y >=
-            $page.transparentLimit.offsetTop +
-                $page.transparentLimit.offsetHeight -
-                64;
+        $page.type != "primary" &&
+        y >= $page.header.offsetTop + $page.header.offsetHeight - 64;
 
     // show if not transparent, if menu expanded, or if scrolled down far enough
     $: show = !hasImage || expanded || belowHeader;
 
-    $: animated = $page.type === "home" || !belowHeader;
+    $: animated = $page.type == "home" || !belowHeader;
 
     $: active = (item: NavbarItem) => item.route === $page.current;
 </script>

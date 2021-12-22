@@ -16,16 +16,12 @@
 
     let img;
 
-    $: console.log(
-        background == null ? "primary" : hideLogo ? "home" : "image"
-    );
-
     onMount(() => {
         mounted = true;
         page.set({
             current,
-            transparentLimit: img,
             type: background == null ? "primary" : hideLogo ? "home" : "image",
+            header: img,
         });
         setTimeout(() => (smallDelay = true), 300);
     });
@@ -114,7 +110,7 @@
     }
     .header {
         position: absolute;
-        top: 50%;
+        top: 60%;
         left: 50%;
         transform: translate(-50%, -50%);
         width: 100%;

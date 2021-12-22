@@ -1,9 +1,5 @@
 import { writable, type Writable } from "svelte/store";
 
-export interface Page {
-    current: string;
-    transparentLimit: HTMLElement;
-    type: "home" | "primary" | "image";
-}
+export type Page = ({ type: "home" | "image", header: HTMLElement } | { type: "primary" }) & { current: string };
 
-export const page: Writable<Page> = writable({ current: null, transparentLimit: null, type: "home" });
+export const page: Writable<Page> = writable({ current: null, type: "primary" });
