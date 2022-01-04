@@ -16,10 +16,9 @@
 >
     <div class="content">
         <blockquote>
-            Christ's JCR (Junior Combination Room) is the undergraduate student
-            body at Christ's College, Cambridge. The student-elected Committee
-            represents the interests of the undergrads at Christ's, so you can
-            make the most of your time here!
+            Christ's JCR is the undergraduate student body at Christ's College,
+            Cambridge. We are your student-elected Committee, representing your
+            interests to help you make the most of your time here!
         </blockquote>
     </div>
 
@@ -65,11 +64,6 @@
                         <a
                             href={`https://intranet.christs.cam.ac.uk/upper-hall-menus#Week${week()}`}
                             >Menu</a
-                        >
-                    </li>
-                    <li>
-                        <a href="https://intranet.christs.cam.ac.uk/meal-times"
-                            >Meal times</a
                         >
                     </li>
                     <li>
