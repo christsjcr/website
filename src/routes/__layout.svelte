@@ -29,8 +29,16 @@
             route: "/resources",
             label: "Resources",
             children: [
-                { route: "", label: "X" },
-                { route: "", label: "Y" },
+                { route: "/resources/college", label: "College Life" },
+                {
+                    route: "/resources/academic",
+                    label: "Academic",
+                },
+                {
+                    route: "/resources/careers",
+                    label: "Careers",
+                },
+                { route: "/resources/welfare", label: "Welfare" },
             ],
         },
         { route: "/meetings", label: "Meetings" },
