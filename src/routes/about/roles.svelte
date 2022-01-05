@@ -1,17 +1,27 @@
 <script lang="ts">
     import PageHeader from "@components/PageHeader.svelte";
-    import ScrollMenu from "@components/ScrollMenu.svelte";
-    import type { Category } from "@components/ScrollMenu.svelte";
+    import type { MenuItem } from "@components/menu/ScrollMenu.svelte";
+    import type { MenuCategory } from "@components/menu/ScrollMenu.svelte";
 
     import width, { desktop } from "@lib/width";
+    import SideMenu from "@components/menu/SideMenu.svelte";
 
     $: profileColumns = $width >= 512;
     $: fromDesktop = $width >= desktop.min;
 
-    const categories: Category[] = [
+    interface RoleItem extends MenuItem {
+        name: string;
+        img?: string;
+    }
+
+    interface RoleCategory extends MenuCategory {
+        items: RoleItem[];
+    }
+
+    const categories: RoleCategory[] = [
         {
             category: "Core",
-            roles: [
+            items: [
                 {
                     title: "President",
                     name: "Sam Carling",
@@ -36,7 +46,7 @@
         },
         {
             category: "Events",
-            roles: [
+            items: [
                 {
                     title: "Freshers' Reps",
                     label: "Freshers'",
@@ -65,7 +75,7 @@
         },
         {
             category: "Welfare",
-            roles: [
+            items: [
                 {
                     title: "Male & NB Welfare Officer",
                     label: "Male & NB",
@@ -82,7 +92,7 @@
         },
         {
             category: "Diversity",
-            roles: [
+            items: [
                 {
                     title: "Access Officer",
                     label: "Access",
@@ -111,7 +121,7 @@
         },
         {
             category: "Misc",
-            roles: [
+            items: [
                 {
                     title: "Green Officer",
                     label: "Green",
@@ -141,65 +151,58 @@
             responsibility. Find out more about each position below!
         </blockquote>
     </div>
-    <div class="columns is-variable is-5 is-desktop">
-        <div class="column is-one-third-desktop is-one-quarter-widescreen">
-            <ScrollMenu {categories} />
-        </div>
-        <div class="column">
-            {#each categories as category}
-                <div class="section px-0" id={category.category}>
-                    <h2 class="title is-2">
-                        {category.category}
-                    </h2>
-                    {#each category.roles as role}
-                        <div
-                            id={role.id}
-                            class="columns"
-                            class:is-mobile={profileColumns}
-                        >
-                            <div class="column">
-                                <img
-                                    class="profile"
-                                    src={role.img ??
-                                        "https://bulma.io/images/placeholders/128x128.png"}
-                                    alt={role.title}
-                                />
-                            </div>
-                            <div class="column is-two-thirds">
-                                <div class="content">
-                                    <h3 class="title is-4 my-1">{role.name}</h3>
-                                    <div class="my-0" class:level={fromDesktop}>
-                                        <div
-                                            class:level-left={fromDesktop}
-                                            class="title is-6 my-0"
-                                        >
-                                            {role.title}
-                                        </div>
-
-                                        <a
-                                            href={`mailto:${role.id}@thejcr.co.uk`}
-                                            ><small
-                                                class:level-right={fromDesktop}
-                                                >{role.id}@thejcr.co.uk</small
-                                            ></a
-                                        >
+    <SideMenu {categories}>
+        {#each categories as category}
+            <div class="section px-0" id={category.category}>
+                <h2 class="title is-2">
+                    {category.category}
+                </h2>
+                {#each category.items as role}
+                    <div
+                        id={role.id}
+                        class="columns"
+                        class:is-mobile={profileColumns}
+                    >
+                        <div class="column">
+                            <img
+                                class="profile"
+                                src={role.img ??
+                                    "https://bulma.io/images/placeholders/128x128.png"}
+                                alt={role.title}
+                            />
+                        </div>
+                        <div class="column is-two-thirds">
+                            <div class="content">
+                                <h3 class="title is-4 my-1">{role.name}</h3>
+                                <div class="my-0" class:level={fromDesktop}>
+                                    <div
+                                        class:level-left={fromDesktop}
+                                        class="title is-6 my-0"
+                                    >
+                                        {role.title}
                                     </div>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit. Proin ornare magna
-                                        eros, eu pellentesque tortor vestibulum
-                                        ut. Maecenas non massa sem. Etiam
-                                        finibus odio quis feugiat facilisis.
-                                    </p>
+
+                                    <a href={`mailto:${role.id}@thejcr.co.uk`}
+                                        ><small class:level-right={fromDesktop}
+                                            >{role.id}@thejcr.co.uk</small
+                                        ></a
+                                    >
                                 </div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Proin ornare magna eros, eu
+                                    pellentesque tortor vestibulum ut. Maecenas
+                                    non massa sem. Etiam finibus odio quis
+                                    feugiat facilisis.
+                                </p>
                             </div>
                         </div>
-                        <hr />
-                    {/each}
-                </div>
-            {/each}
-        </div>
-    </div>
+                    </div>
+                    <hr />
+                {/each}
+            </div>
+        {/each}
+    </SideMenu>
 </PageHeader>
 
 <style lang="scss">

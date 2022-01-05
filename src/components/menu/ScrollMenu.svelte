@@ -1,20 +1,18 @@
 <script context="module" lang="ts">
-    export interface Title {
+    export interface MenuItem {
         label?: string;
         title: string;
         id: string;
-        [other: string]: any;
     }
 
-    export interface Category {
+    export interface MenuCategory {
         category: string;
-        roles: Title[];
-        [other: string]: any;
+        items: MenuItem[];
     }
 </script>
 
 <script lang="ts">
-    export let categories: Category[];
+    export let categories: MenuCategory[];
 
     function scrollTo(e: Event, id: string) {
         e.preventDefault();
@@ -68,7 +66,7 @@
                     >{category.category}</a
                 >
                 <ul>
-                    {#each category.roles as role}
+                    {#each category.items as role}
                         <li>
                             <a
                                 href={`#${role.id}`}
