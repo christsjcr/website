@@ -16,13 +16,14 @@
 
     let img;
 
+    $: page.set({
+        current,
+        type: background == null ? "primary" : hideLogo ? "home" : "image",
+        header: img,
+    });
+
     onMount(() => {
         mounted = true;
-        page.set({
-            current,
-            type: background == null ? "primary" : hideLogo ? "home" : "image",
-            header: img,
-        });
         setTimeout(() => (smallDelay = true), 300);
     });
 

@@ -31,12 +31,8 @@
             children: [
                 { route: "/resources/college", label: "College Life" },
                 {
-                    route: "/resources/academic",
-                    label: "Academic",
-                },
-                {
-                    route: "/resources/careers",
-                    label: "Careers",
+                    route: "/resources/academicandcareers",
+                    label: "Academic & Careers",
                 },
                 { route: "/resources/welfare", label: "Welfare" },
             ],
