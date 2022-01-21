@@ -6,7 +6,7 @@
     export let background: { src: string; alt: string } = null;
     export let title: string;
     export let titleSrc: string = null;
-    export let large: boolean = false;
+    export let size: "small" | "medium" | "large" = "small";
     export let hideLogo: boolean = false;
 
     let smallDelay = false;
@@ -40,7 +40,13 @@
     };
 </script>
 
-<div bind:this={img} class="wrapper" class:black={titleSrc != null} class:large>
+<div
+    bind:this={img}
+    class="wrapper"
+    class:black={titleSrc != null}
+    class:large={size == "large"}
+    class:medium={size == "medium"}
+>
     {#if background}
         {#if mounted}
             <div class="fill" class:showing={bgShowing}>
@@ -96,6 +102,9 @@
     }
     .wrapper.large {
         height: 70vh;
+    }
+    .wrapper.medium {
+        height: 45vh;
     }
     .black {
         background-color: black;

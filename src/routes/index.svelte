@@ -8,10 +8,10 @@
     title="Christ's JCR"
     titleSrc="/img/logo_big.png"
     background={{
-        src: "https://www.christs.cam.ac.uk/sites/www.christs.cam.ac.uk/files/styles/banner/public/2018-01/Christs_College_banner.jpg",
+        src: "/img/home.jpg",
         alt: "Christ's College Second Court",
     }}
-    large
+    size="large"
     hideLogo
 >
     <div class="content">
