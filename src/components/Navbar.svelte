@@ -176,4 +176,8 @@
         transition: opacity 0.3s ease-in-out;
         opacity: 1;
     }
+
+    .has-navbar-fixed-top {
+        margin-bottom: 5rem;
+    }
 </style>
