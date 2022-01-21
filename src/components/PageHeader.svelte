@@ -7,7 +7,7 @@
     export let title: string;
     export let titleSrc: string = null;
     export let size: "small" | "medium" | "large" = "small";
-    export let hideLogo: boolean = false;
+    export let home: boolean = false;
 
     let smallDelay = false;
     let mounted = false;
@@ -18,11 +18,12 @@
 
     $: page.set({
         current,
-        type: background == null ? "primary" : hideLogo ? "home" : "image",
+        type: background == null ? "primary" : "image",
         header: img,
     });
 
     onMount(() => {
+        document.title = (home ? "Home" : title) + " | Christ's JCR";
         mounted = true;
         setTimeout(() => (smallDelay = true), 300);
     });

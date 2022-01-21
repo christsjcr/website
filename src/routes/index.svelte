@@ -12,7 +12,7 @@
         alt: "Christ's College Second Court",
     }}
     size="large"
-    hideLogo
+    home
 >
     <div class="content">
         <blockquote>
@@ -24,33 +24,39 @@
 
     <div class="columns my-6">
         <div class="column is-one-third">
-            <div class="notification is-primary">
-                <h3 class="title is-5">The Committee</h3>
-                <p class="block">
-                    Get to know the current members of the JCR Committee!
-                </p>
-                <p class="block"><a href="/">Read more</a></p>
-            </div>
+            <a href="/about/roles">
+                <div class="notification is-primary">
+                    <h3 class="title is-5">The Committee</h3>
+                    <p class="block">
+                        Get to know the current members of the JCR Committee!
+                    </p>
+                    <p class="block"><a href="/about/roles">Read more</a></p>
+                </div>
+            </a>
         </div>
         <div class="column is-one-third">
-            <div class="notification is-primary">
-                <h3 class="title is-5">Prospective Students</h3>
-                <p class="block">
-                    Interested in applying to Christ's? Read our alternative
-                    prospectus!
-                </p>
-                <p class="block"><a href="/">Coming Soon</a></p>
-            </div>
+            <a href="/">
+                <div class="notification is-primary">
+                    <h3 class="title is-5">Prospective Students</h3>
+                    <p class="block">
+                        Interested in applying to Christ's? Read our alternative
+                        prospectus!
+                    </p>
+                    <p class="block"><a href="/">Coming Soon</a></p>
+                </div>
+            </a>
         </div>
         <div class="column is-one-third">
-            <div class="notification is-primary">
-                <h3 class="title is-5">Christ's Freshers</h3>
-                <p class="block">
-                    Take a look at our freshers' guide, or check out the
-                    freshers' week timetable!
-                </p>
-                <p class="block"><a href="/">Read more</a></p>
-            </div>
+            <a href="/">
+                <div class="notification is-primary">
+                    <h3 class="title is-5">Christ's Freshers</h3>
+                    <p class="block">
+                        Take a look at our freshers' guide, or check out the
+                        freshers' week timetable!
+                    </p>
+                    <p class="block"><a href="/">Coming Soon</a></p>
+                </div>
+            </a>
         </div>
     </div>
 
