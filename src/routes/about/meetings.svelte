@@ -2,7 +2,7 @@
     import PageHeader from "@components/PageHeader.svelte";
 </script>
 
-<PageHeader current="/meetings" title="Meetings">
+<PageHeader current="/about/meetings" title="Meetings">
     <div class="content">
         <h1>Open Meetings</h1>
         <p>

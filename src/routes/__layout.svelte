@@ -23,6 +23,7 @@
             children: [
                 { route: "/about/roles", label: "Roles" },
                 { route: "/about/constitution", label: "Constitution" },
+                { route: "/about/meetings", label: "Meetings" },
             ],
         },
         {
@@ -37,7 +38,6 @@
                 { route: "/resources/welfare", label: "Welfare" },
             ],
         },
-        { route: "/meetings", label: "Meetings" },
     ];
 
     // Adds a listener to disable animations on resizing.
