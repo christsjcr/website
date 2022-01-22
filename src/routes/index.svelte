@@ -1,4 +1,5 @@
 <script lang="ts">
+    import NotificationLink from "@components/elements/NotificationLink.svelte";
     import PageHeader from "@components/PageHeader.svelte";
     import week from "@lib/week";
 </script>
@@ -24,39 +25,25 @@
 
     <div class="columns my-6">
         <div class="column is-one-third">
-            <a href="/about/roles">
-                <div class="notification is-primary">
-                    <h3 class="title is-5">The Committee</h3>
-                    <p class="block">
-                        Get to know the current members of the JCR Committee!
-                    </p>
-                    <p class="block"><a href="/about/roles">Read more</a></p>
-                </div>
-            </a>
+            <NotificationLink
+                href="/about/roles"
+                title="The Committee"
+                content="Get to know the current members of the JCR Committee!"
+            />
         </div>
         <div class="column is-one-third">
-            <a href="/">
-                <div class="notification is-primary">
-                    <h3 class="title is-5">Prospective Students</h3>
-                    <p class="block">
-                        Interested in applying to Christ's? Read our alternative
-                        prospectus!
-                    </p>
-                    <p class="block"><a href="/">Coming Soon</a></p>
-                </div>
-            </a>
+            <NotificationLink
+                title="Prospective Students"
+                content="Interested in applying to Christ's? Read our alternative
+                prospectus!"
+            />
         </div>
         <div class="column is-one-third">
-            <a href="/">
-                <div class="notification is-primary">
-                    <h3 class="title is-5">Christ's Freshers</h3>
-                    <p class="block">
-                        Take a look at our freshers' guide, or check out the
-                        freshers' week timetable!
-                    </p>
-                    <p class="block"><a href="/">Coming Soon</a></p>
-                </div>
-            </a>
+            <NotificationLink
+                title="Christ's Freshers"
+                content="Take a look at our freshers' guide, or check out the
+                freshers' week timetable!"
+            />
         </div>
     </div>
 
