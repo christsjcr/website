@@ -52,7 +52,7 @@
                 href="/"
             >
                 <img
-                    src="https://qjcr.org.uk/content/logo.svg"
+                    src="/img/logo_small.png"
                     width="112"
                     height="28"
                     alt="JCR Logo"
@@ -135,7 +135,7 @@
     }
 
     .logo img {
-        width: 70px;
+        width: 112px;
     }
 
     @include until($desktop) {
