@@ -1,5 +1,5 @@
 <script lang="ts">
-    export let href: string = null;
+    export let href: string;
     export let title: string;
     export let content: string;
 
@@ -20,8 +20,8 @@
         <p class="block">
             {content}
         </p>
-        <p class="block">
-            <a {href}>{href == null ? "Coming Soon" : "Read More"}</a>
+        <p class="block is-underlined">
+            {href == null ? "Coming Soon" : "Read More"}
         </p>
     </div>
 </a>

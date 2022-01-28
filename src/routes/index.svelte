@@ -8,6 +8,9 @@
     current="/"
     title="Christ's JCR"
     titleSrc="/img/logo_big.png"
+    description="Christ's JCR is the undergraduate student body at Christ's College,
+    Cambridge. We are your student-elected Committee, representing your
+    interests to help you make the most of your time here!"
     background={{
         src: "/img/home.jpg",
         alt: "Christ's College Second Court",
@@ -33,6 +36,7 @@
         </div>
         <div class="column is-one-third">
             <NotificationLink
+                href="/"
                 title="Prospective Students"
                 content="Interested in applying to Christ's? Read our alternative
                 prospectus!"
@@ -40,6 +44,7 @@
         </div>
         <div class="column is-one-third">
             <NotificationLink
+                href="/"
                 title="Christ's Freshers"
                 content="Take a look at our freshers' guide, or check out the
                 freshers' week timetable!"
