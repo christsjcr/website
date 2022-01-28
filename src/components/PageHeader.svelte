@@ -6,6 +6,7 @@
     export let background: { src: string; alt: string } = null;
     export let title: string;
     export let titleSrc: string = null;
+    export let description: string;
     export let size: "small" | "medium" | "large" = "small";
     export let home: boolean = false;
 
@@ -23,7 +24,6 @@
     });
 
     onMount(() => {
-        document.title = (home ? "Home" : title) + " | Christ's JCR";
         mounted = true;
         setTimeout(() => (smallDelay = true), 300);
     });
@@ -40,6 +40,15 @@
         });
     };
 </script>
+
+<svelte:head>
+    <title>{home ? "Home" : title} | Christ's JCR</title>
+    <meta name="description" content={description} />
+    <meta
+        name="robots"
+        content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    />
+</svelte:head>
 
 <div
     bind:this={img}
