@@ -64,6 +64,8 @@
                     src={background.src}
                     alt={background.alt}
                     class="darkened"
+                    width="2000"
+                    height="875"
                     use:bgload
                 />
             </div>
