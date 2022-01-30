@@ -43,7 +43,6 @@
         class:barshow={show}
         class:pr-4={fromDesktop}
         class:animated
-        role="navigation"
     >
         <div class="navbar-brand">
             <a
@@ -52,7 +51,7 @@
                 href="/"
             >
                 <img
-                    src="/img/logo_small.png"
+                    src="/img/logo_small.webp"
                     width="112"
                     height="28"
                     alt="JCR Logo"

@@ -7,12 +7,12 @@
 <PageHeader
     current="/"
     title="Christ's JCR"
-    titleSrc="/img/logo_big.png"
+    titleSrc="/img/logo_big.webp"
     description="Christ's JCR is the undergraduate student body at Christ's College,
     Cambridge. We are your student-elected Committee, representing your
     interests to help you make the most of your time here!"
     background={{
-        src: "/img/home.jpg",
+        src: "/img/home.webp",
         alt: "Christ's College Second Court",
     }}
     size="large"
