@@ -101,7 +101,7 @@
             ],
         },
         academicandcareers: {
-            title: "Academic & Career Resources",
+            title: "Academic & Careers",
             categories: [
                 {
                     category: "Study",
