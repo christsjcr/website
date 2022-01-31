@@ -109,7 +109,7 @@
                     title: "LGBT+ Officer",
                     label: "LGBT+",
                     name: "Kit Burley",
-                    id: "lgbt+",
+                    id: "lgbt",
                 },
                 {
                     title: "Women's Officer",
