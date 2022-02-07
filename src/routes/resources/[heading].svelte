@@ -9,7 +9,11 @@
     $: resourcePage = resources[heading];
 </script>
 
-<PageHeader current={`/resources/${heading}`} title={resourcePage.title}>
+<PageHeader
+    current={`/resources/${heading}`}
+    title={resourcePage.title}
+    description={`${resourcePage.title} resources for undergraduate students of Christ's College, Cambridge.`}
+>
     <div class="outer">
         <div class="inner">
             {#each resourcePage.categories as category}

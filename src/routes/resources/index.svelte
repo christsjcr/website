@@ -7,5 +7,5 @@
     title="Resources"
     background={{ src: "/img/resources.jpg", alt: "Christ's Library" }}
     size="medium"
-    hideLogo
+    description="Resources for undergraduate students of Christ's College, Cambridge."
 />
