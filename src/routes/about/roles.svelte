@@ -11,7 +11,6 @@
 
     interface RoleItem extends MenuItem {
         name: string;
-        img?: string;
     }
 
     interface RoleCategory extends MenuCategory {
@@ -170,8 +169,7 @@
                         <div class="column">
                             <img
                                 class="profile"
-                                src={role.img ??
-                                    "https://bulma.io/images/placeholders/128x128.png"}
+                                src={`/img/roles/${role.id}.webp`}
                                 alt={role.title}
                             />
                         </div>
