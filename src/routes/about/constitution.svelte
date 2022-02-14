@@ -19,11 +19,11 @@
             actions. It is regularly updated and often undergoes major revisions
             to suit the changing needs of the Christ's student body.
         </blockquote>
-        <h1><a href="/static/doc/constitution.pdf" download>Download</a></h1>
+        <h1><a href="/doc/constitution.pdf" download>Download</a></h1>
         <h1>Preview</h1>
     </div>
 
-    <iframe title="Constitution" src="/static/doc/constitution.pdf" />
+    <iframe title="Constitution" src="/doc/constitution.pdf" />
 </PageHeader>
 
 <style>
