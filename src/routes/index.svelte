@@ -59,13 +59,13 @@
                     <li>
                         <a
                             href={`https://intranet.christs.cam.ac.uk/upper-hall-menus#Week${week()}`}
-                            >Menu</a
+                            target="_blank">Menu</a
                         >
                     </li>
                     <li>
                         <a
-                            href="https://intranet.christs.cam.ac.uk/mealbooking/"
-                            >Meal booking</a
+                            href="https://intranet.christs.cam.ac.uk/Shibboleth.sso/Login?target=%2Fshibboleth%2Flogin%3Fshiblogin%3D1%26destination%3D%2Fmealbooking%2F"
+                            target="_blank">Meal booking</a
                         >
                     </li>
                 </ul>
@@ -78,13 +78,13 @@
                     <li>
                         <a
                             href="https://christscollege.roombookingsystem.co.uk/overviewday"
-                            >Room booking</a
+                            target="_blank">Room booking</a
                         >
                     </li>
                     <li>
                         <a
                             href="https://intranet.christs.cam.ac.uk/fault-reporting"
-                            >Fault reporting</a
+                            target="_blank">Fault reporting</a
                         >
                     </li>
                 </ul>
@@ -114,8 +114,8 @@
                     </li>
                     <li>
                         <a
-                            href="https://intranet.christs.cam.ac.uk/mealbooking/EPOS.aspx"
-                            >College Balance</a
+                            href="https://intranet.christs.cam.ac.uk/Shibboleth.sso/Login?target=%2Fshibboleth%2Flogin%3Fshiblogin%3D1%26destination%3D%2Fmealbooking%2FEPOS.aspx"
+                            target="_blank">College Balance</a
                         >
                     </li>
                 </ul>
