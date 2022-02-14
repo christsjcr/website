@@ -44,85 +44,89 @@
 <svelte:window bind:scrollY={y} />
 
 <div class="has-navbar-fixed-top">
-    <nav
-        class={"navbar is-fixed-top is-transparent"}
-        class:barshow={show}
-        class:pr-4={fromDesktop}
-        class:animated
-        {hidden}
-    >
-        <div class="navbar-brand">
-            <a
-                class={"navbar-item logo"}
-                class:logoshow={$page.type != "image" || show}
-                href="/"
-            >
-                <img
-                    src="/img/logo_small.webp"
-                    width="112"
-                    height="28"
-                    alt="JCR Logo"
-                />
-            </a>
-            <p
-                role="button"
-                class={"navbar-burger"}
-                class:is-active={expanded}
-                aria-label="menu"
-                aria-expanded={expanded}
-                on:click={() => (expanded = !expanded)}
-            >
-                <span style="color:white" aria-hidden="true" />
-                <span style="color:white" aria-hidden="true" />
-                <span style="color:white" aria-hidden="true" />
-            </p>
-        </div>
-        <div
-            class="navbar-menu"
-            class:is-active={expanded}
-            on:click={() => (expanded = false)}
+    <div {hidden}>
+        <nav
+            class={"navbar is-fixed-top is-transparent"}
+            class:barshow={show}
+            class:pr-4={fromDesktop}
+            class:animated
         >
-            <div class="navbar-end">
-                {#each layout as parent}
-                    {#if parent.children?.length}
-                        <div class="navbar-item has-dropdown is-hoverable">
+            <div class="navbar-brand">
+                <a
+                    class={"navbar-item logo"}
+                    class:logoshow={$page.type != "image" || show}
+                    href="/"
+                >
+                    <img
+                        src="/img/logo_small.webp"
+                        width="112"
+                        height="28"
+                        alt="JCR Logo"
+                    />
+                </a>
+                <p
+                    role="button"
+                    class={"navbar-burger"}
+                    class:is-active={expanded}
+                    aria-label="menu"
+                    aria-expanded={expanded}
+                    on:click={() => (expanded = !expanded)}
+                >
+                    <span style="color:white" aria-hidden="true" />
+                    <span style="color:white" aria-hidden="true" />
+                    <span style="color:white" aria-hidden="true" />
+                </p>
+            </div>
+            <div
+                class="navbar-menu"
+                class:is-active={expanded}
+                on:click={() => (expanded = false)}
+            >
+                <div class="navbar-end">
+                    {#each layout as parent}
+                        {#if parent.children?.length}
+                            <div class="navbar-item has-dropdown is-hoverable">
+                                <a
+                                    class="navbar-link"
+                                    class:is-active={active(parent)}
+                                    class:has-text-white={!expanded}
+                                    href={parent.route}
+                                >
+                                    <b>{parent.label}</b>
+                                </a>
+
+                                <div
+                                    class="navbar-dropdown"
+                                    class:is-boxed={!show}
+                                >
+                                    {#each parent.children as child}
+                                        <a
+                                            class="navbar-item"
+                                            class:is-active={active(child)}
+                                            class:has-text-white={!expanded &&
+                                                !fromDesktop}
+                                            href={child.route}
+                                        >
+                                            {child.label}
+                                        </a>
+                                    {/each}
+                                </div>
+                            </div>
+                        {:else}
                             <a
-                                class="navbar-link"
+                                class="navbar-item"
                                 class:is-active={active(parent)}
                                 class:has-text-white={!expanded}
                                 href={parent.route}
                             >
                                 <b>{parent.label}</b>
                             </a>
-
-                            <div class="navbar-dropdown" class:is-boxed={!show}>
-                                {#each parent.children as child}
-                                    <a
-                                        class="navbar-item"
-                                        class:is-active={active(child)}
-                                        class:has-text-white={!expanded &&
-                                            !fromDesktop}
-                                        href={child.route}
-                                    >
-                                        {child.label}
-                                    </a>
-                                {/each}
-                            </div>
-                        </div>
-                    {:else}
-                        <a
-                            class="navbar-item"
-                            class:is-active={active(parent)}
-                            class:has-text-white={!expanded}
-                            href={parent.route}
-                        >
-                            <b>{parent.label}</b>
-                        </a>
-                    {/if}
-                {/each}
+                        {/if}
+                    {/each}
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
 
     <div>
         <slot />
