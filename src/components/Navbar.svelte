@@ -9,11 +9,17 @@
 <script lang="ts">
     import { page } from "@lib/page";
     import width, { desktop, widescreen } from "@lib/width";
+    import { onMount } from "svelte";
 
     export let layout: NavbarItem[];
 
     let y = 0;
     let expanded = false;
+    let hidden = true;
+
+    onMount(() => {
+        hidden = false;
+    });
 
     $: fromDesktop = $width >= desktop.min;
     $: fromWidescreen = $width >= widescreen.min;
@@ -43,6 +49,7 @@
         class:barshow={show}
         class:pr-4={fromDesktop}
         class:animated
+        {hidden}
     >
         <div class="navbar-brand">
             <a
