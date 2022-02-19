@@ -42,7 +42,7 @@
 </script>
 
 <svelte:head>
-    <title>{home ? "Home" : title} | Christ's JCR</title>
+    <title>{home ? "Christ's JCR" : `${title} | Christ's JCR`}</title>
     <meta name="description" content={description} />
     <meta
         name="robots"
