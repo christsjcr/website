@@ -31,6 +31,9 @@
 			],
 			"@components/*": [
 				"src/components/*"
+			],
+			"@data/*": [
+				"src/data/*"
 			]
 		}
 	},

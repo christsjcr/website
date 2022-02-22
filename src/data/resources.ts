@@ -1,21 +1,6 @@
+import type { ResourcePage } from "@lib/format";
 
-interface ResourceItem {
-    title: string;
-    url: string;
-    info?: string[];
-}
-
-interface ResourceCategory {
-    category: string;
-    items: ResourceItem[];
-}
-
-interface ResourcePage {
-    title: string;
-    categories: ResourceCategory[];
-}
-
-export const resources: {
+const resources: {
     [x: string]: ResourcePage;
 } = {
     college: {
@@ -305,3 +290,5 @@ export const resources: {
         ],
     },
 };
+
+export default resources;

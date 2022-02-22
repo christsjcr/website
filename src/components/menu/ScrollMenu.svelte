@@ -1,17 +1,6 @@
-<script context="module" lang="ts">
-    export interface MenuItem {
-        label?: string;
-        title: string;
-        id: string;
-    }
-
-    export interface MenuCategory {
-        category: string;
-        items: MenuItem[];
-    }
-</script>
-
 <script lang="ts">
+    import type { MenuCategory } from "@lib/menu";
+
     export let categories: MenuCategory[];
 
     function scrollTo(e: Event, id: string) {
