@@ -23,7 +23,7 @@ const categories: RoleCategory[] = [
                 name: "Fergus Kirman",
                 id: "treasurer",
                 description:
-                    "Fergus, our Treasurer, is mainly focusing on getting the Prescription Reimbursement Scheme up and running. This will mean that the JCR will reimburse students who would otherwise pay the fixed charge of £9.35 for their NHS prescriptions (up to a cap of 4 per student during its pilot phase).",
+                    "Fergus, our Treasurer, manages the budgets and organises funding for the over 30 Christ's clubs and societies, as well as special JCR projects. Fergus also recently launched the Free Prescription Scheme, allowing all undergraduates to get free NHS prescriptions.",
             },
             {
                 title: "Secretary",
@@ -35,17 +35,24 @@ const categories: RoleCategory[] = [
         ],
     },
     {
-        category: "Events",
+        category: "Welfare",
         items: [
             {
-                title: "Events Officer (Ents)",
-                label: "Ents",
-                name: "Hannah Huang",
-                id: "ents",
+                title: "Male & NB Welfare Officer",
+                label: "Male & NB",
+                name: "Ossie Visick",
+                id: "welfare-m",
                 description:
-                    "Hannah, our Ents Officer, is planning on increasing the diversity of events in collaboration with Abhi, bringing back SuperBops (Bops with other colleges) and continuing to form relationships with local businesses and venues.",
+                    "Christina and Ossie, our Welfare Officers, are aiming to diversify the plethora of welfare activities throughout term, as well as ensuring that concerns around mental health are taken seriously by College whilst providing resources to mitigate sources of stress.",
             },
             {
+                title: "Female & NB Welfare Officer",
+                label: "Female & NB",
+                name: "Christina Lawrence",
+                id: "welfare-f",
+                description:
+                    "Christina and Ossie, our Welfare Officers, are aiming to diversify the plethora of welfare activities throughout term, as well as ensuring that concerns around mental health are taken seriously by College whilst providing resources to mitigate sources of stress.",
+            }, {
                 title: "Freshers' Reps",
                 label: "Freshers'",
                 name: "Vivek Bilous & Charlotte Westwood",
@@ -69,27 +76,7 @@ const categories: RoleCategory[] = [
                 description:
                     "Oli, our Fourth Years' Officer, is planning to run another Fourth Year pub crawl and organise for all Fourth Years to go to Grad Hall together.",
             },
-        ],
-    },
-    {
-        category: "Welfare",
-        items: [
-            {
-                title: "Male & NB Welfare Officer",
-                label: "Male & NB",
-                name: "Ossie Visick",
-                id: "welfare-m",
-                description:
-                    "Christina and Ossie, our Welfare Officers, are aiming to diversify the plethora of welfare activities throughout term, as well as ensuring that concerns around mental health are taken seriously by College whilst providing resources to mitigate sources of stress.",
-            },
-            {
-                title: "Female & NB Welfare Officer",
-                label: "Female & NB",
-                name: "Christina Lawrence",
-                id: "welfare-f",
-                description:
-                    "Christina and Ossie, our Welfare Officers, are aiming to diversify the plethora of welfare activities throughout term, as well as ensuring that concerns around mental health are taken seriously by College whilst providing resources to mitigate sources of stress.",
-            },
+
         ],
     },
     {
@@ -141,6 +128,14 @@ const categories: RoleCategory[] = [
         category: "Misc",
         items: [
             {
+                title: "Events Officer (Ents)",
+                label: "Ents",
+                name: "Hannah Huang",
+                id: "ents",
+                description:
+                    "Hannah, our Ents Officer, is planning on increasing the diversity of events in collaboration with Abhi, bringing back SuperBops (Bops with other colleges) and continuing to form relationships with local businesses and venues.",
+            },
+            {
                 title: "Catering & Facilities Officer",
                 label: "Catering & Facilities",
                 name: "Jonathon Konig",
@@ -161,7 +156,7 @@ const categories: RoleCategory[] = [
                 name: "Miles Watson",
                 id: "webmaster",
                 description:
-                    "Miles, our Webmaster, is mainly focusing on reintroducing and reinventing a new JCR website that can be accessed by both prospective and current students, staff and the general public to give an insight into what life is like at Christ's, why students should apply, and quick access to important information like JCR meetings/welfare resources/booking systems.",
+                    "Hey, I'm Miles, the JCR Webmaster! I built the website you're currently looking at, and am constantly working to improve it. Please drop me an email if you find any bugs, or want to suggest a feature / improvement! Future plans included a list of societies, a better upper hall menu, and a room database. And no, that's not me in the picture ;)",
             },
         ],
     },
