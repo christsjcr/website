@@ -3,7 +3,7 @@
 
     import width, { desktop } from "@lib/width";
     import SideMenu from "@components/menu/SideMenu.svelte";
-    import { categories } from "@data/roles.svelte";
+    import roles from "@data/roles";
 
     $: profileColumns = $width >= 512;
     $: fromDesktop = $width >= desktop.min;
@@ -26,8 +26,8 @@
             responsibility. Find out more about each position below!
         </blockquote>
     </div>
-    <SideMenu {categories}>
-        {#each categories as category}
+    <SideMenu categories={roles}>
+        {#each roles as category}
             <div class="section px-0" id={category.category}>
                 <h2 class="title is-2">
                     {category.category}

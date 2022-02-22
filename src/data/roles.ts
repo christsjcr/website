@@ -1,6 +1,6 @@
-import type { RoleCategory } from "@lib/menu";
+import type { RoleCategory } from "@lib/format";
 
-export const categories: RoleCategory[] = [
+const categories: RoleCategory[] = [
     {
         category: "Core",
         items: [
@@ -166,3 +166,5 @@ export const categories: RoleCategory[] = [
         ],
     },
 ];
+
+export default categories;
