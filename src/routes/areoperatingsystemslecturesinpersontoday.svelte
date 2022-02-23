@@ -7,5 +7,5 @@
     title="Are Operating Systems Lectures in Person Today?"
     size="medium"
     description="Are OpSys Lectures in Person Today?"
-    ><h1 class="title is-0 has-text-centered">✨ No ✨</h1></PageHeader
+    ><h1 class="title is-0 has-text-centered">✨ idk ✨</h1></PageHeader
 >
