@@ -35,24 +35,30 @@ const categories: RoleCategory[] = [
         ],
     },
     {
-        category: "Welfare",
+        category: "Welfare Officers",
         items: [
             {
-                title: "Male & NB Welfare Officer",
-                label: "Male & NB",
+                title: "Welfare Officer",
+                label: "Ossie",
                 name: "Ossie Visick",
                 id: "welfare-m",
                 description:
                     "Christina and Ossie, our Welfare Officers, are aiming to diversify the plethora of welfare activities throughout term, as well as ensuring that concerns around mental health are taken seriously by College whilst providing resources to mitigate sources of stress.",
             },
             {
-                title: "Female & NB Welfare Officer",
-                label: "Female & NB",
+                title: "Welfare Officer",
+                label: "Christina",
                 name: "Christina Lawrence",
                 id: "welfare-f",
                 description:
                     "Christina and Ossie, our Welfare Officers, are aiming to diversify the plethora of welfare activities throughout term, as well as ensuring that concerns around mental health are taken seriously by College whilst providing resources to mitigate sources of stress.",
-            }, {
+            },
+        ],
+    },
+    {
+        category: "Year Reps",
+        items: [
+            {
                 title: "Freshers' Reps",
                 label: "Freshers'",
                 name: "Vivek Bilous & Charlotte Westwood",
@@ -60,14 +66,7 @@ const categories: RoleCategory[] = [
                 description:
                     "Vivek and Charlotte, our Freps/First Year Officers, aim to make Christ's a welcoming environment for next year's Freshers, as well as host events for their year, such as college marriages, formals and a SuperBop.",
             },
-            {
-                title: "Internationals' Rep",
-                label: "Internationals'",
-                name: "Tudor Serban",
-                id: "intl",
-                description:
-                    "Tudor, our Internationals' Officer, is planning to create more opportunities for Internationals to meet with each other during Internationals' Week and throughout term, work with College and the JCR to ensure the welfare of International students, and expand the interactions of internationals from Christ's with those from other colleges.",
-            },
+
             {
                 title: "Fourth Years' Officer",
                 label: "Fourth Years'",
@@ -76,20 +75,12 @@ const categories: RoleCategory[] = [
                 description:
                     "Oli, our Fourth Years' Officer, is planning to run another Fourth Year pub crawl and organise for all Fourth Years to go to Grad Hall together.",
             },
-
-        ],
+        ]
     },
     {
         category: "Diversity",
         items: [
-            {
-                title: "Access Officer",
-                label: "Access",
-                name: "Romany Whittall",
-                id: "access",
-                description:
-                    "Romany, our Access officer, will be working with outside agencies and Cambridge-wide programmes to ensure students from non-traditional backgrounds are prepared for admission processes, make the 2022 Shadowing Scheme rewarding and enjoyable, develop the Bridging Course further for offer-holders, and support students who want to run their own Access and outreach events.",
-            },
+
             {
                 title: "Class Act Officer",
                 label: "Class Act",
@@ -107,14 +98,6 @@ const categories: RoleCategory[] = [
                     "Abhi, our Ethnic Diversity Officer, will be assisting with access work of applicants from diverse ethnic backgrounds, voicing any concerns from students regarding discrimination, celebrating various cultures through important events in collaboration with Hannah, and supporting the introduction of the prayer room in college for individuals of all faiths.",
             },
             {
-                title: "LGBT+ Officer",
-                label: "LGBT+",
-                name: "Kit Burley",
-                id: "lgbt",
-                description:
-                    "Kit, our LGBT+ and Sexual Health Representative, will be putting on events to build the LGBT+ community at Christ's, as well as run an anonymous sexual health supplies scheme to be discreetly delivered into Pidges.",
-            },
-            {
                 title: "Women's Officer",
                 label: "Women's",
                 name: "Leah Almeida",
@@ -122,18 +105,26 @@ const categories: RoleCategory[] = [
                 description:
                     "Leah, our Womens' Officer, will be promoting a safe space for discussion surrounding gender expression, organising informative events on issues surrounding intersectional feminism and misogyny, holding FemSoc events and socials, as well as continuing with the sustainable period product scheme.",
             },
+            {
+                title: "Internationals' Officer",
+                label: "Internationals'",
+                name: "Tudor Serban",
+                id: "intl",
+                description:
+                    "Tudor, our Internationals' Officer, is planning to create more opportunities for Internationals to meet with each other during Internationals' Week and throughout term, work with College and the JCR to ensure the welfare of International students, and expand the interactions of internationals from Christ's with those from other colleges.",
+            },
         ],
     },
     {
         category: "Misc",
         items: [
             {
-                title: "Events Officer (Ents)",
-                label: "Ents",
-                name: "Hannah Huang",
-                id: "ents",
+                title: "Access Officer",
+                label: "Access",
+                name: "Romany Whittall",
+                id: "access",
                 description:
-                    "Hannah, our Ents Officer, is planning on increasing the diversity of events in collaboration with Abhi, bringing back SuperBops (Bops with other colleges) and continuing to form relationships with local businesses and venues.",
+                    "Romany, our Access officer, will be working with outside agencies and Cambridge-wide programmes to ensure students from non-traditional backgrounds are prepared for admission processes, make the 2022 Shadowing Scheme rewarding and enjoyable, develop the Bridging Course further for offer-holders, and support students who want to run their own Access and outreach events.",
             },
             {
                 title: "Catering & Facilities Officer",
@@ -143,6 +134,15 @@ const categories: RoleCategory[] = [
                 description:
                     "Jonathan, our Catering and Facilities Officer, will be hoping to improve Upper Hall menu options for all dietary preferences, work with Sam to bring back the college punt, and continue introducing new gym equipment and arrange seating plans for Formal Halls in an equitable fashion.",
             },
+            {
+                title: "Events Officer (Ents)",
+                label: "Ents",
+                name: "Hannah Huang",
+                id: "ents",
+                description:
+                    "Hannah, our Ents Officer, is planning on increasing the diversity of events in collaboration with Abhi, bringing back SuperBops (Bops with other colleges) and continuing to form relationships with local businesses and venues.",
+            },
+
             {
                 title: "Green Officer",
                 label: "Green",
