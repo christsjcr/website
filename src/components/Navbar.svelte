@@ -13,25 +13,27 @@
 
     export let layout: NavbarItem[];
 
-    let y = 0;
-    let expanded = false;
-    let hidden = true;
+    let scrollY = 0;
 
+    // prevents the green bar from flashing up on homepage until JS has loaded
+    let hidden = true;
     onMount(() => {
         hidden = false;
     });
 
     $: fromDesktop = $width >= desktop.min;
     $: fromWidescreen = $width >= widescreen.min;
+    $: belowHeader =
+        $page.header != null &&
+        scrollY >= $page.header.offsetTop + $page.header.offsetHeight - 64;
+
+    // whether the navbar has been expanded
+    let expanded = false;
 
     // for the case when the user expands the menu, then resizes the screen
     $: if (fromDesktop) expanded = false;
 
     $: hasImage = $page.type != "primary";
-
-    $: belowHeader =
-        $page.header != null &&
-        y >= $page.header.offsetTop + $page.header.offsetHeight - 64;
 
     // show if not transparent, if menu expanded, or if scrolled down far enough
     $: show = (!hasImage && !fromWidescreen) || expanded || belowHeader;
@@ -41,7 +43,7 @@
     $: active = (item: NavbarItem) => item.route === $page.current;
 </script>
 
-<svelte:window bind:scrollY={y} />
+<svelte:window bind:scrollY />
 
 <div class="has-navbar-fixed-top">
     <div {hidden}>
@@ -98,6 +100,8 @@
                                 <div
                                     class="navbar-dropdown"
                                     class:is-boxed={!show}
+                                    class:last-dropdown={parent ==
+                                        layout[layout.length - 1]}
                                 >
                                     {#each parent.children as child}
                                         <a
@@ -136,6 +140,12 @@
 <style lang="scss">
     @import "bulma/sass/utilities/_all";
 
+    // for the last dropdown in the menu, prevents spilling over into next window
+    .last-dropdown {
+        right: 0;
+        left: auto;
+    }
+
     .navbar {
         background-color: rgba($primary, 0);
     }
@@ -148,6 +158,7 @@
         width: 112px;
     }
 
+    // for the mobile dropdown animation
     @include until($desktop) {
         .navbar-menu {
             display: block;
@@ -169,6 +180,8 @@
         }
     }
 
+    /// used to hide and show the green bar / logo
+
     .barshow {
         background-color: rgba($primary, 1);
     }
@@ -187,6 +200,7 @@
         opacity: 1;
     }
 
+    // leaves some space before the footer
     .has-navbar-fixed-top {
         margin-bottom: 5rem;
     }
