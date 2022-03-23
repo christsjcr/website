@@ -21,16 +21,14 @@
     size="large"
     home
 >
+    <div class="content">
+        <blockquote>
+            Christ's JCR is the undergraduate student body at Christ's College,
+            Cambridge. We are your student-elected Committee, representing your
+            interests to help you make the most of your time here!
+        </blockquote>
+    </div>
     {#if $mode === "visitor"}
-        <div class="content">
-            <blockquote>
-                Christ's JCR is the undergraduate student body at Christ's
-                College, Cambridge. We are your student-elected Committee,
-                representing your interests to help you make the most of your
-                time here!
-            </blockquote>
-        </div>
-
         <div class="columns my-6">
             <div class="column is-one-third">
                 <NotificationLink
@@ -56,7 +54,7 @@
                 />
             </div>
         </div>
-
+    {:else}
         <h1 class="title is-2">Quick Links</h1>
         <div class="columns m-1">
             <div class="column">
@@ -117,7 +115,10 @@
                     <subtitle class="subtitle">Finance</subtitle>
                     <ul class="list">
                         <li>
-                            <a href="/">Reimbursement</a>
+                            <a
+                                href="https://docs.google.com/forms/d/e/1FAIpQLSdjETgdH68GhpuQMi8jonTSEwZYkElj1VkjHfTC13kJCPmBFw/viewform"
+                                target="_blank">Reimbursement</a
+                            >
                         </li>
                         <li>
                             <a

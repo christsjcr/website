@@ -25,7 +25,7 @@
 </script>
 
 <div class="field">
-    <p class="has-text-centered">I am a current student:</p>
+    <p class="has-text-centered"><b>I am a current student:</b></p>
     <input
         id="modeSwitch"
         type="checkbox"
