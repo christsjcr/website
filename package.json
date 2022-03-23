@@ -19,6 +19,7 @@
     "bulma": "^0.9.3",
     "eslint": "^8.8.0",
     "eslint-plugin-svelte3": "^3.2.1",
+    "puppeteer": "^13.5.1",
     "sass": "^1.42.1",
     "svelte": "^3.44.0",
     "svelte-check": "^2.2.6",
@@ -31,6 +32,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "bulma-switch": "^2.0.4",
     "fontawesome-svelte": "^2.0.1",
     "svelte-markdown": "^0.2.1"
   }

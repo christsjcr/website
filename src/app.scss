@@ -8,6 +8,12 @@
 @import "bulma/sass/helpers/_all";
 @import "bulma/sass/layout/_all";
 
+@import "bulma-switch/src/sass/index.sass";
+
 .darkened {
   filter: brightness(50%)
+}
+
+.clickable-lists li {
+  @extend .pb-2,
 }
