@@ -1,9 +1,5 @@
-<script lang="ts">
-    import type { MenuCategory } from "@lib/menu";
-
-    export let categories: MenuCategory[];
-
-    function scrollTo(e: Event, id: string) {
+<script lang="ts" context="module">
+    export function scrollTo(e: Event, id: string) {
         e.preventDefault();
         let pos = document.getElementById(id).getBoundingClientRect().top;
         let doc = document.documentElement;
@@ -44,7 +40,12 @@
     };
 </script>
 
-<aside class="menu my-6">
+<script lang="ts">
+    import type { MenuCategory } from "@lib/menu";
+    export let categories: MenuCategory[];
+</script>
+
+<aside class="menu my-6" id="top">
     <ul class="menu-list">
         {#each categories as category}
             <li>
