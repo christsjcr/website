@@ -24,13 +24,16 @@
     $: currentStudent = $mode == "current_student";
 </script>
 
-<label class="checkbox">
+<div class="field">
+    <p class="has-text-centered">I am a current student:</p>
     <input
+        id="modeSwitch"
         type="checkbox"
+        class="switch"
         bind:checked={currentStudent}
         on:click={() =>
             ($mode =
                 $mode === "current_student" ? "visitor" : "current_student")}
     />
-    I am a current student
-</label>
+    <label for="modeSwitch" />
+</div>
