@@ -13,3 +13,7 @@
 .darkened {
   filter: brightness(50%)
 }
+
+.clickable-lists li {
+  @extend .pb-2,
+}

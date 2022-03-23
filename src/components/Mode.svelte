@@ -24,7 +24,8 @@
     $: currentStudent = $mode == "current_student";
 </script>
 
-<div class="field">
+<!-- label needed or lighthouse complains -->
+<label class="field">
     <p class="has-text-centered"><b>I am a current student:</b></p>
     <input
         id="modeSwitch"
@@ -35,5 +36,6 @@
             ($mode =
                 $mode === "current_student" ? "visitor" : "current_student")}
     />
+    <!-- label needed, otherwise bulma-switch breaks -->
     <label for="modeSwitch" />
-</div>
+</label>

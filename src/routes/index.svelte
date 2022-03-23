@@ -56,7 +56,7 @@
         </div>
     {:else}
         <h1 class="title is-2">Quick Links</h1>
-        <div class="columns m-1">
+        <div class="columns m-1 clickable-lists">
             <div class="column">
                 <div class="content">
                     <subtitle class="subtitle">Food</subtitle>
