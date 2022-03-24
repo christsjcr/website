@@ -5,6 +5,7 @@
 
     import Mode from "@components/Mode.svelte";
     import type { Writable } from "svelte/store";
+    import UpperHallMenu from "@components/features/UpperHallMenu.svelte";
 
     let mode: Writable<"current_student" | "visitor">;
 </script>
@@ -53,7 +54,10 @@
             </div>
         </div>
     {:else}
-        <h1 class="title is-2">Quick Links</h1>
+        <h2 class="title is-2">Upper Hall Menu</h2>
+        <UpperHallMenu />
+
+        <h2 class="title is-2">Quick Links</h2>
         <div class="columns m-1 clickable-lists">
             <div class="column">
                 <div class="content">
