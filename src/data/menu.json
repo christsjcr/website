@@ -1,0 +1,26 @@
+{
+    "start": "Thu Mar 24 2022 00:00:00 GMT+0000 (Greenwich Mean Time)",
+    "days": [
+        {
+            "type": "weekday",
+            "lunch": {
+                "mains": [
+                    "BBQ Jackfruit in Soft Tortilla Shell with Mustard Slaw",
+                    "Ricotta Tortelloni with Spinach & Basil Cream & Garlic Slice",
+                    "Honey & Garlic Salmon",
+                    "Chicken Katsu with Curry Sauce"
+                ],
+                "dessert": "Chocolate Churros with Chocolate Dip"
+            },
+            "dinner": {
+                "mains": [
+                    "Cajun Tofu with Sweetcorn & Bean Chilli with Corn Tortillas",
+                    "Quorn & Vegetable Stir Fry",
+                    "Honey & Garlic Salmon",
+                    "Chicken Katsu with Curry Sauce"
+                ],
+                "dessert": "Fruit Crumble with Custard"
+            }
+        }
+    ]
+}

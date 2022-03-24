@@ -1,8 +1,7 @@
 <script lang="ts">
-    import { onMount } from "svelte";
-
     import { type Writable, writable } from "svelte/store";
     import Meal from "./Meal.svelte";
+    import menuJson from "@data/menu.json";
 
     type Meal = { mains: string[]; dessert: string };
 
@@ -13,30 +12,8 @@
     type Menu = { start: Date; days: Day[] };
 
     const menu: Menu = {
-        start: new Date(2022, 2, 24),
-        days: [
-            {
-                type: "weekday",
-                lunch: {
-                    mains: [
-                        "BBQ Jackfruit in Soft Tortilla Shell with Mustard Slaw",
-                        "Ricotta Tortelloni with Spinach & Basil Cream & Garlic Slice",
-                        "Honey & Garlic Salmon",
-                        "Chicken Katsu with Curry Sauce",
-                    ],
-                    dessert: "Chocolate Churros with Chocolate Dip",
-                },
-                dinner: {
-                    mains: [
-                        "Cajun Tofu with Sweetcorn & Bean Chilli with Corn Tortillas",
-                        "Quorn & Vegetable Stir Fry",
-                        "Honey & Garlic Salmon",
-                        "Chicken Katsu with Curry Sauce",
-                    ],
-                    dessert: "Fruit Crumble with Custard",
-                },
-            },
-        ],
+        start: new Date(menuJson.start),
+        days: menuJson.days as Day[],
     };
 
     const today: Writable<Date> = writable(new Date());
