@@ -1,13 +1,15 @@
 <script lang="ts">
-    export let href: string;
+    export let href: string = null;
     export let title: string;
     export let content: string;
 
     let hovered = false;
+
+    import { page } from "$app/stores";
 </script>
 
 <a
-    {href}
+    href={href ?? $page.url.toString()}
     on:mouseenter={() => (hovered = true)}
     on:mouseleave={() => (hovered = false)}
 >

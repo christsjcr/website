@@ -39,7 +39,6 @@
             </div>
             <div class="column is-one-third">
                 <NotificationLink
-                    href="/"
                     title="Prospective Students"
                     content="Interested in applying to Christ's? Read our alternative
                 prospectus!"
@@ -47,7 +46,6 @@
             </div>
             <div class="column is-one-third">
                 <NotificationLink
-                    href="/"
                     title="Christ's Freshers"
                     content="Take a look at our freshers' guide, or check out the
                 freshers' week timetable!"
