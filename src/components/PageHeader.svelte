@@ -87,7 +87,7 @@
     {/if}
 </div>
 
-<div class="container px-5"><div class="m-5"><slot /></div></div>
+<div class="container"><div class="m-5"><slot /></div></div>
 
 <style lang="scss">
     .fill {
@@ -137,5 +137,13 @@
         transform: translate(-50%, -50%);
         width: 100%;
         text-align: center;
+    }
+
+    @import "bulma/sass/utilities/_all";
+    @include from($tablet) {
+        .container {
+            padding-left: 2rem;
+            padding-right: 2rem;
+        }
     }
 </style>
