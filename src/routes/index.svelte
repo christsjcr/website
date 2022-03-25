@@ -5,6 +5,7 @@
 
     import Mode from "@components/Mode.svelte";
     import type { Writable } from "svelte/store";
+    import UpperHallMenu from "@components/features/UpperHallMenu.svelte";
 
     let mode: Writable<"current_student" | "visitor">;
 </script>
@@ -39,7 +40,6 @@
             </div>
             <div class="column is-one-third">
                 <NotificationLink
-                    href="/"
                     title="Prospective Students"
                     content="Interested in applying to Christ's? Read our alternative
                 prospectus!"
@@ -47,7 +47,6 @@
             </div>
             <div class="column is-one-third">
                 <NotificationLink
-                    href="/"
                     title="Christ's Freshers"
                     content="Take a look at our freshers' guide, or check out the
                 freshers' week timetable!"
@@ -55,7 +54,10 @@
             </div>
         </div>
     {:else}
-        <h1 class="title is-2">Quick Links</h1>
+        <h2 class="title is-2">Upper Hall Menu</h2>
+        <UpperHallMenu />
+
+        <h2 class="title is-2">Quick Links</h2>
         <div class="columns m-1 clickable-lists">
             <div class="column">
                 <div class="content">

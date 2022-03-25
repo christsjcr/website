@@ -1,13 +1,15 @@
 <script lang="ts">
-    export let href: string;
+    export let href: string = null;
     export let title: string;
     export let content: string;
 
     let hovered = false;
+
+    import { page } from "$app/stores";
 </script>
 
 <a
-    {href}
+    href={href ?? $page.url.toString()}
     on:mouseenter={() => (hovered = true)}
     on:mouseleave={() => (hovered = false)}
 >
@@ -20,8 +22,20 @@
         <p class="block">
             {content}
         </p>
+        <br />
         <p class="block is-underlined">
             {href == null ? "Coming Soon" : "Read More"}
         </p>
     </div>
 </a>
+
+<style>
+    .notification {
+        height: 100%;
+    }
+
+    .is-underlined {
+        position: absolute;
+        bottom: 1rem;
+    }
+</style>

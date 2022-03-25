@@ -5,6 +5,8 @@
     import SideMenu from "@components/menu/SideMenu.svelte";
     import roles from "@data/roles";
 
+    import { scrollTo } from "@components/menu/ScrollMenu.svelte";
+
     $: profileColumns = $width >= 512;
     $: fromDesktop = $width >= desktop.min;
 </script>
@@ -70,6 +72,9 @@
                     </div>
                     <hr />
                 {/each}
+                <a href="#top" on:click={(e) => scrollTo(e, "top")}>
+                    <button class="button is-link"> Back to top </button>
+                </a>
             </div>
         {/each}
     </SideMenu>

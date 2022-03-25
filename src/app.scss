@@ -17,3 +17,8 @@
 .clickable-lists li {
   @extend .pb-2,
 }
+
+.columns>.column>*:not(img):only-child {
+  max-height: 100%;
+  height: 100%;
+}
