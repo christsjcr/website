@@ -1,5 +1,5 @@
 <script lang="ts">
-    import width from "@lib/width";
+    import width from "$lib/width";
 
     let w;
     $: width.set(w);

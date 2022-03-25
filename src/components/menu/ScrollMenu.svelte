@@ -41,7 +41,7 @@
 </script>
 
 <script lang="ts">
-    import type { MenuCategory } from "@lib/menu";
+    import type { MenuCategory } from "$lib/menu";
     export let categories: MenuCategory[];
 </script>
 

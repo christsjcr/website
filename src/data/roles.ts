@@ -1,4 +1,4 @@
-import type { RoleCategory } from "@lib/format";
+import type { RoleCategory } from "$lib/format";
 
 const categories: RoleCategory[] = [
     {

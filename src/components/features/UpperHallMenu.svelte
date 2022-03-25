@@ -1,7 +1,7 @@
 <script lang="ts">
     import { type Writable, writable } from "svelte/store";
     import Meal from "./Meal.svelte";
-    import menuJson from "@data/menu.json";
+    import menuJson from "$data/menu.json";
 
     type Meal = { mains: string[]; dessert: string };
 

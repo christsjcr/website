@@ -1,11 +1,11 @@
 <script lang="ts">
-    import NotificationLink from "@components/elements/NotificationLink.svelte";
-    import PageHeader from "@components/PageHeader.svelte";
-    import week from "@lib/week";
+    import NotificationLink from "$components/elements/NotificationLink.svelte";
+    import PageHeader from "$components/PageHeader.svelte";
+    import week from "$lib/week";
 
-    import Mode from "@components/Mode.svelte";
+    import Mode from "$components/Mode.svelte";
     import type { Writable } from "svelte/store";
-    import UpperHallMenu from "@components/features/UpperHallMenu.svelte";
+    import UpperHallMenu from "$components/features/UpperHallMenu.svelte";
 
     let mode: Writable<"current_student" | "visitor">;
 </script>

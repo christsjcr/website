@@ -1,7 +1,7 @@
 <script lang="ts">
     import { onMount } from "svelte";
-    import { page } from "@lib/page";
-    import width, { tablet } from "@lib/width";
+    import { page } from "$lib/page";
+    import width, { tablet } from "$lib/width";
 
     export let current: string;
     export let background: { src: string; alt: string } = null;
@@ -89,7 +89,7 @@
 </div>
 
 <div class="container">
-    <div id="inner" class="mx-3 my-5" class:mx-5={$width >= tablet.min}>
+    <div id="inner" class="mx-4 my-5" class:mx-5={$width >= tablet.min}>
         <slot />
     </div>
 </div>

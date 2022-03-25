@@ -1,6 +1,6 @@
 <script lang="ts">
-    import NotificationLink from "@components/elements/NotificationLink.svelte";
-    import PageHeader from "@components/PageHeader.svelte";
+    import NotificationLink from "$components/elements/NotificationLink.svelte";
+    import PageHeader from "$components/PageHeader.svelte";
 </script>
 
 <PageHeader

@@ -1,11 +1,11 @@
 <script lang="ts">
-    import PageHeader from "@components/PageHeader.svelte";
+    import PageHeader from "$components/PageHeader.svelte";
 
-    import width, { desktop } from "@lib/width";
-    import SideMenu from "@components/menu/SideMenu.svelte";
-    import roles from "@data/roles";
+    import width, { desktop } from "$lib/width";
+    import SideMenu from "$components/menu/SideMenu.svelte";
+    import roles from "$data/roles";
 
-    import { scrollTo } from "@components/menu/ScrollMenu.svelte";
+    import { scrollTo } from "$components/menu/ScrollMenu.svelte";
 
     $: profileColumns = $width >= 512;
     $: fromDesktop = $width >= desktop.min;
