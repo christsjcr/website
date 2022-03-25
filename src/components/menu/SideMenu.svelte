@@ -1,5 +1,5 @@
 <script lang="ts">
-    import type { MenuCategory } from "@lib/menu";
+    import type { MenuCategory } from "$lib/menu";
     import ScrollMenu from "./ScrollMenu.svelte";
     export let categories: MenuCategory[];
 </script>

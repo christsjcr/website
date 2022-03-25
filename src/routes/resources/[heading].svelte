@@ -1,7 +1,7 @@
 <script lang="ts">
     import { page } from "$app/stores";
-    import PageHeader from "@components/PageHeader.svelte";
-    import resources from "@data/resources";
+    import PageHeader from "$components/PageHeader.svelte";
+    import resources from "$data/resources";
     import SvelteMarkdown from "svelte-markdown";
 
     $: heading = $page.params.heading;

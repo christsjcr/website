@@ -22,9 +22,9 @@ const config = {
     vite: {
       resolve: {
         alias: {
-          '@lib': path.resolve('./src/lib'),
-          '@components': path.resolve('./src/components'),
-          "@data": path.resolve('./src/data')
+          '$lib': path.resolve('./src/lib'),
+          '$components': path.resolve('./src/components'),
+          "$data": path.resolve('./src/data')
         }
       },
       css: {

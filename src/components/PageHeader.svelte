@@ -1,7 +1,7 @@
 <script lang="ts">
     import { onMount } from "svelte";
-    import { page } from "@lib/page";
-    import width, { tablet } from "@lib/width";
+    import { page } from "$lib/page";
+    import width, { tablet } from "$lib/width";
 
     export let current: string;
     export let background: { src: string; alt: string } = null;

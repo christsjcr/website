@@ -1,4 +1,4 @@
-import type { ResourcePage } from "@lib/format";
+import type { ResourcePage } from "$lib/format";
 
 const resources: {
     [x: string]: ResourcePage;
