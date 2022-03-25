@@ -89,7 +89,7 @@
 </div>
 
 <div class="container">
-    <div id="inner" class="mx-3 my-5" class:mx-5={$width >= tablet.min}>
+    <div id="inner" class="mx-4 my-5" class:mx-5={$width >= tablet.min}>
         <slot />
     </div>
 </div>
