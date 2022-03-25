@@ -5,8 +5,8 @@
 
     type Meal = { mains: string[]; dessert: string };
 
-    type Weekday = { type: "weekday"; lunch: Meal; dinner: Meal };
-    type Weekend = { type: "weekend"; dinner: Meal };
+    type Weekday = { weekend: false; lunch: Meal; dinner: Meal };
+    type Weekend = { weekend: true; dinner: Meal };
     type Day = Weekday | Weekend;
 
     type Menu = { start: Date; days: Day[] };
@@ -24,13 +24,15 @@
     );
 
     $: currentMenu = day >= 0 && day < menu.days.length ? menu.days[day] : null;
+
+    $: console.log(currentMenu);
 </script>
 
 <div class="block">
     <div class="columns m-1 is-variable is-3">
-        {#if currentMenu}
+        {#if currentMenu != null}
             <div class="column">
-                {#if currentMenu.type == "weekend"}
+                {#if currentMenu.weekend === true}
                     <Meal header="🍳 Brunch" />
                 {:else}
                     <Meal header="🥪 Lunch" data={currentMenu.lunch} />

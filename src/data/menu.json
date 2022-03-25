@@ -1,26 +1,1555 @@
 {
-    "start": "Thu Mar 24 2022 00:00:00 GMT+0000 (Greenwich Mean Time)",
-    "days": [
-        {
-            "type": "weekday",
-            "lunch": {
-                "mains": [
-                    "BBQ Jackfruit in Soft Tortilla Shell with Mustard Slaw",
-                    "Ricotta Tortelloni with Spinach & Basil Cream & Garlic Slice",
-                    "Honey & Garlic Salmon",
-                    "Chicken Katsu with Curry Sauce"
-                ],
-                "dessert": "Chocolate Churros with Chocolate Dip"
-            },
-            "dinner": {
-                "mains": [
-                    "Cajun Tofu with Sweetcorn & Bean Chilli with Corn Tortillas",
-                    "Quorn & Vegetable Stir Fry",
-                    "Honey & Garlic Salmon",
-                    "Chicken Katsu with Curry Sauce"
-                ],
-                "dessert": "Fruit Crumble with Custard"
-            }
-        }
-    ]
+  "start": "2022-01-17T00:00:00.000Z",
+  "days": [
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "BBQ Jackfruit in Soft Tortilla Shell with Mustard Slaw",
+          "Ricotta Tortelloni with Spinach & Basil Cream & Garlic Slice",
+          "Honey & Garlic Salmon",
+          "Chicken Katsu with Curry Sauce",
+          "VEGETABLES INCLUDED"
+        ],
+        "dessert": "Chocolate Churros with Chocolate Dip"
+      },
+      "dinner": {
+        "mains": [
+          "CajunTofu with Sweetcorn & Bean Chilli with Corn Tortillas",
+          "Quorn & Vegetable Stir Fry",
+          "Honey & Garlic Salmon",
+          "Chicken Katsu with Curry Sauce",
+          "VEGETABLES INCLUDED"
+        ],
+        "dessert": "Fruit Crumble with Custard"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Aubergine & Spinach Curry with Samosas",
+          "Homemade Roasted Vegetable & Olive Pizza",
+          "Pan Fried Fillet of Sea Bass with Spicy Salsa",
+          "Roast Loin of Pork with Apple Sauce & Sausage Stuffing Ball",
+          "VEGETABLES  INCLUDED"
+        ],
+        "dessert": "Apple Strudel with Custard"
+      },
+      "dinner": {
+        "mains": [
+          "Creamy Mexican Bean Macaroni",
+          "Homemade Roasted Vegetable & Olive Pizza",
+          "Pan Fried Fillet of Sea Bass with Spicy Salsa",
+          "Chicken & Broccoli in Tariyaki Sauce with Egg Noodles",
+          "VEGETABLES  INCLUDED"
+        ],
+        "dessert": "Banana Chocolate Chip Cake"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Asian Garlic Tofu Stir Fry",
+          "Wild Mushroom Risotto Cakes with Parmesan & Rocket",
+          "Smoked Haddock Fish Cakes with Curry Sauce and Egg",
+          "Lamb & Mint Burger with Salad Garnish",
+          "VEGETABLES INCLUDED"
+        ],
+        "dessert": "Sultana Scones with Jam & Cream"
+      },
+      "dinner": {
+        "mains": [
+          "Vegen Sausages with Cherry Tomatoes on a bed of Vegetables",
+          "Spicy Bean Wrap with Enchilada Sauce",
+          "Smoked Haddock Fish Cake with Curry Sauce and Egg",
+          "Steak & Mushroom Pie",
+          "VEGETABLES  INCLUDED"
+        ],
+        "dessert": "Treacle Tart"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Vegan French Onion Sausage Casserole",
+          "Quorn with Lemon & Chilli Rigatoni",
+          "Baked Salmon & Spicy lentils",
+          "French Onion Chicken Thighs with Cheesy Croutons",
+          "VEGETABLES  INCLUDED"
+        ],
+        "dessert": "Blackberry & Apple Loaf Cake"
+      },
+      "dinner": {
+        "mains": [
+          "Crispy Tofu with Pak Choi, Peppers, Onion & Ginger Soy Dressing",
+          "Quorn with Lemon & Chilli Rigatoni",
+          "Polenta, Lemon & Pepper Cod Fillet with Basil Pesto",
+          "Chicken Tortilla Wraps with Guacamole & Sour Cream",
+          "VEGETABLES  INCLUDED"
+        ],
+        "dessert": "Tiramisu"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Smokey Tempeh Rice Bowls",
+          "Leek, Goat's Cheese & Lemon Tart with Red Onion Marmalade",
+          "Fresh Fillet of Fish with Tartar Sauce & Lemon",
+          "Sausage & Egg Strudel with Pickle, Mustard, Onion Gravy, Cheddar Cheese & Coleslaw",
+          "VEGETABLES INCLUDED"
+        ],
+        "dessert": "Cherry Pie & Custard"
+      },
+      "dinner": {
+        "mains": [
+          "CHINESE THEME NIGHT",
+          "Tofu and Nori Tempura with Asian Slaw",
+          "Quorn and Vegetable Stir Fry",
+          "Soy and Sweet Chilli Cod Fillet with Stir Fried Greens",
+          "Sesame Chicken with Sticky Asian Sauce",
+          "VEGETABLES INCLUDED"
+        ],
+        "dessert": "Fruit Salad with Mango and Lychees"
+      }
+    },
+    {
+      "weekend": true,
+      "dinner": {
+        "mains": [
+          "Tempeh Khao Soi (Coconut Curry Noodles with peanuts)",
+          "Open Bloomer Sandwich (Halloumi, Grilled Vegetables,  Basil & Balsamic Dressing",
+          "Salmon & Asparagus Fish Cake & Hollandaise Sauce",
+          "Pasta Carbonara with Bacon & Garlic Slice",
+          "VEGETABLES INCLUDED"
+        ],
+        "dessert": "Chocolate Orange Cake"
+      }
+    },
+    {
+      "weekend": true,
+      "dinner": {
+        "mains": [
+          "Vegetable Tagine with Couscous & Pita Bread",
+          "Caramelised Onion & Cheese Quiche",
+          "Scampi Fritters with Tartar Sauce & Lemon Wedge",
+          "Grilled Rump Steak with Chimmi Churri Herb Dressing",
+          "VEGETABLES  INCLUDED"
+        ],
+        "dessert": "New York Cheesecake"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Vegan Sausage & Roasted Vegetable Creamy Pasta Bake",
+          "Quorn Tikka Masala with Onion Bhaji",
+          "Breaded Plaice Fillet with Dill & Lemon Butter",
+          "Lemon & Herb Grilled Chicken with Balsamic and Herb Roasted Tomato",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Mini Chocolate Churros with Raspberry Coulis"
+      },
+      "dinner": {
+        "mains": [
+          "Vegetable Stir-Fried Rice with Tofu",
+          "Aubergine Spinach & Pepper Bake with Tomato Sauce & Parmesan Cheese",
+          "Breaded Plaice with Dill & Lemon Butter",
+          "Chicken Caesar Ciabatta Sandwich",
+          "VEGETABLES & SALAD BAR ITEMS  INCLUDED"
+        ],
+        "dessert": "Chocolate Brownie"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Chilli Bean Wraps with Guacamole",
+          "Spinach & Ricotta Cannelloni with Garlic Bread",
+          "Salmon with Teriyaki Glaze and Chilli with spring Onion & Carrot Garnish",
+          "Pork Schnitzel with Smokey Cheese Sauce",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Dutch Apple Pie & Custard"
+      },
+      "dinner": {
+        "mains": [
+          "Roasted Cajun Spiced Vegetable with BBQ Tofu",
+          "Spinach & Ricotta Cannelloni with Garlic Bread",
+          "Prawn & Noodle Stir Fry",
+          "Beef Madras with Naan Bread, Samosas & Mango Chutney",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Rhubarb Crumble & Custard"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Vegan \"Meatballs\" with Spaghetti Pomodoro & Vegan Parmesan",
+          "White Pizza with Spinach, Roasted Butternut & Garlic Cream",
+          "Harissa Spiced Cod Loin on a Bed of Roasted Chickpeas & Vegetables",
+          "Beef Tex-Mex Enchilada Bake",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "German Apple Pudding"
+      },
+      "dinner": {
+        "mains": [
+          "Falafel Burger with Spicy Vegan Mayonnaise",
+          "Sundried Tomato & Goat's Cheese Calzone",
+          "Harissa Spiced Cod Loin on a bed of Roasted Chickpeas & Vegetables",
+          "Breaded Turkey Escalope with Smoked Bacon & Swiss Cheese",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Mini Jam Donuts"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Bang-Bang Cauliflower with Stir Fried Rice & Spicy Vegan Mayonnaise",
+          "Buttenut Squash & Spinach Risotto with Sage, Blue Cheese & Carrot Spirals",
+          "Sea Bass with Lemon, Parsley & Tarragon",
+          "Pulled Pork Bap with BBQ Sauce & Coleslaw",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Chocolate Chip Sponge with Chocolate Sauce"
+      },
+      "dinner": {
+        "mains": [
+          "Lentil Spaghetti Bolognaise with Garlic Slice",
+          "Quorn & Mushroom Stroganoff",
+          "Sea Bass with Ginger, Chilli & Spring Onions",
+          "Lamb Kofta with Pea & Herb Couscous",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Eccles Cake & Custard"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Tofu Katsu with Curry Sauce, and Onion Rings",
+          "Creamy Vegetable & Cheddar Pie",
+          "Fresh Fillet of Fish with Tartar Sauce & Lemon",
+          "Soy & Honey Baked Chicken Fillet",
+          "VEGETABLES & SALAD BAR ITEMS INCUDED"
+        ],
+        "dessert": "Cherry Pie"
+      },
+      "dinner": {
+        "mains": [
+          "GREEK THEME NIGHT",
+          "Quinoa Stuffed Pepper with Hummus and Pitta",
+          "Spanakopita",
+          "Greek Style Cod",
+          "Lemon and Parsley Chicken with Potatoes, Olives and Feta",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Baklava"
+      }
+    },
+    {
+      "weekend": true,
+      "dinner": {
+        "mains": [
+          "Moving Mountains Vegan Burger with Salad",
+          "Cherry Tomato, Olive, Feta & Spinach Pizza",
+          "Salmon Kedgeree with Korma Sauce & Fresh Coriander",
+          "Beef Lasagne with Garlic Slice",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Apple Pie"
+      }
+    },
+    {
+      "weekend": true,
+      "dinner": {
+        "mains": [
+          "Falafel with Cumin, Chickpea & Tomato Sauce with Minted Cucumber Garnish",
+          "Pan Fried Halloumi with Roasted Vegetables & Basil Vinaigrette",
+          "Calamari Strips with Lemon & Spicy Mayonnaise",
+          "Roast Chicken Breast with Herb Stuffing & Chipolata",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Chocolate Fudge Gateau"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Courgette, Sundried Tomato & Black Olive Pasta Bake",
+          "Veggie Sausage, Cheddar Mash, Leek & Mashed Potato Bake with Onion Gravy",
+          "Baked Cod with Cheddar Cheese Sauce",
+          "Breaded Chicken with Garlic & Parsley Butter",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Cinnamon Apple Cake"
+      },
+      "dinner": {
+        "mains": [
+          "Mixed Bean Tortilla Boats with Sliced Avocado",
+          "Veggie Mince Bolognaise",
+          "Baked Cod with Cheddar Cheese Sauce",
+          "Chicken Fried Rice",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Flapjack & Lemon Drizzle Cake"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Sticky Tempeh with Vegetables and Hot & Sour Sauce",
+          "Toasted Swiss Cheese Sandwich with Red Onion Chutney",
+          "Smoked Salmon with Lemon & Pea Risotto",
+          "Chicken Korma with Naan Bread & Mango Chutney",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Fruit Tartlet"
+      },
+      "dinner": {
+        "mains": [
+          "Vegetable Stir Fry with Vegetable Spring Rolls",
+          "Cheese & Onion Sausage Rolls",
+          "Fried Plaice Goujons with Lemon & Dill Mayonnaise",
+          "Pork Escalope with Honey, Mustard, Gherkins & Red Onion",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Lemon Meringue Tartlet"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Lentil & Butternut Cottage Pie",
+          "4 Cheese Ravioli with Tomato Sauce",
+          "Cajun Salmon with Sweetcorn Salsa",
+          "Loin of Pork Rubbed with Garlic & Herbs, with Sundried Tomato Stuffing",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Rhubarb & Strawberry Crumble"
+      },
+      "dinner": {
+        "mains": [
+          "Southern Fried Jackfruit with Spicy Mayonnaise",
+          "Vegetable Curry with Samosas",
+          "Prawns in Egg Fried Rice with Spring Rolls and Sweet & Sour Sauce",
+          "Sausage Casserole with Spicy Tomato Sauce",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Eton Mess with Strawberries"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Vegan Burger with Salad, Guacamole and Salsa",
+          "Quorn Stir Fry",
+          "White Fish, Tomato, Herb Crust and Lemon Buerre Blanc",
+          "Shredded Duck Marco Polo (Plum Sauce, Hoisin & Spring Onion with Pasta)",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Chocolate Fudge Cake"
+      },
+      "dinner": {
+        "mains": [
+          "Chickpea & Vegetable Balti with Samosas",
+          "Gnocchi with Spinach, Kale, Sun-Blushed Tomato and Basil Cream",
+          "Herb Crusted Whitefish with Lemon Buerre Blanc & Sliced Tomatoes",
+          "Hunter's Chicken with Bacon, Cheese & BBQ Sauce",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Chocolate Brownie"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Tofu & Vegetable Bowl with Hoisin Dressing",
+          "Macaroni Cheese",
+          "Fresh Fillet of Fish with Tartar Sauce & Lemon",
+          "Shepherd's Pie",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Cherry Pie"
+      },
+      "dinner": {
+        "mains": [
+          "TEXAS THEME NIGHT",
+          "Vegan Gurger with Black Bean Salsa and BBQ Mayonnaise",
+          "Quorn & Bean Chilli",
+          "Battered Cod Bites, King Prawn Skewer, Sweetcorn & Black Bean Salsa",
+          "Chunky Texas Beef Chilli",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Chocolate Fudge Cake"
+      }
+    },
+    {
+      "weekend": true,
+      "dinner": {
+        "mains": [
+          "Mushroom & Vegetable Pizza",
+          "Vegetable Lasagne Verdi",
+          "Fried Scampi with Tartar Sauce & Lemon",
+          "Grilled Rump Steak with Onion Rings & Gravy",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Peach & Blueberry Pie"
+      }
+    },
+    {
+      "weekend": true,
+      "dinner": {
+        "mains": [
+          "Vegan Sausage & Onion Baguette with Vegan Smokey Cheddar",
+          "Quorn Butter Chicken Curry with Pakoras",
+          "Fish Fillet with White Wine Cream Sauce Diced Tomato",
+          "Creamy Chicken & Broccoli Pasta Bake",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "New York Cheesecake"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "BBQ Jackfruit in Soft Tortilla Shell with Mustard Slaw",
+          "Ricotta Tortelloni with Spinach & Basil Cream & Garlic Slice",
+          "Honey & Garlic Salmon",
+          "Chicken Katsu with Curry Sauce",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Chocolate Churros with Chocolate Dip"
+      },
+      "dinner": {
+        "mains": [
+          "Cajun Tofu with Sweetcorn & Bean Chilli with Corn Tortillas",
+          "Quorn & Vegetable Stir Fry",
+          "Honey & Garlic Salmon",
+          "Chicken Katsu with Curry Sauce",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Fruit Crumble with Custart"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Aubergine & Spinach Curry with Samosas",
+          "Homemade Roasted Vegetable & Olive Pizza",
+          "Pan Fried Fillet of Sea Bass with Spicy Salsa",
+          "Roast Loin of Pork with Apple Sauce & Sausage Stuffing Ball",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Apple Strudel with Custard"
+      },
+      "dinner": {
+        "mains": [
+          "Creamy Mexican Bean Macaroni",
+          "Homemade Roasted Vegetable & Olive Pizza",
+          "Pan Fried Fillet of Sea Bass with Spicy Salsa",
+          "Chicken & Broccoli in Teriyaki Sauce with Egg Noodles",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Banana Chocolate Chip Cake"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Asian Garlic Tofu Stir Fry",
+          "Wild Mushroom Risotto Cakes with Parmesan & Rocket",
+          "Smoked Haddock Fish Cakes with Curry Sauce and Egg",
+          "Lamb & Mint Burger with Salad Garnish",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Sultant Scones with Jam & Cream"
+      },
+      "dinner": {
+        "mains": [
+          "Vegan Sausages with Cherry Tomatoes on a Bed of Vegetables",
+          "Spicy Bean Wrap with Enchilada Sauce",
+          "Smoked Haddock Fish Cakes with Curry Sauce and Egg",
+          "Steak & Mushroom Pie",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Treacle Tart"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Vegan French Onion Sausage Casserole",
+          "Quorn with Lemon & Chilli Rigatoni",
+          "Baked Salmon & Spicy Lentils",
+          "French Onion Chicken Thighs with Cheesy Croutons",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Blackberry & Apple Loaf Cake"
+      },
+      "dinner": {
+        "mains": [
+          "Crispy Tofu with Pak Choi, Peppers, Onion & Ginger Soy Dressing",
+          "Quorn with Lemon & Chilli Sauce",
+          "Polenta, Lemon & Pepper Cod Fillet with Basil Pesto",
+          "Chicken Tortilla Wraps with Guacamole & Sour Cream",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Tiramisu"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Smokey Tempeh Rice Bowl",
+          "Leek, Goat's Cheese & Lemon Tart with Red Onion Marmalade",
+          "Fresh Fillet of Fish with Tartar Sauce & Lemon",
+          "Sausage & Egg Strudel with Pickle, Mustard, Onion Gravy, Cheddar Cheese & Coleslaw",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Custard Pie & Custard"
+      },
+      "dinner": {
+        "mains": [
+          "CHINESE THEME NIGHT",
+          "Tofu & Nori Tempura with Asian Slaw",
+          "Quorn & Vegetable Stir Fry",
+          "Soy and Sweet Chilli Cod Fillet with Stir Fried Greens",
+          "Sesame Chicken with Sticky Asian Sauce",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Fruit Salad with Mango & Lychees"
+      }
+    },
+    {
+      "weekend": true,
+      "dinner": {
+        "mains": [
+          "Tempeh Khao Soi (Coconut Curry Noodles with Peanuts)",
+          "Open Bloomer Sandwich (Halloumi, Grilled Vegetables, Basil Balsamic Dressing",
+          "Salmon & Asparagus Fish Cake & Hollandaise Sauce",
+          "Pasta Carbonara with Bacon & Garlic Slice",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Chocolate Orange Cake"
+      }
+    },
+    {
+      "weekend": true,
+      "dinner": {
+        "mains": [
+          "Vegetable Tagine with Couscous & Pita Bread",
+          "Caramelised Onion & Cheese Quiche",
+          "Scampi Fritters with Tartar Sauce & Lemon Wedge",
+          "Grilled Rump Steak with Chimmi Churri Herb Dressing",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "New York Cheesecake"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Vegan Sausage & Roasted Vegetable Creamy Pasta Bake",
+          "Quorn Tikka Masala with Onion Bhaji",
+          "Breaded Plaice Fillet with Dill & Lemon Butter",
+          "Lemon & Herb Grilled Chicken with Balsamic & Herb Roasted Tomato",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Mini Chocolate Churros"
+      },
+      "dinner": {
+        "mains": [
+          "Vegetable Stir Fried Rice with Tofu",
+          "Aubergine Spinach & Pepper Bake with Tomato Sauce & Parmesan Cheese",
+          "Breaded Plaice with Dill & Lemon Butter",
+          "Chicken Caesar Ciabatta Sandwich",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Chocolate Brownie"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Chilli Bean Wraps with Guacamole",
+          "Spinach & Ricotta Cannelloni with Garlic Bread",
+          "Salmon with Teriyaki Glaze and Chilli, Spring Onion & Carrot Garnish",
+          "Pork Schnitzel with Smokey Cheese Sauce",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Dutch Apple Pie & Custard"
+      },
+      "dinner": {
+        "mains": [
+          "Roasted Cajun Spiced Vegetables with BBQ Tofu",
+          "Spinach & Ricotta Cannelloni with Garlic Bread",
+          "Prawn & Noodle Stir-Fry",
+          "Beef Madras with Naan Bread, Samosas & Mango Chutney",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Rhubarb Crumble & Custard"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Vegan \"Meatballs\" with Spaghetti Pomodoro & Vegan Parmesan",
+          "White Pizza with Spinach, Roasted Butternut & Garlic Cream",
+          "Harissa Spiced Cod Loin on a Bed of Roasted Chickpeas & Vegetables",
+          "Beef Tex-Mex Enchilada Bake",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "German Apple Pudding & Custard"
+      },
+      "dinner": {
+        "mains": [
+          "Falafel Burger with Spicy Vegan Mayonnaise",
+          "Sundried Tomato & Goat's Cheese Calzone",
+          "Harissa Spiced Cod Loin on a Bed of Roasted Chickpeas & Vegetables",
+          "Breaded Turkey Escalope with Smoked Bacon & Swiss Cheese",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Mini Jam Donuts"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Bang-Bang Cauliflower with Stir-Fried Rice & Spicy Spicy Vegan Mayonnaise",
+          "Butternut Squash & Spinach Risotto with Sage, Blue Cheese & Carrot Spirals",
+          "Sea Bass with Lemon, Parsley & Tarragon",
+          "Pulled Pork Bap with BBQ Sauce & Coleslaw",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Chocolate Chip Sponge with Chocolate Sauce"
+      },
+      "dinner": {
+        "mains": [
+          "Lentil Spaghetti Bolognaise with Garlic Slice",
+          "Quorn & Mushroom Stroganoff",
+          "Sea Bass with Ginger, Chilli & Spring Onions",
+          "Lamb Kofta with Pea & Herb Couscous",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Eccles Cake & Custard"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Tofu Katsu with Curry Sauce & Onion Rings",
+          "Creamy Vegetable & Cheddar Pie",
+          "Fresh Fillet of Fish with Tartar Sauce & Lemon",
+          "Soy & Honey Baked Chicken Fillet",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Cherry Pie"
+      },
+      "dinner": {
+        "mains": [
+          "GREEK THEME NIGHT",
+          "Quinoa Stuffed Pepper with Hummus and Pitta",
+          "Spanakopita",
+          "Greek Style Cod",
+          "Lemon & Parsley Chicken with Potatoes, Olives & Feta",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Baklava"
+      }
+    },
+    {
+      "weekend": true,
+      "dinner": {
+        "mains": [
+          "Moving Mountains Vegan Burger with Salad",
+          "Cherry Tomato, Olive, Feta & Spinach Pizza",
+          "Salmon Kedgeree with Korma Sauce & Fresh Coriander",
+          "Beef Lasagne with Garlic Slice",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Apple Pie"
+      }
+    },
+    {
+      "weekend": true,
+      "dinner": {
+        "mains": [
+          "Falafel with Cumin, Chickpea & Tomato Sauce with Minted Cucumber",
+          "Pan Fried Halloumi with Roasted Vegetables & Basil Vinaigrette",
+          "Calamari Strips with Lemon & Spicy Mayonnaise",
+          "Roast Chicken Breast with Herb Stuffing & Chipolata",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Chocolate Fudge Gateau"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Courgette, Sundried Tomato & Black Olive Pasta Bake",
+          "Veggie Sausage, Cheddar Mash, Leek & Mashed Potato Bake with Onion Gravy",
+          "Baked Cod with Cheddar Cheese Sauce",
+          "Breaded Chicken with Garlic & Parsley Butter",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Cinnamon Apple Cake"
+      },
+      "dinner": {
+        "mains": [
+          "Mixed Bean Tortilla Boats with Sliced Avocado",
+          "Veggie Mince Bolognaise",
+          "Baked Cod with Cheddar Cheese Sauce",
+          "Chicken Fried Rice",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Flapjack & Lemon"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Sticky Tempeh with Vegetables and Hot & Sour Sauce",
+          "Toasted Swiss Cheese Sandwich with Red Onion Chutney",
+          "Smoked Salmon with Lemon & Pea Risotto",
+          "Chicken Korma with Naan Bread & Mango Chutney",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Fruit Tartlet"
+      },
+      "dinner": {
+        "mains": [
+          "Vegetalbe Stir Fry with Vegetable Spring Rolls",
+          "Cheese & Onion Sausage Rolls",
+          "Fried Plaice Goujons with Lemon & Dill Mayonnaise",
+          "Pork Escalope with Honey, Mustart, Gherkins & Red Onion",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Lemon Meringue Tartlet"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Lentil & Butternut Cottage Pie",
+          "4 Cheese Ravioli with Tomato Sauce",
+          "Cajun Salmon with Sweetcorn Salsa",
+          "Loin of Pork Rubbed with Garlic & Herbs, with Sun Dried Tomato Stuffing",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Rhubarb & Strawberry Crumble"
+      },
+      "dinner": {
+        "mains": [
+          "Southern Fried Jackfruit with Spicy Mayonnaise",
+          "Vegetable Curry with Samosas",
+          "Prawns in Egg Fried Rice with Spring Rolls and Sweet & Sour Sauce",
+          "Sausage Casserole with Spicy Tomato Sauce",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Eton Mess with Strawberries"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Vegan Burger with Salad, Guacamole and Salsa",
+          "Quorn Stir Fry",
+          "White Fish, Tomato, Herb Crust and Lemon Beurre Blanc",
+          "Shredded Duck Marco Polo (Plum Sauce, Hoisin & Spring Onion with Pasta)",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Chocolate Fudge Cake"
+      },
+      "dinner": {
+        "mains": [
+          "Chickpea & Vegetable Balti with Samosas",
+          "Gnocchi with Spinach, Kale, Sun-Blushed Tomato and Basil Cream",
+          "Herb Crusted Whitefish with Lemon Buerre Blanc & Sliced Tomatoes",
+          "Hunter's Chicken with Bacon, Cheese & BBQ Sauce",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Chocolate Brownie"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Tofu & Vegetable Bowl with Hoisin Dressing",
+          "Macaroni Cheese",
+          "Fresh Fillet of Fish with Tarter Sauce & Lemon",
+          "Shepherd's Pie",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Cherry Pie"
+      },
+      "dinner": {
+        "mains": [
+          "TEXAS THEME NIGHT",
+          "Vegan Burger with Corn & Black Bean Salsa with BBQ Mayonnaise",
+          "Quorn & Bean Chilli",
+          "Battered Cod Bites, King Prawn Skewer, Sweetcorn & Black Bean Salsa",
+          "Chunky Texas Beef Chilli",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Chocolate Fudge Cake"
+      }
+    },
+    {
+      "weekend": true,
+      "dinner": {
+        "mains": [
+          "Mushroom & Vegetable Pizza",
+          "Vegetable Lasagne Verdi",
+          "Fried Scampi with Tartar Sauce & Lemon",
+          "Grilled Rump Steak with Onion Rings & Gravy",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Peach & Blueberry Pie"
+      }
+    },
+    {
+      "weekend": true,
+      "dinner": {
+        "mains": [
+          "Vegan Sausage & Onion Baguette with Vegan Smokey Cheddar",
+          "Quorn Butter Chicken Curry with Pakoras",
+          "Fish Fillet with White Wine Cream Sauce & Diced Tomato",
+          "Creamy Chicken & Broccoli Pasta Bake",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "New York Cheesecake"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "BBQ Jackfruit in a soft Tortilla Shell with Mustard Slaw",
+          "Ricotta Tortelloni with Spinach & Basil Cream & Garlic Slice",
+          "Honey & Garlic Salmon",
+          "Chicken Katsu with Curry Sauce",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Chocolate Churros with Chocolate Dip"
+      },
+      "dinner": {
+        "mains": [
+          "Cajun Tofu with Sweetcorn & Bean Chilli with Corn Tortillas",
+          "Quorn & Vegetable Stir Fry",
+          "Honey & Garlic Salmon",
+          "Chicken Katsu with Curry Sauce",
+          "VEGETABLES & SALAD BAR ITEMS  INCLUDED"
+        ],
+        "dessert": "Fruit Crumble with Custard"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Aubergine & Spinach Curry with Samosas",
+          "Homemade Roasted Vegetable & Olive Pizza",
+          "Pan Fried Fillet of Sea Bass with Spicy Salsa",
+          "Roast Loin of Pork with Apple Sauce & Sausage Stuffing Ball",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Apple Strudel with Custard"
+      },
+      "dinner": {
+        "mains": [
+          "Creamy Mexican Bean Macaroni",
+          "Homemade Roasted Vegetable & Olive Pizza",
+          "Pan Fried Fillet of Sea Bass with Spicy Salsa",
+          "Chicken & Broccoli in Teriyaki Sauce with Egg Noodles",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Banana Chocolate Chip Cake"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Asian Garlic Tofu Stir Fry",
+          "Wild Mushroom Risotto Cakes with Parmesan & Rocket",
+          "Smoked Haddock Fish Cakes with Curry Sauce and Egg",
+          "Lamb & Mint Burger with Salad Garnish",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Sultana Scones with Jam & Cream"
+      },
+      "dinner": {
+        "mains": [
+          "Vegan Sausages with Cherry Tomatoes on a Bed of Vegetables",
+          "Spicy Bean Wrap with Enchilada Sauce",
+          "Smoked Haddock Fish Cakes with Curry Sauce and Egg",
+          "Steak & Mushroom Pie",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Treacle Tart"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Vegan French Onion Sausage Casserole",
+          "Quorn with Lemon & Chilli Rigatoni",
+          "Baked Salmon & Spicy Lentils",
+          "French Onion Chicken Thighs with Cheesy Croutons",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Blackberry & Apple Loaf Cake"
+      },
+      "dinner": {
+        "mains": [
+          "Crispy Tofu with Pak Choi & Sweet Chilli Sauce",
+          "Quorn with Lemon & Chilli Rigatoni",
+          "Polenta, Lemon & Pepper Cod Fillet with Basil Pesto",
+          "Chicken Tortilla Wraps with Guacamole & Sour Cream",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Tiramisu"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Smokey Tempeh Rice Bowl",
+          "Leek, Goat's Cheese & Lemon Tart with Red Onion Marmalade",
+          "Fresh Fillet of Fish with Tarter Sauce & Lemon",
+          "Sausage & Egg Strudel with Pickle, Mustard, Onion Gravy, Cheddar Cheese & Coleslaw",
+          "VEGETABLES & SALAD BAR ITEMS"
+        ],
+        "dessert": "Cherry Pie & Custard"
+      },
+      "dinner": {
+        "mains": [
+          "CHINESE THEME NIGHT",
+          "Tofu and Nori Tempura with Asian Slaw",
+          "Quorn and Vegetable Stir Fry",
+          "Soy and Sweet Chilli Cod Fillet with Stir Fried Greens",
+          "Sesame Chicken with Sticky Asian Sauce",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Fruit Salad with Mango and Lychees"
+      }
+    },
+    {
+      "weekend": true,
+      "dinner": {
+        "mains": [
+          "Tempeh Khao Soi (Coconut Curry Noodles with Peanuts)",
+          "Open Bloomer Sandwich (Halloumi, Grilled Vegetables, Basil Balsamic Dressing",
+          "Salmon & Asparagus Fish Cake & Hollandaise Sauce",
+          "Pasta Carbonara with Bacon & Garlic Slice",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Chocolate Orange Cake"
+      }
+    },
+    {
+      "weekend": true,
+      "dinner": {
+        "mains": [
+          "Vegetable Tagine with Couscous & Pita Bread",
+          "Caramelised Onion & Cheese Quiche",
+          "Scampi Fritters with Tartar Sauce & Lemon Wedge",
+          "Grilled Rump Steak with Chimmi Churri Herb Dressing",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "New York Cheesecake"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Vegan Sausage & Roasted Vegetable Creamy Pasta Bake",
+          "Quorn Tikka Masala with Onion Bhaji",
+          "Breaded Plaice Fillet with Dill & Lemon Butter",
+          "Lemon & Herb Grilled Chicken, Balsamic and Herb Roasted Tomato",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Mini Chocolate Churros with Raspberry Coulis"
+      },
+      "dinner": {
+        "mains": [
+          "Vegetable Stir-Fried Rice with Tofu",
+          "Aubergine Spinach & Pepper Bake with Tomato Sauce & Parmesan Cheese",
+          "Breaded Plaice with Dill & Lemon Butter",
+          "Chicken Caesar Ciabatta Sandwich",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Chocolate Brownie"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Chilli Bean Wraps wtih Guacamole",
+          "Spinach & Ricotta Cannelloni with Garlic Bread",
+          "Salmon with Teriyaki Glaze and Chilli, Spring Onion & Carrot Garnish",
+          "Pork Schnitzel with Smokey Cheese Sauce",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Dutch Apple Pie & Custard"
+      },
+      "dinner": {
+        "mains": [
+          "Roasted Cajun Spiced Vegetable with BBQ Tofu",
+          "Spinach & Ricotta Cannelloni with Garlic Bread",
+          "Prawn & Noodle Stir-Fry",
+          "Beef Madras with Naan Bread, Samosa & Mango Chutney",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Rhubarb Crumble & Custard"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Vegan \"Meatballs\" with Spaghetti Pomodoro & Vegan Parmesan",
+          "White Pizza with Spinach, Roasted Butternut & Garlic Cream",
+          "Harissa Spiced Cod Loin on a Bed of Roasted Chickpeas & Vegetables",
+          "Beef Tex-Mex Enchilada Bake",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "German Apple Pudding with Custard"
+      },
+      "dinner": {
+        "mains": [
+          "Falafel Burger with Spicy Vegan Mayonnaise",
+          "Sundried Tomato & Goat's Cheese Calzone",
+          "Harissa Spiced Cod Loin on a Bed of Roasted Chickpeas & Vegetables",
+          "Breaed Turkey Escalope with Smoked Bacon & Swiss Cheese",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Mini Jam Donuts"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Bang-Bang Cauliflower with Stir-Fried Rice & Spicy Vegan Mayonnaise",
+          "Butternut Squash & Spinach Risotto with Sage, Blue Cheese & Carrot Spirals",
+          "Sea Bass with Lemon, Parsley & Tarragon",
+          "Pulled Pork Bap with BBQ Sauce & Coleslaw",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Chocolate Chip Sponge with Chocolate Sauce"
+      },
+      "dinner": {
+        "mains": [
+          "Lentil Spaghetti Bolognaise with Garlic Slice",
+          "Quorn & Mushroom Stroganoff",
+          "Sea Bass with Ginger, Chilli & Spring Onions",
+          "Lamb Kofta with Pea & Herb Couscous",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Eccles Cake & Custard"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Tofu Katsu with Curry Sauce and Onion Rings",
+          "Creamy Vegetable & Cheddar Pie",
+          "Fresh Fillet of Fish with Tarter Sauce & Lemon",
+          "Soy & Honey Baked Chicken Fillet",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Cherry Pie"
+      },
+      "dinner": {
+        "mains": [
+          "GREEK THEME NIGHT",
+          "Quinoa Stuffed Pepper with Hummus and Pitta",
+          "Spanakopita",
+          "Greek Style Cod",
+          "Lemon and Parsley Chicken with Potatoes, Olives and Feta",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Baklava"
+      }
+    },
+    {
+      "weekend": true,
+      "dinner": {
+        "mains": [
+          "Moving Mountains Vegan Burger with Salad",
+          "Cherry Tomato, Olive, Feta & Spinach Pizza",
+          "Salmon Kedgeree with Korma Sauce & Fresh Coriander",
+          "Beef Lasagne with Garlic Slice",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Apple Pie"
+      }
+    },
+    {
+      "weekend": true,
+      "dinner": {
+        "mains": [
+          "Falafel with Cumin, Chickpea & Tomato Sauce with Minted Cucumber Garnish",
+          "Pan Fried Halloumi with Roasted Vegetables & Basil Vinaigrette",
+          "Calamari Strips with Lemon & Spicy Mayonnaise",
+          "Roast Chicken Breast with Herb Stuffing & Chipolata",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Chocolate Fudge Gateau"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Courgette, Sundried Tomato & Black Olive Pasta Bake",
+          "Veggie Sausage, Cheddar Mash, Leek & Mashed Potato Bake with Onion Gravy",
+          "Baked Cod with Cheddar Cheese Sauce",
+          "Breaded Chicken with Garlic & Parsley Butter",
+          "VEGETABLES AND SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Cinnamon Apple Cake"
+      },
+      "dinner": {
+        "mains": [
+          "Mixed Bean Tortilla Boats with Sliced Avocado",
+          "Veggie Mince Bolognaise",
+          "Baked Cod with Cheddar Cheese Sauce",
+          "Chicken Fried Rice",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Flapjack & Lemon Drizzle Cake"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Sticky Tempeh with Vegetables and Hot & Sour Sauce",
+          "Toasted Swiss Cheese Sandwich with Red Onion Chutney",
+          "Smoked Salmon with Lemon & Pea Risotto",
+          "Chicken Korma with Naan Bread & Mango Chutney",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Fruit Tartlet"
+      },
+      "dinner": {
+        "mains": [
+          "Vegetable Stir Fry with Vegetable Spring Rolls",
+          "Cheese & Onion Sausage Rolls",
+          "Fried Plaice Goujons with Lemon and Dill Mayonnaise",
+          "Pork Escalope with Honey, Mustart, Gherkins and Red Onion",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Lemon Meringue Tartlet"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Lentil & Butternut Cottage Pie",
+          "4 Cheese Ravioli with Tomato Sauce",
+          "Cajun Salmon with Sweetcorn Salsa",
+          "Loin of Pork Rubbed with Garlic & Herbs, with Sundried Tomato Stuffing",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Rhubarb & Strawberry Crumble"
+      },
+      "dinner": {
+        "mains": [
+          "Southern Fried Jackfruit with Spicy Mayonnaise",
+          "Veggetable Curry with Samosas",
+          "Prawns in Egg Fried Rice with Spring Rolls and Sweet & Sour Sauce",
+          "Sausage Casserole with Spicy Tomato Sauce",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Eton Mess with Strawberries"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Vegan Burger with Salad, Guacamole and Salsa",
+          "Quorn Stir Fry",
+          "White Fish, Tomato, Herb Crust and Lemon Buerre Blanc",
+          "Shredded Duck Marco Polo (Plum Sauce, Hoisin & Spring Onion with Pasta)",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Chocolate Fudge Cake"
+      },
+      "dinner": {
+        "mains": [
+          "Chickpea & Vegetable Balti with Samosas",
+          "Gnocchi with Spinach, Kale, Sun-Blushed Tomato and Basil Cream",
+          "Herb Crusted Whitefish with Lemon Buerre Blanc & Sliced Tomatoes",
+          "Hunter's Chicken with Bacon, Cheese & BBQ Sauce",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Chocolate Brownie"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Tofu & Vegetable Bowl with Hoisin Dressing",
+          "Macaroni Cheese",
+          "Fresh Fillet of Fish with Tarter Sauce & Lemon",
+          "Shepherd's Pie",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Cherry Pie"
+      },
+      "dinner": {
+        "mains": [
+          "TEXAS THEME NIGHT",
+          "Vegan Burger with Corn & Black Bean Salsa with BBQ Mayonnaise",
+          "Quorn & Bean Chilli",
+          "Battered Cod Bites, King Prawn Skewer, Sweetcorn & Black Bean Salsa",
+          "Chunky Texas Beef Chilli",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Chocolate Fudge Cake"
+      }
+    },
+    {
+      "weekend": true,
+      "dinner": {
+        "mains": [
+          "Mushroom & Vegetable Pizza",
+          "Vegetable Lasagne Verdi",
+          "Fried Scampi with Tartar Sauce & Lemon",
+          "Grilled Rump Steak with Onion Rings & Gravy",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Peach & Blueberry Pie"
+      }
+    },
+    {
+      "weekend": true,
+      "dinner": {
+        "mains": [
+          "Vegan Sausage & Onion Baguette with Vegan Smokey Cheddar",
+          "Quorn Butter Chicken Curry with Pakoras",
+          "Fish Fillet with White Wine Cream Sauce & Diced Tomatoes",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "New York Cheesecake"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Vegan Cornish Pasty with Jus",
+          "Vegetarian Sausage & Roasted Vegetable Creamy Pasta Bake",
+          "Tuna Steak Nicoise with Balsamic Glaze",
+          "Kung Pao Turkey Stir Fry",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Sticky Toffee Pudding with Caramel Sauce"
+      },
+      "dinner": {
+        "mains": [
+          "Sweet Potato & Cauliflower Curry with Vegetable Samosas",
+          "Vegetarian Sausage & Roasted Vegetable Creamy Pasta Bake",
+          "Linguine Alle Vongole (Clams & King Prawns with Wine, Chilli & Herbs)",
+          "Battered Chicken Balls with Sweet & Sour Sauce",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Apple Turnover with Custard"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Stuffed Peppers with Leek & Mushroom Risotto",
+          "Spinach & Ricotta Cannelloni with Tomato & Cheese Sauce",
+          "Salmon with Dill & Lemon Butter",
+          "Soy & Honey Baked Chicken Fillet",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Orange Marmalade Bread & Butter Pudding"
+      },
+      "dinner": {
+        "mains": [
+          "Chilli Bean Taco with Guacamole & Salsa",
+          "Spinach & Ricotta Cannelloni with Tomato & Cheese Sauce",
+          "Salmon with Dill & Lemon Butter",
+          "Breaded Turkey Escalope with Creamy Mushroom Sauce",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Chocolate Brownie"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Vegan Meatballs with Spaghetti Pomodoro & Vegan Parmesan",
+          "Butternut Squash & Spinach Risotto with Sage & Blue Cheese",
+          "Fried Fish Platter with Garlic Aioli & Lemon",
+          "Tex-Mex Enchilada Bake",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "German Apple Pudding with Custard"
+      },
+      "dinner": {
+        "mains": [
+          "Lentil Spaghetti Bolognaise with Toasted Garlic Baguette",
+          "Courgette, Pea, Mint & Ricotta Frittata",
+          "Baked Hake with Herb & Lemon Crust & Roasted Cherry Tomatoes",
+          "Hoisin Noodle & Sausage Stir-Fry",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Mini Jam Donuts"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Bang-Bang Cauliflower with Stir Fried Rice & Spicy Mayonnaise",
+          "Macaroni Cheese",
+          "Sea Bass with Lemon, White Beans & Spinach",
+          "Pork Schnitzel with Brown Butter, Capers & Lemon",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Honey Balls with Grilled Pineapple"
+      },
+      "dinner": {
+        "mains": [
+          "Falafel Burger in a Bun with Spicy Vegan Mayonnaise",
+          "Quorn & Mushroom Stroganoff",
+          "Sea Bass with Ginger, Chilli & S`pring Onions",
+          "Lamb Kofta with Pea & Herb Couscous",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Eccles Cake & Custard"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Tofu Katsu",
+          "Cherry Tomato, Olives, Feta Cheese & Spinach Pizza",
+          "Fresh Fillet of Fish with Tartar Sauce & Lemon",
+          "Spiced Buttermilk Chicken Burger",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Apple Crumble & Custard"
+      },
+      "dinner": {
+        "mains": [
+          "PROVENCALE NIGHT",
+          "Aubergine Gratin with White Bean Hummus",
+          "Cod Loin in Mussel Broth with Garlic Bread",
+          "Quiche Lorraine with Vegetarian Bacon",
+          "Chicken in Supreme Sauce with Asparagus",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Creme Brulee with Blueberries"
+      }
+    },
+    {
+      "weekend": true,
+      "dinner": {
+        "mains": [
+          "Moving Mountains Vegan Burger with Salad",
+          "Cherry Tomato, Olive, Feta & Spinach Pizza",
+          "Salmon Kedgeree with Mild Korma Sauce",
+          "Beef Lasagne with Garlic Slice",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Apple Pie"
+      }
+    },
+    {
+      "weekend": true,
+      "dinner": {
+        "mains": [
+          "Cauliflower Rice with Aubergine & Red Pepper Ragu",
+          "Grilled Halloumi, Flatbread, Humus & Crunchy Slaw",
+          "Calamari Strips with Lemon & Spicy Mayonnaise",
+          "Roast Chiciken Breast with Herb Stuffing & Chipolata",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Chocolate Fudge Gateau"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Moving Mountains Sausage & Roasted Vegetable Creamy Pasta Bake",
+          "Tuna Steak Nicoise, Balsamic Glaze",
+          "Soy & Honey Baked Chicken",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Sticky Toffee Pudding"
+      },
+      "dinner": {
+        "mains": [
+          "Sweet Potato & Cauliflower Curry with Mango Chutney",
+          "Tuna Steak Nicoise with Balsamic Glazer",
+          "Battered Chicken Balls with Sweet & Sour Sauce",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Pudding of the Day"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Vegan Shepherd's Pie",
+          "Spinach & Ricotta Cannelloni",
+          "Salmon with Dill & Lemon Butter",
+          "Roasted Chicken with Lemon, Garlic Cream & Gravy",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Orange Marmalade Bread & Butter Pudding"
+      },
+      "dinner": {
+        "mains": [
+          "Chilli Bean Taco with Guacamole & Salsa",
+          "Salmon with Dill & lemon Butter",
+          "Breaded Turkey Escalope with Creamy Mushroom Sauce",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Pudding of the Day"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Hoisin Noodle & Vegetable Stir-Fry",
+          "Fried Fish Platter with Garlic Aioli & Lemon",
+          "Smokey Beef Chilli Con Carne with Sour Cream & Cheese",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "German Apple Pudding with Custard"
+      },
+      "dinner": {
+        "mains": [
+          "Lentil spaghetti Bolognese with Garlic & Olive Bread",
+          "Baked Hake with Herb & Lemon Crust & Roasted Cherry Tomatoes",
+          "Hoisin Noodle & Sausage Stir-Fry",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Pudding of the Day"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Vegen \"Meatballs\" with spaghetti Pomodoro  VEGAN OPTION",
+          "Sea Bass with Lemon, White Beans & Spinach",
+          "Pork Schnitzel with Brown Butter, Capers & Lemon",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Eccles Cake & Custard"
+      },
+      "dinner": {
+        "mains": [
+          "Quorn & Mushroom Strognoff, VEGAN OPTION AVAILABLE",
+          "Pan Fried Sea Bass, Lemon Garlic & Herb Sauce",
+          "Chicken fillet with Red Thai Curry Sauce",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Pudding of the Day"
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          "Vegan \"Meatballs\" with Spaghetti Pomodoro & Vegan Parmesan",
+          "Sea Bass with Lemon, White Beans & Spinach",
+          "Pork Schnitzel with Brown Butter, Capers & Lemon",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Apple Crumble & Custard"
+      },
+      "dinner": {
+        "mains": [
+          "Quesadillas with Red Kidney Beans & Smoked Vegan Cheese",
+          "Quesadillas with Red Kidney Beans & Monteray Jack Cheese",
+          "Fresh Fish Tacos with Spicy Mayonnaise, Pickled Red Onion & Avocado Slices",
+          "Spiced Chicken Enchiladas with Monteray Jack Cheese",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Pudding of the Day"
+      }
+    },
+    {
+      "weekend": true,
+      "dinner": {
+        "mains": [
+          "Moving Mountains Vegan Burger with Salad",
+          "Salmon Kedgeree with Mild Korma Sauce",
+          "Teriyaki Chicken with Sesame Pak-Choi & Chilli Noodles",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Pudding of the Day"
+      }
+    },
+    {
+      "weekend": true,
+      "dinner": {
+        "mains": [
+          "BBQ ackfruit on Sweet Potato Fries with apple Slaw",
+          "Calamari Strips with lemon & Spicy Mayonnaise",
+          "Roast Turkey with Stuffing, Gravy & Yorkshire Pudding",
+          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+        ],
+        "dessert": "Pudding of the Day"
+      }
+    }
+  ]
 }
