@@ -33,8 +33,8 @@
   },
   "type": "module",
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.36",
-    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/fontawesome-svg-core": "1.2",
+    "@fortawesome/free-brands-svg-icons": "5.15",
     "bulma-switch": "^2.0.4",
     "fontawesome-svelte": "^2.0.1",
     "svelte-markdown": "^0.2.1"
