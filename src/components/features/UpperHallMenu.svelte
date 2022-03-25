@@ -24,8 +24,6 @@
     );
 
     $: currentMenu = day >= 0 && day < menu.days.length ? menu.days[day] : null;
-
-    $: console.log(currentMenu);
 </script>
 
 <div class="block">
