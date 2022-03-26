@@ -1,6 +1,11 @@
 <script lang="ts">
     import PageHeader from "$components/PageHeader.svelte";
     import { societies, type Society } from "$data/societies";
+    import { FontAwesomeIcon } from "fontawesome-svelte";
+    import {
+        faInstagram,
+        faFacebook,
+    } from "@fortawesome/free-brands-svg-icons";
 
     function copy(society: Society): Society {
         return { ...society };
@@ -57,8 +62,65 @@
 
     {#each filtered as society}
         <div class="box">
-            <h5 class="title is-5">{society.icon ?? "⬜"} {society.title}</h5>
-            <p>Type: {society.category}</p>
+            <h5 class="title is-4">{society.icon ?? "⬜"} {society.title}</h5>
+            <hr />
+            <div class="columns">
+                {#if society.description}
+                    <div class="column is-half" />
+                {/if}
+                <div class="column content">
+                    {#if society.contacts}
+                        <h6>Contacts:</h6>
+                        <ul>
+                            {#each society.contacts as contact}
+                                <li>
+                                    {contact.name}:
+                                    <a href="mailto:{contact.email}"
+                                        >{contact.email}</a
+                                    >
+                                </li>
+                            {/each}
+                        </ul>
+                    {/if}
+                </div>
+            </div>
+            {#if society.instagram || society.facebook}
+                <hr />
+                <div class="level is-mobile">
+                    {#if society.instagram}
+                        <div class="level-item has-text-centered">
+                            <a
+                                href="https://www.instagram.com/{society.instagram}/"
+                                target="_blank"
+                            >
+                                <span class="icon">
+                                    <FontAwesomeIcon
+                                        icon={faInstagram}
+                                        size="0.5x"
+                                    />
+                                </span>
+                                <p class="heading">@{society.instagram}</p>
+                            </a>
+                        </div>
+                    {/if}
+                    {#if society.facebook}
+                        <div class="level-item has-text-centered">
+                            <a
+                                href="https://www.facebook.com/{society.facebook}"
+                                target="_blank"
+                            >
+                                <span class="icon">
+                                    <FontAwesomeIcon
+                                        icon={faFacebook}
+                                        size="1x"
+                                    />
+                                </span>
+                                <p class="heading">@{society.facebook}</p>
+                            </a>
+                        </div>
+                    {/if}
+                </div>
+            {/if}
         </div>
     {/each}
 </PageHeader>
