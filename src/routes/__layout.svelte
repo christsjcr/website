@@ -16,7 +16,10 @@
     library.add(faInstagram, faFacebook);
 
     const layout: NavbarItem[] = [
-        { route: "/", label: "Home" },
+        {
+            route: "/",
+            label: "Home",
+        },
         {
             route: "/about",
             label: "About",
@@ -25,6 +28,10 @@
                 { route: "/about/constitution", label: "Constitution" },
                 { route: "/about/meetings", label: "Meetings" },
             ],
+        },
+        {
+            route: "/societies",
+            label: "Societies",
         },
         {
             route: "/resources",
