@@ -62,28 +62,11 @@
 
     {#each filtered as society}
         <div class="box">
-            <h5 class="title is-4">{society.icon ?? "⬜"} {society.title}</h5>
-            <hr />
-            <div class="columns">
-                {#if society.description}
-                    <div class="column is-half" />
-                {/if}
-                <div class="column content">
-                    {#if society.contacts}
-                        <h6>Contacts:</h6>
-                        <ul>
-                            {#each society.contacts as contact}
-                                <li>
-                                    {contact.name}:
-                                    <a href="mailto:{contact.email}"
-                                        >{contact.email}</a
-                                    >
-                                </li>
-                            {/each}
-                        </ul>
-                    {/if}
-                </div>
-            </div>
+            <h5 class="title is-4">
+                {society.icon ?? "⬜"}
+                &nbsp;
+                {society.title}
+            </h5>
             {#if society.instagram || society.facebook}
                 <hr />
                 <div class="level is-mobile">
