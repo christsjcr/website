@@ -10,6 +10,7 @@
         faInstagram,
         faFacebook,
         faFacebookMessenger,
+        faWhatsapp,
     } from "@fortawesome/free-brands-svg-icons";
     import {
         faEnvelope,
@@ -23,6 +24,7 @@
         faInstagram,
         faFacebook,
         faFacebookMessenger,
+        faWhatsapp,
         faEnvelope,
         faUserPlus,
         faGlobe
