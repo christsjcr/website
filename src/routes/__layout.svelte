@@ -9,11 +9,24 @@
     import {
         faInstagram,
         faFacebook,
+        faFacebookMessenger,
     } from "@fortawesome/free-brands-svg-icons";
+    import {
+        faEnvelope,
+        faGlobe,
+        faUserPlus,
+    } from "@fortawesome/free-solid-svg-icons";
     import { FontAwesomeIcon } from "fontawesome-svelte";
     import WidthUpdater from "$components/WidthUpdater.svelte";
 
-    library.add(faInstagram, faFacebook);
+    library.add(
+        faInstagram,
+        faFacebook,
+        faFacebookMessenger,
+        faEnvelope,
+        faUserPlus,
+        faGlobe
+    );
 
     const layout: NavbarItem[] = [
         {
