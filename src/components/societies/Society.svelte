@@ -13,6 +13,8 @@
         faUserPlus,
         faGlobe,
     } from "@fortawesome/free-solid-svg-icons";
+    import Tag from "./Tag.svelte";
+    import { HtmlTagHydration } from "svelte/internal";
 
     export let society: Society;
 </script>
@@ -37,31 +39,63 @@
             <div class="level is-mobile">
                 <div class="level-left">
                     {#if society.tags.status === "inactive"}
-                        <div class="level-item tag">😴 Inactive</div>
+                        <Tag
+                            color="dark"
+                            first
+                            tooltip="This society hasn't responded to our messages 💔"
+                        >
+                            😴 Inactive
+                        </Tag>
                     {/if}
                     {#if society.tags.status === "unfunded"}
-                        <div class="level-item tag is-warning">
+                        <Tag
+                            color="warning"
+                            first
+                            tooltip="This society is active, but does not &nbsp; &nbsp; receive funding from the JCR."
+                        >
                             💸 Independent
-                        </div>
+                        </Tag>
                     {/if}
                     {#if society.tags.status === "funded"}
-                        <div class="level-item tag is-primary">
+                        <Tag
+                            color="primary"
+                            first
+                            tooltip="This society is active and receiving funding from the JCR. "
+                        >
                             💰 JCR Funded
-                        </div>
+                        </Tag>
                     {/if}
                     {#if society.tags.type === "mens sport"}
-                        <div class="level-item tag is-info">♂ Men's Sport</div>
+                        <Tag
+                            color="info"
+                            tooltip="This society is primarily aimed at men's sport."
+                        >
+                            ♂ Men's Sport
+                        </Tag>
                     {/if}
                     {#if society.tags.type === "womens sport"}
-                        <div class="level-item tag is-danger">
+                        <Tag
+                            color="danger"
+                            tooltip="This society is primarily aimed at women's sport."
+                        >
                             ♀ Women's Sport
-                        </div>
+                        </Tag>
                     {/if}
                     {#if society.tags.type === "mixed sport"}
-                        <div class="level-item tag">⚤ Mixed Sport</div>
+                        <Tag
+                            color="grey"
+                            tooltip="This society is open to anyone, regardless of gender!"
+                        >
+                            ⚤ Mixed Sport
+                        </Tag>
                     {/if}
                     {#if society.tags.type === "academic"}
-                        <div class="level-item tag is-gray">🎓 Academic</div>
+                        <Tag
+                            color="grey"
+                            tooltip="This society is affiliated with a subject."
+                        >
+                            🎓 Academic
+                        </Tag>
                     {/if}
                 </div>
             </div>

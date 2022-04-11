@@ -143,7 +143,7 @@ export const societies: Society[] = [
         }
     },
     {
-        title: 'Feminist Society [currently inactive]', icon: "♀️",
+        title: 'Feminist Society', icon: "♀️",
         tags: {
             status: "inactive",
         }

@@ -38,6 +38,7 @@
     "@fortawesome/free-solid-svg-icons": "5",
     "bulma-switch": "^2.0.4",
     "bulma-timeline": "^3.0.5",
+    "@creativebulma/bulma-tooltip": "^1.2.0",
     "fontawesome-svelte": "^2.0.1",
     "svelte-markdown": "^0.2.1"
   }
