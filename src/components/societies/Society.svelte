@@ -34,43 +34,37 @@
             </div>
         </div>
         <div class="column">
-            {#if society.tags}
-                <div class="level is-mobile">
-                    <div class="level-left">
-                        {#if society.tags.status === "inactive"}
-                            <div class="level-item tag">😴 Inactive</div>
-                        {/if}
-                        {#if society.tags.status === "unfunded"}
-                            <div class="level-item tag is-warning">
-                                💸 Independent
-                            </div>
-                        {/if}
-                        {#if society.tags.status === "funded"}
-                            <div class="level-item tag is-primary">
-                                💰 JCR Funded
-                            </div>
-                        {/if}
-                        {#if society.tags.type === "mens sport"}
-                            <div class="level-item tag is-info">
-                                ♂ Men's Sport
-                            </div>
-                        {/if}
-                        {#if society.tags.type === "womens sport"}
-                            <div class="level-item tag is-danger">
-                                ♀ Women's Sport
-                            </div>
-                        {/if}
-                        {#if society.tags.type === "mixed sport"}
-                            <div class="level-item tag">⚤ Mixed Sport</div>
-                        {/if}
-                        {#if society.tags.type === "academic"}
-                            <div class="level-item tag is-gray">
-                                🎓 Academic
-                            </div>
-                        {/if}
-                    </div>
+            <div class="level is-mobile">
+                <div class="level-left">
+                    {#if society.tags.status === "inactive"}
+                        <div class="level-item tag">😴 Inactive</div>
+                    {/if}
+                    {#if society.tags.status === "unfunded"}
+                        <div class="level-item tag is-warning">
+                            💸 Independent
+                        </div>
+                    {/if}
+                    {#if society.tags.status === "funded"}
+                        <div class="level-item tag is-primary">
+                            💰 JCR Funded
+                        </div>
+                    {/if}
+                    {#if society.tags.type === "mens sport"}
+                        <div class="level-item tag is-info">♂ Men's Sport</div>
+                    {/if}
+                    {#if society.tags.type === "womens sport"}
+                        <div class="level-item tag is-danger">
+                            ♀ Women's Sport
+                        </div>
+                    {/if}
+                    {#if society.tags.type === "mixed sport"}
+                        <div class="level-item tag">⚤ Mixed Sport</div>
+                    {/if}
+                    {#if society.tags.type === "academic"}
+                        <div class="level-item tag is-gray">🎓 Academic</div>
+                    {/if}
                 </div>
-            {/if}
+            </div>
         </div>
     </div>
 
