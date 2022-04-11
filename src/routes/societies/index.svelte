@@ -98,7 +98,7 @@
     </div>
 
     <div class="block">
-        <div class="columns is-mobile is-vcentered">
+        <div class="columns is-mobile is-vcentered is-multiline">
             <div class="column is-narrow">
                 <div class="select">
                     <select bind:value={filterFunding}>
@@ -121,8 +121,8 @@
                 </div>
             </div>
             {#if filterFunding === null}
-                <div class="column is-narrow">
-                    <label class="checkbox">
+                <div class="column is-narrow" style="min-width:200px;">
+                    <label class="checkbox px-5">
                         <input type="checkbox" bind:checked={showInactive} />
                         Show Inactive
                     </label>
@@ -130,6 +130,8 @@
             {/if}
         </div>
     </div>
+
+    <hr />
 
     <div class="block">
         {#each filtered as society}

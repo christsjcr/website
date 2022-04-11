@@ -35,7 +35,10 @@
                     </div>
                 </div>
                 <div class="column">
-                    <h5 class="title is-4 mr-5">
+                    <h5
+                        class="title is-4 mr-5"
+                        class:has-text-grey={society.tags.status === "inactive"}
+                    >
                         {society.title}
                     </h5>
                 </div>
@@ -46,7 +49,7 @@
                 <div class="level-left">
                     {#if society.tags.status === "inactive"}
                         <Tag
-                            color="dark"
+                            color="grey"
                             first
                             tooltip="This society hasn't responded to our messages 💔"
                         >
