@@ -50,15 +50,25 @@
 >
     <div class="block content">
         <blockquote>
-            Clubs and societies are typically open to all Christ's students
-            (undergraduates and postgraduates), and membership is always free.
-            Some clubs and societies may charge for tickets at certain optional
-            events. The JCR oversees all activities by clubs, including their
-            financial conduct, and encourages them to engage with new members.
-            The JCR is also the ultimate owner of all property held by clubs and
-            societies that are part of the Amalgamated Clubs. Any queries about
-            clubs and societies can be directed to JCR Officers, as well as
-            club/society leaders themselves.
+            <p>
+                Clubs and societies are typically open to all Christ's students
+                (undergraduates and postgraduates), and membership is always
+                free. Some clubs and societies may charge for tickets at certain
+                optional events. The JCR oversees all activities by clubs,
+                including their financial conduct, and encourages them to engage
+                with new members. The JCR is also the ultimate owner of all
+                property held by clubs and societies that are part of the
+                Amalgamated Clubs. Any queries about clubs and societies can be
+                directed to JCR Officers, as well as club/society leaders
+                themselves.
+            </p>
+            <p>
+                Is information about your society incorrect or out-of-date? Fill
+                in the <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSfTnmDLCwVwiblfuTXfJzC64iIhH3ooZFJCkNIYG2p-Bn0wWg/viewform?usp=sf_link"
+                    target="_blank">society update form</a
+                >.
+            </p>
         </blockquote>
     </div>
 
