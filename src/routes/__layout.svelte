@@ -9,11 +9,26 @@
     import {
         faInstagram,
         faFacebook,
+        faFacebookMessenger,
+        faWhatsapp,
     } from "@fortawesome/free-brands-svg-icons";
+    import {
+        faEnvelope,
+        faGlobe,
+        faUserPlus,
+    } from "@fortawesome/free-solid-svg-icons";
     import { FontAwesomeIcon } from "fontawesome-svelte";
     import WidthUpdater from "$components/WidthUpdater.svelte";
 
-    library.add(faInstagram, faFacebook);
+    library.add(
+        faInstagram,
+        faFacebook,
+        faFacebookMessenger,
+        faWhatsapp,
+        faEnvelope,
+        faUserPlus,
+        faGlobe
+    );
 
     const layout: NavbarItem[] = [
         {
@@ -51,7 +66,7 @@
     // Initially tried in pure Svelte, but couldn't get it to work.
     onMount(() => {
         const classes = document.body.classList;
-        let timer;
+        let timer: NodeJS.Timeout;
         const disableTransitions = () => {
             if (timer) {
                 clearTimeout(timer);
