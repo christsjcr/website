@@ -27,11 +27,8 @@
                             {society.icon ?? "⬜"}
                         </div>
                     </div>
-                    <div class="level-item">
-                        <h5
-                            class="title is-4 mr-5"
-                            class:has-text-grey={society.tags?.inactive}
-                        >
+                    <div class="level-item mr-5">
+                        <h5 class="title is-4 mr-5">
                             {society.title}
                         </h5>
                     </div>
