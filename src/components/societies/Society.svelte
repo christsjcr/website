@@ -14,9 +14,15 @@
         faGlobe,
     } from "@fortawesome/free-solid-svg-icons";
     import Tag from "./Tag.svelte";
-    import { HtmlTagHydration } from "svelte/internal";
 
     export let society: Society;
+    let expanded = false;
+
+    // automatically close whenever society is updated
+    $: {
+        society;
+        expanded = false;
+    }
 </script>
 
 <div class="box">
@@ -102,21 +108,17 @@
         </div>
     </div>
 
-    <div class="columns">
-        {#if society.description || society.events}
-            <div class="column content">
-                {#if society.description}
-                    <p>
-                        {society.description}
-                    </p>
-                {/if}
-                {#if society.events}
-                    <h6>Regular Events</h6>
-                    <p>{society.events}</p>
-                {/if}
-            </div>
+    <div class="content">
+        {#if society.description}
+            <p>
+                {society.description}
+            </p>
         {/if}
-        <div class="column content">
+        {#if expanded}
+            {#if society.events}
+                <h6>Regular Events</h6>
+                <p>{society.events}</p>
+            {/if}
             {#if society.interested}
                 <h6>Interested in Joining?</h6>
                 <p>{society.interested}</p>
@@ -133,10 +135,29 @@
                     {/each}
                 </ul>
             {/if}
-        </div>
+        {/if}
     </div>
 
-    {#if society.contact}
+    {#if !expanded && (society.events || society.interested || (society.people && society.people.length > 0))}
+        <a
+            href={null}
+            on:click={() => {
+                expanded = true;
+                return false;
+            }}>See more</a
+        >
+    {/if}
+    {#if expanded}
+        <a
+            href={null}
+            on:click={() => {
+                expanded = false;
+                return false;
+            }}>See less</a
+        >
+    {/if}
+
+    {#if society.contact && expanded}
         <hr />
         <div class="level">
             {#if society.contact?.register}

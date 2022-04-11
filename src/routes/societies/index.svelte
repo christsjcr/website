@@ -13,6 +13,12 @@
     }
 
     let search: string = "";
+
+    let filterFunding: "funded" | "unfunded" | "inactive" = null;
+    let filterType: "mens sport" | "womens sport" | "mixed sport" | "academic" =
+        null;
+    let showInactive = false;
+
     let filtered: Society[] = [];
 
     const sorted: (Society & { search: string })[] = societies.map(copy);
@@ -24,8 +30,18 @@
             .filter((x) => x.length > 0)
             .map((x) => x.toLowerCase());
 
-        if (terms.length > 0) {
-            filtered = sorted.filter((soc) => {
+        filtered = sorted.filter((soc) => {
+            if (filterFunding && soc.tags.status !== filterFunding)
+                return false;
+            if (
+                filterFunding == null &&
+                !showInactive &&
+                soc.tags.status === "inactive"
+            )
+                return false;
+            if (filterType && soc.tags.type !== filterType) return false;
+
+            if (terms.length > 0) {
                 const title = soc.title.toLowerCase();
                 const description = soc.description?.toLowerCase() ?? "";
                 const search = title + description;
@@ -34,11 +50,9 @@
                         return false;
                     }
                 }
-                return true;
-            });
-        } else {
-            filtered = sorted;
-        }
+            }
+            return true;
+        });
     }
 </script>
 
@@ -83,7 +97,43 @@
         </p>
     </div>
 
-    {#each filtered as society}
-        <SocietyCard {society} />
-    {/each}
-</PageHeader>
+    <div class="block">
+        <div class="columns is-mobile is-vcentered">
+            <div class="column is-narrow">
+                <div class="select">
+                    <select bind:value={filterFunding}>
+                        <option value={null}>Any funding</option>
+                        <option value="funded">💰 JCR Funded</option>
+                        <option value="unfunded">💸 Independent</option>
+                        <option value="inactive">😴 Inactive</option>
+                    </select>
+                </div>
+            </div>
+            <div class="column is-narrow">
+                <div class="select">
+                    <select bind:value={filterType}>
+                        <option value={null}>All Types</option>
+                        <option value="academic">🎓 Academic</option>
+                        <option value="mens sport">♂ Men's Sport</option>
+                        <option value="womens sport">♀ Women's Sport</option>
+                        <option value="mixed sport">⚤ Mixed Sport</option>
+                    </select>
+                </div>
+            </div>
+            {#if filterFunding === null}
+                <div class="column is-narrow">
+                    <label class="checkbox">
+                        <input type="checkbox" bind:checked={showInactive} />
+                        Show Inactive
+                    </label>
+                </div>
+            {/if}
+        </div>
+    </div>
+
+    <div class="block">
+        {#each filtered as society}
+            <SocietyCard {society} />
+        {/each}
+    </div></PageHeader
+>

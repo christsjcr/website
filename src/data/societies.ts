@@ -133,13 +133,21 @@ export const societies: Society[] = [
     },
     {
         title: 'Engineering Society (CCES)', icon: "🛠",
-        description: "Christ's Engineering Society is a community for all those with an interest in Engineering, regardless of their degree. The society hopes to encourage an interest in Engineering for all students at Christ's, with events, talks and socials throughout the year.",
+        description: "CCES aims to provide opportunities for students studying any degree to explore the rich field of engineering outside the lecture halls. It organises the CCES Lecture Series, Project Talks, and Engineering Socials. Previous lecture speakers have included those working for the European Space Agency, Samsung AI Research Centre, and many more (detailed on CCES' website)!",
+        interested: "For Facebook Messenger chat, contact Aditya Jain (aj563).",
         people: [
             { name: "Aditya Jain", crsid: "aj563" }
         ],
         tags: {
             type: "academic",
             status: "funded",
+        },
+        contact: {
+            website: {
+                name: "christs.engineering",
+                url: "https://www.christs.engineering/"
+            },
+            facebookGroup: "639979033442421"
         }
     },
     {
@@ -228,7 +236,7 @@ export const societies: Society[] = [
     },
     {
         title: 'Nollywood Society', icon: "🎥",
-        description: "Christ's Nollywood Society seeks to boost the representation of international media (particularly Nigerian cinema) within Christ's. It holds social events featuring Nollywood films, for both Nollywood enthusiasts and for anyone who wants to learn more about the genre.",
+        description: "Christ’s Nollywood Society seeks to boost the representation of international media (particularly Nigerian cinema) within Christ's. It holds social events featuring Nollywood films, for both Nollywood enthusiasts and for anyone who wants to learn more about the genre.",
         people: [
             { name: "Joel Gayford", crsid: "jhg41" }
         ],
