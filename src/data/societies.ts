@@ -352,7 +352,8 @@ export const societies: Society[] = [
         },
     },
     {
-        title: 'Hot Wheelz Society [roller skating and similar sports]',
+        title: 'Hot Wheelz Society',
+        description: "Christ's society for roller skating and similar sports.",
         icon: "⛸",
         tags: {
             type: 'mixed sport',

@@ -18,47 +18,60 @@
 </script>
 
 <div class="box">
-    <div class="level">
-        <div class="level-left">
-            <div class="level is-mobile">
-                <div class="level-left">
-                    <div class="level-item">
-                        <div class="title is-4 mr-5">
-                            {society.icon ?? "⬜"}
-                        </div>
+    <div class="columns is-multiline is-vcentered">
+        <div class="column is-narrow" style="max-width:fit-content;">
+            <div class="columns is-mobile is-vcentered">
+                <div class="column is-narrow">
+                    <div class="title is-3">
+                        {society.icon ?? "⬜"}
                     </div>
-                    <div class="level-item mr-5">
-                        <h5 class="title is-4 mr-5">
-                            {society.title}
-                        </h5>
-                    </div>
+                </div>
+                <div class="column">
+                    <h5 class="title is-4 mr-5">
+                        {society.title}
+                    </h5>
                 </div>
             </div>
         </div>
-        {#if society.tags}
-            <div class="level-item is-justify-content-left">
-                <div class="tags">
-                    {#if society.tags.status === "inactive"}
-                        <div class="tag">😴 Inactive</div>
-                    {/if}
-                    {#if society.tags.status === "unfunded"}
-                        <div class="tag is-warning">💸 Independent</div>
-                    {/if}
-                    {#if society.tags.type === "mens sport"}
-                        <div class="tag is-info">♂ Men's Sport</div>
-                    {/if}
-                    {#if society.tags.type === "womens sport"}
-                        <div class="tag is-danger">♀ Women's Sport</div>
-                    {/if}
-                    {#if society.tags.type === "mixed sport"}
-                        <div class="tag">⚤ Mixed Sport</div>
-                    {/if}
-                    {#if society.tags.type === "academic"}
-                        <div class="tag is-gray">🎓 Academic</div>
-                    {/if}
+        <div class="column">
+            {#if society.tags}
+                <div class="level is-mobile">
+                    <div class="level-left">
+                        {#if society.tags.status === "inactive"}
+                            <div class="level-item tag">😴 Inactive</div>
+                        {/if}
+                        {#if society.tags.status === "unfunded"}
+                            <div class="level-item tag is-warning">
+                                💸 Independent
+                            </div>
+                        {/if}
+                        {#if society.tags.status === "funded"}
+                            <div class="level-item tag is-primary">
+                                💰 JCR Funded
+                            </div>
+                        {/if}
+                        {#if society.tags.type === "mens sport"}
+                            <div class="level-item tag is-info">
+                                ♂ Men's Sport
+                            </div>
+                        {/if}
+                        {#if society.tags.type === "womens sport"}
+                            <div class="level-item tag is-danger">
+                                ♀ Women's Sport
+                            </div>
+                        {/if}
+                        {#if society.tags.type === "mixed sport"}
+                            <div class="level-item tag">⚤ Mixed Sport</div>
+                        {/if}
+                        {#if society.tags.type === "academic"}
+                            <div class="level-item tag is-gray">
+                                🎓 Academic
+                            </div>
+                        {/if}
+                    </div>
                 </div>
-            </div>
-        {/if}
+            {/if}
+        </div>
     </div>
 
     <div class="columns">
@@ -204,13 +217,3 @@
         </div>
     {/if}
 </div>
-
-<style lang="scss">
-    @import "bulma/sass/utilities/_all";
-
-    @include until($tablet) {
-        .tags {
-            margin-top: 1.5rem;
-        }
-    }
-</style>
