@@ -38,10 +38,10 @@
         {#if society.tags}
             <div class="level-item is-justify-content-left">
                 <div class="tags">
-                    {#if society.tags.inactive}
+                    {#if society.tags.status === "inactive"}
                         <div class="tag">😴 Inactive</div>
                     {/if}
-                    {#if society.tags.unfunded}
+                    {#if society.tags.status === "unfunded"}
                         <div class="tag is-warning">💸 Independent</div>
                     {/if}
                     {#if society.tags.type === "mens sport"}
