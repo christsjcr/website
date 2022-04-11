@@ -66,7 +66,7 @@
     // Initially tried in pure Svelte, but couldn't get it to work.
     onMount(() => {
         const classes = document.body.classList;
-        let timer;
+        let timer: NodeJS.Timeout;
         const disableTransitions = () => {
             if (timer) {
                 clearTimeout(timer);

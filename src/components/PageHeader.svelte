@@ -16,7 +16,7 @@
     let bgShowing = false;
     let fgShowing = false;
 
-    let img;
+    let img: HTMLElement;
 
     $: page.set({
         current,
@@ -29,13 +29,13 @@
         setTimeout(() => (smallDelay = true), 300);
     });
 
-    const bgload = (el) => {
+    const bgload = (el: HTMLElement) => {
         el.addEventListener("load", () => {
             bgShowing = true;
         });
     };
 
-    const fgload = (el) => {
+    const fgload = (el: HTMLElement) => {
         el.addEventListener("load", () => {
             fgShowing = true;
         });
