@@ -119,7 +119,7 @@
     .wrapper {
         position: relative;
         background-color: $primary;
-        height: max(20vh, 12rem);
+        height: 14rem;
     }
     .wrapper.large {
         height: 70vh;
