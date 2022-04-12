@@ -304,11 +304,14 @@ export const societies: Society[] = [
     },
     {
         title: "Hippolytans", icon: "🏃‍♀️",
+        description: "The Hippolytan's (affectionally named the Hippos) is Christ's College Women and Non-Binary Sports Society. We are a group of likeminded individuals who share a passion for sport and socialising, and throughout term time we hold a number of social events such as swaps, BBQ's, and sports days.",
+        interested: "If you are interested in joining, please complete the google form below. We look forward to hearing from you! If you have any questions, please email Belle Rostron (alr64). ",
         people: [
-            { name: "Rosa Marks", crsid: "rm921" },
+            { name: "Belle Rostron", crsid: "alr64" },
         ],
         type: "womens sport",
         status: "unfunded",
+        contact: { register: "https://docs.google.com/forms/d/e/1FAIpQLSdtdf3GZb6divIoW7Dbv_UugwdV6BrURpnmCYOahSNke5kgRQ/viewform?usp=sf_link" },
     },
     {
         title: "Hot Wheelz Society",
@@ -351,7 +354,7 @@ export const societies: Society[] = [
         title: "Men's Football", icon: "⚽",
         description: "Men's football is one of the largest college sports societies with two teams playing in Division 3 and 5 of the Cambridge University Association Football League respectively, as well as the annual knock-out tournament (Cuppers). The first team is for players with a high ability whilst the second team is open to all!",
         events: "Both teams play a game each weekend and the two have a combined evening training session midweek. There are also regular socials, sometimes mixed with the Women's team.",
-        interested: "Contact oel23@cam.ac.uk via email or Oli Lewis on Facebook to be added to the mailing list.",
+        interested: "Contact Oli Lewis via email (oel23) or on Facebook to be added to the mailing list.",
         people: [
             { name: "Oli Lewis", crsid: "oel23" },
         ],
