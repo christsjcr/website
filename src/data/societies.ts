@@ -27,7 +27,8 @@ export interface Society {
         },
     },
     status: "independent" | "unfunded" | "inactive";
-    type: "mens sport" | "womens sport" | "mixed sport" | "subject" | "other"
+    type: "mens sport" | "womens sport" | "mixed sport" | "subject" | "other",
+    notEndorsed?: true,
 }
 
 export const societies: Society[] = [
@@ -308,7 +309,7 @@ export const societies: Society[] = [
         ],
         type: "womens sport",
         status: "unfunded",
-
+        notEndorsed: true,
     },
     {
         title: "Hot Wheelz Society",
@@ -346,7 +347,7 @@ export const societies: Society[] = [
         ],
         type: "mens sport",
         status: "unfunded",
-
+        notEndorsed: true,
     },
     {
         title: "Men's Football", icon: "⚽",
