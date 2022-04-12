@@ -37,7 +37,7 @@
                 <div class="column">
                     <h5
                         class="title is-4 mr-5"
-                        class:has-text-grey={society.tags.status === "inactive"}
+                        class:has-text-grey={society.status === "inactive"}
                     >
                         {society.title}
                     </h5>
@@ -47,7 +47,7 @@
         <div class="column">
             <div class="level is-mobile">
                 <div class="level-left">
-                    {#if society.tags.status === "inactive"}
+                    {#if society.status === "inactive"}
                         <Tag
                             color="grey"
                             first
@@ -56,7 +56,7 @@
                             😴 Inactive
                         </Tag>
                     {/if}
-                    {#if society.tags.status === "unfunded"}
+                    {#if society.status === "unfunded"}
                         <Tag
                             color="warning"
                             first
@@ -65,7 +65,7 @@
                             💸 Independent
                         </Tag>
                     {/if}
-                    {#if society.tags.status === "funded"}
+                    {#if society.status === "funded"}
                         <Tag
                             color="primary"
                             first
@@ -74,7 +74,7 @@
                             💰 JCR Funded
                         </Tag>
                     {/if}
-                    {#if society.tags.type === "mens sport"}
+                    {#if society.type === "mens sport"}
                         <Tag
                             color="info"
                             tooltip="This society is primarily aimed at men's sport."
@@ -82,7 +82,7 @@
                             ♂ Men's Sport
                         </Tag>
                     {/if}
-                    {#if society.tags.type === "womens sport"}
+                    {#if society.type === "womens sport"}
                         <Tag
                             color="danger"
                             tooltip="This society is primarily aimed at women's sport."
@@ -90,7 +90,7 @@
                             ♀ Women's Sport
                         </Tag>
                     {/if}
-                    {#if society.tags.type === "mixed sport"}
+                    {#if society.type === "mixed sport"}
                         <Tag
                             color="grey"
                             tooltip="This society is open to anyone, regardless of gender!"
@@ -98,7 +98,7 @@
                             ⚤ Mixed Sport
                         </Tag>
                     {/if}
-                    {#if society.tags.type === "academic"}
+                    {#if society.type === "academic"}
                         <Tag
                             color="grey"
                             tooltip="This society is affiliated with a subject."

@@ -26,10 +26,8 @@ export interface Society {
             url: string
         },
     },
-    tags: {
-        status: "funded" | "unfunded" | "inactive";
-        type?: "mens sport" | "womens sport" | "mixed sport" | "academic",
-    },
+    status: "funded" | "unfunded" | "inactive";
+    type: "mens sport" | "womens sport" | "mixed sport" | "academic" | "other"
 }
 
 export const societies: Society[] = [
@@ -39,32 +37,28 @@ export const societies: Society[] = [
         people: [
             { name: "Romany Whittall", crsid: "raw82" }
         ],
-        tags: {
-            status: "unfunded",
-        }
+        status: "unfunded",
+        type: "other"
     },
     {
         title: 'Art Society', icon: "🎨",
         description: "Christ's Art Society is Christ's premier society catering for all forms of art. We provide free equipment and a chill environment, so that anyone - regardless of artistic skill or confidence - can express themselves creatively and take a break from the work.", events: "Weekly workshops, with zero commitment and no events with fees.", contact: { facebook: "ChristsArtSociety", email: "christsartsociety@gmail.com" }, people: [
             { name: "Vincent Forester", crsid: "vf273" }
         ],
-        tags: {
-            type: "academic",
-            status: "funded",
-        }
+
+        type: "other",
+        status: "funded",
     },
     {
         title: 'Board Games Society',
         icon: "♟",
-        tags: {
-            status: "inactive",
-        }
+        type: "other",
+        status: "inactive",
     },
     {
         title: 'Bookworms', icon: "📚",
-        tags: {
-            status: "inactive",
-        }
+        status: "inactive",
+        type: "other"
     },
     {
         title: 'Card Game Society', icon: "🃏",
@@ -72,9 +66,9 @@ export const societies: Society[] = [
         people: [
             { name: "Ardon Pillay", crsid: "amp214" }
         ],
-        tags: {
-            status: "funded"
-        }
+
+        status: "funded",
+        type: "other"
     },
     {
         title: 'Christ\'s Amateur Dramatic Society (CADS)',
@@ -85,9 +79,8 @@ export const societies: Society[] = [
         people: [
             { name: "Daniel Pereira", crsid: "dlo30" }
         ],
-        tags: {
-            status: "unfunded",
-        },
+        status: "unfunded",
+        type: "other",
         contact: {
             facebook: "ChristsADS",
             instagram: "christsamdramsoc",
@@ -106,9 +99,8 @@ export const societies: Society[] = [
             instagram: "sidchristscu",
             register: "https://forms.gle/BYZBKsyZQTY6X4Y78",
         },
-        tags: {
-            status: "funded"
-        }
+        status: "funded",
+        type: "other"
     },
     {
         title: 'Darwin Society',
@@ -117,10 +109,8 @@ export const societies: Society[] = [
         people: [
             { name: "James Tett", crsid: "jt738" }
         ],
-        tags: {
-            type: "academic",
-            status: "funded",
-        },
+        type: "academic",
+        status: "funded",
         contact: {
             instagram: "christsdarwinsoc",
             facebook: "DarwinSociety",
@@ -138,10 +128,8 @@ export const societies: Society[] = [
         people: [
             { name: "Aditya Jain", crsid: "aj563" }
         ],
-        tags: {
-            type: "academic",
-            status: "funded",
-        },
+        type: "academic",
+        status: "funded",
         contact: {
             website: {
                 name: "christs.engineering",
@@ -152,15 +140,13 @@ export const societies: Society[] = [
     },
     {
         title: 'Feminist Society', icon: "♀️",
-        tags: {
-            status: "inactive",
-        }
+        type: "other",
+        status: "inactive",
     },
     {
         title: "Film Society", icon: "🎥",
-        tags: {
-            status: "inactive",
-        }
+        status: "inactive",
+        type: "other"
     },
     {
         title: 'History Society', icon: "📜",
@@ -169,10 +155,8 @@ export const societies: Society[] = [
         people: [
             { name: "Millie Yule", crsid: "ay335" }
         ],
-        tags: {
-            type: "academic",
-            status: "funded",
-        },
+        type: "academic",
+        status: "funded",
         contact: {
             facebook: "christshistorysoc"
         }
@@ -183,10 +167,8 @@ export const societies: Society[] = [
         people: [
             { name: "Aravynd Atwal", crsid: "aa2154" }
         ],
-        tags: {
-            type: "academic",
-            status: "funded",
-        }
+        type: "academic",
+        status: "funded",
     },
     {
         title: 'Maths Society', icon: "📊",
@@ -194,24 +176,20 @@ export const societies: Society[] = [
         people: [
             { name: "Alise Furse", crsid: "af704" }
         ],
-        tags: {
-            type: "academic",
-            status: "funded",
-        }
+        type: "academic",
+        status: "funded",
     },
     {
         title: 'Medical Society', icon: "🩺",
-        description: "Christ's Maths Society aims to broaden the mathematical perspectives of maths students beyond the theory taught in the Tripos, as well as to introduce non-mathematicians to ideas without delving deep into technical theory. It offers a variety of events throughout the year, including academic talks, lectures, and socials.",
+        description: "Christ's Medical Society aims to bring together Christ's Medics - for welfare events, social events and academic talks, open to all students with an interest in Medicine.",
         people: [
             { name: "Mikesh Patel", crsid: "mkp41" }
         ],
         contact: {
             facebookGroup: "1418390265042766",
         },
-        tags: {
-            type: "academic",
-            status: "funded",
-        }
+        type: "academic",
+        status: "funded",
     },
     {
         title: 'Music Society (CCMS)', icon: "🎶",
@@ -221,10 +199,8 @@ export const societies: Society[] = [
         people: [
             { name: "Jemma Jeffrey", crsid: "jj536" }
         ],
-        tags: {
-            type: "academic",
-            status: "funded",
-        },
+        type: "academic",
+        status: "funded",
         contact: {
             instagram: "ccmsofficial",
             facebook: "christsmusic",
@@ -236,13 +212,12 @@ export const societies: Society[] = [
     },
     {
         title: 'Nollywood Society', icon: "🎥",
-        description: "Christ’s Nollywood Society seeks to boost the representation of international media (particularly Nigerian cinema) within Christ's. It holds social events featuring Nollywood films, for both Nollywood enthusiasts and for anyone who wants to learn more about the genre.",
+        description: "Christ's Nollywood Society seeks to boost the representation of international media (particularly Nigerian cinema) within Christ's. It holds social events featuring Nollywood films, for both Nollywood enthusiasts and for anyone who wants to learn more about the genre.",
         people: [
             { name: "Joel Gayford", crsid: "jhg41" }
         ],
-        tags: {
-            status: "funded",
-        }
+        status: "funded",
+        type: "other"
     },
     {
         title: 'Organic Synthesis Society', icon: "🧫",
@@ -254,20 +229,16 @@ export const societies: Society[] = [
         contact: {
             facebook: "ChrOSS.0",
         },
-        tags: {
-            status: "unfunded",
-            type: "academic",
-        }
+        status: "unfunded",
+        type: "other",
     },
     {
         title: 'Poetry Society', icon: "🧾",
         people: [
             { name: "Grace Beckett", crsid: "gsab2" }
         ],
-        tags: {
-            type: "academic",
-            status: "inactive",
-        }
+        type: "other",
+        status: "inactive",
     },
     {
         title: 'Wine Society', icon: "🍷",
@@ -280,9 +251,8 @@ export const societies: Society[] = [
             register: "https://docs.google.com/forms/d/e/1FAIpQLSfQd1NZsAQBhCm2uPVTv416_zjGMT5NN38YQkV5aCHcfuP97w/viewform",
             email: "christswine@gmail.com"
         },
-        tags: {
-            status: "funded",
-        }
+        status: "funded",
+        type: "other"
     },
     {
         title: 'Badminton Club', icon: "🏸",
@@ -291,10 +261,8 @@ export const societies: Society[] = [
         people: [
             { name: "Richard Zhang", crsid: "lz429" }
         ],
-        tags: {
-            type: "mixed sport",
-            status: "funded",
-        },
+        type: "mixed sport",
+        status: "funded",
         contact: {
             facebookGroup: "christsbadminton"
         }
@@ -305,10 +273,8 @@ export const societies: Society[] = [
         people: [
             { name: "Nicholas Montague-Jones", crsid: "nm704" }
         ],
-        tags: {
-            type: "mixed sport",
-            status: "funded",
-        }
+        type: "mixed sport",
+        status: "funded",
     },
     {
         title: 'Boat Club', icon: "⛵",
@@ -316,67 +282,58 @@ export const societies: Society[] = [
             { name: "Katy Hempson", crsid: "klh76" },
             { name: "Richard Turner", crsid: "rjt87" }
         ],
-        tags: {
-            type: "mixed sport",
-            status: "inactive",
-        },
+        type: "mixed sport",
+        status: "unfunded",
     },
     {
         title: 'Climbing Club', icon: "🧗‍♀️",
-        description: "Christ's Climbing Club caters for anyone with an interest in climbing, regardless of ability or experience. It organsies group climbing sessions, socials and events throughout the year, as well as making this activity more affordable for Christ's students.",
+        description: "Christ's Climbing Club caters for anyone with an interest in climbing, regardless of ability or experience. It organises group climbing sessions, socials and events throughout the year, as well as making this activity more affordable for Christ's students.",
         people: [
             { name: "Ari Chan", crsid: "asc78" }
         ],
-        tags: {
-            type: 'mixed sport',
-            status: "funded",
-        }
+        type: 'mixed sport',
+        status: "funded",
     },
     {
-        title: 'Cricket', icon: "🏏",
+        title: 'Cricket Club', icon: "🏏",
+        description: "Christ's Cricket Club encourages anyone with an interest in the sport (whatever their ability) to play. The club organises frequent sessions and events during the year.",
         people: [
             { name: "Satyam Verma", crsid: "sgv21" }
         ],
-        tags: {
-            type: 'mixed sport',
-            status: "funded",
-        }
+        type: 'mixed sport',
+        status: "funded",
     },
     {
         title: 'Darts Corporation', icon: "🎯",
-        tags: {
-            type: 'mixed sport',
-            status: "funded",
-        }
+        description: "Darts Corporation aims to promote the sport of darts in Christ's, as a sport that can be played by anyone, regardless of skill or background.",
+        type: 'mixed sport',
+        status: "funded",
     },
     {
         title: 'Hippolytans', icon: "🏃‍♀️",
         people: [
             { name: "Rosa Marks", crsid: "rm921" }
         ],
-        tags: {
-            type: "womens sport",
-            status: "unfunded",
-        },
+        type: "womens sport",
+        status: "unfunded",
+
     },
     {
         title: 'Hot Wheelz Society',
-        description: "Christ's society for roller skating and similar sports.",
+        description: "Hot Wheelz Society provides an opportunity for Christ's students to develop their roller skating, roller blading, scootering and skateboarding skills.",
         icon: "⛸",
-        tags: {
-            type: 'mixed sport',
-            status: "funded",
-        }
+        type: 'mixed sport',
+        status: "funded",
+
     },
     {
         title: "Ladies Netball", icon: "🏀",
         people: [
             { name: "Natasha Ross", "crsid": "cnr34" }
         ],
-        tags: {
-            type: "womens sport",
-            status: "unfunded",
-        }
+        type: "womens sport",
+        status: "unfunded",
+
     },
     {
         title: 'Lawn Tennis', icon: "🎾",
@@ -385,10 +342,9 @@ export const societies: Society[] = [
         people: [
             { name: "Oliver Norbury", crsid: "ojrn2" }
         ],
-        tags: {
-            type: 'mixed sport',
-            status: "funded",
-        },
+        type: 'mixed sport',
+        status: "funded",
+
         contact: {
             facebookGroup: "753203991906817",
         }
@@ -398,10 +354,9 @@ export const societies: Society[] = [
         people: [
             { name: "Felix Asare", crsid: "fkaa2" }
         ],
-        tags: {
-            type: "mens sport",
-            status: "unfunded",
-        }
+        type: "mens sport",
+        status: "unfunded",
+
     },
     {
         title: 'Men\'s Football', icon: "⚽",
@@ -411,10 +366,8 @@ export const societies: Society[] = [
         people: [
             { name: "Oli Lewis", crsid: "oel23" }
         ],
-        tags: {
-            type: 'mens sport',
-            status: "funded",
-        }
+        type: 'mens sport',
+        status: "funded",
     },
     {
         title: 'Men\'s Hockey', icon: "🏑",
@@ -422,10 +375,8 @@ export const societies: Society[] = [
         people: [
             { name: "Abhimanyu Gowda", crsid: "ag2166" }
         ],
-        tags: {
-            type: 'mens sport',
-            status: "funded",
-        }
+        type: 'mens sport',
+        status: "funded",
     },
     {
         title: 'Men\'s Rugby Football', icon: "🏉",
@@ -434,26 +385,23 @@ export const societies: Society[] = [
         people: [
             { name: "Harry Goodhew", crsid: "hfg23" }
         ],
-        tags: {
-            type: 'mens sport',
-            status: "funded",
-        },
+        type: 'mens sport',
+        status: "funded",
+
         contact: {
             whatsapp: "https://chat.whatsapp.com/G3kpNeAE2FE2peqA5cJqE8",
         }
     },
     {
         title: 'Mixed Lacrosse', icon: "🥍",
-        description: "Christs Lacrosse Team is a mixed sports team, open to all, which plays in weekly matches.",
-        events: "A match every weekend with variable times",
+        description: "Christ's Lacrosse Team is a mixed sports team, open to all, which plays in weekly matches.",
+        events: "A match every weekend with variable times.",
         people: [
             { name: "Caitlyn Furley", crsid: "cf525" },
             { name: "Noah Hatchwell", crsid: "nh545" }
         ],
-        tags: {
-            type: 'mixed sport',
-            status: "funded",
-        },
+        type: 'mixed sport',
+        status: "funded",
         contact: {
             whatsapp: "https://chat.whatsapp.com/K4DdTRvOXLh5ClZ3F4D6Wf",
         }
@@ -464,17 +412,13 @@ export const societies: Society[] = [
         people: [
             { name: "Rebecca Tyson", crsid: "rjt83" }
         ],
-        tags: {
-            type: 'mixed sport',
-            status: "funded",
-        }
+        type: 'mixed sport',
+        status: "funded",
     },
     {
         title: "Rounders", icon: "⚾️",
-        tags: {
-            type: "mixed sport",
-            status: "inactive",
-        }
+        type: "mixed sport",
+        status: "inactive",
     },
     {
         title: 'Squash', icon: "🎾",
@@ -483,10 +427,8 @@ export const societies: Society[] = [
         people: [
             { name: "Olly Huggon", crsid: "oh282" }
         ],
-        tags: {
-            type: 'mixed sport',
-            status: "funded",
-        },
+        type: 'mixed sport',
+        status: "funded",
         contact: {
             facebookGroup: "christssquash"
         }
@@ -498,10 +440,8 @@ export const societies: Society[] = [
         people: [
             { name: "Isabelle Zou", crsid: "ixz20" }
         ],
-        tags: {
-            type: 'mixed sport',
-            status: "funded",
-        },
+        type: 'mixed sport',
+        status: "funded",
         contact: {
             facebookGroup: "345514909131796",
         }
@@ -513,10 +453,8 @@ export const societies: Society[] = [
         people: [
             { name: "Arjun Tapasvi", crsid: "adt44" }
         ],
-        tags: {
-            type: 'mixed sport',
-            status: "funded",
-        },
+        type: 'mixed sport',
+        status: "funded",
         contact: {
             register: "https://lists.cam.ac.uk/sympa/info/christs-tabletennis"
         }
@@ -528,10 +466,8 @@ export const societies: Society[] = [
         people: [
             { name: "Yong Yin Yap", crsid: "yyy29" }
         ],
-        tags: {
-            type: 'mixed sport',
-            status: "funded",
-        },
+        type: 'mixed sport',
+        status: "funded",
         contact: {
             whatsapp: "https://chat.whatsapp.com/GxujOwuuAcH2bOtM4lJiqp",
         }
@@ -542,10 +478,8 @@ export const societies: Society[] = [
         people: [
             { name: "Rachel Adkins", crsid: "rka33" }
         ],
-        tags: {
-            type: 'womens sport',
-            status: "funded",
-        },
+        type: 'womens sport',
+        status: "funded",
         contact: {
             facebookGroup: "CCCWomensFootball",
         }

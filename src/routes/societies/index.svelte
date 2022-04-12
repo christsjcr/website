@@ -31,15 +31,14 @@
             .map((x) => x.toLowerCase());
 
         filtered = sorted.filter((soc) => {
-            if (filterFunding && soc.tags.status !== filterFunding)
-                return false;
+            if (filterFunding && soc.status !== filterFunding) return false;
             if (
                 filterFunding == null &&
                 !showInactive &&
-                soc.tags.status === "inactive"
+                soc.status === "inactive"
             )
                 return false;
-            if (filterType && soc.tags.type !== filterType) return false;
+            if (filterType && soc.type !== filterType) return false;
 
             if (terms.length > 0) {
                 const title = soc.title.toLowerCase();
