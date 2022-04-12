@@ -65,7 +65,7 @@
                             💸 Independent
                         </Tag>
                     {/if}
-                    {#if society.status === "funded"}
+                    {#if society.status === "independent"}
                         <Tag
                             color="primary"
                             first
@@ -98,7 +98,7 @@
                             ⚤ Mixed Sport
                         </Tag>
                     {/if}
-                    {#if society.type === "academic"}
+                    {#if society.type === "subject"}
                         <Tag
                             color="grey"
                             tooltip="This society is affiliated with a subject."
@@ -148,15 +148,6 @@
                 expanded = true;
                 return false;
             }}>See more</a
-        >
-    {/if}
-    {#if expanded}
-        <a
-            href={null}
-            on:click={() => {
-                expanded = false;
-                return false;
-            }}>See less</a
         >
     {/if}
 
@@ -267,5 +258,14 @@
                 </div>
             {/if}
         </div>
+    {/if}
+    {#if expanded}
+        <a
+            href={null}
+            on:click={() => {
+                expanded = false;
+                return false;
+            }}>See less</a
+        >
     {/if}
 </div>
