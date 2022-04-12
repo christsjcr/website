@@ -27,6 +27,15 @@ module.exports = {
 			"error",
 			4
 		],
+		"object-curly-newline": [
+			"error",
+			{
+				"ObjectExpression": { "multiline": true, "minProperties": 3 },
+				"ObjectPattern": { "multiline": true },
+				"ImportDeclaration": { "multiline": true, "minProperties": 4 },
+				"ExportDeclaration": "never"
+			}
+		],
 		"max-len": [
 			"error",
 			{

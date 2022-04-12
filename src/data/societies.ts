@@ -157,9 +157,7 @@ export const societies: Society[] = [
         ],
         type: "subject",
         status: "independent",
-        contact: {
-            facebook: "christshistorysoc",
-        },
+        contact: { facebook: "christshistorysoc" },
     },
     {
         title: "Law Society", icon: "⚖",
@@ -185,9 +183,7 @@ export const societies: Society[] = [
         people: [
             { name: "Mikesh Patel", crsid: "mkp41" },
         ],
-        contact: {
-            facebookGroup: "1418390265042766",
-        },
+        contact: { facebookGroup: "1418390265042766" },
         type: "subject",
         status: "independent",
     },
@@ -226,9 +222,7 @@ export const societies: Society[] = [
         people: [
             { name: "James Proudfoot", crsid: "jp809" },
         ],
-        contact: {
-            facebook: "ChrOSS.0",
-        },
+        contact: { facebook: "ChrOSS.0" },
         status: "unfunded",
         type: "other",
     },
@@ -263,9 +257,7 @@ export const societies: Society[] = [
         ],
         type: "mixed sport",
         status: "independent",
-        contact: {
-            facebookGroup: "christsbadminton",
-        },
+        contact: { facebookGroup: "christsbadminton" },
     },
     {
         title: "Basketball", icon: "🏀",
@@ -345,9 +337,7 @@ export const societies: Society[] = [
         type: "mixed sport",
         status: "independent",
 
-        contact: {
-            facebookGroup: "753203991906817",
-        },
+        contact: { facebookGroup: "753203991906817" },
     },
     {
         title: "Marguerites", icon: "🏃‍♂️",
@@ -388,9 +378,7 @@ export const societies: Society[] = [
         type: "mens sport",
         status: "independent",
 
-        contact: {
-            whatsapp: "https://chat.whatsapp.com/G3kpNeAE2FE2peqA5cJqE8",
-        },
+        contact: { whatsapp: "https://chat.whatsapp.com/G3kpNeAE2FE2peqA5cJqE8" },
     },
     {
         title: "Mixed Lacrosse", icon: "🥍",
@@ -402,9 +390,7 @@ export const societies: Society[] = [
         ],
         type: "mixed sport",
         status: "independent",
-        contact: {
-            whatsapp: "https://chat.whatsapp.com/K4DdTRvOXLh5ClZ3F4D6Wf",
-        },
+        contact: { whatsapp: "https://chat.whatsapp.com/K4DdTRvOXLh5ClZ3F4D6Wf" },
     },
     {
         title: "Mixed Netball", icon: "🏀",
@@ -429,9 +415,7 @@ export const societies: Society[] = [
         ],
         type: "mixed sport",
         status: "independent",
-        contact: {
-            facebookGroup: "christssquash",
-        },
+        contact: { facebookGroup: "christssquash" },
     },
     {
         title: "Swimming", icon: "🏊‍♂️",
@@ -442,9 +426,7 @@ export const societies: Society[] = [
         ],
         type: "mixed sport",
         status: "independent",
-        contact: {
-            facebookGroup: "345514909131796",
-        },
+        contact: { facebookGroup: "345514909131796" },
     },
     {
         title: "Table Tennis", icon: "🏓",
@@ -455,9 +437,7 @@ export const societies: Society[] = [
         ],
         type: "mixed sport",
         status: "independent",
-        contact: {
-            register: "https://lists.cam.ac.uk/sympa/info/christs-tabletennis",
-        },
+        contact: { register: "https://lists.cam.ac.uk/sympa/info/christs-tabletennis" },
     },
     {
         title: "Volleyball", icon: "🏐",
@@ -468,9 +448,7 @@ export const societies: Society[] = [
         ],
         type: "mixed sport",
         status: "independent",
-        contact: {
-            whatsapp: "https://chat.whatsapp.com/GxujOwuuAcH2bOtM4lJiqp",
-        },
+        contact: { whatsapp: "https://chat.whatsapp.com/GxujOwuuAcH2bOtM4lJiqp" },
     },
     {
         title: "Women's Football", icon: "⚽",
@@ -480,8 +458,6 @@ export const societies: Society[] = [
         ],
         type: "womens sport",
         status: "independent",
-        contact: {
-            facebookGroup: "CCCWomensFootball",
-        },
+        contact: { facebookGroup: "CCCWomensFootball" },
     },
 ];
