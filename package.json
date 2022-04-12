@@ -21,6 +21,8 @@
     "bulma": "^0.9.3",
     "dotenv": "^16.0.0",
     "eslint": "^8.8.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-svelte3": "^3.2.1",
     "puppeteer": "^13.5.1",
     "sass": "^1.42.1",
@@ -33,12 +35,12 @@
   },
   "type": "module",
   "dependencies": {
+    "@creativebulma/bulma-tooltip": "^1.2.0",
     "@fortawesome/fontawesome-svg-core": "1.2",
     "@fortawesome/free-brands-svg-icons": "5.15",
     "@fortawesome/free-solid-svg-icons": "5",
     "bulma-switch": "^2.0.4",
     "bulma-timeline": "^3.0.5",
-    "@creativebulma/bulma-tooltip": "^1.2.0",
     "fontawesome-svelte": "^2.0.1",
     "svelte-markdown": "^0.2.1"
   }
