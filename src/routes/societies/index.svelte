@@ -12,7 +12,7 @@
         };
     }
 
-    let search: string = "";
+    let search = "";
 
     let filterFunding: "independent" | "unfunded" | "inactive" = null;
     let filterType: "mens sport" | "womens sport" | "mixed sport" | "subject" =

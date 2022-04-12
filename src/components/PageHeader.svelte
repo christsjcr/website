@@ -9,7 +9,7 @@
     export let titleSrc: string = null;
     export let description: string;
     export let size: "small" | "medium" | "large" = "small";
-    export let home: boolean = false;
+    export let home = false;
 
     let smallDelay = false;
     let mounted = false;

@@ -1,6 +1,6 @@
-import puppet from 'puppeteer';
-import 'dotenv/config';
-import fs from 'fs';
+import puppet from "puppeteer";
+import "dotenv/config";
+import fs from "fs";
 
 function zip(arr1, arr2, f) {
     const arr3 = [];
@@ -76,13 +76,13 @@ async function extract_days(page) {
     await page.$eval("#userid", (el, username) => el.value = username, username);
     await page.$eval("#pwd", (el, password) => el.value = password, password);
 
-    await page.click('input[name="submit"][value="Login"]');
-    await page.waitForSelector('#Week1');
+    await page.click("input[name=\"submit\"][value=\"Login\"]");
+    await page.waitForSelector("#Week1");
 
     const tbodies = (await page.$$("tbody")).slice(1);
 
     const start_date = (await tbodies[0].$eval("p", el => el.innerText))
-        .replace(/[^0-9.]/g, ' ')
+        .replace(/[^0-9.]/g, " ")
         .trim()
         .split(" ")
         .map(x => parseInt(x));
