@@ -44,71 +44,82 @@
                 </div>
             </div>
         </div>
-        <div class="column">
-            <div class="level is-mobile">
-                <div class="level-left">
-                    {#if society.status === "inactive"}
-                        <Tag
-                            color="grey"
-                            first
-                            tooltip="This society hasn't responded to our messages 💔"
-                        >
-                            😴 Inactive
-                        </Tag>
-                    {/if}
-                    {#if society.status === "unfunded"}
-                        <Tag
-                            color="warning"
-                            first
-                            tooltip="This society is active, but does not &nbsp; &nbsp; receive funding from the JCR."
-                        >
-                            💸 Independent
-                        </Tag>
-                    {/if}
-                    {#if society.status === "independent"}
-                        <Tag
-                            color="primary"
-                            first
-                            tooltip="This society is active and receiving funding from the JCR. "
-                        >
-                            💰 JCR Funded
-                        </Tag>
-                    {/if}
-                    {#if society.type === "mens sport"}
-                        <Tag
-                            color="info"
-                            tooltip="This society is primarily aimed at men's sport."
-                        >
-                            ♂ Men's Sport
-                        </Tag>
-                    {/if}
-                    {#if society.type === "womens sport"}
-                        <Tag
-                            color="danger"
-                            tooltip="This society is primarily aimed at women's sport."
-                        >
-                            ♀ Women's Sport
-                        </Tag>
-                    {/if}
-                    {#if society.type === "mixed sport"}
-                        <Tag
-                            color="grey"
-                            tooltip="This society is open to anyone, regardless of gender!"
-                        >
-                            ⚤ Mixed Sport
-                        </Tag>
-                    {/if}
-                    {#if society.type === "subject"}
-                        <Tag
-                            color="grey"
-                            tooltip="This society is affiliated with a subject."
-                        >
-                            🎓 Subject-Affiliated
-                        </Tag>
-                    {/if}
-                </div>
+        <div class="column is-narrow">
+            <div class="columns is-mobile is-multiline is-variable is-1">
+                {#if society.status === "inactive"}
+                    <Tag
+                        color="grey"
+                        tooltipSide="right"
+                        tooltip="This society hasn't responded to our messages 💔"
+                    >
+                        😴 Inactive
+                    </Tag>
+                {/if}
+                {#if society.status === "unfunded"}
+                    <Tag
+                        color="warning"
+                        tooltipSide="right"
+                        tooltip="This society is active, but does not &nbsp; &nbsp; receive funding from the JCR."
+                    >
+                        💸 Independent
+                    </Tag>
+                {/if}
+                {#if society.status === "independent"}
+                    <Tag
+                        color="primary"
+                        tooltipSide="right"
+                        tooltip="This society is active and receiving funding from the JCR."
+                    >
+                        💰 JCR Funded
+                    </Tag>
+                {/if}
+                {#if society.type === "mens sport"}
+                    <Tag
+                        color="info"
+                        tooltip="This society is primarily aimed at men's sport."
+                    >
+                        ♂ Men's Sport
+                    </Tag>
+                {/if}
+                {#if society.type === "womens sport"}
+                    <Tag
+                        color="danger"
+                        tooltip="This society is primarily aimed at women's sport."
+                    >
+                        ♀ Women's Sport
+                    </Tag>
+                {/if}
+                {#if society.type === "mixed sport"}
+                    <Tag
+                        color="grey"
+                        tooltip="This society is open to anyone, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; regardless of gender!"
+                    >
+                        ⚤ Mixed Sport
+                    </Tag>
+                {/if}
+                {#if society.type === "subject"}
+                    <Tag
+                        color="grey"
+                        tooltip="This society is affiliated with a subject, but open to everyone."
+                    >
+                        🎓 Subject-Affiliated
+                    </Tag>
+                {/if}
             </div>
         </div>
+        {#if society.notEndorsed}
+            <div class="column is-narrow">
+                <div class="columns is-mobile is-multiline is-variable is-1">
+                    <Tag
+                        color="dark"
+                        tooltipSide="right"
+                        tooltip="The practices of this society may be deemed controversial, and are not &nbsp; &nbsp; endorsed by the JCR."
+                    >
+                        ⚠ Caution
+                    </Tag>
+                </div>
+            </div>
+        {/if}
     </div>
 
     <div class="content">

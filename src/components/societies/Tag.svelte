@@ -7,17 +7,16 @@
         | "warning"
         | "danger";
 
+    export let tooltipSide: "bottom" | "right" = "bottom";
+
     export let tooltip: string;
-    export let first = false;
 </script>
 
-<div
-    class={`level-item tag is-${color} is-multiline has-tooltip-arrow ${
-        first
-            ? "has-tooltip-right has-tooltip-bottom-tablet has-tooltip-multiline"
-            : "has-tooltip-bottom"
-    }`}
-    data-tooltip={tooltip}
->
-    <slot />
+<div class="column is-narrow">
+    <div
+        class={`tag is-${color} has-tooltip-multiline has-tooltip-arrow has-tooltip-${tooltipSide} has-tooltip-bottom-tablet`}
+        data-tooltip={tooltip}
+    >
+        <slot />
+    </div>
 </div>
