@@ -75,7 +75,7 @@ const categories: RoleCategory[] = [
                 description:
                     "Oli, our Fourth Years' Officer, is planning to run another Fourth Year pub crawl and organise for all Fourth Years to go to Grad Hall together.",
             },
-        ]
+        ],
     },
     {
         category: "Diversity",
