@@ -8,7 +8,7 @@
         | "danger";
 
     export let tooltip: string;
-    export let first: boolean = false;
+    export let first = false;
 </script>
 
 <div

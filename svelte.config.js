@@ -1,6 +1,6 @@
 import adapter from "@sveltejs/adapter-static";
 import preprocess from "svelte-preprocess";
-import path from 'path';
+import path from "path";
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -9,7 +9,7 @@ const config = {
   preprocess: [
     preprocess({
       scss: {
-        prependData: '@import "src/variables.scss";',
+        prependData: "@import \"src/variables.scss\";",
       },
     }),
   ],
@@ -22,15 +22,15 @@ const config = {
     vite: {
       resolve: {
         alias: {
-          '$lib': path.resolve('./src/lib'),
-          '$components': path.resolve('./src/components'),
-          "$data": path.resolve('./src/data')
+          "$lib": path.resolve("./src/lib"),
+          "$components": path.resolve("./src/components"),
+          "$data": path.resolve("./src/data")
         }
       },
       css: {
         preprocessorOptions: {
           scss: {
-            additionalData: '@import "src/variables.scss";',
+            additionalData: "@import \"src/variables.scss\";",
           },
         },
       },

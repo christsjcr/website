@@ -1,6 +1,6 @@
 <script lang="ts">
     import { type Writable, writable } from "svelte/store";
-    import Meal from "./Meal.svelte";
+    import MealComponent from "./Meal.svelte";
     import menuJson from "$data/menu.json";
 
     type Meal = { mains: string[]; dessert: string };
@@ -31,13 +31,13 @@
         {#if currentMenu != null}
             <div class="column">
                 {#if currentMenu.weekend === true}
-                    <Meal header="🍳 Brunch" />
+                    <MealComponent header="🍳 Brunch" />
                 {:else}
-                    <Meal header="🥪 Lunch" data={currentMenu.lunch} />
+                    <MealComponent header="🥪 Lunch" data={currentMenu.lunch} />
                 {/if}
             </div>
             <div class="column">
-                <Meal header="🍕 Dinner" data={currentMenu.dinner} />
+                <MealComponent header="🍕 Dinner" data={currentMenu.dinner} />
             </div>
         {:else}
             <article class="message is-gray">

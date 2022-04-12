@@ -12,10 +12,10 @@
         };
     }
 
-    let search: string = "";
+    let search = "";
 
-    let filterFunding: "funded" | "unfunded" | "inactive" = null;
-    let filterType: "mens sport" | "womens sport" | "mixed sport" | "academic" =
+    let filterFunding: "independent" | "unfunded" | "inactive" = null;
+    let filterType: "mens sport" | "womens sport" | "mixed sport" | "subject" =
         null;
     let showInactive = false;
 
@@ -31,15 +31,14 @@
             .map((x) => x.toLowerCase());
 
         filtered = sorted.filter((soc) => {
-            if (filterFunding && soc.tags.status !== filterFunding)
-                return false;
+            if (filterFunding && soc.status !== filterFunding) return false;
             if (
                 filterFunding == null &&
                 !showInactive &&
-                soc.tags.status === "inactive"
+                soc.status === "inactive"
             )
                 return false;
-            if (filterType && soc.tags.type !== filterType) return false;
+            if (filterType && soc.type !== filterType) return false;
 
             if (terms.length > 0) {
                 const title = soc.title.toLowerCase();
@@ -103,7 +102,7 @@
                 <div class="select">
                     <select bind:value={filterFunding}>
                         <option value={null}>Any funding</option>
-                        <option value="funded">💰 JCR Funded</option>
+                        <option value="independent">💰 JCR Funded</option>
                         <option value="unfunded">💸 Independent</option>
                         <option value="inactive">😴 Inactive</option>
                     </select>
@@ -113,10 +112,11 @@
                 <div class="select">
                     <select bind:value={filterType}>
                         <option value={null}>All Types</option>
-                        <option value="academic">🎓 Academic</option>
                         <option value="mens sport">♂ Men's Sport</option>
                         <option value="womens sport">♀ Women's Sport</option>
                         <option value="mixed sport">⚤ Mixed Sport</option>
+                        <option value="subject">🎓 Subject-Affiliated</option>
+                        <option value="other">✨ Other</option>
                     </select>
                 </div>
             </div>
