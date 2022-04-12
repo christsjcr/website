@@ -103,7 +103,7 @@
                             color="grey"
                             tooltip="This society is affiliated with a subject."
                         >
-                            🎓 Academic
+                            🎓 Subject-Affiliated
                         </Tag>
                     {/if}
                 </div>
