@@ -309,7 +309,6 @@ export const societies: Society[] = [
         ],
         type: "womens sport",
         status: "unfunded",
-        notEndorsed: true,
     },
     {
         title: "Hot Wheelz Society",
@@ -347,7 +346,6 @@ export const societies: Society[] = [
         ],
         type: "mens sport",
         status: "unfunded",
-        notEndorsed: true,
     },
     {
         title: "Men's Football", icon: "⚽",
