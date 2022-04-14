@@ -26,7 +26,7 @@ export interface Society {
             url: string
         },
     },
-    status: "independent" | "unfunded" | "inactive";
+    status: "funded" | "independent" | "inactive";
     type: "mens sport" | "womens sport" | "mixed sport" | "subject" | "other",
     notEndorsed?: true,
 }
@@ -38,7 +38,7 @@ export const societies: Society[] = [
         people: [
             { name: "Romany Whittall", crsid: "raw82" },
         ],
-        status: "unfunded",
+        status: "independent",
         type: "other",
     },
     {
@@ -48,7 +48,7 @@ export const societies: Society[] = [
         ],
 
         type: "other",
-        status: "independent",
+        status: "funded",
     },
     {
         title: "Board Games Society",
@@ -68,7 +68,7 @@ export const societies: Society[] = [
             { name: "Ardon Pillay", crsid: "amp214" },
         ],
 
-        status: "independent",
+        status: "funded",
         type: "other",
     },
     {
@@ -80,7 +80,7 @@ export const societies: Society[] = [
         people: [
             { name: "Daniel Pereira", crsid: "dlo30" },
         ],
-        status: "unfunded",
+        status: "independent",
         type: "other",
         contact: {
             facebook: "ChristsADS",
@@ -100,7 +100,7 @@ export const societies: Society[] = [
             instagram: "sidchristscu",
             register: "https://forms.gle/BYZBKsyZQTY6X4Y78",
         },
-        status: "independent",
+        status: "funded",
         type: "other",
     },
     {
@@ -111,7 +111,7 @@ export const societies: Society[] = [
             { name: "James Tett", crsid: "jt738" },
         ],
         type: "subject",
-        status: "independent",
+        status: "funded",
         contact: {
             instagram: "christsdarwinsoc",
             facebook: "DarwinSociety",
@@ -130,7 +130,7 @@ export const societies: Society[] = [
             { name: "Aditya Jain", crsid: "aj563" },
         ],
         type: "subject",
-        status: "independent",
+        status: "funded",
         contact: {
             website: {
                 name: "christs.engineering",
@@ -157,7 +157,7 @@ export const societies: Society[] = [
             { name: "Millie Yule", crsid: "ay335" },
         ],
         type: "subject",
-        status: "independent",
+        status: "funded",
         contact: { facebook: "christshistorysoc" },
     },
     {
@@ -167,7 +167,7 @@ export const societies: Society[] = [
             { name: "Aravynd Atwal", crsid: "aa2154" },
         ],
         type: "subject",
-        status: "independent",
+        status: "funded",
     },
     {
         title: "Maths Society", icon: "📊",
@@ -176,7 +176,7 @@ export const societies: Society[] = [
             { name: "Alise Furse", crsid: "af704" },
         ],
         type: "subject",
-        status: "independent",
+        status: "funded",
     },
     {
         title: "Medical Society", icon: "🩺",
@@ -186,7 +186,7 @@ export const societies: Society[] = [
         ],
         contact: { facebookGroup: "1418390265042766" },
         type: "subject",
-        status: "independent",
+        status: "funded",
     },
     {
         title: "Music Society (CCMS)", icon: "🎶",
@@ -197,7 +197,7 @@ export const societies: Society[] = [
             { name: "Jemma Jeffrey", crsid: "jj536" },
         ],
         type: "subject",
-        status: "independent",
+        status: "funded",
         contact: {
             instagram: "ccmsofficial",
             facebook: "christsmusic",
@@ -213,7 +213,7 @@ export const societies: Society[] = [
         people: [
             { name: "Joel Gayford", crsid: "jhg41" },
         ],
-        status: "independent",
+        status: "funded",
         type: "other",
     },
     {
@@ -224,7 +224,7 @@ export const societies: Society[] = [
             { name: "James Proudfoot", crsid: "jp809" },
         ],
         contact: { facebook: "ChrOSS.0" },
-        status: "unfunded",
+        status: "independent",
         type: "other",
     },
     {
@@ -246,7 +246,7 @@ export const societies: Society[] = [
             register: "https://docs.google.com/forms/d/e/1FAIpQLSfQd1NZsAQBhCm2uPVTv416_zjGMT5NN38YQkV5aCHcfuP97w/viewform",
             email: "christswine@gmail.com",
         },
-        status: "independent",
+        status: "funded",
         type: "other",
     },
     {
@@ -257,7 +257,7 @@ export const societies: Society[] = [
             { name: "Richard Zhang", crsid: "lz429" },
         ],
         type: "mixed sport",
-        status: "independent",
+        status: "funded",
         contact: { facebookGroup: "christsbadminton" },
     },
     {
@@ -267,7 +267,7 @@ export const societies: Society[] = [
             { name: "Nicholas Montague-Jones", crsid: "nm704" },
         ],
         type: "mixed sport",
-        status: "independent",
+        status: "funded",
     },
     {
         title: "Boat Club", icon: "⛵",
@@ -276,7 +276,7 @@ export const societies: Society[] = [
             { name: "Richard Turner", crsid: "rjt87" },
         ],
         type: "mixed sport",
-        status: "unfunded",
+        status: "independent",
     },
     {
         title: "Climbing Club", icon: "🧗‍♀️",
@@ -285,7 +285,7 @@ export const societies: Society[] = [
             { name: "Ari Chan", crsid: "asc78" },
         ],
         type: "mixed sport",
-        status: "independent",
+        status: "funded",
     },
     {
         title: "Cricket Club", icon: "🏏",
@@ -294,13 +294,13 @@ export const societies: Society[] = [
             { name: "Satyam Verma", crsid: "sgv21" },
         ],
         type: "mixed sport",
-        status: "independent",
+        status: "funded",
     },
     {
         title: "Darts Corporation", icon: "🎯",
         description: "Darts Corporation aims to promote the sport of darts in Christ's, as a sport that can be played by anyone, regardless of skill or background.",
         type: "mixed sport",
-        status: "independent",
+        status: "funded",
     },
     {
         title: "Hippolytans", icon: "🏃‍♀️",
@@ -310,16 +310,19 @@ export const societies: Society[] = [
             { name: "Belle Rostron", crsid: "alr64" },
         ],
         type: "womens sport",
-        status: "unfunded",
+        status: "independent",
         contact: { register: "https://docs.google.com/forms/d/e/1FAIpQLSdtdf3GZb6divIoW7Dbv_UugwdV6BrURpnmCYOahSNke5kgRQ/viewform?usp=sf_link" },
     },
     {
         title: "Hot Wheelz Society",
-        description: "Hot Wheelz Society provides an opportunity for Christ's students to develop their roller skating, roller blading, scootering and skateboarding skills.",
+        description: "Hot Wheelz is Christ's open group dedicated to providing a safe and fun space for those interested in starting or developing their roller skating/blading/scootering/skateboarding skills. All abilities welcome!",
+        events: "The Hot Wheelz have regular meet ups so students can get on their wheels while meeting other enthuisatic roller sport lovers.",
         icon: "⛸",
         type: "mixed sport",
-        status: "independent",
-
+        status: "funded",
+        people: [
+            { name: "Rachel Adkins", crsid: "rka33" },
+        ],
     },
     {
         title: "Ladies Netball", icon: "🏀",
@@ -327,7 +330,7 @@ export const societies: Society[] = [
             { name: "Natasha Ross", "crsid": "cnr34" },
         ],
         type: "womens sport",
-        status: "unfunded",
+        status: "independent",
 
     },
     {
@@ -338,7 +341,7 @@ export const societies: Society[] = [
             { name: "Oliver Norbury", crsid: "ojrn2" },
         ],
         type: "mixed sport",
-        status: "independent",
+        status: "funded",
 
         contact: { facebookGroup: "753203991906817" },
     },
@@ -348,7 +351,7 @@ export const societies: Society[] = [
             { name: "Felix Asare", crsid: "fkaa2" },
         ],
         type: "mens sport",
-        status: "unfunded",
+        status: "independent",
     },
     {
         title: "Men's Football", icon: "⚽",
@@ -359,7 +362,7 @@ export const societies: Society[] = [
             { name: "Oli Lewis", crsid: "oel23" },
         ],
         type: "mens sport",
-        status: "independent",
+        status: "funded",
     },
     {
         title: "Men's Hockey", icon: "🏑",
@@ -368,7 +371,7 @@ export const societies: Society[] = [
             { name: "Abhimanyu Gowda", crsid: "ag2166" },
         ],
         type: "mens sport",
-        status: "independent",
+        status: "funded",
     },
     {
         title: "Men's Rugby Football", icon: "🏉",
@@ -378,7 +381,7 @@ export const societies: Society[] = [
             { name: "Harry Goodhew", crsid: "hfg23" },
         ],
         type: "mens sport",
-        status: "independent",
+        status: "funded",
 
         contact: { whatsapp: "https://chat.whatsapp.com/G3kpNeAE2FE2peqA5cJqE8" },
     },
@@ -391,7 +394,7 @@ export const societies: Society[] = [
             { name: "Noah Hatchwell", crsid: "nh545" },
         ],
         type: "mixed sport",
-        status: "independent",
+        status: "funded",
         contact: { whatsapp: "https://chat.whatsapp.com/K4DdTRvOXLh5ClZ3F4D6Wf" },
     },
     {
@@ -401,7 +404,7 @@ export const societies: Society[] = [
             { name: "Rebecca Tyson", crsid: "rjt83" },
         ],
         type: "mixed sport",
-        status: "independent",
+        status: "funded",
     },
     {
         title: "Rounders", icon: "⚾️",
@@ -416,7 +419,7 @@ export const societies: Society[] = [
             { name: "Olly Huggon", crsid: "oh282" },
         ],
         type: "mixed sport",
-        status: "independent",
+        status: "funded",
         contact: { facebookGroup: "christssquash" },
     },
     {
@@ -427,7 +430,7 @@ export const societies: Society[] = [
             { name: "Isabelle Zou", crsid: "ixz20" },
         ],
         type: "mixed sport",
-        status: "independent",
+        status: "funded",
         contact: { facebookGroup: "345514909131796" },
     },
     {
@@ -438,7 +441,7 @@ export const societies: Society[] = [
             { name: "Arjun Tapasvi", crsid: "adt44" },
         ],
         type: "mixed sport",
-        status: "independent",
+        status: "funded",
         contact: { register: "https://lists.cam.ac.uk/sympa/info/christs-tabletennis" },
     },
     {
@@ -449,17 +452,17 @@ export const societies: Society[] = [
             { name: "Yong Yin Yap", crsid: "yyy29" },
         ],
         type: "mixed sport",
-        status: "independent",
+        status: "funded",
         contact: { whatsapp: "https://chat.whatsapp.com/GxujOwuuAcH2bOtM4lJiqp" },
     },
     {
         title: "Women's Football", icon: "⚽",
-        description: "Christ's College Women's Football Club is the women's football team, which offers opportunities for those of all levels to play and socialise. It is currently joint with Churchill and Lucy Cavendish Colleges.",
+        description: "The women's football team is open to women and non-binary students at Christ's to play against other colleges in the league and in Cuppers. It is open to all abilities and is an opportunity to learn the sport as well as make new friends and have fun. sIt is currently joint with Churchill and Lucy Cavendish Colleges.",
         people: [
             { name: "Rachel Adkins", crsid: "rka33" },
         ],
         type: "womens sport",
-        status: "independent",
-        contact: { facebookGroup: "CCCWomensFootball" },
+        status: "funded",
+        contact: { facebookGroup: "CCCWomensFootball", instagram: "chuchristscavwomens" },
     },
 ];

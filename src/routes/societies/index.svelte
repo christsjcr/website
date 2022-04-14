@@ -14,7 +14,7 @@
 
     let search = "";
 
-    let filterFunding: "independent" | "unfunded" | "inactive" = null;
+    let filterFunding: "funded" | "independent" | "inactive" = null;
     let filterType: "mens sport" | "womens sport" | "mixed sport" | "subject" =
         null;
     let showInactive = false;
@@ -102,8 +102,8 @@
                 <div class="select">
                     <select bind:value={filterFunding}>
                         <option value={null}>Any funding</option>
-                        <option value="independent">💰 JCR Funded</option>
-                        <option value="unfunded">💸 Independent</option>
+                        <option value="funded">💰 JCR Funded</option>
+                        <option value="independent">💸 Independent</option>
                         <option value="inactive">😴 Inactive</option>
                     </select>
                 </div>
