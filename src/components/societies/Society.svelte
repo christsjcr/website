@@ -55,7 +55,7 @@
                         😴 Inactive
                     </Tag>
                 {/if}
-                {#if society.status === "unfunded"}
+                {#if society.status === "independent"}
                     <Tag
                         color="warning"
                         tooltipSide="right"
@@ -64,7 +64,7 @@
                         💸 Independent
                     </Tag>
                 {/if}
-                {#if society.status === "independent"}
+                {#if society.status === "funded"}
                     <Tag
                         color="primary"
                         tooltipSide="right"
