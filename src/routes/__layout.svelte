@@ -58,6 +58,10 @@
                     label: "Academic & Careers",
                 },
                 { route: "/resources/welfare", label: "Welfare" },
+                {
+                    route: "/resources/legacies-of-enslavement",
+                    label: "Legacies of Enslavement",
+                },
             ],
         },
     ];
