@@ -85,7 +85,7 @@ const resources: {
             },
         ],
     },
-    academicandcareers: {
+    "academic-and-careers": {
         title: "Academic & Careers",
         categories: [
             {

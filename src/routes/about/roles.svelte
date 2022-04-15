@@ -14,7 +14,7 @@
 <PageHeader
     current="/about/roles"
     title="Committee Roles"
-    description="The JCR Committee is made up of a group of Christ's students who have been elected to represent the views of the undergraduate students at college and university level. The central role of the JCR Committee is to represent the interests and look after the welfare of the student body."
+    description="The JCR Committee is comprised of students who have been elected to represent the views of Christ's undergrads."
 >
     <div class="content">
         <blockquote>

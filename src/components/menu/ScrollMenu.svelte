@@ -47,7 +47,7 @@
     export let categories: MenuCategory[];
 </script>
 
-<aside class="menu my-6" id="top">
+<aside class="menu mt-6" id="top">
     <ul class="menu-list">
         {#each categories as category}
             <li>

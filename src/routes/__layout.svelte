@@ -54,10 +54,14 @@
             children: [
                 { route: "/resources/college", label: "College Life" },
                 {
-                    route: "/resources/academicandcareers",
+                    route: "/resources/academic-and-careers",
                     label: "Academic & Careers",
                 },
                 { route: "/resources/welfare", label: "Welfare" },
+                {
+                    route: "/resources/legacies-of-enslavement",
+                    label: "Legacies of Enslavement",
+                },
             ],
         },
     ];

@@ -6,7 +6,7 @@
 <PageHeader
     current="/about"
     title="About"
-    description="Christ's JCR is the undergraduate student body at Christ's College, Cambridge. We are your student-elected Committee, representing your interests to help you make the most of your time here!"
+    description="Christ's JCR is the undergraduate student body at Christ's College, Cambridge."
 >
     <div class="content">
         <blockquote>
