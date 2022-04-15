@@ -34,22 +34,23 @@
             <div class="column is-one-third">
                 <NotificationLink
                     href="/about/roles"
-                    title="The Committee"
+                    title="The Committee 🐐"
                     content="Get to know the current members of the JCR Committee!"
                 />
             </div>
             <div class="column is-one-third">
                 <NotificationLink
-                    title="Prospective Students"
-                    content="Interested in applying to Christ's? Read our alternative
-                prospectus!"
+                    href="/societies"
+                    title="Societies 🎭"
+                    content="Interested in trying something new? Explore a complete list of Christ's societies!"
                 />
             </div>
             <div class="column is-one-third">
                 <NotificationLink
-                    title="Christ's Freshers"
-                    content="Take a look at our freshers' guide, or check out the
-                freshers' week timetable!"
+                    href="/resources/legacies-of-enslavement"
+                    title="Legacies of 
+                    Enslavement 📜"
+                    content="Read about the 2021 summer research project, and get involved with the upcoming one!"
                 />
             </div>
         </div>
