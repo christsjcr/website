@@ -25,7 +25,7 @@
 </script>
 
 <PageHeader
-    current="/legacies-of-enslavement"
+    current="/resources/legacies-of-enslavement"
     title="Legacies of Enslavement"
     size="small"
     description="A research project to further understand the connection between members of the College, and the legacies of enslavement."
