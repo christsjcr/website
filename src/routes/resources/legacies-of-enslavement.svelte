@@ -32,6 +32,7 @@
 >
     <SideMenu {categories}>
         <div class="content">
+            <br />
             <h2 id="Introduction">Introduction</h2>
             <p>
                 In the summer of 2021, four Christ's students worked for a month
@@ -68,11 +69,12 @@
                 </li>
                 <li>
                     Leah Wild - <a
-                        href="/doc/legacies-of-enslavement/Leah Wild Report.pdf"
+                        href="/doc/legacies-of-enslavement/L. Wild Report.pdf"
                         target="_blank">download</a
                     >
                 </li>
             </ul>
+            <br />
             <h2 id="The Project">The Project</h2>
             <p>
                 The initial task this year will be to construct
@@ -133,7 +135,7 @@
                     <li>Passcode: 599841</li>
                 </ul>
             </div>
-
+            <br />
             <h3 id="process">The Process</h3>
             <ul>
                 <li>
@@ -166,6 +168,7 @@
                     <b><u>by Friday 16 September</u></b>.
                 </li>
             </ul>
+            <br />
             <h3 id="practicalities">The Practicalities</h3>
             <ul>
                 <li>
@@ -181,6 +184,7 @@
                     submission of receipts.
                 </li>
             </ul>
+            <br />
             <h3 id="individuals">Key Individuals</h3>
             <p>Here are some key individuals for possible further research:</p>
             <ul>
