@@ -172,7 +172,7 @@ const resources: {
                     },
                     {
                         title: "JCR Welfare Officers",
-                        url: "http://localhost:3000/about/roles#Welfare",
+                        url: "http://localhost:3000/about/committee#Welfare Officers",
                         info: [
                             "Ossie: [welfare-m@thejcr.co.uk](mailto:welfare-m@thejcr.co.uk)",
                             "Christina: [welfare-f@thejcr.co.uk](mailto:welfare-f@thejcr.co.uk)",

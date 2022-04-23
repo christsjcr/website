@@ -39,7 +39,7 @@
             route: "/about",
             label: "About",
             children: [
-                { route: "/about/roles", label: "Roles" },
+                { route: "/about/committee", label: "Committee" },
                 { route: "/about/constitution", label: "Constitution" },
                 { route: "/about/meetings", label: "Meetings" },
             ],

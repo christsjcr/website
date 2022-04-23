@@ -18,8 +18,8 @@
     <div class="columns my-6">
         <div class="column is-one-third">
             <NotificationLink
-                href="/about/roles"
-                title="Roles"
+                href="/about/committee"
+                title="Committee"
                 content="Get to know the current members of the JCR Committee!"
             />
         </div>

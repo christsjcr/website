@@ -33,7 +33,7 @@
         <div class="columns my-6">
             <div class="column is-one-third">
                 <NotificationLink
-                    href="/about/roles"
+                    href="/about/committee"
                     title="The Committee 🐐"
                     content="Get to know the current members of the JCR Committee!"
                 />

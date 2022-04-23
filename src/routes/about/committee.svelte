@@ -3,7 +3,7 @@
 
     import width, { desktop } from "$lib/width";
     import SideMenu from "$components/menu/SideMenu.svelte";
-    import roles from "$data/roles";
+    import committee from "$data/committee";
 
     import { scrollTo } from "$components/menu/ScrollMenu.svelte";
 
@@ -12,8 +12,8 @@
 </script>
 
 <PageHeader
-    current="/about/roles"
-    title="Committee Roles"
+    current="/about/committee"
+    title="JCR Committee"
     description="The JCR Committee is comprised of students who have been elected to represent the views of Christ's undergrads."
 >
     <div class="content">
@@ -28,8 +28,8 @@
             responsibility. Find out more about each position below!
         </blockquote>
     </div>
-    <SideMenu categories={roles}>
-        {#each roles as category}
+    <SideMenu categories={committee}>
+        {#each committee as category}
             <div class="section px-0" id={category.category}>
                 <h2 class="title is-2">
                     {category.category}
@@ -43,7 +43,7 @@
                         <div class="column">
                             <img
                                 class="profile"
-                                src={`/img/roles/${role.id}.webp`}
+                                src={`/img/committee/${role.id}.webp`}
                                 alt={role.title}
                             />
                         </div>
