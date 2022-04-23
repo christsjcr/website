@@ -3,7 +3,7 @@ import type { ResourcePage } from "$lib/format";
 const resources: {
     [x: string]: ResourcePage;
 } = {
-    college: {
+    "college-life": {
         title: "College Life",
         categories: [
             {
