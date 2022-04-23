@@ -39,7 +39,7 @@
             route: "/about",
             label: "About",
             children: [
-                { route: "/about/roles", label: "Roles" },
+                { route: "/about/committee", label: "Committee" },
                 { route: "/about/constitution", label: "Constitution" },
                 { route: "/about/meetings", label: "Meetings" },
             ],
@@ -52,7 +52,7 @@
             route: "/resources",
             label: "Resources",
             children: [
-                { route: "/resources/college", label: "College Life" },
+                { route: "/resources/college-life", label: "College Life" },
                 {
                     route: "/resources/academic-and-careers",
                     label: "Academic & Careers",

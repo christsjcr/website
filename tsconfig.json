@@ -14,7 +14,11 @@
 			"$data/*": [
 				"src/data/*"
 			]
-		}
+		},
+		"resolveJsonModule": true,
+		"allowSyntheticDefaultImports": true,
+		"moduleResolution": "node",
+		"module": "ES2020"
 	},
 	"include": [
 		"src/**/*.d.ts",
