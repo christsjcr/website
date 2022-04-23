@@ -14,7 +14,9 @@
 			"$data/*": [
 				"src/data/*"
 			]
-		}
+		},
+		"resolveJsonModule": true,
+		"allowSyntheticDefaultImports": true,
 	},
 	"include": [
 		"src/**/*.d.ts",
