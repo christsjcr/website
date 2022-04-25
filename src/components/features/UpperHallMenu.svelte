@@ -49,5 +49,6 @@
                 </div>
             </article>
         {/if}
+        <slot />
     </div>
 </div>

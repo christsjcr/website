@@ -2,6 +2,7 @@
     export let href: string = null;
     export let title: string;
     export let content: string;
+    export let external: boolean = false;
 
     let hovered = false;
 
@@ -12,6 +13,7 @@
     href={href ?? $page.url.toString()}
     on:mouseenter={() => (hovered = true)}
     on:mouseleave={() => (hovered = false)}
+    target={external ? "_blank" : ""}
 >
     <div
         class="notification"

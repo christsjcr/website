@@ -6,6 +6,7 @@
     import Mode from "$components/Mode.svelte";
     import type { Writable } from "svelte/store";
     import UpperHallMenu from "$components/features/UpperHallMenu.svelte";
+    import TitleBox from "$components/elements/TitleBox.svelte";
 
     let mode: Writable<"current_student" | "visitor">;
 </script>
@@ -55,6 +56,26 @@
             </div>
         </div>
     {:else}
+        <h2 class="title is-2">Updates & Feedback</h2>
+        <div class="columns m-1 is-desktop">
+            <div class="column is-two-thirds-desktop">
+                <TitleBox header="Updates ⚙️">
+                    <div class="content">
+                        <p>Nothing to see here at the moment!</p>
+                    </div>
+                </TitleBox>
+            </div>
+            <div class="column is-half is-one-third-desktop">
+                <NotificationLink
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSchG-F00FNgO02T5OepdfuFSkVi7HgnfpI0a6qDjhhXctG6Hw/viewform"
+                    title="Contact Form ✍️"
+                    content="If you want to provide feedback, suggestions, or general problems for the JCR to consider, please use this form!
+                        The JCR is there to work for you, so any and all feedback is welcome."
+                    external
+                />
+            </div>
+        </div>
+        <br />
         <h2 class="title is-2">Upper Hall Menu</h2>
         <UpperHallMenu />
 
