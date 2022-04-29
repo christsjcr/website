@@ -188,6 +188,14 @@ const resources: {
                             "Request an Appointment: [link](https://www.cambridgesu.co.uk/support/advice/contact/)",
                         ],
                     },
+                    {
+                        title: "Togetherall",
+                        url: "https://togetherall.com/en-gb/",
+                        info: [
+                            "A safe, anonymous online space providing 24/7 access to an online global community to share your thoughts, complete self-guided courses, and help manage your wellbeing",
+                            "You can sign up using your Cambridge email address",
+                        ],
+                    },
                 ],
             },
             {
@@ -216,19 +224,13 @@ const resources: {
                             "Address: Lime Tree Clinic, Brookfields Hospital, Sexual Health and Contraception, 351 Mill Road, Cambridge, CB13DF",
                         ],
                     },
+
                 ],
             },
             {
                 category: "Mental Health",
                 items: [
-                    {
-                        title: "Togetherall",
-                        url: "https://togetherall.com/en-gb/",
-                        info: [
-                            "A safe, anonymous online space providing 24/7 access to an online global community to share your thoughts, complete self-guided courses, and help manage your wellbeing",
-                            "You can sign up using your Cambridge email address",
-                        ],
-                    },
+
                     {
                         title: "Samaritans",
                         url: "https://www.samaritans.org/",
@@ -262,7 +264,7 @@ const resources: {
                 ],
             },
             {
-                category: "Targeted Support",
+                category: "Disabilities",
                 items: [
                     {
                         title: "Disability Resource Centre",
@@ -275,6 +277,19 @@ const resources: {
                             "Phone: [01223 332301](tel:01223332301)",
                         ],
                     },
+                    {
+                        title: "Cambridge SU Disabled Students' Campain",
+                        url: "https://www.disabled.cusu.cam.ac.uk/",
+                        info: [
+                            "The campaign and community for disabled students within the University of Cambridge.",
+                            "Comprised of all Cam students who have or have had a disability, as well as the DSC committee (including the full time Disabled Students' Officer, and college and campaign DSOs).",
+                        ],
+                    },
+                ],
+            },
+            {
+                category: "LGBT+",
+                items: [
                     {
                         title: "Switchboard",
                         url: "https://switchboard.lgbt/",
