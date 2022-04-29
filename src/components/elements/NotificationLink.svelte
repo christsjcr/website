@@ -3,6 +3,7 @@
     export let title: string;
     export let content: string;
     export let external: boolean = false;
+    export let grey: boolean = false;
 
     let hovered = false;
 
@@ -17,8 +18,10 @@
 >
     <div
         class="notification"
-        class:is-primary={!hovered}
+        class:is-primary={!grey && !hovered}
         class:is-link={hovered}
+        class:is-grey={grey && !hovered}
+        class:has-text-dark={grey && !hovered}
     >
         <h3 class="title is-5">{title}</h3>
         <p class="block">
