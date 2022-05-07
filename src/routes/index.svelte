@@ -149,8 +149,8 @@
                         </li>
                         <li>
                             <a
-                                href="https://intranet.christs.cam.ac.uk/Shibboleth.sso/Login?target=%2Fshibboleth%2Flogin%3Fshiblogin%3D1%26destination%3D%2Fmealbooking%2FEPOS.aspx"
-                                target="_blank">College Balance</a
+                                href="https://docs.google.com/forms/d/e/1FAIpQLSf1Hz_a6Ceg49VoDovKoQNxaTmPi6pRGYHd3nVtbtSjcxqkAw/viewform"
+                                target="_blank">Prescription Scheme</a
                             >
                         </li>
                     </ul>
