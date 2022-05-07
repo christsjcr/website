@@ -1,4 +1,6 @@
 <script lang="ts">
+    import { click } from "$lib/track";
+
     import { onMount } from "svelte";
     import { type Writable, writable } from "svelte/store";
 
@@ -32,10 +34,14 @@
         type="checkbox"
         class="switch"
         bind:checked={currentStudent}
-        on:click={() =>
-            ($mode =
-                $mode === "current_student" ? "visitor" : "current_student")}
+        on:click={() => {
+            $mode = $mode === "current_student" ? "visitor" : "current_student";
+            click(
+                `current-student-${$mode === "current_student" ? "on" : "off"}`
+            );
+        }}
     />
+
     <!-- label needed, otherwise bulma-switch breaks -->
     <label for="modeSwitch" />
 </label>

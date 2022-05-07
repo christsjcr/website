@@ -101,6 +101,15 @@ const resources: {
                         ],
                     },
                     {
+                        title: "Christ's Library & Archives",
+                        url: "https://www.christs.cam.ac.uk/library-archives",
+                        info: [
+                            "Get started: [link](https://www.christs.cam.ac.uk/library)",
+                            "Accessibility information: [link](https://www.christs.cam.ac.uk/assist)",
+                            "Get help with anxiety: [link](https://www.christs.cam.ac.uk/libanx)",
+                        ],
+                    },
+                    {
                         title: "iDiscover",
                         url: "https://idiscover.lib.cam.ac.uk/primo-explore/search?vid=44CAM_PROD",
                         info: [

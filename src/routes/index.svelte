@@ -6,7 +6,7 @@
     import Mode from "$components/Mode.svelte";
     import type { Writable } from "svelte/store";
     import UpperHallMenu from "$components/features/UpperHallMenu.svelte";
-    import TitleBox from "$components/elements/TitleBox.svelte";
+    import TrackedLink from "$components/elements/TrackedLink.svelte";
 
     let mode: Writable<"current_student" | "visitor">;
 </script>
@@ -89,15 +89,16 @@
                     <subtitle class="subtitle">Food</subtitle>
                     <ul class="list">
                         <li>
-                            <a
+                            <TrackedLink
                                 href={`https://intranet.christs.cam.ac.uk/upper-hall-menus#Week${week()}`}
-                                target="_blank">Menu</a
+                                id="intranet-menu"
+                                external>Menu</TrackedLink
                             >
                         </li>
                         <li>
-                            <a
+                            <TrackedLink
                                 href="https://intranet.christs.cam.ac.uk/Shibboleth.sso/Login?target=%2Fshibboleth%2Flogin%3Fshiblogin%3D1%26destination%3D%2Fmealbooking%2F"
-                                target="_blank">Meal booking</a
+                                id="meal-booking">Meal booking</TrackedLink
                             >
                         </li>
                     </ul>
@@ -108,15 +109,17 @@
                     <subtitle class="subtitle">Facilities</subtitle>
                     <ul class="list">
                         <li>
-                            <a
+                            <TrackedLink
                                 href="https://christscollege.roombookingsystem.co.uk/overviewday"
-                                target="_blank">Room booking</a
+                                id="room-booking"
+                                external>Room booking</TrackedLink
                             >
                         </li>
                         <li>
-                            <a
+                            <TrackedLink
                                 href="https://intranet.christs.cam.ac.uk/fault-reporting"
-                                target="_blank">Fault reporting</a
+                                id="fault-reporting"
+                                external>Fault reporting</TrackedLink
                             >
                         </li>
                     </ul>
@@ -127,11 +130,16 @@
                     <subtitle class="subtitle">Porters</subtitle>
                     <ul class="list">
                         <li>
-                            <a href="tel:+44-1223-334900">+44 1223 334900</a>
+                            <TrackedLink
+                                href="tel:+44-1223-334900"
+                                id="phone-porters">+44 1223 334900</TrackedLink
+                            >
                         </li>
                         <li>
-                            <a href="mailto:porters@christs.cam.ac.uk"
-                                >porters@christs.cam.ac.uk</a
+                            <TrackedLink
+                                href="mailto:porters@christs.cam.ac.uk"
+                                id="email-porters"
+                                >porters@christs.cam.ac.uk</TrackedLink
                             >
                         </li>
                     </ul>
@@ -142,15 +150,17 @@
                     <subtitle class="subtitle">Finance</subtitle>
                     <ul class="list">
                         <li>
-                            <a
+                            <TrackedLink
                                 href="https://docs.google.com/forms/d/e/1FAIpQLSdjETgdH68GhpuQMi8jonTSEwZYkElj1VkjHfTC13kJCPmBFw/viewform"
-                                target="_blank">Reimbursement</a
+                                id="reimbursement-form"
+                                external>Reimbursement</TrackedLink
                             >
                         </li>
                         <li>
-                            <a
-                                href="https://intranet.christs.cam.ac.uk/Shibboleth.sso/Login?target=%2Fshibboleth%2Flogin%3Fshiblogin%3D1%26destination%3D%2Fmealbooking%2FEPOS.aspx"
-                                target="_blank">College Balance</a
+                            <TrackedLink
+                                href="https://docs.google.com/forms/d/e/1FAIpQLSf1Hz_a6Ceg49VoDovKoQNxaTmPi6pRGYHd3nVtbtSjcxqkAw/viewform"
+                                id="prescription-form"
+                                external>Prescription Scheme</TrackedLink
                             >
                         </li>
                     </ul>

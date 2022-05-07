@@ -19,6 +19,7 @@
     } from "@fortawesome/free-solid-svg-icons";
     import { FontAwesomeIcon } from "fontawesome-svelte";
     import WidthUpdater from "$components/WidthUpdater.svelte";
+    import TrackedLink from "$components/elements/TrackedLink.svelte";
 
     library.add(
         faInstagram,
@@ -98,26 +99,28 @@
         <div class="container has-text-centered">
             <div class="level is-mobile">
                 <div class="level-item has-text-centered">
-                    <a
+                    <TrackedLink
                         href="https://www.instagram.com/christsjcr/"
-                        target="_blank"
+                        id="instagram"
+                        external
                     >
                         <span class="icon is-large">
                             <FontAwesomeIcon icon={faInstagram} size="2x" />
                         </span>
                         <p class="heading">@christsjcr</p>
-                    </a>
+                    </TrackedLink>
                 </div>
                 <div class="level-item has-text-centered">
-                    <a
+                    <TrackedLink
                         href="https://www.facebook.com/ChristsJCR"
-                        target="_blank"
+                        id="facebook"
+                        external
                     >
                         <span class="icon is-large">
                             <FontAwesomeIcon icon={faFacebook} size="2x" />
                         </span>
                         <p class="heading">@ChristsJCR</p>
-                    </a>
+                    </TrackedLink>
                 </div>
             </div>
             <p>© Christ's JCR 2021</p>
