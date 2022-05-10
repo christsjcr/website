@@ -2,6 +2,7 @@
     import { onMount } from "svelte";
     import { page } from "$lib/page";
     import width, { tablet } from "$lib/width";
+    import Breadcrumbs from "./elements/Breadcrumbs.svelte";
 
     export let current: string;
     export let background: { src: string; alt: string } = null;
@@ -23,21 +24,6 @@
         type: background == null ? "primary" : "image",
         header: img,
     });
-
-    let path: { route: string; name: string; last: boolean }[] = [];
-
-    $: {
-        let split = current.split("/").slice(1);
-        path = split.map((x, i) => ({
-            route: "/" + split.slice(0, i + 1).join("/"),
-            name: x
-                .split("-")
-                .map((x) => x.charAt(0).toUpperCase() + x.slice(1))
-                .join(" ")
-                .replace(" and ", " & "),
-            last: i == split.length - 1,
-        }));
-    }
 
     onMount(() => {
         mounted = true;
@@ -109,27 +95,7 @@
 
 <div class="container">
     <div id="inner" class="mx-4 my-5" class:mx-5={$width >= tablet.min}>
-        {#if path.length > 1}
-            <div class="block mb-3 mt-6 px-2">
-                <nav
-                    class="breadcrumb is-medium has-arrow-separator"
-                    aria-label="breadcrumbs"
-                >
-                    <ul>
-                        {#each path as item}
-                            <li class:is-active={item.last}>
-                                <a
-                                    aria-current={item.last ? "page" : false}
-                                    href={item.route}>{item.name}</a
-                                >
-                            </li>
-                        {/each}
-                    </ul>
-                </nav>
-            </div>
-            <hr />
-        {/if}
-
+        <Breadcrumbs />
         {#if $$slots.description}
             <div class="content">
                 <blockquote>
