@@ -8,7 +8,7 @@
     current="/resources"
     title="Resources"
     size="medium"
-    description="Resources for undergraduate students of Christ's College, Cambridge."
+    metaDescription="Resources for undergraduate students of Christ's College, Cambridge."
 >
     <div class="columns my-6">
         <div class="column is-one-third">

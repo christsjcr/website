@@ -5,7 +5,7 @@
 <PageHeader
     current="/about/meetings"
     title="Meetings"
-    description="Get information on JCR meetings, and learn how you can make sure that your voice is heard."
+    metaDescription="Get information on JCR meetings, and learn how you can make sure that your voice is heard."
 >
     <div class="content">
         <h1>Open Meetings</h1>

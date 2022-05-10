@@ -5,7 +5,7 @@
 <PageHeader
     current="/about/constitution"
     title="Constitution"
-    description="The JCR is guided by a Constitution which dictates the structure of the Committee and its responsibilities to Christ's students."
+    metaDescription="The JCR is guided by a Constitution which dictates the structure of the Committee and its responsibilities to Christ's students."
 >
     <div class="content">
         <blockquote>

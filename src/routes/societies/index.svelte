@@ -59,7 +59,7 @@
     current="/societies"
     title="Societies"
     size="small"
-    description="Resources for undergraduate students of Christ's College, Cambridge."
+    metaDescription="Resources for undergraduate students of Christ's College, Cambridge."
 >
     <div class="block content">
         <blockquote>

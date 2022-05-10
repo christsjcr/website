@@ -15,7 +15,7 @@
     current="/"
     title="Christ's JCR"
     titleSrc="/img/logo_big.webp"
-    description="Christ's JCR is the undergraduate student body at Christ's College, Cambridge."
+    metaDescription="Christ's JCR is the undergraduate student body at Christ's College, Cambridge."
     background={{
         src: "/img/home.webp",
         alt: "Christ's College Second Court",

@@ -6,7 +6,7 @@
 <PageHeader
     current="/about"
     title="About"
-    description="Christ's JCR is the undergraduate student body at Christ's College, Cambridge."
+    metaDescription="Christ's JCR is the undergraduate student body at Christ's College, Cambridge."
 >
     <div class="content">
         <blockquote>

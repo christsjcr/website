@@ -7,7 +7,7 @@
     export let background: { src: string; alt: string } = null;
     export let title: string;
     export let titleSrc: string = null;
-    export let description: string;
+    export let metaDescription: string;
     export let size: "small" | "medium" | "large" = "small";
     export let home = false;
 
@@ -44,7 +44,7 @@
 
 <svelte:head>
     <title>{home ? "Christ's JCR" : `${title} | Christ's JCR`}</title>
-    <meta name="description" content={description} />
+    <meta name="description" content={metaDescription} />
     <meta
         name="robots"
         content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
