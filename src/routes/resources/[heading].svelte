@@ -12,7 +12,7 @@
 <PageHeader
     current={`/resources/${heading}`}
     title={resourcePage.title}
-    description={`${resourcePage.title} resources for undergraduate students of Christ's College, Cambridge.`}
+    metaDescription={`${resourcePage.title} resources for undergraduate students of Christ's College, Cambridge.`}
 >
     <div class="outer">
         <div class="inner">

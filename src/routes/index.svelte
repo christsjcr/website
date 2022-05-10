@@ -15,7 +15,7 @@
     current="/"
     title="Christ's JCR"
     titleSrc="/img/logo_big.webp"
-    description="Christ's JCR is the undergraduate student body at Christ's College, Cambridge."
+    metaDescription="Christ's JCR is the undergraduate student body at Christ's College, Cambridge."
     background={{
         src: "/img/home.webp",
         alt: "Christ's College Second Court",
@@ -23,12 +23,10 @@
     size="large"
     home
 >
-    <div class="content">
-        <blockquote>
-            Christ's JCR is the undergraduate student body at Christ's College,
-            Cambridge. We are your student-elected Committee, representing your
-            interests to help you make the most of your time here!
-        </blockquote>
+    <div slot="description">
+        Christ's JCR is the undergraduate student body at Christ's College,
+        Cambridge. We are your student-elected Committee, representing your
+        interests to help you make the most of your time here!
     </div>
     {#if $mode === "visitor"}
         <div class="columns my-6">

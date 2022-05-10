@@ -6,14 +6,12 @@
 <PageHeader
     current="/about"
     title="About"
-    description="Christ's JCR is the undergraduate student body at Christ's College, Cambridge."
+    metaDescription="Christ's JCR is the undergraduate student body at Christ's College, Cambridge."
 >
-    <div class="content">
-        <blockquote>
-            Christ's JCR is the undergraduate student body at Christ's College,
-            Cambridge. We are your student-elected Committee, representing your
-            interests to help you make the most of your time here!
-        </blockquote>
+    <div slot="description">
+        Christ's JCR is the undergraduate student body at Christ's College,
+        Cambridge. We are your student-elected Committee, representing your
+        interests to help you make the most of your time here!
     </div>
     <div class="columns my-6">
         <div class="column is-one-third">
