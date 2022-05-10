@@ -18,6 +18,7 @@
         and often undergoes major revisions to suit the changing needs of the
         Christ's student body.
     </div>
+    <br />
     <div class="content">
         <h1><a href="/doc/constitution.pdf" download>Download</a></h1>
         <h1>Preview</h1>

@@ -24,6 +24,21 @@
         header: img,
     });
 
+    let path: { route: string; name: string; last: boolean }[] = [];
+
+    $: {
+        let split = current.split("/").slice(1);
+        path = split.map((x, i) => ({
+            route: "/" + split.slice(0, i + 1).join("/"),
+            name: x
+                .split("-")
+                .map((x) => x.charAt(0).toUpperCase() + x.slice(1))
+                .join(" ")
+                .replace(" and ", " & "),
+            last: i == split.length - 1,
+        }));
+    }
+
     onMount(() => {
         mounted = true;
         setTimeout(() => (smallDelay = true), 300);
@@ -94,13 +109,35 @@
 
 <div class="container">
     <div id="inner" class="mx-4 my-5" class:mx-5={$width >= tablet.min}>
-        <div class="content">
-            <blockquote>
-                {#if $$slots.description}
+        {#if path.length > 1}
+            <div class="block mb-3 mt-6 px-2">
+                <nav
+                    class="breadcrumb is-medium has-arrow-separator"
+                    aria-label="breadcrumbs"
+                >
+                    <ul>
+                        {#each path as item}
+                            <li class:is-active={item.last}>
+                                <a
+                                    aria-current={item.last ? "page" : false}
+                                    href={item.route}>{item.name}</a
+                                >
+                            </li>
+                        {/each}
+                    </ul>
+                </nav>
+            </div>
+            <hr />
+        {/if}
+
+        {#if $$slots.description}
+            <div class="content">
+                <blockquote>
                     <slot name="description" />
-                {/if}
-            </blockquote>
-        </div>
+                </blockquote>
+            </div>
+        {/if}
+
         <slot />
     </div>
 </div>
