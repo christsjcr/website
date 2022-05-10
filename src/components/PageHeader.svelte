@@ -94,6 +94,13 @@
 
 <div class="container">
     <div id="inner" class="mx-4 my-5" class:mx-5={$width >= tablet.min}>
+        <div class="content">
+            <blockquote>
+                {#if $$slots.description}
+                    <slot name="description" />
+                {/if}
+            </blockquote>
+        </div>
         <slot />
     </div>
 </div>
