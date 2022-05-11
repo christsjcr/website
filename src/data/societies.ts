@@ -325,15 +325,6 @@ export const societies: Society[] = [
         ],
     },
     {
-        title: "Ladies Netball", icon: "🏀",
-        people: [
-            { name: "Natasha Ross", "crsid": "cnr34" },
-        ],
-        type: "womens sport",
-        status: "independent",
-
-    },
-    {
         title: "Lawn Tennis", icon: "🎾",
         description: "Christ's Lawn Tennis Society aims to provide opportunities for tennis players to play socially and competitively. All abilities are welcome!",
         events: "Tennis matches against other clubs most weekends, social tennis usually organised in Easter Term",
@@ -398,11 +389,16 @@ export const societies: Society[] = [
         contact: { whatsapp: "https://chat.whatsapp.com/K4DdTRvOXLh5ClZ3F4D6Wf" },
     },
     {
-        title: "Mixed Netball", icon: "🏀",
-        description: "Christ's Netball Team is a mixed sports team, open to all, which organises training sessions and sometimes matches for its members.",
+        title: "Netball", icon: "🏀",
+        description: "Christ's College Netball includes a mixed team and a ladies team, and is open to all students of any ability who are interested in getting involved in netball.",
+        events: "Both teams compete in weekly league matches as well as the big college cuppers tournament at the end of Lent Term.",
+        interested: " - [Ladies netball FB group](https://www.facebook.com/groups/669403433201184)\n - [Mixed netball FB group](https://www.facebook.com/groups/592990420760172/)"
+        ,
         people: [
-            { name: "Rebecca Tyson", crsid: "rjt83" },
+            { name: "Camilla Olivieri", crsid: "co418" },
+            { name: "Laura Herbert", crsid: "lgh30" },
         ],
+
         type: "mixed sport",
         status: "funded",
     },
