@@ -1,4 +1,5 @@
 <script lang="ts">
+    import TrackedLink from "$components/elements/TrackedLink.svelte";
     import PageHeader from "$components/PageHeader.svelte";
 </script>
 
@@ -8,7 +9,27 @@
     metaDescription="Get information on JCR meetings, and learn how you can make sure that your voice is heard."
 >
     <div class="content">
-        <h1>Open Meetings</h1>
+        <h2>Easter Term</h2>
+        <ul>
+            <li>30th April 5pm - Council Meeting (New Court Seminar Room)</li>
+            <li>7th May 2:30pm - Exec Meeting (Yusuf Hamied Theatre)</li>
+            <li>7th May 5pm - Open Meeting (Yusuf Hamied Theatre)</li>
+            <li>14th May 5pm - Council Meeting (Lloyd Room)</li>
+            <li>21st May 5pm - Exec Meeting (New Court Seminar Room)</li>
+            <li>
+                <b>TBC</b>: 11th June 4pm - Open Meeting (Yusuf Hamied Theatre)
+            </li>
+            <li>11th June 5pm - Council Meeting (Yusuf Hamied Theatre)</li>
+            <li>18th June 5pm - Exec Meeting (New Court Seminar Room)</li>
+        </ul>
+        <p>
+            You can access the minutes for these meetings <TrackedLink
+                href="https://drive.google.com/drive/u/2/folders/1gr4x820W2ZcDi8RGAz7fYeOEMiBLx6jA"
+                id="meeting-minutes">here</TrackedLink
+            >.
+        </p>
+
+        <h2>Open Meetings</h2>
         <p>
             Undergraduate students of Christ's may attend an open meeting with
             the right to vote on all motions or amendments proposed during the
@@ -44,7 +65,7 @@
 
         <h3>Exec Meetings</h3>
         <p>
-            These are similar to Exec meetings, except only Exec members (the
+            These are similar to Council meetings, except only Exec members (the
             President, Vice President, Treasurer, Welfare Officers and
             Secretary) are expected to attend.
         </p>

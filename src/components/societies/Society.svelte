@@ -14,7 +14,7 @@
         faGlobe,
     } from "@fortawesome/free-solid-svg-icons";
     import Tag from "./Tag.svelte";
-    import SvelteMarkdown from "svelte-markdown";
+    import Markdown from "$components/markdown/Markdown.svelte";
 
     export let society: Society;
     let expanded = false;
@@ -125,16 +125,16 @@
 
     <div class="content">
         {#if society.description}
-            <SvelteMarkdown source={society.description} />
+            <Markdown externalLinks source={society.description} />
         {/if}
         {#if expanded}
             {#if society.events}
                 <h6>Regular Events</h6>
-                <SvelteMarkdown source={society.events} />
+                <Markdown externalLinks source={society.events} />
             {/if}
             {#if society.interested}
                 <h6>Interested in Joining?</h6>
-                <SvelteMarkdown source={society.interested} />
+                <Markdown externalLinks source={society.interested} />
             {/if}
             {#if society.people && society.people.length > 0}
                 <h6>Contacts</h6>

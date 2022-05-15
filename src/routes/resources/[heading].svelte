@@ -1,8 +1,8 @@
 <script lang="ts">
     import { page } from "$app/stores";
+    import Markdown from "$components/markdown/Markdown.svelte";
     import PageHeader from "$components/PageHeader.svelte";
     import resources from "$data/resources";
-    import SvelteMarkdown from "svelte-markdown";
 
     $: heading = $page.params.heading;
 
@@ -32,7 +32,9 @@
                             <ul>
                                 {#if resource.info}
                                     {#each resource.info as source}
-                                        <li><SvelteMarkdown {source} /></li>
+                                        <li>
+                                            <Markdown externalLinks {source} />
+                                        </li>
                                     {/each}
                                 {/if}
                             </ul>
