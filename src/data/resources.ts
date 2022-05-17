@@ -48,6 +48,10 @@ const resources: {
                         url: "https://christscollege.roombookingsystem.co.uk/overviewday",
                     },
                     {
+                        title: "Airbed Booking",
+                        url: "https://christscollege.roombookingsystem.co.uk/user/overviewweek",
+                    },
+                    {
                         title: "Fault Reporting",
                         url: "https://intranet.christs.cam.ac.uk/fault-reporting",
                     },
