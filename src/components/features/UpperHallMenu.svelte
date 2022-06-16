@@ -1,54 +1,29 @@
 <script lang="ts">
-    import { type Writable, writable } from "svelte/store";
-    import MealComponent from "./Meal.svelte";
-    import menuJson from "$data/menu.json";
+    import width, { tablet } from "$lib/width";
 
-    type Meal = { mains: string[]; dessert: string };
+    import Day from "./Day.svelte";
 
-    type Weekday = { weekend: false; lunch: Meal; dinner: Meal };
-    type Weekend = { weekend: true; dinner: Meal };
-    type Day = Weekday | Weekend;
-
-    type Menu = { start: Date; days: Day[] };
-
-    const menu: Menu = {
-        start: new Date(menuJson.start),
-        days: menuJson.days as Day[],
-    };
-
-    const today: Writable<Date> = writable(new Date());
-    setInterval(() => ($today = new Date()), 1000);
-
-    $: day = Math.floor(
-        ($today.getTime() - menu.start.getTime()) / (1000 * 3600 * 24)
-    );
-
-    $: currentMenu = day >= 0 && day < menu.days.length ? menu.days[day] : null;
+    let today = true;
 </script>
 
-<div class="block">
-    <div class="columns m-1 is-variable is-3">
-        {#if currentMenu != null}
-            <div class="column">
-                {#if currentMenu.weekend === true}
-                    <MealComponent header="🍳 Brunch" />
-                {:else}
-                    <MealComponent header="🥪 Lunch" data={currentMenu.lunch} />
-                {/if}
-            </div>
-            <div class="column">
-                <MealComponent header="🍕 Dinner" data={currentMenu.dinner} />
-            </div>
-        {:else}
-            <article class="message is-gray">
-                <div class="message-header">
-                    <p>Menu Unavailable!</p>
-                </div>
-                <div class="message-body">
-                    Menu data is only available during term times.
-                </div>
-            </article>
-        {/if}
-        <slot />
-    </div>
+<div
+    class="tabs"
+    class:is-centered={$width <= tablet.max}
+    class:is-fullwidth={$width <= tablet.max}
+>
+    <ul>
+        <li class:is-active={today} on:click={() => (today = true)}>
+            <!-- svelte-ignore a11y-missing-attribute -->
+            <a>Today</a>
+        </li>
+        <li class:is-active={!today} on:click={() => (today = false)}>
+            <!-- svelte-ignore a11y-missing-attribute -->
+            <a>Tomorrow</a>
+        </li>
+    </ul>
 </div>
+{#if today}
+    <div><Day increment={0} /></div>
+{:else}
+    <div><Day increment={1} /></div>
+{/if}
