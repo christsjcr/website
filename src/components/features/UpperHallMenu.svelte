@@ -3,6 +3,8 @@
     import MealComponent from "./Meal.svelte";
     import menuJson from "$data/menu.json";
 
+    export let dayIncrement = 0;
+
     type Meal = { mains: string[]; dessert: string };
 
     type Weekday = { weekend: false; lunch: Meal; dinner: Meal };
@@ -16,8 +18,14 @@
         days: menuJson.days as Day[],
     };
 
-    const today: Writable<Date> = writable(new Date());
-    setInterval(() => ($today = new Date()), 1000);
+    function getDay(): Date {
+        let today = new Date();
+        today.setDate(today.getDate() + dayIncrement);
+        return today;
+    }
+
+    const today: Writable<Date> = writable(getDay());
+    setInterval(() => ($today = getDay()), 1000);
 
     $: day = Math.floor(
         ($today.getTime() - menu.start.getTime()) / (1000 * 3600 * 24)
