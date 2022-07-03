@@ -23,7 +23,7 @@
 {#if path.length > 1}
     <div class="block mb-3 mt-6 px-2">
         <nav
-            class="breadcrumb is-medium has-arrow-separator"
+            class="breadcrumb is-medium has-arrow-separator is-centered"
             aria-label="breadcrumbs"
         >
             <ul>
@@ -39,4 +39,5 @@
         </nav>
     </div>
     <hr />
+    <br />
 {/if}

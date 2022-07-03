@@ -41,7 +41,10 @@
             label: "About",
             children: [
                 { route: "/about/committee", label: "Committee" },
-                { route: "/about/constitution", label: "Constitution" },
+                {
+                    route: "/about/constitution-and-guidelines",
+                    label: "Constitution & Guidelines",
+                },
                 { route: "/about/meetings", label: "Meetings" },
             ],
         },

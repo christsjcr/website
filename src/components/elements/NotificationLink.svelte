@@ -29,7 +29,11 @@
         </p>
         <br />
         <p class="block is-underlined">
-            {href == null ? "Coming Soon" : "Read More"}
+            {href == null
+                ? "Coming Soon"
+                : external
+                ? "Read More ↗"
+                : "Read More →"}
         </p>
     </div>
 </a>

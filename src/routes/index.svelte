@@ -68,7 +68,7 @@
             <div class="column is-half is-one-third-desktop">
                 <NotificationLink
                     href="https://docs.google.com/forms/d/e/1FAIpQLSchG-F00FNgO02T5OepdfuFSkVi7HgnfpI0a6qDjhhXctG6Hw/viewform"
-                    title="Contact Form ✍️"
+                    title="Feedback Form ✍️"
                     content="If you want to provide feedback, suggestions, or general problems for the JCR to consider, please use this form!
                         The JCR is there to work for you, so any and all feedback is welcome."
                     external
