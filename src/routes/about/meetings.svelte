@@ -1,4 +1,5 @@
 <script lang="ts">
+    import Content from "$components/elements/Content.svelte";
     import TrackedLink from "$components/elements/TrackedLink.svelte";
     import PageHeader from "$components/PageHeader.svelte";
 </script>
@@ -8,7 +9,7 @@
     title="Meetings"
     metaDescription="Get information on JCR meetings, and learn how you can make sure that your voice is heard."
 >
-    <div class="content">
+    <Content>
         <h2>Easter Term</h2>
         <ul>
             <li>30th April 5pm - Council Meeting (New Court Seminar Room)</li>
@@ -69,5 +70,5 @@
             President, Vice President, Treasurer, Welfare Officers and
             Secretary) are expected to attend.
         </p>
-    </div>
+    </Content>
 </PageHeader>

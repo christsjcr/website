@@ -17,21 +17,21 @@
         <div class="column is-one-third">
             <NotificationLink
                 href="/about/committee"
-                title="Committee"
+                title="Committee 🧍‍♀️🧍🧍‍♂️"
                 content="Get to know the current members of the JCR Committee!"
             />
         </div>
         <div class="column is-one-third">
             <NotificationLink
-                href="/about/constitution"
-                title="Constitution"
-                content="Take a look at a copy of the JCR constitution!"
+                href="/about/constitution-and-guidelines"
+                title="Constitution & Guidelines 📜"
+                content="Take a look at a copy of the JCR constitution, and explore the exciting world of funding guidelines & financial conduct."
             />
         </div>
         <div class="column is-one-third">
             <NotificationLink
                 href="/about/meetings"
-                title="Meetings"
+                title="Meetings ⏰"
                 content="Interested in changing Christ's for the better? Come to our meetings!"
             />
         </div>

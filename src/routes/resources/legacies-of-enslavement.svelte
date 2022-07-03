@@ -3,6 +3,7 @@
     import type { MenuCategory } from "$lib/menu";
 
     import PageHeader from "$components/PageHeader.svelte";
+    import Content from "$components/elements/Content.svelte";
 
     const categories: MenuCategory[] = [
         {
@@ -31,7 +32,7 @@
     metaDescription="A research project to further understand the connection between members of the College, and the legacies of enslavement."
 >
     <SideMenu {categories}>
-        <div class="content">
+        <Content centered={false}>
             <br />
             <h2 id="Introduction">Introduction</h2>
             <p>
@@ -227,6 +228,6 @@
                     trade. Donor of College Reading Prize [Lambeth Palace Library].
                 </li>
             </ul>
-        </div>
+        </Content>
     </SideMenu>
 </PageHeader>
