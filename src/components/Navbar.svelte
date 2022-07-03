@@ -22,7 +22,6 @@
     });
 
     $: fromDesktop = $width >= desktop.min;
-    $: fromWidescreen = $width >= widescreen.min;
     $: belowHeader =
         $page.header != null &&
         scrollY >= $page.header.offsetTop + $page.header.offsetHeight - 64;
@@ -35,8 +34,11 @@
 
     $: hasImage = $page.type != "primary";
 
+    // display as blocks if below header
+    $: dropdownBoxed = expanded || belowHeader;
+
     // show if not transparent, if menu expanded, or if scrolled down far enough
-    $: show = (!hasImage && !fromWidescreen) || expanded || belowHeader;
+    $: notTransparent = (!hasImage && $width <= 1380) || dropdownBoxed;
 
     $: animated = $page.type == "image" || !belowHeader;
 
@@ -49,14 +51,14 @@
     <div {hidden}>
         <nav
             class={"navbar is-fixed-top is-transparent"}
-            class:barshow={show}
+            class:barshow={notTransparent}
             class:pr-4={fromDesktop}
             class:animated
         >
             <div class="navbar-brand">
                 <a
                     class={"navbar-item logo"}
-                    class:logoshow={$page.type != "image" || show}
+                    class:logoshow={$page.type != "image" || notTransparent}
                     href="/"
                 >
                     <img
@@ -99,7 +101,7 @@
 
                                 <div
                                     class="navbar-dropdown"
-                                    class:is-boxed={!show}
+                                    class:is-boxed={!dropdownBoxed}
                                     class:last-dropdown={parent ==
                                         layout[layout.length - 1]}
                                 >
