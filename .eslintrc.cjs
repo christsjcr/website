@@ -3,7 +3,7 @@ module.exports = {
 	parser: '@typescript-eslint/parser',
 	extends: ['airbnb-typescript/base', "plugin:import/recommended"],
 	plugins: ['svelte3', '@typescript-eslint', "import"],
-	ignorePatterns: ['*.cjs', "scripts/*", "svelte.config.js"],
+	ignorePatterns: ['*.cjs', "scripts/*", "svelte.config.js", "vite.config.js"],
 	settings: {
 		'svelte3/typescript': () => require('typescript'),
 		'import/core-modules': ['svelte']
