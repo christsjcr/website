@@ -54,7 +54,10 @@ export const societies: Society[] = [
         title: "Board Games Society",
         icon: "♟",
         type: "other",
-        status: "inactive",
+        status: "funded",
+        people: [
+            { name: "Ariel Hebditch", crsid: "ah2203" },
+        ],
     },
     {
         title: "Bookworms", icon: "📚",
