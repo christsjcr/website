@@ -46,10 +46,9 @@
             </div>
             <div class="column is-one-third">
                 <NotificationLink
-                    href="/resources/legacies-of-enslavement"
-                    title="Legacies of 
-                    Enslavement 📜"
-                    content="Read about the 2021 summer research project, and get involved with the upcoming one!"
+                    href="/resources/welfare"
+                    title="Welfare Resources 💛"
+                    content="Resources for general and targeted support - anything related to physical, sexual, or mental health."
                 />
             </div>
         </div>
