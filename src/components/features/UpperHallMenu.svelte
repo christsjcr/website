@@ -14,11 +14,11 @@
     <ul>
         <li class:is-active={today} on:click={() => (today = true)}>
             <!-- svelte-ignore a11y-missing-attribute -->
-            <a>Today</a>
+            <a rel="external">Today</a>
         </li>
         <li class:is-active={!today} on:click={() => (today = false)}>
             <!-- svelte-ignore a11y-missing-attribute -->
-            <a>Tomorrow</a>
+            <a rel="external">Tomorrow</a>
         </li>
     </ul>
 </div>

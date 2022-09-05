@@ -78,7 +78,7 @@
         <br />
         <h2 class="title is-2">Upper Hall Menu</h2>
         <UpperHallMenu />
-
+        <br />
         <h2 class="title is-2">Quick Links</h2>
         <div class="columns m-1 clickable-lists">
             <div class="column">
