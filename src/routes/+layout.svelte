@@ -20,7 +20,7 @@
     import { FontAwesomeIcon } from "fontawesome-svelte";
     import WidthUpdater from "$components/WidthUpdater.svelte";
     import TrackedLink from "$components/elements/TrackedLink.svelte";
-    import { navigating, page } from "$app/stores";
+    import { navigating } from "$app/stores";
 
     onMount(() => {
         function gtag(..._args: string[]) {
@@ -35,9 +35,6 @@
             }
         });
     });
-
-    $: if (navigating) {
-    }
 
     library.add(
         faInstagram,
