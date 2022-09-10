@@ -20,6 +20,21 @@
     import { FontAwesomeIcon } from "fontawesome-svelte";
     import WidthUpdater from "$components/WidthUpdater.svelte";
     import TrackedLink from "$components/elements/TrackedLink.svelte";
+    import { navigating } from "$app/stores";
+
+    onMount(() => {
+        function gtag(..._args: string[]) {
+            window.dataLayer.push(arguments);
+            console.log(window.dataLayer);
+        }
+        navigating.subscribe((x) => {
+            if (x) {
+                console.log(x.to.routeId);
+                gtag("set", "page_path", x.to.routeId);
+                gtag("event", "page_view");
+            }
+        });
+    });
 
     library.add(
         faInstagram,
