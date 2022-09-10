@@ -153,6 +153,7 @@
 
     {#if !expanded && (society.events || society.interested || (society.people && society.people.length > 0))}
         <a
+            rel="external"
             href={null}
             on:click={() => {
                 expanded = true;
@@ -271,6 +272,7 @@
     {/if}
     {#if expanded}
         <a
+            rel="external"
             href={null}
             on:click={() => {
                 expanded = false;
