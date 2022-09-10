@@ -122,7 +122,8 @@
                     </TrackedLink>
                 </div>
             </div>
-            <p>© Christ's JCR 2021</p>
+            <p>© Christ's JCR 2022</p>
+            <a href="https://github.com/christsjcr/website">Source</a>
         </div>
     </footer>
 </div>
