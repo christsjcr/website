@@ -97,7 +97,7 @@ export const societies: Society[] = [
         description: "The Sidney-Christ's Christian Union is an outward-looking, open community of Christians who aim to reflect the love of Jesus within our college. Anyone and everyone is welcome as we explore what it means to be followers of Jesus.",
         events: "Meetings have been on Saturdays 17:00-18:00 recently (i.e. in Lent 2022), but check the Instagram page / mailing list for any updates.",
         people: [
-            { name: "James Tett", crsid: "jt738" },
+            { name: "Sarah Clark", crsid: "sc2292" },
         ],
         contact: {
             instagram: "sidchristscu",
@@ -111,7 +111,8 @@ export const societies: Society[] = [
         icon: "🧪",
         description: "The Darwin Society is Christ's science society, which seeks to provide a space for people interested in science to connect and explore their interests together. It organises talks, socials, and formals, culminating in the annual black-tie Darwin Dinner!",
         people: [
-            { name: "James Tett", crsid: "jt738" },
+            { name: "Emily Wenban-Smith", crsid: "ew581" },
+            { name: "Oscar Despard (Treasurer)", crsid: "oemd2" },
         ],
         type: "subject",
         status: "funded",
@@ -128,9 +129,9 @@ export const societies: Society[] = [
     {
         title: "Engineering Society (CCES)", icon: "🛠",
         description: "CCES aims to provide opportunities for students studying any degree to explore the rich field of engineering outside the lecture halls. It organises the CCES Lecture Series, Project Talks, and Engineering Socials. Previous lecture speakers have included those working for the European Space Agency, Samsung AI Research Centre, and many more (detailed on CCES' website)!",
-        interested: "For Facebook Messenger chat, contact Aditya Jain (aj563).",
+        interested: "For Facebook Messenger chat, contact Yash Gaikwad (ysg22).",
         people: [
-            { name: "Aditya Jain", crsid: "aj563" },
+            { name: "Yash Gaikwad", crsid: "ysg22" },
         ],
         type: "subject",
         status: "funded",
@@ -157,7 +158,9 @@ export const societies: Society[] = [
         description: "Christ's History Society caters for all Christ's students with an interest in History, whether or not they study it in their degree. It offers a variety of events throughout the year, including academic talks, lectures, and socials.",
         interested: "A sign up sheet for the mailing list will be available at the college freshers fair!",
         people: [
-            { name: "Millie Yule", crsid: "ay335" },
+            { name: "Mia Condron Asquith", crsid: "mc2260" },
+            { name: "Clemmie Butler Brown", crsid: "clob2" },
+            { name: "Fergus Kirman", crsid: "fpk24" },
         ],
         type: "subject",
         status: "funded",
@@ -167,7 +170,7 @@ export const societies: Society[] = [
         title: "Law Society", icon: "⚖",
         description: "Christ's Law Society is open to all Christ's students with an interest in Law, whether or not they study it in their degree. It offers a variety of events throughout the year, including talks, dinners and socials.",
         people: [
-            { name: "Aravynd Atwal", crsid: "aa2154" },
+            { name: "Rachel Adkins", crsid: "rka33" },
         ],
         type: "subject",
         status: "funded",
@@ -198,6 +201,7 @@ export const societies: Society[] = [
         interested: "Contact one of the ensemble leaders (details on the website) to find the relevant rehearsal times.",
         people: [
             { name: "Jemma Jeffrey", crsid: "jj536" },
+            { name: "Davon Halim (Treasurer)", crsid: "dmh63" },
         ],
         type: "subject",
         status: "funded",
@@ -214,7 +218,7 @@ export const societies: Society[] = [
         title: "Nollywood Society", icon: "🎥",
         description: "Christ's Nollywood Society seeks to boost the representation of international media (particularly Nigerian cinema) within Christ's. It holds social events featuring Nollywood films, for both Nollywood enthusiasts and for anyone who wants to learn more about the genre.",
         people: [
-            { name: "Joel Gayford", crsid: "jhg41" },
+            { name: "Shanker Narayan", crsid: "sn601" },
         ],
         status: "funded",
         type: "other",
@@ -242,7 +246,7 @@ export const societies: Society[] = [
         title: "Wine Society", icon: "🍷",
         description: "Wine Society organises tastings each term for everyone from beginners to veterans of the wine world. Expect blind and regional tastings throughout the year for a subsidised price and the chance to explore different wines from across the globe!",
         people: [
-            { name: "Hollie Wright", crsid: "heaw2" },
+            { name: "Sam Grankin", crsid: "spg34" },
         ],
         contact: {
             facebook: "christswinesociety",
@@ -267,7 +271,7 @@ export const societies: Society[] = [
         title: "Basketball", icon: "🏀",
         description: "Christ's College Basketball Club offers all students the chance to join in and play. It organises weekly training sessions and sometimes matches.",
         people: [
-            { name: "Nicholas Montague-Jones", crsid: "nm704" },
+            { name: "Jhensiah Kebani", crsid: "jek62" },
         ],
         type: "mixed sport",
         status: "funded",
@@ -275,8 +279,8 @@ export const societies: Society[] = [
     {
         title: "Boat Club", icon: "⛵",
         people: [
-            { name: "Katy Hempson", crsid: "klh76" },
-            { name: "Richard Turner", crsid: "rjt87" },
+            { name: "Alexander Holmes", crsid: "ajh298" },
+            { name: "Georgia Denham", crsid: "gd472" },
         ],
         type: "mixed sport",
         status: "independent",
@@ -286,6 +290,7 @@ export const societies: Society[] = [
         description: "Christ's Climbing Club caters for anyone with an interest in climbing, regardless of ability or experience. It organises group climbing sessions, socials and events throughout the year, as well as making this activity more affordable for Christ's students.",
         people: [
             { name: "Ari Chan", crsid: "asc78" },
+            { name: "Tyler Rhinesmith (Treasurer)", crsid: "tjr54" },
         ],
         type: "mixed sport",
         status: "funded",
@@ -302,6 +307,9 @@ export const societies: Society[] = [
     {
         title: "Darts Corporation", icon: "🎯",
         description: "Darts Corporation aims to promote the sport of darts in Christ's, as a sport that can be played by anyone, regardless of skill or background.",
+        people: [
+            { name: "Tom McManamon", crsid: "tdm38" },
+        ],
         type: "mixed sport",
         status: "funded",
     },
@@ -372,11 +380,10 @@ export const societies: Society[] = [
         description: "Christ's Rugby Football Club is the men's rugby team. It is currently merged with Trinity College, and was recently promoted to Division 1. It offers opportunities for those of all levels to play and socialise.",
         events: "Training usually on Fridays and matches on Saturdays. The club competes in the College league in Michaelmas and Lent, with Cuppers (the collegiate cup) in late Lent/early Easter. There are also annual Old Boys fixtures.",
         people: [
-            { name: "Harry Goodhew", crsid: "hfg23" },
+            { name: "Henry King (Trinity)", crsid: "hk507" },
         ],
         type: "mens sport",
         status: "funded",
-
         contact: { whatsapp: "https://chat.whatsapp.com/G3kpNeAE2FE2peqA5cJqE8" },
     },
     {
@@ -437,7 +444,7 @@ export const societies: Society[] = [
         description: "Christ's Table Tennis Society organises weekly recreational sessions for people of all abilities, and facilitates entry to the College League where students can play matches against other colleges.",
 
         people: [
-            { name: "Arjun Tapasvi", crsid: "adt44" },
+            { name: "Petros Georgiou", crsid: "pg502" },
         ],
         type: "mixed sport",
         status: "funded",
