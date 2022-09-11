@@ -145,8 +145,11 @@ export const societies: Society[] = [
     },
     {
         title: "Feminist Society", icon: "♀️",
+        people: [
+            { name: "Ana-Maria Skaricic", crsid: "ams315" },
+        ],
         type: "other",
-        status: "inactive",
+        status: "independent",
     },
     {
         title: "Film Society", icon: "🎥",
@@ -391,8 +394,7 @@ export const societies: Society[] = [
         description: "Christ's Lacrosse Team is a mixed sports team, open to all, which plays in weekly matches.",
         events: "A match every weekend with variable times.",
         people: [
-            { name: "Caitlyn Furley", crsid: "cf525" },
-            { name: "Noah Hatchwell", crsid: "nh545" },
+            { name: "Ana-Maria Skaricic", crsid: "ams315" },
         ],
         type: "mixed sport",
         status: "funded",
