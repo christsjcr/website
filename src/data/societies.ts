@@ -149,7 +149,7 @@ export const societies: Society[] = [
             { name: "Ana-Maria Skaricic", crsid: "ams315" },
         ],
         type: "other",
-        status: "independent",
+        status: "funded",
     },
     {
         title: "Film Society", icon: "🎥",
