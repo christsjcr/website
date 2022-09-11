@@ -1,3 +1,3 @@
-export function click(_id: string) {
-    
+export function click(id: string) {
+    window["umami"].trackEvent(id, "click");
 }
