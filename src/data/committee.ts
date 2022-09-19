@@ -137,17 +137,17 @@ const categories: RoleCategory[] = [
             {
                 title: "Green Officer",
                 label: "Green",
-                name: "Camille McCarthy",
+                name: "Rachel Doran",
                 id: "green",
                 description:
-                    "Camille, our Green and Charities Officer, will be establishing a Christ's Green Committee so students are able to become directly involved with campaigns and sustainability projects, as well as campaign for JCRs and MCRs to move their banks away from those who invest heavily in fossil fuels, and switch to more ethical alternatives. On the charities side, Camille would like to reinvigorate the food bank collection and look at ways to link individuals' fundraising efforts to college charities.",
+                    "[Description Pending]",
             },
             {
                 title: "Webmaster",
                 name: "Miles Watson",
                 id: "webmaster",
                 description:
-                    "Hey, I'm Miles, the JCR Webmaster! I built the website you're currently looking at, and am constantly working to improve it. Please drop me an email if you find any bugs, or want to suggest a feature / improvement! Future plans included a list of societies, a better upper hall menu, and a room database. And no, that's not me in the picture ;)",
+                    "Hey, I'm Miles, the JCR Webmaster! I built the website you're currently looking at, and am constantly working to improve it. Please drop me an email if you find any bugs, or want to suggest a feature / improvement!",
             },
         ],
     },
