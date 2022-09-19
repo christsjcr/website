@@ -6,6 +6,7 @@
     import committee from "$data/committee";
 
     import { scrollTo } from "$components/menu/ScrollMenu.svelte";
+    import EmailHider from "$components/elements/EmailHider.svelte";
 
     $: profileColumns = $width >= 512;
     $: fromDesktop = $width >= desktop.min;
@@ -56,10 +57,11 @@
                                         {role.title}
                                     </div>
 
-                                    <a href={`mailto:${role.id}@thejcr.co.uk`}
-                                        ><small class:level-right={fromDesktop}
-                                            >{role.id}@thejcr.co.uk</small
-                                        ></a
+                                    <small class:level-right={fromDesktop}
+                                        ><EmailHider
+                                            username={role.id}
+                                            domain="thejcr.co.uk"
+                                        /></small
                                     >
                                 </div>
                                 <p>
