@@ -66,15 +66,6 @@ const categories: RoleCategory[] = [
                 description:
                     "Vivek and Charlotte, our Freps/First Year Officers, aim to make Christ's a welcoming environment for next year's Freshers, as well as host events for their year, such as college marriages, formals and a SuperBop.",
             },
-
-            {
-                title: "Fourth Years' Officer",
-                label: "Fourth Years'",
-                name: "Oliver O'Brien",
-                id: "fourth",
-                description:
-                    "Oli, our Fourth Years' Officer, is planning to run another Fourth Year pub crawl and organise for all Fourth Years to go to Grad Hall together.",
-            },
         ],
     },
     {
