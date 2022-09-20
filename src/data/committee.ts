@@ -140,7 +140,7 @@ const categories: RoleCategory[] = [
                 name: "Rachel Doran",
                 id: "green",
                 description:
-                    "[Description Pending]",
+                    "Hi, I'm Rachel the Green and Charities Officer. My job is to work to try and make Christ's a more environmentally friendly college, as well as to organise fun charity events to raise money for our 3 college charities (currently these are Jimmy's Cambridge, Cancer Research UK and WaterAid). My plans currently include an overhaul of the food waste disposal system in college accommodation, setting up new end-of-term food bank collections, improving communication between college staff and students about green initiatives, and supporting the college in working towards the next Green Impact Award. Please do get in contact with me if you have any ideas/ suggestions for how to make Christ's greener!",
             },
             {
                 title: "Webmaster",
