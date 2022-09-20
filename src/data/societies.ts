@@ -371,7 +371,7 @@ export const societies: Society[] = [
     },
     {
         title: "Hockey", icon: "🏑",
-        description: "Christ's Hockey Club is the college's men's hockey team. The club  enables Christ's students of all levels of ability to train and participate in matches. The club is currently joint with Pembroke College.",
+        description: "Christ's Hockey Club is the college's hockey team. The club  enables Christ's students of all levels of ability to train and participate in matches. The club is currently joint with Pembroke College.",
         people: [
             { name: "Abhimanyu Gowda", crsid: "ag2166" },
         ],
