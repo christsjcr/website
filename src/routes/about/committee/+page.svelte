@@ -14,7 +14,7 @@
 
 <PageHeader
     current="/about/committee"
-    title="JCR Committee"
+    title="Committee"
     metaDescription="The JCR Committee is comprised of students who have been elected to represent the views of Christ's undergrads."
 >
     <div slot="description">

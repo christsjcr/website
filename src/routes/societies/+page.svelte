@@ -1,4 +1,6 @@
 <script lang="ts">
+    import Content from "$components/elements/Content.svelte";
+
     import PageHeader from "$components/PageHeader.svelte";
     import SocietyCard from "$components/societies/Society.svelte";
     import { societies, type Society } from "$data/societies";
@@ -61,78 +63,87 @@
     size="small"
     metaDescription="Resources for undergraduate students of Christ's College, Cambridge."
 >
-    <div slot="description">
-        <p>
-            Clubs and societies are typically open to all Christ's students
-            (undergraduates and postgraduates), and membership is always free.
-            Some clubs and societies may charge for tickets at certain optional
-            events. The JCR oversees all activities by clubs, including their
-            financial conduct, and encourages them to engage with new members.
-            The JCR is also the ultimate owner of all property held by clubs and
-            societies that are part of the Amalgamated Clubs. Any queries about
-            clubs and societies can be directed to JCR Officers, as well as
-            club/society leaders themselves.
-        </p>
-        <p>
-            Is information about your society incorrect or out-of-date? Fill in
-            the <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSfTnmDLCwVwiblfuTXfJzC64iIhH3ooZFJCkNIYG2p-Bn0wWg/viewform?usp=sf_link"
-                target="_blank">society update form</a
-            >.
-        </p>
-    </div>
-
-    <div class="block">
-        <p class="control">
-            <input
-                class="input"
-                type="text"
-                placeholder="Search"
-                bind:value={search}
-            />
-        </p>
-    </div>
-
-    <div class="block">
-        <div class="columns is-mobile is-vcentered is-multiline">
-            <div class="column is-narrow">
-                <div class="select">
-                    <select bind:value={filterFunding}>
-                        <option value={null}>Any funding</option>
-                        <option value="funded">💰 JCR Funded</option>
-                        <option value="independent">💸 Independent</option>
-                        <option value="inactive">😴 Inactive</option>
-                    </select>
-                </div>
-            </div>
-            <div class="column is-narrow">
-                <div class="select">
-                    <select bind:value={filterType}>
-                        <option value={null}>All Types</option>
-                        <option value="mens sport">♂ Men's Sport</option>
-                        <option value="womens sport">♀ Women's Sport</option>
-                        <option value="mixed sport">⚤ Mixed Sport</option>
-                        <option value="subject">🎓 Subject-Affiliated</option>
-                        <option value="other">✨ Other</option>
-                    </select>
-                </div>
-            </div>
-            {#if filterFunding === null}
-                <div class="column is-narrow" style="min-width:200px;">
-                    <label class="checkbox px-5">
-                        <input type="checkbox" bind:checked={showInactive} />
-                        Show Inactive
-                    </label>
-                </div>
-            {/if}
+    <Content>
+        <div slot="description">
+            <p>
+                Clubs and societies are typically open to all Christ's students
+                (undergraduates and postgraduates), and membership is always
+                free. Some clubs and societies may charge for tickets at certain
+                optional events. The JCR oversees all activities by clubs,
+                including their financial conduct, and encourages them to engage
+                with new members. The JCR is also the ultimate owner of all
+                property held by clubs and societies that are part of the
+                Amalgamated Clubs. Any queries about clubs and societies can be
+                directed to JCR Officers, as well as club/society leaders
+                themselves.
+            </p>
+            <p>
+                Is information about your society incorrect or out-of-date? Fill
+                in the <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSfTnmDLCwVwiblfuTXfJzC64iIhH3ooZFJCkNIYG2p-Bn0wWg/viewform?usp=sf_link"
+                    target="_blank">society update form</a
+                >.
+            </p>
         </div>
-    </div>
 
-    <hr />
+        <div class="block">
+            <p class="control">
+                <input
+                    class="input"
+                    type="text"
+                    placeholder="Search"
+                    bind:value={search}
+                />
+            </p>
+        </div>
 
-    <div class="block">
-        {#each filtered as society}
-            <SocietyCard {society} />
-        {/each}
-    </div></PageHeader
->
+        <div class="block">
+            <div class="columns is-mobile is-vcentered is-multiline">
+                <div class="column is-narrow">
+                    <div class="select">
+                        <select bind:value={filterFunding}>
+                            <option value={null}>Any funding</option>
+                            <option value="funded">💰 JCR Funded</option>
+                            <option value="independent">💸 Independent</option>
+                            <option value="inactive">😴 Inactive</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="column is-narrow">
+                    <div class="select">
+                        <select bind:value={filterType}>
+                            <option value={null}>All Types</option>
+                            <option value="mens sport">♂ Men's Sport</option>
+                            <option value="womens sport">♀ Women's Sport</option
+                            >
+                            <option value="mixed sport">⚤ Mixed Sport</option>
+                            <option value="subject"
+                                >🎓 Subject-Affiliated</option
+                            >
+                            <option value="other">✨ Other</option>
+                        </select>
+                    </div>
+                </div>
+                {#if filterFunding === null}
+                    <div class="column is-narrow" style="min-width:200px;">
+                        <label class="checkbox px-5">
+                            <input
+                                type="checkbox"
+                                bind:checked={showInactive}
+                            />
+                            Show Inactive
+                        </label>
+                    </div>
+                {/if}
+            </div>
+        </div>
+
+        <hr />
+
+        <div class="block">
+            {#each filtered as society}
+                <SocietyCard {society} />
+            {/each}
+        </div>
+    </Content>
+</PageHeader>
