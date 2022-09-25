@@ -39,9 +39,9 @@
             </div>
             <div class="column is-one-third">
                 <NotificationLink
-                    href="/societies"
-                    title="Societies 🎭"
-                    content="Interested in trying something new? Explore a complete list of Christ's societies!"
+                    href="/get-involved"
+                    title="Get Involved 💃"
+                    content="Find out what's going on at Christ's, and explore the complete list of Christ's societies!"
                 />
             </div>
             <div class="column is-one-third">

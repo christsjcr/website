@@ -58,7 +58,7 @@
 </script>
 
 <PageHeader
-    current="/societies"
+    current="/get-involved/societies"
     title="Societies"
     size="small"
     metaDescription="Resources for undergraduate students of Christ's College, Cambridge."
