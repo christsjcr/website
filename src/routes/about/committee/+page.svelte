@@ -3,7 +3,7 @@
 
     import width, { desktop } from "$lib/width";
     import SideMenu from "$components/menu/SideMenu.svelte";
-    import committee from "$data/committee";
+    import committee from "./committee";
 
     import { scrollTo } from "$components/menu/ScrollMenu.svelte";
     import EmailHider from "$components/elements/EmailHider.svelte";

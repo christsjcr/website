@@ -3,7 +3,7 @@
 
     import PageHeader from "$components/PageHeader.svelte";
     import SocietyCard from "$components/societies/Society.svelte";
-    import { societies, type Society } from "$data/societies";
+    import { societies, type Society } from "./societies";
 
     function copy(society: Society): Society & { search: string } {
         return {
