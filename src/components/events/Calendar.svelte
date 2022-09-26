@@ -8,6 +8,10 @@
         type: T;
     }
 
+    export function getDay<T>(x: Event<T>): Date {
+        return new Date(x.date[0], x.date[1] - 1, x.date[2]);
+    }
+
     export function getStart<T>(x: Event<T>): Date {
         return new Date(x.date[0], x.date[1] - 1, x.date[2], ...x.time);
     }
@@ -45,7 +49,6 @@
                     console.log(error);
                 }
                 var filename = `invite.ics`;
-                console.log(value);
                 var blob = new Blob([value], {
                     type: "text/calendar",
                 });
@@ -71,6 +74,9 @@
     export let events: Events<K>;
     export let colors: { [key in K]: string };
 
+    let startDate = getDay(events[0]);
+    let now = new Date();
+
     let options = {
         view: "timeGridDay",
         events: events.map((x) => ({
@@ -85,16 +91,20 @@
             end: "prev next",
         },
         slotMinTime: "08:00:00",
-        slotMaxTime: "23:00:00",
+        slotMaxTime: "24:00:00",
         slotHeight: 36,
-        eventContent: ({ event, timeText }) =>
-            timeText +
-            ((event.end.getTime() - event.start.getTime()) / 3600000 > 0.75
-                ? event.title
-                : event.title.replace("</p><p>", " ")),
-    };
+        nowIndicator: true,
+        eventContent: ({ event, timeText }) => {
+            var time = "<p>" + timeText + "</p>";
+            var hours = (event.end.getTime() - event.start.getTime()) / 3600000;
+            if (hours >= 1) return time + event.title;
+            else if (hours >= 0.75)
+                return time + event.title.replaceAll("</p><p>", " ");
+            else return (time + event.title).replaceAll("</p><p>", " ");
+        },
 
-    console.log(options);
+        date: now >= startDate ? now : startDate,
+    };
 </script>
 
 <div class="freshers-calendar">
