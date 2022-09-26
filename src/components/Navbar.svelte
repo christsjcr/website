@@ -8,7 +8,7 @@
 
 <script lang="ts">
     import { page } from "$lib/page";
-    import width, { desktop, widescreen } from "$lib/width";
+    import width, { desktop } from "$lib/width";
     import { onMount } from "svelte";
 
     export let layout: NavbarItem[];

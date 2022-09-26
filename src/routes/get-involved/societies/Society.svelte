@@ -1,5 +1,5 @@
 <script lang="ts">
-    import type { Society } from "$data/societies";
+    import type { Society } from "./societies";
     import { FontAwesomeIcon } from "fontawesome-svelte";
     import {
         faInstagram,
