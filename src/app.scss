@@ -37,3 +37,7 @@ a:hover {
   max-width: 45rem;
   align-self: center;
 }
+
+button {
+  touch-action: manipulation;
+}
