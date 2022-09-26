@@ -8,6 +8,8 @@ export const freshers: Events<"compulsory" | "optional"> = [
         date: [2022, 10, 1],
         time: [9, 0],
         duration: [4, 0],
+        location: "Lloyd Room",
+        geo: [52.20659, 0.12220],
         type: "compulsory",
     },
     {
@@ -22,6 +24,8 @@ export const freshers: Events<"compulsory" | "optional"> = [
         date: [2022, 10, 1],
         time: [17, 0],
         duration: [0, 45],
+        location: "Hamied Lecture Theatre",
+        geo: [52.20675, 0.12302],
         type: "compulsory",
     },
     {
@@ -29,6 +33,8 @@ export const freshers: Events<"compulsory" | "optional"> = [
         date: [2022, 10, 1],
         time: [18, 0],
         duration: [1, 0],
+        location: "Buttery",
+        geo: [52.20539, 0.12253],
         type: "optional",
     },
     {
@@ -36,6 +42,8 @@ export const freshers: Events<"compulsory" | "optional"> = [
         date: [2022, 10, 1],
         time: [19, 30],
         duration: [1, 0],
+        location: "Formal Hall",
+        geo: [52.20548, 0.12267],
         type: "compulsory",
     },
     {
@@ -43,6 +51,8 @@ export const freshers: Events<"compulsory" | "optional"> = [
         date: [2022, 10, 1],
         time: [21, 0],
         duration: [2, 0],
+        location: "Function Room",
+        geo: [52.20675, 0.12302],
         type: "optional",
     },
 ];
