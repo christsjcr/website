@@ -26,7 +26,6 @@
     import Calendar from "@event-calendar/core";
     import List from "@event-calendar/time-grid";
     import * as ics from "ics";
-    import { onMount } from "svelte";
 
     type K = $$Generic<string | number | symbol>;
     export let events: Events<K>;
@@ -52,7 +51,7 @@
 
     console.log(options);
 
-    onMount(() =>
+    function download() {
         ics.createEvents(
             events.map((x) => {
                 const start = getStart(x);
@@ -87,10 +86,11 @@
                 elem.click();
                 document.body.removeChild(elem);
             }
-        )
-    );
+        );
+    }
 </script>
 
+<button class="button is-primary" on:click={download}>Download</button>
 <div class="freshers-calendar">
     <Calendar plugins={[List]} {options} />
 </div>
