@@ -4,6 +4,8 @@
         date: [number, number, number];
         time: [number, number];
         duration: [number, number];
+        location?: string;
+        geo?: [number, number];
         type: T;
     }
 
@@ -65,6 +67,7 @@
                         start.getUTCMinutes(),
                     ],
                     duration: { hours: x.duration[0], minutes: x.duration[1] },
+                    geo: { lat: x.geo[0], lon: x.geo[1] },
                 };
             }),
 
