@@ -13,6 +13,10 @@
     "menu": "node scripts/menu.js"
   },
   "devDependencies": {
+    "@event-calendar/core": "^0.11.2",
+    "@event-calendar/day-grid": "^0.11.2",
+    "@event-calendar/list": "^0.11.2",
+    "@event-calendar/time-grid": "^0.11.2",
     "@rollup/plugin-json": "^4.1.0",
     "@sveltejs/adapter-static": "^1.0.0-next.39",
     "@sveltejs/kit": "^1.0.0-next.405",
@@ -41,8 +45,8 @@
     "@fortawesome/free-brands-svg-icons": "5",
     "@fortawesome/free-solid-svg-icons": "5",
     "bulma-switch": "^2.0.4",
-    "bulma-timeline": "^3.0.5",
     "fontawesome-svelte": "^2.0.1",
+    "ics": "^2.40.0",
     "svelte-markdown": "^0.2.1"
   }
 }

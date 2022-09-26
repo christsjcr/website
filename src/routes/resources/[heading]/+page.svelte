@@ -2,7 +2,7 @@
     import { page } from "$app/stores";
     import Markdown from "$components/markdown/Markdown.svelte";
     import PageHeader from "$components/PageHeader.svelte";
-    import resources from "$data/resources";
+    import resources from "./resources";
 
     $: heading = $page.params.heading;
 

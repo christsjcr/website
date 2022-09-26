@@ -49,8 +49,14 @@
             ],
         },
         {
-            route: "/societies",
-            label: "Societies",
+            route: "/get-involved",
+            label: "Get Involved",
+            children: [
+                {
+                    route: "/get-involved/societies",
+                    label: "Societies",
+                },
+            ],
         },
         {
             route: "/resources",

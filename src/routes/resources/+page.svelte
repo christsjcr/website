@@ -13,7 +13,7 @@
     <div class="columns my-6">
         <div class="column is-one-third">
             <NotificationLink
-                href="/resources/college-life "
+                href="/resources/college-life"
                 title="College Life 🏫"
                 content="Useful links relating to everyday life in Christ's College, Cambridge."
             />

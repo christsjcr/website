@@ -3,7 +3,7 @@
 
     import width, { desktop } from "$lib/width";
     import SideMenu from "$components/menu/SideMenu.svelte";
-    import committee from "$data/committee";
+    import committee from "./committee";
 
     import { scrollTo } from "$components/menu/ScrollMenu.svelte";
     import EmailHider from "$components/elements/EmailHider.svelte";
@@ -14,7 +14,7 @@
 
 <PageHeader
     current="/about/committee"
-    title="JCR Committee"
+    title="Committee"
     metaDescription="The JCR Committee is comprised of students who have been elected to represent the views of Christ's undergrads."
 >
     <div slot="description">

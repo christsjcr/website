@@ -3,7 +3,7 @@
     import MealComponent from "./Meal.svelte";
     import menuJson from "$data/menu.json";
 
-    export let increment;
+    export let increment: number;
 
     type Meal = { mains: string[]; dessert: string };
 
