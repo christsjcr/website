@@ -4,8 +4,7 @@
         date: [number, number, number];
         time: [number, number];
         duration: [number, number];
-        location?: string;
-        geo?: [number, number];
+        location: string;
         type: T;
     }
 
@@ -22,38 +21,8 @@
     }
 
     export type Events<T> = Event<T>[];
-</script>
 
-<script lang="ts">
-    import Calendar from "@event-calendar/core";
-    import List from "@event-calendar/time-grid";
-    import * as ics from "ics";
-
-    type K = $$Generic<string | number | symbol>;
-    export let events: Events<K>;
-    export let colors: { [key in K]: string };
-
-    let options = {
-        view: "timeGridDay",
-        events: events.map((x) => ({
-            start: getStart(x),
-            end: getEnd(x),
-            title: x.description,
-            color: colors[x.type],
-        })),
-        headerToolbar: {
-            start: "title",
-            center: "",
-            end: "prev next",
-        },
-        slotMinTime: "08:00:00",
-        slotMaxTime: "23:00:00",
-        slotHeight: 36,
-    };
-
-    console.log(options);
-
-    function download() {
+    export function download<T>(events: Events<T>) {
         ics.createEvents(
             events.map((x) => {
                 const start = getStart(x);
@@ -68,7 +37,6 @@
                     ],
                     duration: { hours: x.duration[0], minutes: x.duration[1] },
                     location: x.location,
-                    geo: x.geo ? { lat: x.geo[0], lon: x.geo[1] } : undefined,
                 };
             }),
 
@@ -94,7 +62,41 @@
     }
 </script>
 
-<button class="button is-primary" on:click={download}>Download</button>
+<script lang="ts">
+    import Calendar from "@event-calendar/core";
+    import List from "@event-calendar/time-grid";
+    import * as ics from "ics";
+
+    type K = $$Generic<string | number | symbol>;
+    export let events: Events<K>;
+    export let colors: { [key in K]: string };
+
+    let options = {
+        view: "timeGridDay",
+        events: events.map((x) => ({
+            start: getStart(x),
+            end: getEnd(x),
+            title: `<p><b>${x.description}</b></p><p><i>${x.location}</i></p>`,
+            color: colors[x.type],
+        })),
+        headerToolbar: {
+            start: "title",
+            center: "",
+            end: "prev next",
+        },
+        slotMinTime: "08:00:00",
+        slotMaxTime: "23:00:00",
+        slotHeight: 36,
+        eventContent: ({ event, timeText }) =>
+            timeText +
+            ((event.end.getTime() - event.start.getTime()) / 3600000 > 0.75
+                ? event.title
+                : event.title.replace("</p><p>", " ")),
+    };
+
+    console.log(options);
+</script>
+
 <div class="freshers-calendar">
     <Calendar plugins={[List]} {options} />
 </div>

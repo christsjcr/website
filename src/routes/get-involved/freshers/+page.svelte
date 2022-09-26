@@ -1,5 +1,5 @@
 <script lang="ts">
-    import Calendar from "$components/events/Calendar.svelte";
+    import Calendar, { download } from "$components/events/Calendar.svelte";
     import PageHeader from "$components/PageHeader.svelte";
     import { freshers } from "./freshers";
 </script>
@@ -10,8 +10,21 @@
     size="small"
     metaDescription="Resources for undergraduate students of Christ's College, Cambridge."
 >
+    <button
+        class="button is-success"
+        on:click={() =>
+            download(freshers.filter((x) => x.type === "compulsory"))}
+        >Download Compulsory</button
+    >
+    <button
+        class="button is-primary"
+        on:click={() => download(freshers.filter((x) => x.type === "optional"))}
+        >Download Optional</button
+    >
+    <br />
+    <br />
     <Calendar
         events={freshers}
-        colors={{ compulsory: "#ba55d3", optional: "#8fbc8f" }}
+        colors={{ compulsory: "#ad34cb", optional: "#146A46" }}
     />
 </PageHeader>
