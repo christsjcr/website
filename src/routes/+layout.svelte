@@ -53,6 +53,10 @@
             label: "Get Involved",
             children: [
                 {
+                    route: "/get-involved/freshers",
+                    label: "Freshers",
+                },
+                {
                     route: "/get-involved/societies",
                     label: "Societies",
                 },
