@@ -1,8 +1,10 @@
-/* Variables and mixins declared here will be available in all other SCSS files */ /* https://github.com/jgthms/bulma/issues/1293 */
+/* Variables and mixins declared here will be available in all other SCSS files */
+/* https://github.com/jgthms/bulma/issues/1293 */
 $body-overflow-y: scroll;
 $primary: #146A46; // #1B458F;
 $link: #A28000; // #C8AC00;
 $background: #EBEDF0;
+$success: #ad34cb;
 
 $navbar-height: 4rem;
 $footer-background-color: $background;
