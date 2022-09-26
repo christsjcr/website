@@ -67,7 +67,8 @@
                         start.getUTCMinutes(),
                     ],
                     duration: { hours: x.duration[0], minutes: x.duration[1] },
-                    geo: { lat: x.geo[0], lon: x.geo[1] },
+                    location: x.location,
+                    geo: x.geo ? { lat: x.geo[0], lon: x.geo[1] } : undefined,
                 };
             }),
 
