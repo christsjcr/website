@@ -133,7 +133,9 @@
                 </div>
             </div>
             <p>© Christ's JCR 2022</p>
-            <a href="https://github.com/christsjcr/website">Source</a>
+            <a rel="external" href="https://github.com/christsjcr/website"
+                >Source</a
+            >
         </div>
     </footer>
 </div>
