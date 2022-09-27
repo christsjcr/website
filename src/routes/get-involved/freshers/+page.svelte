@@ -1,6 +1,7 @@
 <script lang="ts">
     import Content from "$components/elements/Content.svelte";
     import Calendar, { download } from "$components/events/Calendar.svelte";
+    import UpperHallMenu from "$components/features/UpperHallMenu.svelte";
     import PageHeader from "$components/PageHeader.svelte";
     import { freshers } from "./freshers";
 </script>
@@ -35,6 +36,8 @@
             events={freshers}
             colors={{ compulsory: "#ad34cb", optional: "#146A46" }}
         />
+        <br />
+        <UpperHallMenu />
         <br />
         <div class="columns is-centered">
             <div class="column is-narrow">
