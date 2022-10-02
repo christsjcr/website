@@ -188,6 +188,7 @@ const resources: {
                         url: "http://localhost:3000/about/committee#Welfare Officers",
                         info: [
                             "You can contact Ossie & Christina by their emails, which can be found on the [committee page](/about/committee).",
+                            "You can also DM them on the [@ChristsWelfare](https://www.instagram.com/christswelfare/) instagram page, if you'd prefer.",
                         ],
                     },
                     {
