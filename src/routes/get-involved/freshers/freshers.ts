@@ -80,7 +80,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
         date: [2022, 10, 2],
         time: [18, 0],
         duration: [0, 45],
-        location: "Fellows' Garden",
+        location: "Chapel",
         type: "optional",
     },
     {
