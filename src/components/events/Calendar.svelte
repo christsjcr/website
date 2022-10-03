@@ -39,6 +39,7 @@
                         start.getUTCHours(),
                         start.getUTCMinutes(),
                     ],
+                    startInputType: "utc",
                     duration: { hours: x.duration[0], minutes: x.duration[1] },
                     location: x.location,
                 };
