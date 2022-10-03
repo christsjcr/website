@@ -93,6 +93,7 @@
         slotMinTime: "08:00:00",
         slotMaxTime: "24:00:00",
         slotHeight: 36,
+        nowIndicator: true,
         eventContent: ({ event, timeText }) => {
             var time = "<p>" + timeText + "</p>";
             var hours = (event.end.getTime() - event.start.getTime()) / 3600000;
