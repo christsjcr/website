@@ -331,7 +331,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     {
         description: "College Wide Bop - School Days Theme",
         date: [2022, 10, 7],
-        time: [9, 30],
+        time: [21, 30],
         duration: [2, 30],
         location: "Function Room",
         type: "optional",
