@@ -14,12 +14,16 @@ const resources: {
                         url: "https://intranet.christs.cam.ac.uk",
                     },
                     {
+                        title: "Tutor Timetable",
+                        url: "https://intranet.christs.cam.ac.uk/system/files/2021-11/2021-22%20Undergraduate%20Open%20Tutorial%20Hours%20MT21%20FINAL%20%28from%20ST%29.pdf",
+                    },
+                    {
                         title: "Camcard Balance",
                         url: "https://intranet.christs.cam.ac.uk/Shibboleth.sso/Login?target=%2Fshibboleth%2Flogin%3Fshiblogin%3D1%26destination%3D%2Fmealbooking%2FEPOS.aspx",
                     },
                     {
-                        title: "Tutor Timetable",
-                        url: "https://intranet.christs.cam.ac.uk/system/files/2021-11/2021-22%20Undergraduate%20Open%20Tutorial%20Hours%20MT21%20FINAL%20%28from%20ST%29.pdf",
+                        title: "Printing Balance",
+                        url: "https://www.christs.cam.ac.uk/cp",
                     },
                 ],
             },
@@ -162,6 +166,14 @@ const resources: {
                             "Early career network for students",
                             "Apply to internships and graduate positions",
                             "Attend virtual events",
+                        ],
+                    },
+                    {
+                        title: "Alumni Database",
+                        url: "https://alumni.christs.cam.ac.uk/ccc-list",
+                        info: [
+                            "Access a list of Christ's Alumni",
+                            "Use these [account details](https://drive.google.com/file/d/1JvrxnPYMEckx_guP1zNc3uO9I_qlGOUx/view?usp=sharing) to login (Christ's Undergrads only)",
                         ],
                     },
                 ],
