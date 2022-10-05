@@ -240,6 +240,15 @@ const resources: {
                         ],
                     },
                     {
+                        title: "Sexual Health PDF",
+                        url: "/doc/sexual-health.pdf",
+                        info: [
+                            "Gives useful information about traditional and non-traditional sexual practices",
+                            "Includes information about LGBT+ relationships, hygiene best-practices, sex work as a student, and sexual assault / abuse",
+                            "The documnent is not intended to promote any particular practices, but to help ensure that people stay safe regardless of their preferences",
+                        ],
+                    },
+                    {
                         title: "iCaSH",
                         url: "https://www.icash.nhs.uk/",
                         info: [
