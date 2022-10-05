@@ -10,18 +10,18 @@
     metaDescription="Get information on JCR meetings, and learn how you can make sure that your voice is heard."
 >
     <Content>
-        <h2>Easter Term</h2>
+        <h2>Michaelmas Term</h2>
         <ul>
-            <li>30th April 5pm - Council Meeting (New Court Seminar Room)</li>
-            <li>7th May 2:30pm - Exec Meeting (Yusuf Hamied Theatre)</li>
-            <li>7th May 5pm - Open Meeting (Yusuf Hamied Theatre)</li>
-            <li>14th May 5pm - Council Meeting (Lloyd Room)</li>
-            <li>21st May 5pm - Exec Meeting (New Court Seminar Room)</li>
-            <li>
-                <b>TBC</b>: 11th June 4pm - Open Meeting (Yusuf Hamied Theatre)
-            </li>
-            <li>11th June 5pm - Council Meeting (Yusuf Hamied Theatre)</li>
-            <li>18th June 5pm - Exec Meeting (New Court Seminar Room)</li>
+            <li>8th October 5pm - Council Meeting (Sosnow Room)</li>
+            <li>15th October 2:30pm - Exec Meeting (Lloyd Room)</li>
+            <li>15th October 5pm - Open Meeting (Lloyd Room)</li>
+            <li>22nd October 5pm - Council Meeting (Lloyd Room)</li>
+            <li>29th October 5pm - Exec Meeting (New Court Seminar Room)</li>
+            <li>5th November 5pm - Council Meeting (Lloyd room)</li>
+            <li>12th November 5pm - Exec Meeting (New Court Seminar Room)</li>
+            <li>19th November 5pm - Council Meeting (Lloyd Room)</li>
+            <li>26th November 2:30pm - Exec Meeting (Lloyd Room)</li>
+            <li>26th November 5pm - Open Meeting (Lloyd Room)</li>
         </ul>
         <p>
             You can access the minutes for these meetings <TrackedLink
