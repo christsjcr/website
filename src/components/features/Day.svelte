@@ -53,7 +53,7 @@
                     <p>Menu Unavailable!</p>
                 </div>
                 <div class="message-body">
-                    Menu will be available when college update the intranet (hopefully Tuesday or Wednesday).
+                    Menu is only available during term time.
                 </div>
             </article>
         {/if}
