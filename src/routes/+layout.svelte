@@ -57,6 +57,11 @@
                     label: "Freshers",
                 },
                 {
+                    route: "/doc/termcard.pdf",
+                    label: "Termcard",
+                    external: true,
+                },
+                {
                     route: "/get-involved/societies",
                     label: "Societies",
                 },

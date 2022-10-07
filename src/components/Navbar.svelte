@@ -3,6 +3,7 @@
         route: string;
         label: string;
         children?: NavbarItem[];
+        external?: boolean;
     }
 </script>
 
@@ -95,6 +96,7 @@
                                     class:is-active={active(parent)}
                                     class:has-text-white={!expanded}
                                     href={parent.route}
+                                    target={parent.external ? "_blank" : ""}
                                 >
                                     <b>{parent.label}</b>
                                 </a>
@@ -112,6 +114,9 @@
                                             class:has-text-white={!expanded &&
                                                 !fromDesktop}
                                             href={child.route}
+                                            target={child.external
+                                                ? "_blank"
+                                                : ""}
                                         >
                                             {child.label}
                                         </a>
