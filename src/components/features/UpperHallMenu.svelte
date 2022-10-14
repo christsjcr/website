@@ -11,11 +11,17 @@
     class:is-centered={$width <= tablet.max}
     class:is-fullwidth={$width <= tablet.max}>
     <ul>
-        <li class:is-active={today} on:click={() => (today = true)}>
+        <li
+            class:is-active={today}
+            on:click={() => (today = true)}
+            on:keypress={() => (today = true)}>
             <!-- svelte-ignore a11y-missing-attribute -->
             <a rel="external">Today</a>
         </li>
-        <li class:is-active={!today} on:click={() => (today = false)}>
+        <li
+            class:is-active={!today}
+            on:click={() => (today = false)}
+            on:keypress={() => (today = true)}>
             <!-- svelte-ignore a11y-missing-attribute -->
             <a rel="external">Tomorrow</a>
         </li>

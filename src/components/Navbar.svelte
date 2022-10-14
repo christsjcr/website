@@ -72,7 +72,8 @@
                     class:is-active={expanded}
                     aria-label="menu"
                     aria-expanded={expanded}
-                    on:click={() => (expanded = !expanded)}>
+                    on:click={() => (expanded = !expanded)}
+                    on:keypress={() => (expanded = !expanded)}>
                     <span style="color:white" aria-hidden="true" />
                     <span style="color:white" aria-hidden="true" />
                     <span style="color:white" aria-hidden="true" />
@@ -81,7 +82,8 @@
             <div
                 class="navbar-menu"
                 class:is-active={expanded}
-                on:click={() => (expanded = false)}>
+                on:click={() => (expanded = false)}
+                on:keypress={() => (expanded = false)}>
                 <div class="navbar-end">
                     {#each layout as parent}
                         {#if parent.children?.length}
