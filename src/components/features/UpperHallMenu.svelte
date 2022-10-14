@@ -21,7 +21,7 @@
         <li
             class:is-active={!today}
             on:click={() => (today = false)}
-            on:keypress={() => (today = true)}>
+            on:keypress={() => (today = false)}>
             <!-- svelte-ignore a11y-missing-attribute -->
             <a rel="external">Tomorrow</a>
         </li>
