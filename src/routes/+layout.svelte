@@ -46,6 +46,7 @@
                     label: "Constitution & Guidelines",
                 },
                 { route: "/about/meetings", label: "Meetings" },
+                { route: "/about/elections", label: "Elections" },
             ],
         },
         {
@@ -116,8 +117,7 @@
                     <TrackedLink
                         href="https://www.instagram.com/christsjcr/"
                         id="instagram"
-                        external
-                    >
+                        external>
                         <span class="icon is-large">
                             <FontAwesomeIcon icon={faInstagram} size="2x" />
                         </span>
@@ -128,8 +128,7 @@
                     <TrackedLink
                         href="https://www.facebook.com/ChristsJCR"
                         id="facebook"
-                        external
-                    >
+                        external>
                         <span class="icon is-large">
                             <FontAwesomeIcon icon={faFacebook} size="2x" />
                         </span>
@@ -139,8 +138,7 @@
             </div>
             <p>© Christ's JCR 2022</p>
             <a rel="external" href="https://github.com/christsjcr/website"
-                >Source</a
-            >
+                >Source</a>
         </div>
     </footer>
 </div>

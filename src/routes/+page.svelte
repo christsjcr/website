@@ -17,8 +17,7 @@
         alt: "Christ's College Second Court",
     }}
     size="large"
-    home
->
+    home>
     <div slot="description">
         Christ's JCR is the undergraduate student body at Christ's College,
         Cambridge. We are your student-elected Committee, representing your
@@ -30,22 +29,19 @@
             <NotificationLink
                 href="/about/committee"
                 title="The Committee 🐐"
-                content="Get to know the current members of the JCR Committee!"
-            />
+                content="Get to know the current members of the JCR Committee!" />
         </div>
         <div class="column is-one-third">
             <NotificationLink
                 href="/get-involved"
                 title="Get Involved 💃"
-                content="Find out what's going on at Christ's, and explore the complete list of Christ's societies!"
-            />
+                content="Find out what's going on at Christ's, and explore the complete list of Christ's societies!" />
         </div>
         <div class="column is-one-third">
             <NotificationLink
                 href="/resources/welfare"
                 title="Welfare Resources 💛"
-                content="Resources for general and targeted support - anything related to physical, sexual, or mental health."
-            />
+                content="Resources for general and targeted support - anything related to physical, sexual, or mental health." />
         </div>
     </div>
     <div class="columns my-6 is-desktop">
@@ -64,8 +60,7 @@
                     title="Feedback Form ✍️"
                     content="If you want to provide feedback, suggestions, or general problems for the JCR to consider, please use this form! The JCR is there to work for you, so any and all feedback is welcome."
                     external
-                    grey
-                />
+                    grey />
             </div>
         </div>
     </div>
@@ -79,14 +74,12 @@
                         <TrackedLink
                             href={`https://intranet.christs.cam.ac.uk/upper-hall-menus#Week${week()}`}
                             id="intranet-menu"
-                            external>Menu</TrackedLink
-                        >
+                            external>Menu</TrackedLink>
                     </li>
                     <li>
                         <TrackedLink
                             href="https://intranet.christs.cam.ac.uk/Shibboleth.sso/Login?target=%2Fshibboleth%2Flogin%3Fshiblogin%3D1%26destination%3D%2Fmealbooking%2F"
-                            id="meal-booking">Meal booking</TrackedLink
-                        >
+                            id="meal-booking">Meal booking</TrackedLink>
                     </li>
                 </ul>
             </div>
@@ -99,15 +92,13 @@
                         <TrackedLink
                             href="https://christscollege.roombookingsystem.co.uk/overviewday"
                             id="room-booking"
-                            external>Room booking</TrackedLink
-                        >
+                            external>Room booking</TrackedLink>
                     </li>
                     <li>
                         <TrackedLink
                             href="https://intranet.christs.cam.ac.uk/fault-reporting"
                             id="fault-reporting"
-                            external>Fault reporting</TrackedLink
-                        >
+                            external>Fault reporting</TrackedLink>
                     </li>
                 </ul>
             </div>
@@ -119,15 +110,13 @@
                     <li>
                         <TrackedLink
                             href="tel:+44-1223-334900"
-                            id="phone-porters">+44 1223 334900</TrackedLink
-                        >
+                            id="phone-porters">+44 1223 334900</TrackedLink>
                     </li>
                     <li>
                         <TrackedLink
                             href="mailto:porters@christs.cam.ac.uk"
                             id="email-porters"
-                            >porters@christs.cam.ac.uk</TrackedLink
-                        >
+                            >porters@christs.cam.ac.uk</TrackedLink>
                     </li>
                 </ul>
             </div>
@@ -140,15 +129,13 @@
                         <TrackedLink
                             href="https://docs.google.com/forms/d/e/1FAIpQLSdjETgdH68GhpuQMi8jonTSEwZYkElj1VkjHfTC13kJCPmBFw/viewform"
                             id="reimbursement-form"
-                            external>Reimbursement</TrackedLink
-                        >
+                            external>Reimbursement</TrackedLink>
                     </li>
                     <li>
                         <TrackedLink
                             href="https://docs.google.com/forms/d/e/1FAIpQLSf1Hz_a6Ceg49VoDovKoQNxaTmPi6pRGYHd3nVtbtSjcxqkAw/viewform"
                             id="prescription-form"
-                            external>Prescription Scheme</TrackedLink
-                        >
+                            external>Prescription Scheme</TrackedLink>
                     </li>
                 </ul>
             </div>

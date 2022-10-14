@@ -15,8 +15,7 @@
 <div class="column is-narrow">
     <div
         class={`tag is-${color} has-tooltip-multiline has-tooltip-arrow has-tooltip-${tooltipSide} has-tooltip-bottom-tablet`}
-        data-tooltip={tooltip}
-    >
+        data-tooltip={tooltip}>
         <slot />
     </div>
 </div>

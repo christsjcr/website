@@ -24,15 +24,13 @@
     <div class="block mb-3 mt-6 px-2">
         <nav
             class="breadcrumb is-medium has-arrow-separator is-centered"
-            aria-label="breadcrumbs"
-        >
+            aria-label="breadcrumbs">
             <ul>
                 {#each path as item}
                     <li class:is-active={item.last}>
                         <a
                             aria-current={item.last ? "page" : false}
-                            href={item.route}>{item.name}</a
-                        >
+                            href={item.route}>{item.name}</a>
                     </li>
                 {/each}
             </ul>

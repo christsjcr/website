@@ -4,6 +4,6 @@
     export let id: string;
 </script>
 
-<span on:click={() => click(id)}>
+<span on:click={() => click(id)} on:keypress={() => click(id)}>
     <slot />
 </span>

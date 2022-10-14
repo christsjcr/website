@@ -54,20 +54,17 @@
             class={"navbar is-fixed-top is-transparent"}
             class:barshow={notTransparent}
             class:pr-4={fromDesktop}
-            class:animated
-        >
+            class:animated>
             <div class="navbar-brand">
                 <a
                     class={"navbar-item logo"}
                     class:logoshow={$page.type != "image" || notTransparent}
-                    href="/"
-                >
+                    href="/">
                     <img
                         src="/img/logo_small.webp"
                         width="112"
                         height="28"
-                        alt="JCR Logo"
-                    />
+                        alt="JCR Logo" />
                 </a>
                 <p
                     role="button"
@@ -76,7 +73,7 @@
                     aria-label="menu"
                     aria-expanded={expanded}
                     on:click={() => (expanded = !expanded)}
-                >
+                    on:keypress={() => (expanded = !expanded)}>
                     <span style="color:white" aria-hidden="true" />
                     <span style="color:white" aria-hidden="true" />
                     <span style="color:white" aria-hidden="true" />
@@ -86,7 +83,7 @@
                 class="navbar-menu"
                 class:is-active={expanded}
                 on:click={() => (expanded = false)}
-            >
+                on:keypress={() => (expanded = false)}>
                 <div class="navbar-end">
                     {#each layout as parent}
                         {#if parent.children?.length}
@@ -96,8 +93,7 @@
                                     class:is-active={active(parent)}
                                     class:has-text-white={!expanded}
                                     href={parent.route}
-                                    target={parent.external ? "_blank" : ""}
-                                >
+                                    target={parent.external ? "_blank" : ""}>
                                     <b>{parent.label}</b>
                                 </a>
 
@@ -105,8 +101,7 @@
                                     class="navbar-dropdown"
                                     class:is-boxed={!dropdownBoxed}
                                     class:last-dropdown={parent ==
-                                        layout[layout.length - 1]}
-                                >
+                                        layout[layout.length - 1]}>
                                     {#each parent.children as child}
                                         <a
                                             class="navbar-item"
@@ -116,8 +111,7 @@
                                             href={child.route}
                                             target={child.external
                                                 ? "_blank"
-                                                : ""}
-                                        >
+                                                : ""}>
                                             {child.label}
                                         </a>
                                     {/each}
@@ -128,8 +122,7 @@
                                 class="navbar-item"
                                 class:is-active={active(parent)}
                                 class:has-text-white={!expanded}
-                                href={parent.route}
-                            >
+                                href={parent.route}>
                                 <b>{parent.label}</b>
                             </a>
                         {/if}
