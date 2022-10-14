@@ -7,8 +7,7 @@
 <PageHeader
     current="/about/meetings"
     title="Meetings"
-    metaDescription="Get information on JCR meetings, and learn how you can make sure that your voice is heard."
->
+    metaDescription="Get information on JCR meetings, and learn how you can make sure that your voice is heard.">
     <Content>
         <h2>Michaelmas Term</h2>
         <ul>

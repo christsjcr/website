@@ -12,8 +12,7 @@
 <PageHeader
     current={`/resources/${heading}`}
     title={resourcePage.title}
-    metaDescription={`${resourcePage.title} resources for undergraduate students of Christ's College, Cambridge.`}
->
+    metaDescription={`${resourcePage.title} resources for undergraduate students of Christ's College, Cambridge.`}>
     <div class="outer">
         <div class="inner">
             {#each resourcePage.categories as category}
@@ -26,8 +25,7 @@
                         <div class="content">
                             <h3 class="title is-5">
                                 <a href={resource.url} target="_blank"
-                                    >{resource.title}</a
-                                >
+                                    >{resource.title}</a>
                             </h3>
                             <ul>
                                 {#if resource.info}

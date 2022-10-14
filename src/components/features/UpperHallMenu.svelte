@@ -9,8 +9,7 @@
 <div
     class="tabs"
     class:is-centered={$width <= tablet.max}
-    class:is-fullwidth={$width <= tablet.max}
->
+    class:is-fullwidth={$width <= tablet.max}>
     <ul>
         <li class:is-active={today} on:click={() => (today = true)}>
             <!-- svelte-ignore a11y-missing-attribute -->

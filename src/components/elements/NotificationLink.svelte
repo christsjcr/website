@@ -14,15 +14,13 @@
     href={href ?? $page.url.toString()}
     on:mouseenter={() => (hovered = true)}
     on:mouseleave={() => (hovered = false)}
-    target={external ? "_blank" : ""}
->
+    target={external ? "_blank" : ""}>
     <div
         class="notification"
         class:is-primary={!grey && !hovered}
         class:is-link={hovered}
         class:is-grey={grey && !hovered}
-        class:has-text-dark={grey && !hovered}
-    >
+        class:has-text-dark={grey && !hovered}>
         <h3 class="title is-5">{title}</h3>
         <p class="block">
             {content}

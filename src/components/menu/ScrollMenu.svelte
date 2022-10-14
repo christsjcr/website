@@ -55,8 +55,7 @@
                     class="is-active"
                     href={`#${category.category}`}
                     on:click={(e) => scrollTo(e, category.category)}
-                    >{category.category}</a
-                >
+                    >{category.category}</a>
                 <ul>
                     {#each category.items as role}
                         <li>

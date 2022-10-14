@@ -38,8 +38,7 @@
                 <div class="column">
                     <h5
                         class="title is-4 mr-5"
-                        class:has-text-grey={society.status === "inactive"}
-                    >
+                        class:has-text-grey={society.status === "inactive"}>
                         {society.title}
                     </h5>
                 </div>
@@ -51,8 +50,7 @@
                     <Tag
                         color="grey"
                         tooltipSide="right"
-                        tooltip="This society hasn't responded to our messages 💔"
-                    >
+                        tooltip="This society hasn't responded to our messages 💔">
                         😴 Inactive
                     </Tag>
                 {/if}
@@ -60,8 +58,7 @@
                     <Tag
                         color="warning"
                         tooltipSide="right"
-                        tooltip="This society is active, but does not &nbsp; &nbsp; receive funding from the JCR."
-                    >
+                        tooltip="This society is active, but does not &nbsp; &nbsp; receive funding from the JCR.">
                         💸 Independent
                     </Tag>
                 {/if}
@@ -69,40 +66,35 @@
                     <Tag
                         color="primary"
                         tooltipSide="right"
-                        tooltip="This society is active and receiving funding from the JCR."
-                    >
+                        tooltip="This society is active and receiving funding from the JCR.">
                         💰 JCR Funded
                     </Tag>
                 {/if}
                 {#if society.type === "mens sport"}
                     <Tag
                         color="info"
-                        tooltip="This society is primarily aimed at men's sport."
-                    >
+                        tooltip="This society is primarily aimed at men's sport.">
                         ♂ Men's Sport
                     </Tag>
                 {/if}
                 {#if society.type === "womens sport"}
                     <Tag
                         color="danger"
-                        tooltip="This society is primarily aimed at women's sport."
-                    >
+                        tooltip="This society is primarily aimed at women's sport.">
                         ♀ Women's Sport
                     </Tag>
                 {/if}
                 {#if society.type === "mixed sport"}
                     <Tag
                         color="grey"
-                        tooltip="This society is open to anyone, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; regardless of gender!"
-                    >
+                        tooltip="This society is open to anyone, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; regardless of gender!">
                         ⚤ Mixed Sport
                     </Tag>
                 {/if}
                 {#if society.type === "subject"}
                     <Tag
                         color="grey"
-                        tooltip="This society is affiliated with a subject, but open to everyone."
-                    >
+                        tooltip="This society is affiliated with a subject, but open to everyone.">
                         🎓 Subject-Affiliated
                     </Tag>
                 {/if}
@@ -114,8 +106,7 @@
                     <Tag
                         color="dark"
                         tooltipSide="right"
-                        tooltip="The practices of this society may be deemed controversial, and are not &nbsp; &nbsp; endorsed by the JCR."
-                    >
+                        tooltip="The practices of this society may be deemed controversial, and are not &nbsp; &nbsp; endorsed by the JCR.">
                         ⚠ Caution
                     </Tag>
                 </div>
@@ -158,8 +149,7 @@
             on:click={() => {
                 expanded = true;
                 return false;
-            }}>See more</a
-        >
+            }}>See more</a>
     {/if}
 
     {#if society.contact && expanded}
@@ -180,8 +170,7 @@
                     <a
                         href="https://www.instagram.com/{society.contact
                             .instagram}/"
-                        target="_blank"
-                    >
+                        target="_blank">
                         <span class="icon">
                             <FontAwesomeIcon icon={faInstagram} size="0.5x" />
                         </span>
@@ -196,8 +185,7 @@
                     <a
                         href="https://www.facebook.com/{society.contact
                             .facebook}"
-                        target="_blank"
-                    >
+                        target="_blank">
                         <span class="icon">
                             <FontAwesomeIcon icon={faFacebook} size="1x" />
                         </span>
@@ -212,8 +200,7 @@
                     <a
                         href="https://www.facebook.com/groups/{society.contact
                             .facebookGroup}"
-                        target="_blank"
-                    >
+                        target="_blank">
                         <span class="icon">
                             <FontAwesomeIcon icon={faFacebook} size="1x" />
                         </span>
@@ -227,8 +214,7 @@
                         <span class="icon">
                             <FontAwesomeIcon
                                 icon={faFacebookMessenger}
-                                size="1x"
-                            />
+                                size="1x" />
                         </span>
                         <p class="heading">Messenger</p>
                     </a>
@@ -277,7 +263,6 @@
             on:click={() => {
                 expanded = false;
                 return false;
-            }}>See less</a
-        >
+            }}>See less</a>
     {/if}
 </div>

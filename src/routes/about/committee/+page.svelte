@@ -15,8 +15,7 @@
 <PageHeader
     current="/about/committee"
     title="Committee"
-    metaDescription="The JCR Committee is comprised of students who have been elected to represent the views of Christ's undergrads."
->
+    metaDescription="The JCR Committee is comprised of students who have been elected to represent the views of Christ's undergrads.">
     <div slot="description">
         The JCR Committee is made up of a group of Christ's students who have
         been elected to represent the views of the undergraduate students at
@@ -37,14 +36,12 @@
                     <div
                         id={role.id}
                         class="columns"
-                        class:is-mobile={profileColumns}
-                    >
+                        class:is-mobile={profileColumns}>
                         <div class="column">
                             <img
                                 class="profile"
                                 src={`/img/committee/${role.id}.webp`}
-                                alt={role.title}
-                            />
+                                alt={role.title} />
                         </div>
                         <div class="column is-two-thirds">
                             <div class="content">
@@ -52,17 +49,14 @@
                                 <div class="my-0" class:level={fromDesktop}>
                                     <div
                                         class:level-left={fromDesktop}
-                                        class="title is-6 my-0"
-                                    >
+                                        class="title is-6 my-0">
                                         {role.title}
                                     </div>
 
                                     <small class:level-right={fromDesktop}
                                         ><EmailHider
                                             username={role.id}
-                                            domain="thejcr.co.uk"
-                                        /></small
-                                    >
+                                            domain="thejcr.co.uk" /></small>
                                 </div>
                                 <p>
                                     {role.description}

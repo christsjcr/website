@@ -61,8 +61,7 @@
     current="/get-involved/societies"
     title="Societies"
     size="small"
-    metaDescription="Resources for undergraduate students of Christ's College, Cambridge."
->
+    metaDescription="Resources for undergraduate students of Christ's College, Cambridge.">
     <Content>
         <div slot="description">
             <p>
@@ -92,8 +91,7 @@
                     class="input"
                     type="text"
                     placeholder="Search"
-                    bind:value={search}
-                />
+                    bind:value={search} />
             </p>
         </div>
 
@@ -114,12 +112,11 @@
                         <select bind:value={filterType}>
                             <option value={null}>All Types</option>
                             <option value="mens sport">♂ Men's Sport</option>
-                            <option value="womens sport">♀ Women's Sport</option
-                            >
+                            <option value="womens sport"
+                                >♀ Women's Sport</option>
                             <option value="mixed sport">⚤ Mixed Sport</option>
                             <option value="subject"
-                                >🎓 Subject-Affiliated</option
-                            >
+                                >🎓 Subject-Affiliated</option>
                             <option value="other">✨ Other</option>
                         </select>
                     </div>
@@ -129,8 +126,7 @@
                         <label class="checkbox px-5">
                             <input
                                 type="checkbox"
-                                bind:checked={showInactive}
-                            />
+                                bind:checked={showInactive} />
                             Show Inactive
                         </label>
                     </div>

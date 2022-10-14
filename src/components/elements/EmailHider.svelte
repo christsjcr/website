@@ -9,6 +9,5 @@
     <a href={`mailto:${username}@${domain}`}>{username}@{domain}</a>
 {:else}
     <a href={null} on:click={() => showEmails.set(true)} rel="external"
-        >[Show Emails]</a
-    >
+        >[Show Emails]</a>
 {/if}

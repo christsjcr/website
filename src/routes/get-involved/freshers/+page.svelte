@@ -10,8 +10,7 @@
     current="/get-involved/freshers"
     title="Freshers"
     size="small"
-    metaDescription="Resources for undergraduate students of Christ's College, Cambridge."
->
+    metaDescription="Resources for undergraduate students of Christ's College, Cambridge.">
     <Content hasText={false}>
         <div class="columns">
             <div class="column is-narrow">
@@ -20,22 +19,19 @@
                     on:click={() =>
                         download(
                             freshers.filter((x) => x.type === "compulsory")
-                        )}>Download Compulsory Events</button
-                >
+                        )}>Download Compulsory Events</button>
             </div>
             <div class="column is-narrow">
                 <button
                     class="button is-primary"
                     on:click={() =>
                         download(freshers.filter((x) => x.type === "optional"))}
-                    >Download Optional Events</button
-                >
+                    >Download Optional Events</button>
             </div>
         </div>
         <Calendar
             events={freshers}
-            colors={{ compulsory: "#ad34cb", optional: "#146A46" }}
-        />
+            colors={{ compulsory: "#ad34cb", optional: "#146A46" }} />
         <br />
         <UpperHallMenu />
         <br />
@@ -45,8 +41,7 @@
                     <img
                         alt="Map of College"
                         src="https://www.christs.cam.ac.uk/sites/default/files/inline-images/collegemap_1.jpg"
-                        loading="lazy"
-                    />
+                        loading="lazy" />
                 </figure>
             </div>
         </div>
