@@ -301,6 +301,13 @@ const resources: {
                 category: "Disabilities",
                 items: [
                     {
+                        title: "Christ's Library Assistive Resources",
+                        url: "https://www.christs.cam.ac.uk/assist",
+                        info: [
+                            "Contains details about the many services available to anyone wanting to use the Christ's library.",
+                        ],
+                    },
+                    {
                         title: "Disability Resource Centre",
                         url: "https://www.disability.admin.cam.ac.uk/students/advice-support-for-students",
                         info: [

@@ -24,8 +24,10 @@
                     {#each category.items as resource}
                         <div class="content">
                             <h3 class="title is-5">
-                                <a href={resource.url} target="_blank"
-                                    >{resource.title}</a>
+                                <a
+                                    href={resource.url}
+                                    target="_blank"
+                                    rel="noreferrer">{resource.title}</a>
                             </h3>
                             <ul>
                                 {#if resource.info}
