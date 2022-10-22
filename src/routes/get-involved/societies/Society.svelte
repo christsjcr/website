@@ -157,7 +157,10 @@
         <div class="level">
             {#if society.contact?.register}
                 <div class="level-item has-text-centered">
-                    <a href={society.contact?.register} target="_blank">
+                    <a
+                        href={society.contact?.register}
+                        target="_blank"
+                        rel="noreferrer">
                         <span class="icon">
                             <FontAwesomeIcon icon={faUserPlus} size="1x" />
                         </span>
@@ -170,7 +173,8 @@
                     <a
                         href="https://www.instagram.com/{society.contact
                             .instagram}/"
-                        target="_blank">
+                        target="_blank"
+                        rel="noreferrer">
                         <span class="icon">
                             <FontAwesomeIcon icon={faInstagram} size="0.5x" />
                         </span>
@@ -185,7 +189,8 @@
                     <a
                         href="https://www.facebook.com/{society.contact
                             .facebook}"
-                        target="_blank">
+                        target="_blank"
+                        rel="noreferrer">
                         <span class="icon">
                             <FontAwesomeIcon icon={faFacebook} size="1x" />
                         </span>
@@ -200,7 +205,8 @@
                     <a
                         href="https://www.facebook.com/groups/{society.contact
                             .facebookGroup}"
-                        target="_blank">
+                        target="_blank"
+                        rel="noreferrer">
                         <span class="icon">
                             <FontAwesomeIcon icon={faFacebook} size="1x" />
                         </span>
@@ -210,7 +216,10 @@
             {/if}
             {#if society.contact.messenger}
                 <div class="level-item has-text-centered">
-                    <a href={society.contact.messenger} target="_blank">
+                    <a
+                        href={society.contact.messenger}
+                        target="_blank"
+                        rel="noreferrer">
                         <span class="icon">
                             <FontAwesomeIcon
                                 icon={faFacebookMessenger}
@@ -222,7 +231,10 @@
             {/if}
             {#if society.contact.whatsapp}
                 <div class="level-item has-text-centered">
-                    <a href={society.contact.whatsapp} target="_blank">
+                    <a
+                        href={society.contact.whatsapp}
+                        target="_blank"
+                        rel="noreferrer">
                         <span class="icon">
                             <FontAwesomeIcon icon={faWhatsapp} size="1x" />
                         </span>
@@ -232,7 +244,10 @@
             {/if}
             {#if society.contact.email}
                 <div class="level-item has-text-centered">
-                    <a href="mailto:{society.contact.email}" target="_blank">
+                    <a
+                        href="mailto:{society.contact.email}"
+                        target="_blank"
+                        rel="noreferrer">
                         <span class="icon">
                             <FontAwesomeIcon icon={faEnvelope} size="1x" />
                         </span>
@@ -244,7 +259,10 @@
             {/if}
             {#if society.contact.website}
                 <div class="level-item has-text-centered">
-                    <a href={society.contact.website.url} target="_blank">
+                    <a
+                        href={society.contact.website.url}
+                        target="_blank"
+                        rel="noreferrer">
                         <span class="icon">
                             <FontAwesomeIcon icon={faGlobe} size="1x" />
                         </span>

@@ -80,7 +80,8 @@
                 Is information about your society incorrect or out-of-date? Fill
                 in the <a
                     href="https://docs.google.com/forms/d/e/1FAIpQLSfTnmDLCwVwiblfuTXfJzC64iIhH3ooZFJCkNIYG2p-Bn0wWg/viewform?usp=sf_link"
-                    target="_blank">society update form</a
+                    target="_blank"
+                    rel="noreferrer">society update form</a
                 >.
             </p>
         </div>
