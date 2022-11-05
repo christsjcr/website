@@ -43,7 +43,6 @@
             <h5>Roles up for election</h5>
             <ul>
                 <li>President</li>
-                <li>Treasurer</li>
                 <li>Entertainments Officer</li>
                 <li>Male and Non-Binary Welfare Officer</li>
                 <li>Female and Non-Binary Welfare Officer</li>
@@ -68,6 +67,7 @@
             <h5>Roles up for election</h5>
             <ul>
                 <li>Vice President</li>
+                <li>Treasurer</li>
                 <li>Secretary</li>
                 <li>First Year Officer</li>
                 <li>LGBT+ Officer</li>
