@@ -28,7 +28,9 @@
     </div>
     <SideMenu categories={committee}>
         {#each committee as category}
-            <div class="section px-0" id={category.category}>
+            <div
+                class="section px-0"
+                id={category.category.toLowerCase().replaceAll(" ", "-")}>
                 <h2 class="title is-2">
                     {category.category}
                 </h2>

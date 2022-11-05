@@ -53,9 +53,14 @@
             <li>
                 <a
                     class="is-active"
-                    href={`#${category.category}`}
-                    on:click={(e) => scrollTo(e, category.category)}
-                    >{category.category}</a>
+                    href={`#${category.category
+                        .toLowerCase()
+                        .replaceAll(" ", "-")}`}
+                    on:click={(e) =>
+                        scrollTo(
+                            e,
+                            category.category.toLowerCase().replaceAll(" ", "-")
+                        )}>{category.category}</a>
                 <ul>
                     {#each category.items as role}
                         <li>
