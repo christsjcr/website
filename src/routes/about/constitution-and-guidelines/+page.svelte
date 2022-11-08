@@ -23,6 +23,22 @@
         <h4>
             <a href="/doc/constitution.pdf" download>Download</a>
         </h4>
+        <h2>📖 Standing Orders</h2>
+        <p>
+            The Standing Orders are a set of extra rules and guidelines that
+            operate alongside to the JCR Constitution. They spell out certain
+            things in more detail than the Constitution - like how to conduct
+            Open Meetings, Elections and Referenda - and also give specific job
+            descriptions of most of the Committee roles.
+        </p>
+        <p>
+            These rules help the JCR operate democratically, so all students can
+            read them and appeal to the Vice President (or any of the JCR Exec)
+            if they think something isn't being done right.
+        </p>
+        <h4>
+            <a href="/doc/standing-orders.pdf" download>Download</a>
+        </h4>
         <h2>💸 Financial Conduct & Procedure</h2>
         <p>
             This document specifies how the JCR handles its finances. It
