@@ -1,6 +1,7 @@
 <script lang="ts">
     import Content from "$components/elements/Content.svelte";
     import TitleBox from "$components/elements/TitleBox.svelte";
+    import ExternalLink from "$components/markdown/ExternalLink.svelte";
     import PageHeader from "$components/PageHeader.svelte";
 </script>
 
@@ -43,13 +44,82 @@
             <h5>Roles up for election</h5>
             <ul>
                 <li>President</li>
+                <ul>
+                    <li>
+                        <ExternalLink href="/doc/manifestos/ossie-visick.png">
+                            Ossie Visick
+                        </ExternalLink>
+                    </li>
+                </ul>
                 <li>Entertainments Officer</li>
+                <ul>
+                    <li>
+                        <ExternalLink href="/doc/manifestos/neha-pauly.pdf">
+                            Neha Pauly
+                        </ExternalLink>
+                    </li>
+                </ul>
                 <li>Male and Non-Binary Welfare Officer</li>
+                <ul>
+                    <li>
+                        <ExternalLink href="/doc/manifestos/ben-cartwright.pdf">
+                            Ben Cartwright
+                        </ExternalLink>
+                    </li>
+                    <li>
+                        <ExternalLink
+                            href="/doc/manifestos/julen-lippman-errasti.pdf">
+                            Julen Lippman-Errasti
+                        </ExternalLink>
+                    </li>
+                </ul>
                 <li>Female and Non-Binary Welfare Officer</li>
+                <ul>
+                    <li>
+                        <ExternalLink
+                            href="/doc/manifestos/olivia-moynihan.pdf">
+                            Olivia Moynihan
+                        </ExternalLink>
+                    </li>
+                </ul>
                 <li>Access Officer</li>
+                <ul>
+                    <li>
+                        <ExternalLink href="/doc/manifestos/yii-ling-deng.pdf">
+                            Yii-Ling Deng
+                        </ExternalLink>
+                    </li>
+                </ul>
                 <li>Green and Charities Officer</li>
+                <ul>
+                    <li>
+                        <ExternalLink href="/doc/manifestos/rachel-doran.pdf">
+                            Rachel Doran
+                        </ExternalLink>
+                    </li>
+                </ul>
                 <li>Ethnic Diversity Officer</li>
+                <ul>
+                    <li>
+                        <ExternalLink
+                            href="/doc/manifestos/ayomide-akande.jpeg">
+                            Ayomide Akande
+                        </ExternalLink>
+                    </li>
+                </ul>
                 <li>Disabled Students' Officer</li>
+                <ul>
+                    <li>
+                        <ExternalLink href="/doc/manifestos/juno-buchan.pdf">
+                            Juno Buchan
+                        </ExternalLink>
+                    </li>
+                    <li>
+                        <ExternalLink href="/doc/manifestos/emily-freeman.pdf">
+                            Emily Freeman
+                        </ExternalLink>
+                    </li>
+                </ul>
             </ul>
         </TitleBox>
         <br />
