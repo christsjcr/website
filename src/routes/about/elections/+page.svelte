@@ -46,7 +46,8 @@
                 <li>President</li>
                 <ul>
                     <li>
-                        <ExternalLink href="/doc/manifestos/ossie-visick.png">
+                        <ExternalLink
+                            href="https://drive.google.com/file/d/11_xJVVL4-hl8XXPHN8MuCUDLJy205CTc/view?usp=share_link">
                             Ossie Visick
                         </ExternalLink>
                     </li>
@@ -54,7 +55,8 @@
                 <li>Entertainments Officer</li>
                 <ul>
                     <li>
-                        <ExternalLink href="/doc/manifestos/neha-pauly.pdf">
+                        <ExternalLink
+                            href="https://drive.google.com/file/d/1jKkLSilmpjFysQRP9e9--gXwKAJMw5Nr/view?usp=share_link">
                             Neha Pauly
                         </ExternalLink>
                     </li>
@@ -62,13 +64,14 @@
                 <li>Male and Non-Binary Welfare Officer</li>
                 <ul>
                     <li>
-                        <ExternalLink href="/doc/manifestos/ben-cartwright.pdf">
+                        <ExternalLink
+                            href="https://drive.google.com/file/d/1Gk-FArMji-g2RicjjAZz1wlk35s5aZE9/view?usp=share_link">
                             Ben Cartwright
                         </ExternalLink>
                     </li>
                     <li>
                         <ExternalLink
-                            href="/doc/manifestos/julen-lippman-errasti.pdf">
+                            href="https://drive.google.com/file/d/1XgXeATxz7hXvS8Z4tGyErFQh-hz6BNZS/view?usp=share_link">
                             Julen Lippman-Errasti
                         </ExternalLink>
                     </li>
@@ -77,7 +80,7 @@
                 <ul>
                     <li>
                         <ExternalLink
-                            href="/doc/manifestos/olivia-moynihan.pdf">
+                            href="https://drive.google.com/file/d/1yGpCpTewNZc4Q0ngTGb92BPM7bvZqpA6/view?usp=share_link">
                             Olivia Moynihan
                         </ExternalLink>
                     </li>
@@ -85,7 +88,8 @@
                 <li>Access Officer</li>
                 <ul>
                     <li>
-                        <ExternalLink href="/doc/manifestos/yii-ling-deng.pdf">
+                        <ExternalLink
+                            href="https://drive.google.com/file/d/1iwcXmIi3lmOygJo7OccPXakFJe-aDd_e/view?usp=share_link">
                             Yii-Ling Deng
                         </ExternalLink>
                     </li>
@@ -93,7 +97,8 @@
                 <li>Green and Charities Officer</li>
                 <ul>
                     <li>
-                        <ExternalLink href="/doc/manifestos/rachel-doran.pdf">
+                        <ExternalLink
+                            href="https://drive.google.com/file/d/1wRHNQCAE5gwLfsu6rt1PphN-Cb4N7zFz/view?usp=share_link">
                             Rachel Doran
                         </ExternalLink>
                     </li>
@@ -102,7 +107,7 @@
                 <ul>
                     <li>
                         <ExternalLink
-                            href="/doc/manifestos/ayomide-akande.jpeg">
+                            href="https://drive.google.com/file/d/1Rkzspbz18wvbfLTASmDMokmdQpk2hAY1/view?usp=share_link">
                             Ayomide Akande
                         </ExternalLink>
                     </li>
@@ -110,12 +115,14 @@
                 <li>Disabled Students' Officer</li>
                 <ul>
                     <li>
-                        <ExternalLink href="/doc/manifestos/juno-buchan.pdf">
+                        <ExternalLink
+                            href="https://drive.google.com/file/d/1ea9IGbggcJiyOd5_BK6RlsP6hyqpRI53/view?usp=share_link">
                             Juno Buchan
                         </ExternalLink>
                     </li>
                     <li>
-                        <ExternalLink href="/doc/manifestos/emily-freeman.pdf">
+                        <ExternalLink
+                            href="https://drive.google.com/file/d/1c-CHxZidWy49BCCNbI54LvZWNiswEH6L/view?usp=share_link">
                             Emily Freeman
                         </ExternalLink>
                     </li>
