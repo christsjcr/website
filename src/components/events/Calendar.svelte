@@ -76,6 +76,9 @@
     export let colors: { [key in K]: string };
 
     let startDate = getDay(events[0]);
+    let endDate = getDay(events[events.length - 1]);
+    endDate.setDate(endDate.getDate() + 1);
+
     let now = new Date();
 
     let options = {
@@ -104,7 +107,7 @@
             else return (time + event.title).replaceAll("</p><p>", " ");
         },
 
-        date: now >= startDate ? now : startDate,
+        date: startDate <= now && now < endDate ? now : startDate,
     };
 </script>
 
