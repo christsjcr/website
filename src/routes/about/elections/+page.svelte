@@ -31,7 +31,7 @@
             two voting rounds.
         </p>
         <blockquote>
-            The only role that did not receive any candidates for it was Male &
+            The only role for which we did not receive any candidates was Male &
             Non-Binary First Year Officer. As a result, a small by-election will
             be held soon to decide who will take on this role. Any first year
             may apply for the role as it will become just another First Year

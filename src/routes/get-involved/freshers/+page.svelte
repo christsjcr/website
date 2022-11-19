@@ -12,6 +12,15 @@
     size="small"
     metaDescription="Resources for undergraduate students of Christ's College, Cambridge.">
     <Content hasText={false}>
+        <div class="content">
+            <blockquote>
+                Sadly, Freshers' Week 2022 has now ended, and so this timetable
+                is a bit out of date. Fear not though, we'll keep this page up
+                for first-years to look back on, and so that prospective
+                students can get a taste of what Freshers' week is like at
+                Christ's!
+            </blockquote>
+        </div>
         <div class="columns">
             <div class="column is-narrow">
                 <button
