@@ -5,6 +5,10 @@ import preprocess from "svelte-preprocess";
 const config = {
   // Consult https://github.com/sveltejs/svelte-preprocess
   // for more information about preprocessors
+  onwarn: (warning, handler) => {
+    if (warning.filename.includes("node_modules")) return;
+    handler(warning);
+  },
   preprocess: [
     preprocess({
       scss: {
