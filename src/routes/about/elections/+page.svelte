@@ -112,21 +112,6 @@
                         </ExternalLink>
                     </li>
                 </ul>
-                <li>LGBT+ Officer</li>
-                <ul>
-                    <li>
-                        <ExternalLink
-                            href="https://drive.google.com/file/d/1tytYxW9dhg0mM0fu9iv77biopiZvNJmn/view?usp=share_link">
-                            Kas Bridges
-                        </ExternalLink>
-                    </li>
-                    <li>
-                        <ExternalLink
-                            href="https://drive.google.com/file/d/1Koi14Ma7US_KmPeS2LTR53wec-7uH5lS/view?usp=share_link">
-                            Vivek Bilous
-                        </ExternalLink>
-                    </li>
-                </ul>
                 <li>Class Act Officer</li>
                 <ul>
                     <li>
