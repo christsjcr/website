@@ -91,10 +91,11 @@ const categories: RoleCategory[] = [
             {
                 title: "Women's Officer",
                 label: "Women's",
-                name: "Leah Almeida",
+                name: "Ana-Maria Skaricic",
+                pronouns: "she/her",
                 id: "womens",
                 description:
-                    "Leah, our Womens' Officer, will be promoting a safe space for discussion surrounding gender expression, organising informative events on issues surrounding intersectional feminism and misogyny, holding FemSoc events and socials, as well as continuing with the sustainable period product scheme.",
+                    "Hi! I'm Ana-Maria, this year's Women's Officer. I'll be representing women/nonbinary people at college and making sure that Christ's continues to be an open and inclusive community for all genders! This year, I hope to expand FemSoc's events (swaps, arts & crafts nights, and speaker events), ensure that menstruating students have access to sustainable period products throughout college, and provide a safe space for students of all genders to air any concerns. Please get in touch with me if you have any feedback, concerns, or just want a chat!",
             },
             {
                 title: "Internationals' Officer",
@@ -112,10 +113,11 @@ const categories: RoleCategory[] = [
             {
                 title: "Access Officer",
                 label: "Access",
-                name: "Romany Whittall",
+                name: "Yii-Ling Deng",
+                pronouns: "she/her",
                 id: "access",
                 description:
-                    "Romany, our Access officer, will be working with outside agencies and Cambridge-wide programmes to ensure students from non-traditional backgrounds are prepared for admission processes, make the 2022 Shadowing Scheme rewarding and enjoyable, develop the Bridging Course further for offer-holders, and support students who want to run their own Access and outreach events.",
+                    "Hey! I'm Yii-Ling, the Access Officer. My job is widening access and participation, working closely with the Admissions & Outreach department, prospective students and Christ's representatives, encouraging and supporting applicants in the admission process - especially those from under-represented and disadvantaged backgrounds. I'm focusing on making the 2023 Shadowing scheme run smoothly and enjoyably, developing the Bridging Course and collaborating with other JCR officers so that every aspect of access is covered for prospective and current students. My vision is to make more people realise that Cambridge is a possibility; a place they can thrive! Please drop me an email if you have any ideas/questions on anything related to access!",
             },
             {
                 title: "Catering & Facilities Officer",

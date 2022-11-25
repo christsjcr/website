@@ -3,6 +3,7 @@ import type { MenuCategory, MenuItem } from "./menu";
 
 export interface RoleItem extends MenuItem {
     name: string;
+    pronouns?: string;
     description: string;
 }
 
