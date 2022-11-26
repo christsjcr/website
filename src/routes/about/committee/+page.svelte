@@ -51,8 +51,19 @@
                                 <div class="my-0" class:level={fromDesktop}>
                                     <div
                                         class:level-left={fromDesktop}
-                                        class="title is-6 my-0">
-                                        {role.title}
+                                        class="my-0">
+                                        <div class="level is-mobile">
+                                            <div class="level-left">
+                                                <div class="level-item">
+                                                    <div class="title is-6">
+                                                        {role.title}
+                                                    </div>
+                                                </div>
+                                                <div class="level-item">
+                                                    <i>{role.pronouns ?? ""}</i>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
 
                                     <small class:level-right={fromDesktop}
@@ -60,7 +71,7 @@
                                             username={role.id}
                                             domain="thejcr.co.uk" /></small>
                                 </div>
-                                <p>
+                                <p class="pt-3">
                                     {role.description}
                                 </p>
                             </div>
