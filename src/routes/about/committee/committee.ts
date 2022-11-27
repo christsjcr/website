@@ -130,12 +130,12 @@ const categories: RoleCategory[] = [
             {
                 title: "Events Officer (Ents)",
                 label: "Ents",
-                name: "Hannah Huang",
+                name: "Neha Pauly",
+                pronouns: "she/her",
                 id: "ents",
                 description:
-                    "Hannah, our Ents Officer, is planning on increasing the diversity of events in collaboration with Abhi, bringing back SuperBops (Bops with other colleges) and continuing to form relationships with local businesses and venues.",
+                    "Hello! I'm Neha (aka Slayha), this year's Ents Officer. My job is to make Christs as fun as possible by organising bops, alt-bops, and various other events. This year, I hope to organise more events with other colleges, work with the Buttery staff on official college and seasonal drinks, as well as host a wider array of social events by collaborating with other officers and local businesses. Please do come talk to me or shoot me a message if you have any feedback or suggestions on how to make Christ's slay!",
             },
-
             {
                 title: "Green Officer",
                 label: "Green",
