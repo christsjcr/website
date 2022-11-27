@@ -61,8 +61,11 @@ export const societies: Society[] = [
     },
     {
         title: "Bookworms", icon: "📚",
-        status: "inactive",
+        status: "funded",
         type: "other",
+        people: [
+            { name: "Liz Samuel", crsid: "eas205" },
+        ],
     },
     {
         title: "Card Game Society", icon: "🃏",
@@ -145,11 +148,16 @@ export const societies: Society[] = [
     },
     {
         title: "Feminist Society", icon: "♀️",
+        description: "The Christ's Feminist Society looks to discuss/advance/educate feminist causes in a safe and supportive environment. Anyone is welcome!",
         people: [
             { name: "Ana-Maria Skaricic", crsid: "ams315" },
         ],
         type: "other",
         status: "funded",
+        contact: {
+            facebook: "CCFeminist",
+            instagram: "christsfeministsociety",
+        },
     },
     {
         title: "Film Society", icon: "🎥",
@@ -220,10 +228,7 @@ export const societies: Society[] = [
     {
         title: "Nollywood Society", icon: "🎥",
         description: "Christ's Nollywood Society seeks to boost the representation of international media (particularly Nigerian cinema) within Christ's. It holds social events featuring Nollywood films, for both Nollywood enthusiasts and for anyone who wants to learn more about the genre.",
-        people: [
-            { name: "Shanker Narayan", crsid: "sn601" },
-        ],
-        status: "funded",
+        status: "inactive",
         type: "other",
     },
     {
