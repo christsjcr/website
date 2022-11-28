@@ -52,12 +52,18 @@ const resources: {
                         url: "https://christscollege.roombookingsystem.co.uk/overviewday",
                     },
                     {
-                        title: "Airbed Booking",
-                        url: "https://christscollege.roombookingsystem.co.uk/user/overviewweek",
-                    },
-                    {
                         title: "Fault Reporting",
                         url: "https://intranet.christs.cam.ac.uk/fault-reporting",
+                    },
+                    {
+                        title: "Airbed Booking",
+                        url: "https://christscollege.roombookingsystem.co.uk/user/overviewweek",
+                        info: [
+                            "Airbeds and accompanying bedding can be booked on the college intranet",
+                            "An automated email will be sent specifying how to collect, inflate and return the mattress",
+                            "There is a flat charge of £5 for 1-3 nights, as well as a deposit of £20 should the mattress or bedding be damaged, lost or not returned appropriately",
+                            "All charges are handled automatically through the college intranet",
+                        ],
                     },
                 ],
             },
