@@ -47,11 +47,12 @@ const categories: RoleCategory[] = [
             },
             {
                 title: "Welfare Officer",
-                label: "Christina",
-                name: "Christina Lawrence",
+                label: "Olivia",
+                name: "Olivia Moynihan",
+                pronouns: "she/her",
                 id: "welfare-f",
                 description:
-                    "Christina and Ossie, our Welfare Officers, are aiming to diversify the plethora of welfare activities throughout term, as well as ensuring that concerns around mental health are taken seriously by College whilst providing resources to mitigate sources of stress.",
+                    "Hi, I'm Olivia, your Female/Non-Binary Welfare Officer! This year, I hope to ensure that Christ's is a supportive and welcoming environment for all students by being an approachable point of contact and liaising with college to ensure that their decisions are in the best interests of students' welfare. I'll be working with Julen to organise a plethora of welfare events throughout the year, and I'm also designing a welfare handbook for incoming freshers to support their transition to university. Feel free to get in touch via email or on the @ChristsWelfare Instagram if you have any queries or concerns, or just want to chat!",
             },
         ],
     },
