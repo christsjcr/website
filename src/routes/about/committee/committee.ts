@@ -123,10 +123,11 @@ const categories: RoleCategory[] = [
             {
                 title: "Catering & Facilities Officer",
                 label: "Catering & Facilities",
-                name: "Jonathon Konig",
+                name: "Mikolaj Rycek",
+                pronouns: "he/him",
                 id: "facilities",
                 description:
-                    "Jonathan, our Catering and Facilities Officer, will be hoping to improve Upper Hall menu options for all dietary preferences, work with Sam to bring back the college punt, and continue introducing new gym equipment and arrange seating plans for Formal Halls in an equitable fashion.",
+                    "Hi! I'm Mikolaj, this year's Catering and Facilities officer. I hope to organise a college punt, listen to student feedback to ensure upper hall and the buttery are satisfactory, and work with other members of the JCR committee with their projects. Please send a message or an email if you have any suggestions to improve the Catering and Facilities at Christ's!",
             },
             {
                 title: "Events Officer (Ents)",
