@@ -47,11 +47,12 @@ const categories: RoleCategory[] = [
             },
             {
                 title: "Welfare Officer",
-                label: "Christina",
-                name: "Christina Lawrence",
+                label: "Olivia",
+                name: "Olivia Moynihan",
+                pronouns: "she/her",
                 id: "welfare-f",
                 description:
-                    "Christina and Ossie, our Welfare Officers, are aiming to diversify the plethora of welfare activities throughout term, as well as ensuring that concerns around mental health are taken seriously by College whilst providing resources to mitigate sources of stress.",
+                    "Hi, I'm Olivia, your Female/Non-Binary Welfare Officer! This year, I hope to ensure that Christ's is a supportive and welcoming environment for all students by being an approachable point of contact and liaising with college to ensure that their decisions are in the best interests of students' welfare. I'll be working with Julen to organise a plethora of welfare events throughout the year, and I'm also designing a welfare handbook for incoming freshers to support their transition to university. Feel free to get in touch via email or on the @ChristsWelfare Instagram if you have any queries or concerns, or just want to chat!",
             },
         ],
     },
@@ -122,20 +123,21 @@ const categories: RoleCategory[] = [
             {
                 title: "Catering & Facilities Officer",
                 label: "Catering & Facilities",
-                name: "Jonathon Konig",
+                name: "Mikolaj Rycek",
+                pronouns: "he/him",
                 id: "facilities",
                 description:
-                    "Jonathan, our Catering and Facilities Officer, will be hoping to improve Upper Hall menu options for all dietary preferences, work with Sam to bring back the college punt, and continue introducing new gym equipment and arrange seating plans for Formal Halls in an equitable fashion.",
+                    "Hi! I'm Mikolaj, this year's Catering and Facilities officer. I hope to organise a college punt, listen to student feedback to ensure upper hall and the buttery are satisfactory, and work with other members of the JCR committee with their projects. Please send a message or an email if you have any suggestions to improve the Catering and Facilities at Christ's!",
             },
             {
                 title: "Events Officer (Ents)",
                 label: "Ents",
-                name: "Hannah Huang",
+                name: "Neha Pauly",
+                pronouns: "she/her",
                 id: "ents",
                 description:
-                    "Hannah, our Ents Officer, is planning on increasing the diversity of events in collaboration with Abhi, bringing back SuperBops (Bops with other colleges) and continuing to form relationships with local businesses and venues.",
+                    "Hello! I'm Neha (aka Slayha), this year's Ents Officer. My job is to make Christs as fun as possible by organising bops, alt-bops, and various other events. This year, I hope to organise more events with other colleges, work with the Buttery staff on official college and seasonal drinks, as well as host a wider array of social events by collaborating with other officers and local businesses. Please do come talk to me or shoot me a message if you have any feedback or suggestions on how to make Christ's slay!",
             },
-
             {
                 title: "Green Officer",
                 label: "Green",
