@@ -6,10 +6,11 @@ const categories: RoleCategory[] = [
         items: [
             {
                 title: "President",
-                name: "Sam Carling",
+                name: "Ossie Visick",
+                pronouns: "he/him",
                 id: "president",
                 description:
-                    "Sam, our President, acts as the main undergraduate representative in College governance. He will be focusing on negotiating a reduction in yearly rent increases, heating the pool, bringing back the college punt, improving facilities in the hostels, and co-ordinating the JCR's responses to wider political issues that arise.",
+                    "Hello! I'm Ossie, Christ's JCR President for 2023. I am the principal undergraduate representative in college and I am responsible for overseeing the JCR's activities. This year, my plans are to negotiate with college to mitigate rent rises, secure more study space for students, reform the scholars' system and look at alternative ways for heating the college pool. I am working closely with all officers on the JCR to make student representation as effective as it can be. Please get in touch if you have any questions or any concerns that you wish to discuss!",
             },
             {
                 title: "Vice President",
@@ -101,10 +102,11 @@ const categories: RoleCategory[] = [
             {
                 title: "Internationals' Officer",
                 label: "Internationals'",
-                name: "Tudor Serban",
+                name: "Ju Yi Tai",
+                pronouns: "she/her",
                 id: "intl",
                 description:
-                    "Tudor, our Internationals' Officer, is planning to create more opportunities for Internationals to meet with each other during Internationals' Week and throughout term, work with College and the JCR to ensure the welfare of International students, and expand the interactions of internationals from Christ's with those from other colleges.",
+                    "Hi! I'm Ju Yi, a second-year medic from Malaysia, and I'm your international officer! This means I can help with anything international-related, whether that's storage, food, welfare, or if you just want someone to talk to. I'll also be organising events with other internationals from college and throughout Cambridge, as well as working with the college and JCR to make your stay in Cambridge as comfortable as possible. Feel free to raise things you'd like to see changed, ask me any questions about settling in, or just talk to me about anything on your mind - I'd be glad to chat!",
             },
         ],
     },
