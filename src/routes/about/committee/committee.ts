@@ -40,11 +40,11 @@ const categories: RoleCategory[] = [
         items: [
             {
                 title: "Welfare Officer",
-                label: "Ossie",
-                name: "Ossie Visick",
+                label: "Julen",
+                name: "Julen Lippman-Errasti",
                 id: "welfare-m",
                 description:
-                    "Christina and Ossie, our Welfare Officers, are aiming to diversify the plethora of welfare activities throughout term, as well as ensuring that concerns around mental health are taken seriously by College whilst providing resources to mitigate sources of stress.",
+                    "Hi, I'm Julen, your male/non-binary welfare officer! Alongside Olivia, I'll be working to expand the college social spaces as well as running inclusive, relaxed events throughout term to help students take their minds off work, like weekly Welfare Walks. I'll work with other members of the JCR committee to make sure students feel welcome and safe around college, and to help the incoming freshers settle in. Please send me an email or message @ChristsWelfare on Instagram if you have any questions or want a chat!",
             },
             {
                 title: "Welfare Officer",
@@ -129,7 +129,7 @@ const categories: RoleCategory[] = [
                 pronouns: "he/him",
                 id: "facilities",
                 description:
-                    "Hi! I'm Mikolaj, this year's Catering and Facilities officer. I hope to organise a college punt, listen to student feedback to ensure upper hall and the buttery are satisfactory, and work with other members of the JCR committee with their projects. Please send a message or an email if you have any suggestions to improve the Catering and Facilities at Christ's!",
+                    "Hi! I'm Mikolaj, this year's Catering and Facilities officer. I hope to organise a college punt, listen to student feedback to ensure Upper Hall and the Buttery are satisfactory, and work with other members of the JCR committee with their projects. Please send a message or an email if you have any suggestions to improve the Catering and Facilities at Christ's!",
             },
             {
                 title: "Events Officer (Ents)",
@@ -138,7 +138,7 @@ const categories: RoleCategory[] = [
                 pronouns: "she/her",
                 id: "ents",
                 description:
-                    "Hello! I'm Neha (aka Slayha), this year's Ents Officer. My job is to make Christs as fun as possible by organising bops, alt-bops, and various other events. This year, I hope to organise more events with other colleges, work with the Buttery staff on official college and seasonal drinks, as well as host a wider array of social events by collaborating with other officers and local businesses. Please do come talk to me or shoot me a message if you have any feedback or suggestions on how to make Christ's slay!",
+                    "Hello! I'm Neha, this year's Ents Officer. My job is to make Christs as fun as possible by organising bops, alt-bops, and various other events. This year, I hope to organise more events with other colleges, work with the Buttery staff on official college and seasonal drinks, as well as host a wider array of social events by collaborating with other officers and local businesses. Please do come talk to me or shoot me a message if you have any feedback or suggestions on how to make Christ's slay!",
             },
             {
                 title: "Green Officer",
