@@ -6,10 +6,11 @@ const categories: RoleCategory[] = [
         items: [
             {
                 title: "President",
-                name: "Sam Carling",
+                name: "Ossie Visick",
+                pronouns: "he/him",
                 id: "president",
                 description:
-                    "Sam, our President, acts as the main undergraduate representative in College governance. He will be focusing on negotiating a reduction in yearly rent increases, heating the pool, bringing back the college punt, improving facilities in the hostels, and co-ordinating the JCR's responses to wider political issues that arise.",
+                    "Hello! I'm Ossie, Christ's JCR President for 2023. I am the principal undergraduate representative in college and I am responsible for overseeing the JCR's activities. This year, my plans are to negotiate with college to mitigate rent rises, secure more study space for students, reform the scholars' system and look at alternative ways for heating the college pool. I am working closely with all officers on the JCR to make student representation as effective as it can be. Please get in touch if you have any questions or any concerns that you wish to discuss!",
             },
             {
                 title: "Vice President",
@@ -39,11 +40,11 @@ const categories: RoleCategory[] = [
         items: [
             {
                 title: "Welfare Officer",
-                label: "Ossie",
-                name: "Ossie Visick",
+                label: "Julen",
+                name: "Julen Lippman-Errasti",
                 id: "welfare-m",
                 description:
-                    "Christina and Ossie, our Welfare Officers, are aiming to diversify the plethora of welfare activities throughout term, as well as ensuring that concerns around mental health are taken seriously by College whilst providing resources to mitigate sources of stress.",
+                    "Hi, I'm Julen, your male/non-binary welfare officer! Alongside Olivia, I'll be working to expand the college social spaces as well as running inclusive, relaxed events throughout term to help students take their minds off work, like weekly Welfare Walks. I'll work with other members of the JCR committee to make sure students feel welcome and safe around college, and to help the incoming freshers settle in. Please send me an email or message @ChristsWelfare on Instagram if you have any questions or want a chat!",
             },
             {
                 title: "Welfare Officer",
@@ -101,10 +102,11 @@ const categories: RoleCategory[] = [
             {
                 title: "Internationals' Officer",
                 label: "Internationals'",
-                name: "Tudor Serban",
+                name: "Ju Yi Tai",
+                pronouns: "she/her",
                 id: "intl",
                 description:
-                    "Tudor, our Internationals' Officer, is planning to create more opportunities for Internationals to meet with each other during Internationals' Week and throughout term, work with College and the JCR to ensure the welfare of International students, and expand the interactions of internationals from Christ's with those from other colleges.",
+                    "Hi! I'm Ju Yi, a second-year medic from Malaysia, and I'm your international officer! This means I can help with anything international-related, whether that's storage, food, welfare, or if you just want someone to talk to. I'll also be organising events with other internationals from college and throughout Cambridge, as well as working with the college and JCR to make your stay in Cambridge as comfortable as possible. Feel free to raise things you'd like to see changed, ask me any questions about settling in, or just talk to me about anything on your mind - I'd be glad to chat!",
             },
         ],
     },
@@ -127,7 +129,7 @@ const categories: RoleCategory[] = [
                 pronouns: "he/him",
                 id: "facilities",
                 description:
-                    "Hi! I'm Mikolaj, this year's Catering and Facilities officer. I hope to organise a college punt, listen to student feedback to ensure upper hall and the buttery are satisfactory, and work with other members of the JCR committee with their projects. Please send a message or an email if you have any suggestions to improve the Catering and Facilities at Christ's!",
+                    "Hi! I'm Mikolaj, this year's Catering and Facilities officer. I hope to organise a college punt, listen to student feedback to ensure Upper Hall and the Buttery are satisfactory, and work with other members of the JCR committee with their projects. Please send a message or an email if you have any suggestions to improve the Catering and Facilities at Christ's!",
             },
             {
                 title: "Events Officer (Ents)",
@@ -136,7 +138,7 @@ const categories: RoleCategory[] = [
                 pronouns: "she/her",
                 id: "ents",
                 description:
-                    "Hello! I'm Neha (aka Slayha), this year's Ents Officer. My job is to make Christs as fun as possible by organising bops, alt-bops, and various other events. This year, I hope to organise more events with other colleges, work with the Buttery staff on official college and seasonal drinks, as well as host a wider array of social events by collaborating with other officers and local businesses. Please do come talk to me or shoot me a message if you have any feedback or suggestions on how to make Christ's slay!",
+                    "Hello! I'm Neha, this year's Ents Officer. My job is to make Christs as fun as possible by organising bops, alt-bops, and various other events. This year, I hope to organise more events with other colleges, work with the Buttery staff on official college and seasonal drinks, as well as host a wider array of social events by collaborating with other officers and local businesses. Please do come talk to me or shoot me a message if you have any feedback or suggestions on how to make Christ's slay!",
             },
             {
                 title: "Green Officer",

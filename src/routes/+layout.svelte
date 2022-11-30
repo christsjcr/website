@@ -66,6 +66,10 @@
                     route: "/get-involved/societies",
                     label: "Societies",
                 },
+                {
+                    route: "/get-involved/feedback",
+                    label: "Feedback",
+                },
             ],
         },
         {
