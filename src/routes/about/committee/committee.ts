@@ -44,7 +44,7 @@ const categories: RoleCategory[] = [
                 name: "Julen Lippman-Errasti",
                 id: "welfare-m",
                 description:
-                    "Hi, I'm Julen, your male/non-binary welfare officer! Alongside Olivia, I'll be working to expand the college social spaces as well as running inclusive, relaxed events throughout term to help students take their minds off work, like weekly Welfare Walks. I'll work with other members of the JCR committee to make sure students feel welcome and safe around college, and to help the incoming freshers settle in. Please send me an email or message @ChristsWelfare on Instagram if you have any questions or want a chat!",
+                    "Hi, I'm Julen, your Male/Non-Binary Welfare Officer! Alongside Olivia, I'll be working to expand the college social spaces as well as running inclusive, relaxed events throughout term to help students take their minds off work, like weekly Welfare Walks. I'll work with other members of the JCR committee to make sure students feel welcome and safe around college, and to help the incoming freshers settle in. Please send me an email or message @ChristsWelfare on Instagram if you have any questions or want a chat!",
             },
             {
                 title: "Welfare Officer",
@@ -77,10 +77,11 @@ const categories: RoleCategory[] = [
             {
                 title: "Class Act Officer",
                 label: "Class Act",
-                name: "Laura Goodchild",
+                name: "Kai Briggs",
+                pronouns: "he/him",
                 id: "classact",
                 description:
-                    "Laura, our Class Act Officer, is aiming to establish a Class Act community at Christ's, support all students who self-identify as a Class Act and make Christ's more Class Act friendly.",
+                    "Hey! I'm Kai, your Class Act Officer for this year. My role is to support any student who has experienced educational, social, economic or cultural 'disadvantage' (basically continuing Access post-admissions, so I hope to collaborate a lot with our Access Officer so that you get the support you need). A few of my plans are to continue establishing the Class Act community at Christ's, to organise a range of events (socials, speakers, etc), and to create comprehensive resources about Class Act (especially on financial and welfare support). I also want to be available to support students myself, so please get in touch if you have feedback, questions, issues, or just anything Class Act related!",
             },
             {
                 title: "Ethnic Diversity Officer",
@@ -151,9 +152,10 @@ const categories: RoleCategory[] = [
             {
                 title: "Webmaster",
                 name: "Miles Watson",
+                pronouns: "he/him",
                 id: "webmaster",
                 description:
-                    "Hey, I'm Miles, the JCR Webmaster! I built the website you're currently looking at, and am constantly working to improve it. Please drop me an email if you find any bugs, or want to suggest a feature / improvement!",
+                    "Hey, I'm Miles, the JCR Webmaster! I built the website you're currently looking at, and am constantly working to improve it. My current plans for the upcoming year include an improved anonymous feedback system, a better (customisable + subscribable) termcard, and an interactive questionnaire that students can use to determine their eligibility for various grants & bursaries. Please drop me an email if you find any bugs, or want to suggest a feature / improvement!",
             },
         ],
     },
