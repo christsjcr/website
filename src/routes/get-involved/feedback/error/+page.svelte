@@ -1,7 +1,12 @@
 <script lang="ts">
-    import { page } from "$app/stores";
     import Content from "$components/elements/Content.svelte";
     import PageHeader from "$components/PageHeader.svelte";
+    import { onMount } from "svelte";
+
+    let reason: string | undefined;
+    onMount(() => {
+        reason = new URLSearchParams(document.location.search).get("reason");
+    });
 </script>
 
 <PageHeader
@@ -18,9 +23,9 @@
                     feedback. Please contact the webmaster if this issue
                     persists.
                 </p>
-                {#if $page.url.searchParams.get("reason")}
+                {#if reason}
                     <p>
-                        Reason: {$page.url.searchParams.get("reason") ?? ""}
+                        Reason: {reason}
                     </p>
                 {/if}
                 <p class="subtitle">
