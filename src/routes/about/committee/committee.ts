@@ -44,7 +44,7 @@ const categories: RoleCategory[] = [
                 name: "Julen Lippman-Errasti",
                 id: "welfare-m",
                 description:
-                    "Hi, I'm Julen, your male/non-binary welfare officer! Alongside Olivia, I'll be working to expand the college social spaces as well as running inclusive, relaxed events throughout term to help students take their minds off work, like weekly Welfare Walks. I'll work with other members of the JCR committee to make sure students feel welcome and safe around college, and to help the incoming freshers settle in. Please send me an email or message @ChristsWelfare on Instagram if you have any questions or want a chat!",
+                    "Hi, I'm Julen, your Male/Non-Binary Welfare Officer! Alongside Olivia, I'll be working to expand the college social spaces as well as running inclusive, relaxed events throughout term to help students take their minds off work, like weekly Welfare Walks. I'll work with other members of the JCR committee to make sure students feel welcome and safe around college, and to help the incoming freshers settle in. Please send me an email or message @ChristsWelfare on Instagram if you have any questions or want a chat!",
             },
             {
                 title: "Welfare Officer",
