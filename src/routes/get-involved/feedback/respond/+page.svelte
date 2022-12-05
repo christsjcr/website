@@ -3,6 +3,7 @@
     import PageHeader from "$components/PageHeader.svelte";
     import { onMount } from "svelte";
     import ResponseForm from "./ResponseForm.svelte";
+    import RevealForm from "./RevealForm.svelte";
 
     let recipient: string;
     let subject: string;
@@ -22,6 +23,9 @@
     <Content>
         {#if recipient && subject}
             <ResponseForm {subject} {recipient} />
+            <br />
+            <h2>Reveal Original Sender</h2>
+            <RevealForm encrypted={recipient} />
         {/if}
     </Content>
 </PageHeader>

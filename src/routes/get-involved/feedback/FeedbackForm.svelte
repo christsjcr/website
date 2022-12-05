@@ -87,7 +87,7 @@
     {/if}
     <div class="field">
         <!-- svelte-ignore a11y-label-has-associated-control -->
-        <label class="label">Anonymity</label>
+        <label class="label">Anonymity (optional)</label>
         <div class="control">
             <label class="checkbox">
                 <input type="checkbox" name="anonymous" />
@@ -109,7 +109,7 @@
             </label>
         </div>
     </div>
-    <div class="field">
+    <div class="field mt-5">
         <div class="control">
             <button
                 class="button is-link"
