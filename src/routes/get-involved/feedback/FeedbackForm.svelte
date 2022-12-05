@@ -20,7 +20,7 @@
     let selected: Set<keyof typeof officers> = new Set();
 </script>
 
-<form action="http://members.thejcr.co.uk/api/feedback" method="POST">
+<form action="https://members.thejcr.co.uk/api/feedback" method="POST">
     <div class="field">
         <!-- svelte-ignore a11y-label-has-associated-control -->
         <label class="label">Subject</label>
@@ -33,8 +33,8 @@
                 placeholder="e.g. Upper Hall Prices" />
         </div>
     </div>
-    <!-- svelte-ignore a11y-label-has-associated-control -->
     <div class="field">
+        <!-- svelte-ignore a11y-label-has-associated-control -->
         <label class="label">Message</label>
         <div class="control">
             <textarea
