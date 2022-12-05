@@ -38,8 +38,8 @@
             <label class="checkbox">
                 <input name="agreed" type="checkbox" bind:checked={agreed} />
                 I have discussed this response with all relevant recipients of the
-                original feedback, as well as members of the exec if the subject
-                is sensitive.
+                original feedback (as well as members of the Exec, should you have
+                any concerns about the original feedback or how to respond).
             </label>
         </div>
     </div>
