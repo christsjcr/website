@@ -14,10 +14,11 @@ const categories: RoleCategory[] = [
             },
             {
                 title: "Vice President",
-                name: "Tamsin Wood",
+                name: "Christina Lawrence",
+                pronouns: "she/her",
                 id: "vicepresident",
                 description:
-                    "Tamsin, our Vice President, will be continuing to help with Alt Bops at Christ's and promote them at the SU's Student Council, as well as work with Miles and Immi on ensuring that the JCR website is accessible and as informative as possible.",
+                    "Hi, I'm Christina, your Vice-President and I am so excited to continue my work on the JCR this year. I hope to learn more about the challenges facing Christ's students so that we can make changes both in college and at a university level. Alongside this, I have my own projects that I am excited to continue such as: organising more themed formals (hopefully with a charity focus), improving the fresher's room allocation form and coordinating more inter-college events. Please feel free to email me with any questions or queries about student life at Christ's!",
             },
             {
                 title: "Treasurer",
@@ -28,10 +29,10 @@ const categories: RoleCategory[] = [
             },
             {
                 title: "Secretary",
-                name: "Immi Sandhu",
+                name: "Chiara Delpiano Cordeiro",
                 id: "secretary",
                 description:
-                    "Immi, our Secretary, is hoping to reinvent our JCR social media platforms, including partaking in the construction of the new JCR website, Instagram and Facebook, send important weekly email bulletins and organise the JCR meetings throughout term. After the success of the student takeovers and tours on Instagram last year, Immi would like to continue this and open this up to members of staff and more students across year groups and subjects.",
+                    "Hello! I'm Chiara, your JCR secretary! My job involves sending the weekly bulletin (an email that brings joy), running the JCR social media platforms, and taking the minutes/preparing the agendas for meetings throughout the year. My aims are to further publicise events and cool opportunities going on around Christ's, provide short summaries of what the JCR is doing, and create a dynamic calendar of events going on around college! I also hope to increase interaction with the JCR Instagram through fun content, student takeovers, and more. Just send me an email if you have anything you'd like to publicise in the weekly bulletin, cat photos for the JCR socials, or any ideas/suggestions and I'll be happy to help!",
             },
         ],
     },
