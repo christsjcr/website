@@ -30,6 +30,7 @@ const categories: RoleCategory[] = [
             {
                 title: "Secretary",
                 name: "Chiara Delpiano Cordeiro",
+                pronouns: "she/her",
                 id: "secretary",
                 description:
                     "Hello! I'm Chiara, your JCR secretary! My job involves sending the weekly bulletin (an email that brings joy), running the JCR social media platforms, and taking the minutes/preparing the agendas for meetings throughout the year. My aims are to further publicise events and cool opportunities going on around Christ's, provide short summaries of what the JCR is doing, and create a dynamic calendar of events going on around college! I also hope to increase interaction with the JCR Instagram through fun content, student takeovers, and more. Just send me an email if you have anything you'd like to publicise in the weekly bulletin, cat photos for the JCR socials, or any ideas/suggestions and I'll be happy to help!",
@@ -43,6 +44,7 @@ const categories: RoleCategory[] = [
                 title: "Welfare Officer",
                 label: "Julen",
                 name: "Julen Lippman-Errasti",
+                pronouns: "he/him",
                 id: "welfare-m",
                 description:
                     "Hi, I'm Julen, your Male/Non-Binary Welfare Officer! Alongside Olivia, I'll be working to expand the college social spaces as well as running inclusive, relaxed events throughout term to help students take their minds off work, like weekly Welfare Walks. I'll work with other members of the JCR committee to make sure students feel welcome and safe around college, and to help the incoming freshers settle in. Please send me an email or message @ChristsWelfare on Instagram if you have any questions or want a chat!",
@@ -146,6 +148,7 @@ const categories: RoleCategory[] = [
                 title: "Green Officer",
                 label: "Green",
                 name: "Rachel Doran",
+                pronouns: "she/her",
                 id: "green",
                 description:
                     "Hi, I'm Rachel the Green and Charities Officer. My job is to work to try and make Christ's a more environmentally friendly college, as well as to organise fun charity events to raise money for our 3 college charities (currently these are Jimmy's Cambridge, Cancer Research UK and WaterAid). My plans currently include an overhaul of the food waste disposal system in college accommodation, setting up new end-of-term food bank collections, improving communication between college staff and students about green initiatives, and supporting the college in working towards the next Green Impact Award. Please do get in contact with me if you have any ideas/ suggestions for how to make Christ's greener!",
