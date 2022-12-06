@@ -14,10 +14,11 @@ const categories: RoleCategory[] = [
             },
             {
                 title: "Vice President",
-                name: "Tamsin Wood",
+                name: "Christina Lawrence",
+                pronouns: "she/her",
                 id: "vicepresident",
                 description:
-                    "Tamsin, our Vice President, will be continuing to help with Alt Bops at Christ's and promote them at the SU's Student Council, as well as work with Miles and Immi on ensuring that the JCR website is accessible and as informative as possible.",
+                    "Hi, I'm Christina, your Vice-President and I am so excited to continue my work on the JCR this year. I hope to learn more about the challenges facing Christ's students so that we can make changes both in college and at a university level. Alongside this, I have my own projects that I am excited to continue such as: organising more themed formals (hopefully with a charity focus), improving the fresher's room allocation form and coordinating more inter-college events. Please feel free to email me with any questions or queries about student life at Christ's!",
             },
             {
                 title: "Treasurer",
@@ -28,10 +29,11 @@ const categories: RoleCategory[] = [
             },
             {
                 title: "Secretary",
-                name: "Immi Sandhu",
+                name: "Chiara Delpiano Cordeiro",
+                pronouns: "she/her",
                 id: "secretary",
                 description:
-                    "Immi, our Secretary, is hoping to reinvent our JCR social media platforms, including partaking in the construction of the new JCR website, Instagram and Facebook, send important weekly email bulletins and organise the JCR meetings throughout term. After the success of the student takeovers and tours on Instagram last year, Immi would like to continue this and open this up to members of staff and more students across year groups and subjects.",
+                    "Hello! I'm Chiara, your JCR secretary! My job involves sending the weekly bulletin (an email that brings joy), running the JCR social media platforms, and taking the minutes/preparing the agendas for meetings throughout the year. My aims are to further publicise events and cool opportunities going on around Christ's, provide short summaries of what the JCR is doing, and create a dynamic calendar of events going on around college! I also hope to increase interaction with the JCR Instagram through fun content, student takeovers, and more. Just send me an email if you have anything you'd like to publicise in the weekly bulletin, cat photos for the JCR socials, or any ideas/suggestions and I'll be happy to help!",
             },
         ],
     },
@@ -42,6 +44,7 @@ const categories: RoleCategory[] = [
                 title: "Welfare Officer",
                 label: "Julen",
                 name: "Julen Lippman-Errasti",
+                pronouns: "he/him",
                 id: "welfare-m",
                 description:
                     "Hi, I'm Julen, your Male/Non-Binary Welfare Officer! Alongside Olivia, I'll be working to expand the college social spaces as well as running inclusive, relaxed events throughout term to help students take their minds off work, like weekly Welfare Walks. I'll work with other members of the JCR committee to make sure students feel welcome and safe around college, and to help the incoming freshers settle in. Please send me an email or message @ChristsWelfare on Instagram if you have any questions or want a chat!",
@@ -145,6 +148,7 @@ const categories: RoleCategory[] = [
                 title: "Green Officer",
                 label: "Green",
                 name: "Rachel Doran",
+                pronouns: "she/her",
                 id: "green",
                 description:
                     "Hi, I'm Rachel the Green and Charities Officer. My job is to work to try and make Christ's a more environmentally friendly college, as well as to organise fun charity events to raise money for our 3 college charities (currently these are Jimmy's Cambridge, Cancer Research UK and WaterAid). My plans currently include an overhaul of the food waste disposal system in college accommodation, setting up new end-of-term food bank collections, improving communication between college staff and students about green initiatives, and supporting the college in working towards the next Green Impact Award. Please do get in contact with me if you have any ideas/ suggestions for how to make Christ's greener!",
