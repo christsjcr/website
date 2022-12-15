@@ -70,6 +70,11 @@
                     route: "/get-involved/feedback",
                     label: "Feedback",
                 },
+                {
+                    route: "https://docs.google.com/spreadsheets/d/14Qti74nuVV0V03_281T_Je5p2LZccf4FQiKxXRwvWQY/edit?usp=sharing",
+                    label: "Lost & Found",
+                    external: true,
+                },
             ],
         },
         {

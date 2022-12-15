@@ -62,15 +62,6 @@
                     external
                     grey />
             </div>
-            <br />
-            <div>
-                <NotificationLink
-                    href="https://docs.google.com/forms/d/e/1FAIpQLScUTIL7GPGNqAdEtngpwcMpD7GNhe5RfLPTsm4DaHN2JxPaIA/viewform"
-                    title="Welfare Survey 💛"
-                    content="If you haven't already, please fill out the Michaelmas 2022 Welfare Survey! This survey will allow us to gauge how students feel about various matters in college, and help assess the general wellbeing of Christ's undergrads."
-                    external
-                    grey />
-            </div>
         </div>
     </div>
     <h2 class="title is-2">Quick Links</h2>

@@ -285,7 +285,7 @@ export const societies: Society[] = [
         status: "funded",
     },
     {
-        title: "Boat Club", icon: "⛵",
+        title: "Boat Club (Rowing)", icon: "🚣",
         people: [
             { name: "Alexander Holmes", crsid: "ajh298" },
             { name: "Georgia Denham", crsid: "gd472" },
@@ -429,7 +429,8 @@ export const societies: Society[] = [
         description: "Squash Society is for anyone looking to try out squash or find more people who play it. It organises weekly friendly sessions, inter-college matches, and socials.",
         events: "Weekly friendly sessions usually take place on Tuesday or Thursday evenings: all details and sign ups are on the facebook.",
         people: [
-            { name: "Olly Huggon", crsid: "oh282" },
+            { name: "Matthew Coxon", crsid: "mlc95" },
+            { name: "Bruce Mauger", crsid: "bm607" },
         ],
         type: "mixed sport",
         status: "funded",

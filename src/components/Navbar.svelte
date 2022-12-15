@@ -39,7 +39,7 @@
     $: dropdownBoxed = expanded || belowHeader;
 
     // show if not transparent, if menu expanded, or if scrolled down far enough
-    $: notTransparent = (!hasImage && $width <= 1380) || dropdownBoxed;
+    $: notTransparent = !hasImage || dropdownBoxed;
 
     $: animated = $page.type == "image" || !belowHeader;
 
