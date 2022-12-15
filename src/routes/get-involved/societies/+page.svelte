@@ -63,7 +63,7 @@
     size="small"
     metaDescription="Resources for undergraduate students of Christ's College, Cambridge.">
     <Content>
-        <div slot="description">
+        <blockquote>
             <p>
                 Clubs and societies are typically open to all Christ's students
                 (undergraduates and postgraduates), and membership is always
@@ -84,8 +84,10 @@
                     rel="noreferrer">society update form</a
                 >.
             </p>
-        </div>
-
+        </blockquote>
+    </Content>
+    <br />
+    <Content hasText={false}>
         <div class="block">
             <p class="control">
                 <input
