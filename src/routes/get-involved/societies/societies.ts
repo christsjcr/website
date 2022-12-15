@@ -285,7 +285,7 @@ export const societies: Society[] = [
         status: "funded",
     },
     {
-        title: "Boat Club", icon: "⛵",
+        title: "Boat Club (Rowing)", icon: "🚣",
         people: [
             { name: "Alexander Holmes", crsid: "ajh298" },
             { name: "Georgia Denham", crsid: "gd472" },
