@@ -66,10 +66,10 @@ const categories: RoleCategory[] = [
             {
                 title: "Freshers' Reps",
                 label: "Freshers'",
-                name: "Vivek Bilous & Charlotte Westwood",
+                name: "Isabelle Mohammed & Qinglan Du",
                 id: "firstyearrep",
                 description:
-                    "Vivek and Charlotte, our Freps/First Year Officers, aim to make Christ's a welcoming environment for next year's Freshers, as well as host events for their year, such as college marriages, formals and a SuperBop.",
+                    "Hi! We're Isabelle and Qinglan, your Freps for the upcoming year! We're both lawyers, but promise to make next year's freshers' week more fun than our degree. Just because you might not experience freshers' week again doesn't mean you won't be involved in our plans! In the coming term, we will be hosting marriages for all the engaged college couples out there (plus throuples and single parents), and over the summer you will have the opportunity to meet and give advice to incoming freshers. Then in freshers' week, we're looking forward to hosting an array of events to suit everyone's preferences! And as promised, you will get to tag along on the trip to Mars.",
             },
         ],
     },
