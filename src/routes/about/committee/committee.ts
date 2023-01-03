@@ -23,9 +23,10 @@ const categories: RoleCategory[] = [
             {
                 title: "Treasurer",
                 name: "Fergus Kirman",
+                pronouns: "he/him",
                 id: "treasurer",
                 description:
-                    "Fergus, our Treasurer, manages the budgets and organises funding for the over 30 Christ's clubs and societies, as well as special JCR projects. Fergus also recently launched the Free Prescription Scheme, allowing all undergraduates to get free NHS prescriptions.",
+                    "Hello! I'm Fergus, continuing as the Treasurer of the JCR for 2023. I create and administer the JCR's annual Budget, as well as managing funding for over 30 College societies. I'm looking forward to continuing the Free Prescription Scheme, which I designed and implemented last year, spending over £1,500 on making NHS prescriptions free for all Christ's undergraduates. I'm also planning to use our enhanced budgetary independence - introduced with the new financial system I designed last year - to increase funding for the sustainable period product scheme, expand the JCR Garden Party, and support accessibility improvements around College.",
             },
             {
                 title: "Secretary",
@@ -61,16 +62,27 @@ const categories: RoleCategory[] = [
         ],
     },
     {
-        category: "Year Reps",
+        category: "Events",
         items: [
+            {
+                title: "Events Officer (Ents)",
+                label: "Ents",
+                name: "Neha Pauly",
+                pronouns: "she/her",
+                id: "ents",
+                description:
+                    "Hello! I'm Neha, this year's Ents Officer. My job is to make Christs as fun as possible by organising bops, alt-bops, and various other events. This year, I hope to organise more events with other colleges, work with the Buttery staff on official college and seasonal drinks, as well as host a wider array of social events by collaborating with other officers and local businesses. Please do come talk to me or shoot me a message if you have any feedback or suggestions on how to make Christ's slay!",
+            },
             {
                 title: "Freshers' Reps",
                 label: "Freshers'",
                 name: "Isabelle Mohammed & Qinglan Du",
+                pronouns: "she/her & she/her",
                 id: "firstyearrep",
                 description:
                     "Hi! We're Isabelle and Qinglan, your Freps for the upcoming year! We're both lawyers, but promise to make next year's freshers' week more fun than our degree. Just because you might not experience freshers' week again doesn't mean you won't be involved in our plans! In the coming term, we will be hosting marriages for all the engaged college couples out there (plus throuples and single parents), and over the summer you will have the opportunity to meet and give advice to incoming freshers. Then in freshers' week, we're looking forward to hosting an array of events to suit everyone's preferences! And as promised, you will get to tag along on the trip to Mars.",
             },
+            
         ],
     },
     {
@@ -89,10 +101,11 @@ const categories: RoleCategory[] = [
             {
                 title: "Ethnic Diversity Officer",
                 label: "Ethnic Diversity",
-                name: "Abhi Gowda",
+                name: "Ayo Akande",
+                pronouns: "he/him",
                 id: "edo",
                 description:
-                    "Abhi, our Ethnic Diversity Officer, will be assisting with access work of applicants from diverse ethnic backgrounds, voicing any concerns from students regarding discrimination, celebrating various cultures through important events in collaboration with Hannah, and supporting the introduction of the prayer room in college for individuals of all faiths.",
+                    "Hi, I'm Ayo, your 2023 Ethnic Diversity Officer! Through this role I hope to increase the celebration of different cultures within Cambridge, through formals and events within colleges, as well as working with other college JCRs. Part of this would be more discursive events such as panels and talks, with both students and guest speakers involved. I also hope to work with societies such as ACS and India Soc to support the work they do, as well as working with the subcommittee to ensure the needs of a wide range of groups are catered for. If you have any questions or feedback, feel free to drop me an email!",
             },
             {
                 title: "Women's Officer",
@@ -135,15 +148,7 @@ const categories: RoleCategory[] = [
                 description:
                     "Hi! I'm Mikolaj, this year's Catering and Facilities officer. I hope to organise a college punt, listen to student feedback to ensure Upper Hall and the Buttery are satisfactory, and work with other members of the JCR committee with their projects. Please send a message or an email if you have any suggestions to improve the Catering and Facilities at Christ's!",
             },
-            {
-                title: "Events Officer (Ents)",
-                label: "Ents",
-                name: "Neha Pauly",
-                pronouns: "she/her",
-                id: "ents",
-                description:
-                    "Hello! I'm Neha, this year's Ents Officer. My job is to make Christs as fun as possible by organising bops, alt-bops, and various other events. This year, I hope to organise more events with other colleges, work with the Buttery staff on official college and seasonal drinks, as well as host a wider array of social events by collaborating with other officers and local businesses. Please do come talk to me or shoot me a message if you have any feedback or suggestions on how to make Christ's slay!",
-            },
+
             {
                 title: "Green Officer",
                 label: "Green",
