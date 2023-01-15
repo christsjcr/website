@@ -9,7 +9,7 @@
     title="Meetings"
     metaDescription="Get information on JCR meetings, and learn how you can make sure that your voice is heard.">
     <Content>
-        <h2>Easter Term</h2>
+        <h2>Lent Term</h2>
         <ul>
             <li>21st January 5pm - Exec Meeting (NCSR)</li>
             <li>28th January 5pm - Council Meeting (Z Amenity)</li>
