@@ -24,7 +24,7 @@
                 >Vice President</a> if you have any queries or if you are interested
             in running for a role and want more information.
         </p>
-        <h1>2023 Michaelmas Elections</h1>
+        <h1>2023 Elections</h1>
         <p>
             Half of the JCR positions are voted on in week 6 and the other half
             in week 7. Below is the timetable and list of roles for each of the
