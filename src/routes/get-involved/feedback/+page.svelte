@@ -10,20 +10,14 @@
     size="small"
     metaDescription="">
     <Content>
-        <blockquote>
-            This new feedback form is currently in the "testing" stage - please
-            use the <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSchG-F00FNgO02T5OepdfuFSkVi7HgnfpI0a6qDjhhXctG6Hw/viewform"
-                >old feedback form</a> whilst the details are being worked out!
-        </blockquote>
         <FeedbackForm />
         <h1>Terms and Conditions</h1>
         <ul>
             <li>
                 You agree that the information you provide on this form may be
                 emailed to members of the JCR Committee (any member if you have
-                selected "General", or only the ticked members if you have
-                selected "Sensitive").
+                selected "Committee", or only the ticked members if you have
+                selected "Specific officers only").
             </li>
             <li>
                 You agree that the feedback you have provided is professional

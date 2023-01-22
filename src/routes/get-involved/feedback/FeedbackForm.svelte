@@ -3,16 +3,27 @@
 
     let subject: string = "";
     let message: string = "";
-    let type: "general" | "sensitive" = "general";
+    let shareWith: "committee" | "specified" = "committee";
     let agreed: boolean = false;
 
     const officers = {
+        president: "President",
+        vicepresident: "Vice President",
+        treasurer: "Treasurer",
+        secretary: "Secretary",
         "welfare-m": "Male & NB Welfare Officer",
         "welfare-f": "Female & NB Welfare Officer",
-        lgbt: "LGBTQ+ Officer",
+        ents: "Entertainment Officer",
+        firstyearrep: "First Year Rep",
+        classact: "Class Act",
         edo: "Ethnic Diversity Officer",
-        disabilities: "Disabilities Officer",
-        classact: "Class Act Officer",
+        womens: "Womens' Officer",
+        intl: "Internationals' Officer",
+        lgbt: "LGBTQ+ Officer",
+        access: "Access Officer",
+        facilities: "Facilities Officer",
+        green: "Green Officer",
+        webmaster: "Webmaster",
     };
 
     const officerIds = Object.keys(officers) as Array<keyof typeof officers>;
@@ -46,23 +57,22 @@
     </div>
     <div class="field">
         <!-- svelte-ignore a11y-label-has-associated-control -->
-        <label class="label">Type</label>
+        <label class="label">Share With</label>
         <div class="control">
             <div class="select">
                 <select
                     name="type"
-                    bind:value={type}
+                    bind:value={shareWith}
                     on:change={() => {
-                        if (type == "sensitive") selected = new Set();
+                        if (shareWith == "specified") selected = new Set();
                     }}>
-                    <option value="general">General</option>
-                    <option value="sensitive"
-                        >Sensitive (share with specific officers only)</option>
+                    <option value="committee">Committee</option>
+                    <option value="specified">Specific officers only</option>
                 </select>
             </div>
         </div>
     </div>
-    {#if type == "sensitive"}
+    {#if shareWith == "specified"}
         <div class="field">
             <!-- svelte-ignore a11y-label-has-associated-control -->
             <label class="label">Share With</label>
@@ -114,7 +124,7 @@
             <button
                 class="button is-link"
                 disabled={!agreed ||
-                    (type == "sensitive" && selected.size == 0) ||
+                    (shareWith == "specified" && selected.size == 0) ||
                     subject.length == 0 ||
                     message.length == 0}>Login & Submit</button>
         </div>
