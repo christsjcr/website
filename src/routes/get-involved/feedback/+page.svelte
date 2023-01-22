@@ -22,8 +22,8 @@
             <li>
                 You agree that the information you provide on this form may be
                 emailed to members of the JCR Committee (any member if you have
-                selected "General", or only the ticked members if you have
-                selected "Sensitive").
+                selected "Committee", or only the ticked members if you have
+                selected "Specific officers only").
             </li>
             <li>
                 You agree that the feedback you have provided is professional
