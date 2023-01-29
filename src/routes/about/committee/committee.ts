@@ -99,6 +99,14 @@ const categories: RoleCategory[] = [
                     "Hey! I'm Kai, your Class Act Officer for this year. My role is to support any student who has experienced educational, social, economic or cultural 'disadvantage' (basically continuing Access post-admissions, so I hope to collaborate a lot with our Access Officer so that you get the support you need). A few of my plans are to continue establishing the Class Act community at Christ's, to organise a range of events (socials, speakers, etc), and to create comprehensive resources about Class Act (especially on financial and welfare support). I also want to be available to support students myself, so please get in touch if you have feedback, questions, issues, or just anything Class Act related!",
             },
             {
+                title: "Disabled Students' Officer",
+                label: "Disabled Students'",
+                name: "Juno Buchan",
+                pronouns: "they/them",
+                id: "dso",
+                description: "Hi all! I'm Juno, your disabled students' officer, or DSO. My job is to make sure that Christ's is as welcoming and accessible as possible to any student who identifies as disabled, which I hope to achieve through improving Christ's physical accessibility, as well as ensuring that all disabled students feel that college is a place where they can express any needs or concerns and be listened to. I plan to improve lighting around college and access to facilities, as well as to expand awareness of assistance that's available to disabled students, such as the DRC and funding schemes. Please get in touch if you have any questions, concerns, or suggestions!",
+            },
+            {
                 title: "Ethnic Diversity Officer",
                 label: "Ethnic Diversity",
                 name: "Ayo Akande",
