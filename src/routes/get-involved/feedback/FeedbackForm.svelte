@@ -94,6 +94,20 @@
                 </div>
             {/each}
         </div>
+    {:else}
+        <div class="field">
+            <!-- svelte-ignore a11y-label-has-associated-control -->
+            <label class="label">Sensitive (optional)</label>
+            <div class="control">
+                <label class="checkbox">
+                    <input type="checkbox" name="exec" />
+                    This message could constitute a direct complaint about the behaviour
+                    of a Committee member (and not just a comment on a specific policy),
+                    and so should be shared only with the Exec so that it can be
+                    passed on discretely.
+                </label>
+            </div>
+        </div>
     {/if}
     <div class="field">
         <!-- svelte-ignore a11y-label-has-associated-control -->
