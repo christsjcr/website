@@ -15,6 +15,7 @@
     import {
         faEnvelope,
         faGlobe,
+        faInfoCircle,
         faUserPlus,
     } from "@fortawesome/free-solid-svg-icons";
     import { FontAwesomeIcon } from "fontawesome-svelte";
@@ -28,7 +29,8 @@
         faWhatsapp,
         faEnvelope,
         faUserPlus,
-        faGlobe
+        faGlobe,
+        faInfoCircle
     );
 
     const layout: NavbarItem[] = [
