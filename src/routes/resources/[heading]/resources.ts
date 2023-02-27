@@ -35,13 +35,21 @@ const resources: {
                         url: "https://intranet.christs.cam.ac.uk/upper-hall-menus",
                     },
                     {
-                        title: "Meal Times",
-                        url: "https://intranet.christs.cam.ac.uk/meal-times",
-                    },
-                    {
                         title: "Meal Booking",
                         url: "https://intranet.christs.cam.ac.uk/Shibboleth.sso/Login?target=%2Fshibboleth%2Flogin%3Fshiblogin%3D1%26destination%3D%2Fmealbooking%2F",
                     },
+                    {
+                        title: "Meal Times",
+                        url: "https://intranet.christs.cam.ac.uk/meal-times",
+                        info: [
+                            "Breakfast: Mon-Fri 8:00-9:30 (Buttery)",
+                            "Brunch: Sat 11:00-12:30, Sun 10:30-12:00",
+                            "Lunch: Mon-Fri 12.00-13:45",
+                            "Dinner: Mon-Fri 17:50-19:20, Sat-Sun 17:50-19:00",
+                            "Out of term times will be displayed locally.",
+                        ],
+                    },
+
                 ],
             },
             {

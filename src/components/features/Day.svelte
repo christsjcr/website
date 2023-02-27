@@ -32,6 +32,7 @@
     );
 
     $: currentMenu = day >= 0 && day < menu.days.length ? menu.days[day] : null;
+    $: dayOfWeek = $today.getDay();
 </script>
 
 <div class="block">
@@ -39,13 +40,19 @@
         {#if currentMenu != null}
             <div class="column">
                 {#if currentMenu.weekend === true}
-                    <MealComponent header="🍳 Brunch" />
+                    <MealComponent type="lunch" {dayOfWeek} />
                 {:else}
-                    <MealComponent header="🥪 Lunch" data={currentMenu.lunch} />
+                    <MealComponent
+                        type="lunch"
+                        data={currentMenu.lunch}
+                        {dayOfWeek} />
                 {/if}
             </div>
             <div class="column">
-                <MealComponent header="🍕 Dinner" data={currentMenu.dinner} />
+                <MealComponent
+                    type="dinner"
+                    data={currentMenu.dinner}
+                    {dayOfWeek} />
             </div>
         {:else}
             <article class="message is-gray">

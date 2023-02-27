@@ -12,6 +12,7 @@
         faEnvelope,
         faUserPlus,
         faGlobe,
+        faInfoCircle,
     } from "@fortawesome/free-solid-svg-icons";
     import Tag from "./Tag.svelte";
     import Markdown from "$components/markdown/Markdown.svelte";
