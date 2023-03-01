@@ -1,8 +1,9 @@
 <script lang="ts">
     export let subject: string;
     export let recipient: string;
-    let message: string = "";
+    export let notify: string[];
 
+    let message: string = "";
     let agreed: boolean = false;
 </script>
 
@@ -31,6 +32,9 @@
                 placeholder="e.g. Thanks for letting us know about..." />
         </div>
     </div>
+    {#each notify as id}
+        <input type="hidden" name="notify" value={id} />
+    {/each}
     <div class="field">
         <!-- svelte-ignore a11y-label-has-associated-control -->
         <label class="label">Terms and Conditions</label>
