@@ -7,11 +7,13 @@
 
     let recipient: string;
     let subject: string;
+    let notify: string[];
 
     onMount(() => {
         const params = new URLSearchParams(document.location.search);
         recipient = params.get("recipient");
         subject = params.get("subject");
+        notify = params.getAll("notify");
     });
 </script>
 
@@ -22,7 +24,7 @@
     metaDescription="">
     <Content>
         {#if recipient && subject}
-            <ResponseForm {subject} {recipient} />
+            <ResponseForm {subject} {recipient} {notify} />
             <br />
             <h2>Reveal Original Sender</h2>
             <RevealForm encrypted={recipient} />
