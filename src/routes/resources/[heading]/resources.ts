@@ -73,6 +73,10 @@ const resources: {
                             "All charges are handled automatically through the college intranet",
                         ],
                     },
+                    {
+                        title: "Room Database",
+                        url: "https://intranet.christs.cam.ac.uk/app/rooms/undergraduate",
+                    },
                 ],
             },
             {
