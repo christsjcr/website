@@ -3,16 +3,16 @@
 	"compilerOptions": {
 		"paths": {
 			"$lib": [
-				"src/lib"
+				"./src/lib"
 			],
 			"$lib/*": [
-				"src/lib/*"
+				"./src/lib/*"
 			],
 			"$components/*": [
-				"src/components/*"
+				"./src/components/*"
 			],
 			"$data/*": [
-				"src/data/*"
+				"./src/data/*"
 			]
 		},
 		"resolveJsonModule": true,

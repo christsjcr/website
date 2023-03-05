@@ -42,7 +42,7 @@
             <NotificationLink
                 href="https://docs.google.com/spreadsheets/d/14Qti74nuVV0V03_281T_Je5p2LZccf4FQiKxXRwvWQY/edit?usp=sharing"
                 title="Lost and Found 🔎"
-                content="See what's coming up this term on the official JCR termcard!"
+                content="Lost or found something in college recently? Use this spreadsheet to report any finds, or check to see if any missing items have been recovered."
                 external />
         </div>
         <div class="column" />
