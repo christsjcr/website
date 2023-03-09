@@ -1,5 +1,4 @@
 import puppet from "puppeteer";
-import "dotenv/config";
 import fs from "fs";
 
 function zip(arr1, arr2, f) {
@@ -61,23 +60,11 @@ async function extract_days(page) {
 }
 
 (async () => {
-    const browser = await puppet.launch();
+    const browser = await puppet.launch({ headless: false });
     const page = await browser.newPage();
     await page.goto("https://intranet.christs.cam.ac.uk/Shibboleth.sso/Login?target=%2Fshibboleth%2Flogin%3Fshiblogin%3D1%26destination%3D%2Fupper-hall-menus%2F");
-    await page.waitForNetworkIdle();
 
-    let username = process.env.CRSID;
-    let password = process.env.PASSWORD;
-
-    if (username == null || password == null) {
-        throw Error("You must create a .env file in the project root with CRSID and PASSWORD variables!");
-    }
-
-    await page.$eval("#userid", (el, username) => el.value = username, username);
-    await page.$eval("#pwd", (el, password) => el.value = password, password);
-
-    await page.click("input[name=\"submit\"][value=\"Login\"]");
-    await page.waitForSelector("#Week1");
+    await page.waitForSelector("#Week1", { timeout: 5 * 60000 });
 
     const tbodies = (await page.$$("tbody")).slice(1);
 
