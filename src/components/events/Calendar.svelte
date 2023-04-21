@@ -81,6 +81,15 @@
 
     let now = new Date();
 
+    let eventHtml = (event: any, timeText: any) => {
+        var time = "<p>" + timeText + "</p>";
+        var hours = (event.end.getTime() - event.start.getTime()) / 3600000;
+        if (hours >= 1) return time + event.title;
+        else if (hours >= 0.75)
+            return time + event.title.replaceAll("</p><p>", " ");
+        else return (time + event.title).replaceAll("</p><p>", " ");
+    };
+
     let options = {
         view: "timeGridDay",
         events: events.map((x) => ({
@@ -98,14 +107,9 @@
         slotMaxTime: "24:00:00",
         slotHeight: 36,
         nowIndicator: true,
-        eventContent: ({ event, timeText }) => {
-            var time = "<p>" + timeText + "</p>";
-            var hours = (event.end.getTime() - event.start.getTime()) / 3600000;
-            if (hours >= 1) return time + event.title;
-            else if (hours >= 0.75)
-                return time + event.title.replaceAll("</p><p>", " ");
-            else return (time + event.title).replaceAll("</p><p>", " ");
-        },
+        eventContent: ({ event, timeText }) => ({
+            html: eventHtml(event, timeText),
+        }),
 
         date: startDate <= now && now < endDate ? now : startDate,
     };
