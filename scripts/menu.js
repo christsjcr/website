@@ -1,5 +1,7 @@
 import puppet from "puppeteer";
 import fs from "fs";
+import { fileURLToPath } from "url";
+import { dirname } from "path";
 
 function zip(arr1, arr2, f) {
     const arr3 = [];
@@ -60,11 +62,11 @@ async function extract_days(page) {
 }
 
 (async () => {
-    const browser = await puppet.launch({ headless: false });
+    const browser = await puppet.launch({ headless: false, userDataDir: dirname(fileURLToPath(import.meta.url)) + '/puppeteer-data' });
     const page = await browser.newPage();
     await page.goto("https://intranet.christs.cam.ac.uk/Shibboleth.sso/Login?target=%2Fshibboleth%2Flogin%3Fshiblogin%3D1%26destination%3D%2Fupper-hall-menus%2F");
 
-    await page.waitForSelector("#Week1", { timeout: 5 * 60000 });
+    await page.waitForFunction('document.documentElement.innerHTML.includes("Upper Hall Menus")', { timeout: 5 * 60000 });
 
     const tbodies = (await page.$$("tbody")).slice(1);
 
