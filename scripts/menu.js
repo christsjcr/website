@@ -20,7 +20,8 @@ async function extract_options(td) {
 }
 
 async function extract_row(tr) {
-    const tds = (await tr.$$("td")).slice(1);
+    const raw_tds = await tr.$$("td");
+    const tds = raw_tds.length == 7 ? raw_tds : raw_tds.slice(1);
     const row = await Promise.all(tds.map(extract_options));
     for (var i = 0; i < 7 - row.length; i++) {
         row.push([]);
