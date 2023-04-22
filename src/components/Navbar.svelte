@@ -66,8 +66,7 @@
                         height="28"
                         alt="JCR Logo" />
                 </a>
-                <p
-                    role="button"
+                <button
                     class={"navbar-burger"}
                     class:is-active={expanded}
                     aria-label="menu"
@@ -77,7 +76,7 @@
                     <span style="color:white" aria-hidden="true" />
                     <span style="color:white" aria-hidden="true" />
                     <span style="color:white" aria-hidden="true" />
-                </p>
+                </button>
             </div>
             <div
                 class="navbar-menu"

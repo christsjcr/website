@@ -1,13 +1,16 @@
 <script lang="ts" context="module">
-    export type Meal = { mains: string[]; dessert: string };
+    import type { Option as OptionType } from "./Option.svelte";
+    export type Meal = { mains: OptionType[]; dessert: OptionType };
 </script>
 
 <script lang="ts">
     import TitleBox from "$components/elements/TitleBox.svelte";
+    import Option from "./Option.svelte";
 
     export let type: "lunch" | "dinner";
     export let data: Meal = null;
     export let dayOfWeek: number; // 0 for Sunday, 1 for Monday, etc
+    export let showAllergies: boolean;
 
     $: isWeekend = dayOfWeek == 0 || dayOfWeek == 6;
 
@@ -37,17 +40,19 @@
             <h5>Mains</h5>
             <ul>
                 {#each data.mains as main}
-                    <li>{main}</li>
+                    <li class="pb-2">
+                        <Option option={main} {showAllergies} />
+                    </li>
                 {/each}
             </ul>
             <h5>Dessert</h5>
             <ul>
-                <li>{data.dessert}</li>
+                <li><Option option={data.dessert} {showAllergies} /></li>
             </ul>
         {:else}
             <ul>
-                <li>Full English Breakfast</li>
-                <li>Includes vegan sausage option</li>
+                <li class="pb-2">Full English Breakfast</li>
+                <li class="pb-2">Includes vegan sausage option</li>
             </ul>
         {/if}
     </div>

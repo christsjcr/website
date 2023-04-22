@@ -13,13 +13,12 @@
     "menu": "node scripts/menu.js"
   },
   "devDependencies": {
-    "@event-calendar/core": "^0.11.2",
-    "@event-calendar/day-grid": "^0.11.2",
-    "@event-calendar/list": "^0.11.2",
-    "@event-calendar/time-grid": "^0.11.2",
-    "@rollup/plugin-json": "^4.1.0",
-    "@sveltejs/adapter-static": "^1.0.0-next.39",
-    "@sveltejs/kit": "^1.0.0-next.405",
+    "@event-calendar/core": "^0.18.1",
+    "@event-calendar/day-grid": "^0.18.1",
+    "@event-calendar/list": "^0.18.1",
+    "@event-calendar/time-grid": "^0.18.1",
+    "@sveltejs/adapter-static": "^1.0",
+    "@sveltejs/kit": "^1.15",
     "@typescript-eslint/eslint-plugin": "^5.10.1",
     "@typescript-eslint/parser": "^5.10.1",
     "bulma": "^0.9.3",
@@ -47,6 +46,7 @@
     "bulma-switch": "^2.0.4",
     "fontawesome-svelte": "^2.0.1",
     "ics": "^2.40.0",
-    "svelte-markdown": "^0.2.1"
+    "svelte-markdown": "^0.2.1",
+    "title-case": "^3.0"
   }
 }

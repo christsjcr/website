@@ -1,6 +1,8 @@
 import puppet from "puppeteer";
-import "dotenv/config";
 import fs from "fs";
+import { fileURLToPath } from "url";
+import { dirname } from "path";
+import { titleCase } from "title-case";
 
 function zip(arr1, arr2, f) {
     const arr3 = [];
@@ -10,16 +12,39 @@ function zip(arr1, arr2, f) {
     return arr3;
 }
 
+function clean_text(s) {
+    return titleCase(
+        s.replace(' ', ' ')
+            .replace(/\s+/g, ' ')
+            .toLowerCase()
+            .trim()
+    ).replace('Bbq', 'BBQ');
+}
+
+function extract_allergies(s) {
+    const regex = /^([^()]+)\s*\(([^()]+)\)$/;
+    const match = regex.exec(s);
+    if (match) {
+        return { title: match[1].trim(), allergies: match[2].split("-").map(a => a.trim()) };
+    } else {
+        if (s.includes("(") || s.includes(")")) {
+            console.log("Failed to find allergies for: " + s)
+        }
+        return { title: s }
+    }
+}
+
 async function extract_options(td) {
     const innerText = await (await td.getProperty("innerText")).jsonValue();
     const lines = innerText.split("\n");
-    const trimmed = lines.map(s => s.trim());
-    const not_empty = trimmed.filter(s => s.length != 0);
-    return not_empty;
+    const cleaned = lines.map(clean_text);
+    const not_empty = cleaned.filter(s => s.length != 0);
+    return not_empty.map(extract_allergies);
 }
 
 async function extract_row(tr) {
-    const tds = (await tr.$$("td")).slice(1);
+    const raw_tds = await tr.$$("td");
+    const tds = raw_tds.length == 7 ? raw_tds : raw_tds.slice(1);
     const row = await Promise.all(tds.map(extract_options));
     for (var i = 0; i < 7 - row.length; i++) {
         row.push([]);
@@ -61,23 +86,11 @@ async function extract_days(page) {
 }
 
 (async () => {
-    const browser = await puppet.launch();
+    const browser = await puppet.launch({ headless: false, userDataDir: dirname(fileURLToPath(import.meta.url)) + '/puppeteer-data' });
     const page = await browser.newPage();
     await page.goto("https://intranet.christs.cam.ac.uk/Shibboleth.sso/Login?target=%2Fshibboleth%2Flogin%3Fshiblogin%3D1%26destination%3D%2Fupper-hall-menus%2F");
-    await page.waitForNetworkIdle();
 
-    let username = process.env.CRSID;
-    let password = process.env.PASSWORD;
-
-    if (username == null || password == null) {
-        throw Error("You must create a .env file in the project root with CRSID and PASSWORD variables!");
-    }
-
-    await page.$eval("#userid", (el, username) => el.value = username, username);
-    await page.$eval("#pwd", (el, password) => el.value = password, password);
-
-    await page.click("input[name=\"submit\"][value=\"Login\"]");
-    await page.waitForSelector("#Week1");
+    await page.waitForFunction('document.documentElement.innerHTML.includes("Upper Hall Menus")', { timeout: 5 * 60000 });
 
     const tbodies = (await page.$$("tbody")).slice(1);
 

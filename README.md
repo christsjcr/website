@@ -35,11 +35,4 @@ To trigger the update process, simply create a pull request to merge the `main` 
 
 In order to display a copy of today's menu, there is a script (`scripts/menu.js`) that produces a JSON file (`src/data/menu.json`). The script scrapes the intranet, and outputs a JSON file with format defined by the `Menu` type in `src/components/features/UpperHallMenu.svelte`.
 
-To run the script, you should first create a `.env` file in the project root, containing `CRSID` and `PASSWORD` fields. 
-
-```
-CRSID=mtw43
-PASSWORD=Password01!
-```
-
-Next, run `yarn menu`. You should be able to see that `menu.json` has changed using Git. You can check whether there are any problems with the format by typechecking the project. Deploying is as simple as committing the change, and pushing to production.
+Next, run `yarn menu`. This should open a login window - once you have logged in, the program will scrape the menu data and then close the window. You should be able to see that `menu.json` has changed using Git. You can check whether there are any problems with the format by typechecking the project. Deploying is as simple as committing the change, and pushing to production.
