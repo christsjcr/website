@@ -78,7 +78,8 @@
                     <li>
                         <TrackedLink
                             href="https://intranet.christs.cam.ac.uk/Shibboleth.sso/Login?target=%2Fshibboleth%2Flogin%3Fshiblogin%3D1%26destination%3D%2Fmealbooking%2F"
-                            id="meal-booking">Meal booking</TrackedLink>
+                            id="meal-booking"
+                            external>Meal booking</TrackedLink>
                     </li>
                 </ul>
             </div>
