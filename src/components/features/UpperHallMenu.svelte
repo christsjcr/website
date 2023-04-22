@@ -34,7 +34,7 @@
     <div><Day increment={1} {showAllergies} /></div>
 {/if}
 
-<div class="columns is-centered">
+<div class="columns is-centered mt-2">
     <div class="column has-text-centered">
         <label class="field">
             <p class="has-text-centered">

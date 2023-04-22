@@ -1,6 +1,6 @@
 <script lang="ts" context="module">
     import type { Option as OptionType } from "./Option.svelte";
-    export type Meal = { mains: OptionType[]; dessert: OptionType };
+    export type Meal = { mains: OptionType[]; dessert?: OptionType };
 </script>
 
 <script lang="ts">
@@ -45,10 +45,12 @@
                     </li>
                 {/each}
             </ul>
-            <h5>Dessert</h5>
-            <ul>
-                <li><Option option={data.dessert} {showAllergies} /></li>
-            </ul>
+            {#if data.dessert}
+                <h5>Dessert</h5>
+                <ul>
+                    <li><Option option={data.dessert} {showAllergies} /></li>
+                </ul>
+            {/if}
         {:else}
             <ul>
                 <li class="pb-2">Full English Breakfast</li>
