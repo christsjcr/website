@@ -15,7 +15,7 @@ const resources: {
                     },
                     {
                         title: "Tutor Timetable",
-                        url: "https://intranet.christs.cam.ac.uk/system/files/2021-11/2021-22%20Undergraduate%20Open%20Tutorial%20Hours%20MT21%20FINAL%20%28from%20ST%29.pdf",
+                        url: "https://intranet.christs.cam.ac.uk/system/files/2023-01/2022-23%20Undergraduate%20Open%20Tutorial%20Hours%20%20LT23_0.pdf",
                     },
                     {
                         title: "Camcard Balance",
@@ -206,7 +206,7 @@ const resources: {
                 items: [
                     {
                         title: "Tutor Timetable",
-                        url: "https://intranet.christs.cam.ac.uk/system/files/2021-11/2021-22%20Undergraduate%20Open%20Tutorial%20Hours%20MT21%20FINAL%20%28from%20ST%29.pdf",
+                        url: "https://intranet.christs.cam.ac.uk/system/files/2023-01/2022-23%20Undergraduate%20Open%20Tutorial%20Hours%20%20LT23_0.pdf",
                         info: [
                             "Shows walk-in / contact hours for tutors",
                             "It is best to visit your own tutor if possible, but you can always see any Tutor without an appointment",
