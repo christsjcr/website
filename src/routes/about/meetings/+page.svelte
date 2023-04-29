@@ -9,18 +9,15 @@
     title="Meetings"
     metaDescription="Get information on JCR meetings, and learn how you can make sure that your voice is heard.">
     <Content>
-        <h2>Lent Term</h2>
+        <h2>Easter Term</h2>
         <ul>
-            <li>21st January 5pm - Exec Meeting (NCSR)</li>
-            <li>28th January 5pm - Council Meeting (Z Amenity)</li>
-            <li>4th February 2pm - Exec Meeting (NCSR)</li>
-            <li><b>4th February 5pm - Open Meeting (Hamied Theatre)</b></li>
-            <li>11th February 5pm - Council Meeting (Sosnow Room)</li>
-            <li>18th February 5pm - Exec Meeting (NCSR)</li>
-            <li>25th February 5pm - Council Meeting (Lloyd Room)</li>
-            <li>4th March 5pm - Exec Meeting (Lloyd Room)</li>
-            <li><b>5th March 5pm - Open Meeting (Lloyd Room)</b></li>
-            <li>11th March 5pm - Council Meeting (Lloyd Room)</li>
+            <li>29th April 5pm - Exec Meeting (NCSR)</li>
+            <li>6th May 5pm - Council Meeting (NCSR)</li>
+            <li>13th May 2:30pm - Exec Meeting (NCSR)</li>
+            <li><b>13th May 6pm - Open Meeting (JCR)</b></li>
+            <li>20th May 5pm - Council Meeting (NCSR)</li>
+            <li>17th Jun 3:30pm - Exec Meeting (NCSR)</li>
+            <li>17th Jun 6pm - Council Meeting (NCSR)</li>
         </ul>
         <p>
             You can access the minutes for these meetings <TrackedLink
