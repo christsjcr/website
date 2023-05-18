@@ -1,11 +1,10 @@
 <script lang="ts">
     import { type Writable, writable } from "svelte/store";
-    import MealComponent from "./Meal.svelte";
+    import MealComponent, { type Meal } from "./Meal.svelte";
     import menuJson from "$data/menu.json";
 
     export let increment: number;
-
-    type Meal = { mains: string[]; dessert: string };
+    export let showAllergies: boolean;
 
     type Weekday = { weekend: false; lunch: Meal; dinner: Meal };
     type Weekend = { weekend: true; dinner: Meal };
@@ -40,19 +39,21 @@
         {#if currentMenu != null}
             <div class="column">
                 {#if currentMenu.weekend === true}
-                    <MealComponent type="lunch" {dayOfWeek} />
+                    <MealComponent type="lunch" {dayOfWeek} {showAllergies} />
                 {:else}
                     <MealComponent
                         type="lunch"
                         data={currentMenu.lunch}
-                        {dayOfWeek} />
+                        {dayOfWeek}
+                        {showAllergies} />
                 {/if}
             </div>
             <div class="column">
                 <MealComponent
                     type="dinner"
                     data={currentMenu.dinner}
-                    {dayOfWeek} />
+                    {dayOfWeek}
+                    {showAllergies} />
             </div>
         {:else}
             <article class="message is-gray">

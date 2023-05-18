@@ -46,6 +46,7 @@
     "bulma-switch": "^2.0.4",
     "fontawesome-svelte": "^2.0.1",
     "ics": "^2.40.0",
-    "svelte-markdown": "^0.2.1"
+    "svelte-markdown": "^0.2.1",
+    "title-case": "^3.0"
   }
 }

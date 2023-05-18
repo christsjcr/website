@@ -1,954 +1,4313 @@
 {
-  "start": "2023-01-09T00:00:00.000Z",
+  "start": "2023-04-23T23:00:00.000Z",
   "days": [
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Moroccan Spiced Jackfruit & Falafel Wrap with Minted Vegan Mayonnaise",
-          "Ricotta Tortelloni with Spinach & Basil Cream & Garlic Slice",
-          "Oven Roasted Salmon with Roasted Red Pepper Cream Sauce",
-          "Chicken Katsu with Curry Sauce",
-          "VEGETABLES INCLUDED"
+          {
+            "title": "Grilled Balsamic and Honey Chicken with Lime and Coriander",
+            "allergies": [
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Spiced Vegetable Tagine with Apricots and Sultanas",
+            "allergies": [
+              "Sulphites",
+              "Celery"
+            ]
+          },
+          {
+            "title": "Mushroom Pancakes with Hoisin Sauce, Oyster Mushrooms and Spring Onions",
+            "allergies": [
+              "Gluten",
+              "Soya",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Tomato and Basil Pasta Gratin",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Vegetables Included"
+          }
         ],
-        "dessert": "Chocolate Churros with Chocolate Dip"
+        "dessert": {
+          "title": "Apple Strudel and Custard",
+          "allergies": [
+            "Gluten",
+            "Milk",
+            "Egg"
+          ]
+        }
       },
       "dinner": {
         "mains": [
-          "Tofu, Broccoli, Water Chestnuts, and a Green Pepper Stir Fry in Blackbean Sauce",
-          "Quorn & Vegetable Stir Fry",
-          "Oven Roasted Salmon with Roasted Red Pepper Cream Sauce",
-          "Chicken Katsu with Curry Sauce",
-          "VEGETABLES INCLUDED"
-        ],
-        "dessert": "Fruit Crumble with Custard"
+          {
+            "title": "Fried Chicken Burger",
+            "allergies": [
+              "Egg",
+              "Gluten",
+              "Milk",
+              "Sulphites",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Spring Vegetable Risotto",
+            "allergies": [
+              "Milk",
+              "Celery"
+            ]
+          },
+          {
+            "title": "Moving Mountains Plant Burger",
+            "allergies": [
+              "Gluten",
+              "Soya"
+            ]
+          },
+          {
+            "title": "Vegetables Included"
+          }
+        ]
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Aubergine & Spinach Curry with Samosas",
-          "Homemade Roasted Vegetable & Olive Pizza",
-          "Sea Bass Fillet with Lemon, Garlic, Dill and Chilli",
-          "Grilled Pork Loin Steak with Spicy BBQ Salsa",
-          "VEGETABLES  INCLUDED"
+          {
+            "title": "Seasonal Seafood Casserole with Salmon, Cod and Atlantic Prawns",
+            "allergies": [
+              "Fish",
+              "Crustacean",
+              "Celery",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Aubergine and Parmesan Bake",
+            "allergies": [
+              "Milk"
+            ]
+          },
+          {
+            "title": "Seitan Buffalo Burgers",
+            "allergies": [
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Tagliatelle in a Mushroom and Tarragon Cream Sauce",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Vegetables Included"
+          }
         ],
-        "dessert": "Apple Strudel with Custard"
+        "dessert": {
+          "title": "Strawberry Tartlets",
+          "allergies": [
+            "Gluten",
+            "Milk",
+            "Egg"
+          ]
+        }
       },
       "dinner": {
         "mains": [
-          "Tuscan Style Wild Mushroom and Gnocchi",
-          "Tomato Risotto with Roasted Mediterranean Vegetables",
-          "Sea Bass with Lemon, Garlic, Dill and Chilli",
-          "Pesto Grilled Chicken Fillet with Sliced Tomato & Red Onion",
-          "VEGETABLES  INCLUDED"
+          {
+            "title": "Baked Haddock Fillets with a Wholegrain Mustard Sauce",
+            "allergies": [
+              "Milk",
+              "Fish",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Cheese Tortellini with a Tomato and Basil Sauce",
+            "allergies": [
+              "Gluten",
+              "Egg",
+              "Milk",
+              "Sulphhihtes"
+            ]
+          },
+          {
+            "title": "Morrocan Spiced Vegetable Tagine with Apricots and Almonds",
+            "allergies": [
+              "Almonds",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Vegetables Included"
+          }
         ],
-        "dessert": "Banoffee Pie"
+        "dessert": {
+          "title": "Steamed Chocolate and Cherry Sponge",
+          "allergies": [
+            "Gluten",
+            "Sulphites",
+            "Egg",
+            "Milk"
+          ]
+        }
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Ginger Soy Tofu with Stir Fried Vegetables and Seaweed",
-          "Lentil, Chickpea & Vegetable Cake with Sauteed Onions, Chilli & Coriander",
-          "Smoked Haddock Fish Cakes with Savoy Cabbage and Hollandaise",
-          "Spaghetti Bolognese with Garlic Bread & Parmesan",
-          "VEGETABLES INCLUDED"
+          {
+            "title": "BBQ Spiced Pork Steak with Salsa Vegetable"
+          },
+          {
+            "title": "Vegetable Burrito with a Herb Mayonaise",
+            "allergies": [
+              "Gluten",
+              "Egg"
+            ]
+          },
+          {
+            "title": "Summer Vegetable Risotto, Vegan Cheese and Cherry Tomatoes",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Penne Pasta with Spinach and Ricotta",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Vegetables Included"
+          }
         ],
-        "dessert": "Sultana Scones with Jam & Cream"
+        "dessert": {
+          "title": "Black Forest Slice",
+          "allergies": [
+            "Gluten",
+            "Egg",
+            "Milk",
+            "Sulphites"
+          ]
+        }
       },
       "dinner": {
         "mains": [
-          "Spicy Bean Wrap with Enchilada Sauce",
-          "Macaroni Cheese with Tomato & Mozzarella",
-          "Smoked Haddock Fish Cake with Savoy Cabbage & Hollandaise",
-          "Bacon Cheese Burger with Burger Sauce & Salad",
-          "VEGETABLES  INCLUDED"
+          {
+            "title": "Cajun Spiced Turkey Escalope"
+          },
+          {
+            "title": "Meditterenean Vegetable Kebabs with a Lemon and Herb Dressing"
+          },
+          {
+            "title": "Potato Gnocchi with Black Olives and Pesto",
+            "allergies": [
+              "Gluten"
+            ]
+          }
         ],
-        "dessert": "Treacle Tart"
+        "dessert": {
+          "title": "Bakewell Tart",
+          "allergies": [
+            "Gluten",
+            "Egg",
+            "Almond",
+            "Milk"
+          ]
+        }
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Vegan Sausage with Cajun Peppers and Onions",
-          "Vegetable and Cannellini Bean Rigatoni Bake",
-          "Piri Piri Salmon with Sweet Chilli Glaze",
-          "Lemon and Herb Roasted Chicken Thighs with Chicken Gravy",
-          "VEGETABLES  INCLUDED"
+          {
+            "title": "Baked Salmon with Roasted Sweetcorn and Red Chilli",
+            "allergies": [
+              "Fish"
+            ]
+          },
+          {
+            "title": "Roasted Mediterranean Vegetable and Hummus Flat Bread",
+            "allergies": [
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Cajun Spiced Vegetable Kebabs with Herbed Rice"
+          },
+          {
+            "title": "Smoked Bacon Carbonara",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Vegetables Included"
+          }
         ],
-        "dessert": "Blackberry & Apple Loaf Cake"
+        "dessert": {
+          "title": "Eclairs",
+          "allergies": [
+            "Gluten",
+            "Milk",
+            "Egg"
+          ]
+        }
       },
       "dinner": {
         "mains": [
-          "Crispy Tofu with Pak Choi, Peppers, Onion & Ginger Soy Dressing",
-          "Vegetable and Cannellini Bean Rigatoni Bake",
-          "Cod Fillet with Thai Green Curry Sauce and Roasted Aubergine",
-          "Chicken Tortilla Wraps with Guacamole & Sour Cream",
-          "VEGETABLES  INCLUDED"
+          {
+            "title": "Fish Tacos",
+            "allergies": [
+              "Gluten",
+              "Egg",
+              "Sulphite",
+              "Fish"
+            ]
+          },
+          {
+            "title": "Halloumi, Olive and Cherry Tomato Gyros",
+            "allergies": [
+              "Milk",
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Sweet Potato and Peanut Curry",
+            "allergies": [
+              "Mustard",
+              "Peanut"
+            ]
+          },
+          {
+            "title": "Vegetables Included"
+          }
         ],
-        "dessert": "Tiramisu"
+        "dessert": {
+          "title": "Rhubarb and Strawberry Crumble",
+          "allergies": [
+            "Milk",
+            "Gluten",
+            "Sulphites"
+          ]
+        }
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Creamy Mexican Bean and Vegetable Macaroni Cheese",
-          "Leek, Goat's Cheese & Lemon Tart with Red Onion Marmalade",
-          "Fresh Fillet of Fish with Tartar Sauce & Lemon",
-          "Brown Sugar and Spiced Glazed Gammon with Light Gravy",
-          "VEGETABLES INCLUDED"
+          {
+            "title": "Battered Fish, Scampi, Battered Sausage",
+            "allergies": [
+              "Gluten",
+              "Crustacean",
+              "Fish"
+            ]
+          },
+          {
+            "title": "Vegetarian Pies",
+            "allergies": [
+              "Allegens to Be Provided on the Day"
+            ]
+          },
+          {
+            "title": "Battered Vegan Sausage",
+            "allergies": [
+              "Gluten",
+              "Soya"
+            ]
+          },
+          {
+            "title": "Penne Pasta Dressed in a Lemon and Herb Dressing with Pulled Chicken",
+            "allergies": [
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Vegetables Included"
+          }
         ],
-        "dessert": "Cherry Pie & Custard"
+        "dessert": {
+          "title": "Spiced Apple Bar",
+          "allergies": [
+            "Gluten",
+            "Egg",
+            "Milk",
+            "Sulphites"
+          ]
+        }
       },
       "dinner": {
         "mains": [
-          "SPANISH THEME NIGHT",
-          "Vegetable and Bean Paella",
-          "Spanish Tortilla with Roasted Peppers and Olives in a Smoked Paprika Sauce",
-          "Cod Loin with Piquant Smokey Mussel Sauce",
-          "Smoky Roast Chicken Thighs with Tomato, Red Pepper and Green Olive Sauce",
-          "VEGETABLES INCLUDED"
+          {
+            "title": "Sweet Chilli Chicken Stir-Fry",
+            "allergies": [
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Vegetable and Mixed Bean Chilli",
+            "allergies": [
+              "Celery",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Penne Pasta Arrabbiata",
+            "allergies": [
+              "Gluten",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Vegetables Included"
+          }
         ],
-        "dessert": "Creme Caramel with Mandarin Oranges"
+        "dessert": {
+          "title": "Double Chocolate Brownie",
+          "allergies": [
+            "Gluten",
+            "Egg",
+            "Milk",
+            "Soya"
+          ]
+        }
       }
     },
     {
       "weekend": true,
       "dinner": {
         "mains": [
-          "Tempeh Khao Soi (Coconut Curry Noodles with peanuts)",
-          "Grilled Flatbread with Hummus, Roasted Vegetables, Fresh Basil and Coriander",
-          "Salmon & Asparagus Fish Cake & Hollandaise Sauce",
-          "Pasta Carbonara with Bacon & Garlic Slice",
-          "VEGETABLES INCLUDED"
+          {
+            "title": "Beef Burger with Chilli Jam, Lettuce, Tomato and Red Onion in a Brioche Bap",
+            "allergies": [
+              "Gluten",
+              "Egg",
+              "Milk",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Beetroot, Courgette and Ricotta Filo Topped Pie",
+            "allergies": [
+              "Milk",
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Vegan Bean Chilli, Baked Sweet Potato, Corn Chips",
+            "allergies": [
+              "Celery",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Vegetables Included"
+          }
         ],
-        "dessert": "Chocolate Orange Cake"
+        "dessert": {
+          "title": "Banoffee Pie",
+          "allergies": [
+            "Gluten",
+            "Sulphites",
+            "Milk"
+          ]
+        }
       }
     },
     {
       "weekend": true,
       "dinner": {
         "mains": [
-          "Vegetable Tagine with Couscous & Pita Bread",
-          "Smoked Cheddar Quiche with Balsamic Roasted Cherry Tomato",
-          "Scampi Fritters with Tartar Sauce & Lemon Wedge",
-          "Grilled Rump Steak with Chimmi Churri Herb Dressing",
-          "VEGETABLES  INCLUDED"
+          {
+            "title": "Roast Chicken Breast, Stuffing, Chipolata and Gravy",
+            "allergies": [
+              "Gluten",
+              "Sulphites",
+              "Celery"
+            ]
+          },
+          {
+            "title": "Moving Mountain Hot Dogs, Mustard, Crispy Onions and Spicy Salasa",
+            "allergies": [
+              "Gluten",
+              "Soy",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Vegetables Included"
+          }
         ],
-        "dessert": "New York Cheesecake"
+        "dessert": {
+          "title": "Vegan Apple Pie",
+          "allergies": [
+            "Gluten"
+          ]
+        }
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Sag Aloo with Lentils and Onion Bhaji",
-          "Broccoli & Cheddar Pasta Bake with Crispy Onion Topping",
-          "Breaded Plaice Fillet with Dill & Lemon Butter",
-          "Lemon & Herb Grilled Chicken with Balsamic and Herb Roasted Tomato",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Spiced Aubergine, Tomato, Chilli and Mint Soup",
+            "allergies": [
+              "Celery",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Spicy Chicken Stir Fry",
+            "allergies": [
+              "Soya"
+            ]
+          },
+          {
+            "title": "Vegetable Pad Thai",
+            "allergies": [
+              "Egg"
+            ]
+          },
+          {
+            "title": "Vegan Sausage with Cajun Peppers",
+            "allergies": [
+              "Soy",
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Mac 'N' Cheese",
+            "allergies": [
+              "Gluten",
+              "Milk",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Mini Chocolate Churros with Raspberry Coulis"
+        "dessert": {
+          "title": "Gateau Pithivier",
+          "allergies": [
+            "Gluten",
+            "Almond",
+            "Milk",
+            "Egg"
+          ]
+        }
       },
       "dinner": {
         "mains": [
-          "Vegetable Stir-Fried Rice with Tofu",
-          "Aubergine Spinach & Pepper Bake with Tomato Sauce & Parmesan Cheese",
-          "Breaded Plaice with Dill & Lemon Butter",
-          "Chicken Caesar Ciabatta Sandwich",
-          "VEGETABLES & SALAD BAR ITEMS  INCLUDED"
+          {
+            "title": "Spiced Aubergine, Tomato, Chilli and Mint Soup",
+            "allergies": [
+              "Celery",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Lamb Burger with Red Cabbage and Chilli Slaw",
+            "allergies": [
+              "Gluten",
+              "Sulphites",
+              "Egg",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Halloumi Fries with Soya Mince Chiili, Crème Fraiche and Spring Onions",
+            "allergies": [
+              "Soya",
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Crisp Chilli Tofu",
+            "allergies": [
+              "Soya",
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Chocolate Brownie"
+        "dessert": {
+          "title": "White Chocolate Blondie with Strawberries",
+          "allergies": [
+            "Soya",
+            "Egg",
+            "Gluten",
+            "Milk"
+          ]
+        }
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Chilli Bean Wraps with Guacamole",
-          "Spinach & Ricotta Cannelloni with Garlic Bread",
-          "Salmon with Teriyaki Glaze and Chilli with spring Onion & Carrot Garnish",
-          "Pork Schnitzel with Smokey Cheese Sauce",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Tomato and Basil Soup",
+            "allergies": [
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Baked Sea Bass, Cherry Tomatoes, Thyme and Garlic",
+            "allergies": [
+              "Fish"
+            ]
+          },
+          {
+            "title": "Roasted Vegetable Gratin, Feta Cheese, Chilli, Garlic and Sage",
+            "allergies": [
+              "Milk"
+            ]
+          },
+          {
+            "title": "Vegan Mince Bolognese, Spaghetti with Smoked Paprika",
+            "allergies": [
+              "Gluten",
+              "Soya",
+              "Celery"
+            ]
+          },
+          {
+            "title": "Orzo Pasta with Aubergine, Chilli, Tomato and Mint",
+            "allergies": [
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Dutch Apple Pie & Custard"
+        "dessert": {
+          "title": "Vegan Cherry Pie",
+          "allergies": [
+            "Gluten"
+          ]
+        }
       },
       "dinner": {
         "mains": [
-          "Roasted Cajun Spiced Vegetable with BBQ Tofu",
-          "Spinach & Ricotta Cannelloni with Garlic Bread",
-          "Prawn & Noodle Stir Fry",
-          "Beef Madras with Naan Bread, Samosas & Mango Chutney",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Tomato and Basil Soup",
+            "allergies": [
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Scampi with Lemon and Tartare Sauce",
+            "allergies": [
+              "Egg",
+              "Sulphites",
+              "Gluten",
+              "Crustacean"
+            ]
+          },
+          {
+            "title": "Vegetable, Chilli and Mozzarella Enchiladas with a Smoked Paprika and Tomato Sauce",
+            "allergies": [
+              "Gluten",
+              "Milk",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Pulled BBQ Jackfruit Burger with Red Cabbage Slaw",
+            "allergies": [
+              "Sulphites",
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Rhubarb Crumble & Custard"
+        "dessert": {
+          "title": "Pineapple Upside Down Cake",
+          "allergies": [
+            "Gluten",
+            "Egg",
+            "Milk",
+            "Sulphites"
+          ]
+        }
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Vegan Swedish Style Meatballs with Tagliatelle",
-          "Aubergine Parmesan with Garlic Bread",
-          "Cod with Spicy Tomato Sauce topped with Peppers and Onion",
-          "Beef Tex-Mex Enchilada Bake",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Wild Mushroom, Garlic and Garden Rosemary Soup",
+            "allergies": [
+              "Milk"
+            ]
+          },
+          {
+            "title": "Grilled Steak with Chimichurri Sauce",
+            "allergies": [
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Courgette and Spinach Gallette, Mascarpone, Chilli and Honey Dressing",
+            "allergies": [
+              "Gluten",
+              "Milk",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Mixed Bean and Vegetable Wrap, Spicy Mayo",
+            "allergies": [
+              "Gluten",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Beef Ragu with Penne Pasta",
+            "allergies": [
+              "Celery",
+              "Sulphites",
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "German Apple Pudding"
+        "dessert": {
+          "title": "Vegan Apple Turnovers",
+          "allergies": [
+            "Gluten"
+          ]
+        }
       },
       "dinner": {
         "mains": [
-          "Falafel Burger with Spicy Vegan Mayonnaise",
-          "Sundried Tomato Onion, Pepper and Mozzarella Calzone",
-          "Harissa Spiced Cod Loin on a bed of Roasted Chickpeas & Vegetables",
-          "Breaded Turkey Escalope with Smoked Bacon & Swiss Cheese",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Wild Mushroom, Garlic and Garden Rosemary Soup",
+            "allergies": [
+              "Milk"
+            ]
+          },
+          {
+            "title": "Satay Chicken Skewer",
+            "allergies": [
+              "Soya",
+              "Peanut"
+            ]
+          },
+          {
+            "title": "Red Onion and Goats' Cheese Pizza",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Vegetable and Chickpea Curry",
+            "allergies": [
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Mini Jam Donuts"
+        "dessert": {
+          "title": "Danish Pastry 'Bread and Butter' Pudding",
+          "allergies": [
+            "Gluten",
+            "Milk",
+            "Egg",
+            "Soya"
+          ]
+        }
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Bang-Bang Cauliflower with Stir Fried Rice & Spicy Vegan Mayonnaise",
-          "Vegetable and Bean Jambalaya with Roasted Spiced Courgette",
-          "Sea Bass with Lemon, & Lime and Peppered Mushrooms",
-          "Pulled Pork Bap with BBQ Sauce & Coleslaw",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Courgette and Coriander Soup",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Grilled Mackerel, Lemon, Garlic and Herb Butter",
+            "allergies": [
+              "Fish",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Tofu and Vegetable Curry",
+            "allergies": [
+              "Mustard",
+              "Soya"
+            ]
+          },
+          {
+            "title": "Moroccan Spiced Vegetable Tagine, Toasted Pumpkin Seeds, Pita Bread",
+            "allergies": [
+              "Sulphites",
+              "Mustard",
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Orecchiette with Broccoli and Red Chilli",
+            "allergies": [
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Chocolate Chip Caramel Slice"
+        "dessert": {
+          "title": "Cinnamon Milk Tart",
+          "allergies": [
+            "Milk",
+            "Egg",
+            "Gluten"
+          ]
+        }
       },
       "dinner": {
         "mains": [
-          "Lentil Spaghetti Bolognaise with Garlic Slice",
-          "Quorn & Mushroom Stroganoff",
-          "Sea Bass with Lemongrass, Lime and Coconut Cream",
-          "Lamb Kofta with Pea & Herb Couscous",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Courgette and Coriander Soup",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Fish and Atlantic Prawn Pie with a Fennel Seed and Parmesan Crumble Top",
+            "allergies": [
+              "Gluten",
+              "Milk",
+              "Fish",
+              "Crustacean"
+            ]
+          },
+          {
+            "title": "Sunblush Tomato and Feta Quiche",
+            "allergies": [
+              "Gluten",
+              "Milk",
+              "Egg"
+            ]
+          },
+          {
+            "title": "Spaghetti with Asparagus, Pea and Lemon",
+            "allergies": [
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Eccles Cake & Custard"
+        "dessert": {
+          "title": "Lemon Drizzle Cake",
+          "allergies": [
+            "Gluten",
+            "Egg",
+            "Milk"
+          ]
+        }
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Tofu Katsu with Curry Sauce, and Onion Rings",
-          "Cheddar, Onion and Potato Strudel",
-          "Fresh Fillet of Fish with Tartar Sauce & Lemon",
-          "Soy & Honey Baked Chicken Fillet",
-          "VEGETABLES & SALAD BAR ITEMS INCUDED"
+          {
+            "title": "Fennel and Orange Soup",
+            "allergies": [
+              "Celery",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Battered Fish, Breaded Plaice, Battered Sausage",
+            "allergies": [
+              "Gluten",
+              "Crustacean",
+              "Fish"
+            ]
+          },
+          {
+            "title": "Vegetarian Pies",
+            "allergies": [
+              "Allegens to Be Provided on the Day"
+            ]
+          },
+          {
+            "title": "Battered Vegan Sausage",
+            "allergies": [
+              "Gluten",
+              "Soya"
+            ]
+          },
+          {
+            "title": "Tomato and Tuna Pasta Bake",
+            "allergies": [
+              "Gluten",
+              "Fish",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Incuded"
+          }
         ],
-        "dessert": "Cherry Pie"
+        "dessert": {
+          "title": "Chocolate Cream Pie",
+          "allergies": [
+            "Milk",
+            "Egg",
+            "Gluten"
+          ]
+        }
       },
       "dinner": {
         "mains": [
-          "MEXICAN THEME NIGHT",
-          "Quesadillas with Refried Beans, Smoked Vegan Cheese and Guacamole",
-          "Quesadillas with Refried Beans, Monterey Jack Cheese & Guacamole",
-          "Spicy Fish & Rice Tortilla Bowls with Spicy Mayo, Pickled Red Onion & Avocado Slice",
-          "Spiced Chicken & Black Bean Wraps with Monterey Jack Cheese & Guacamole",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Friday"
+          },
+          {
+            "title": "Fennel and Orange Soup",
+            "allergies": [
+              "Celery",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Bean and Chorizo Cassoulet",
+            "allergies": [
+              "Sulphites",
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Mushroom and Blue Cheese Brioche Burger",
+            "allergies": [
+              "Gluten",
+              "Egg",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Tofu BBQ Skewers",
+            "allergies": [
+              "Soya",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Churros with Nutella Dip"
+        "dessert": {
+          "title": "Toffee Apple Crumble",
+          "allergies": [
+            "Milk",
+            "Gluten",
+            "Sulphites"
+          ]
+        }
       }
     },
     {
       "weekend": true,
       "dinner": {
         "mains": [
-          "Moving Mountains Vegan Burger with Salad",
-          "Cherry Tomato, Olive, Feta & Spinach Pizza",
-          "Salmon Kedgeree with Korma Sauce & Fresh Coriander",
-          "Beef Lasagne with Garlic Slice",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Moroccan Spiced Turkey Steaks, Pickled Red Onions",
+            "allergies": [
+              "Sulphites",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Vegetable Paella with Chilli and Parsley",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Stuffed Courgettes with Spicy Beans and Rice"
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Apple Pie"
+        "dessert": {
+          "title": "Sticky Toffee Pudding",
+          "allergies": [
+            "Gluten",
+            "Egg",
+            "Milk"
+          ]
+        }
       }
     },
     {
       "weekend": true,
       "dinner": {
         "mains": [
-          "Falafel with Cumin, Chickpea & Tomato Sauce with Minted Cucumber Garnish",
-          "Pan Fried Halloumi with Roasted Vegetables & Basil Vinaigrette",
-          "Calamari Strips with Lemon & Spicy Mayonnaise",
-          "Roast Chicken Breast with Herb Stuffing & Chipolata",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Roast Pork Loin, Stuffing, Gravy, Apple Sauce",
+            "allergies": [
+              "Celery",
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Quorn Stir Fry",
+            "allergies": [
+              "Soya",
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Vegan Bean and Chickpea Chilli, Tortilla Chips"
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Chocolate Fudge Gateau"
+        "dessert": {
+          "title": "Vegan Apricot Pie",
+          "allergies": [
+            "Sulphites",
+            "Gluten"
+          ]
+        }
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Vegetable, Bean and Potato Goulash",
-          "Veggie Sausage, Cheddar Mash, Leek & Mashed Potato Bake with Onion Gravy",
-          "Baked Cod with Cheddar Cheese Sauce",
-          "Breaded Chicken with Garlic & Parsley Butter",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Cumin Spiced Chickpea and Red Lentil Soup",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Chicken Stroganoff",
+            "allergies": [
+              "Milk",
+              "Mustard",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Roasted Mediterranean Vegetable Burrito, Rocket Pesto",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Sweet and Sour Tofu Stir-Fry",
+            "allergies": [
+              "Soy",
+              "Sulphites",
+              "Sesame"
+            ]
+          },
+          {
+            "title": "Tomato and Basil Pasta Gratin",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Cinnamon Apple Cake"
+        "dessert": {
+          "title": "Apple Strudel and Custard",
+          "allergies": [
+            "Gluten",
+            "Milk",
+            "Egg"
+          ]
+        }
       },
       "dinner": {
         "mains": [
-          "Mixed Bean Tortilla Boats with Sliced Avocado",
-          "Vegetable Curry with Samosas",
-          "Baked Cod with Cheddar Cheese Sauce",
-          "Chicken Fried Rice",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Cumin Spiced Chickpea and Red Lentil Soup",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Deep Fried Calamari with Lemon and Garlic Mayo",
+            "allergies": [
+              "Gluten",
+              "Milk",
+              "Molluscs"
+            ]
+          },
+          {
+            "title": "Four Cheese Ravioli with Garlic Bread",
+            "allergies": [
+              "Gluten",
+              "Egg",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Plant Burger with Spiced Mayo",
+            "allergies": [
+              "Gluten",
+              "Soya",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Chocolate Brownie"
+        "dessert": {
+          "title": "Chocolate Brownie"
+        }
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Sticky Tempeh with Vegetables and Hot & Sour Sauce",
-          "Toasted Swiss Cheese Sandwich with Red Onion Chutney",
-          "Smoked Salmon with Lemon & Pea Risotto",
-          "Chicken Korma with Naan Bread & Mango Chutney",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Courgette with Lemongrass and Green Chilli Soup",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Teriyaki Salmon with Sesame and Pak Choi",
+            "allergies": [
+              "Soya",
+              "Sesame",
+              "Fish"
+            ]
+          },
+          {
+            "title": "Puttanesca Baked Gnocchi",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Chickpea, Spinach and Sweet Potato Curry, Mango Chutney and Poppadoms",
+            "allergies": [
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Tagliatelle in a Mushroom and Tarragon Cream Sauce",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Fruit Tartlet"
+        "dessert": {
+          "title": "Strawberry Tartlets",
+          "allergies": [
+            "Gluten",
+            "Milk",
+            "Egg"
+          ]
+        }
       },
       "dinner": {
         "mains": [
-          "Vegetable Stir Fry with Vegetable Spring Rolls",
-          "Cheese & Onion Sausage Rolls",
-          "Fried Plaice Goujons with Lemon & Dill Mayonnaise",
-          "Pork Escalope with Honey, Mustard, Gherkins & Red Onion",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Courgette with Lemongrass and Green Chilli",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Sweet and Sour Chicken Balls",
+            "allergies": [
+              "Gluten",
+              "Sulphites",
+              "Soya"
+            ]
+          },
+          {
+            "title": "Cheese, Potato and Leek Pie",
+            "allergies": [
+              "Milk",
+              "Gluten",
+              "Egg"
+            ]
+          },
+          {
+            "title": "Devilled Tofu Kebab with Kimchi",
+            "allergies": [
+              "Sulphites",
+              "Soya"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Lemon Meringue Pie"
+        "dessert": {
+          "title": "Lemon Meringue Pie"
+        }
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Lentil & Butternut Casserole",
-          "4 Cheese Ravioli with Tomato Sauce",
-          "Cajun Salmon with Coriander and Lime Butter",
-          "Roast Loin of Pork Rubbed with Mustard and Tarragon and Garlic Gravy",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Pac Choi, Soy, Spring Onion and Ginger Soup",
+            "allergies": [
+              "Soya",
+              "Celery"
+            ]
+          },
+          {
+            "title": "Sausage, Apple and Sage Roll",
+            "allergies": [
+              "Gluten",
+              "Egg",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Pepperonata Frittata with Ricotta Cheese",
+            "allergies": [
+              "Eggs",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Tuscan Bean and Barley Stew with Garlic Ciabatta",
+            "allergies": [
+              "Gluten",
+              "Celery"
+            ]
+          },
+          {
+            "title": "Penne Pasta with Spinach and Ricotta",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Rhubarb & Strawberry Crumble"
+        "dessert": {
+          "title": "Black Forest Slice",
+          "allergies": [
+            "Gluten",
+            "Egg",
+            "Milk",
+            "Sulphites"
+          ]
+        }
       },
       "dinner": {
         "mains": [
-          "Southern Fried Jackfruit with Spicy Mayonnaise",
-          "Veggie Mince Bolognaise",
-          "Fish Pie",
-          "Sausage Casserole with Spicy Tomato Sauce",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Pac Choi, Soy, Spring Onion and Ginger Soup",
+            "allergies": [
+              "Soya",
+              "Celery"
+            ]
+          },
+          {
+            "title": "Smoked Haddock Fishcakes with a Chive Sour Cream",
+            "allergies": [
+              "Milk",
+              "Egg",
+              "Gluten",
+              "Fish"
+            ]
+          },
+          {
+            "title": "Honey and Sesame Halloumi with Jalapeno Yoghurt and a Tabboula Salad",
+            "allergies": [
+              "Gluten",
+              "Milk",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Vegan Vegetable and Lentil Casserole",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Eton Mess with Strawberries"
+        "dessert": {
+          "title": "Eton Mess with Strawberries"
+        }
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Vegan Burger with Salad, Guacamole and Salsa",
-          "Quorn Stir Fry",
-          "Haddock Fillet with Moroccan Spiced Tomato and Mussel Sauce",
-          "Beef in Black Bean Sauce",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "White Bean, Spinach and Spring Herbs Soup",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Baked Sea Bass with a Lemon, Caper and Parsley Dressing",
+            "allergies": [
+              "Fish",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Asparagus, Pea and Mint Risotto",
+            "allergies": [
+              "Milk",
+              "Celery"
+            ]
+          },
+          {
+            "title": "Spiced Chickpea, Beetroot and Spinach Pasties",
+            "allergies": [
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Smoked Bacon Carbonara",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Chocolate Fudge Cake"
+        "dessert": {
+          "title": "Eclairs",
+          "allergies": [
+            "Gluten",
+            "Milk",
+            "Egg"
+          ]
+        }
       },
       "dinner": {
         "mains": [
-          "Chickpea & Vegetable Balti with Samosas",
-          "Gnocchi with Spinach, Kale, Sun-Blushed Tomato and Basil Cream",
-          "White Fish with Lemon, Garlic & White Wine Sauce",
-          "Hunter's Chicken with Bacon, Cheese & BBQ Sauce",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "White Bean, Spinach and Spring Herbs Soup",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Grilled Pork Steak with Spicy Salsa",
+            "allergies": [
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Mushroom and Broccoli Pasta Bake",
+            "allergies": [
+              "Milk",
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Vegan Swedish Meatballs",
+            "allergies": [
+              "Soy",
+              "Gluten",
+              "Sesame"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Cherry Bakewell Pie"
+        "dessert": {
+          "title": "Cherry Bakewell Pie"
+        }
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Tofu & Vegetable Bowl with Hoisin Dressing",
-          "Macaroni Cheese",
-          "Fresh Fillet of Fish with Tartar Sauce & Lemon",
-          "French Onion Chicken Thighs",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Pea and Mint",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Battered Fish, Scampi, Battered Sausage",
+            "allergies": [
+              "Gluten",
+              "Crustacean",
+              "Fish"
+            ]
+          },
+          {
+            "title": "Vegetarian Pies",
+            "allergies": [
+              "Allegens to Be Provided on the Day"
+            ]
+          },
+          {
+            "title": "Battered Vegan Sausage",
+            "allergies": [
+              "Gluten",
+              "Soya"
+            ]
+          },
+          {
+            "title": "Penne Pasta Dressed in a Lemon and Herb Dressing",
+            "allergies": [
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Cherry Pie"
+        "dessert": {
+          "title": "Spiced Apple Bar",
+          "allergies": [
+            "Gluten",
+            "Egg",
+            "Milk",
+            "Sulphites"
+          ]
+        }
       },
       "dinner": {
         "mains": [
-          "TEXAS THEME NIGHT",
-          "Vegan Burger with Black Bean Salsa and BBQ Mayonnaise",
-          "Quorn & Bean Chilli",
-          "Battered Cod Bites, King Prawn Skewer, Sweetcorn & Black Bean Salsa",
-          "Chunky Texas Beef Chilli",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Pea and Mint Soup",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Beef Madras with Garlic and Herb Naan Bread",
+            "allergies": [
+              "Mustard",
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Vegetable Fajitas, Sour Cream and Salsa",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Spaghetti with a Lentil and Mushroom Bolognese",
+            "allergies": [
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Chocolate Fudge Cake"
+        "dessert": {
+          "title": "Chocolate Fudge Cake"
+        }
       }
     },
     {
       "weekend": true,
       "dinner": {
         "mains": [
-          "Mushroom & Vegetable Pizza",
-          "Vegetable Lasagne Verdi",
-          "Fried Scampi with Tartar Sauce & Lemon",
-          "Grilled Rump Steak with Onion Rings & Gravy",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Buttermilk Chicken Burger, Sriracha Mayo and Salad",
+            "allergies": [
+              "Gluten",
+              "Milk",
+              "Sulphites",
+              "Egg"
+            ]
+          },
+          {
+            "title": "Mushroom and Quorn Fricassee",
+            "allergies": [
+              "Soya",
+              "Milk",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Falafel and Greek Salad Wrap",
+            "allergies": [
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Iced Caramel Donut"
+        "dessert": {
+          "title": "Iced Caramel Donut"
+        }
       }
     },
     {
       "weekend": true,
       "dinner": {
         "mains": [
-          "Vegan Sausage & Onion Baguette with Vegan Smokey Cheddar",
-          "Butter Quorn  Curry with Pakoras",
-          "Fish Fillet with White Wine Cream Sauce Diced Tomato",
-          "Creamy Chicken & Broccoli Pasta Bake",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Roast Beef, Yorkshire Pudding with Onion Gravy",
+            "allergies": [
+              "Celery",
+              "Egg",
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Portobello Burger, Mozzarella and Pesto",
+            "allergies": [
+              "Milk",
+              "Gluten",
+              "Egg"
+            ]
+          },
+          {
+            "title": "Sweet Potato and White Bean Chilli",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "New York Cheesecake"
+        "dessert": {
+          "title": "New York Cheesecake"
+        }
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Moroccan Spiced Jackfruit & Falafel Wrap with Minted Vegan Mayonnaise",
-          "Ricotta Tortelloni with Spinach & Basil Cream & Garlic Slice",
-          "Oven Roasted Salmon with Roasted Red Pepper Cream Sauce",
-          "Chicken Katsu with Curry Sauce",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Spiced Aubergine, Tomato, Chilli and Mint Soup",
+            "allergies": [
+              "Celery",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Breaded Plaice with Lemon and Parsley Butter",
+            "allergies": [
+              "Egg",
+              "Gluten",
+              "Milk",
+              "Fish"
+            ]
+          },
+          {
+            "title": "Mushroom Kedgeree with Korma Sauce",
+            "allergies": [
+              "Egg",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Stuffed Peppers with Wild Rice and Vegan Cheese",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Mac 'N' Cheese",
+            "allergies": [
+              "Gluten",
+              "Milk",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Chocolate Churros with Chocolate Dip"
+        "dessert": {
+          "title": "Gateau Pithivier",
+          "allergies": [
+            "Gluten",
+            "Almond",
+            "Milk",
+            "Egg"
+          ]
+        }
       },
       "dinner": {
         "mains": [
-          "Tofu, Broccoli, Water Chestnuts, and a Green Pepper Stir Fry in Black Bean Sauce",
-          "Quorn & Vegetable Stir Fry",
-          "Oven Roasted Salmon with Roasted Red Pepper Cream Sauce",
-          "Chicken Katsu with Curry Sauce",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Spiced Aubergine, Tomato, Chilli and Mint Soup",
+            "allergies": [
+              "Celery",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Pulled Pork Baps with BBQ Sauce",
+            "allergies": [
+              "Milk",
+              "Egg",
+              "Gluten",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Mexican Bean Nachos, Cheese and Jalepenos",
+            "allergies": [
+              "Sulphites",
+              "Cheese"
+            ]
+          },
+          {
+            "title": "Stuffed Aubergines, Vegan Cheese, Chilli Tomato Sauce"
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Fruit Crumble with Custart"
+        "dessert": {
+          "title": "White Chocolate Blondie with Strawberries",
+          "allergies": [
+            "Soya",
+            "Egg",
+            "Gluten",
+            "Milk"
+          ]
+        }
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Aubergine & Spinach Curry with Samosas",
-          "Homemade Roasted Vegetable & Olive Pizza",
-          "Sea Bass Fillet with Lemon, Garlic, Dill and Chilli",
-          "Smokey Spiced Pork Loin with Spicy BBQ Salsa",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Tomato and Basil Soup",
+            "allergies": [
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Slow Cooked Lamb with Honey and Peppers",
+            "allergies": [
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Mature Cheddar Cheese and Onion Pasties",
+            "allergies": [
+              "Gluten",
+              "Milk",
+              "Egg"
+            ]
+          },
+          {
+            "title": "Roast Mushroom and Leek Shepards Pie"
+          },
+          {
+            "title": "Orzo Pasta with Aubergine, Chilli, Tomato and Mint",
+            "allergies": [
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Apple Strudel with Custard"
+        "dessert": {
+          "title": "Vegan Cherry Pie",
+          "allergies": [
+            "Gluten"
+          ]
+        }
       },
       "dinner": {
         "mains": [
-          "Tuscan Style Wild Mushcoom and Gnocchi",
-          "Tomato Risotto with Roasted Mediterranean Vegetables",
-          "Sea Bass Fillet with Lemon, Garlic, Dill and Chilli",
-          "Pesto Grilled Chicken Fillet with Sliced Tomato & Red Onion",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Tomato and Basil",
+            "allergies": [
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Hot and Sour Sea Bass",
+            "allergies": [
+              "Fish",
+              "Soya"
+            ]
+          },
+          {
+            "title": "Vegetable Biriyani with Poppadoms",
+            "allergies": [
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Tofu, Broccoli, Water Chestnut and Pepper Stir-Fry with a Black Bean Sauce",
+            "allergies": [
+              "Soya",
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Banoffee Pie"
+        "dessert": {
+          "title": "Pineapple Upside Down Cake",
+          "allergies": [
+            "Gluten",
+            "Egg",
+            "Milk",
+            "Sulphites"
+          ]
+        }
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Finger Soy Tofu with Stir Fried Vegetables and Seaweed",
-          "Lentil, Chickpea & Vegetable Cake with Sauteed Onions, Chilli & Coriander",
-          "Smoked Haddock Fish Cakes with Savoy Cabbage and Hollandaise",
-          "Spaghetti Bolognese with Garlic Bread & Parmesan",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Wild Mushroom, Garlic and Garden Rosemary Soup",
+            "allergies": [
+              "Milk"
+            ]
+          },
+          {
+            "title": "Baked Cod with Roasted Cherry Tomato Salsa",
+            "allergies": [
+              "Fish"
+            ]
+          },
+          {
+            "title": "Gnocchi Gratin with Broccoli and Spinach",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Thai Green Vegetable Curry",
+            "allergies": [
+              "Soy"
+            ]
+          },
+          {
+            "title": "Beef Ragu with Penne Pasta",
+            "allergies": [
+              "Celery",
+              "Sulphites",
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Sultant Scones with Jam & Cream"
+        "dessert": {
+          "title": "Vegan Apple Turnovers",
+          "allergies": [
+            "Gluten"
+          ]
+        }
       },
       "dinner": {
         "mains": [
-          "Spicy Bean Wrap with Enchilada Sauce",
-          "Macaroni Cheese with Tomato & Mozzarella",
-          "Smoked Haddock Fish Cakes with Savoy Cabbage and Hollandaise",
-          "Bacon Cheese Burger with Burger Sauce & Salad",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Wild Mushroom, Garlic and Garden Rosemary",
+            "allergies": [
+              "Milk"
+            ]
+          },
+          {
+            "title": "Chicken, Leek and Mushroom Pie",
+            "allergies": [
+              "Milk",
+              "Gluten",
+              "Egg",
+              "Celery"
+            ]
+          },
+          {
+            "title": "Margherita Pizza with Mozzarella and Parmesan",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Curried Potato and Pea Samosas",
+            "allergies": [
+              "Gluten",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Treacle Tart"
+        "dessert": {
+          "title": "Danish Pastry 'Bread and Butter' Pudding",
+          "allergies": [
+            "Gluten",
+            "Milk",
+            "Egg",
+            "Soya"
+          ]
+        }
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Vegan Sausage with Cajun Peppers and Onions",
-          "Vegetable and Cannellini Bean Rigatoni Bake",
-          "Piri Piri Salmon with Sweet Chilli Glaze",
-          "Lemon and Herb Roasted Chicken Thighs with Chicken Gravy",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Courgette and Coriander Soup",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Sticky Sweet Glazed Meatloaf",
+            "allergies": [
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Three Cheese Ratatoulli Lasagne",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Spring Rolls with Vegetable Stir Fry",
+            "allergies": [
+              "Soy",
+              "Gluten",
+              "Celery"
+            ]
+          },
+          {
+            "title": "Orecchiette with Broccoli and Red Chilli",
+            "allergies": [
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Blackberry & Apple Loaf Cake"
+        "dessert": {
+          "title": "Cinnamon Milk Tart",
+          "allergies": [
+            "Milk",
+            "Egg",
+            "Gluten"
+          ]
+        }
       },
       "dinner": {
         "mains": [
-          "Crispy Tofu with Pak Choi, Peppers, Onion & Ginger Soy Dressing",
-          "Vegetable and Cannellini Bean Rigatoni Bake",
-          "Cod Fillet with Thai Green Curry Sauce and Roasted Aubergine",
-          "Chicken Tortilla Wraps with Guacamole & Sour Cream",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Courgette and Coriander",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Grilled Tuna Steak with Niçoise Salad",
+            "allergies": [
+              "Fish",
+              "Sulphites",
+              "Egg"
+            ]
+          },
+          {
+            "title": "Leek, Spinach and Mascarpone Tart",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Baked Sweet Potato with Cajun Beans"
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Tiramisu"
+        "dessert": {
+          "title": "Lemon Drizzle Cake",
+          "allergies": [
+            "Gluten",
+            "Egg",
+            "Milk"
+          ]
+        }
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Creamy Mexican Bean and Vegetable Macaroni Cheese",
-          "Leek, Goat's Cheese & Lemon Tart with Red Onion Marmalade",
-          "Fresh Fillet of Fish with Tartar Sauce & Lemon",
-          "Brown Sugar and Spiced Glazed Gammon with Light Gravy",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Fennel and Orange Soup",
+            "allergies": [
+              "Celery",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Battered Fish, Breaded Plaice, Battered Sausage",
+            "allergies": [
+              "Gluten",
+              "Crustacean",
+              "Fish"
+            ]
+          },
+          {
+            "title": "Vegetarian Pies",
+            "allergies": [
+              "Allegens to Be Provided on the Day"
+            ]
+          },
+          {
+            "title": "Battered Vegan Sausage",
+            "allergies": [
+              "Gluten",
+              "Soya"
+            ]
+          },
+          {
+            "title": "Tomato and Tuna Pasta Bake",
+            "allergies": [
+              "Gluten",
+              "Fish",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Custard Pie & Custard"
+        "dessert": {
+          "title": "Chocolate Cream Pie",
+          "allergies": [
+            "Milk",
+            "Egg",
+            "Gluten"
+          ]
+        }
       },
       "dinner": {
         "mains": [
-          "THEME NIGHT",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Fennel and Orange",
+            "allergies": [
+              "Celery",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Meatballs in a Tomato, Chorizo and Smoked Paprika Sauce",
+            "allergies": [
+              "Celery",
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Miso Mushroom and Halloumi Burger",
+            "allergies": [
+              "Gluten",
+              "Milk",
+              "Egg",
+              "Soya"
+            ]
+          },
+          {
+            "title": "Roasted Aubergine and Tomato Curry",
+            "allergies": [
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Fruit Salad with Mango & Lychees"
+        "dessert": {
+          "title": "Toffee Apple Crumble",
+          "allergies": [
+            "Milk",
+            "Gluten",
+            "Sulphites"
+          ]
+        }
       }
     },
     {
       "weekend": true,
       "dinner": {
         "mains": [
-          "Tempeh Khao Soi (Coconut Curry Noodles with Peanuts)",
-          "Grilled Glatbread with Hummus, Roasted Vegetables, Fresh Basil and Coriander",
-          "Salmon & Asparagus Fish Cake & Hollandaise Sauce",
-          "Pasta Carbonara with Bacon & Garlic Slice",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Beef Lasagne with Garlic Bread",
+            "allergies": [
+              "Gluten",
+              "Sulphites",
+              "Celery",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Vegetable and Lentil Cottage Pie",
+            "allergies": [
+              "Celery",
+              "Soya"
+            ]
+          },
+          {
+            "title": "Pulled BBQ Jackfruit Burger with a Mustard Slaw",
+            "allergies": [
+              "Mustard",
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Chocolate Orange Cake"
+        "dessert": {
+          "title": "Sticky Toffee Pudding",
+          "allergies": [
+            "Gluten",
+            "Egg",
+            "Milk"
+          ]
+        }
       }
     },
     {
       "weekend": true,
       "dinner": {
         "mains": [
-          "Vegetable Tagine with Couscous & Pita Bread",
-          "Tomato Tart with Creme Fraiche & Basil Pesto",
-          "Scampi Fritters with Tartar Sauce & Lemon Wedge",
-          "Grilled Rump Steak with Chimmi Churri Herb Dressing",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Roast Turkey Breast with a Lemon, Sage and Pinenut Stuffing",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Pizza - Vegi Supreme",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Vegan Meatballs in a Sweet and Spicy Sauce",
+            "allergies": [
+              "Soya",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "New York Cheesecake"
+        "dessert": {
+          "title": "Vegan Apricot Pie",
+          "allergies": [
+            "Sulphites",
+            "Gluten"
+          ]
+        }
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Saag Aloo with Lentils and Onion Bhaji",
-          "Broccoli and Cheddar Pasta Bake with Crispy Onion Topping",
-          "Breaded Plaice Fillet with Dill & Lemon Butter",
-          "Lemon & Herb Grilled Chicken with Balsamic & Herb Roasted Tomato",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Grilled Balsamic and Honey Chicken with Lime and Coriander",
+            "allergies": [
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Spiced Vegetable Tagine with Apricots and Sultanas",
+            "allergies": [
+              "Sulphites",
+              "Celery"
+            ]
+          },
+          {
+            "title": "Mushroom Pancakes with Hoisin Sauce, Oyster Mushrooms and Spring Onions",
+            "allergies": [
+              "Gluten",
+              "Soya",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Tomato and Basil Pasta Gratin",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Mini Chocolate Churros"
+        "dessert": {
+          "title": "Apple Strudel and Custard",
+          "allergies": [
+            "Gluten",
+            "Milk",
+            "Egg"
+          ]
+        }
       },
       "dinner": {
         "mains": [
-          "Vegetable Stir Fried Rice with Tofu",
-          "Aubergine Spinach & Pepper Bake with Tomato Sauce & Parmesan Cheese",
-          "Breaded Plaice with Dill & Lemon Butter",
-          "Chicken Caesar Ciabatta Sandwich",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Fried Chicken Burger",
+            "allergies": [
+              "Egg",
+              "Gluten",
+              "Milk",
+              "Sulphites",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Spring Vegetable Risotto",
+            "allergies": [
+              "Milk",
+              "Celery"
+            ]
+          },
+          {
+            "title": "Moving Mountains Plant Burger",
+            "allergies": [
+              "Gluten",
+              "Soya"
+            ]
+          },
+          {
+            "title": "Vegetables Included"
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Chocolate Brownie"
+        "dessert": {
+          "title": "Steamed Chocolate and Cherry Sponge",
+          "allergies": [
+            "Gluten",
+            "Sulphites",
+            "Egg",
+            "Milk"
+          ]
+        }
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Chilli Bean Wraps with Guacamole",
-          "Spinach & Ricotta Cannelloni with Garlic Bread",
-          "Salmon with Teriyaki Glaze and Chilli, Spring Onion & Carrot Garnish",
-          "Pork Schnitzel with Smokey Cheese Sauce",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Seasonal Seafood Casserole with Salmon, Cod and Atlantic Prawns",
+            "allergies": [
+              "Fish, Custacean, Celery Sulphites"
+            ]
+          },
+          {
+            "title": "Aubergine and Parmesan Bake",
+            "allergies": [
+              "Milk"
+            ]
+          },
+          {
+            "title": "Seitan Buffalo Burgers",
+            "allergies": [
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Tagliatelle in a Mushroom and Tarragon Cream Sauce",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Dutch Apple Pie & Custard"
+        "dessert": {
+          "title": "Strawberry Tartlets",
+          "allergies": [
+            "Gluten",
+            "Milk",
+            "Egg"
+          ]
+        }
       },
       "dinner": {
         "mains": [
-          "Roasted Cajun Spiced Vegetables with BBQ Tofu",
-          "Spinach & Ricotta Cannelloni with Garlic Bread",
-          "Prawn & Noodle Stir-Fry",
-          "Beef Madras with Naan Bread, Samosas & Mango Chutney",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Baked Haddock Fillets with a Wholegrain Mustard Sauce",
+            "allergies": [
+              "Milk",
+              "Fish",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Cheese Tortellini with a Tomato and Basil Sauce",
+            "allergies": [
+              "Gluten",
+              "Egg",
+              "Milk",
+              "Sulphhihtes"
+            ]
+          },
+          {
+            "title": "Morrocan Spiced Vegetable Tagine with Apricots and Almonds",
+            "allergies": [
+              "Almonds",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Vegetables Included"
+          }
         ],
-        "dessert": "Rhubarb Crumble & Custard"
+        "dessert": {
+          "title": "Bakewell Tart",
+          "allergies": [
+            "Gluten",
+            "Egg",
+            "Almond",
+            "Milk"
+          ]
+        }
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Vegan Swedish Style Meatballs with Tagliatelle",
-          "Aubergine Parmesan with Garlic Bread",
-          "Cod with Spicy Tomato Sauce topped with Peppers and Onions",
-          "Beef Tex-Mex Enchilada Bake",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "BBQ Spiced Pork Steak with Salsa Vegetable Buritto with a Herb Mayonaise",
+            "allergies": [
+              "Gluten",
+              "Egg"
+            ]
+          },
+          {
+            "title": "Summer Vegetable Risotto, Vegan Cheese and Cherry Tomatoes",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Celery",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "German Apple Pudding & Custard"
+        "dessert": {
+          "title": "Black Forest Slice",
+          "allergies": [
+            "Gluten",
+            "Egg",
+            "Milk",
+            "Sulphites"
+          ]
+        }
       },
       "dinner": {
         "mains": [
-          "Falafel Burger with Spicy Vegan Mayonnaise",
-          "Sundried Tomato, Onion, Pepper and Mozzarella Calzone",
-          "Harissa Spiced Cod Loin on a Bed of Roasted Chickpeas & Vegetables",
-          "Breaded Turkey Escalope with Smoked Bacon & Swiss Cheese",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Cajun Spiced Turkey Escalope"
+          },
+          {
+            "title": "Meditterenean Vegetable Kebabs with a Lemon and Herb Dressing"
+          },
+          {
+            "title": "Potato Gnocchi with Black Olives and Pesto",
+            "allergies": [
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Breaded Turkey Escalope with Smoked Bacon & Swiss Cheese"
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Mini Jam Donuts"
+        "dessert": {
+          "title": "Rhubarb and Strawberry Crumble",
+          "allergies": [
+            "Milk",
+            "Gluten",
+            "Sulphites"
+          ]
+        }
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Bang-Bang Cauliflower with Stir-Fried Rice & Spicy Spicy Vegan Mayonnaise",
-          "Vegetable and Bean Jambalaya with Roasted Spiced Courgette",
-          "Sea Bass with Lemon and Lime Peppered Mushrooms",
-          "Pulled Pork Bap with BBQ Sauce & Coleslaw",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Baked Salmon with Roasted Sweetcorn and Red Chilli",
+            "allergies": [
+              "Fish"
+            ]
+          },
+          {
+            "title": "Roasted Meditteranean Vegetable and Hummus Flat Bread",
+            "allergies": [
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Cajun Spiced Vegetable Kebabs with Herbed Rice"
+          },
+          {
+            "title": "Smoked Bacon Carbonara",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Chocolate Chip Caramel Slice"
+        "dessert": {
+          "title": "Eclairs",
+          "allergies": [
+            "Gluten",
+            "Milk",
+            "Egg"
+          ]
+        }
       },
       "dinner": {
         "mains": [
-          "Lentil Spaghetti Bolognaise with Garlic Slice",
-          "Quorn & Mushroom Stroganoff",
-          "Sea Bass with Lemongrass, Lime and Coconut Cream",
-          "Lamb Kofta with Pea & Herb Couscous",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Fish Tacos",
+            "allergies": [
+              "Gluten",
+              "Egg",
+              "Sulphite",
+              "Fish"
+            ]
+          },
+          {
+            "title": "Halloumi, Olive and Cherry Tomato Gyros",
+            "allergies": [
+              "Milk",
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Sweet Potato and Peanut Curry",
+            "allergies": [
+              "Mustard",
+              "Peanut"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Eccles Cake & Custard"
+        "dessert": {
+          "title": "Double Chocolate Brownie",
+          "allergies": [
+            "Gluten",
+            "Egg",
+            "Milk",
+            "Soya"
+          ]
+        }
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Tofu Katsu with Curry Sauce & Onion Rings",
-          "Cheddar, Onion and Potato Strudel",
-          "Fresh Fillet of Fish with Tartar Sauce & Lemon",
-          "Soy & Honey Baked Chicken Fillet",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Battered Fish, Scampi Battered Sausage",
+            "allergies": [
+              "Gluten",
+              "Crustacean",
+              "Fish"
+            ]
+          },
+          {
+            "title": "Vegetarian Pies",
+            "allergies": [
+              "Allegens to Be Provided on the Day"
+            ]
+          },
+          {
+            "title": "Battered Vegan Sausage",
+            "allergies": [
+              "Gluten",
+              "Soya"
+            ]
+          },
+          {
+            "title": "Penne Pasta Dressed in a Lemon and Herb Dressing with Pulled Chicken",
+            "allergies": [
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Cherry Pie"
+        "dessert": {
+          "title": "Spiced Apple Bar",
+          "allergies": [
+            "Gluten",
+            "Egg",
+            "Milk",
+            "Sulphites"
+          ]
+        }
       },
       "dinner": {
         "mains": [
-          "THEME NIGHT",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Sweet Chilli Chicken Stir-Fry",
+            "allergies": [
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Vegetable and Mixed Bean Chilli",
+            "allergies": [
+              "Celery",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Penne Pasta Arrabbiata",
+            "allergies": [
+              "Gluten",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Baklava"
+        "dessert": {
+          "title": "Banoffee Pie",
+          "allergies": [
+            "Gluten",
+            "Sulphites",
+            "Milk"
+          ]
+        }
       }
     },
     {
       "weekend": true,
       "dinner": {
         "mains": [
-          "Moving Mountains Vegan Burger with Salad",
-          "Cherry Tomato, Olive, Feta & Spinach Pizza",
-          "Salmon Kedgeree with Korma Sauce & Fresh Coriander",
-          "Beef Lasagne with Garlic Slice",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Beef Burger with Chilli Jam, Lettuce, Tomato and Red Onion in a Brioche Bap",
+            "allergies": [
+              "Gluten",
+              "Egg",
+              "Milk",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Beetroot, Courgette and Ricotta Filo Topped Pie",
+            "allergies": [
+              "Milk",
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Vegan Bean Chilli, Baked Sweet Potato, Corn Chips",
+            "allergies": [
+              "Celery",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Beef Lasagne with Garlic Slice"
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Apple Pie"
+        "dessert": {
+          "title": "Vegan Apple Pie",
+          "allergies": [
+            "Gluten"
+          ]
+        }
       }
     },
     {
       "weekend": true,
       "dinner": {
         "mains": [
-          "Falafel with Cumin, Chickpea & Tomato Sauce with Minted Cucumber",
-          "Pan Fried Halloumi with Roasted Vegetables & Basil Vinaigrette",
-          "Calamari Strips with Lemon & Spicy Mayonnaise",
-          "Roast Chicken Breast with Herb Stuffing & Chipolata",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Roast Chicken Breast, Stuffing, Chipolata and Gravy",
+            "allergies": [
+              "Gluten",
+              "Sulphites",
+              "Celery"
+            ]
+          },
+          {
+            "title": "Moving Mountain Hot Dogs, Mustard, Crispy Onions and Spicy Salasa",
+            "allergies": [
+              "Gluten",
+              "Soy",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Chocolate Fudge Gateau"
+        "dessert": {
+          "title": "Baked New York Cheesecake",
+          "allergies": [
+            "Milk",
+            "Gluten",
+            "Egg"
+          ]
+        }
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Vegetable, Bean and Potato Goulash",
-          "Veggie Sausage, Cheddar Mash, Leek & Mashed Potato Bake with Onion Gravy",
-          "Baked Cod with Cheddar Cheese Sauce",
-          "Breaded Chicken with Garlic & Parsley Butter",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Spiced Aubergine, Tomato, Chilli and Mint Soup",
+            "allergies": [
+              "Celery",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Spicy Chicken Stir Fry",
+            "allergies": [
+              "Soya"
+            ]
+          },
+          {
+            "title": "Vegetable Pad Thai",
+            "allergies": [
+              "Egg"
+            ]
+          },
+          {
+            "title": "Vegan Sausage with Cajun Peppers",
+            "allergies": [
+              "Soy",
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Mac 'N' Cheese",
+            "allergies": [
+              "Gluten",
+              "Milk",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Cinnamon Apple Cake"
+        "dessert": {
+          "title": "Gateau Pithivier",
+          "allergies": [
+            "Gluten",
+            "Almond",
+            "Milk",
+            "Egg"
+          ]
+        }
       },
       "dinner": {
         "mains": [
-          "Mixed Bean Tortilla Boats with Sliced Avocado",
-          "Vegetable Curry with Samosas",
-          "Baked Cod with Cheddar Cheese Sauce",
-          "Chicken Fried Rice",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Spiced Aubergine, Tomato, Chilli and Mint Soup",
+            "allergies": [
+              "Celery",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Lamb Burger with Red Cabbage and Chilli Slaw",
+            "allergies": [
+              "Gluten",
+              "Sulphites",
+              "Egg",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Halloumi Fries with Soya Mince Chiili, Crème Fraiche and Spring Onions",
+            "allergies": [
+              "Soya",
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Chocolate Brownie"
+        "dessert": {
+          "title": "White Chocolate Blondie with Strawberries",
+          "allergies": [
+            "Soya",
+            "Egg",
+            "Gluten",
+            "Milk"
+          ]
+        }
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Sticky Tempeh with Vegetables and Hot & Sour Sauce",
-          "Toasted Swiss Cheese Sandwich with Red Onion Chutney",
-          "Smoked Salmon with Lemon & Pea Risotto",
-          "Chicken Korma with Naan Bread & Mango Chutney",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Tomato and Basil Soup",
+            "allergies": [
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Baked Sea Bass, Cherry Tomatoes, Thyme and Garlic",
+            "allergies": [
+              "Fish"
+            ]
+          },
+          {
+            "title": "Roasted Vegetable Gratin, Feta Cheese, Chilli, Garlic and Sage",
+            "allergies": [
+              "Milk"
+            ]
+          },
+          {
+            "title": "Vegan Mince Bolognese, Spaghetti with Smoked Paprika",
+            "allergies": [
+              "Gluten",
+              "Soya",
+              "Celery"
+            ]
+          },
+          {
+            "title": "Orzo Pasta with Aubergine, Chilli, Tomato and Mint",
+            "allergies": [
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Fruit Tartlet"
+        "dessert": {
+          "title": "Vegan Cherry Pie",
+          "allergies": [
+            "Gluten"
+          ]
+        }
       },
       "dinner": {
         "mains": [
-          "Vegetalbe Stir Fry with Vegetable Spring Rolls",
-          "Cheese & Onion Sausage Rolls",
-          "Fried Plaice Goujons with Lemon & Dill Mayonnaise",
-          "Pork Escalope with Honey, Mustart, Gherkins & Red Onion",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Tomato and Basil Soup",
+            "allergies": [
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Scampi with Lemon and Tartare Sauce",
+            "allergies": [
+              "Egg",
+              "Sulphites",
+              "Gluten",
+              "Crustacean"
+            ]
+          },
+          {
+            "title": "Vegetable, Chilli and Mozzarella Enchiladas with a Smoked Paprika and Tomato Sauce",
+            "allergies": [
+              "Gluten",
+              "Milk",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Pulled BBQ Jackfruit Burger with Red Cabbage Slaw",
+            "allergies": [
+              "Sulphites",
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Lemon Meringue Pie"
+        "dessert": {
+          "title": "Pineapple Upside Down Cake",
+          "allergies": [
+            "Gluten",
+            "Egg",
+            "Milk",
+            "Sulphites"
+          ]
+        }
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Lentil & Butternut Casserole",
-          "4 Cheese Ravioli with Tomato Sauce",
-          "Cajun Salmon with Coriander and Lime Butter",
-          "Roast Loin of Pork Rubbed with Mustard and Tarragon and Garlic Gravy",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Wild Mushroom, Garlic and Garden Rosemary Soup",
+            "allergies": [
+              "Milk"
+            ]
+          },
+          {
+            "title": "Grilled Steak with Chimichurri Sauce",
+            "allergies": [
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Courgette and Spinach Gallette, Mascarpone, Chilli and Honey Dressing",
+            "allergies": [
+              "Gluten",
+              "Milk",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Mixed Bean and Vegetable Wrap, Spicy Mayo",
+            "allergies": [
+              "Gluten",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Beef Ragu with Penne Pasta",
+            "allergies": [
+              "Celery",
+              "Sulphites",
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Rhubarb & Strawberry Crumble"
+        "dessert": {
+          "title": "Vegan Apple Turnovers",
+          "allergies": [
+            "Gluten"
+          ]
+        }
       },
       "dinner": {
         "mains": [
-          "Southern Fried Jackfruit with Spicy Mayonnaise",
-          "Vegetable Mince Bolognaise",
-          "Fis Pie",
-          "Sausage Casserole with Spicy Tomato Sauce",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Wild Mushroom, Garlic and Garden Rosemary Soup",
+            "allergies": [
+              "Milk"
+            ]
+          },
+          {
+            "title": "Satay Chicken Skewer",
+            "allergies": [
+              "Soya",
+              "Peanut"
+            ]
+          },
+          {
+            "title": "Red Onion and Goats' Cheese Pizza",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Vegetable and Chickpea Curry",
+            "allergies": [
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Eton Mess with Strawberries"
+        "dessert": {
+          "title": "Danish Pastry 'Bread and Butter' Pudding",
+          "allergies": [
+            "Gluten",
+            "Milk",
+            "Egg",
+            "Soya"
+          ]
+        }
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Vegan Burger with Salad, Guacamole and Salsa",
-          "Quorn Stir Fry",
-          "White Fish, Tomato, Herb Crust and Lemon Beurre Blanc",
-          "Shredded Duck Marco Polo (Plum Sauce, Hoisin & Spring Onion with Pasta)",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Courgette and Coriander Soup",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Grilled Mackerel, Lemon, Garlic and Herb Butter",
+            "allergies": [
+              "Fish",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Tofu and Vegetable Curry",
+            "allergies": [
+              "Mustard",
+              "Soya"
+            ]
+          },
+          {
+            "title": "Moroccan Spiced Vegetable Tagine, Toasted Pumpkin Seeds, Pita Bread",
+            "allergies": [
+              "Sulphites",
+              "Mustard",
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Orecchiette with Broccoli and Red Chilli",
+            "allergies": [
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Chocolate Fudge Cake"
+        "dessert": {
+          "title": "Cinnamon Milk Tart",
+          "allergies": [
+            "Milk",
+            "Egg",
+            "Gluten"
+          ]
+        }
       },
       "dinner": {
         "mains": [
-          "Chickpea & Vegetable Balti with Samosas",
-          "Gnocchi with Spinach, Kale, Sun-Blushed Tomato and Basil Cream",
-          "White Fish with Lemon, Garlic and White Wine Sauce",
-          "Hunter's Chicken with Bacon, Cheese & BBQ Sauce",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Courgette and Coriander Soup",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Fish and Atlantic Prawn Pie with a Fennel Seed and Parmesan Crumble Top",
+            "allergies": [
+              "Gluten",
+              "Milk",
+              "Fish",
+              "Crustacean"
+            ]
+          },
+          {
+            "title": "Sunblush Tomato and Feta Quiche",
+            "allergies": [
+              "Gluten",
+              "Milk",
+              "Egg"
+            ]
+          },
+          {
+            "title": "Spaghetti with Asparagus, Pea and Lemon",
+            "allergies": [
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Cherry Bakewell Pie"
+        "dessert": {
+          "title": "Lemon Drizzle Cake",
+          "allergies": [
+            "Gluten",
+            "Egg",
+            "Milk"
+          ]
+        }
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Tofu & Vegetable Bowl with Hoisin Dressing",
-          "Macaroni Cheese",
-          "Fresh Fillet of Fish with Tarter Sauce & Lemon",
-          "French Onion Chicken Thighs",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Fennel and Orange Soup",
+            "allergies": [
+              "Celery",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Battered Fish, Breaded Plaice, Battered Sausage",
+            "allergies": [
+              "Gluten",
+              "Crustacean",
+              "Fish"
+            ]
+          },
+          {
+            "title": "Vegetarian Pies",
+            "allergies": [
+              "Allegens to Be Provided on the Day"
+            ]
+          },
+          {
+            "title": "Battered Vegan Sausage",
+            "allergies": [
+              "Gluten",
+              "Soya"
+            ]
+          },
+          {
+            "title": "Tomato and Tuna Pasta Bake",
+            "allergies": [
+              "Gluten",
+              "Fish",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Cherry Pie"
+        "dessert": {
+          "title": "Chocolate Cream Pie",
+          "allergies": [
+            "Milk",
+            "Egg",
+            "Gluten"
+          ]
+        }
       },
       "dinner": {
         "mains": [
-          "THEME NIGHT",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Fennel and Orange Soup",
+            "allergies": [
+              "Celery",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Bean and Chorizo Cassoulet",
+            "allergies": [
+              "Sulphites",
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Mushroom and Blue Cheese Brioche Burger",
+            "allergies": [
+              "Gluten",
+              "Egg",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Tofu BBQ Skewers",
+            "allergies": [
+              "Soya",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Chocolate Fudge Cake"
+        "dessert": {
+          "title": "Toffee Apple Crumble",
+          "allergies": [
+            "Milk",
+            "Gluten",
+            "Sulphites"
+          ]
+        }
       }
     },
     {
       "weekend": true,
       "dinner": {
         "mains": [
-          "Mushroom & Vegetable Pizza",
-          "Vegetable Lasagne Verdi",
-          "Fried Scampi with Tartar Sauce & Lemon",
-          "Grilled Rump Steak with Onion Rings & Gravy",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Moroccan Spiced Turkey Steaks, Pickled Red Onions",
+            "allergies": [
+              "Sulphites",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Vegetable Paella with Chilli and Parsley",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Stuffed Courgettes with Spicy Beans and Rice"
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Iced Caramel Donut"
+        "dessert": {
+          "title": "Sticky Toffee Pudding",
+          "allergies": [
+            "Gluten",
+            "Egg",
+            "Milk"
+          ]
+        }
       }
     },
     {
       "weekend": true,
       "dinner": {
         "mains": [
-          "Vegan Sausage & Onion Baguette with Vegan Smokey Cheddar",
-          "Butter Quorn Curry with Pakoras",
-          "Fish Fillet with White Wine Cream Sauce & Diced Tomato",
-          "Creamy Chicken & Broccoli Pasta Bake",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Roast Pork Loin, Stuffing, Gravy, Apple Sauce",
+            "allergies": [
+              "Celery",
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Quorn Stir Fry",
+            "allergies": [
+              "Soya",
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Vegan Bean and Chickpea Chilli, Tortilla Chips"
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "New York Cheesecake"
+        "dessert": {
+          "title": "Vegan Apricot Pie",
+          "allergies": [
+            "Sulphites",
+            "Gluten"
+          ]
+        }
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Moroccan Spiced Jackfruit & Falafel Wrap with Minted Vegan Mayonnaise",
-          "Ricotta Tortelloni with Spinach & Basil Cream & Garlic Slice",
-          "Oven Roasted Salmon with Roasted Red Pepper Cream Sauce",
-          "Chicken Katsu with Curry Sauce",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Cumin Spiced Chickpea and Red Lentil Soup",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Chicken Stroganoff",
+            "allergies": [
+              "Milk",
+              "Mustard",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Roasted Mediterranean Vegetable Burrito, Rocket Pesto",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Sweet and Sour Tofu Stir-Fry",
+            "allergies": [
+              "Soy",
+              "Sulphites",
+              "Sesame"
+            ]
+          },
+          {
+            "title": "Tomato and Basil Pasta Gratin",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Chocolate Churros with Chocolate Dip"
+        "dessert": {
+          "title": "Apple Strudel and Custard",
+          "allergies": [
+            "Gluten",
+            "Milk",
+            "Egg"
+          ]
+        }
       },
       "dinner": {
         "mains": [
-          "Tofu, Broccoli, Water Chestnuts and a Green Pepper Stir Fry in Black Bean Sauce",
-          "Quorn & Vegetable Stir Fry",
-          "Oven Roasted Salmon with Roasted Red Pepper Cream Sauce",
-          "Chicken Katsu with Curry Sauce",
-          "VEGETABLES & SALAD BAR ITEMS  INCLUDED"
+          {
+            "title": "Cumin Spiced Chickpea and Red Lentil Soup",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Deep Fried Calamari with Lemon and Garlic Mayo",
+            "allergies": [
+              "Gluten",
+              "Milk",
+              "Mollusc"
+            ]
+          },
+          {
+            "title": "Four Cheese Ravioli with Garlic Bread",
+            "allergies": [
+              "Gluten",
+              "Egg",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Plant Burger with Spiced Mayo",
+            "allergies": [
+              "Gluten",
+              "Soya",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Fruit Crumble with Custard"
+        "dessert": {
+          "title": "Steamed Chocolate and Cherry Sponge",
+          "allergies": [
+            "Gluten",
+            "Sulphites",
+            "Egg",
+            "Milk"
+          ]
+        }
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Aubergine & Spinach Curry with Samosas",
-          "Homemade Roasted Vegetable & Olive Pizza",
-          "Sea Bass Fillet with Lemon, Garlic, Dill and Chilli",
-          "Grilled Pork Loin Steak with Spicy BBQ Salsa",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Courgette with Lemongrass and Green Chilli Soup",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Teriyaki Salmon with Sesame and Pak Choi",
+            "allergies": [
+              "Soya",
+              "Sesame",
+              "Fish"
+            ]
+          },
+          {
+            "title": "Puttanesca Baked Gnocchi",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Chickpea, Spinach and Sweet Potato Curry, Mango Chutney and Poppadoms",
+            "allergies": [
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Tagliatelle in a Mushroom and Tarragon Cream Sauce",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Apple Strudel with Custard"
+        "dessert": {
+          "title": "Strawberry Tartlets",
+          "allergies": [
+            "Gluten",
+            "Milk",
+            "Egg"
+          ]
+        }
       },
       "dinner": {
         "mains": [
-          "Tuscan Style Wild Mushroom and Gnocchi",
-          "Tomato Risotto with Roasted Mediterranean Vegetables",
-          "Sea Bass Villet with Lemon, Garlic, Dill and Chilli",
-          "Pesto Grilled Chicken Fillet with Sliced Tomato & Red Onion",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Courgette with Lemongrass and Green Chilli",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Sweet and Sour Chicken Balls",
+            "allergies": [
+              "Gluten",
+              "Sulphites",
+              "Soya"
+            ]
+          },
+          {
+            "title": "Cheese, Potato and Leek Pie",
+            "allergies": [
+              "Milk",
+              "Gluten",
+              "Egg"
+            ]
+          },
+          {
+            "title": "Devilled Tofu Kebab with Kimchi",
+            "allergies": [
+              "Sulphites",
+              "Soya"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Banoffee Pie"
+        "dessert": {
+          "title": "Bakewell Tart",
+          "allergies": [
+            "Gluten",
+            "Egg",
+            "Almond",
+            "Milk"
+          ]
+        }
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Ginger Soy Tofu with Stir Fried Vegetables and Seaweed",
-          "Lentil, Chickpea & Vegetable Cake with Sauteed Onions, Chilli & Coriander",
-          "Smoked Haddock Fish Cakes with Savoy Cabbage and Hollandaise",
-          "Spaghetti Bolognese with Garlic Bread & Parmesan",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Pac Choi, Soy, Spring Onion and Ginger Soup",
+            "allergies": [
+              "Soya",
+              "Celery"
+            ]
+          },
+          {
+            "title": "Sausage, Apple and Sage Roll",
+            "allergies": [
+              "Gluten",
+              "Egg",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Pepperonata Frittata with Ricotta Cheese",
+            "allergies": [
+              "Eggs",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Tuscan Bean and Barley Stew with Garlic Ciabatta",
+            "allergies": [
+              "Gluten",
+              "Celery"
+            ]
+          },
+          {
+            "title": "Penne Pasta with Spinach and Ricotta",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Sultana Scones with Jam & Cream"
+        "dessert": {
+          "title": "Black Forest Slice",
+          "allergies": [
+            "Gluten",
+            "Egg",
+            "Milk",
+            "Sulphites"
+          ]
+        }
       },
       "dinner": {
         "mains": [
-          "Spicy Bean Wrap with Enchilada Sauce",
-          "Macaroni Cheese with Tomato & Mozzarella",
-          "Smoked Haddock Fish Cakes with Savoy Cabbage and Hollandaise",
-          "Bacon Cheese Burger with Burger Sauce & Salad",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Pac Choi, Soy, Spring Onion and Ginger Soup",
+            "allergies": [
+              "Soya",
+              "Celery"
+            ]
+          },
+          {
+            "title": "Smoked Haddock Fishcakes with a Chive Sour Cream",
+            "allergies": [
+              "Milk",
+              "Egg",
+              "Gluten",
+              "Fish"
+            ]
+          },
+          {
+            "title": "Honey and Sesame Halloumi with Jalapeno Yoghurt and a Tabboulet Salad",
+            "allergies": [
+              "Gluten",
+              "Milk",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Vegan Vegetable and Lentil Casserole",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Treacle Tart"
+        "dessert": {
+          "title": "Rhubarb and Strawberry Crumble",
+          "allergies": [
+            "Milk",
+            "Gluten",
+            "Sulphites"
+          ]
+        }
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Vegan Sausage with Cajun Peppers and Onions",
-          "Vegetable and Cannellini Bean Rigatoni Bake",
-          "Piri Piri Salmon with Sweet Chilli Glaze",
-          "Lemon and Herb Roasted Chicken Thighs with Chicken Gravy",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "White Bean, Spinach and Spring Herbs Soup",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Baked Sea Bass with a Lemon, Caper and Parsley Dressing",
+            "allergies": [
+              "Fish",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Asparagus, Pea and Mint Risotto",
+            "allergies": [
+              "Milk",
+              "Celery"
+            ]
+          },
+          {
+            "title": "Spiced Chcikpea, Beetroot and Spinach Pasties",
+            "allergies": [
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Smoked Bacon Carbonara",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Blackberry & Apple Loaf Cake"
+        "dessert": {
+          "title": "Eclairs",
+          "allergies": [
+            "Gluten",
+            "Milk",
+            "Egg"
+          ]
+        }
       },
       "dinner": {
         "mains": [
-          "Crispy Tofu with Pak Choi & Sweet Chilli Sauce",
-          "Vegetable and Cannellini Bean Rigatoni Bake",
-          "Cod Fillet with Thai Green Curry Sauce and Roasted Aubergine",
-          "Chicken Tortilla Wraps with Guacamole & Sour Cream",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "White Bean, Spinach and Spring Herbs Soup",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Grilled Pork Steak with Spicy Salsa",
+            "allergies": [
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Mushroom and Broccoli Pasta Bake",
+            "allergies": [
+              "Milk",
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Vegan Swedish Meatballs",
+            "allergies": [
+              "Soy",
+              "Gluten",
+              "Sesame"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ],
-        "dessert": "Tiramisu"
+        "dessert": {
+          "title": "Double Chocolate Brownie",
+          "allergies": [
+            "Gluten",
+            "Egg",
+            "Milk",
+            "Soya"
+          ]
+        }
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Creamy Mexican Bean and Vegetable Macaroni Cheese",
-          "Leek, Goat's Cheese & Lemon Tart with Red Onion Marmalade",
-          "Fresh Fillet of Fish with Tarter Sauce & Lemon",
-          "Brown Sugar and Spiced Glazed Gammon with Light Gravy",
-          "VEGETABLES & SALAD BAR ITEMS"
+          {
+            "title": "Pea and Mint",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Battered Fish, Scampi, Battered Sausage",
+            "allergies": [
+              "Gluten",
+              "Crustacean",
+              "Fish"
+            ]
+          },
+          {
+            "title": "Vegetarian Pies",
+            "allergies": [
+              "Allegens to Be Provided on the Day"
+            ]
+          },
+          {
+            "title": "Battered Vegan Sausage",
+            "allergies": [
+              "Gluten",
+              "Soya"
+            ]
+          },
+          {
+            "title": "Penne Pasta Dressed in a Lemon and Herb Dressing",
+            "allergies": [
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items"
+          }
         ],
-        "dessert": "Cherry Pie & Custard"
+        "dessert": {
+          "title": "Spiced Apple Bar",
+          "allergies": [
+            "Gluten",
+            "Egg",
+            "Milk",
+            "Sulphites"
+          ]
+        }
       },
       "dinner": {
         "mains": [
-          "THEME NIGHT",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Pea and Mint Soup",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Beef Madras with Garlic and Herb Naan Bread",
+            "allergies": [
+              "Mustard",
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Vegetable Fajitas, Sour Cream and Salsa",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Spaghetti with a Lentil and Mushroom Bolognese",
+            "allergies": [
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ],
+        "dessert": {
+          "title": "Banoffee Pie",
+          "allergies": [
+            "Gluten",
+            "Sulphites",
+            "Milk"
+          ]
+        }
+      }
+    },
+    {
+      "weekend": true,
+      "dinner": {
+        "mains": [
+          {
+            "title": "Buttermilk Chicken Burger, Sriracha Mayo and Salad",
+            "allergies": [
+              "Gluten",
+              "Milk",
+              "Sulphites",
+              "Egg"
+            ]
+          },
+          {
+            "title": "Mushroom and Quorn Fricassee",
+            "allergies": [
+              "Soya",
+              "Milk",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Falafel and Greek Salad Wrap",
+            "allergies": [
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ],
+        "dessert": {
+          "title": "Vegan Apple Pie",
+          "allergies": [
+            "Gluten"
+          ]
+        }
+      }
+    },
+    {
+      "weekend": true,
+      "dinner": {
+        "mains": [
+          {
+            "title": "Roast Beef, Yorkshire Pudding with Onion Gravy",
+            "allergies": [
+              "Celery",
+              "Egg",
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Portobello Burger, Mozzarella and Pesto",
+            "allergies": [
+              "Milk",
+              "Gluten",
+              "Egg"
+            ]
+          },
+          {
+            "title": "Sweet Potato and White Bean Chilli",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ],
+        "dessert": {
+          "title": "Baked New York Cheesecake",
+          "allergies": [
+            "Milk",
+            "Gluten",
+            "Egg"
+          ]
+        }
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          {
+            "title": "Spiced Aubergine, Tomato, Chilli and Mint Soup",
+            "allergies": [
+              "Celery",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Breaded Plaice with Lemon and Parsley Butter",
+            "allergies": [
+              "Egg",
+              "Gluten",
+              "Milk",
+              "Fish"
+            ]
+          },
+          {
+            "title": "Mushroom Kedgeree with Korma Sauce",
+            "allergies": [
+              "Egg",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Stuffed Peppers with Wild Rice and Vegan Cheese",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Mac 'N' Cheese",
+            "allergies": [
+              "Gluten",
+              "Milk",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ],
+        "dessert": {
+          "title": "Gateau Pithivier",
+          "allergies": [
+            "Gluten",
+            "Almond",
+            "Milk",
+            "Egg"
+          ]
+        }
+      },
+      "dinner": {
+        "mains": [
+          {
+            "title": "Spiced Aubergine, Tomato, Chilli and Mint Soup",
+            "allergies": [
+              "Celery",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Pulled Pork Baps with BBQ Sauce",
+            "allergies": [
+              "Milk",
+              "Egg",
+              "Gluten",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Mexican Bean Nachos, Cheese and Jalepenos",
+            "allergies": [
+              "Sulphites",
+              "Cheese"
+            ]
+          },
+          {
+            "title": "Stuffed Aubergines, Vegan Cheese, Chilli Tomato Sauce"
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ],
+        "dessert": {
+          "title": "White Chocolate Blondie with Strawberries",
+          "allergies": [
+            "Soya",
+            "Egg",
+            "Gluten",
+            "Milk"
+          ]
+        }
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          {
+            "title": "Tomato and Basil Soup",
+            "allergies": [
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Slow Cooked Lamb with Honey and Peppers",
+            "allergies": [
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Mature Cheddar Cheese and Onion Pasties",
+            "allergies": [
+              "Gluten",
+              "Milk",
+              "Egg"
+            ]
+          },
+          {
+            "title": "Roast Mushroom and Leek Shepards Pie"
+          },
+          {
+            "title": "Orzo Pasta with Aubergine, Chilli, Tomato and Mint",
+            "allergies": [
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ],
+        "dessert": {
+          "title": "Vegan Cherry Pie",
+          "allergies": [
+            "Gluten"
+          ]
+        }
+      },
+      "dinner": {
+        "mains": [
+          {
+            "title": "Tomato and Basil",
+            "allergies": [
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Hot and Sour Sea Bass",
+            "allergies": [
+              "Fish",
+              "Soya"
+            ]
+          },
+          {
+            "title": "Vegetable Biriyani with Poppadoms",
+            "allergies": [
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Tofu, Broccoli, Water Chestnut and Pepper Stir-Fry with a Black Bean Sauce",
+            "allergies": [
+              "Soya",
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ],
+        "dessert": {
+          "title": "Pineapple Upside Down Cake",
+          "allergies": [
+            "Gluten",
+            "Egg",
+            "Milk",
+            "Sulphites"
+          ]
+        }
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          {
+            "title": "Wild Mushroom, Garlic and Garden Rosemary Soup",
+            "allergies": [
+              "Milk"
+            ]
+          },
+          {
+            "title": "Baked Cod with Roasted Cherry Tomato Salsa",
+            "allergies": [
+              "Fish"
+            ]
+          },
+          {
+            "title": "Gnocchi Gratin with Broccoli and Spinach",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Thai Green Vegetable Curry",
+            "allergies": [
+              "Soy"
+            ]
+          },
+          {
+            "title": "Beef Ragu with Penne Pasta",
+            "allergies": [
+              "Celery",
+              "Sulphites",
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ],
+        "dessert": {
+          "title": "Vegan Apple Turnovers",
+          "allergies": [
+            "Gluten"
+          ]
+        }
+      },
+      "dinner": {
+        "mains": [
+          {
+            "title": "Wild Mushroom, Garlic and Garden Rosemary",
+            "allergies": [
+              "Milk"
+            ]
+          },
+          {
+            "title": "Chicken, Leek and Mushroom Pie",
+            "allergies": [
+              "Milk",
+              "Gluten",
+              "Egg",
+              "Celery"
+            ]
+          },
+          {
+            "title": "Margherita Pizza with Mozzarella and Parmesan",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Curried Potato and Pea Samosas",
+            "allergies": [
+              "Gluten",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ],
+        "dessert": {
+          "title": "Danish Pastry 'Bread and Butter' Pudding",
+          "allergies": [
+            "Gluten",
+            "Milk",
+            "Egg",
+            "Soya"
+          ]
+        }
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          {
+            "title": "Courgette and Coriander",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Sticky Sweet Glazed Meatloaf",
+            "allergies": [
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Three Cheese Ratatouille Lasagne",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Spring Rolls with Vegetable Stir Fry",
+            "allergies": [
+              "Soy",
+              "Gluten",
+              "Celery"
+            ]
+          },
+          {
+            "title": "Orecchiette with Broccoli and Red Chilli",
+            "allergies": [
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ],
+        "dessert": {
+          "title": "Cinnamon Milk Tart",
+          "allergies": [
+            "Milk",
+            "Egg",
+            "Gluten"
+          ]
+        }
+      },
+      "dinner": {
+        "mains": [
+          {
+            "title": "Courgette and Coriander",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Grilled Tuna Steak with Niçoise Salad",
+            "allergies": [
+              "Fish",
+              "Sulphites",
+              "Egg"
+            ]
+          },
+          {
+            "title": "Leek, Spinach and Mascarpone Tart",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Baked Sweet Potato with Cajun Beans"
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ],
+        "dessert": {
+          "title": "Lemon Drizzle Cake",
+          "allergies": [
+            "Gluten",
+            "Egg",
+            "Milk"
+          ]
+        }
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          {
+            "title": "Fennel and Orange Soup",
+            "allergies": [
+              "Celery",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Battered Fish, Breaded Plaice, Battered Sausage",
+            "allergies": [
+              "Gluten",
+              "Crustacean",
+              "Fish"
+            ]
+          },
+          {
+            "title": "Vegetarian Pies",
+            "allergies": [
+              "Allergens to Be Provided on the Day"
+            ]
+          },
+          {
+            "title": "Battered Vegan Sausage",
+            "allergies": [
+              "Gluten",
+              "Soya"
+            ]
+          },
+          {
+            "title": "Tomato and Tuna Pasta Bake",
+            "allergies": [
+              "Gluten",
+              "Fish",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ],
+        "dessert": {
+          "title": "Chocolate Cream Pie",
+          "allergies": [
+            "Milk",
+            "Egg",
+            "Gluten"
+          ]
+        }
+      },
+      "dinner": {
+        "mains": [
+          {
+            "title": "Fennel and Orange",
+            "allergies": [
+              "Celery",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Meatballs in a Tomato, Chorizo and Smoked Paprika Sauce",
+            "allergies": [
+              "Celery",
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Miso Mushroom and Halloumi Burger",
+            "allergies": [
+              "Gluten",
+              "Milk",
+              "Egg",
+              "Soya"
+            ]
+          },
+          {
+            "title": "Roasted Aubergine and Tomato Curry",
+            "allergies": [
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ],
+        "dessert": {
+          "title": "Toffee Apple Crumble",
+          "allergies": [
+            "Milk",
+            "Gluten",
+            "Sulphites"
+          ]
+        }
+      }
+    },
+    {
+      "weekend": true,
+      "dinner": {
+        "mains": [
+          {
+            "title": "Beef Lasagne with Garlic Bread",
+            "allergies": [
+              "Gluten",
+              "Sulphites",
+              "Celery",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Vegetable and Lentil Cottage Pie",
+            "allergies": [
+              "Celery",
+              "Soya"
+            ]
+          },
+          {
+            "title": "Pulled BBQ Jackfruit Burger with a Mustard Slaw",
+            "allergies": [
+              "Mustard",
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ],
+        "dessert": {
+          "title": "Sticky Toffee Pudding",
+          "allergies": [
+            "Gluten",
+            "Egg",
+            "Milk"
+          ]
+        }
+      }
+    },
+    {
+      "weekend": true,
+      "dinner": {
+        "mains": [
+          {
+            "title": "Roast Turkey Breast with a Lemon, Sage and Pinenut Stuffing",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Pizza - Vegi Supreme",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Vegan Meatballs in a Sweet and Spicy Sauce",
+            "allergies": [
+              "Soya",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ],
+        "dessert": {
+          "title": "Vegan Apricot Pie",
+          "allergies": [
+            "Sulphites",
+            "Gluten"
+          ]
+        }
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          {
+            "title": "Vegetables and Salad Bar Items Included"
+          }
+        ]
+      },
+      "dinner": {
+        "mains": [
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ]
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ]
+      },
+      "dinner": {
+        "mains": [
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ]
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ]
+      },
+      "dinner": {
+        "mains": [
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ]
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ]
+      },
+      "dinner": {
+        "mains": [
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ]
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ]
+      },
+      "dinner": {
+        "mains": [
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ]
       }
     },
@@ -956,136 +4315,9 @@
       "weekend": true,
       "dinner": {
         "mains": [
-          "Tempeh Khao Soi (Coconut Curry Noodles with Peanuts)",
-          "Grilled Flatbread with Hummus, Roasted Vegetables, Fresh Basil and Coriander",
-          "Salmon & Asparagus Fish Cake & Hollandaise Sauce",
-          "Pasta Carbonara with Bacon & Garlic Slice",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Chocolate Orange Cake"
-      }
-    },
-    {
-      "weekend": true,
-      "dinner": {
-        "mains": [
-          "Vegetable Tagine with Couscous & Pita Bread",
-          "Tomato Tart with Creme Fraiche & Basil Pesto",
-          "Scampi Fritters with Tartar Sauce & Lemon Wedge",
-          "Grilled Rump Steak with Chimmi Churri Herb Dressing",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "New York Cheesecake"
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          "Saag Aloo with Lentils and Onion Bhaji",
-          "Broccoli and Cheddar Pasta Bake with Crispy Onion Topping",
-          "Breaded Plaice Fillet with Dill & Lemon Butter",
-          "Lemon & Herb Grilled Chicken, Balsamic and Herb Roasted Tomato",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Mini Chocolate Churros with Raspberry Coulis"
-      },
-      "dinner": {
-        "mains": [
-          "Vegetable Stir-Fried Rice with Tofu",
-          "Aubergine Spinach & Pepper Bake with Tomato Sauce & Parmesan Cheese",
-          "Breaded Plaice with Dill & Lemon Butter",
-          "Chicken Caesar Ciabatta Sandwich",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Chocolate Brownie"
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          "Chilli Bean Wraps wtih Guacamole",
-          "Spinach & Ricotta Cannelloni with Garlic Bread",
-          "Salmon with Teriyaki Glaze and Chilli, Spring Onion & Carrot Garnish",
-          "Pork Schnitzel with Smokey Cheese Sauce",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Dutch Apple Pie & Custard"
-      },
-      "dinner": {
-        "mains": [
-          "Roasted Cajun Spiced Vegetable with BBQ Tofu",
-          "Spinach & Ricotta Cannelloni with Garlic Bread",
-          "Prawn & Noodle Stir-Fry",
-          "Beef Madras with Naan Bread, Samosa & Mango Chutney",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Rhubarb Crumble & Custard"
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          "Vegan Swedish Style Meatballs with Tagliatelle",
-          "Augergine Parmesan with Garlic Bread",
-          "Cod with Spicy Tomato Sauce topped with Pepers and Onion",
-          "Beef Tex-Mex Enchilada Bake",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "German Apple Pudding with Custard"
-      },
-      "dinner": {
-        "mains": [
-          "Falafel Burger with Spicy Vegan Mayonnaise",
-          "Sundried Tomato, Onions, Pepper and Mozzarella Calzone",
-          "Harissa Spiced Cod Loin on a Bed of Roasted Chickpeas & Vegetables",
-          "Breaed Turkey Escalope with Smoked Bacon & Swiss Cheese",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Mini Jam Donuts"
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          "Bang-Bang Cauliflower with Stir-Fried Rice & Spicy Vegan Mayonnaise",
-          "Vegetable and Bean Jambalaya with Roasted Spiced Courgette",
-          "Sea Bass with Lemon and Lime and Peppered Mushrooms",
-          "Pulled Pork Bap with BBQ Sauce & Coleslaw",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Chocolate Chip Caramel Slice"
-      },
-      "dinner": {
-        "mains": [
-          "Lentil Spaghetti Bolognaise with Garlic Slice",
-          "Quorn & Mushroom Stroganoff",
-          "Sea Bass with Lemongrass, Lime and Coconut Cream",
-          "Lamb Kofta with Pea & Herb Couscous",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Eccles Cake & Custard"
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          "Tofu Katsu with Curry Sauce and Onion Rings",
-          "Cheddar, Onion and Potato Strudel",
-          "Fresh Fillet of Fish with Tarter Sauce & Lemon",
-          "Soy & Honey Baked Chicken Fillet",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Cherry Pie"
-      },
-      "dinner": {
-        "mains": [
-          "THEME NIGHT",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ]
       }
     },
@@ -1093,136 +4325,94 @@
       "weekend": true,
       "dinner": {
         "mains": [
-          "Moving Mountains Vegan Burger with Salad",
-          "Cherry Tomato, Olive, Feta & Spinach Pizza",
-          "Salmon Kedgeree with Korma Sauce & Fresh Coriander",
-          "Beef Lasagne with Garlic Slice",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Apple Pie"
-      }
-    },
-    {
-      "weekend": true,
-      "dinner": {
-        "mains": [
-          "Falafel with Cumin, Chickpea & Tomato Sauce with Minted Cucumber Garnish",
-          "Pan Fried Halloumi with Roasted Vegetables & Basil Vinaigrette",
-          "Calamari Strips with Lemon & Spicy Mayonnaise",
-          "Roast Chicken Breast with Herb Stuffing & Chipolata",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Chocolate Fudge Gateau"
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ]
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Vegetable, Bean and Potato Goulash",
-          "Veggie Sausage, Cheddar Mash, Leek & Mashed Potato Bake with Onion Gravy",
-          "Baked Cod with Cheddar Cheese Sauce",
-          "Breaded Chicken with Garlic & Parsley Butter",
-          "VEGETABLES AND SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Cinnamon Apple Cake"
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ]
       },
       "dinner": {
         "mains": [
-          "Mixed Bean Tortilla Boats with Sliced Avocado",
-          "Vegetable Curry with Samosas",
-          "Baked Cod with Cheddar Cheese Sauce",
-          "Chicken Fried Rice",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Chocolate Brownie"
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ]
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Sticky Tempeh with Vegetables and Hot & Sour Sauce",
-          "Toasted Swiss Cheese Sandwich with Red Onion Chutney",
-          "Smoked Salmon with Lemon & Pea Risotto",
-          "Chicken Korma with Naan Bread & Mango Chutney",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Fruit Tartlet"
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ]
       },
       "dinner": {
         "mains": [
-          "Vegetable Stir Fry with Vegetable Spring Rolls",
-          "Cheese & Onion Sausage Rolls",
-          "Fried Plaice Goujons with Lemon and Dill Mayonnaise",
-          "Pork Escalope with Honey, Mustart, Gherkins and Red Onion",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Lemon Meringue Pie"
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ]
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Lentil & Butternut Casserole",
-          "4 Cheese Ravioli with Tomato Sauce",
-          "Cajun Salmon with Coriander and Lime Butter",
-          "Roast Loin of Pork Rubbed with Mustard and Tarragon and Garlic Gravy",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Rhubarb & Strawberry Crumble"
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ]
       },
       "dinner": {
         "mains": [
-          "Southern Fried Jackfruit with Spicy Mayonnaise",
-          "Mince Bolognaise",
-          "Fish Pie",
-          "Sausage Casserole with Spicy Tomato Sauce",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Eton Mess with Strawberries"
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ]
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Vegan Burger with Salad, Guacamole and Salsa",
-          "Quorn Stir Fry",
-          "White Fish, Tomato, Herb Crust and Lemon Buerre Blanc",
-          "Shredded Duck Marco Polo (Plum Sauce, Hoisin & Spring Onion with Pasta)",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Chocolate Fudge Cake"
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ]
       },
       "dinner": {
         "mains": [
-          "Chickpea & Vegetable Balti with Samosas",
-          "Gnocchi with Spinach, Kale, Sun-Blushed Tomato and Basil Cream",
-          "White Fish with Lemon, Garlic and White Wine Sauce",
-          "Hunter's Chicken with Bacon, Cheese & BBQ Sauce",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Cherry Bakewell Pie"
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ]
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Tofu & Vegetable Bowl with Hoisin Dressing",
-          "Macaroni Cheese",
-          "Fresh Fillet of Fish with Tarter Sauce & Lemon",
-          "French Onion Chicken Thighs",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Cherry Pie"
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ]
       },
       "dinner": {
         "mains": [
-          "THEME NIGHT",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
         ]
       }
     },
@@ -1230,298 +4420,125 @@
       "weekend": true,
       "dinner": {
         "mains": [
-          "Mushroom & Vegetable Pizza",
-          "Vegetable Lasagne Verdi",
-          "Fried Scampi with Tartar Sauce & Lemon",
-          "Grilled Rump Steak with Onion Rings & Gravy",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Iced Caramel Donut"
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ]
       }
     },
     {
       "weekend": true,
       "dinner": {
         "mains": [
-          "Vegan Sausage & Onion Baguette with Vegan Smokey Cheddar",
-          "Butter Quorn Curry with Pakoras",
-          "Fish Fillet with White Wine Cream Sauce & Diced Tomatoes",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "New York Cheesecake"
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ]
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Vegan Cornish Pasty with Jus",
-          "Vegetarian Sausage & Roasted Vegetable Creamy Pasta Bake",
-          "Tuna Steak Nicoise with Balsamic Glaze",
-          "Kung Pao Turkey Stir Fry",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Sticky Toffee Pudding with Caramel Sauce"
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ]
       },
       "dinner": {
         "mains": [
-          "Sweet Potato & Cauliflower Curry with Vegetable Samosas",
-          "Vegetarian Sausage & Roasted Vegetable Creamy Pasta Bake",
-          "Linguine Alle Vongole (Clams & King Prawns with Wine, Chilli & Herbs)",
-          "Battered Chicken Balls with Sweet & Sour Sauce",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Apple Turnover with Custard"
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ]
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Stuffed Peppers with Leek & Mushroom Risotto",
-          "Spinach & Ricotta Cannelloni with Tomato & Cheese Sauce",
-          "Salmon with Dill & Lemon Butter",
-          "Soy & Honey Baked Chicken Fillet",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Orange Marmalade Bread & Butter Pudding"
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ]
       },
       "dinner": {
         "mains": [
-          "Chilli Bean Taco with Guacamole & Salsa",
-          "Spinach & Ricotta Cannelloni with Tomato & Cheese Sauce",
-          "Salmon with Dill & Lemon Butter",
-          "Breaded Turkey Escalope with Creamy Mushroom Sauce",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Chocolate Brownie"
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ]
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Vegan Meatballs with Spaghetti Pomodoro & Vegan Parmesan",
-          "Butternut Squash & Spinach Risotto with Sage & Blue Cheese",
-          "Fried Fish Platter with Garlic Aioli & Lemon",
-          "Tex-Mex Enchilada Bake",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "German Apple Pudding with Custard"
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ]
       },
       "dinner": {
         "mains": [
-          "Lentil Spaghetti Bolognaise with Toasted Garlic Baguette",
-          "Courgette, Pea, Mint & Ricotta Frittata",
-          "Baked Hake with Herb & Lemon Crust & Roasted Cherry Tomatoes",
-          "Hoisin Noodle & Sausage Stir-Fry",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Mini Jam Donuts"
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ]
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Bang-Bang Cauliflower with Stir Fried Rice & Spicy Mayonnaise",
-          "Macaroni Cheese",
-          "Sea Bass with Lemon, White Beans & Spinach",
-          "Pork Schnitzel with Brown Butter, Capers & Lemon",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Honey Balls with Grilled Pineapple"
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ]
       },
       "dinner": {
         "mains": [
-          "Falafel Burger in a Bun with Spicy Vegan Mayonnaise",
-          "Quorn & Mushroom Stroganoff",
-          "Sea Bass with Ginger, Chilli & S`pring Onions",
-          "Lamb Kofta with Pea & Herb Couscous",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Eccles Cake & Custard"
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ]
       }
     },
     {
       "weekend": false,
       "lunch": {
         "mains": [
-          "Tofu Katsu",
-          "Cherry Tomato, Olives, Feta Cheese & Spinach Pizza",
-          "Fresh Fillet of Fish with Tartar Sauce & Lemon",
-          "Spiced Buttermilk Chicken Burger",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Apple Crumble & Custard"
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ]
       },
       "dinner": {
         "mains": [
-          "PROVENCALE NIGHT",
-          "Aubergine Gratin with White Bean Hummus",
-          "Cod Loin in Mussel Broth with Garlic Bread",
-          "Quiche Lorraine with Vegetarian Bacon",
-          "Chicken in Supreme Sauce with Asparagus",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Creme Brulee with Blueberries"
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ]
       }
     },
     {
       "weekend": true,
       "dinner": {
         "mains": [
-          "Moving Mountains Vegan Burger with Salad",
-          "Cherry Tomato, Olive, Feta & Spinach Pizza",
-          "Salmon Kedgeree with Mild Korma Sauce",
-          "Beef Lasagne with Garlic Slice",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Apple Pie"
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ]
       }
     },
     {
       "weekend": true,
       "dinner": {
         "mains": [
-          "Cauliflower Rice with Aubergine & Red Pepper Ragu",
-          "Grilled Halloumi, Flatbread, Humus & Crunchy Slaw",
-          "Calamari Strips with Lemon & Spicy Mayonnaise",
-          "Roast Chiciken Breast with Herb Stuffing & Chipolata",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Chocolate Fudge Gateau"
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          "Moving Mountains Sausage & Roasted Vegetable Creamy Pasta Bake",
-          "Tuna Steak Nicoise, Balsamic Glaze",
-          "Soy & Honey Baked Chicken",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Sticky Toffee Pudding"
-      },
-      "dinner": {
-        "mains": [
-          "Sweet Potato & Cauliflower Curry with Mango Chutney",
-          "Tuna Steak Nicoise with Balsamic Glazer",
-          "Battered Chicken Balls with Sweet & Sour Sauce",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Pudding of the Day"
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          "Vegan Shepherd's Pie",
-          "Spinach & Ricotta Cannelloni",
-          "Salmon with Dill & Lemon Butter",
-          "Roasted Chicken with Lemon, Garlic Cream & Gravy",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Orange Marmalade Bread & Butter Pudding"
-      },
-      "dinner": {
-        "mains": [
-          "Chilli Bean Taco with Guacamole & Salsa",
-          "Salmon with Dill & lemon Butter",
-          "Breaded Turkey Escalope with Creamy Mushroom Sauce",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Pudding of the Day"
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          "Hoisin Noodle & Vegetable Stir-Fry",
-          "Fried Fish Platter with Garlic Aioli & Lemon",
-          "Smokey Beef Chilli Con Carne with Sour Cream & Cheese",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "German Apple Pudding with Custard"
-      },
-      "dinner": {
-        "mains": [
-          "Lentil spaghetti Bolognese with Garlic & Olive Bread",
-          "Baked Hake with Herb & Lemon Crust & Roasted Cherry Tomatoes",
-          "Hoisin Noodle & Sausage Stir-Fry",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Pudding of the Day"
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          "Vegen \"Meatballs\" with spaghetti Pomodoro  VEGAN OPTION",
-          "Sea Bass with Lemon, White Beans & Spinach",
-          "Pork Schnitzel with Brown Butter, Capers & Lemon",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Eccles Cake & Custard"
-      },
-      "dinner": {
-        "mains": [
-          "Quorn & Mushroom Strognoff, VEGAN OPTION AVAILABLE",
-          "Pan Fried Sea Bass, Lemon Garlic & Herb Sauce",
-          "Chicken fillet with Red Thai Curry Sauce",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Pudding of the Day"
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          "Vegan \"Meatballs\" with Spaghetti Pomodoro & Vegan Parmesan",
-          "Sea Bass with Lemon, White Beans & Spinach",
-          "Pork Schnitzel with Brown Butter, Capers & Lemon",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Apple Crumble & Custard"
-      },
-      "dinner": {
-        "mains": [
-          "Quesadillas with Red Kidney Beans & Smoked Vegan Cheese",
-          "Quesadillas with Red Kidney Beans & Monteray Jack Cheese",
-          "Fresh Fish Tacos with Spicy Mayonnaise, Pickled Red Onion & Avocado Slices",
-          "Spiced Chicken Enchiladas with Monteray Jack Cheese",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Pudding of the Day"
-      }
-    },
-    {
-      "weekend": true,
-      "dinner": {
-        "mains": [
-          "Moving Mountains Vegan Burger with Salad",
-          "Salmon Kedgeree with Mild Korma Sauce",
-          "Teriyaki Chicken with Sesame Pak-Choi & Chilli Noodles",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Pudding of the Day"
-      }
-    },
-    {
-      "weekend": true,
-      "dinner": {
-        "mains": [
-          "BBQ ackfruit on Sweet Potato Fries with apple Slaw",
-          "Calamari Strips with lemon & Spicy Mayonnaise",
-          "Roast Turkey with Stuffing, Gravy & Yorkshire Pudding",
-          "VEGETABLES & SALAD BAR ITEMS INCLUDED"
-        ],
-        "dessert": "Pudding of the Day"
+          {
+            "title": "Vegetables & Salad Bar Items Included"
+          }
+        ]
       }
     }
   ]

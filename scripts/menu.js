@@ -2,6 +2,7 @@ import puppet from "puppeteer";
 import fs from "fs";
 import { fileURLToPath } from "url";
 import { dirname } from "path";
+import { titleCase } from "title-case";
 
 function zip(arr1, arr2, f) {
     const arr3 = [];
@@ -11,12 +12,34 @@ function zip(arr1, arr2, f) {
     return arr3;
 }
 
+function clean_text(s) {
+    return titleCase(
+        s.replace(' ', ' ')
+            .replace(/\s+/g, ' ')
+            .toLowerCase()
+            .trim()
+    ).replace('Bbq', 'BBQ');
+}
+
+function extract_allergies(s) {
+    const regex = /^([^()]+)\s*\(([^()]+)\)$/;
+    const match = regex.exec(s);
+    if (match) {
+        return { title: match[1].trim(), allergies: match[2].split("-").map(a => a.trim()) };
+    } else {
+        if (s.includes("(") || s.includes(")")) {
+            console.log("Failed to find allergies for: " + s)
+        }
+        return { title: s }
+    }
+}
+
 async function extract_options(td) {
     const innerText = await (await td.getProperty("innerText")).jsonValue();
     const lines = innerText.split("\n");
-    const trimmed = lines.map(s => s.trim());
-    const not_empty = trimmed.filter(s => s.length != 0);
-    return not_empty;
+    const cleaned = lines.map(clean_text);
+    const not_empty = cleaned.filter(s => s.length != 0);
+    return not_empty.map(extract_allergies);
 }
 
 async function extract_row(tr) {
