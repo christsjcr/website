@@ -139,11 +139,11 @@
               "Gluten",
               "Egg",
               "Milk",
-              "Sulphhihtes"
+              "Sulphites"
             ]
           },
           {
-            "title": "Morrocan Spiced Vegetable Tagine with Apricots and Almonds",
+            "title": "Moroccan Spiced Vegetable Tagine with Apricots and Almonds",
             "allergies": [
               "Almonds",
               "Sulphites"
@@ -211,7 +211,7 @@
             "title": "Cajun Spiced Turkey Escalope"
           },
           {
-            "title": "Meditterenean Vegetable Kebabs with a Lemon and Herb Dressing"
+            "title": "Mediterranean Vegetable Kebabs with a Lemon and Herb Dressing"
           },
           {
             "title": "Potato Gnocchi with Black Olives and Pesto",
@@ -324,7 +324,7 @@
           {
             "title": "Vegetarian Pies",
             "allergies": [
-              "Allegens to Be Provided on the Day"
+              "Allergens to Be Provided on the Day"
             ]
           },
           {
@@ -445,7 +445,7 @@
             ]
           },
           {
-            "title": "Moving Mountain Hot Dogs, Mustard, Crispy Onions and Spicy Salasa",
+            "title": "Moving Mountain Hot Dogs, Mustard, Crispy Onions and Spicy Salsa",
             "allergies": [
               "Gluten",
               "Soy",
@@ -869,7 +869,7 @@
           {
             "title": "Vegetarian Pies",
             "allergies": [
-              "Allegens to Be Provided on the Day"
+              "Allergens to Be Provided on the Day"
             ]
           },
           {
@@ -1668,7 +1668,7 @@
             ]
           },
           {
-            "title": "Roast Mushroom and Leek Shepards Pie"
+            "title": "Roast Mushroom and Leek Shepard's Pie"
           },
           {
             "title": "Orzo Pasta with Aubergine, Chilli, Tomato and Mint",
@@ -1936,7 +1936,7 @@
           {
             "title": "Vegetarian Pies",
             "allergies": [
-              "Allegens to Be Provided on the Day"
+              "Allergens to Be Provided on the Day"
             ]
           },
           {
@@ -2018,7 +2018,7 @@
       "dinner": {
         "mains": [
           {
-            "title": "Beef Lasagne with Garlic Bread",
+            "title": "Beef Lasagna with Garlic Bread",
             "allergies": [
               "Gluten",
               "Sulphites",
@@ -2188,7 +2188,10 @@
           {
             "title": "Seasonal Seafood Casserole with Salmon, Cod and Atlantic Prawns",
             "allergies": [
-              "Fish, Custacean, Celery Sulphites"
+              "Fish",
+              "Crustacean",
+              "Celery",
+              "Sulphites"
             ]
           },
           {
@@ -2239,11 +2242,11 @@
               "Gluten",
               "Egg",
               "Milk",
-              "Sulphhihtes"
+              "Sulphites"
             ]
           },
           {
-            "title": "Morrocan Spiced Vegetable Tagine with Apricots and Almonds",
+            "title": "Moroccan Spiced Vegetable Tagine with Apricots and Almonds",
             "allergies": [
               "Almonds",
               "Sulphites"
@@ -2282,7 +2285,7 @@
             ]
           },
           {
-            "title": "Celery",
+            "title": "Penne Pasta with Spinach and Ricotta",
             "allergies": [
               "Gluten",
               "Milk"
@@ -2308,7 +2311,7 @@
             "title": "Cajun Spiced Turkey Escalope"
           },
           {
-            "title": "Meditterenean Vegetable Kebabs with a Lemon and Herb Dressing"
+            "title": "Mediterranean Vegetable Kebabs with a Lemon and Herb Dressing"
           },
           {
             "title": "Potato Gnocchi with Black Olives and Pesto",
@@ -2344,7 +2347,7 @@
             ]
           },
           {
-            "title": "Roasted Meditteranean Vegetable and Hummus Flat Bread",
+            "title": "Roasted Mediterranean Vegetable and Hummus Flat Bread",
             "allergies": [
               "Gluten"
             ]
@@ -2427,7 +2430,7 @@
           {
             "title": "Vegetarian Pies",
             "allergies": [
-              "Allegens to Be Provided on the Day"
+              "Allergens to Be Provided on the Day"
             ]
           },
           {
@@ -2521,7 +2524,7 @@
             ]
           },
           {
-            "title": "Beef Lasagne with Garlic Slice"
+            "title": "Beef Lasagna with Garlic Slice"
           },
           {
             "title": "Vegetables & Salad Bar Items Included"
@@ -2548,7 +2551,7 @@
             ]
           },
           {
-            "title": "Moving Mountain Hot Dogs, Mustard, Crispy Onions and Spicy Salasa",
+            "title": "Moving Mountain Hot Dogs, Mustard, Crispy Onions and Spicy Salsa",
             "allergies": [
               "Gluten",
               "Soy",
@@ -2970,7 +2973,7 @@
           {
             "title": "Vegetarian Pies",
             "allergies": [
-              "Allegens to Be Provided on the Day"
+              "Allergens to Be Provided on the Day"
             ]
           },
           {
@@ -3180,7 +3183,7 @@
             "allergies": [
               "Gluten",
               "Milk",
-              "Mollusc"
+              "Molluscs"
             ]
           },
           {
@@ -3436,7 +3439,7 @@
             ]
           },
           {
-            "title": "Spiced Chcikpea, Beetroot and Spinach Pasties",
+            "title": "Spiced Chickpea, Beetroot and Spinach Pasties",
             "allergies": [
               "Gluten"
             ]
@@ -3526,7 +3529,7 @@
           {
             "title": "Vegetarian Pies",
             "allergies": [
-              "Allegens to Be Provided on the Day"
+              "Allergens to Be Provided on the Day"
             ]
           },
           {
@@ -3975,7 +3978,7 @@
             ]
           },
           {
-            "title": "Three Cheese Ratatouille Lasagne",
+            "title": "Three Cheese Ratatouille Lasagna",
             "allergies": [
               "Gluten",
               "Milk"
@@ -4152,7 +4155,7 @@
       "dinner": {
         "mains": [
           {
-            "title": "Beef Lasagne with Garlic Bread",
+            "title": "Beef Lasagna with Garlic Bread",
             "allergies": [
               "Gluten",
               "Sulphites",
