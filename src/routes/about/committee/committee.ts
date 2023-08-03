@@ -22,11 +22,11 @@ const categories: RoleCategory[] = [
             },
             {
                 title: "Treasurer",
-                name: "Fergus Kirman",
+                name: "Skyler Roberts",
                 pronouns: "he/him",
                 id: "treasurer",
                 description:
-                    "Hello! I'm Fergus, continuing as the Treasurer of the JCR for 2023. I create and administer the JCR's annual Budget, as well as managing funding for over 30 College societies. I'm looking forward to continuing the Free Prescription Scheme, which I designed and implemented last year, spending over £1,500 on making NHS prescriptions free for all Christ's undergraduates. I'm also planning to use our enhanced budgetary independence - introduced with the new financial system I designed last year - to increase funding for the sustainable period product scheme, expand the JCR Garden Party, and support accessibility improvements around College.",
+                    "Hi! I’m Skyler, the JCR’s Treasurer for 2023. I’m responsible for the JCR’s financial management as well as the funding of more than 30 student societies. I’m excited to be continuing the work of our previous treasurer through our successful Free Prescription Scheme, and I’m working on establishing better financial analytics tools and archival measures to help our current and future JCRs to continue these schemes. Continuing my previous work with the JCR, I’m taking on some of Christ’s longest standing student enquiries with thorough financing considerations; the next project is getting better access to punts for Christ’s students!",
             },
             {
                 title: "Secretary",
