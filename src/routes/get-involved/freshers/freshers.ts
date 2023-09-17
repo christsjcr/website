@@ -1,4 +1,4 @@
-import type { Events } from "$components/events/Calendar.svelte";
+import type { Events } from "$components/events/event";
 
 export const freshers: Events<"compulsory" | "optional"> = [
     // Saturday 1st
