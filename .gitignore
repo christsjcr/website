@@ -8,3 +8,4 @@ node_modules
 !.env.example
 .benchmarks
 scripts/puppeteer-data
+static/calendar
