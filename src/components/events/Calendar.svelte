@@ -1,23 +1,6 @@
-<script context="module" lang="ts">
-    import { getICS, type Events, getDay, getStart, getEnd } from "./event";
-
-    export function download<T>(events: Events<T>) {
-        let value = getICS(events);
-        let filename = `invite.ics`;
-        let blob = new Blob([value], {
-            type: "text/calendar",
-        });
-
-        var elem = window.document.createElement("a");
-        elem.href = window.URL.createObjectURL(blob);
-        elem.download = filename;
-        document.body.appendChild(elem);
-        elem.click();
-        document.body.removeChild(elem);
-    }
-</script>
-
 <script lang="ts">
+    import { getDay, type Events, getStart, getEnd } from "./event";
+
     import Calendar from "@event-calendar/core";
     import List from "@event-calendar/time-grid";
 
