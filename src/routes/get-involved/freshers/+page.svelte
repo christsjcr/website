@@ -3,7 +3,7 @@
     import Calendar from "$components/events/Calendar.svelte";
     import UpperHallMenu from "$components/features/UpperHallMenu.svelte";
     import PageHeader from "$components/PageHeader.svelte";
-    import { freshers } from "./freshers";
+    import { freshers, year } from "./freshers";
 </script>
 
 <PageHeader
@@ -24,14 +24,14 @@
         <div class="columns">
             <div class="column is-narrow">
                 <a
-                    href="webcal://thejcr.co.uk/calendar/freshers/compulsory.ics">
+                    href={`webcal://thejcr.co.uk/calendar/freshers/compulsory${year}.ics`}>
                     <button class="button is-success"
                         >Subscribe to Compulsory Events</button>
                 </a>
             </div>
             <div class="column is-narrow">
                 <a
-                    href="webcal://thejcr.co.uk/calendar/freshers/compulsory.ics">
+                    href={`webcal://thejcr.co.uk/calendar/freshers/optional${year}.ics`}>
                     <button class="button is-primary"
                         >Subscribe to Optional Events</button>
                 </a>
