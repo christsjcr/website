@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "vite dev",
+    "prebuild": "npx tsx scripts/calendar.ts",
     "build": "npx vite build",
     "postbuild": "npx svelte-sitemap --domain https://thejcr.co.uk --change-freq weekly",
     "package": "svelte-kit package",
@@ -34,6 +35,7 @@
     "svelte-preprocess": "^4.9.8",
     "svelte-sitemap": "^2.4.0",
     "tslib": "^2.3.1",
+    "tsx": "^3.12.10",
     "typescript": "^4.4.3",
     "vite": "^4.0.1"
   },
@@ -48,5 +50,12 @@
     "ics": "^2.40.0",
     "svelte-markdown": "^0.2.1",
     "title-case": "^3.0"
+  },
+  "ts-node": {
+    "esm": true,
+    "compilerOptions": {
+      "esModuleInterop": true,
+      "moduleResolution": "node"
+    }
   }
 }

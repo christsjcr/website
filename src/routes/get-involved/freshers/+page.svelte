@@ -23,19 +23,18 @@
         </div>
         <div class="columns">
             <div class="column is-narrow">
-                <button
-                    class="button is-success"
-                    on:click={() =>
-                        download(
-                            freshers.filter((x) => x.type === "compulsory")
-                        )}>Download Compulsory Events</button>
+                <a
+                    href="webcal://thejcr.co.uk/calendar/freshers/compulsory.ics">
+                    <button class="button is-success"
+                        >Subscribe to Compulsory Events</button>
+                </a>
             </div>
             <div class="column is-narrow">
-                <button
-                    class="button is-primary"
-                    on:click={() =>
-                        download(freshers.filter((x) => x.type === "optional"))}
-                    >Download Optional Events</button>
+                <a
+                    href="webcal://thejcr.co.uk/calendar/freshers/compulsory.ics">
+                    <button class="button is-primary"
+                        >Subscribe to Optional Events</button>
+                </a>
             </div>
         </div>
         <Calendar
