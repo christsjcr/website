@@ -31,7 +31,7 @@
             </div>
             <div class="column is-narrow">
                 <a
-                    href="webcal://thejcr.co.uk/calendar/freshers/compulsory.ics">
+                    href="webcal://thejcr.co.uk/calendar/freshers/optional.ics">
                     <button class="button is-primary"
                         >Subscribe to Optional Events</button>
                 </a>
