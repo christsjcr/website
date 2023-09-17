@@ -1,10 +1,12 @@
 import type { Events } from "$components/events/event";
 
+export const year: number = 2022;
+
 export const freshers: Events<"compulsory" | "optional"> = [
     // Saturday 1st
     {
         description: "Welcome Hub",
-        date: [2022, 10, 1],
+        date: [year, 10, 1],
         time: [9, 0],
         duration: [4, 0],
         location: "Lloyd Room",
@@ -12,7 +14,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     },
     {
         description: "Afternoon Meeting with your Tutor",
-        date: [2022, 10, 1],
+        date: [year, 10, 1],
         time: [14, 0],
         duration: [2, 0],
         location: "(see letter for exact time and location)",
@@ -20,7 +22,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     },
     {
         description: "JCR Welfare Talk",
-        date: [2022, 10, 1],
+        date: [year, 10, 1],
         time: [17, 0],
         duration: [0, 45],
         location: "Hamied Theatre",
@@ -28,7 +30,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     },
     {
         description: "Folk / Pop Group",
-        date: [2022, 10, 1],
+        date: [year, 10, 1],
         time: [18, 0],
         duration: [1, 0],
         location: "Buttery",
@@ -36,7 +38,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     },
     {
         description: "Welcome Dinner (casual wear)",
-        date: [2022, 10, 1],
+        date: [year, 10, 1],
         time: [19, 30],
         duration: [1, 30],
         location: "Formal Hall",
@@ -44,7 +46,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     },
     {
         description: "Initial Impressions Mixer (dress as your initial)",
-        date: [2022, 10, 1],
+        date: [year, 10, 1],
         time: [21, 0],
         duration: [2, 0],
         location: "Function Room",
@@ -53,7 +55,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     // Sunday 2nd
     {
         description: "Optional Individual Matriculation Photos",
-        date: [2022, 10, 2],
+        date: [year, 10, 2],
         time: [9, 0],
         duration: [2, 45],
         location: "Portrait Room",
@@ -61,7 +63,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     },
     {
         description: "Group Matriculation Photo",
-        date: [2022, 10, 2],
+        date: [year, 10, 2],
         time: [11, 45],
         duration: [1, 15],
         location: "Fellows' Garden",
@@ -69,7 +71,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     },
     {
         description: "Academic Events",
-        date: [2022, 10, 2],
+        date: [year, 10, 2],
         time: [14, 0],
         duration: [3, 30],
         location: "Hamied Theatre",
@@ -77,7 +79,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     },
     {
         description: "Freshers' Chapel Service",
-        date: [2022, 10, 2],
+        date: [year, 10, 2],
         time: [18, 0],
         duration: [0, 45],
         location: "Chapel",
@@ -85,7 +87,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     },
     {
         description: "Year Group Social",
-        date: [2022, 10, 2],
+        date: [year, 10, 2],
         time: [20, 30],
         duration: [2, 30],
         location: "Fort St George Pub",
@@ -93,7 +95,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     },
     {
         description: "Games and Chill (Uno Tournament)",
-        date: [2022, 10, 2],
+        date: [year, 10, 2],
         time: [19, 45],
         duration: [3, 15],
         location: "JCR",
@@ -102,7 +104,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     // Monday 3rd
     {
         description: "Meeting with Director of Studies",
-        date: [2022, 10, 3],
+        date: [year, 10, 3],
         time: [9, 0],
         duration: [3, 0],
         location: "(actual time and location to be found on the Screens)",
@@ -110,7 +112,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     },
     {
         description: "Matriculation Register (names A-K)",
-        date: [2022, 10, 3],
+        date: [year, 10, 3],
         time: [12, 0],
         duration: [1, 30],
         location: "Portrait Room",
@@ -118,7 +120,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     },
     {
         description: "Matriculation Register (names L-Z)",
-        date: [2022, 10, 3],
+        date: [year, 10, 3],
         time: [13, 30],
         duration: [1, 30],
         location: "Portrait Room",
@@ -126,7 +128,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     },
     {
         description: "JCR Respect and Consent Workshop",
-        date: [2022, 10, 3],
+        date: [year, 10, 3],
         time: [15, 15],
         duration: [2, 0],
         location: "Hamied Theatre",
@@ -134,7 +136,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     },
     {
         description: "Tutor's Pre-Dinner Social",
-        date: [2022, 10, 3],
+        date: [year, 10, 3],
         time: [19, 0],
         duration: [0, 30],
         location: "(location on invitation)",
@@ -142,7 +144,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     },
     {
         description: "Matriculation Dinner (formal attire)",
-        date: [2022, 10, 3],
+        date: [year, 10, 3],
         time: [19, 30],
         duration: [1, 30],
         location: "Formal Hall",
@@ -150,7 +152,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     },
     {
         description: "JCR Quiz",
-        date: [2022, 10, 3],
+        date: [year, 10, 3],
         time: [21, 0],
         duration: [2, 0],
         location: "Formal Hall",
@@ -158,7 +160,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     },
     {
         description: "Freshers Assemble Club Night",
-        date: [2022, 10, 3],
+        date: [year, 10, 3],
         time: [23, 0],
         duration: [3, 0],
         location: "Revolution",
@@ -167,7 +169,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     // Tuesday 4th
     {
         description: "College Welfare Talk",
-        date: [2022, 10, 4],
+        date: [year, 10, 4],
         time: [11, 30],
         duration: [0, 30],
         location: "Hamied Theatre",
@@ -175,7 +177,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     },
     {
         description: "Nurse's Talk",
-        date: [2022, 10, 4],
+        date: [year, 10, 4],
         time: [12, 0],
         duration: [1, 0],
         location: "Hamied Theatre",
@@ -183,7 +185,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     },
     {
         description: "Christ's Freshers Fair",
-        date: [2022, 10, 4],
+        date: [year, 10, 4],
         time: [14, 0],
         duration: [2, 0],
         location: "Plumb Auditorium",
@@ -191,7 +193,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     },
     {
         description: "Discover Cambridge Scavenger Hunt",
-        date: [2022, 10, 4],
+        date: [year, 10, 4],
         time: [16, 0],
         duration: [2, 0],
         location: "Meet at Hobson Street car park",
@@ -199,7 +201,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     },
     {
         description: "Potential College Family Dinner",
-        date: [2022, 10, 4],
+        date: [year, 10, 4],
         time: [18, 0],
         duration: [3, 0],
         location: "(arranged by parents)",
@@ -207,7 +209,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     },
     {
         description: "Karaoke",
-        date: [2022, 10, 4],
+        date: [year, 10, 4],
         time: [21, 0],
         duration: [2, 0],
         location: "Buttery",
@@ -215,7 +217,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     },
     {
         description: "Glitterbomb Club Night",
-        date: [2022, 10, 4],
+        date: [year, 10, 4],
         time: [23, 0],
         duration: [3, 0],
         location: "Vinyl",
@@ -224,7 +226,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     // Wednesday 5th
     {
         description: "University Fair",
-        date: [2022, 10, 5],
+        date: [year, 10, 5],
         time: [10, 0],
         duration: [6, 0],
         location: "Parkers Piece",
@@ -232,7 +234,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     },
     {
         description: "Subject Sibling Tours",
-        date: [2022, 10, 5],
+        date: [year, 10, 5],
         time: [14, 0],
         duration: [3, 0],
         location: "(arranged by subject siblings)",
@@ -240,7 +242,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     },
     {
         description: "Potential College Family Dinner",
-        date: [2022, 10, 5],
+        date: [year, 10, 5],
         time: [18, 0],
         duration: [2, 0],
         location: "(arranged by parents)",
@@ -248,7 +250,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     },
     {
         description: "Board Games and Films",
-        date: [2022, 10, 5],
+        date: [year, 10, 5],
         time: [20, 0],
         duration: [3, 0],
         location: "JCR",
@@ -256,7 +258,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     },
     {
         description: "Rum-lola Club Night",
-        date: [2022, 10, 5],
+        date: [year, 10, 5],
         time: [23, 0],
         duration: [3, 0],
         location: "Lola Lo",
@@ -265,7 +267,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     // Thursday 6th
     {
         description: "Lectures",
-        date: [2022, 10, 6],
+        date: [year, 10, 6],
         time: [9, 0],
         duration: [3, 0],
         location: "(check online timetable)",
@@ -273,7 +275,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     },
     {
         description: "Punting",
-        date: [2022, 10, 6],
+        date: [year, 10, 6],
         time: [14, 0],
         duration: [4, 0],
         location: "Location TBD",
@@ -281,7 +283,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     },
     {
         description: "Choral Evensong",
-        date: [2022, 10, 6],
+        date: [year, 10, 6],
         time: [18, 45],
         duration: [0, 30],
         location: "Fellows' Garden",
@@ -289,7 +291,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     },
     {
         description: "90's Themed Pre Party",
-        date: [2022, 10, 6],
+        date: [year, 10, 6],
         time: [21, 0],
         duration: [2, 0],
         location: "JCR/TV Room",
@@ -297,7 +299,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     },
     {
         description: "Fleek Thursdays Club Night",
-        date: [2022, 10, 6],
+        date: [year, 10, 6],
         time: [23, 0],
         duration: [3, 0],
         location: "Revolution",
@@ -306,7 +308,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     // Friday 7th
     {
         description: "Lectures",
-        date: [2022, 10, 7],
+        date: [year, 10, 7],
         time: [9, 0],
         duration: [3, 0],
         location: "(check online timetable)",
@@ -314,7 +316,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     },
     {
         description: "Coffee and Doughnuts with the Chaplain",
-        date: [2022, 10, 7],
+        date: [year, 10, 7],
         time: [14, 0],
         duration: [2, 0],
         location: "Second Court A1",
@@ -322,7 +324,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     },
     {
         description: "JCR BBQ",
-        date: [2022, 10, 7],
+        date: [year, 10, 7],
         time: [16, 0],
         duration: [2, 45],
         location: "(check online timetable)",
@@ -330,7 +332,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     },
     {
         description: "College Wide Bop - School Days Theme",
-        date: [2022, 10, 7],
+        date: [year, 10, 7],
         time: [21, 30],
         duration: [2, 30],
         location: "Function Room",
@@ -339,7 +341,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     // Saturday 8th
     {
         description: "Yoga",
-        date: [2022, 10, 8],
+        date: [year, 10, 8],
         time: [11, 0],
         duration: [1, 0],
         location: "Fellows' Garden",
@@ -347,7 +349,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     },
     {
         description: "LGBTea",
-        date: [2022, 10, 8],
+        date: [year, 10, 8],
         time: [13, 0],
         duration: [2, 0],
         location: "TV Room",
@@ -355,7 +357,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     },
     {
         description: "Subject Socials",
-        date: [2022, 10, 8],
+        date: [year, 10, 8],
         time: [19, 0],
         duration: [2, 0],
         location: "(arranged by subject)",
@@ -364,7 +366,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     // Sunday 9th
     {
         description: "Holy Communion",
-        date: [2022, 10, 9],
+        date: [year, 10, 9],
         time: [9, 30],
         duration: [1, 0],
         location: "Chapel",
@@ -372,7 +374,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     },
     {
         description: "Picnic",
-        date: [2022, 10, 9],
+        date: [year, 10, 9],
         time: [12, 0],
         duration: [3, 0],
         location: "Fellows' Garden",
@@ -380,7 +382,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     },
     {
         description: "Chapel Service (Evensong)",
-        date: [2022, 10, 9],
+        date: [year, 10, 9],
         time: [18, 0],
         duration: [1, 0],
         location: "Chapel",
@@ -388,7 +390,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     },
     {
         description: "Just Dance Competition",
-        date: [2022, 10, 9],
+        date: [year, 10, 9],
         time: [19, 0],
         duration: [1, 0],
         location: "TV Room",
