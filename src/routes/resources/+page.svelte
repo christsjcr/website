@@ -3,10 +3,15 @@
     import resources from "./resources";
     import Category from "./Category.svelte";
     import { page } from "$app/stores";
+    import { onMount } from "svelte";
 
-    let search = $page.url.searchParams.has("search")
-        ? $page.url.searchParams.get("search")
-        : "";
+    let search = "";
+
+    onMount(() => {
+        if ($page.url.searchParams.has("search")) {
+            search = $page.url.searchParams.get("search");
+        }
+    });
 </script>
 
 <PageHeader
