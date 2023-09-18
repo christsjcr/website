@@ -24,12 +24,12 @@
 </script>
 
 {#if filteredSections.length > 0}
-    <div class="my-5 py-5">
-        <h2 class="title is-2">{resourceCategory.title}</h2>
+    <div class="pt-2 pb-5">
+        <h2 class="title is-3">{resourceCategory.title}</h2>
         <div class="inner">
             {#each filteredSections as section}
                 <div class="box py-5" id={section.title}>
-                    <h3 class="title is-3">
+                    <h3 class="title is-4">
                         {section.title}
                     </h3>
 

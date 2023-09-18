@@ -118,6 +118,14 @@ const resources: {
                 title: "Study",
                 items: [
                     {
+                        title: "Timetable",
+                        url: "https://timetable.cam.ac.uk",
+                        info: [
+                            "Contains dates and timings of lectures, labs, and other department-organised events",
+                            "You can subscribe to the calendar to automatically add the events to your personal devices",
+                        ],
+                    },
+                    {
                         title: "Moodle",
                         url: "https://www.vle.cam.ac.uk/login/index.php",
                         info: [
