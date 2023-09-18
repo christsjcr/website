@@ -1,7 +1,7 @@
 <script lang="ts">
     import { page } from "$lib/page";
 
-    let current = $page.current;
+    $: current = $page.current;
 
     let path: { route: string; name: string; last: boolean }[] = [];
 
