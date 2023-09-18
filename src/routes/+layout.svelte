@@ -82,14 +82,6 @@
         {
             route: "/resources",
             label: "Resources",
-            children: [
-                { route: "/resources/college-life", label: "College Life" },
-                {
-                    route: "/resources/academic-and-careers",
-                    label: "Academic & Careers",
-                },
-                { route: "/resources/welfare", label: "Welfare" },
-            ],
         },
     ];
 
