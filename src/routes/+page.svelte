@@ -33,15 +33,15 @@
         </div>
         <div class="column is-one-third">
             <NotificationLink
-                href="/get-involved"
-                title="Get Involved 💃"
-                content="Find out what's going on at Christ's, and explore the complete list of Christ's societies!" />
+                href="/get-involved/freshers"
+                title="Freshers 🐣"
+                content="View the freshers' timetable, see what's on at Upper Hall, and find your way about with a map of Christ's!" />
         </div>
         <div class="column is-one-third">
             <NotificationLink
-                href="/resources/welfare"
-                title="Welfare Resources 💛"
-                content="Resources for general and targeted support - anything related to physical, sexual, or mental health." />
+                href="/resources"
+                title="Resources 🔗"
+                content="Explore an instantly searchable list of college, university, and welfare related resources!" />
         </div>
     </div>
     <div class="columns my-6 is-desktop">
