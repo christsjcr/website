@@ -5,9 +5,9 @@ const resources: {
 } = {
     "college-life": {
         title: "College Life",
-        categories: [
+        sections: [
             {
-                category: "General",
+                title: "General",
                 items: [
                     {
                         title: "Intranet",
@@ -28,7 +28,7 @@ const resources: {
                 ],
             },
             {
-                category: "Meals",
+                title: "Meals",
                 items: [
                     {
                         title: "Upper Hall Menu",
@@ -53,7 +53,7 @@ const resources: {
                 ],
             },
             {
-                category: "Facilities",
+                title: "Facilities",
                 items: [
                     {
                         title: "Room Booking",
@@ -80,7 +80,7 @@ const resources: {
                 ],
             },
             {
-                category: "Contact",
+                title: "Contact",
                 items: [
                     {
                         title: "Nurse",
@@ -113,10 +113,18 @@ const resources: {
     },
     "academic-and-careers": {
         title: "Academic & Careers",
-        categories: [
+        sections: [
             {
-                category: "Study",
+                title: "Study",
                 items: [
+                    {
+                        title: "Timetable",
+                        url: "https://timetable.cam.ac.uk",
+                        info: [
+                            "Contains dates and timings of lectures, labs, and other department-organised events",
+                            "You can subscribe to the calendar to automatically add the events to your personal devices",
+                        ],
+                    },
                     {
                         title: "Moodle",
                         url: "https://www.vle.cam.ac.uk/login/index.php",
@@ -147,7 +155,7 @@ const resources: {
                 ],
             },
             {
-                category: "Reports & Results",
+                title: "Reports & Results",
                 items: [
                     {
                         title: "CamSIS",
@@ -166,7 +174,7 @@ const resources: {
                 ],
             },
             {
-                category: "Careers",
+                title: "Careers",
                 items: [
                     {
                         title: "University Careers Service",
@@ -200,9 +208,9 @@ const resources: {
     },
     welfare: {
         title: "Welfare",
-        categories: [
+        sections: [
             {
-                category: "General",
+                title: "General",
                 items: [
                     {
                         title: "Tutor Timetable",
@@ -242,7 +250,7 @@ const resources: {
                 ],
             },
             {
-                category: "Physical & Sexual Health",
+                title: "Physical & Sexual Health",
                 items: [
                     {
                         title: "NHS Cambridgeshire and Peterborough",
@@ -280,7 +288,7 @@ const resources: {
                 ],
             },
             {
-                category: "Mental Health",
+                title: "Mental Health",
                 items: [
 
                     {
@@ -316,7 +324,7 @@ const resources: {
                 ],
             },
             {
-                category: "Disabilities",
+                title: "Disabilities",
                 items: [
                     {
                         title: "Christ's Library Assistive Resources",
@@ -347,7 +355,7 @@ const resources: {
                 ],
             },
             {
-                category: "LGBT+",
+                title: "LGBT+",
                 items: [
                     {
                         title: "Switchboard",

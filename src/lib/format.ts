@@ -18,11 +18,11 @@ export interface ResourceItem {
 }
 
 export interface ResourceCategory {
-    category: string;
+    title: string;
     items: ResourceItem[];
 }
 
 export interface ResourcePage {
     title: string;
-    categories: ResourceCategory[];
+    sections: ResourceCategory[];
 }

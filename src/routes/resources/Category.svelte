@@ -1,27 +1,39 @@
 <script lang="ts">
-    import { page } from "$app/stores";
     import Markdown from "$components/markdown/Markdown.svelte";
-    import PageHeader from "$components/PageHeader.svelte";
     import resources from "./resources";
 
-    $: heading = $page.params.heading;
+    export let category: string;
+    export let search: string;
 
-    $: resourcePage = resources[heading];
+    $: resourceCategory = resources[category];
+
+    $: filteredSections = resourceCategory.title.toLowerCase().includes(search)
+        ? resourceCategory.sections
+        : resourceCategory.sections
+              .map((section) => ({
+                  ...section,
+                  items: section.title.toLowerCase().includes(search)
+                      ? section.items
+                      : section.items.filter((item) =>
+                            (item.title + "\n" + (item.info ?? []).join("\n"))
+                                .toLowerCase()
+                                .includes(search)
+                        ),
+              }))
+              .filter((section) => section.items.length > 0);
 </script>
 
-<PageHeader
-    current={`/resources/${heading}`}
-    title={resourcePage.title}
-    metaDescription={`${resourcePage.title} resources for undergraduate students of Christ's College, Cambridge.`}>
-    <div class="outer">
+{#if filteredSections.length > 0}
+    <div class="pt-2 pb-5">
+        <h2 class="title is-3">{resourceCategory.title}</h2>
         <div class="inner">
-            {#each resourcePage.categories as category}
-                <div class="box py-5" id={category.category}>
-                    <h2 class="title is-2">
-                        {category.category}
-                    </h2>
+            {#each filteredSections as section}
+                <div class="box py-5" id={section.title}>
+                    <h3 class="title is-4">
+                        {section.title}
+                    </h3>
 
-                    {#each category.items as resource}
+                    {#each section.items as resource}
                         <div class="content">
                             <h3 class="title is-5">
                                 <a
@@ -44,7 +56,7 @@
             {/each}
         </div>
     </div>
-</PageHeader>
+{/if}
 
 <style>
     .inner {
