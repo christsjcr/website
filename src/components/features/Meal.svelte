@@ -34,7 +34,7 @@
 <TitleBox
     {header}
     alongside={getMealTime()}
-    infoLink={"/resources/college-life#Meals"}>
+    infoLink={"/resources?search=Meal%20Times"}>
     <div class="content">
         {#if data}
             <h5>Mains</h5>
