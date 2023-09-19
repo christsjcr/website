@@ -24,12 +24,13 @@
     }
 
     const today: Writable<Date> = writable(getDay());
+
+    // repeatedly check for a new day every second
     setInterval(() => ($today = getDay()), 1000);
 
     $: day = Math.floor(
         ($today.getTime() - menu.start.getTime()) / (1000 * 3600 * 24)
     );
-
     $: currentMenu = day >= 0 && day < menu.days.length ? menu.days[day] : null;
     $: dayOfWeek = $today.getDay();
 </script>

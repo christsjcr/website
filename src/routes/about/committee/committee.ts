@@ -26,7 +26,7 @@ const categories: RoleCategory[] = [
                 pronouns: "he/him",
                 id: "treasurer",
                 description:
-                    "Hi! I’m Skyler, the JCR’s Treasurer for 2023. I’m responsible for the JCR’s financial management as well as the funding of more than 30 student societies. I’m excited to be continuing the work of our previous treasurer through our successful Free Prescription Scheme, and I’m working on establishing better financial analytics tools and archival measures to help our current and future JCRs to continue these schemes. Continuing my previous work with the JCR, I’m taking on some of Christ’s longest standing student enquiries with thorough financing considerations; the next project is getting better access to punts for Christ’s students!",
+                    "Hi! I'm Skyler, the JCR's Treasurer for 2023. I'm responsible for the JCR's financial management as well as the funding of more than 30 student societies. I'm excited to be continuing the work of our previous treasurer through our successful Free Prescription Scheme, and I'm working on establishing better financial analytics tools and archival measures to help our current and future JCRs to continue these schemes. Continuing my previous work with the JCR, I'm taking on some of Christ's longest standing student enquiries with thorough financing considerations; the next project is getting better access to punts for Christ's students!",
             },
             {
                 title: "Secretary",
