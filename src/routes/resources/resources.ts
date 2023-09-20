@@ -230,6 +230,18 @@ const resources: {
                         ],
                     },
                     {
+                        title: "College Health & Wellbeing Appointments",
+                        url: "https://christ-college.uk2.cliniko.com/bookings",
+                        info: [
+                            "Allows students to directly book four types of appointments",
+                            "[**Freshers Introduction Appointment**](https://christ-college.uk2.cliniko.com/bookings) (Michaelmas term only): an opportunity to have a get to know a student that may have a physical, mental health or disability/accessibility need, to ensure that adequate support is in place",
+                            "[**Wellbeing Drop-in**](https://christ-college.uk2.cliniko.com/bookings): a 30m chat about wellbeing and/or small issues that students may be facing (a preventative approach, to help stop small issues becoming bigger ones)",
+                            "[**Physical Health Appointments**](https://christ-college.uk2.cliniko.com/bookings): 20m duration, for all non-urgent physical health issues and queries or review of ongoing conditions",
+                            "[**Mental Health Appointments**](https://christ-college.uk2.cliniko.com/bookings):  45min duration, for students who are experiencing mental health issues that are impacting on their day-to-day life and academics",
+                            "If you can't find a suitable appointment time, please email [Christ's Nurse](/resources?search=Nurse)",
+                        ],
+                    },
+                    {
                         title: "Cambridge Student Advice Service",
                         url: "https://www.cambridgesu.co.uk/support/advice/",
                         info: [
@@ -237,14 +249,6 @@ const resources: {
                             "Phone: [01223 746999](tel:01223746999)",
                             "Email: [advice@cambridgesu.co.uk](mailto:advice@cambridgesu.co.uk)",
                             "Request an Appointment: [link](https://www.cambridgesu.co.uk/support/advice/contact/)",
-                        ],
-                    },
-                    {
-                        title: "Togetherall",
-                        url: "https://togetherall.com/en-gb/",
-                        info: [
-                            "A safe, anonymous online space providing 24/7 access to an online global community to share your thoughts, complete self-guided courses, and help manage your wellbeing",
-                            "You can sign up using your Cambridge email address",
                         ],
                     },
                 ],
@@ -260,9 +264,10 @@ const resources: {
                         title: "Nurse",
                         url: "https://intranet.christs.cam.ac.uk/college-nurse-0",
                         info: [
-                            "Email in advance: [nurse@christs.cam.ac.uk](mailto:nurse@christs.cam.ac.uk)",
+                            "For enquiries and urgent appointments: [nurse@christs.cam.ac.uk](mailto:nurse@christs.cam.ac.uk)",
                             "Mon, Wed: 10:00-12:30 and 14:00-15:30",
                             "Tue, Thu, Fri: 10:30-12:30",
+                            "For regular appointments, see [College Health & Wellbeing Appointments](/resources?search=College%20Health%20%26%20Wellbeing%20Appointments)",
                         ],
                     },
                     {
@@ -290,7 +295,14 @@ const resources: {
             {
                 title: "Mental Health",
                 items: [
-
+                    {
+                        title: "Togetherall",
+                        url: "https://togetherall.com/en-gb/",
+                        info: [
+                            "A safe, anonymous online space providing 24/7 access to an online global community to share your thoughts, complete self-guided courses, and help manage your wellbeing",
+                            "You can sign up using your Cambridge email address",
+                        ],
+                    },
                     {
                         title: "Samaritans",
                         url: "https://www.samaritans.org/",

@@ -24,6 +24,7 @@
             return (-c / 2) * (t2 * (t2 - 2) - 1) + b;
         };
         const animateScroll = () => {
+            // JS magic to convert date to number
             const currentDate = +new Date();
             const currentTime = currentDate - startDate;
             element.scrollTop = easeInOutQuad(

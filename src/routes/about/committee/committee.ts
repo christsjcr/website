@@ -18,7 +18,7 @@ const categories: RoleCategory[] = [
                 pronouns: "she/her",
                 id: "vicepresident",
                 description:
-                    "Hi, I'm Christina, your Vice-President and I am so excited to continue my work on the JCR this year. I hope to learn more about the challenges facing Christ's students so that we can make changes both in college and at a university level. Alongside this, I have my own projects that I am excited to continue such as: organising more themed formals (hopefully with a charity focus), improving the fresher's room allocation form and coordinating more inter-college events. Please feel free to email me with any questions or queries about student life at Christ's!",
+                    "Hi, I'm Christina, your Vice-President and I am so excited to continue my work on the JCR this year. I hope to learn more about the challenges facing Christ's students so that we can make changes both in college and at a university level. Alongside this, I have my own projects that I am excited to continue such as: organising more themed formals (hopefully with a charity focus), improving the freshers' room allocation form and coordinating more inter-college events. Please feel free to email me with any questions or queries about student life at Christ's!",
             },
             {
                 title: "Treasurer",
@@ -26,7 +26,7 @@ const categories: RoleCategory[] = [
                 pronouns: "he/him",
                 id: "treasurer",
                 description:
-                    "Hi! I’m Skyler, the JCR’s Treasurer for 2023. I’m responsible for the JCR’s financial management as well as the funding of more than 30 student societies. I’m excited to be continuing the work of our previous treasurer through our successful Free Prescription Scheme, and I’m working on establishing better financial analytics tools and archival measures to help our current and future JCRs to continue these schemes. Continuing my previous work with the JCR, I’m taking on some of Christ’s longest standing student enquiries with thorough financing considerations; the next project is getting better access to punts for Christ’s students!",
+                    "Hi! I'm Skyler, the JCR's Treasurer for 2023. I'm responsible for the JCR's financial management as well as the funding of more than 30 student societies. I'm excited to be continuing the work of our previous treasurer through our successful Free Prescription Scheme, and I'm working on establishing better financial analytics tools and archival measures to help our current and future JCRs to continue these schemes. Continuing my previous work with the JCR, I'm taking on some of Christ's longest standing student enquiries with thorough financing considerations; the next project is getting better access to punts for Christ's students!",
             },
             {
                 title: "Secretary",

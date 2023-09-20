@@ -5,8 +5,8 @@
   export let source: string;
   export let externalLinks: boolean = false;
 
+  // Make markdown links open in new tab if externalLinks
   const renderers: Partial<Renderers> = {};
-
   if (externalLinks) renderers.link = ExternalLink;
 </script>
 
