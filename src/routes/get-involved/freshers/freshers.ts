@@ -39,8 +39,8 @@ export const freshers: Events<"compulsory" | "optional"> = [
     {
         description: "Welcome Dinner (casual wear)",
         date: [2023, 9, 30],
-        time: [19, 0],
-        duration: [2, 0],
+        time: [19, 30],
+        duration: [1, 30],
         location: "Formal Hall",
         type: "compulsory",
     },
