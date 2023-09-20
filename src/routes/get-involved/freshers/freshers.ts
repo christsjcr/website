@@ -62,7 +62,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
         type: "optional",
     },
     {
-        description: "Group Matriculation Photo (gown & formal Attire)",
+        description: "Group Matriculation Photo (gown & formal attire)",
         date: [2023, 10, 1],
         time: [11, 30],
         duration: [1, 0],
