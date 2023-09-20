@@ -30,7 +30,8 @@ export type Events<T> = Event<T>[];
 export function getICS<T>(calendarName: string, events: Events<T>): string {
     let { error, value } = ics.createEvents(
         events.map((x) => {
-            const start = getStart(x);
+            let start = getStart(x);
+            start = new Date(start.toLocaleString("en", { timeZone: "Europe/London" }));
             return {
                 calName: calendarName,
                 title: x.description,
