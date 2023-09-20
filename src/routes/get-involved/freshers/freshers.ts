@@ -96,8 +96,8 @@ export const freshers: Events<"compulsory" | "optional"> = [
     {
         description: "Board Games and Socialising",
         date: [2023, 10, 1],
-        time: [19, 0],
-        duration: [2, 0],
+        time: [18, 45],
+        duration: [2, 15],
         location: "Box Room Café (or JCR)",
         type: "optional",
     },
