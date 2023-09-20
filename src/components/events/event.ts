@@ -1,4 +1,5 @@
 import * as ics from "ics";
+import { DateTime } from "luxon";
 
 interface Event<T> {
     description: string;
@@ -30,8 +31,8 @@ export type Events<T> = Event<T>[];
 export function getICS<T>(calendarName: string, events: Events<T>): string {
     let { error, value } = ics.createEvents(
         events.map((x) => {
-            let start = getStart(x);
-            start = new Date(start.toLocaleString("en", { timeZone: "Europe/London" }));
+            // Convert the start time to UTC
+            let start = DateTime.fromJSDate(getStart(x)).setZone("Europe/London", { keepLocalTime: true }).toJSDate();
             return {
                 calName: calendarName,
                 title: x.description,
