@@ -33,13 +33,14 @@
             </blockquote>
             <br />
             <h5>
-                Freshers' Guide - <a href="/doc/freshers-guide.pdf" download
-                    >Download</a>
+                Freshers' Guide - <ExternalLink
+                    href="https://drive.google.com/file/d/14EI6qLV49_kLvd9GedcMl5qMNUGW_VaJ/view?usp=drive_link"
+                    >View</ExternalLink>
             </h5>
             <h5>
-                International Freshers' Guide - <a
-                    href="/doc/international-freshers-guide.pdf"
-                    download>Download</a>
+                International Freshers' Guide - <ExternalLink
+                    href="https://drive.google.com/file/d/1NE1HYnA1JaFH1e7nRfF9fxNMcgazLnzB/view?usp=drive_link"
+                    >View</ExternalLink>
             </h5>
             <h5>
                 Academic Timetable (Available Sept 25th) - <ExternalLink
