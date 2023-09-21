@@ -33,23 +33,35 @@
             </blockquote>
             <br />
             <div class="columns">
-                <div class="column is-one-third">
+                <div class="column">
                     <NotificationLink
                         href="https://drive.google.com/file/d/14EI6qLV49_kLvd9GedcMl5qMNUGW_VaJ/view?usp=drive_link"
-                        title="Freshers' Guide"
-                        external />
+                        title="Freshers' Guide 🐣"
+                        external
+                        compact />
                 </div>
-                <div class="column is-one-third">
+                <div class="column">
                     <NotificationLink
                         href="https://drive.google.com/file/d/1NE1HYnA1JaFH1e7nRfF9fxNMcgazLnzB/view?usp=drive_link"
-                        title="International Freshers' Guide"
-                        external />
+                        title="International Freshers' Guide ✈️"
+                        external
+                        compact />
                 </div>
-                <div class="column is-one-third">
+            </div>
+            <div class="columns">
+                <div class="column">
+                    <NotificationLink
+                        href="https://drive.google.com/file/d/10B4hgiyuOBksYWfDC988anwTu8_0r_fu/view?usp=drive_link"
+                        title="Welfare Guide 💛"
+                        external
+                        compact />
+                </div>
+                <div class="column">
                     <NotificationLink
                         href="https://www.timetable.cam.ac.uk"
-                        title="Academic Timetable"
-                        external />
+                        title="Academic Timetable 📚"
+                        external
+                        compact />
                 </div>
             </div>
             <h2>Freshers' Week Timetable</h2>

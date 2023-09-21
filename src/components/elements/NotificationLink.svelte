@@ -4,6 +4,7 @@
     export let content: string | undefined = null;
     export let external: boolean = false;
     export let grey: boolean = false;
+    export let compact: boolean = false;
 
     let hovered = false;
 
@@ -17,11 +18,18 @@
     target={external ? "_blank" : ""}>
     <div
         class="notification"
+        class:p-4={compact}
         class:is-primary={!grey && !hovered}
         class:is-link={hovered}
         class:is-grey={grey && !hovered}
         class:has-text-dark={grey && !hovered}>
-        <h3 class="title is-5">{title}</h3>
+        <h3
+            class="title"
+            class:is-5={!compact}
+            class:is-6={compact}
+            class:pb-2={compact}>
+            {title}
+        </h3>
         {#if content}
             <p class="block">
                 {content}

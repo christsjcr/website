@@ -213,6 +213,10 @@ const resources: {
                 title: "General",
                 items: [
                     {
+                        title: "JCR Welfare Guide",
+                        url: "https://drive.google.com/file/d/10B4hgiyuOBksYWfDC988anwTu8_0r_fu/view?usp=drive_link",
+                    },
+                    {
                         title: "Tutor Timetable",
                         url: "https://intranet.christs.cam.ac.uk/system/files/2023-01/2022-23%20Undergraduate%20Open%20Tutorial%20Hours%20%20LT23_0.pdf",
                         info: [
