@@ -139,7 +139,7 @@
                     </TrackedLink>
                 </div>
             </div>
-            <p>© Christ's JCR 2022</p>
+            <p>© Christ's JCR 2023</p>
             <a rel="external" href="https://github.com/christsjcr/website"
                 >Source</a>
         </div>
