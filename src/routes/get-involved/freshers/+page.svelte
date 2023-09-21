@@ -1,7 +1,7 @@
 <script lang="ts">
     import Content from "$components/elements/Content.svelte";
     import Calendar from "$components/events/Calendar.svelte";
-    import UpperHallMenu from "$components/features/UpperHallMenu.svelte";
+    import NotificationLink from "$components/elements/NotificationLink.svelte";
     import ExternalLink from "$components/markdown/ExternalLink.svelte";
     import PageHeader from "$components/PageHeader.svelte";
     import { freshers, year } from "./freshers";
@@ -32,21 +32,26 @@
                 differently).
             </blockquote>
             <br />
-            <h5>
-                Freshers' Guide - <ExternalLink
-                    href="https://drive.google.com/file/d/14EI6qLV49_kLvd9GedcMl5qMNUGW_VaJ/view?usp=drive_link"
-                    >View</ExternalLink>
-            </h5>
-            <h5>
-                International Freshers' Guide - <ExternalLink
-                    href="https://drive.google.com/file/d/1NE1HYnA1JaFH1e7nRfF9fxNMcgazLnzB/view?usp=drive_link"
-                    >View</ExternalLink>
-            </h5>
-            <h5>
-                Academic Timetable (Available Sept 25th) - <ExternalLink
-                    href="https://www.timetable.cam.ac.uk">View</ExternalLink>
-            </h5>
-            <br />
+            <div class="columns">
+                <div class="column is-one-third">
+                    <NotificationLink
+                        href="https://drive.google.com/file/d/14EI6qLV49_kLvd9GedcMl5qMNUGW_VaJ/view?usp=drive_link"
+                        title="Freshers' Guide"
+                        external />
+                </div>
+                <div class="column is-one-third">
+                    <NotificationLink
+                        href="https://drive.google.com/file/d/1NE1HYnA1JaFH1e7nRfF9fxNMcgazLnzB/view?usp=drive_link"
+                        title="International Freshers' Guide"
+                        external />
+                </div>
+                <div class="column is-one-third">
+                    <NotificationLink
+                        href="https://www.timetable.cam.ac.uk"
+                        title="Academic Timetable"
+                        external />
+                </div>
+            </div>
             <h2>Freshers' Week Timetable</h2>
         </div>
         <div class="columns">
