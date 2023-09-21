@@ -1,7 +1,7 @@
 <script lang="ts">
     export let href: string = null;
     export let title: string;
-    export let content: string;
+    export let content: string | undefined = null;
     export let external: boolean = false;
     export let grey: boolean = false;
 
@@ -22,10 +22,12 @@
         class:is-grey={grey && !hovered}
         class:has-text-dark={grey && !hovered}>
         <h3 class="title is-5">{title}</h3>
-        <p class="block">
-            {content}
-        </p>
-        <br />
+        {#if content}
+            <p class="block">
+                {content}
+            </p>
+            <br />
+        {/if}
         <p class="block is-underlined">
             {href == null
                 ? "Coming Soon"
