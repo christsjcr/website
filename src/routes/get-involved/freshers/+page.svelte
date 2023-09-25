@@ -2,7 +2,6 @@
     import Content from "$components/elements/Content.svelte";
     import Calendar from "$components/events/Calendar.svelte";
     import NotificationLink from "$components/elements/NotificationLink.svelte";
-    import ExternalLink from "$components/markdown/ExternalLink.svelte";
     import PageHeader from "$components/PageHeader.svelte";
     import { freshers, year } from "./freshers";
 </script>
@@ -32,6 +31,7 @@
                 differently).
             </blockquote>
             <br />
+
             <div class="columns">
                 <div class="column">
                     <NotificationLink
@@ -64,6 +64,12 @@
                         compact />
                 </div>
             </div>
+            <p>
+                Remember to sign in with your Cambridge Google account to access
+                the guides! By default, your academic timetable is blank - you
+                need to manually log on to the site above using a desktop and
+                add the relevant modules for them to show up.
+            </p>
             <h2>Freshers' Week Timetable</h2>
         </div>
         <div class="columns">

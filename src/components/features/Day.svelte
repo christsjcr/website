@@ -62,7 +62,11 @@
                     <p>Menu Unavailable!</p>
                 </div>
                 <div class="message-body">
-                    Menu is only available during term time.
+                    Menu is only available during term time, and after the
+                    intranet has been updated. You can still view the meal times <a
+                        href="/resources?search=Meal%20Times"
+                        class="has-text-link">here</a
+                    >.
                 </div>
             </article>
         {/if}
