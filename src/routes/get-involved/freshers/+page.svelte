@@ -2,7 +2,6 @@
     import Content from "$components/elements/Content.svelte";
     import Calendar from "$components/events/Calendar.svelte";
     import NotificationLink from "$components/elements/NotificationLink.svelte";
-    import ExternalLink from "$components/markdown/ExternalLink.svelte";
     import PageHeader from "$components/PageHeader.svelte";
     import { freshers, year } from "./freshers";
 </script>
