@@ -83,15 +83,6 @@ const resources: {
                 title: "Contact",
                 items: [
                     {
-                        title: "Nurse",
-                        url: "https://intranet.christs.cam.ac.uk/college-nurse-0",
-                        info: [
-                            "Email in advance: [nurse@christs.cam.ac.uk](mailto:nurse@christs.cam.ac.uk)",
-                            "Mon, Wed: 10:00-12:30 and 14:00-15:30",
-                            "Tue, Thu, Fri: 10:30-12:30",
-                        ],
-                    },
-                    {
                         title: "Porters",
                         url: "tel:01223334900",
                         info: [
@@ -268,10 +259,10 @@ const resources: {
                         title: "Nurse",
                         url: "https://intranet.christs.cam.ac.uk/college-nurse-0",
                         info: [
+                            "For regular appointments, see [College Health & Wellbeing Appointments](/resources?search=College%20Health%20%26%20Wellbeing%20Appointments)",
                             "For enquiries and urgent appointments: [nurse@christs.cam.ac.uk](mailto:nurse@christs.cam.ac.uk)",
                             "Mon, Wed: 10:00-12:30 and 14:00-15:30",
                             "Tue, Thu, Fri: 10:30-12:30",
-                            "For regular appointments, see [College Health & Wellbeing Appointments](/resources?search=College%20Health%20%26%20Wellbeing%20Appointments)",
                         ],
                     },
                     {
