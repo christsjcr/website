@@ -1,11 +1,7 @@
-<script lang="ts" context="module">
-    import type { Option as OptionType } from "./Option.svelte";
-    export type Meal = { mains: OptionType[]; dessert?: OptionType };
-</script>
-
 <script lang="ts">
     import TitleBox from "$components/elements/TitleBox.svelte";
     import Option from "./Option.svelte";
+    import type { Meal } from "./types";
 
     export let type: "lunch" | "dinner";
     export let data: Meal = null;

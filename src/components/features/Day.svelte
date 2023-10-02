@@ -1,16 +1,11 @@
 <script lang="ts">
     import { type Writable, writable } from "svelte/store";
-    import MealComponent, { type Meal } from "./Meal.svelte";
+    import MealComponent from "./Meal.svelte";
+    import type { Day, Meal, Menu } from "./types";
     import menuJson from "$data/menu.json";
 
     export let increment: number;
     export let showAllergies: boolean;
-
-    type Weekday = { weekend: false; lunch: Meal; dinner: Meal };
-    type Weekend = { weekend: true; dinner: Meal };
-    type Day = Weekday | Weekend;
-
-    type Menu = { start: Date; days: Day[] };
 
     const menu: Menu = {
         start: new Date(menuJson.start),
