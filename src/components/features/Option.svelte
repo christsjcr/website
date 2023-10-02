@@ -1,8 +1,6 @@
-<script lang="ts" context="module">
-    export type Option = { title: string; allergies: string[] };
-</script>
-
 <script lang="ts">
+    import type { Option } from "./types";
+
     export let option: Option;
     export let showAllergies: boolean;
 </script>
