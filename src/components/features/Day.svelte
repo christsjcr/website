@@ -1,7 +1,7 @@
 <script lang="ts">
     import { type Writable, writable } from "svelte/store";
     import MealComponent from "./Meal.svelte";
-    import type { Day, Meal, Menu } from "./types";
+    import type { Day, Menu } from "./types";
     import menuJson from "$data/menu.json";
 
     export let increment: number;
