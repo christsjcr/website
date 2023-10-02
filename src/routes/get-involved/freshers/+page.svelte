@@ -90,7 +90,8 @@
         </div>
         <Calendar
             events={freshers}
-            colors={{ compulsory: "#ad34cb", optional: "#146A46" }} />
+            colors={{ compulsory: "#ad34cb", optional: "#146A46" }}
+            type="timeGridDay" />
         <br />
         <div class="columns is-centered">
             <div class="column is-narrow">

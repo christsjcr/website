@@ -29,6 +29,7 @@ export interface Society {
     status: "funded" | "independent" | "inactive";
     type: "mens sport" | "womens sport" | "mixed sport" | "subject" | "other",
     notEndorsed?: true,
+    lastUpdated: string,
 }
 
 export const societies: Society[] = [
@@ -40,6 +41,7 @@ export const societies: Society[] = [
         ],
         status: "independent",
         type: "other",
+        lastUpdated: "2022",
     },
     {
         title: "Art Society", icon: "🎨",
@@ -49,6 +51,7 @@ export const societies: Society[] = [
 
         type: "other",
         status: "funded",
+        lastUpdated: "2022",
     },
     {
         title: "Board Games Society",
@@ -58,6 +61,7 @@ export const societies: Society[] = [
         people: [
             { name: "Ariel Hebditch", crsid: "ah2203" },
         ],
+        lastUpdated: "2022",
     },
     {
         title: "Bookworms", icon: "📚",
@@ -66,6 +70,7 @@ export const societies: Society[] = [
         people: [
             { name: "Liz Samuel", crsid: "eas205" },
         ],
+        lastUpdated: "2022",
     },
     {
         title: "Card Game Society", icon: "🃏",
@@ -76,6 +81,7 @@ export const societies: Society[] = [
 
         status: "funded",
         type: "other",
+        lastUpdated: "2022",
     },
     {
         title: "Christ's Amateur Dramatic Society (CADS)",
@@ -93,6 +99,7 @@ export const societies: Society[] = [
             instagram: "christsamdramsoc",
             email: "christsamdram@cambridgesu.co.uk",
         },
+        lastUpdated: "2022",
     },
     {
         title: "Christian Union (joint with Sidney Sussex)",
@@ -110,6 +117,7 @@ export const societies: Society[] = [
         },
         status: "funded",
         type: "other",
+        lastUpdated: "Oct 2023",
     },
     {
         title: "Darwin Society",
@@ -130,6 +138,7 @@ export const societies: Society[] = [
                 url: "http://darwinsociety.soc.srcf.net/",
             },
         },
+        lastUpdated: "2022",
     },
     {
         title: "Engineering Society (CCES)", icon: "🛠",
@@ -147,6 +156,7 @@ export const societies: Society[] = [
             },
             facebookGroup: "639979033442421",
         },
+        lastUpdated: "2022",
     },
     {
         title: "Feminist Society", icon: "♀️",
@@ -160,11 +170,13 @@ export const societies: Society[] = [
             facebook: "CCFeminist",
             instagram: "christsfeministsociety",
         },
+        lastUpdated: "2022",
     },
     {
         title: "Film Society", icon: "🎥",
         status: "inactive",
         type: "other",
+        lastUpdated: "2022",
     },
     {
         title: "History Society", icon: "📜",
@@ -178,6 +190,7 @@ export const societies: Society[] = [
         type: "subject",
         status: "funded",
         contact: { facebook: "christshistorysoc" },
+        lastUpdated: "2022",
     },
     {
         title: "Law Society", icon: "⚖",
@@ -187,6 +200,7 @@ export const societies: Society[] = [
         ],
         type: "subject",
         status: "funded",
+        lastUpdated: "2022",
     },
     {
         title: "Maths Society", icon: "📊",
@@ -196,6 +210,7 @@ export const societies: Society[] = [
         ],
         type: "subject",
         status: "funded",
+        lastUpdated: "2022",
     },
     {
         title: "Medical Society", icon: "🩺",
@@ -206,6 +221,7 @@ export const societies: Society[] = [
         contact: { facebookGroup: "1418390265042766" },
         type: "subject",
         status: "funded",
+        lastUpdated: "2022",
     },
     {
         title: "Music Society (CCMS)", icon: "🎶",
@@ -226,12 +242,14 @@ export const societies: Society[] = [
                 url: "http://www.christsmusic.org.uk/",
             },
         },
+        lastUpdated: "2022",
     },
     {
         title: "Nollywood Society", icon: "🎥",
         description: "Christ's Nollywood Society seeks to boost the representation of international media (particularly Nigerian cinema) within Christ's. It holds social events featuring Nollywood films, for both Nollywood enthusiasts and for anyone who wants to learn more about the genre.",
         status: "inactive",
         type: "other",
+        lastUpdated: "2022",
     },
     {
         title: "Organic Synthesis Society", icon: "🧫",
@@ -243,6 +261,7 @@ export const societies: Society[] = [
         contact: { facebook: "ChrOSS.0" },
         status: "independent",
         type: "other",
+        lastUpdated: "2022",
     },
     {
         title: "Poetry Society", icon: "🧾",
@@ -251,6 +270,7 @@ export const societies: Society[] = [
         ],
         type: "other",
         status: "inactive",
+        lastUpdated: "2022",
     },
     {
         title: "Wine Society", icon: "🍷",
@@ -265,6 +285,7 @@ export const societies: Society[] = [
         },
         status: "funded",
         type: "other",
+        lastUpdated: "2022",
     },
     {
         title: "Badminton Club", icon: "🏸",
@@ -276,6 +297,7 @@ export const societies: Society[] = [
         type: "mixed sport",
         status: "funded",
         contact: { facebookGroup: "christsbadminton" },
+        lastUpdated: "2022",
     },
     {
         title: "Basketball", icon: "🏀",
@@ -285,6 +307,7 @@ export const societies: Society[] = [
         ],
         type: "mixed sport",
         status: "funded",
+        lastUpdated: "2022",
     },
     {
         title: "Boat Club (Rowing)", icon: "🚣",
@@ -294,6 +317,7 @@ export const societies: Society[] = [
         ],
         type: "mixed sport",
         status: "independent",
+        lastUpdated: "2022",
     },
     {
         title: "Climbing Club", icon: "🧗‍♀️",
@@ -304,6 +328,7 @@ export const societies: Society[] = [
         ],
         type: "mixed sport",
         status: "funded",
+        lastUpdated: "2022",
     },
     {
         title: "Cricket Club", icon: "🏏",
@@ -313,6 +338,7 @@ export const societies: Society[] = [
         ],
         type: "mixed sport",
         status: "funded",
+        lastUpdated: "2022",
     },
     {
         title: "Darts Corporation", icon: "🎯",
@@ -322,6 +348,7 @@ export const societies: Society[] = [
         ],
         type: "mixed sport",
         status: "funded",
+        lastUpdated: "2022",
     },
     {
         title: "Hippolytans", icon: "🏃‍♀️",
@@ -333,6 +360,7 @@ export const societies: Society[] = [
         type: "womens sport",
         status: "independent",
         contact: { register: "https://docs.google.com/forms/d/e/1FAIpQLSdtdf3GZb6divIoW7Dbv_UugwdV6BrURpnmCYOahSNke5kgRQ/viewform?usp=sf_link" },
+        lastUpdated: "2022",
     },
     {
         title: "Hot Wheelz Society",
@@ -344,6 +372,7 @@ export const societies: Society[] = [
         people: [
             { name: "Rachel Adkins", crsid: "rka33" },
         ],
+        lastUpdated: "2022",
     },
     {
         title: "Lawn Tennis", icon: "🎾",
@@ -354,8 +383,8 @@ export const societies: Society[] = [
         ],
         type: "mixed sport",
         status: "funded",
-
         contact: { facebookGroup: "753203991906817" },
+        lastUpdated: "2022",
     },
     {
         title: "Marguerites", icon: "🏃‍♂️",
@@ -364,6 +393,7 @@ export const societies: Society[] = [
         ],
         type: "mens sport",
         status: "independent",
+        lastUpdated: "2022",
     },
     {
         title: "Men's Football", icon: "⚽",
@@ -375,6 +405,7 @@ export const societies: Society[] = [
         ],
         type: "mens sport",
         status: "funded",
+        lastUpdated: "2022",
     },
     {
         title: "Hockey", icon: "🏑",
@@ -384,6 +415,7 @@ export const societies: Society[] = [
         ],
         type: "mixed sport",
         status: "funded",
+        lastUpdated: "2022",
     },
     {
         title: "Men's Rugby Football", icon: "🏉",
@@ -395,6 +427,7 @@ export const societies: Society[] = [
         type: "mens sport",
         status: "funded",
         contact: { whatsapp: "https://chat.whatsapp.com/G3kpNeAE2FE2peqA5cJqE8" },
+        lastUpdated: "2022",
     },
     {
         title: "Mixed Lacrosse", icon: "🥍",
@@ -406,25 +439,26 @@ export const societies: Society[] = [
         type: "mixed sport",
         status: "funded",
         contact: { whatsapp: "https://chat.whatsapp.com/K4DdTRvOXLh5ClZ3F4D6Wf" },
+        lastUpdated: "2022",
     },
     {
         title: "Netball", icon: "🏀",
         description: "Christ's College Netball includes a mixed team and a ladies team, and is open to all students of any ability who are interested in getting involved in netball.",
         events: "Both teams compete in weekly league matches as well as the big college cuppers tournament at the end of Lent Term.",
-        interested: " - [Ladies netball FB group](https://www.facebook.com/groups/669403433201184)\n - [Mixed netball FB group](https://www.facebook.com/groups/592990420760172/)"
-        ,
+        interested: " - [Ladies netball FB group](https://www.facebook.com/groups/669403433201184)\n - [Mixed netball FB group](https://www.facebook.com/groups/592990420760172/)",
         people: [
             { name: "Camilla Olivieri", crsid: "co418" },
             { name: "Laura Herbert", crsid: "lgh30" },
         ],
-
         type: "mixed sport",
         status: "funded",
+        lastUpdated: "2022",
     },
     {
         title: "Rounders", icon: "⚾️",
         type: "mixed sport",
         status: "inactive",
+        lastUpdated: "2022",
     },
     {
         title: "Squash", icon: "🎾",
@@ -437,6 +471,7 @@ export const societies: Society[] = [
         type: "mixed sport",
         status: "funded",
         contact: { facebookGroup: "christssquash" },
+        lastUpdated: "2022",
     },
     {
         title: "Swimming", icon: "🏊‍♂️",
@@ -448,17 +483,18 @@ export const societies: Society[] = [
         type: "mixed sport",
         status: "funded",
         contact: { facebookGroup: "345514909131796" },
+        lastUpdated: "2022",
     },
     {
         title: "Table Tennis", icon: "🏓",
         description: "Christ's Table Tennis Society organises weekly recreational sessions for people of all abilities, and facilitates entry to the College League where students can play matches against other colleges.",
-
         people: [
             { name: "Petros Georgiou", crsid: "pg502" },
         ],
         type: "mixed sport",
         status: "funded",
         contact: { register: "https://lists.cam.ac.uk/sympa/info/christs-tabletennis" },
+        lastUpdated: "2022",
     },
     {
         title: "Volleyball", icon: "🏐",
@@ -470,6 +506,7 @@ export const societies: Society[] = [
         type: "mixed sport",
         status: "funded",
         contact: { whatsapp: "https://chat.whatsapp.com/GxujOwuuAcH2bOtM4lJiqp" },
+        lastUpdated: "2022",
     },
     {
         title: "Women's Football", icon: "⚽",
@@ -480,5 +517,6 @@ export const societies: Society[] = [
         type: "womens sport",
         status: "funded",
         contact: { facebookGroup: "CCCWomensFootball", instagram: "chuchristscavwomens" },
+        lastUpdated: "2022",
     },
 ];

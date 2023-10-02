@@ -1,7 +1,9 @@
 <script lang="ts">
     import Content from "$components/elements/Content.svelte";
     import TrackedLink from "$components/elements/TrackedLink.svelte";
+    import Calendar from "$components/events/Calendar.svelte";
     import PageHeader from "$components/PageHeader.svelte";
+    import { term, meetings } from "./meetings";
 </script>
 
 <PageHeader
@@ -9,23 +11,6 @@
     title="Meetings"
     metaDescription="Get information on JCR meetings, and learn how you can make sure that your voice is heard.">
     <Content>
-        <h2>Easter Term</h2>
-        <ul>
-            <li>29th April 5pm - Exec Meeting (NCSR)</li>
-            <li>6th May 5pm - Council Meeting (NCSR)</li>
-            <li>13th May 2:30pm - Exec Meeting (NCSR)</li>
-            <li><b>13th May 6pm - Open Meeting (JCR)</b></li>
-            <li>20th May 5pm - Council Meeting (NCSR)</li>
-            <li>17th Jun 3:30pm - Exec Meeting (NCSR)</li>
-            <li>17th Jun 6pm - Council Meeting (NCSR)</li>
-        </ul>
-        <p>
-            You can access the minutes for these meetings <TrackedLink
-                href="https://drive.google.com/drive/u/2/folders/1gr4x820W2ZcDi8RGAz7fYeOEMiBLx6jA"
-                id="meeting-minutes">here</TrackedLink
-            >.
-        </p>
-
         <h2>Open Meetings</h2>
         <p>
             Undergraduate students of Christ's may attend an open meeting with
@@ -66,5 +51,37 @@
             President, Vice President, Treasurer, Welfare Officers and
             Secretary) are expected to attend.
         </p>
+        <h3>Meeting Minutes</h3>
+        <p>
+            You can access the minutes for all meetings <TrackedLink
+                href="https://drive.google.com/drive/u/2/folders/1gr4x820W2ZcDi8RGAz7fYeOEMiBLx6jA"
+                id="meeting-minutes">here</TrackedLink
+            >.
+        </p>
+
+        <h2 class="title is-2">{term} Term</h2>
+        <p>
+            <a href={`webcal://thejcr.co.uk/calendar/meetings/exec.ics`}>
+                <button class="button is-success"
+                    >Subscribe to Exec Meetings</button>
+            </a>
+        </p>
+        <p>
+            <a href={`webcal://thejcr.co.uk/calendar/meetings/council.ics`}>
+                <button class="button is-primary"
+                    >Subscribe to Council Meetings</button>
+            </a>
+        </p>
+        <p>
+            <a href={`webcal://thejcr.co.uk/calendar/meetings/open.ics`}>
+                <button class="button is-link"
+                    >Subscribe to Open Meetings</button>
+            </a>
+        </p>
+        <Calendar
+            events={meetings}
+            colors={{ exec: "#ad34cb", council: "#146A46", open: "#A28000" }}
+            type="listYear" />
+        <br />
     </Content>
 </PageHeader>

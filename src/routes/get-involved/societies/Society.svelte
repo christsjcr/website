@@ -139,6 +139,17 @@
                     {/each}
                 </ul>
             {/if}
+            <p>
+                <i>Last updated: {society.lastUpdated}</i>
+                <br />
+                <i
+                    >Something wrong?
+                    <a
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSfTnmDLCwVwiblfuTXfJzC64iIhH3ooZFJCkNIYG2p-Bn0wWg/viewform?usp=sf_link"
+                        >Update Info</a
+                    ></i>
+            </p>
+            <p />
         {/if}
     </div>
 
