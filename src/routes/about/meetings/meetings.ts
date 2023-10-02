@@ -71,7 +71,7 @@ export const meetings: Events<"exec" | "council" | "open"> = [
     },
     {
         description: "JCR Exec Meeting",
-        date: [year, 11, 28],
+        date: [year, 11, 25],
         time: [14, 30],
         duration: [1, 0],
         location: "Lloyd Room",
@@ -79,7 +79,7 @@ export const meetings: Events<"exec" | "council" | "open"> = [
     },
     {
         description: "JCR Open Meeting",
-        date: [year, 11, 28],
+        date: [year, 11, 25],
         time: [17, 0],
         duration: [1, 0],
         location: "Lloyd Room",
