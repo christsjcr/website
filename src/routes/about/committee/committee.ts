@@ -141,11 +141,11 @@ const categories: RoleCategory[] = [
             {
                 title: "Access Officer",
                 label: "Access",
-                name: "Yii-Ling Deng",
+                name: "Georgie Van Dyke",
                 pronouns: "she/her",
                 id: "access",
                 description:
-                    "Hey! I'm Yii-Ling, the Access Officer. My job is widening access and participation, working closely with the Admissions & Outreach department, prospective students and Christ's representatives, encouraging and supporting applicants in the admission process - especially those from under-represented and disadvantaged backgrounds. I'm focusing on making the 2023 Shadowing scheme run smoothly and enjoyably, developing the Bridging Course and collaborating with other JCR officers so that every aspect of access is covered for prospective and current students. My vision is to make more people realise that Cambridge is a possibility; a place they can thrive! Please drop me an email if you have any ideas/questions on anything related to access!",
+                    "Hi, I'm Georgie and I'm your Access Officer! I will be working with the JCR and the Admissions Team to continue developing outreach initiatives and widening participation events. I am really passionate about encouraging and supporting students from underrepresented backgrounds when applying to university and to Cambridge specifically. I want to help provide prospective students with enough information to know if Cambridge is right for them, regardless of their background. I'm looking forward to working on the SU Shadowing Scheme, collaborating with Access Officers from other Colleges and for getting lots of new CReps involved in different outreach initiatives this year. Please do get in contact if you have any questions or would like to get involved with anything I do!",
             },
             {
                 title: "Catering & Facilities Officer",
