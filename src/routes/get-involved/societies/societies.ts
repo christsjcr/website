@@ -98,13 +98,15 @@ export const societies: Society[] = [
         title: "Christian Union (joint with Sidney Sussex)",
         icon: "✝",
         description: "The Sidney-Christ's Christian Union is an outward-looking, open community of Christians who aim to reflect the love of Jesus within our college. Anyone and everyone is welcome as we explore what it means to be followers of Jesus.",
-        events: "Meetings have been on Saturdays 17:00-18:00 recently (i.e. in Lent 2022), but check the Instagram page / mailing list for any updates.",
+        events: "Our regular updates are provided via mailing list and WhatsApp group (please contact us to be added).",
         people: [
-            { name: "Sarah Clark", crsid: "sc2292" },
+            { name: "Lois Turner", crsid: "lt542" },
+            { name: "Pippa Wakelin", crsid: "prw43" },
         ],
         contact: {
             instagram: "sidchristscu",
-            register: "https://forms.gle/BYZBKsyZQTY6X4Y78",
+            facebook: "SidneyChristsCU",
+            website: { name: "christscu.soc.srcf.net", url: "https://christscu.soc.srcf.net/" },
         },
         status: "funded",
         type: "other",
