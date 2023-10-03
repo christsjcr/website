@@ -48,12 +48,10 @@
     <meta name="description" content={metaDescription} />
     <meta
         name="robots"
-        content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
-    />
+        content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
     <link
         rel="canonical"
-        href={`https://thejcr.co.uk${current === "/" ? "" : current}`}
-    />
+        href={`https://thejcr.co.uk${current === "/" ? "" : current}`} />
 </svelte:head>
 
 <div
@@ -61,8 +59,7 @@
     class="wrapper"
     class:black={titleSrc != null}
     class:large={size == "large"}
-    class:medium={size == "medium"}
->
+    class:medium={size == "medium"}>
     {#if background}
         {#if mounted}
             <div class="fill" class:showing={bgShowing}>
@@ -72,8 +69,7 @@
                     class="darkened"
                     width="2000"
                     height="875"
-                    use:bgload
-                />
+                    use:bgload />
             </div>
         {/if}
     {/if}
@@ -83,8 +79,7 @@
             alt={title}
             class="headerImg"
             use:fgload
-            class:showing={fgShowing}
-        />
+            class:showing={fgShowing} />
     {/if}
     {#if !titleSrc || (!fgShowing && smallDelay)}
         <div class="header">
@@ -94,7 +89,7 @@
 </div>
 
 <div class="container">
-    <div id="inner" class="mx-4 my-5" class:mx-5={$width >= tablet.min}>
+    <div id="inner" class="mx-4 m-5" class:mx-5={$width >= tablet.min}>
         <Breadcrumbs />
         {#if $$slots.description}
             <div class="content">

@@ -18,10 +18,9 @@
         </div>
         <div class="column is-one-third">
             <NotificationLink
-                href="/doc/termcard.pdf"
+                href="/get-involved/termcard"
                 title="Termcard 🗓"
-                content="See what's coming up this term on the official JCR termcard!"
-                external />
+                content="See what's coming up this term on the official JCR termcard!" />
         </div>
         <div class="column is-one-third">
             <NotificationLink

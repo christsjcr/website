@@ -60,9 +60,8 @@
                     label: "Freshers",
                 },
                 {
-                    route: "/doc/termcard.pdf",
+                    route: "/get-involved/termcard",
                     label: "Termcard",
-                    external: true,
                 },
                 {
                     route: "/get-involved/societies",
