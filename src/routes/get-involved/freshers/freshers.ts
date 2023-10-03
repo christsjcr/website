@@ -194,7 +194,7 @@ export const freshers: Events<"compulsory" | "optional"> = [
     {
         description: "JCR Respect & Consent Workshop",
         date: [year, 10, 3],
-        time: [10, 30],
+        time: [11, 30],
         duration: [2, 0],
         location: "Hamied Theatre",
         type: "compulsory",
