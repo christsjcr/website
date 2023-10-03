@@ -378,6 +378,126 @@ const resources: {
             },
         ],
     },
+    finance: {
+        title: "Finance",
+        sections: [
+            {
+                title: "Quick Links",
+                items: [
+                    {
+                        title: "College Grants and Awards",
+                        url: "https://intranet.christs.cam.ac.uk/college-grants-and-awards",
+                    },
+                    {
+                        title: "Cambridge SU Finance Page",
+                        url: "https://www.cambridgesu.co.uk/advice/information/finance/",
+                    },
+                    {
+                        title: "Christ's Financial Support for Home Students",
+                        url: "https://www.christs.cam.ac.uk/admissions/undergraduate-admissions/finances/financial-support-home-students",
+                    },
+                    {
+                        title: "Christ's Financial Support for Overseas Students",
+                        url: "https://www.christs.cam.ac.uk/international-students/financial-support",
+                    },
+                ],
+            },
+            {
+                title: "General",
+                items: [
+                    {
+                        title: "Flexible Grant 2023-24",
+                        url: "https://intranet.christs.cam.ac.uk/college-grants-and-awards",
+                        info: [
+                            "Every Christ's student is given a £1,200 grant for the duration of your degree",
+                            "You can withdraw up to £400 of this per academic year (this doesn't have to be all at once, you can send in multiple forms throughout the year)",
+                            "The Flexible Grant can be spent on a wide range of things (e.g. extra nights of accommodation in college; books relevant to your degree; extra curricular activities like sports or societies)",
+                            "The annual deadline for withdrawals is 30th June",
+                            "You can withdraw your grant using the application form on the page linked above",
+                        ],
+                    },
+                    {
+                        title: "Cambridge Bursary",
+                        url: "https://www.cambridgestudents.cam.ac.uk/cambridge-bursary",
+                        info: [
+                            "The University gives bursaries of varying sizes to any students with household income under £62,215 who has taken out a student loan",
+                            "No application is needed, as you will be automatically considered based on your Student Finance Application",
+                            "It is given in three installments, a few weeks into each term",
+                        ],
+                    },
+                ],
+            },
+            {
+                title: "Hardship",
+                items: [
+                    {
+                        title: "Christ's Contacts",
+                        url: "",
+                        info: [
+                            "If you are experiencing financial hardship or specific financial issues, please reach out to your **Tutor**",
+                            "There are a range of grants from which tutors can provide money to deal with any cases of hardship",
+                            "If you would like some advice on your situation and don't feel comfortable speaking to your personal Tutor, please reach out to either another Tutor or a JCR Officer (such as Welfare or Class Act), who will be happy to talk and offer guidance",
+                        ],
+                    },
+                    {
+                        title: "Cambridge SU",
+                        url: "https://www.cambridgesu.co.uk/advice/information/finance/",
+                        info: [
+                            "Cambridge SU has a useful page dedicated to resources for financial hardship, linked [here](https://www.cambridgesu.co.uk/advice/information/finance/)",
+                            "You can also contact the SU for advice through the [Student Advice Service](https://www.cambridgesu.co.uk/advice/student-advice-service/contact/)",
+                        ],
+                    },
+                ],
+            },
+            {
+                title: "Travel",
+                items: [
+                    {
+                        title: "Long Vacation Travel Grants",
+                        url: "https://intranet.christs.cam.ac.uk/college-grants-and-awards",
+                        info: [
+                            "There are many grants available for summer travel for all students",
+                            "You can apply to any applicable grants using a single form, linked on the intranet (link above)",
+                            "The deadline is typically around late April",
+                        ],
+                    },
+                    {
+                        title: "Easter Vacation Travel Grants",
+                        url: "https://intranet.christs.cam.ac.uk/college-grants-and-awards",
+                        info: [
+                            "There are 5 funds available to a small range of humanities degrees",
+                        ],
+                    },
+                ],
+            },
+            {
+                title: "Misc",
+                items: [
+                    {
+                        title: "Vacation Residence in College",
+                        url: "https://intranet.christs.cam.ac.uk/college-grants-and-awards",
+                        info: [
+                            "Support is available for students staying in the Long Vacation for academic reasons",
+                            "No specific funding for accomodation is available for the Easter or Christmas vacations (beyond the Flexible Grant)",
+                        ],
+                    },
+                    {
+                        title: "Other College Funding",
+                        url: "https://intranet.christs.cam.ac.uk/college-grants-and-awards",
+                        info: [
+                            "There are various other funds for specific causes, like sporting excellence, or furthering humanities' studies",
+                            "The Levy-Plumb Fund for Humanities can ve used for long vacation residence in college, language courses, research etc",
+                            "Apply via the form on the intranet page linked above",
+                        ],
+                    },
+                    {
+                        title: "Other External Awards and Grants",
+                        url: "https://intranet.christs.cam.ac.uk/information-other-awards-and-grants",
+                    },
+                ],
+            },
+        ],
+    },
 };
 
 export default resources;
