@@ -498,6 +498,24 @@ const resources: {
             },
         ],
     },
+    jcr: {
+        title: "JCR",
+        sections: [
+            {
+                title: "Quick Links",
+                items: [
+                    {
+                        title: "JCR Google Drive",
+                        url: "https://drive.google.com/drive/u/1/folders/0AGJZefgIZYQiUk9PVA",
+                    },
+                    {
+                        title: "Email Login Instructions",
+                        url: "https://docs.google.com/document/d/1B5sLX0fic28d83C9RmUXbpxEsV8sRdGaL9S18sHTVIk/edit?usp=drive_link",
+                    },
+                ],
+            },
+        ],
+    },
 };
 
 export default resources;
