@@ -144,9 +144,9 @@ export const freshers: Events<"compulsory" | "optional"> = [
     },
     {
         description: "LGBTQ+ Arts and Crafts (with Kas!)",
-        date: [year, 10, 2],
-        time: [16, 30],
-        duration: [1, 30],
+        date: [year, 10, 14],
+        time: [14, 0],
+        duration: [2, 0],
         location: "JCR",
         type: "optional",
     },
