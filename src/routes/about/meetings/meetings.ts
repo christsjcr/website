@@ -15,10 +15,10 @@ export const meetings: Events<"exec" | "council" | "open"> = [
     },
     {
         description: "JCR Exec Meeting",
-        date: [year, 10, 14],
-        time: [17, 0],
+        date: [year, 10, 15],
+        time: [15, 0],
         duration: [1, 0],
-        location: "Lloyd Room",
+        location: "N5",
         type: "exec",
     },
     {
