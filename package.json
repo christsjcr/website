@@ -45,7 +45,7 @@
     "@creativebulma/bulma-tooltip": "^1.2.0",
     "@fortawesome/fontawesome-svg-core": "1.2",
     "@fortawesome/free-brands-svg-icons": "5",
-    "@fortawesome/free-solid-svg-icons": "5",
+    "@fortawesome/free-solid-svg-icons": "6",
     "bulma-switch": "^2.0.4",
     "fontawesome-svelte": "^2.0.1",
     "ics": "^2.40.0",
