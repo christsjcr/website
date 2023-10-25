@@ -20,7 +20,7 @@
     "@event-calendar/time-grid": "^0.18.1",
     "@sveltejs/adapter-static": "^1.0",
     "@sveltejs/kit": "^1.15",
-    "@types/luxon": "^3.3.2",
+    "@types/luxon": "^3.3.3",
     "@typescript-eslint/eslint-plugin": "^5.10.1",
     "@typescript-eslint/parser": "^5.10.1",
     "bulma": "^0.9.3",
