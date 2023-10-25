@@ -311,13 +311,15 @@ export const societies: Society[] = [
     },
     {
         title: "Boat Club (Rowing)", icon: "🚣",
+        description: "The college club for Cambridge's most iconic sport!",
         people: [
-            { name: "Alexander Holmes", crsid: "ajh298" },
-            { name: "Georgia Denham", crsid: "gd472" },
+            { name: "John Thompson", crsid: "jat93" },
+            { name: "Becky Wake", crsid: "rw712" },
         ],
+        contact: { website: { name: "Boat Club Website", url: "http://christscollegeboatclub.co.uk/" } },
         type: "mixed sport",
         status: "independent",
-        lastUpdated: "2022",
+        lastUpdated: "Oct 2023",
     },
     {
         title: "Climbing Club", icon: "🧗‍♀️",
