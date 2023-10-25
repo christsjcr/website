@@ -58,11 +58,6 @@ To upgrade dependencies, use `yarn upgrade-interactive` to select the packages y
 
 ### I don't understand the code, and I'm feeling overwhelmed
 
-You should read / watch / do the following:
-
-, and then "Introduction", "Routing", and "Stores" from Part 3.
-
-
 The website was created from scratch using:
  - [Typescript](https://www.typescriptlang.org/) - language
    - [Node.js Wikipedia](https://en.wikipedia.org/wiki/Node.js) - first paragraph
@@ -79,8 +74,6 @@ The website was created from scratch using:
  - [Bulma](https://bulma.io/) - because compscis can't design UIs
    - [Docs](https://bulma.io/documentation/)
  - [SCSS](https://sass-lang.com/documentation/syntax) - superpowered CSS, makes responsiveness and theming a bit easier
-
-Taking a look at each of these things in isolation should 
 
 ### Why Static?
 
