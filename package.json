@@ -48,7 +48,7 @@
     "@fortawesome/free-solid-svg-icons": "5",
     "bulma-switch": "^2.0.4",
     "fontawesome-svelte": "^2.0.1",
-    "ics": "^2.40.0",
+    "ics": "^3.5.0",
     "luxon": "^3.4.3",
     "svelte-markdown": "^0.2.1",
     "title-case": "^3.0"
