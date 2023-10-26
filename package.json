@@ -14,10 +14,10 @@
     "menu": "npx tsx scripts/menu.ts"
   },
   "devDependencies": {
-    "@event-calendar/core": "^0.18.1",
-    "@event-calendar/day-grid": "^0.18.1",
-    "@event-calendar/list": "^0.18.1",
-    "@event-calendar/time-grid": "^0.18.1",
+    "@event-calendar/core": "^2.4",
+    "@event-calendar/day-grid": "^2.4",
+    "@event-calendar/list": "^2.4",
+    "@event-calendar/time-grid": "^2.4",
     "@sveltejs/adapter-static": "^1.0",
     "@sveltejs/kit": "^1.15",
     "@types/luxon": "^3.3.3",

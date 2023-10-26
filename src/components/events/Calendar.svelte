@@ -57,7 +57,7 @@
 </div>
 
 <style>
-    :global(.freshers-calendar .ec-time) {
+    :global(.freshers-calendar .ec-body .ec-time) {
         height: 36px;
     }
     :global(.freshers-calendar .ec-line) {
