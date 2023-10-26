@@ -12,14 +12,18 @@
     class:is-centered={$width <= tablet.max}
     class:is-fullwidth={$width <= tablet.max}>
     <ul>
+        <!-- svelte-ignore a11y-no-noninteractive-element-to-interactive-role -->
         <li
+            role="button"
             class:is-active={today}
             on:click={() => (today = true)}
             on:keypress={() => (today = true)}>
             <!-- svelte-ignore a11y-missing-attribute -->
-            <a rel="external">Today</a>
+            <a role="none" rel="external">Today</a>
         </li>
+        <!-- svelte-ignore a11y-no-noninteractive-element-to-interactive-role -->
         <li
+            role="button"
             class:is-active={!today}
             on:click={() => (today = false)}
             on:keypress={() => (today = false)}>

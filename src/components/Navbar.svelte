@@ -78,11 +78,7 @@
                     <span style="color:white" aria-hidden="true" />
                 </button>
             </div>
-            <div
-                class="navbar-menu"
-                class:is-active={expanded}
-                on:click={() => (expanded = false)}
-                on:keypress={() => (expanded = false)}>
+            <div class="navbar-menu" class:is-active={expanded}>
                 <div class="navbar-end">
                     {#each layout as parent}
                         {#if parent.children?.length}
@@ -92,7 +88,8 @@
                                     class:is-active={active(parent)}
                                     class:has-text-white={!expanded}
                                     href={parent.route}
-                                    target={parent.external ? "_blank" : ""}>
+                                    target={parent.external ? "_blank" : ""}
+                                    on:click={() => (expanded = false)}>
                                     <b>{parent.label}</b>
                                 </a>
 
@@ -110,7 +107,8 @@
                                             href={child.route}
                                             target={child.external
                                                 ? "_blank"
-                                                : ""}>
+                                                : ""}
+                                            on:click={() => (expanded = false)}>
                                             {child.label}
                                         </a>
                                     {/each}
@@ -121,7 +119,8 @@
                                 class="navbar-item"
                                 class:is-active={active(parent)}
                                 class:has-text-white={!expanded}
-                                href={parent.route}>
+                                href={parent.route}
+                                on:click={() => (expanded = false)}>
                                 <b>{parent.label}</b>
                             </a>
                         {/if}
