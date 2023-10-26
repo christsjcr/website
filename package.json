@@ -14,7 +14,7 @@
     "menu": "npx tsx scripts/menu.ts"
   },
   "devDependencies": {
-    "@event-calendar/core": "^0.18.1",
+    "@event-calendar/core": "^2.4.1",
     "@event-calendar/day-grid": "^0.18.1",
     "@event-calendar/list": "^0.18.1",
     "@event-calendar/time-grid": "^0.18.1",
