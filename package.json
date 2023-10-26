@@ -8,7 +8,7 @@
     "postbuild": "npx svelte-sitemap --domain https://thejcr.co.uk --change-freq weekly",
     "package": "svelte-kit package",
     "preview": "vite preview",
-    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "check": "svelte-check --tsconfig ./tsconfig.json --fail-on-warnings",
     "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
     "lint": "eslint --ignore-path .gitignore .",
     "menu": "npx tsx scripts/menu.ts"
@@ -20,7 +20,7 @@
     "@event-calendar/time-grid": "^0.18.1",
     "@sveltejs/adapter-static": "^1.0",
     "@sveltejs/kit": "^1.15",
-    "@types/luxon": "^3.3.2",
+    "@types/luxon": "^3.3.3",
     "@typescript-eslint/eslint-plugin": "^5.10.1",
     "@typescript-eslint/parser": "^5.10.1",
     "bulma": "^0.9.3",
@@ -36,9 +36,9 @@
     "svelte-preprocess": "^4.9.8",
     "svelte-sitemap": "^2.4.0",
     "tslib": "^2.3.1",
-    "tsx": "^3.12.10",
+    "tsx": "^3.14.0",
     "typescript": "^4.4.3",
-    "vite": "^4.0.1"
+    "vite": "^4.5.0"
   },
   "type": "module",
   "dependencies": {
@@ -48,7 +48,7 @@
     "@fortawesome/free-solid-svg-icons": "5",
     "bulma-switch": "^2.0.4",
     "fontawesome-svelte": "^2.0.1",
-    "ics": "^2.40.0",
+    "ics": "^3.5.0",
     "luxon": "^3.4.3",
     "svelte-markdown": "^0.2.1",
     "title-case": "^3.0"
