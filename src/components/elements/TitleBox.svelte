@@ -1,6 +1,6 @@
 <script lang="ts">
     import { faInfoCircle } from "@fortawesome/free-solid-svg-icons";
-    import { FontAwesomeIcon } from "fontawesome-svelte";
+    import Fa from "svelte-fa";
 
     export let header: string;
     export let alongside: string = "";
@@ -21,7 +21,7 @@
                 {alongside}
                 {#if infoLink}
                     <span class="icon is-small ml-2">
-                        <FontAwesomeIcon icon={faInfoCircle} />
+                        <Fa icon={faInfoCircle} />
                     </span>
                 {/if}
             </a>

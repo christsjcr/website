@@ -1,6 +1,6 @@
 <script lang="ts">
     import type { Society } from "./societies";
-    import { FontAwesomeIcon } from "fontawesome-svelte";
+    import Fa from "svelte-fa";
     import {
         faInstagram,
         faFacebook,
@@ -173,7 +173,7 @@
                         target="_blank"
                         rel="noreferrer">
                         <span class="icon">
-                            <FontAwesomeIcon icon={faUserPlus} size="1x" />
+                            <Fa icon={faUserPlus} size="1x" />
                         </span>
                         <p class="heading">Register Interest</p>
                     </a>
@@ -187,7 +187,7 @@
                         target="_blank"
                         rel="noreferrer">
                         <span class="icon">
-                            <FontAwesomeIcon icon={faInstagram} size="0.5x" />
+                            <Fa icon={faInstagram} size="0.5x" />
                         </span>
                         <p class="heading">
                             @{society.contact.instagram}
@@ -203,7 +203,7 @@
                         target="_blank"
                         rel="noreferrer">
                         <span class="icon">
-                            <FontAwesomeIcon icon={faFacebook} size="1x" />
+                            <Fa icon={faFacebook} size="1x" />
                         </span>
                         <p class="heading">
                             @{society.contact.facebook}
@@ -219,7 +219,7 @@
                         target="_blank"
                         rel="noreferrer">
                         <span class="icon">
-                            <FontAwesomeIcon icon={faFacebook} size="1x" />
+                            <Fa icon={faFacebook} size="1x" />
                         </span>
                         <p class="heading">Facebook Group</p>
                     </a>
@@ -232,9 +232,7 @@
                         target="_blank"
                         rel="noreferrer">
                         <span class="icon">
-                            <FontAwesomeIcon
-                                icon={faFacebookMessenger}
-                                size="1x" />
+                            <Fa icon={faFacebookMessenger} size="1x" />
                         </span>
                         <p class="heading">Messenger</p>
                     </a>
@@ -247,7 +245,7 @@
                         target="_blank"
                         rel="noreferrer">
                         <span class="icon">
-                            <FontAwesomeIcon icon={faWhatsapp} size="1x" />
+                            <Fa icon={faWhatsapp} size="1x" />
                         </span>
                         <p class="heading">WhatsApp</p>
                     </a>
@@ -260,7 +258,7 @@
                         target="_blank"
                         rel="noreferrer">
                         <span class="icon">
-                            <FontAwesomeIcon icon={faEnvelope} size="1x" />
+                            <Fa icon={faEnvelope} size="1x" />
                         </span>
                         <p class="heading">
                             {society.contact.email}
@@ -275,7 +273,7 @@
                         target="_blank"
                         rel="noreferrer">
                         <span class="icon">
-                            <FontAwesomeIcon icon={faGlobe} size="1x" />
+                            <Fa icon={faGlobe} size="1x" />
                         </span>
                         <p class="heading">
                             {society.contact.website.name}

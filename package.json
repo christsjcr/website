@@ -43,13 +43,13 @@
   "type": "module",
   "dependencies": {
     "@creativebulma/bulma-tooltip": "^1.2.0",
-    "@fortawesome/fontawesome-svg-core": "1.2",
-    "@fortawesome/free-brands-svg-icons": "5",
-    "@fortawesome/free-solid-svg-icons": "5",
+    "@fortawesome/fontawesome-svg-core": "6.4.2",
+    "@fortawesome/free-brands-svg-icons": "6.4.2",
+    "@fortawesome/free-solid-svg-icons": "6.4.2",
     "bulma-switch": "^2.0.4",
-    "fontawesome-svelte": "^2.0.1",
     "ics": "^3.5.0",
     "luxon": "^3.4.3",
+    "svelte-fa": "^3.0.4",
     "svelte-markdown": "^0.4.0",
     "title-case": "^4.1.2"
   },
