@@ -26,6 +26,7 @@
     };
 
     let options = {
+        allDaySlot: false,
         view: type,
         events: events.map((x) => ({
             start: getStart(x),
