@@ -52,7 +52,7 @@ Next, run `yarn menu`. This should open a login window - once you have logged in
 
 ## Upgrading Dependencies
 
-To upgrade dependencies, use `yarn upgrade-interactive` to select the packages you want to upgrade. You should do this frequently (at least once a term), to prevent lots of small, breaking changes from accumulating and making it hard to tell what went wrong.
+To upgrade dependencies, use `yarn upgrade-interactive --latest` to select the packages you want to upgrade. You should do this frequently (at least once a term), to prevent lots of small, breaking changes from accumulating and making it hard to tell what went wrong.
 
 ## Ramblings
 

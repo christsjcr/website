@@ -18,7 +18,7 @@
         faInfoCircle,
         faUserPlus,
     } from "@fortawesome/free-solid-svg-icons";
-    import { FontAwesomeIcon } from "fontawesome-svelte";
+    import Fa from "svelte-fa";
     import WidthUpdater from "$components/WidthUpdater.svelte";
     import TrackedLink from "$components/elements/TrackedLink.svelte";
 
@@ -71,11 +71,6 @@
                     route: "/get-involved/feedback",
                     label: "Feedback",
                 },
-                {
-                    route: "https://docs.google.com/spreadsheets/d/14Qti74nuVV0V03_281T_Je5p2LZccf4FQiKxXRwvWQY/edit?usp=sharing",
-                    label: "Lost & Found",
-                    external: true,
-                },
             ],
         },
         {
@@ -121,7 +116,7 @@
                         id="instagram"
                         external>
                         <span class="icon is-large">
-                            <FontAwesomeIcon icon={faInstagram} size="2x" />
+                            <Fa icon={faInstagram} size="2x" />
                         </span>
                         <p class="heading">@christsjcr</p>
                     </TrackedLink>
@@ -132,7 +127,7 @@
                         id="facebook"
                         external>
                         <span class="icon is-large">
-                            <FontAwesomeIcon icon={faFacebook} size="2x" />
+                            <Fa icon={faFacebook} size="2x" />
                         </span>
                         <p class="heading">@ChristsJCR</p>
                     </TrackedLink>

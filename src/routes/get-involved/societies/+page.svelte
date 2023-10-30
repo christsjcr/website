@@ -4,6 +4,7 @@
     import PageHeader from "$components/PageHeader.svelte";
     import SocietyCard from "./Society.svelte";
     import { societies, type Society } from "./societies";
+    import NotificationLink from "$components/elements/NotificationLink.svelte";
 
     function copy(society: Society): Society & { search: string } {
         return {
@@ -61,30 +62,33 @@
     current="/get-involved/societies"
     title="Societies"
     size="small"
-    metaDescription="Resources for undergraduate students of Christ's College, Cambridge.">
+    metaDescription="A complete list of student societies at Christ's College, Cambridge.">
     <Content>
         <blockquote>
             <p>
                 Clubs and societies are typically open to all Christ's students
                 (undergraduates and postgraduates), and membership is always
                 free. Some clubs and societies may charge for tickets at certain
-                optional events. The JCR oversees all activities by clubs,
-                including their financial conduct, and encourages them to engage
-                with new members. The JCR is also the ultimate owner of all
-                property held by clubs and societies that are part of the
-                Amalgamated Clubs. Any queries about clubs and societies can be
+                optional events. Any queries about clubs and societies can be
                 directed to JCR Officers, as well as club/society leaders
                 themselves.
             </p>
-            <p>
-                Is information about your society incorrect or out-of-date? Fill
-                in the <a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSfTnmDLCwVwiblfuTXfJzC64iIhH3ooZFJCkNIYG2p-Bn0wWg/viewform?usp=sf_link"
-                    target="_blank"
-                    rel="noreferrer">society update form</a
-                >.
-            </p>
         </blockquote>
+        <div class="columns mt-2">
+            <div class="column">
+                <NotificationLink
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSfTnmDLCwVwiblfuTXfJzC64iIhH3ooZFJCkNIYG2p-Bn0wWg/viewform?usp=sf_link"
+                    title="Update Society Info 🔄"
+                    content="Is information about your society incorrect or out-of-date? Fill in the society update form."
+                    external />
+            </div>
+            <div class="column">
+                <NotificationLink
+                    href="/get-involved/societies/create"
+                    title="Create a Society 🎭"
+                    content="Want to join a society that doesn't exist? Get information about how to set up and run new one." />
+            </div>
+        </div>
     </Content>
     <br />
     <Content hasText={false}>
