@@ -19,7 +19,7 @@
     size="large"
     home>
     <div slot="description">
-        Christ's JCR is the undergraduate student body at Christ's College,
+        Christ's JCR is the undergraduate student union at Christ's College,
         Cambridge. We are your student-elected Committee, representing your
         interests to help you make the most of your time here!
     </div>
