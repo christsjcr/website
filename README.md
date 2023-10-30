@@ -38,9 +38,17 @@ Currently, the site is statically hosted on GitHub Pages. To streamline the depl
 
 To trigger the update process, simply create a pull request to merge the `main` branch into `production`, merge it, and then wait a few minutes for the changes to be reflected in production. 
 
-## Lighthouse
+## API
 
-To ensure good production performance, you should evaluate new / substantially changed pages using [Google Lighthouse](https://en.wikipedia.org/wiki/Google_Lighthouse).
+The site also uses an API, notably for the anonymous feedback form. The name is currently "Members Website" to reflect that it could be used as an intranet-style login-protected site, but it could probably be changed to "API" if there's a slim chance of that happening.
+
+Source: https://github.com/christsjcr/members-website
+
+## SEO
+
+To ensure that the website is easily searchable, you should periodically check the [Google Search Console](https://search.google.com/search-console?resource_id=sc-domain%3Athejcr.co.uk) and [Bing Webmaster Tools](https://www.bing.com/webmasters) for issues.
+
+You should also evaluate the performance and accessibility of new / substantially changed pages using [Google Lighthouse](https://en.wikipedia.org/wiki/Google_Lighthouse).
  - `yarn global add lighthouse`
  - e.g. `npx lighthouse https://thejcr.co.uk --view` (this will create an html file each time the command is run)
 
