@@ -11,7 +11,7 @@
     current="/"
     title="Christ's JCR"
     titleSrc="/img/logo_big.webp"
-    metaDescription="Christ's JCR is the undergraduate student union at Christ's College, Cambridge."
+    metaDescription="Christ's JCR is the undergraduate student union of Christ's College, Cambridge."
     background={{
         src: "/img/home.webp",
         alt: "Christ's College Second Court",
@@ -19,7 +19,7 @@
     size="large"
     home>
     <div slot="description">
-        Christ's JCR is the undergraduate student union at Christ's College,
+        Christ's JCR is the undergraduate student union of Christ's College,
         Cambridge. We are your student-elected Committee, representing your
         interests to help you make the most of your time here!
     </div>
