@@ -274,18 +274,19 @@ export const societies: Society[] = [
     },
     {
         title: "Wine Society", icon: "🍷",
-        description: "Wine Society organises tastings each term for everyone from beginners to veterans of the wine world. Expect blind and regional tastings throughout the year for a subsidised price and the chance to explore different wines from across the globe!",
+        description: "Beginner-friendly and affordable blind wine tastings.",
+        events: "Meetings every two weeks.",
+        interested: "Follow the instagram.",
         people: [
-            { name: "Sam Grankin", crsid: "spg34" },
+            { name: "Kirsty Falconer", crsid: "kff24" },
         ],
         contact: {
+            instagram: "christswinesoc",
             facebook: "christswinesociety",
-            register: "https://docs.google.com/forms/d/e/1FAIpQLSfQd1NZsAQBhCm2uPVTv416_zjGMT5NN38YQkV5aCHcfuP97w/viewform",
-            email: "christswine@gmail.com",
         },
         status: "funded",
         type: "other",
-        lastUpdated: "2022",
+        lastUpdated: "Oct 2023",
     },
     {
         title: "Badminton Club", icon: "🏸",

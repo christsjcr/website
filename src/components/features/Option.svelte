@@ -6,6 +6,6 @@
 </script>
 
 {option.title}
-{#if showAllergies && option.allergies}
+{#if showAllergies && option.allergies && option.allergies.length}
     <span class="has-text-grey">({option.allergies.join(", ")})</span>
 {/if}

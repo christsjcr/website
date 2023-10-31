@@ -15,6 +15,7 @@
     } from "@fortawesome/free-solid-svg-icons";
     import Tag from "./Tag.svelte";
     import Markdown from "$components/markdown/Markdown.svelte";
+    import ExternalLink from "$components/markdown/ExternalLink.svelte";
 
     export let society: Society;
     let expanded = false;
@@ -139,16 +140,6 @@
                     {/each}
                 </ul>
             {/if}
-            <p>
-                <i>Last updated: {society.lastUpdated}</i>
-                <br />
-                <i
-                    >Something wrong?
-                    <a
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSfTnmDLCwVwiblfuTXfJzC64iIhH3ooZFJCkNIYG2p-Bn0wWg/viewform?usp=sf_link"
-                        >Update Info</a
-                    ></i>
-            </p>
             <p />
         {/if}
     </div>
@@ -187,7 +178,7 @@
                         target="_blank"
                         rel="noreferrer">
                         <span class="icon">
-                            <Fa icon={faInstagram} size="0.5x" />
+                            <Fa icon={faInstagram} size="1x" />
                         </span>
                         <p class="heading">
                             @{society.contact.instagram}
@@ -284,12 +275,24 @@
         </div>
     {/if}
     {#if expanded}
-        <a
-            rel="external"
-            href={null}
-            on:click={() => {
-                expanded = false;
-                return false;
-            }}>See less</a>
+        <div class="columns is-mobile is-vcentered">
+            <div class="column is-narrow">
+                <a
+                    rel="external"
+                    href={null}
+                    on:click={() => {
+                        expanded = false;
+                        return false;
+                    }}>See less</a>
+            </div>
+            <div class="column has-text-centered mr-2">
+                <i>Updated {society.lastUpdated}</i>
+            </div>
+            <div class="column has-text-right is-narrow ml-5">
+                <ExternalLink
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSfTnmDLCwVwiblfuTXfJzC64iIhH3ooZFJCkNIYG2p-Bn0wWg/viewform?usp=sf_link"
+                    >Edit</ExternalLink>
+            </div>
+        </div>
     {/if}
 </div>
