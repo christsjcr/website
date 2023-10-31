@@ -48,7 +48,10 @@
         <div class="column is-two-thirds-desktop">
             <UpperHallMenu />
         </div>
-        <div class="column is-one-third{$width > desktop.min ? ' pt-4' : ''}">
+        <div
+            class="column is-one-third-desktop {$width > desktop.min
+                ? 'pt-4'
+                : 'px-5'}">
             {#if $width > desktop.min}
                 <br />
                 <br />
