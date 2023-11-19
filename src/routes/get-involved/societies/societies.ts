@@ -59,9 +59,11 @@ export const societies: Society[] = [
         type: "other",
         status: "funded",
         people: [
-            { name: "Ariel Hebditch", crsid: "ah2203" },
+            { name: "Luke Tay", crsid: "lwlt2" },
+            { name: "Benjamin Knight", crsid: "bbk23" },
+            { name: "Dora Chen", crsid: "zc366" },
         ],
-        lastUpdated: "2022",
+        lastUpdated: "Nov 2023",
     },
     {
         title: "Bookworms", icon: "📚",
@@ -90,7 +92,7 @@ export const societies: Society[] = [
         events: "The CADS committee meets regularly, and is always looking for new committee members. ",
         interested: "Any student interested in drama and eager to bring more theatre to Christ's can email using the address below.",
         people: [
-            { name: "Daniel Pereira", crsid: "dlo30" },
+            { name: "Ariel Hebditch", crsid: "ah2203" },
         ],
         status: "independent",
         type: "other",
@@ -99,7 +101,7 @@ export const societies: Society[] = [
             instagram: "christsamdramsoc",
             email: "christsamdram@cambridgesu.co.uk",
         },
-        lastUpdated: "2022",
+        lastUpdated: "Nov 2023",
     },
     {
         title: "Christian Union (joint with Sidney Sussex)",
@@ -196,11 +198,11 @@ export const societies: Society[] = [
         title: "Law Society", icon: "⚖",
         description: "Christ's Law Society is open to all Christ's students with an interest in Law, whether or not they study it in their degree. It offers a variety of events throughout the year, including talks, dinners and socials.",
         people: [
-            { name: "Rachel Adkins", crsid: "rka33" },
+            { name: "Charlotte Westwood", crsid: "cw802" },
         ],
         type: "subject",
         status: "funded",
-        lastUpdated: "2022",
+        lastUpdated: "Nov 2023",
     },
     {
         title: "Maths Society", icon: "📊",
