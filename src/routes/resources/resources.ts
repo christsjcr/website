@@ -15,7 +15,7 @@ const resources: {
                     },
                     {
                         title: "Tutor Timetable",
-                        url: "https://intranet.christs.cam.ac.uk/system/files/2023-01/2022-23%20Undergraduate%20Open%20Tutorial%20Hours%20%20LT23_0.pdf",
+                        url: "https://intranet.christs.cam.ac.uk/system/files/2023-10/2023-24%20Undergraduate%20Open%20Tutorial%20Hours_0.pdf",
                     },
                     {
                         title: "Camcard Balance",
@@ -190,7 +190,7 @@ const resources: {
                         url: "https://alumni.christs.cam.ac.uk/ccc-list",
                         info: [
                             "Access a list of Christ's Alumni",
-                            "Use these [account details](https://drive.google.com/file/d/1JvrxnPYMEckx_guP1zNc3uO9I_qlGOUx/view?usp=sharing) to login (Christ's Undergrads only)",
+                            "Use these [account details](https://drive.google.com/file/d/1uGR_BrL7kvHU0iMnjfRpKJr0jBf09a9d/view?usp=sharing) to login (Christ's Undergrads only)",
                         ],
                     },
                 ],
@@ -209,7 +209,7 @@ const resources: {
                     },
                     {
                         title: "Tutor Timetable",
-                        url: "https://intranet.christs.cam.ac.uk/system/files/2023-01/2022-23%20Undergraduate%20Open%20Tutorial%20Hours%20%20LT23_0.pdf",
+                        url: "https://intranet.christs.cam.ac.uk/system/files/2023-10/2023-24%20Undergraduate%20Open%20Tutorial%20Hours_0.pdf",
                         info: [
                             "Shows walk-in / contact hours for tutors",
                             "It is best to visit your own tutor if possible, but you can always see any Tutor without an appointment",
@@ -220,7 +220,7 @@ const resources: {
                         title: "JCR Welfare Officers",
                         url: "/about/committee#welfare-officers",
                         info: [
-                            "You can contact Julen + Olivia by their emails, which can be found on the [committee page](/about/committee).",
+                            "You can contact Zain + Chris by their emails, which can be found on the [committee page](/about/committee).",
                             "You can also DM them on the [@ChristsWelfare](https://www.instagram.com/christswelfare/) instagram page, if you'd prefer.",
                         ],
                     },
@@ -400,6 +400,10 @@ const resources: {
                         title: "Christ's Financial Support for Overseas Students",
                         url: "https://www.christs.cam.ac.uk/international-students/financial-support",
                     },
+                    {
+                        title: "Christ's JCR Unified Funding Request Form 2024",
+                        url: "https://docs.google.com/forms/d/e/1FAIpQLSf9hatciSfMqo-IH1Vmok2X1MtLizfOlMmk8RViTpVp-dDmzg/viewform?usp=sf_link",
+                    },
                 ],
             },
             {
@@ -407,7 +411,7 @@ const resources: {
                 items: [
                     {
                         title: "Flexible Grant 2023-24",
-                        url: "https://intranet.christs.cam.ac.uk/college-grants-and-awards",
+                        url: "https://forms.office.com/e/kYUFX14fRm",
                         info: [
                             "Every Christ's student is given a £1,200 grant for the duration of your degree",
                             "You can withdraw up to £400 of this per academic year (this doesn't have to be all at once, you can send in multiple forms throughout the year)",
@@ -466,6 +470,20 @@ const resources: {
                         url: "https://intranet.christs.cam.ac.uk/college-grants-and-awards",
                         info: [
                             "There are 5 funds available to a small range of humanities degrees",
+                        ],
+                    },
+                ],
+            },
+            {
+                title: "JCR",
+                items: [
+                    {
+                        title: "Unified JCR Funding Form 2024",
+                        url: "https://docs.google.com/forms/d/e/1FAIpQLSf9hatciSfMqo-IH1Vmok2X1MtLizfOlMmk8RViTpVp-dDmzg/viewform?usp=sf_link",
+                        info: [
+                            "The JCR supports the financing of various college activities and amenities",
+                            "All expenditure eligible for reimbursement from the JCR e.g. college society activities, JCR committee spendings and other subsidies can be claimed through the form linked above",
+                            "This includes the Free Prescription Scheme that provides support for students who need to pay for their medications",
                         ],
                     },
                 ],

@@ -6,19 +6,11 @@ const categories: RoleCategory[] = [
         items: [
             {
                 title: "President",
-                name: "Ossie Visick",
-                pronouns: "he/him",
+                name: "Isabelle Mohammed",
+                pronouns: "she/her",
                 id: "president",
                 description:
-                    "Hello! I'm Ossie, Christ's JCR President for 2023. I am the principal undergraduate representative in college and I am responsible for overseeing the JCR's activities. This year, my plans are to negotiate with college to mitigate rent rises, secure more study space for students, reform the scholars' system and look at alternative ways for heating the college pool. I am working closely with all officers on the JCR to make student representation as effective as it can be. Please get in touch if you have any questions or any concerns that you wish to discuss!",
-            },
-            {
-                title: "Vice President",
-                name: "Christina Lawrence",
-                pronouns: "she/her",
-                id: "vicepresident",
-                description:
-                    "Hi, I'm Christina, your Vice-President and I am so excited to continue my work on the JCR this year. I hope to learn more about the challenges facing Christ's students so that we can make changes both in college and at a university level. Alongside this, I have my own projects that I am excited to continue such as: organising more themed formals (hopefully with a charity focus), improving the freshers' room allocation form and coordinating more inter-college events. Please feel free to email me with any questions or queries about student life at Christ's!",
+                    "Hi! I’m Isabelle and I’m your JCR President for 2024. I act as the bridge between the college and the undergraduate body, advocating on behalf of students and supporting our amazing JCR committee. My role sees me represent students on various committees, collaborate with the MCR and most importantly listen to any concerns students may have. My goal is ensure that the college remains a welcoming environment for all, and that students here feel as happy studying and living at Christ’s as possible. Some of my aims as President include working with college to solve the international student storage problem, offering JCR subsidies for bicycle safety and potentially introducing air fryers into kitchenettes. Please feel free to drop me an email if you have any concerns! You can also find me around college taking pictures of Finch and Baines or in the buttery enjoying a hot chocolate, so if you have any questions I am always happy to help!",
             },
             {
                 title: "Treasurer",
@@ -26,7 +18,7 @@ const categories: RoleCategory[] = [
                 pronouns: "he/him",
                 id: "treasurer",
                 description:
-                    "Hi! I'm Skyler, the JCR's Treasurer for 2023. I'm responsible for the JCR's financial management as well as the funding of more than 30 student societies. I'm excited to be continuing the work of our previous treasurer through our successful Free Prescription Scheme, and I'm working on establishing better financial analytics tools and archival measures to help our current and future JCRs to continue these schemes. Continuing my previous work with the JCR, I'm taking on some of Christ's longest standing student enquiries with thorough financing considerations; the next project is getting better access to punts for Christ's students!",
+                    "Hi! I'm Skyler, the JCR's Treasurer for 2024. I'm responsible for the JCR's financial management as well as the funding of more than 30 student societies. I'm excited to be continuing the work of our previous treasurer through our successful Free Prescription Scheme, and I'm working on establishing better financial analytics tools and archival measures to help our current and future JCRs to continue these schemes. Continuing my previous work with the JCR, I'm taking on some of Christ's longest standing student enquiries with thorough financing considerations; the next project is refurbishing the JCR!",
             },
             {
                 title: "Secretary",
@@ -43,21 +35,21 @@ const categories: RoleCategory[] = [
         items: [
             {
                 title: "Welfare Officer",
-                label: "Julen",
-                name: "Julen Lippman-Errasti",
+                label: "Zain",
+                name: "Zain Ali",
                 pronouns: "he/him",
                 id: "welfare-m",
                 description:
-                    "Hi, I'm Julen, your Male/Non-Binary Welfare Officer! Alongside Olivia, I'll be working to expand the college social spaces as well as running inclusive, relaxed events throughout term to help students take their minds off work, like weekly Welfare Walks. I'll work with other members of the JCR committee to make sure students feel welcome and safe around college, and to help the incoming freshers settle in. Please send me an email or message @ChristsWelfare on Instagram if you have any questions or want a chat!",
+                    "Hi, I'm Zain, your welfare officer alongside Chris! I'm excited to work with the student community to promote wellbeing and inclusivity around college. As your welfare officer, I aim to be a friendly point of contact for anyone needing support. Chris and I will be organizing fun college events like movie and karaoke nights to help students relax. Additionally, I'll collaborate with other members of the JCR committee and college administration to ensure students feel safe and welcome at Christ’s. My goal is for our college to be a warm, accepting place for everyone. Please feel free to reach out by email or Instagram (@ChristsWelfare) if you ever want to talk or have any questions or concerns!",
             },
             {
                 title: "Welfare Officer",
-                label: "Olivia",
-                name: "Olivia Moynihan",
-                pronouns: "she/her",
+                label: "Chris",
+                name: "Christopher Lorde",
+                pronouns: "he/they/she",
                 id: "welfare-f",
                 description:
-                    "Hi, I'm Olivia, your Female/Non-Binary Welfare Officer! This year, I hope to ensure that Christ's is a supportive and welcoming environment for all students by being an approachable point of contact and liaising with college to ensure that their decisions are in the best interests of students' welfare. I'll be working with Julen to organise a plethora of welfare events throughout the year, and I'm also designing a welfare handbook for incoming freshers to support their transition to university. Feel free to get in touch via email or on the @ChristsWelfare Instagram if you have any queries or concerns, or just want to chat!",
+                    "Hey! I'm Chris, one of your two Welfare Officers this year! This year, I'm hoping to organise a variety of fun activities & initiatives with Zain to foster community and make sure Christ's feels like a welcoming home away from home for students new and old. I also want to work with the rest of the JCR to make sure that the college is acting in the best interests of the student body, by providing an open ear for any concerns & advocating on your behalf. Zain and I are here for any concerns you may have - no issue, question, or concern is too large or too small to chat about. If you're looking for a chat, have a question, need help with anything, or are just looking for resources, you can get in touch via the @ChristsWelfare Instagram or send over an email! :)",
             },
         ],
     },
@@ -65,22 +57,13 @@ const categories: RoleCategory[] = [
         category: "Events",
         items: [
             {
-                title: "Events Officer (Ents)",
-                label: "Ents",
-                name: "Neha Pauly",
-                pronouns: "she/her",
-                id: "ents",
-                description:
-                    "Hello! I'm Neha, this year's Ents Officer. My job is to make Christs as fun as possible by organising bops, alt-bops, and various other events. This year, I hope to organise more events with other colleges, work with the Buttery staff on official college and seasonal drinks, as well as host a wider array of social events by collaborating with other officers and local businesses. Please do come talk to me or shoot me a message if you have any feedback or suggestions on how to make Christ's slay!",
-            },
-            {
-                title: "Freshers' Reps",
+                title: "Freshers' Rep",
                 label: "Freshers'",
-                name: "Isabelle Mohammed & Qinglan Du",
-                pronouns: "she/her & she/her",
+                name: "Flora Moayed",
+                pronouns: "she/her",
                 id: "firstyearrep",
                 description:
-                    "Hi! We're Isabelle and Qinglan, your Freps for the upcoming year! We're both lawyers, but promise to make next year's freshers' week more fun than our degree. Just because you might not experience freshers' week again doesn't mean you won't be involved in our plans! In the coming term, we will be hosting marriages for all the engaged college couples out there (plus throuples and single parents), and over the summer you will have the opportunity to meet and give advice to incoming freshers. Then in freshers' week, we're looking forward to hosting an array of events to suit everyone's preferences! And as promised, you will get to tag along on the trip to Mars.",
+                    "Hi! I’m Flora, this year’s Frep! Although freshers week is long gone, that doesn't mean I won't be organising a range of events (superbops, socials, etc.) in the coming term, so stay tuned! During freshers week, my job is to ensure a smooth and fun transition for the incoming freshers, and I look forward to hosting an array of events that cater to everyone’s preferences. Feel free to get in touch with me via email if you have any questions!",
             },
             
         ],
@@ -92,46 +75,55 @@ const categories: RoleCategory[] = [
             {
                 title: "Class Act Officer",
                 label: "Class Act",
-                name: "Kai Briggs",
-                pronouns: "he/him",
+                name: "Maisie Caddock",
+                pronouns: "she/her",
                 id: "classact",
                 description:
-                    "Hey! I'm Kai, your Class Act Officer for this year. My role is to support any student who has experienced educational, social, economic or cultural 'disadvantage' (basically continuing Access post-admissions, so I hope to collaborate a lot with our Access Officer so that you get the support you need). A few of my plans are to continue establishing the Class Act community at Christ's, to organise a range of events (socials, speakers, etc), and to create comprehensive resources about Class Act (especially on financial and welfare support). I also want to be available to support students myself, so please get in touch if you have feedback, questions, issues, or just anything Class Act related!",
+                    "Hi! I’m Maisie, your Class Act Officer. I am here to support anyone who identifies with experiencing educational, social, economic or cultural disadvantage. I hope to increase the scope of support offered to the Class Act community. I will organise a range of social events to strengthen the Class Act community within Christ’s, including movie nights, games and wii socials. I also hope to work with our Access Officer and other colleges’ Class Act officers to maximise support, including Class Act socials with other colleges. If you have any questions or feedback that are Class Act related, please do get in touch!",
             },
             {
                 title: "Disabled Students' Officer",
                 label: "Disabled Students'",
-                name: "Juno Buchan",
-                pronouns: "they/them",
+                name: "Josie Iino",
+                pronouns: "she/her",
                 id: "dso",
-                description: "Hi all! I'm Juno, your disabled students' officer, or DSO. My job is to make sure that Christ's is as welcoming and accessible as possible to any student who identifies as disabled, which I hope to achieve through improving Christ's physical accessibility, as well as ensuring that all disabled students feel that college is a place where they can express any needs or concerns and be listened to. I plan to improve lighting around college and access to facilities, as well as to expand awareness of assistance that's available to disabled students, such as the DRC and funding schemes. Please get in touch if you have any questions, concerns, or suggestions!",
+                description: "Hi! My name is Josie and I am first-year HisPoler and your DSO. As a disabled student myself, I am very keen to help disabled students of all types, and with all concerns, whether that be academic,  pertaining to accommodation, or just anything, please reach out! I'll respond ASAP on my Instagram (@josieiino) or email (ji280@cam.ac.uk). ",
             },
             {
                 title: "Ethnic Diversity Officer",
                 label: "Ethnic Diversity",
-                name: "Ayo Akande",
+                name: "David Adegboye",
                 pronouns: "he/him",
                 id: "edo",
                 description:
-                    "Hi, I'm Ayo, your 2023 Ethnic Diversity Officer! Through this role I hope to increase the celebration of different cultures within Cambridge, through formals and events within colleges, as well as working with other college JCRs. Part of this would be more discursive events such as panels and talks, with both students and guest speakers involved. I also hope to work with societies such as ACS and India Soc to support the work they do, as well as working with the subcommittee to ensure the needs of a wide range of groups are catered for. If you have any questions or feedback, feel free to drop me an email!",
+                    "Hi! I’m David, a 2nd year CompSci and this year’s Ethnic Diversity Officer. I’m planning to run some events each term to celebrate different cultures within Christ’s. More importantly, I’d like Christ’s to be an inclusive and anti-racist environment. I’m happy to work with anyone to make these things happen, if you have any suggestions, concerns or feedback feel free to drop me an email!",
             },
             {
                 title: "Women's Officer",
                 label: "Women's",
-                name: "Ana-Maria Skaricic",
+                name: "Ella Howard",
                 pronouns: "she/her",
                 id: "womens",
                 description:
-                    "Hi! I'm Ana-Maria, this year's Women's Officer. I'll be representing women/nonbinary people at college and making sure that Christ's continues to be an open and inclusive community for all genders! This year, I hope to expand FemSoc's events (swaps, arts & crafts nights, and speaker events), ensure that menstruating students have access to sustainable period products throughout college, and provide a safe space for students of all genders to air any concerns. Please get in touch with me if you have any feedback, concerns, or just want a chat!",
+                    "Hi! I'm Ella, you 2024 Women's Officer. I'll be representing women in college and making sure that Christ's continues to be an open and inclusive community for everyone. I am going to ensure that menstruating students have access to sustainable period products throughout college and provide a safe space for students of all genders. I'm hoping to improve the sanitary bin emptying system this year and hopefully implement a women's hour in the gym. Please get in touch with me if you have any feedback, concerns.",
             },
             {
                 title: "Internationals' Officer",
                 label: "Internationals'",
-                name: "Ju Yi Tai",
+                name: "Anna Petrides",
                 pronouns: "she/her",
                 id: "intl",
                 description:
-                    "Hi! I'm Ju Yi, a second-year medic from Malaysia, and I'm your international officer! This means I can help with anything international-related, whether that's storage, food, welfare, or if you just want someone to talk to. I'll also be organising events with other internationals from college and throughout Cambridge, as well as working with the college and JCR to make your stay in Cambridge as comfortable as possible. Feel free to raise things you'd like to see changed, ask me any questions about settling in, or just talk to me about anything on your mind - I'd be glad to chat!",
+                    "Hello! I’m Anna, your internationals’ officer and a 2nd-year lawyer born and raised in Cyprus 🇨🇾 ! I’m a language enthusiast and I love to travel. This obviously means I'm organising linguistic, culinary, and cultural exchange socials. I'm also excited to organise international freshers' week to help ifreshers adjust to Christ's, and also to publicise accessible information on grants and visa bureaucracy to make your lives in the UK a little bit easier. My goal is to be your point of contact, and the person you go to when you need someone to talk to. I am very approachable, so come to me with anything internationals-related!",
+            },
+            {
+                title: "LGBT+ Officer",
+                label: "LGBT+",
+                name: "George Wang",
+                pronouns: "he/she",
+                id: "lgbt",
+                description:
+                    "Hello! I'm George, your LGBT+ Officer this year. My top priority is to ensure that Christ's is a safe and supportive environment for LGBT+ students. Throughout the year, I'll be working on three main initiatives: \n\n(1) Inclusion and sensitivity training for Staff and Fellows.\n(2) Streamlining access to mental health and sexual wellbeing resources for LGBT+ students.\n(3) Social events including inter-college socials, socials with an intersectional focus, pride month events, and LGBT+ formals.\n\nPlease don't hesitate to reach out to me via email or in person if you need any help, support, advice, or if you have any questions or suggestions. I'm always more than happy to listen!",
             },
         ],
     },
@@ -150,29 +142,29 @@ const categories: RoleCategory[] = [
             {
                 title: "Catering & Facilities Officer",
                 label: "Catering & Facilities",
-                name: "Mikolaj Rycek",
+                name: "Alex Bevins",
                 pronouns: "he/him",
                 id: "facilities",
                 description:
-                    "Hi! I'm Mikolaj, this year's Catering and Facilities officer. I hope to organise a college punt, listen to student feedback to ensure Upper Hall and the Buttery are satisfactory, and work with other members of the JCR committee with their projects. Please send a message or an email if you have any suggestions to improve the Catering and Facilities at Christ's!",
+                    "Hi, I’m Alex, your Catering and Facilities officer. I want to ensure that the Upper Hall and the Buttery are enjoyable, appealing and affordably priced, and that the college has the right range of facilities that students want. I’m hoping to make Upper Hall a more attractive place to eat, install more bike storage, and make the buttery easier to study and relax in. I also want to continue with the project to transform the JCR room. Please get in touch if you have any ideas or complaints about the catering or facilities!",
             },
 
             {
                 title: "Green Officer",
                 label: "Green",
-                name: "Rachel Doran",
+                name: "Kelly Kwok",
                 pronouns: "she/her",
                 id: "green",
                 description:
-                    "Hi, I'm Rachel the Green and Charities Officer. My job is to work to try and make Christ's a more environmentally friendly college, as well as to organise fun charity events to raise money for our 3 college charities (currently these are Jimmy's Cambridge, Cancer Research UK and WaterAid). My plans currently include an overhaul of the food waste disposal system in college accommodation, setting up new end-of-term food bank collections, improving communication between college staff and students about green initiatives, and supporting the college in working towards the next Green Impact Award. Please do get in contact with me if you have any ideas/ suggestions for how to make Christ's greener!",
+                    "Hi! I am Kelly, your Green and Charities Officer. I will be involved with sustainability in college and organize events to raise money for charity. In addition to continuing previous events (such as running charity plant sales, setting up end-of-term food bank collections, and supporting the food waste disposal system in college accommodations), I am hoping to explore the possibility of organizing some gardening/sustainability events in college. If you have any suggestions, please let me know and I will try my best to act upon them!",
             },
             {
                 title: "Webmaster",
-                name: "Miles Watson",
-                pronouns: "he/him",
+                name: "Rachel Tam",
+                pronouns: "she/her",
                 id: "webmaster",
                 description:
-                    "Hey, I'm Miles, the JCR Webmaster! I built the website you're currently looking at, and am constantly working to improve it. My current plans for the upcoming year include an improved anonymous feedback system, a better (customisable + subscribable) termcard, and an interactive questionnaire that students can use to determine their eligibility for various grants & bursaries. Please drop me an email if you find any bugs, or want to suggest a feature / improvement!",
+                    "Hi there! I’m Rachel, the JCR Webmaster. My main job is to maintain the website you’re currently looking at, and to provide technical support for the JCR committee. Feel free to email me if you find any bugs, or to suggest new features/improvements - I’ll be happy to hear them :) Cheers!  (Credits to our previous webmaster Miles for setting up the awesome website!)",
             },
         ],
     },
