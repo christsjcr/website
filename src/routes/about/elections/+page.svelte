@@ -19,8 +19,8 @@
             meetings.
         </p>
         <p>
-            Email the <a href="/about/committee#vicepresident"
-                >Vice President</a> if you have any queries or if you are interested
+            Email the <a href="/about/committee#president"
+                >President</a> if you have any queries or if you are interested
             in running for a role and want more information.
         </p>
         <h1>Michaelmas 2023 Elections</h1>
