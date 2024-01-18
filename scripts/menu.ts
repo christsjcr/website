@@ -69,7 +69,7 @@ async function extract_next_meal(rows: puppet.ElementHandle[], start: number): P
     console.log(start, rows.length);
     for (let i = start; i < rows.length; i++) {
         const row = await extract_row(rows[i]);
-        if (row[0]?.length > 0) return [row.map(r => ({mains: r})), i + 1];
+        if (row.some(td =>td.length > 0)) return [row.map(r => ({mains: r})), i + 1];
     }
     throw new Error("Couldn't find next meal!");
 }
