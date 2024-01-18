@@ -50,6 +50,10 @@ async function extract_options(td: puppet.ElementHandle): Promise<Option[]> {
     const lines = innerText.split("\n");
     const cleaned = lines.map(clean_text);
     const not_empty = cleaned.filter(s => s.length != 0);
+    if (not_empty[0] === "Soup") {
+        not_empty.splice(0, 1);
+        not_empty[0] = "Soup: " + not_empty[0];
+    }
     const joined: string[] = [];
     not_empty.forEach(x => (joined.length == 0 || !x.startsWith("(")) ? joined.push(x) : joined[joined.length - 1] += " " + x);
     return joined.map(extract_allergies);
