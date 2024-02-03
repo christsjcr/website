@@ -8,7 +8,8 @@
           {
             "title": "Soup: Minestrone",
             "allergies": [
-              "Celery, Gluten"
+              "Celery",
+              "Gluten"
             ]
           },
           {
@@ -20,19 +21,22 @@
           {
             "title": "Aubergine and Spinach Bake with Parmesan",
             "allergies": [
-              "Milk, Pine Nuts"
+              "Milk",
+              "Pine Nuts"
             ]
           },
           {
-            "title": "Beef Madras with Raita and Poppadom’s",
+            "title": "Beef Madras with Raita and Poppadom's",
             "allergies": [
-              "Milk, Mustard"
+              "Milk",
+              "Mustard"
             ]
           },
           {
             "title": "Balsamic Pepper Pasta with a Tomato and Chilli Sauce",
             "allergies": [
-              "Sulphites, Gluten"
+              "Sulphites",
+              "Gluten"
             ]
           }
         ]
@@ -42,25 +46,31 @@
           {
             "title": "Soup: Minestrone",
             "allergies": [
-              "Celery, Gluten"
+              "Celery",
+              "Gluten"
             ]
           },
           {
             "title": "Moving Mountain Burger, Lettuce, Tomato, Mustard, Vegan Mayo",
             "allergies": [
-              "Gluten, Mustard"
+              "Gluten",
+              "Mustard"
             ]
           },
           {
             "title": "Aubergine and Spinach Bake with Parmesan",
             "allergies": [
-              "Milk, Gluten"
+              "Milk",
+              "Gluten"
             ]
           },
           {
             "title": "BBQ Bacon and Cheese Burger",
             "allergies": [
-              "Mustard, Gluten, Egg, Milk"
+              "Mustard",
+              "Gluten",
+              "Egg",
+              "Milk"
             ]
           }
         ]
@@ -79,25 +89,36 @@
           {
             "title": "Vegetable and Quorn Stir-Fry",
             "allergies": [
-              "Gluten, Soy"
+              "Gluten",
+              "Soy"
             ]
           },
           {
             "title": "Wild Mushroom Risotto Cake with a Rocket Salad",
             "allergies": [
-              "Milk, Sulphites"
+              "Milk",
+              "Sulphites"
             ]
           },
           {
             "title": "Fish Pie in a Lemon and Dill Sauce with a Mustard Potato Top",
             "allergies": [
-              "Fish, Sulphites, Milk, Crustaceans, Mustard, Gluten, Celery, Egg"
+              "Fish",
+              "Sulphites",
+              "Milk",
+              "Crustaceans",
+              "Mustard",
+              "Gluten",
+              "Celery",
+              "Egg"
             ]
           },
           {
             "title": "Pasta Puttanesca with Grated Parmesan",
             "allergies": [
-              "Gluten, Sulphites, Milk"
+              "Gluten",
+              "Sulphites",
+              "Milk"
             ]
           }
         ]
@@ -113,13 +134,17 @@
           {
             "title": "Vegetable Biriyani, Carrot Salad Macaroni Cheese with Mozzarella, Cheddar and Parmesan.",
             "allergies": [
-              "Gluten, Mustard, Milk"
+              "Gluten",
+              "Mustard",
+              "Milk"
             ]
           },
           {
             "title": "Battered Calamari, Paprika Salt, Aioli and Lemon",
             "allergies": [
-              "Gluten, Molluscs, Egg"
+              "Gluten",
+              "Molluscs",
+              "Egg"
             ]
           }
         ]
@@ -138,19 +163,32 @@
           {
             "title": "Southern Fried Vegan Nugget Burrito with a Black Bean and Chilli Sauce",
             "allergies": [
-              "Gluten, Sulphites"
+              "Gluten",
+              "Sulphites"
             ]
           },
           {
-            "title": "Cajun Vegetable and Black Bean Burrito with Cheddar and Mozzarella (Gluten, Milk, Celery, Sulphites Chicken and Mushroom Stroganoff",
+            "title": "Cajun Vegetable and Black Bean Burrito with Cheddar and Mozzarella",
             "allergies": [
-              "Milk, Mustard, Sulphites"
+              "Gluten",
+              "Milk",
+              "Celery",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Chicken and Mushroom Stroganoff",
+            "allergies": [
+              "Milk",
+              "Mustard",
+              "Sulphites"
             ]
           },
           {
             "title": "Smoked Bacon Carbonara",
             "allergies": [
-              "Gluten, Milk"
+              "Gluten",
+              "Milk"
             ]
           }
         ]
@@ -178,7 +216,9 @@
           {
             "title": "Beef Lasagne",
             "allergies": [
-              "Gluten, Sulphites, Milk"
+              "Gluten",
+              "Sulphites",
+              "Milk"
             ]
           }
         ]
@@ -197,25 +237,31 @@
           {
             "title": "Crispy Sesame Tofu, Peppers and Onions, Ginger Dressing",
             "allergies": [
-              "Soya, Sesame, Gluten"
+              "Soya",
+              "Sesame",
+              "Gluten"
             ]
           },
           {
             "title": "Roasted Cherry Tomato and Basil Gnocchi",
             "allergies": [
-              "Gluten, Milk"
+              "Gluten",
+              "Milk"
             ]
           },
           {
-            "title": "Shepherds’ Pie",
+            "title": "Shepherds' Pie",
             "allergies": [
-              "Celery, Milk"
+              "Celery",
+              "Milk"
             ]
           },
           {
             "title": "Sun Dried Tomato Pesto Pasta with Roasted Courgette",
             "allergies": [
-              "Gluten, Milk, Nut"
+              "Gluten",
+              "Milk",
+              "Nut"
             ]
           }
         ]
@@ -231,19 +277,22 @@
           {
             "title": "Aubergine and Red Lentil Dhal with Vegetable Samosas",
             "allergies": [
-              "Gluten, Soya"
+              "Gluten",
+              "Soya"
             ]
           },
           {
             "title": "Grilled Halloumi with Roasted Pepper Salsa",
             "allergies": [
-              "Milk, Sulphites"
+              "Milk",
+              "Sulphites"
             ]
           },
           {
             "title": "Baked Salmon with Roasted Pepper Salsa",
             "allergies": [
-              "Fish, Sulphites"
+              "Fish",
+              "Sulphites"
             ]
           }
         ]
@@ -256,11 +305,13 @@
           {
             "title": "Soup: Miso and Rice Noodle",
             "allergies": [
-              "Soya, Sesame, Celery"
+              "Soya",
+              "Sesame",
+              "Celery"
             ]
           },
           {
-            "title": "Cari Chay – Vegetable and Tofu Curry",
+            "title": "Cari Chay - Vegetable and Tofu Curry",
             "allergies": [
               "Soya"
             ]
@@ -268,25 +319,32 @@
           {
             "title": "Curried Vegetable Pasty",
             "allergies": [
-              "Gluten, Mustard, Milk, Egg"
+              "Gluten",
+              "Mustard",
+              "Milk",
+              "Egg"
             ]
           },
           {
             "title": "Battered Fish",
             "allergies": [
-              "Fish, Gluten"
+              "Fish",
+              "Gluten"
             ]
           },
           {
-            "title": "Battered Sausage",
+            "title": "or Battered Sausage",
             "allergies": [
-              "Sulphites, Gluten"
+              "Sulphites",
+              "Gluten"
             ]
           },
           {
             "title": "Pasta Bolognese",
             "allergies": [
-              "Gluten, Celery, Sulphites"
+              "Gluten",
+              "Celery",
+              "Sulphites"
             ]
           }
         ]
@@ -296,25 +354,32 @@
           {
             "title": "Soup: Miso and Rice Noodle",
             "allergies": [
-              "Soya, Sesame, Celery"
+              "Soya",
+              "Sesame",
+              "Celery"
             ]
           },
           {
             "title": "Sweet and Sour Vegetables with Quorn Nuggets",
             "allergies": [
-              "Gluten, Sulphites, Soya"
+              "Gluten",
+              "Sulphites",
+              "Soya"
             ]
           },
           {
             "title": "Mediterranean Vegetable Lasagne",
             "allergies": [
-              "Gluten, Milk"
+              "Gluten",
+              "Milk"
             ]
           },
           {
             "title": "Chicken Kiev",
             "allergies": [
-              "Egg, Milk, Gluten"
+              "Egg",
+              "Milk",
+              "Gluten"
             ]
           }
         ]
@@ -327,19 +392,23 @@
           {
             "title": "Loaded Vegan Hot Dog",
             "allergies": [
-              "Gluten, Soya"
+              "Gluten",
+              "Soya"
             ]
           },
           {
             "title": "Sweet Potato Cake, Fried Egg and Chilli Oil",
             "allergies": [
-              "Egg, Gluten"
+              "Egg",
+              "Gluten"
             ]
           },
           {
             "title": "Pepperoni Pizza",
             "allergies": [
-              "Gluten, Milk, Sulphites"
+              "Gluten",
+              "Milk",
+              "Sulphites"
             ]
           }
         ]
@@ -364,7 +433,8 @@
           {
             "title": "Lamb and Guinness Stew with Herbed Dumplings",
             "allergies": [
-              "Celery, Gluten"
+              "Celery",
+              "Gluten"
             ]
           }
         ]
@@ -383,25 +453,31 @@
           {
             "title": "Yaki Udom Noodle Broth with Shiitake Mushrooms",
             "allergies": [
-              "Soya, Gluten"
+              "Soya",
+              "Gluten"
             ]
           },
           {
             "title": "Beetroot and Goats Cheese Quiche",
             "allergies": [
-              "Gluten, Egg, Milk"
+              "Gluten",
+              "Egg",
+              "Milk"
             ]
           },
           {
             "title": "Pork Steaks with Wholegrain Mustard and Cider Sauce",
             "allergies": [
-              "Mustard, Milk, Sulphites"
+              "Mustard",
+              "Milk",
+              "Sulphites"
             ]
           },
           {
             "title": "Butternut Squash and Rosemary Pasta with Parmesan",
             "allergies": [
-              "Milk, Gluten"
+              "Milk",
+              "Gluten"
             ]
           }
         ]
@@ -417,19 +493,23 @@
           {
             "title": "Piri Piri Tofu on Sweet Potato Fried Rice",
             "allergies": [
-              "Soya, Sulphites"
+              "Soya",
+              "Sulphites"
             ]
           },
           {
             "title": "Cheese and Red Onion Toastie",
             "allergies": [
-              "Gluten, Milk, Mustard"
+              "Gluten",
+              "Milk",
+              "Mustard"
             ]
           },
           {
             "title": "Grilled Chicken Breast with Hazelnut and Chilli Pesto",
             "allergies": [
-              "Nut, Milk"
+              "Nut",
+              "Milk"
             ]
           }
         ]
@@ -448,25 +528,31 @@
           {
             "title": "Vegetable and Bean Cassoulet with Toasted Garlic Ciabatta",
             "allergies": [
-              "Celery, Gluten"
+              "Celery",
+              "Gluten"
             ]
           },
           {
             "title": "Spinach and Ricotta Ravioli in a Tomato and Basil Sauce",
             "allergies": [
-              "Egg, Milk, Gluten"
+              "Egg",
+              "Milk",
+              "Gluten"
             ]
           },
           {
             "title": "Breaded Plaice Fillet with a Garlic and Parsley Butter",
             "allergies": [
-              "Fish, Milk, Gluten"
+              "Fish",
+              "Milk",
+              "Gluten"
             ]
           },
           {
             "title": "Pesto Pasta with Chilli Roasted Aubergine",
             "allergies": [
-              "Gluten, Milk"
+              "Gluten",
+              "Milk"
             ]
           }
         ]
@@ -480,9 +566,10 @@
             ]
           },
           {
-            "title": "Vegan Green Mac ‘N’ Cheese",
+            "title": "Vegan Green Mac 'N' Cheese",
             "allergies": [
-              "Gluten, Mustard"
+              "Gluten",
+              "Mustard"
             ]
           },
           {
@@ -492,9 +579,12 @@
             ]
           },
           {
-            "title": "Suffolk Smokies – Smoked Haddock Gratin",
+            "title": "Suffolk Smokies - Smoked Haddock Gratin",
             "allergies": [
-              "Fish, Milk, Gluten, Mustard"
+              "Fish",
+              "Milk",
+              "Gluten",
+              "Mustard"
             ]
           }
         ]
@@ -507,7 +597,8 @@
           {
             "title": "Soup: Sweetcorn and Coconut Broth",
             "allergies": [
-              "Sesame, Celery"
+              "Sesame",
+              "Celery"
             ]
           },
           {
@@ -519,13 +610,16 @@
           {
             "title": "Lentil Cakes with a Dill Sauce",
             "allergies": [
-              "Gluten, Milk"
+              "Gluten",
+              "Milk"
             ]
           },
           {
             "title": "Roast Chicken with a Bacon and Mushroom Sauce",
             "allergies": [
-              "Milk, Sulphites, Soya"
+              "Milk",
+              "Sulphites",
+              "Soya"
             ]
           },
           {
@@ -541,7 +635,8 @@
           {
             "title": "Soup: Sweetcorn and Coconut Broth",
             "allergies": [
-              "Sesame, Celery"
+              "Sesame",
+              "Celery"
             ]
           },
           {
@@ -553,13 +648,17 @@
           {
             "title": "Loaded Wedges, Bean Chilli and Cheese",
             "allergies": [
-              "Celery, Sulphites, Milk"
+              "Celery",
+              "Sulphites",
+              "Milk"
             ]
           },
           {
             "title": "Lamb Sloppy Joe Sub Roll with Mozzarella and Sour Cream",
             "allergies": [
-              "Sulphites, Gluten, Milk"
+              "Sulphites",
+              "Gluten",
+              "Milk"
             ]
           }
         ]
@@ -578,25 +677,32 @@
           {
             "title": "Aubergine Teriyaki Bowl with Rice Noodles and Toasted Sesame",
             "allergies": [
-              "Gluten, Soya, Sesame"
+              "Gluten",
+              "Soya",
+              "Sesame"
             ]
           },
           {
             "title": "Red Onion, Roasted Squash and Feta Pizza",
             "allergies": [
-              "Milk, Gluten"
+              "Milk",
+              "Gluten"
             ]
           },
           {
             "title": "Delhi Style Turkey Curry with Mini Garlic Naan Breads",
             "allergies": [
-              "Gluten, Milk, Mustard"
+              "Gluten",
+              "Milk",
+              "Mustard"
             ]
           },
           {
             "title": "Roast Chicken Pasta",
             "allergies": [
-              "Gluten, Sulphites, Celery"
+              "Gluten",
+              "Sulphites",
+              "Celery"
             ]
           }
         ]
@@ -612,7 +718,9 @@
           {
             "title": "Vegan Mince Bolognese with Garlic Bread",
             "allergies": [
-              "Gluten, Soya, Celery"
+              "Gluten",
+              "Soya",
+              "Celery"
             ]
           },
           {
@@ -649,25 +757,30 @@
           {
             "title": "Cherry Tomato, Red Onion and Mozzarella Filo Pie",
             "allergies": [
-              "Gluten, Milk"
+              "Gluten",
+              "Milk"
             ]
           },
           {
             "title": "Battered Fish",
             "allergies": [
-              "Fish, Gluten"
+              "Fish",
+              "Gluten"
             ]
           },
           {
-            "title": "Battered Sausage",
+            "title": "or Battered Sausage",
             "allergies": [
-              "Sulphites, Gluten"
+              "Sulphites",
+              "Gluten"
             ]
           },
           {
             "title": "Garlic Mushroom Pasta Bake",
             "allergies": [
-              "Gluten, Milk, Sulphites"
+              "Gluten",
+              "Milk",
+              "Sulphites"
             ]
           }
         ]
@@ -681,7 +794,7 @@
             ]
           },
           {
-            "title": "Vegan ‘Meatball’ Sub Roll",
+            "title": "Vegan 'Meatball' Sub Roll",
             "allergies": [
               "Gluten"
             ]
@@ -689,13 +802,19 @@
           {
             "title": "Buttered Quorn Curry with Vegetable Pakoras",
             "allergies": [
-              "Gluten, Egg, Milk"
+              "Gluten",
+              "Egg",
+              "Milk"
             ]
           },
           {
             "title": "Fried Buttermilk Chicken Burger with Bread and Butter Pickles",
             "allergies": [
-              "Milk, Gluten, Sulphites, Mustard, Egg"
+              "Milk",
+              "Gluten",
+              "Sulphites",
+              "Mustard",
+              "Egg"
             ]
           }
         ]
@@ -714,13 +833,16 @@
           {
             "title": "Spinach and Vegetable Lasagne",
             "allergies": [
-              "Gluten, Milk"
+              "Gluten",
+              "Milk"
             ]
           },
           {
             "title": "Pulled Pork in a Pretzel Roll",
             "allergies": [
-              "Sulphites, Gluten, Milk"
+              "Sulphites",
+              "Gluten",
+              "Milk"
             ]
           }
         ]
@@ -739,13 +861,16 @@
           {
             "title": "Teriyaki Vegetable and Cashew Nut Stir-Fry",
             "allergies": [
-              "Nut, Gluten, Soya"
+              "Nut",
+              "Gluten",
+              "Soya"
             ]
           },
           {
             "title": "Sweet and Sour Cod Bites with Asian Slaw",
             "allergies": [
-              "Fish, Gluten"
+              "Fish",
+              "Gluten"
             ]
           }
         ]
@@ -758,7 +883,8 @@
           {
             "title": "Soup: Minestrone",
             "allergies": [
-              "Celery, Gluten"
+              "Celery",
+              "Gluten"
             ]
           },
           {
@@ -770,13 +896,18 @@
           {
             "title": "Aubergine Parmigiana",
             "allergies": [
-              "Gluten, Milk, Egg"
+              "Gluten",
+              "Milk",
+              "Egg"
             ]
           },
           {
             "title": "Chicken, Leek and Smoked Bacon Pie",
             "allergies": [
-              "Milk, Gluten, Celery, Sulphites"
+              "Milk",
+              "Gluten",
+              "Celery",
+              "Sulphites"
             ]
           }
         ]
@@ -786,31 +917,40 @@
           {
             "title": "Soup: Minestrone",
             "allergies": [
-              "Celery, Gluten"
+              "Celery",
+              "Gluten"
             ]
           },
           {
             "title": "Vegan Burger with Smoked Paprika Ketchup and Crispy Onions",
             "allergies": [
-              "Gluten, Sulphites"
+              "Gluten",
+              "Sulphites"
             ]
           },
           {
             "title": "Asian Tofu and Vegetable Stir Fry with a Garlic Soy Sauce",
             "allergies": [
-              "Soya, Sesame"
+              "Soya",
+              "Sesame"
             ]
           },
           {
             "title": "Cheese Burger with Smoked Paprika Ketchup and Crispy Onions",
             "allergies": [
-              "Gluten, Milk, Egg, Sulphites"
+              "Gluten",
+              "Milk",
+              "Egg",
+              "Sulphites"
             ]
           },
           {
             "title": "Pumpkin Ravioli with Basil Pesto",
             "allergies": [
-              "Gluten, Milk, Pine Nut, Egg"
+              "Gluten",
+              "Milk",
+              "Pine Nut",
+              "Egg"
             ]
           }
         ]
@@ -829,19 +969,22 @@
           {
             "title": "Vegetable Casserole with Herbed Dumplings",
             "allergies": [
-              "Celery, Gluten"
+              "Celery",
+              "Gluten"
             ]
           },
           {
             "title": "Mushroom Stroganoff",
             "allergies": [
-              "Milk, Sulphites"
+              "Milk",
+              "Sulphites"
             ]
           },
           {
             "title": "Baked Coley Fillet with a Roasted Red Pepper Sauce",
             "allergies": [
-              "Fish, Sulphites"
+              "Fish",
+              "Sulphites"
             ]
           }
         ]
@@ -857,19 +1000,26 @@
           {
             "title": "Mushroom and Lentil Cottage Pie with Tarragon Mash",
             "allergies": [
-              "Celery, Mustard"
+              "Celery",
+              "Mustard"
             ]
           },
           {
             "title": "Pumpkin Ravioli with Basil Pesto",
             "allergies": [
-              "Gluten, Milk, Pine Nut, Egg"
+              "Gluten",
+              "Milk",
+              "Pine Nut",
+              "Egg"
             ]
           },
           {
             "title": "Breaded Scampi with Hot and Sour Sauce",
             "allergies": [
-              "Gluten, Crustaceans, Sulphites, Soya"
+              "Gluten",
+              "Crustaceans",
+              "Sulphites",
+              "Soya"
             ]
           }
         ]
@@ -888,19 +1038,23 @@
           {
             "title": "Vegetable and Bean Paella Vegetable Lasagne with Mozzarella and Feta",
             "allergies": [
-              "Gluten, Milk"
+              "Gluten",
+              "Milk"
             ]
           },
           {
             "title": "Sausage Cassoulet with a Herb Crust",
             "allergies": [
-              "Gluten, Sulphites, Celery"
+              "Gluten",
+              "Sulphites",
+              "Celery"
             ]
           },
           {
             "title": "Smoked Bacon Carbonara",
             "allergies": [
-              "Gluten, Milk"
+              "Gluten",
+              "Milk"
             ]
           }
         ]
@@ -922,13 +1076,16 @@
           {
             "title": "Spinach, Ricotta and Red Onion Pizza",
             "allergies": [
-              "Milk, Gluten"
+              "Milk",
+              "Gluten"
             ]
           },
           {
             "title": "Pepperoni and Jalapeno Pizza with Mozzarella",
             "allergies": [
-              "Gluten, Sulphites, Milk"
+              "Gluten",
+              "Sulphites",
+              "Milk"
             ]
           }
         ]
@@ -947,25 +1104,31 @@
           {
             "title": "Red Lentil and Aubergine Dhal with Vegetable and Spinach Pakora",
             "allergies": [
-              "Gluten, Mustard"
+              "Gluten",
+              "Mustard"
             ]
           },
           {
             "title": "Moving Mountains Hot Dog, Cheese, Mustard and Crispy Onions",
             "allergies": [
-              "Mustard, Gluten, Milk"
+              "Mustard",
+              "Gluten",
+              "Milk"
             ]
           },
           {
             "title": "Chicken Tikka Masala with Mini Garlic and Coriander Naan",
             "allergies": [
-              "Milk, Gluten"
+              "Milk",
+              "Gluten"
             ]
           },
           {
             "title": "Sun Dried Tomato Pesto Pasta with Roasted Courgette",
             "allergies": [
-              "Gluten, Milk, Nut"
+              "Gluten",
+              "Milk",
+              "Nut"
             ]
           }
         ]
@@ -987,13 +1150,17 @@
           {
             "title": "Quorn Tikka Masala with Mini Garlic Naan Breads",
             "allergies": [
-              "Gluten, Egg, Soya, Milk"
+              "Gluten",
+              "Egg",
+              "Soya",
+              "Milk"
             ]
           },
           {
             "title": "Grilled Turkey Escalope with a Cheddar and Parmesan Sauce",
             "allergies": [
-              "Milk, Mustard"
+              "Milk",
+              "Mustard"
             ]
           }
         ]
@@ -1006,31 +1173,40 @@
           {
             "title": "Soup: Miso and Rice Noodle",
             "allergies": [
-              "Soya, Sesame, Celery"
+              "Soya",
+              "Sesame",
+              "Celery"
             ]
           },
           {
-            "title": "Rasa Kayi – South Indian Mixed Vegetable Curry Cauliflower Cheese Pasty",
+            "title": "Rasa Kayi - South Indian Mixed Vegetable Curry Cauliflower Cheese Pasty",
             "allergies": [
-              "Gluten, Mustard, Milk, Egg"
+              "Gluten",
+              "Mustard",
+              "Milk",
+              "Egg"
             ]
           },
           {
             "title": "Battered Fish",
             "allergies": [
-              "Fish, Gluten"
+              "Fish",
+              "Gluten"
             ]
           },
           {
-            "title": "Or Battered Sausage",
+            "title": "or Battered Sausage",
             "allergies": [
-              "Sulphites, Gluten"
+              "Sulphites",
+              "Gluten"
             ]
           },
           {
             "title": "Pasta Bolognese",
             "allergies": [
-              "Gluten, Celery, Sulphites"
+              "Gluten",
+              "Celery",
+              "Sulphites"
             ]
           }
         ]
@@ -1040,19 +1216,28 @@
           {
             "title": "Soup: Miso and Rice Noodle",
             "allergies": [
-              "Soya, Sesame, Celery"
+              "Soya",
+              "Sesame",
+              "Celery"
             ]
           },
           {
-            "title": "Squash, Lentil and Chickpea Curry Jerk Spiced Baked Sweet Potato with Mixed Bean Chilli and Sour Cream",
+            "title": "Squash, Lentil and Chickpea Curry",
+            "allergies": []
+          },
+          {
+            "title": "Jerk Spiced Baked Sweet Potato with Mixed Bean Chilli and Sour Cream",
             "allergies": [
-              "Milk, Celery, Mustard"
+              "Milk",
+              "Celery",
+              "Mustard"
             ]
           },
           {
             "title": "Grilled Chicken Skewer with Garlic Yoghurt, Flatbread and Salad",
             "allergies": [
-              "Gluten, Milk"
+              "Gluten",
+              "Milk"
             ]
           }
         ]
@@ -1065,13 +1250,15 @@
           {
             "title": "Black Bean Burrito with Vegan Mayo and Sriracha Sauce",
             "allergies": [
-              "Gluten, Mustard"
+              "Gluten",
+              "Mustard"
             ]
           },
           {
             "title": "Vegetable and Roasted Cherry Tomato Gratin with a Parmesan Crust",
             "allergies": [
-              "Gluten, Milk"
+              "Gluten",
+              "Milk"
             ]
           },
           {
@@ -1090,13 +1277,15 @@
           {
             "title": "Moroccan Spiced Vegetable Tagine with Herbed Cous Cous",
             "allergies": [
-              "Gluten, Sulphites"
+              "Gluten",
+              "Sulphites"
             ]
           },
           {
             "title": "Cheese, Potato and Onion Pastry",
             "allergies": [
-              "Milk, Gluten"
+              "Milk",
+              "Gluten"
             ]
           },
           {
@@ -1121,7 +1310,8 @@
           {
             "title": "Chilli Bean Enchilada",
             "allergies": [
-              "Gluten, Sulphites"
+              "Gluten",
+              "Sulphites"
             ]
           },
           {
@@ -1133,13 +1323,15 @@
           {
             "title": "Roast Chicken Supreme with a Mushroom and Garlic Sauce",
             "allergies": [
-              "Milk, Sulphites"
+              "Milk",
+              "Sulphites"
             ]
           },
           {
             "title": "Butternut Squash and Rosemary Pasta with Parmesan",
             "allergies": [
-              "Milk, Gluten"
+              "Milk",
+              "Gluten"
             ]
           }
         ]
@@ -1161,13 +1353,16 @@
           {
             "title": "Garlic Mushroom and Mascarpone Pizza",
             "allergies": [
-              "Gluten, Milk"
+              "Gluten",
+              "Milk"
             ]
           },
           {
             "title": "Chorizo Pizza with Red Onions and Jalapeno Peppers",
             "allergies": [
-              "Gluten, Sulphites, Milk"
+              "Gluten",
+              "Sulphites",
+              "Milk"
             ]
           }
         ]
@@ -1192,19 +1387,25 @@
           {
             "title": "Cheese and Leek Potato Pie",
             "allergies": [
-              "Milk, Gluten, Mustard"
+              "Milk",
+              "Gluten",
+              "Mustard"
             ]
           },
           {
             "title": "Salmon and Smoked Haddock Fish Cake with Remoulade Sauce",
             "allergies": [
-              "Egg, Sulphites, Gluten, Fish"
+              "Egg",
+              "Sulphites",
+              "Gluten",
+              "Fish"
             ]
           },
           {
             "title": "Pesto Pasta with Chilli Roasted Aubergine",
             "allergies": [
-              "Gluten, Milk"
+              "Gluten",
+              "Milk"
             ]
           }
         ]
@@ -1224,15 +1425,21 @@
             ]
           },
           {
-            "title": "Mushroom, Goats’ Cheese and Red Pepper Burger with Aioli",
+            "title": "Mushroom, Goats' Cheese and Red Pepper Burger with Aioli",
             "allergies": [
-              "Gluten, Egg, Milk, Mustard"
+              "Gluten",
+              "Egg",
+              "Milk",
+              "Mustard"
             ]
           },
           {
             "title": "Buttermilk Fried Chicken Burger, Sriracha Mayo and a Brioche Bun",
             "allergies": [
-              "Egg, Milk, Mustard, Gluten"
+              "Egg",
+              "Milk",
+              "Mustard",
+              "Gluten"
             ]
           }
         ]
@@ -1245,25 +1452,30 @@
           {
             "title": "Soup: Sweetcorn and Coconut Broth",
             "allergies": [
-              "Sesame, Celery"
+              "Sesame",
+              "Celery"
             ]
           },
           {
             "title": "Tofu Katsu Curry with Cucumber Carrot and Mint",
             "allergies": [
-              "Soya, Gluten"
+              "Soya",
+              "Gluten"
             ]
           },
           {
-            "title": "Sweet Potato, Goats’ Cheese and Pine Nut Filo Pie",
+            "title": "Sweet Potato, Goats' Cheese and Pine Nut Filo Pie",
             "allergies": [
-              "Gluten, Milk, Pine Nut"
+              "Gluten",
+              "Milk",
+              "Pine Nut"
             ]
           },
           {
             "title": "Chinese Red Braised Pork Belly",
             "allergies": [
-              "Soya, Sulphites"
+              "Soya",
+              "Sulphites"
             ]
           },
           {
@@ -1279,7 +1491,8 @@
           {
             "title": "Soup: Sweetcorn and Coconut Broth",
             "allergies": [
-              "Sesame, Celery"
+              "Sesame",
+              "Celery"
             ]
           },
           {
@@ -1291,13 +1504,17 @@
           {
             "title": "Vegetarian Meatballs in a Mushroom and Cream Sauce with Cranberry Sauce",
             "allergies": [
-              "Milk, Gluten, Soya"
+              "Milk",
+              "Gluten",
+              "Soya"
             ]
           },
           {
             "title": "Swedish Meatballs in a Mushroom and Cream Sauce with Cranberry Sauce",
             "allergies": [
-              "Mustard, Milk, Gluten"
+              "Mustard",
+              "Milk",
+              "Gluten"
             ]
           }
         ]
@@ -1322,7 +1539,8 @@
           {
             "title": "Sun Dried Tomato, Kale and Basil Gnocchi",
             "allergies": [
-              "Gluten, Milk"
+              "Gluten",
+              "Milk"
             ]
           },
           {
@@ -1334,7 +1552,9 @@
           {
             "title": "Roast Chicken Pasta",
             "allergies": [
-              "Gluten, Sulphites, Celery"
+              "Gluten",
+              "Sulphites",
+              "Celery"
             ]
           }
         ]
@@ -1350,13 +1570,15 @@
           {
             "title": "Aubergine Teriyaki Bowl with Udon Noodles",
             "allergies": [
-              "Gluten, Soya"
+              "Gluten",
+              "Soya"
             ]
           },
           {
             "title": "Spinach and Ricotta Gnocchi Gratin with Mozzarella and Parmesan",
             "allergies": [
-              "Milk, Gluten"
+              "Milk",
+              "Gluten"
             ]
           },
           {
@@ -1379,27 +1601,38 @@
             ]
           },
           {
-            "title": "Kizhangu Payaru – Potato and Green Bean Curry Mushroom and Lentil Pie with Rosemary and Tarragon",
+            "title": "Kizhangu Payaru - Potato and Green Bean Curry",
+            "allergies": []
+          },
+          {
+            "title": "Mushroom and Lentil Pie with Rosemary and Tarragon",
             "allergies": [
-              "Celery, Gluten, Milk, Egg"
+              "Celery",
+              "Gluten",
+              "Milk",
+              "Egg"
             ]
           },
           {
             "title": "Battered Fish",
             "allergies": [
-              "Fish, Gluten"
+              "Fish",
+              "Gluten"
             ]
           },
           {
-            "title": "Battered Sausage",
+            "title": "or Battered Sausage",
             "allergies": [
-              "Sulphites, Gluten"
+              "Sulphites",
+              "Gluten"
             ]
           },
           {
             "title": "Garlic Mushroom Pasta Bake",
             "allergies": [
-              "Gluten, Milk, Sulphites"
+              "Gluten",
+              "Milk",
+              "Sulphites"
             ]
           }
         ]
@@ -1415,19 +1648,22 @@
           {
             "title": "Spiced Black Bean Quesadilla with a Lime and Coriander Vegan Mayo",
             "allergies": [
-              "Gluten, Mustard"
+              "Gluten",
+              "Mustard"
             ]
           },
           {
             "title": "Spiced Potato Wedges with a Mixed Bean Chilli, Sour Cream and Spring Onions",
             "allergies": [
-              "Celery, Milk"
+              "Celery",
+              "Milk"
             ]
           },
           {
             "title": "Chicken Fried Rice with Prawn Crackers",
             "allergies": [
-              "Crustaceans, Sulphites"
+              "Crustaceans",
+              "Sulphites"
             ]
           }
         ]
@@ -1440,19 +1676,25 @@
           {
             "title": "Vegan Satay Sweet Potato Curry with Roasted Peanuts",
             "allergies": [
-              "Nuts, Soya"
+              "Nuts",
+              "Soya"
             ]
           },
           {
             "title": "Aubergine Caponata Pasta Bake",
             "allergies": [
-              "Gluten, Sulphites, Milk"
+              "Gluten",
+              "Sulphites",
+              "Milk"
             ]
           },
           {
             "title": "Pulled Beef Lasagne",
             "allergies": [
-              "Gluten, Celery, Milk, Sulphites"
+              "Gluten",
+              "Celery",
+              "Milk",
+              "Sulphites"
             ]
           }
         ]
@@ -1463,15 +1705,21 @@
       "dinner": {
         "mains": [
           {
-            "title": "Lentil and Chickpea Cake with a Toa Fried Halloumi, Roasted Vegetables and a Balsamic Glaze",
+            "title": "Lentil and Chickpea Cake with a Toa",
+            "allergies": []
+          },
+          {
+            "title": "Fried Halloumi, Roasted Vegetables and a Balsamic Glaze",
             "allergies": [
-              "Milk, Sulphites"
+              "Milk",
+              "Sulphites"
             ]
           },
           {
             "title": "Herb Roasted Turkey with a Thyme Gravy",
             "allergies": [
-              "Celery, Sulphites"
+              "Celery",
+              "Sulphites"
             ]
           }
         ]
