@@ -13,6 +13,14 @@ const categories: RoleCategory[] = [
                     "Hi! I’m Isabelle and I’m your JCR President for 2024. I act as the bridge between the college and the undergraduate body, advocating on behalf of students and supporting our amazing JCR committee. My role sees me represent students on various committees, collaborate with the MCR and most importantly listen to any concerns students may have. My goal is ensure that the college remains a welcoming environment for all, and that students here feel as happy studying and living at Christ’s as possible. Some of my aims as President include working with college to solve the international student storage problem, offering JCR subsidies for bicycle safety and potentially introducing air fryers into kitchenettes. Please feel free to drop me an email if you have any concerns! You can also find me around college taking pictures of Finch and Baines or in the buttery enjoying a hot chocolate, so if you have any questions I am always happy to help!",
             },
             {
+                title: "Vice President",
+                name: "Misha Mir",
+                pronouns: "she/her",
+                id: "vicepresident",
+                description:
+                    "Hi! I’m Misha and I’m your JCR Vice President for 2024. Alongside working with the SU, my role includes collaborating with other JCR members and current students to ensure Christs is a welcoming and happy environment for everyone here! I’m intent on promoting diversity within college (through themed cultural formals), supporting societies within Christs as well as establishing connections with other college’s JCRs to broaden our community. Please email me if you have any concerns or any ideas as to what I can do next!",
+            },
+            {
                 title: "Treasurer",
                 name: "Skyler Roberts",
                 pronouns: "he/him",

@@ -132,7 +132,11 @@
             ]
           },
           {
-            "title": "Vegetable Biriyani, Carrot Salad Macaroni Cheese with Mozzarella, Cheddar and Parmesan.",
+            "title": "Vegetable Biriyani, Carrot Salad",
+            "allergies": [] 
+          },
+          {
+            "title": "Macaroni Cheese with Mozzarella, Cheddar and Parmesan.",
             "allergies": [
               "Gluten",
               "Mustard",
@@ -451,7 +455,7 @@
             ]
           },
           {
-            "title": "Yaki Udom Noodle Broth with Shiitake Mushrooms",
+            "title": "Yaki Udon Noodle Broth with Shiitake Mushrooms",
             "allergies": [
               "Soya",
               "Gluten"
@@ -1036,7 +1040,11 @@
             ]
           },
           {
-            "title": "Vegetable and Bean Paella Vegetable Lasagne with Mozzarella and Feta",
+            "title": "Vegetable and Bean Paella",
+            "allergies": []
+          },
+          {
+            "title": "Vegetable Lasagne with Mozzarella and Feta",
             "allergies": [
               "Gluten",
               "Milk"
@@ -1179,7 +1187,11 @@
             ]
           },
           {
-            "title": "Rasa Kayi - South Indian Mixed Vegetable Curry Cauliflower Cheese Pasty",
+            "title": "Rasa Kayi - South Indian Mixed Vegetable Curry",
+            "allergies": []
+          },
+          {
+            "title": "Cauliflower Cheese Pasty",
             "allergies": [
               "Gluten",
               "Mustard",
