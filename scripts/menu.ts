@@ -46,45 +46,48 @@ function clean_text(s: string): string {
     return titleCase(
         s.replace(' ', ' ')
         // note: I wrote this quickly and couldn't bother to find a better way to do this, pls fix lol
-        .replace(/&nbsp;/gi, " ") // code for some spaces
-        .replace(/&(r|l)squo;/gi, "'") // code for single quote
-        .replace(/&ndash;/gi, "-") // code for dash
+        .replace(/&(nbsp|#160);/gi, " ") // code for some spaces
+        .replace(/&((r|l)squo|#821(6|7));/gi, "'") // code for single quote
+        .replace(/&(ndash|#8211);/gi, "-") // code for dash
+        .replace(/&Amp;/gi, "&")
+        .replace(/&#232;/g, "é")
         .replace(/\s+/g, ' ') // get rid of extra spaces
         .toLowerCase()
         .trim()
     ).replace('Bbq', 'BBQ');
 }
 
-async function extract_options(td:HTMLElement): Promise<Option[]> {
-    const options_text: string = clean_text(td.querySelectorAll("p")
-        .map(p => p.innerText)
-        .join(" ") //make sure multiline entries have spaces in between
-        // Soup started getting it's own line so this workaround to make it more nicely formatted
-        .replace(/Soup/g, "Soup:"));
+async function extract_options(td:string): Promise<Option[]> {
+    // Soup started getting it's own line so this workaround to make it more nicely formatted
+    const options_text: string = clean_text(td.replace(/Soup/g, "Soup:"));
 
     const matches = [...options_text.matchAll(meal_re)]
     const options = matches?.map( match => {
         const title = match.groups?.title || "";
         const allergies = match.groups?.allergens?.split(", ") || [];
-        return { title: title.trim(), allergies }
+        return { title: title.trim(), allergies: allergies.filter(a => a != "Tbc") }
     });
     return options;
 }
 
 // just to convert daily options into meal type and ensure each week has 7 entries
 async function encode_meal(week_options: Option[][]): Promise<Meal[]> {
-    for (var i = 0; i < 7 - week_options.length; i++) {
+    const n = week_options.length;
+    for (let i = 0; i < 7 - n; i++) {
         week_options.push([]);
     }
     return week_options.map(r => ({mains: r}));
 }
 
-async function extract_days(week: HTMLElement): Promise<Day[]> {
-    const [_, raw_lunches, raw_dinners] = week.querySelectorAll("tr");
-    // slice 1 to skip the lunch and dinner title cells
-    const lunches = await promise_map(raw_lunches.querySelectorAll("td").slice(1), extract_options);
-    const dinners = await promise_map(raw_dinners.querySelectorAll("td").slice(1), extract_options);
+async function extract_days(week: HTMLElement): Promise<Day[]> 
+{
+    const meals = week.querySelectorAll("p").map(m => m.innerText).filter(m => m != " ")
+    const raw_lunches = meals.slice(3, 8);
+    const raw_dinners = meals.slice(26);
 
+    // slice 1 to skip the lunch and dinner title cells
+    const lunches = await promise_map(raw_lunches, extract_options);
+    const dinners = await promise_map(raw_dinners, extract_options);
     const combined: Day[] = zip(
         await encode_meal(lunches), 
         await encode_meal(dinners), 
@@ -97,19 +100,20 @@ async function extract_days(week: HTMLElement): Promise<Day[]> {
 
 (async () => {
     const html = fs.readFileSync("./misc/menu.html", { encoding: "utf8" });
-    const weeks = parse(html).querySelectorAll("table");
+    const weeks = parse(html).querySelectorAll("div[style='page-break-before:always; page-break-after:always']");
 
     // get the first date from the menu to help keep track of which day to show
-    const start_date_text = weeks[0].querySelector("tr :nth-child(2)")?.innerText;
-    const start_date = start_date_text ? date_re.exec(start_date_text)?.groups : undefined;
-    const start = start_date ? new Date(
-        parseInt(start_date.year), 
-        months_map[start_date.month], 
-        parseInt(start_date.date)) : 
-        new Date();
+    // const start_date_text = weeks[0].querySelector("div :nth-child(2)")?.innerText;
+    // const start_date = start_date_text ? date_re.exec(start_date_text)?.groups : undefined;
+    // const start = start_date ? new Date(
+    //     parseInt(start_date.year), 
+    //     months_map[start_date.month], 
+    //     parseInt(start_date.date)) : 
+    //     new Date();
 
     const days: Day[][] = await promise_map(weeks, extract_days);
-    const menu: Menu = { start, days: days.reduce((acc, v) => acc.concat(v), []) }; // flatten days array
+    await promise_map(weeks, extract_days);
+    const menu: Menu = { start: new Date(), days: days.reduce((acc, v) => acc.concat(v), []) }; // flatten days array
     
     fs.writeFileSync("./src/data/menu.json", JSON.stringify(menu, null, 2));
 })();
