@@ -77,6 +77,10 @@ const resources: {
                         title: "Room Database",
                         url: "https://intranet.christs.cam.ac.uk/app/rooms/undergraduate",
                     },
+                    {
+                        title: "Pool Rules",
+                        url: "https://docs.google.com/document/d/1mUff1QpIWbGjHwP4iUH2HNjor-md7eKDX2UGbEPFHEk/edit?usp=sharinge",
+                    },
                 ],
             },
             {
@@ -524,11 +528,11 @@ const resources: {
                 items: [
                     {
                         title: "JCR Google Drive",
-                        url: "https://drive.google.com/drive/u/1/folders/0AGJZefgIZYQiUk9PVA",
+                        url: "https://drive.google.com/drive/folders/1T1LXnm76V5rMzHxrLuzkmb8RMcHhrDBE?usp=drive_link",
                     },
                     {
                         title: "Email Login Instructions",
-                        url: "https://docs.google.com/document/d/1B5sLX0fic28d83C9RmUXbpxEsV8sRdGaL9S18sHTVIk/edit?usp=drive_link",
+                        url: "https://docs.google.com/document/d/1B5sLX0fic28d83C9RmUXbpxEsV8sRdGaL9S18sHTVIk/edit?usp=sharing",
                     },
                 ],
             },
