@@ -45,7 +45,7 @@ const resources: {
                             "Breakfast: Mon-Fri 8:00-9:30 (Buttery)",
                             "Brunch: Sat 11:00-12:30, Sun 10:30-12:00",
                             "Lunch: Mon-Fri 12.00-13:45",
-                            "Dinner: Mon-Fri 17:50-19:20, Sat-Sun 17:50-19:00",
+                            "Dinner (quiet period): 17:50-19:00 if there is a formal/grad hall, 17:50-20:00 otherwise",
                             "Out of term times will be displayed locally.",
                         ],
                     },

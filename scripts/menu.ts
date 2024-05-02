@@ -59,7 +59,7 @@ function clean_text(s: string): string {
 
 async function extract_options(td:string): Promise<Option[]> {
     // Soup started getting it's own line so this workaround to make it more nicely formatted
-    const options_text: string = clean_text(td.replace(/Soup/g, "Soup:"));
+    const options_text: string = td.replace(/Soup/g, "Soup:");
 
     const matches = [...options_text.matchAll(meal_re)]
     const options = matches?.map( match => {
@@ -81,9 +81,9 @@ async function encode_meal(week_options: Option[][]): Promise<Meal[]> {
 
 async function extract_days(week: HTMLElement): Promise<Day[]> 
 {
-    const meals = week.querySelectorAll("p").map(m => m.innerText).filter(m => m != " ")
+    const meals = week.querySelectorAll("p").map(m => clean_text(m.innerText)).filter(m => m && m != " ")
     const raw_lunches = meals.slice(3, 8);
-    const raw_dinners = meals.slice(26);
+    const raw_dinners = meals.slice(25);
 
     // slice 1 to skip the lunch and dinner title cells
     const lunches = await promise_map(raw_lunches, extract_options);
@@ -100,16 +100,7 @@ async function extract_days(week: HTMLElement): Promise<Day[]>
 
 (async () => {
     const html = fs.readFileSync("./misc/menu.html", { encoding: "utf8" });
-    const weeks = parse(html).querySelectorAll("div[style='page-break-before:always; page-break-after:always']");
-
-    // get the first date from the menu to help keep track of which day to show
-    // const start_date_text = weeks[0].querySelector("div :nth-child(2)")?.innerText;
-    // const start_date = start_date_text ? date_re.exec(start_date_text)?.groups : undefined;
-    // const start = start_date ? new Date(
-    //     parseInt(start_date.year), 
-    //     months_map[start_date.month], 
-    //     parseInt(start_date.date)) : 
-    //     new Date();
+    const weeks = parse(html).querySelectorAll("body > div");
 
     const days: Day[][] = await promise_map(weeks, extract_days);
     await promise_map(weeks, extract_days);
