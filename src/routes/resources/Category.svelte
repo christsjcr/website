@@ -10,17 +10,17 @@
     $: filteredSections = resourceCategory.title.toLowerCase().includes(search)
         ? resourceCategory.sections
         : resourceCategory.sections
-              .map((section) => ({
-                  ...section,
-                  items: section.title.toLowerCase().includes(search)
-                      ? section.items
-                      : section.items.filter((item) =>
-                            (item.title + "\n" + (item.info ?? []).join("\n"))
-                                .toLowerCase()
-                                .includes(search)
-                        ),
-              }))
-              .filter((section) => section.items.length > 0);
+            .map((section) => ({
+                ...section,
+                items: section.title.toLowerCase().includes(search)
+                    ? section.items
+                    : section.items.filter((item) =>
+                        (item.title + "\n" + (item.info ?? []).join("\n"))
+                            .toLowerCase()
+                            .includes(search)
+                    ),
+            }))
+            .filter((section) => section.items.length > 0);
 </script>
 
 {#if filteredSections.length > 0}

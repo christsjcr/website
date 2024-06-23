@@ -1,23 +1,41 @@
 module.exports = {
 	root: true,
-	parser: '@typescript-eslint/parser',
-	extends: ['airbnb-typescript/base', "plugin:import/recommended"],
-	plugins: ['svelte3', '@typescript-eslint', "import"],
-	ignorePatterns: ['*.cjs', "scripts/*", "svelte.config.js", "vite.config.js"],
+	extends: ["plugin:svelte/recommended", "plugin:import/recommended"],
+	plugins: ["@typescript-eslint"],
+	parser: "@typescript-eslint/parser",
+	ignorePatterns: ["*.cjs", "scripts/*", "svelte.config.js", "vite.config.js"],
 	settings: {
-		'svelte3/typescript': () => require('typescript'),
-		'import/core-modules': ['svelte']
+		"import/core-modules": ["svelte", "@sveltejs/kit", "$app/stores"],
+		"import/parsers": {
+			"@typescript-eslint/parser": [".ts", ".tsx"]
+		},
+		"import/resolver": {
+			"typescript": {
+			  "alwaysTryTypes": true
+			}
+		}
 	},
 	parserOptions: {
-		sourceType: 'module',
+		sourceType: "module",
 		ecmaVersion: 2020,
-		project: './tsconfig.json'
+		project: "./tsconfig.json",
+	  	extraFileExtensions: [".svelte"] // This is a required setting in `@typescript-eslint/parser` v4.24.0.
 	},
 	env: {
 		browser: true,
 		es2017: true,
 		node: true
 	},
+	overrides: [
+	  {
+		files: ["*.svelte"],
+		parser: "svelte-eslint-parser",
+		// Parse the `<script>` in `.svelte` as TypeScript by adding the following configuration.
+		parserOptions: {
+		  parser: "@typescript-eslint/parser"
+		}
+	  }
+	],
 	rules: {
 		"no-console": "off",
 		"no-continue": "off",
@@ -62,6 +80,9 @@ module.exports = {
 		],
 		"implicit-arrow-linebreak": "off",
 		"import/no-extraneous-dependencies": "off",
+		"import/no-named-as-default": "off",
+		"import/no-named-as-default-member": "off",
+		"import/default": "off",
 		"@typescript-eslint/no-unused-vars": [
 			"error",
 			{
@@ -69,8 +90,5 @@ module.exports = {
 			}
 		],
 		"@typescript-eslint/quotes": ["error", "double"]
-	},
-	globals: {
-		"NodeJS": true
-	},
-};
+	}
+  };

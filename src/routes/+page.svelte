@@ -50,8 +50,8 @@
         </div>
         <div
             class="column is-one-third-desktop {$width > desktop.min
-                ? 'pt-4'
-                : 'px-5'}">
+                ? "pt-4"
+                : "px-5"}">
             {#if $width > desktop.min}
                 <br />
                 <br />
@@ -61,7 +61,9 @@
                 <NotificationLink
                     href="/get-involved/feedback"
                     title="Feedback Form ✍️"
-                    content="If you want to provide feedback, suggestions, or general problems for the JCR to consider, please use this form! The JCR is there to work for you, so any and all feedback is welcome."
+                    content=
+                    "If you want to provide feedback, suggestions, or general problems for the JCR to consider, please use this form! 
+                    The JCR is there to work for you, so any and all feedback is welcome."
                     grey />
             </div>
         </div>
@@ -80,7 +82,10 @@
                     </li>
                     <li>
                         <TrackedLink
-                            href="https://intranet.christs.cam.ac.uk/Shibboleth.sso/Login?target=%2Fshibboleth%2Flogin%3Fshiblogin%3D1%26destination%3D%2Fmealbooking%2F"
+                            href={
+                                "https://intranet.christs.cam.ac.uk/Shibboleth.sso/Login" + 
+                                "?target=%2Fshibboleth%2Flogin%3Fshiblogin%3D1%26destination%3D%2Fmealbooking%2F"
+                                }
                             id="meal-booking"
                             external>Meal booking</TrackedLink>
                     </li>
@@ -130,7 +135,10 @@
                 <ul class="list">
                     <li>
                         <TrackedLink
-                            href="https://docs.google.com/forms/d/e/1FAIpQLSf9hatciSfMqo-IH1Vmok2X1MtLizfOlMmk8RViTpVp-dDmzg/viewform?usp=sf_link"
+                            href={
+                                "https://docs.google.com/forms/d/e/1FAIpQLSf9hatciSfMqo-IH1Vmok2X1MtLizfOlMmk8RViTpVp-dDmzg/viewform"
+                                + "?usp=sf_link"
+                            }
                             id="JCR-funding-form"
                             external>Unified JCR Funding Form</TrackedLink>
                     </li>

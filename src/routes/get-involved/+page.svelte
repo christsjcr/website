@@ -37,7 +37,8 @@
             <NotificationLink
                 href="/get-involved/feedback"
                 title="Feedback ✍️"
-                content="If you want to provide feedback, suggestions, or general problems for the JCR to consider, please use this form! The JCR is there to work for you, so any and all feedback is welcome." />
+                content="If you want to provide feedback, suggestions, or general problems for the JCR to consider, 
+                please use this form! The JCR is there to work for you, so any and all feedback is welcome." />
         </div>
         <div class="column" />
     </div>

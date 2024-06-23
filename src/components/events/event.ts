@@ -1,6 +1,6 @@
 import * as ics from "ics";
 import { DateTime } from "luxon";
-import { error } from "@sveltejs/kit";
+import { error } from "@sveltejs/kit" ;
 
 interface Event<T> {
     description: string;
@@ -51,7 +51,7 @@ export function getICS<T>(calendarName: string, events: Events<T>): string {
         }),
     );
     if (err) {
-        error(500, String(err));
+        error(500, err.message);
     }
     return value;
 }
