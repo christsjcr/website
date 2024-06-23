@@ -18,8 +18,9 @@
     "@event-calendar/day-grid": "^2.4",
     "@event-calendar/list": "^2.4",
     "@event-calendar/time-grid": "^2.4",
-    "@sveltejs/adapter-static": "^2.0.3",
-    "@sveltejs/kit": "1",
+    "@sveltejs/adapter-static": "^3.0.0",
+    "@sveltejs/kit": "^2.0.0",
+    "@sveltejs/vite-plugin-svelte": "^3.0.0",
     "@types/luxon": "^3.3.3",
     "@typescript-eslint/eslint-plugin": "^6.9.0",
     "@typescript-eslint/parser": "^6.9.0",
@@ -40,7 +41,7 @@
     "tslib": "^2.3.1",
     "tsx": "^4.7.0",
     "typescript": "^5.2.2",
-    "vite": "^4.5.3"
+    "vite": "^5.0.0"
   },
   "type": "module",
   "dependencies": {
