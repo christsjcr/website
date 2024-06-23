@@ -40,8 +40,8 @@
             {href == null
                 ? "Coming Soon"
                 : external
-                ? "Read More ↗"
-                : "Read More →"}
+                    ? "Read More ↗"
+                    : "Read More →"}
         </p>
     </div>
 </a>
