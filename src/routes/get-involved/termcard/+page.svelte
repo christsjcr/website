@@ -14,13 +14,13 @@
         <h2 class="title is-2">{term} Term</h2>
         <div class="columns">
             <div class="column is-narrow">
-                <a href={`webcal://thejcr.co.uk/calendar/termcard/jcr.ics`}>
+                <a href={"webcal://thejcr.co.uk/calendar/termcard/jcr.ics"}>
                     <button class="button is-primary"
                         >Subscribe to JCR Events</button>
                 </a>
             </div>
             <div class="column is-narrow">
-                <a href={`webcal://thejcr.co.uk/calendar/termcard/society.ics`}>
+                <a href={"webcal://thejcr.co.uk/calendar/termcard/society.ics"}>
                     <button class="button is-link"
                         >Subscribe to Society Events</button>
                 </a>

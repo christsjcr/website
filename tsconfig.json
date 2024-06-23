@@ -1,23 +1,9 @@
 {
 	"extends": "./.svelte-kit/tsconfig.json",
 	"compilerOptions": {
-		"paths": {
-			"$lib": [
-				"./src/lib"
-			],
-			"$lib/*": [
-				"./src/lib/*"
-			],
-			"$components/*": [
-				"./src/components/*"
-			],
-			"$data/*": [
-				"./src/data/*"
-			]
-		},
 		"resolveJsonModule": true,
 		"allowSyntheticDefaultImports": true,
-		"moduleResolution": "node",
+		"moduleResolution": "bundler",
 		"module": "ES2020"
 	},
 	"include": [

@@ -1,5 +1,6 @@
 import * as ics from "ics";
 import { DateTime } from "luxon";
+import { error } from "@sveltejs/kit" ;
 
 interface Event<T> {
     description: string;
@@ -29,7 +30,7 @@ export function getEnd<T>(x: Event<T>): Date {
 export type Events<T> = Event<T>[];
 
 export function getICS<T>(calendarName: string, events: Events<T>): string {
-    let { error, value } = ics.createEvents(
+    let { error:err, value } = ics.createEvents(
         events.map((x) => {
             // Convert the start time to UTC
             let start = DateTime.fromJSDate(getStart(x)).setZone("Europe/London", { keepLocalTime: true }).toJSDate();
@@ -49,8 +50,8 @@ export function getICS<T>(calendarName: string, events: Events<T>): string {
             };
         }),
     );
-    if (error) {
-        throw error;
+    if (err) {
+        error(500, err.message);
     }
     return value;
 }

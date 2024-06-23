@@ -1,11 +1,11 @@
 <script lang="ts">
     export let color:
-        | "grey"
-        | "dark"
-        | "primary"
-        | "info"
-        | "warning"
-        | "danger";
+    | "grey"
+    | "dark"
+    | "primary"
+    | "info"
+    | "warning"
+    | "danger";
 
     export let tooltipSide: "bottom" | "right" = "bottom";
 

@@ -23,7 +23,10 @@
             <NotificationLink
                 href="/about/constitution-and-guidelines"
                 title="Constitution & Guidelines 📜"
-                content="Take a look at a copy of the JCR constitution, and explore the exciting world of funding guidelines & financial conduct." />
+                content=
+                "Take a look at a copy of the JCR constitution, 
+                and explore the exciting world of funding guidelines & financial conduct." 
+            />
         </div>
         <div class="column is-one-third">
             <NotificationLink

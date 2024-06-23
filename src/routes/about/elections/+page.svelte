@@ -7,7 +7,9 @@
 <PageHeader
     current="/about/elections"
     title="Elections"
-    metaDescription="Committee elections are a critical reason the JCR remains transparent, efficient, and representative of the student body.">
+    metaDescription=
+    "Committee elections are a critical reason the JCR remains transparent, efficient, and representative of the student body."
+    >
     <Content>
         <p>
             Elections for the JCR committee are held every Michaelmas and they

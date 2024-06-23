@@ -5,7 +5,7 @@
 
 <div class="columns" class:is-centered={centered}>
     <div class="column is-narrow">
-        <div class="{hasText ? 'content ' : ''}text">
+        <div class="{hasText ? "content " : ""}text">
             <slot />
         </div>
     </div>

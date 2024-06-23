@@ -61,26 +61,28 @@
 
         <h2 class="title is-2">{term} Term</h2>
         <p>
-            <a href={`webcal://thejcr.co.uk/calendar/meetings/exec.ics`}>
+            <a href={"webcal://thejcr.co.uk/calendar/meetings/exec.ics"}>
                 <button class="button is-success"
                     >Subscribe to Exec Meetings</button>
             </a>
         </p>
         <p>
-            <a href={`webcal://thejcr.co.uk/calendar/meetings/council.ics`}>
+            <a href={"webcal://thejcr.co.uk/calendar/meetings/council.ics"}>
                 <button class="button is-primary"
                     >Subscribe to Council Meetings</button>
             </a>
         </p>
         <p>
-            <a href={`webcal://thejcr.co.uk/calendar/meetings/open.ics`}>
+            <a href={"webcal://thejcr.co.uk/calendar/meetings/open.ics"}>
                 <button class="button is-link"
                     >Subscribe to Open Meetings</button>
             </a>
         </p>
         <Calendar
             events={meetings}
-            colors={{ exec: "#ad34cb", council: "#146A46", open: "#A28000" }}
+            colors={{
+                exec: "#ad34cb", council: "#146A46", open: "#A28000" 
+            }}
             type="listYear" />
         <br />
     </Content>

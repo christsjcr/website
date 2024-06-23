@@ -1,5 +1,7 @@
 <script lang="ts">
-    import { getDay, type Events, getStart, getEnd } from "./event";
+    import {
+        getDay, type Events, getStart, getEnd 
+    } from "./event";
 
     import Calendar from "@event-calendar/core";
     import TimeGrid from "@event-calendar/time-grid";
@@ -36,19 +38,19 @@
         })),
         headerToolbar:
             type == "listYear"
-                ? { start: "", center: "", end: "" }
+                ? {
+                    start: "", center: "", end: "" 
+                }
                 : {
-                      start: "title",
-                      center: "",
-                      end: "prev next",
-                  },
+                    start: "title",
+                    center: "",
+                    end: "prev next",
+                },
         slotMinTime: "08:00:00",
         slotMaxTime: "24:00:00",
         slotHeight: 36,
         nowIndicator: true,
-        eventContent: ({ event, timeText }) => ({
-            html: eventHtml(event, timeText),
-        }),
+        eventContent: ({ event, timeText }) => ({html: eventHtml(event, timeText),}),
         date: startDate <= now && now < endDate ? now : startDate,
     };
 </script>
