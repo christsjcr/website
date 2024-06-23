@@ -12,6 +12,7 @@ jobs:
 
       - name: Install and Build 🔧 # use the lockfile for reproducibility, run typechecking, then output to build folder
         run: |
+          npm install --global yarn@4.2.2
           yarn install --frozen-lockfile
           yarn run check
           yarn lint
