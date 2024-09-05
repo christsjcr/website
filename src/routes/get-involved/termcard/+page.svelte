@@ -2,7 +2,16 @@
     import Content from "$components/elements/Content.svelte";
     import Calendar from "$components/events/Calendar.svelte";
     import PageHeader from "$components/PageHeader.svelte";
-    import { termcard, term } from "./termcard";
+    import { getEvents } from "$lib/calendar"
+    import { 
+        term, 
+        startDate, 
+        endDate, 
+        termcardURL, 
+        identifyTermcardEventType 
+    } from "./termcard";
+    import type { TermcardEventTypes } from "./termcard";
+    const termcardPromise = getEvents<TermcardEventTypes>(termcardURL, startDate, endDate, identifyTermcardEventType);
 </script>
 
 <PageHeader
@@ -26,9 +35,22 @@
                 </a>
             </div>
         </div>
-        <Calendar
-            events={termcard}
-            colors={{ society: "#A28000", jcr: "#146A46" }}
-            type="listYear" />
+        {#await termcardPromise}
+            <p>Loading termcard...</p>
+        {:then termcard} 
+            {#if termcard && termcard.length > 0}
+            <Calendar
+                events={termcard}
+                colors={{ society: "#A28000", jcr: "#146A46" }}
+                type="listYear" />
+            {:else}
+            <p>No termcard events at the moment. Check again later!</p>
+            {/if}
+        {:catch error}
+            { console.log(error) }
+            <p>Oops! Something went wrong! Report this to the webmaster at 
+                <a href="mailto:webmaster@thejcr.co.uk">webmaster@thejcr.co.uk</a>
+            </p>
+        {/await}
     </Content>
 </PageHeader>
