@@ -61,5 +61,6 @@
       "esModuleInterop": true,
       "moduleResolution": "node"
     }
-  }
+  },
+  "packageManager": "yarn@1.22.22"
 }
