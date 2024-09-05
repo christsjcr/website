@@ -67,11 +67,11 @@ const categories: RoleCategory[] = [
             {
                 title: "Freshers' Rep",
                 label: "Freshers'",
-                name: "Flora Moayed",
-                pronouns: "she/her",
+                name: "Flora Moayed & Savinu Weerasekera",
+                pronouns: "she/her & he/him",
                 id: "firstyearrep",
                 description:
-                    "Hi! I’m Flora, this year’s Frep! Although freshers week is long gone, that doesn't mean I won't be organising a range of events (superbops, socials, etc.) in the coming term, so stay tuned! During freshers week, my job is to ensure a smooth and fun transition for the incoming freshers, and I look forward to hosting an array of events that cater to everyone’s preferences. Feel free to get in touch with me via email if you have any questions!",
+                    "Hi! We’re Flora & Sav, this year’s Freps! During freshers week, our job is to ensure a smooth and fun transition for the incoming freshers, and we look forward to hosting an array of events that cater to everyone’s preferences. Feel free to get in touch with us via email if you have any questions!",
             },
             
         ],
