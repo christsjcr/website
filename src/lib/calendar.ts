@@ -1,5 +1,3 @@
-import ical from "node-ical";
-import type { VEvent } from "node-ical";
 import type { Events } from "$components/events/event";
 import { titleCase } from "title-case";
 
@@ -24,25 +22,61 @@ function getEventDateTimes (start: Date, end: Date):EventDateTimes {
     }
 }
 
-export async function getEvents<T>(calendarURL: string, start: Date, end: Date, identifyType: (type: string) => T): Promise<Events<T>> {
-    let events:Events<T> = [];
-    const rawCalendar = await ical.async.fromURL(calendarURL);
-    events = Object.values(rawCalendar)
-        .filter(e => e.type == "VEVENT" && e.start > start && e.start < end)
-        .map((e:VEvent) => {
-            const eventDetails = /(?<type>jcr|soc): ?(?<title>[A-Za-z0-9-\/ ]+)/gmi.exec(e.summary).groups;
-            const { date, time, duration } = getEventDateTimes(e.start, e.end);
+type CalendarDetails<T> = 
+{
+    calendarId: string, 
+    type: T
+}[];
 
-            return {
-                description: titleCase(eventDetails.title),
-                date,
-                time,
-                duration,
-                location: e.location,
-                type: identifyType(eventDetails.type)
-            };
+export async function getEvents<T>(gapi, calendarDetails:CalendarDetails<T>, timeMin:Date, timeMax:Date): Promise<Events<T>> {
+    let events:Events<T> = [];
+
+    try {
+        await gapi.client.init({ 
+            apiKey: "AIzaSyDs-Xt2Y1ikLK7JjY5stobl9500GXTpyPo"
         });
-    
-    console.log(events);
-    return events;
+
+        for (let i = 0; i < calendarDetails.length; i++) {
+            const { calendarId, type } = calendarDetails[i];
+            const rawRes = await gapi.client.request({
+                path: `https://www.googleapis.com/calendar/v3/calendars/${ calendarId }/events?timeMin=${ timeMin.toISOString() }&timeMax${ timeMax.toISOString() }`
+            });
+
+            const parsed = rawRes.result.items.map(e => {
+                const start = new Date(e.start.dateTime);
+                const end = new Date(e.end.dateTime);
+                const { date, time, duration } = getEventDateTimes(start, end);
+                
+                return {
+                    description: titleCase(e.summary),
+                    date,
+                    time,
+                    duration,
+                    location: e.location ?? "TBC",
+                    type
+                };
+            });
+
+            events.push(...parsed);
+        }
+    } catch (error) {
+        console.error(error);
+    }
+
+    // sort in ascending order of datetime
+    return events.sort((e1, e2) => {
+        const lowerMonth = e1.date[1] < e2.date[1];
+        const sameMonth = e1.date[1] == e2.date[1];
+        const lowerDate = e1.date[2] < e2.date[2];
+        const sameDate = e1.date[2] == e2.date[2];
+        const timeDiff =  (e1.time[0] + e1.time[1] / 60) - (e2.time[0] + e2.time[1] / 60);
+
+        if (lowerMonth || (sameMonth && lowerDate)) {
+            return -1;
+        } else if (sameMonth && sameDate) {
+            return timeDiff;
+        } else {
+            return 1;
+        }
+    });
 }
