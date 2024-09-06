@@ -1,72 +1,23 @@
-import type { Events } from "$components/events/event";
+export enum MeetingTypes {
+    exec = "exec",
+    council = "council",
+    open = "open"
+}
 
-const year: number = 2024;
-
-export const term: string = "Easter";
-
-export const meetings: Events<"exec" | "council" | "open"> = [
+export const term = "Michaelmas";
+export const calendarDetails = [
     {
-        description: "JCR Exec Meeting",
-        date: [year, 4, 28],
-        time: [12, 0],
-        duration: [1, 0],
-        location: "New Court Seminar Room",
-        type: "exec",
+        calendarId: "da5521c8c3b2c5e4461b8d84e3058d6874f5d6a13cd1f636b9693cfb40b76146@group.calendar.google.com",
+        type: MeetingTypes.exec
     },
     {
-        description: "JCR Open Meeting",
-        date: [year, 4, 28],
-        time: [17, 0],
-        duration: [1, 0],
-        location: "Lloyd Room",
-        type: "open",
+        calendarId: "e0ea2c5ec1fb4dba96b45c86b06e46ffb2be9abf8b43ba317c6e9a3bd22d5ce9@group.calendar.google.com",
+        type: MeetingTypes.council
     },
     {
-        description: "JCR Council Meeting",
-        date: [year, 5, 4],
-        time: [17, 0],
-        duration: [1, 0],
-        location: "New Court Seminar Room",
-        type: "council",
-    },
-    {
-        description: "JCR Exec Meeting",
-        date: [year, 5, 11],
-        time: [14, 0],
-        duration: [1, 0],
-        location: "New Court Seminar Room",
-        type: "exec",
-    },
-    {
-        description: "JCR Council Meeting",
-        date: [year, 5, 11],
-        time: [17, 0],
-        duration: [1, 0],
-        location: "New Court Seminar Room",
-        type: "council",
-    },
-    {
-        description: "JCR Exec Meeting",
-        date: [year, 6, 8],
-        time: [15, 0],
-        duration: [1, 0],
-        location: "NCSR",
-        type: "exec",
-    },
-    {
-        description: "JCR Council Meeting",
-        date: [year, 6, 8],
-        time: [17, 0],
-        duration: [1, 0],
-        location: "New Court Seminar Room",
-        type: "council",
-    },
-    {
-        description: "JCR Exec Meeting",
-        date: [year, 6, 13],
-        time: [15, 0],
-        duration: [1, 0],
-        location: "New Court Seminar Room",
-        type: "exec",
-    },
+        calendarId: "6d53ff189078c025f719062586b21cbb6f84b256915d6f97d13069d25747b8b3@group.calendar.google.com",
+        type: MeetingTypes.open
+    }
 ];
+export const startDate = new Date(Date.UTC(2024, 9, 5));
+export const endDate = new Date(Date.UTC(2024, 11, 8));
