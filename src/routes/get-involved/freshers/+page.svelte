@@ -3,7 +3,7 @@
     import Calendar from "$components/events/Calendar.svelte";
     import NotificationLink from "$components/elements/NotificationLink.svelte";
     import PageHeader from "$components/PageHeader.svelte";
-    import { freshers, year } from "./freshers";
+    import { calendarDetails, startDate, endDate } from "./freshers";
 </script>
 
 <PageHeader
@@ -75,21 +75,29 @@
         <div class="columns">
             <div class="column is-narrow">
                 <a
-                    href={`webcal://thejcr.co.uk/calendar/freshers/compulsory${year}.ics`}>
+                    href={
+                    "https://calendar.google.com/calendar/ical/\
+                    98f933efaa927a1b41a85f92bba67e064a0270676b3c1241ca901610f556ea84%40group.calendar.google.com/public/basic.ics"
+                }>
                     <button class="button is-success"
                         >Subscribe to Compulsory Events</button>
                 </a>
             </div>
             <div class="column is-narrow">
                 <a
-                    href={`webcal://thejcr.co.uk/calendar/freshers/optional${year}.ics`}>
+                    href={
+                    "https://calendar.google.com/calendar/ical/\
+                    f47cb082566f93a9a682f20026f24aace73dc0203899ace553a6e54aaf2ca555%40group.calendar.google.com/public/basic.ics"
+                }>
                     <button class="button is-primary"
                         >Subscribe to Optional Events</button>
                 </a>
             </div>
         </div>
         <Calendar
-            events={freshers}
+            calendarDetails={ calendarDetails }
+            timeMin={ startDate }
+            timeMax={ endDate }
             colors={{ compulsory: "#ad34cb", optional: "#146A46" }}
             type="timeGridDay" />
         <br />

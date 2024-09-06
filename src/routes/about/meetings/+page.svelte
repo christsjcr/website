@@ -3,7 +3,12 @@
     import TrackedLink from "$components/elements/TrackedLink.svelte";
     import Calendar from "$components/events/Calendar.svelte";
     import PageHeader from "$components/PageHeader.svelte";
-    import { term, meetings } from "./meetings";
+    import { 
+        term, 
+        startDate, 
+        endDate, 
+        calendarDetails 
+    } from "./meetings";
 </script>
 
 <PageHeader
@@ -61,25 +66,27 @@
 
         <h2 class="title is-2">{term} Term</h2>
         <p>
-            <a href={"webcal://thejcr.co.uk/calendar/meetings/exec.ics"}>
+            <a href={"https://calendar.google.com/calendar/ical/da5521c8c3b2c5e4461b8d84e3058d6874f5d6a13cd1f636b9693cfb40b76146%40group.calendar.google.com/public/basic.ics"}>
                 <button class="button is-success"
                     >Subscribe to Exec Meetings</button>
             </a>
         </p>
         <p>
-            <a href={"webcal://thejcr.co.uk/calendar/meetings/council.ics"}>
+            <a href={"https://calendar.google.com/calendar/ical/e0ea2c5ec1fb4dba96b45c86b06e46ffb2be9abf8b43ba317c6e9a3bd22d5ce9%40group.calendar.google.com/public/basic.ics"}>
                 <button class="button is-primary"
                     >Subscribe to Council Meetings</button>
             </a>
         </p>
         <p>
-            <a href={"webcal://thejcr.co.uk/calendar/meetings/open.ics"}>
+            <a href={"https://calendar.google.com/calendar/ical/6d53ff189078c025f719062586b21cbb6f84b256915d6f97d13069d25747b8b3%40group.calendar.google.com/public/basic.ics"}>
                 <button class="button is-link"
                     >Subscribe to Open Meetings</button>
             </a>
         </p>
         <Calendar
-            events={meetings}
+            calendarDetails={ calendarDetails }
+            timeMax={ endDate }
+            timeMin={ startDate }
             colors={{
                 exec: "#ad34cb", council: "#146A46", open: "#A28000" 
             }}

@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "vite dev",
-    "prebuild": "npx tsx scripts/calendar.ts",
     "build": "npx vite build",
     "postbuild": "npx svelte-sitemap --domain https://thejcr.co.uk -i error.html -i success.html --change-freq weekly",
     "package": "svelte-kit package",
@@ -48,9 +47,11 @@
     "@fortawesome/fontawesome-svg-core": "6.4.2",
     "@fortawesome/free-brands-svg-icons": "6.4.2",
     "@fortawesome/free-solid-svg-icons": "6.4.2",
+    "@types/gapi": "^0.0.47",
     "bulma-switch": "^2.0.4",
     "ics": "^3.5.0",
     "luxon": "^3.4.3",
+    "node-fetch": "^3.3.2",
     "svelte-fa": "^3.0.4",
     "svelte-markdown": "^0.4.0",
     "title-case": "^4.1.2"
@@ -61,5 +62,6 @@
       "esModuleInterop": true,
       "moduleResolution": "node"
     }
-  }
+  },
+  "packageManager": "yarn@1.22.22"
 }
