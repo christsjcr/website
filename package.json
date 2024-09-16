@@ -49,8 +49,6 @@
     "@fortawesome/free-solid-svg-icons": "6.4.2",
     "@types/gapi": "^0.0.47",
     "bulma-switch": "^2.0.4",
-    "ics": "^3.5.0",
-    "luxon": "^3.4.3",
     "node-fetch": "^3.3.2",
     "svelte-fa": "^3.0.4",
     "svelte-markdown": "^0.4.0",
