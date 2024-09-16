@@ -1,7 +1,3 @@
-import * as ics from "ics";
-import { DateTime } from "luxon";
-import { error } from "@sveltejs/kit" ;
-
 interface Event<T> {
     description: string;
     date: [number, number, number];
@@ -28,30 +24,3 @@ export function getEnd<T>(x: Event<T>): Date {
 }
 
 export type Events<T> = Event<T>[];
-
-export function getICS<T>(calendarName: string, events: Events<T>): string {
-    let { error:err, value } = ics.createEvents(
-        events.map((x) => {
-            // Convert the start time to UTC
-            let start = DateTime.fromJSDate(getStart(x)).setZone("Europe/London", { keepLocalTime: true }).toJSDate();
-            return {
-                calName: calendarName,
-                title: x.description,
-                start: [
-                    start.getUTCFullYear(),
-                    start.getUTCMonth() + 1,
-                    start.getUTCDate(),
-                    start.getUTCHours(),
-                    start.getUTCMinutes(),
-                ],
-                startInputType: "utc",
-                duration: { hours: x.duration[0], minutes: x.duration[1] },
-                location: x.location,
-            };
-        }),
-    );
-    if (err) {
-        error(500, err.message);
-    }
-    return value;
-}

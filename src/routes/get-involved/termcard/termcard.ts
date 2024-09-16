@@ -3,7 +3,7 @@ export enum TermcardEventTypes {
     soc = "society"
 }
 
-export const term = "Summer";
+export const term = "Michaelmas";
 export const calendarDetails = [
     {
         calendarId: "webmaster@thejcr.co.uk",
@@ -14,5 +14,5 @@ export const calendarDetails = [
         type: TermcardEventTypes.soc
     }
 ];
-export const startDate = new Date(Date.UTC(2024, 7, 18));
-export const endDate = new Date(Date.UTC(2024, 7, 25));
+export const startDate = new Date(Date.UTC(2024, 9, 1));
+export const endDate = new Date(Date.UTC(2024, 11, 8));
