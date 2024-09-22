@@ -4,6 +4,7 @@
     import "../app.scss";
     import type { NavbarItem } from "$components/Navbar.svelte";
     import Navbar from "$components/Navbar.svelte";
+    import links from "$data/links";
 
     import { library } from "@fortawesome/fontawesome-svg-core";
     import {
@@ -112,7 +113,7 @@
             <div class="level is-mobile">
                 <div class="level-item has-text-centered">
                     <TrackedLink
-                        href="https://www.instagram.com/christsjcr/"
+                        href={ links.general.JCR_INSTAGRAM }
                         id="instagram"
                         external>
                         <span class="icon is-large">
@@ -123,7 +124,7 @@
                 </div>
                 <div class="level-item has-text-centered">
                     <TrackedLink
-                        href="https://www.facebook.com/ChristsJCR"
+                        href={ links.general.JCR_FACEBOOK }
                         id="facebook"
                         external>
                         <span class="icon is-large">
@@ -134,7 +135,7 @@
                 </div>
             </div>
             <p>© Christ's JCR 2023</p>
-            <a rel="external" href="https://github.com/christsjcr/website"
+            <a rel="external" href={ links.general.GITHUB }
                 >Source</a>
         </div>
     </footer>

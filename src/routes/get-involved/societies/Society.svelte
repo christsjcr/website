@@ -16,6 +16,7 @@
     import Tag from "./Tag.svelte";
     import Markdown from "$components/markdown/Markdown.svelte";
     import ExternalLink from "$components/markdown/ExternalLink.svelte";
+    import links from "$data/links"
 
     export let society: Society;
     let expanded = false;
@@ -290,7 +291,7 @@
             </div>
             <div class="column has-text-right is-narrow ml-5">
                 <ExternalLink
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSfTnmDLCwVwiblfuTXfJzC64iIhH3ooZFJCkNIYG2p-Bn0wWg/viewform?usp=sf_link"
+                    href={ links.internal.UPDATE_SOCIETY_FORM }
                     >Edit</ExternalLink>
             </div>
         </div>

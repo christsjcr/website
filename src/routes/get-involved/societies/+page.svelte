@@ -5,6 +5,7 @@
     import SocietyCard from "./Society.svelte";
     import { societies, type Society } from "./societies";
     import NotificationLink from "$components/elements/NotificationLink.svelte";
+  import links from "$data/links"
 
     function copy(society: Society): Society & { search: string } {
         return {
@@ -77,7 +78,7 @@
         <div class="columns mt-2">
             <div class="column">
                 <NotificationLink
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSfTnmDLCwVwiblfuTXfJzC64iIhH3ooZFJCkNIYG2p-Bn0wWg/viewform?usp=sf_link"
+                    href={ links.internal.UPDATE_SOCIETY_FORM }
                     title="Update Society Info 🔄"
                     content="Is information about your society incorrect or out-of-date? Fill in the society update form."
                     external />

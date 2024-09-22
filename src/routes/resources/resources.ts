@@ -1,3 +1,4 @@
+import links from "$data/links";
 import type { ResourcePage } from "$lib/format";
 
 const resources: {
@@ -11,19 +12,19 @@ const resources: {
                 items: [
                     {
                         title: "Intranet",
-                        url: "https://intranet.christs.cam.ac.uk",
+                        url: links.general.INTRANET,
                     },
                     {
                         title: "Tutor Timetable",
-                        url: "https://intranet.christs.cam.ac.uk/system/files/2023-10/2023-24%20Undergraduate%20Open%20Tutorial%20Hours_0.pdf",
+                        url: links.general.TUTOR_TIMETABLE,
                     },
                     {
                         title: "Camcard Balance",
-                        url: "https://intranet.christs.cam.ac.uk/Shibboleth.sso/Login?target=%2Fshibboleth%2Flogin%3Fshiblogin%3D1%26destination%3D%2Fmealbooking%2FEPOS.aspx",
+                        url: links.general.CAMCARD_BALANCE,
                     },
                     {
                         title: "Printing Balance",
-                        url: "https://www.christs.cam.ac.uk/cp",
+                        url: links.general.PRINTING_BALANCE,
                     },
                 ],
             },
@@ -32,15 +33,15 @@ const resources: {
                 items: [
                     {
                         title: "Upper Hall Menu",
-                        url: "https://intranet.christs.cam.ac.uk/upper-hall-menus",
+                        url: links.meals.UPPER_HALL_MENU
                     },
                     {
                         title: "Meal Booking",
-                        url: "https://intranet.christs.cam.ac.uk/Shibboleth.sso/Login?target=%2Fshibboleth%2Flogin%3Fshiblogin%3D1%26destination%3D%2Fmealbooking%2F",
+                        url: links.meals.MEAL_BOOKING
                     },
                     {
                         title: "Meal Times",
-                        url: "https://intranet.christs.cam.ac.uk/meal-times",
+                        url: links.meals.MEAL_TIMES,
                         info: [
                             "Breakfast: Mon-Fri 8:00-9:30 (Buttery)",
                             "Brunch: Sat 11:00-12:30, Sun 10:30-12:00",
@@ -57,15 +58,15 @@ const resources: {
                 items: [
                     {
                         title: "Room Booking",
-                        url: "https://christscollege.roombookingsystem.co.uk/overviewday",
+                        url: links.facilities.ROOM_BOOKING,
                     },
                     {
                         title: "Fault Reporting",
-                        url: "https://intranet.christs.cam.ac.uk/fault-reporting",
+                        url: links.facilities.FAULT_REPORTING,
                     },
                     {
                         title: "Airbed Booking",
-                        url: "https://christscollege.roombookingsystem.co.uk/user/overviewweek",
+                        url: links.facilities.AIRBED,
                         info: [
                             "Airbeds and accompanying bedding can be booked on the college intranet",
                             "An automated email will be sent specifying how to collect, inflate and return the mattress",
@@ -75,11 +76,11 @@ const resources: {
                     },
                     {
                         title: "Room Database",
-                        url: "https://intranet.christs.cam.ac.uk/app/rooms/undergraduate",
+                        url: links.facilities.ROOM_DATABASE,
                     },
                     {
                         title: "Pool Rules",
-                        url: "https://docs.google.com/document/d/1mUff1QpIWbGjHwP4iUH2HNjor-md7eKDX2UGbEPFHEk/edit?usp=sharinge",
+                        url: links.facilities.POOL_RULES,
                     },
                 ],
             },
@@ -88,18 +89,18 @@ const resources: {
                 items: [
                     {
                         title: "Porters",
-                        url: "tel:01223334900",
+                        url: links.contacts.PORTERS_PHONE,
                         info: [
-                            "Phone: [01223 334900](tel:01223334900)",
-                            "Email: [porters@christs.cam.ac.uk](mailto:porters@christs.cam.ac.uk)",
+                            `Phone: [01223 334900](${ links.contacts.PORTERS_PHONE })`,
+                            `Email: [porters@christs.cam.ac.uk](${ links.contacts.PORTERS_EMAIL })`,
                         ],
                     },
                     {
                         title: "Panther Taxis",
-                        url: "https://www.panthertaxis.co.uk",
+                        url: links.contacts.PANTHER_TAXI_WEBSITE,
                         info: [
-                            "Phone: [01223 715715](tel:01223715715)",
-                            "App: [download](https://www.panthertaxis.app/)",
+                            `Phone: [01223 715715](${ links.contacts.PANTHER_TAXI_PHONE })`,
+                            `App: [download](${ links.contacts.VEEZU_APP })`,
                         ],
                     },
                 ],
@@ -114,7 +115,7 @@ const resources: {
                 items: [
                     {
                         title: "Timetable",
-                        url: "https://timetable.cam.ac.uk",
+                        url: links.academic.TIMETABLES,
                         info: [
                             "Contains dates and timings of lectures, labs, and other department-organised events",
                             "You can subscribe to the calendar to automatically add the events to your personal devices",
@@ -122,7 +123,7 @@ const resources: {
                     },
                     {
                         title: "Moodle",
-                        url: "https://www.vle.cam.ac.uk/login/index.php",
+                        url: links.academic.MOODLE,
                         info: [
                             "Course resources and information",
                             "Tutor meetings",
@@ -131,16 +132,16 @@ const resources: {
                     },
                     {
                         title: "Christ's Library & Archives",
-                        url: "https://www.christs.cam.ac.uk/library-archives",
+                        url: links.academic.CHRISTS_LIBRARY_ARCHIVES,
                         info: [
-                            "Get started: [link](https://www.christs.cam.ac.uk/library)",
-                            "Accessibility information: [link](https://www.christs.cam.ac.uk/assist)",
-                            "Wellbeing & library anxiety: [link](https://www.christs.cam.ac.uk/libwellbeing)",
+                            `Get started: [link](${ links.academic.CHRISTS_LIBRARY })`,
+                            `Accessibility information: [link](${ links.welfare.LIBRARY_ASSISTIVE_RESOURCES })`,
+                            `Wellbeing & library anxiety: [link](${ links.welfare.LIBRARY_WELLBEING })`,
                         ],
                     },
                     {
                         title: "iDiscover",
-                        url: "https://idiscover.lib.cam.ac.uk/primo-explore/search?vid=44CAM_PROD",
+                        url: links.academic.IDISCOVER,
                         info: [
                             "Access to Cambridge Libraries Collections",
                             "Online resources",
@@ -154,7 +155,7 @@ const resources: {
                 items: [
                     {
                         title: "CamSIS",
-                        url: "https://camsis.cam.ac.uk/psp/ravenprod/?cmd=login",
+                        url: links.academic.CAMSIS,
                         info: [
                             "Exam results",
                             "Course enrollments",
@@ -163,7 +164,7 @@ const resources: {
                     },
                     {
                         title: "CamCORS",
-                        url: "https://www.camcors.cam.ac.uk/",
+                        url: links.academic.CAMCORS,
                         info: ["Supervision reports"],
                     },
                 ],
@@ -173,7 +174,7 @@ const resources: {
                 items: [
                     {
                         title: "University Careers Service",
-                        url: "https://www.careers.cam.ac.uk/",
+                        url: links.careers.UNI_CAREER_SERVICE,
                         info: [
                             "Navigate the job market",
                             "Connect with employers",
@@ -182,7 +183,7 @@ const resources: {
                     },
                     {
                         title: "Handshake",
-                        url: "https://www.joinhandshake.co.uk/",
+                        url: links.careers.HANDSHAKE,
                         info: [
                             "Early career network for students",
                             "Apply to internships and graduate positions",
@@ -191,10 +192,10 @@ const resources: {
                     },
                     {
                         title: "Alumni Database",
-                        url: "https://alumni.christs.cam.ac.uk/ccc-list",
+                        url: links.careers.ALUMNI_DATABASE,
                         info: [
                             "Access a list of Christ's Alumni",
-                            "Use these [account details](https://drive.google.com/file/d/1uGR_BrL7kvHU0iMnjfRpKJr0jBf09a9d/view?usp=sharing) to login (Christ's Undergrads only)",
+                            `Use these [account details](${ links.internal.ALUMNI_WEBSITE_CREDS }) to login (Christ's Undergrads only)`,
                         ],
                     },
                 ],
@@ -209,11 +210,11 @@ const resources: {
                 items: [
                     {
                         title: "JCR Welfare Guide",
-                        url: "https://drive.google.com/file/d/10B4hgiyuOBksYWfDC988anwTu8_0r_fu/view?usp=drive_link",
+                        url: links.welfare.JCR_WELFARE_GUIDE,
                     },
                     {
                         title: "Tutor Timetable",
-                        url: "https://intranet.christs.cam.ac.uk/system/files/2023-10/2023-24%20Undergraduate%20Open%20Tutorial%20Hours_0.pdf",
+                        url: links.general.TUTOR_TIMETABLE,
                         info: [
                             "Shows walk-in / contact hours for tutors",
                             "It is best to visit your own tutor if possible, but you can always see any Tutor without an appointment",
@@ -225,29 +226,37 @@ const resources: {
                         url: "/about/committee#welfare-officers",
                         info: [
                             "You can contact Zain + Chris by their emails, which can be found on the [committee page](/about/committee).",
-                            "You can also DM them on the [@ChristsWelfare](https://www.instagram.com/christswelfare/) instagram page, if you'd prefer.",
+                            `You can also DM them on the [@ChristsWelfare](${ links.welfare.JCR_WELFARE_INSTAGRAM })` +
+                                "instagram page, if you'd prefer.",
                         ],
                     },
                     {
                         title: "College Health & Wellbeing Appointments",
-                        url: "https://christ-college.uk2.cliniko.com/bookings",
+                        url: links.welfare.COLLEGE_NURSE_BOOKING,
                         info: [
                             "Allows students to directly book four types of appointments",
-                            "[**Freshers Introduction Appointment**](https://christ-college.uk2.cliniko.com/bookings) (Michaelmas term only): an opportunity to have a get to know a student that may have a physical, mental health or disability/accessibility need, to ensure that adequate support is in place",
-                            "[**Wellbeing Drop-in**](https://christ-college.uk2.cliniko.com/bookings): a 30m chat about wellbeing and/or small issues that students may be facing (a preventative approach, to help stop small issues becoming bigger ones)",
-                            "[**Physical Health Appointments**](https://christ-college.uk2.cliniko.com/bookings): 20m duration, for all non-urgent physical health issues and queries or review of ongoing conditions",
-                            "[**Mental Health Appointments**](https://christ-college.uk2.cliniko.com/bookings):  45min duration, for students who are experiencing mental health issues that are impacting on their day-to-day life and academics",
+                            `[**Freshers Introduction Appointment**](${ links.welfare.COLLEGE_NURSE_BOOKING }) (Michaelmas term only): 
+                                an opportunity to have a get to know a student that may have a physical, 
+                                mental health or disability/accessibility need, to ensure that adequate support is in place`, 
+                            `[**Wellbeing Drop-in**](${ links.welfare.COLLEGE_NURSE_BOOKING }): 
+                                a 30m chat about wellbeing and/or small issues that students may be facing 
+                                (a preventative approach, to help stop small issues becoming bigger ones)`,
+                            `[**Physical Health Appointments**](${ links.welfare.COLLEGE_NURSE_BOOKING }): 
+                                20m duration, for all non-urgent physical health issues and queries or review of ongoing conditions`,
+                            `[**Mental Health Appointments**](${ links.welfare.COLLEGE_NURSE_BOOKING }): 
+                                45min duration, for students who are experiencing mental health issues that are impacting on their 
+                                day-to-day life and academics`,
                             "If you can't find a suitable appointment time, please email [Christ's Nurse](/resources?search=Nurse)",
                         ],
                     },
                     {
                         title: "Cambridge Student Advice Service",
-                        url: "https://www.cambridgesu.co.uk/support/advice/",
+                        url: links.welfare.CAM_STUDENT_ADVICE,
                         info: [
                             "An appointment-based support service for all undergraduates, graduates and postgraduates, open Mon-Fri 9:00-17:00 (except for Bank Holidays and when the SU is closed)",
                             "Phone: [01223 746999](tel:01223746999)",
                             "Email: [advice@cambridgesu.co.uk](mailto:advice@cambridgesu.co.uk)",
-                            "Request an Appointment: [link](https://www.cambridgesu.co.uk/support/advice/contact/)",
+                            `Request an Appointment: [link](${ links.welfare.CAM_STUDENT_ADVICE_CONTACT })`,
                         ],
                     },
                 ],
@@ -257,11 +266,11 @@ const resources: {
                 items: [
                     {
                         title: "NHS Cambridgeshire and Peterborough",
-                        url: "https://www.cpft.nhs.uk/",
+                        url: links.welfare.NHS_LOCAL,
                     },
                     {
                         title: "Nurse",
-                        url: "https://intranet.christs.cam.ac.uk/college-nurse-0",
+                        url: links.welfare.COLLEGE_NURSE,
                         info: [
                             "For regular appointments, see [College Health & Wellbeing Appointments](/resources?search=College%20Health%20%26%20Wellbeing%20Appointments)",
                             "For enquiries and urgent appointments: [nurse@christs.cam.ac.uk](mailto:nurse@christs.cam.ac.uk)",
@@ -280,7 +289,7 @@ const resources: {
                     },
                     {
                         title: "iCaSH",
-                        url: "https://www.icash.nhs.uk/",
+                        url: links.welfare.ICASH,
                         info: [
                             "Access to contraception, routine sexual health screenings, treatment for sexually transmitted infections, and related advice",
                             "Kits can be ordered online",
@@ -296,7 +305,7 @@ const resources: {
                 items: [
                     {
                         title: "Togetherall",
-                        url: "https://togetherall.com/en-gb/",
+                        url: links.welfare.TOGETHERALL,
                         info: [
                             "A safe, anonymous online space providing 24/7 access to an online global community to share your thoughts, complete self-guided courses, and help manage your wellbeing",
                             "You can sign up using your Cambridge email address",
@@ -304,20 +313,20 @@ const resources: {
                     },
                     {
                         title: "Samaritans",
-                        url: "https://www.samaritans.org/",
+                        url: links.welfare.SAMARITANS,
                         info: [
                             "A registered charity aimed at providing 24/7 emotional support to anyone",
                             "Phone: [116123](tel:116123)",
                             "Email: [jo@samaritans.org](mailto:jo@samaritans.org)",
-                            "App: https://selfhelp.samaritans.org/",
+                            `App: ${ links.welfare.SAMARITANS }`,
                         ],
                     },
                     {
                         title: "Cambridge Nightline",
-                        url: "https://cambridge.nightline.ac.uk/",
+                        url: links.welfare.CAM_NIGHTLINE,
                         info: [
                             "A night-time listening support service, open from 19:00-7:00 during term time for students from Cambridge and Anglia Ruskin",
-                            "Instant messaging: [link](https://im.cambridge.nightline.ac.uk/webim/)",
+                            `Instant messaging: [link](${ links.welfare.CAM_NIGHTLINE_MESSAGING })`,
                             "Phone: [01223 744444](tel:01223744444)",
                             "Email: [email@cambridge.nightline.ac.uk](mailto:email@cambridge.nightline.ac.uk)",
                             "Skype: Cambridge.Nightline",
@@ -325,7 +334,7 @@ const resources: {
                     },
                     {
                         title: "Shout",
-                        url: "https://giveusashout.org/",
+                        url: links.welfare.SHOUT,
                         info: [
                             "A 24/7 confidential service for anyone struggling to cope",
                             "Text SHOUT to 85258",
@@ -339,17 +348,17 @@ const resources: {
                 items: [
                     {
                         title: "Christ's Library Assistive Resources",
-                        url: "https://www.christs.cam.ac.uk/assist",
+                        url: links.welfare.LIBRARY_ASSISTIVE_RESOURCES,
                         info: [
                             "Contains details about the many services available to anyone wanting to use the Christ's library.",
                         ],
                     },
                     {
                         title: "Disability Resource Centre",
-                        url: "https://www.disability.admin.cam.ac.uk/students/advice-support-for-students",
+                        url: links.welfare.DISABILITY_RESOURCE_CENTRE,
                         info: [
                             "A confidential and accessible service for disabled students and staff supporting them, providing guidance for current and prospective disabled students, developing support programmes and training for University and college staff",
-                            "Tell the DRC about your support requirements: [link](https://www.disability.admin.cam.ac.uk/student-information-form)",
+                            `Tell the DRC about your support requirements: [link](${ links.welfare.DRC_SUPPORT_FORM })`,
                             "To get advice on being assessed for a specific learning difficulty, email with the subject heading 'Diagnostic Assessment'",
                             "Email: [disability@admin.cam.ac.uk](mailto:disability@admin.cam.ac.uk)",
                             "Phone: [01223 332301](tel:01223332301)",
@@ -357,7 +366,7 @@ const resources: {
                     },
                     {
                         title: "Cambridge SU Disabled Students' Campain",
-                        url: "https://www.disabled.cusu.cam.ac.uk/",
+                        url: links.welfare.SU_DISABLED_STUDENTS,
                         info: [
                             "The campaign and community for disabled students within the University of Cambridge.",
                             "Comprised of all Cam students who have or have had a disability, as well as the DSC committee (including the full time Disabled Students' Officer, and college and campaign DSOs).",
@@ -370,10 +379,10 @@ const resources: {
                 items: [
                     {
                         title: "Switchboard",
-                        url: "https://switchboard.lgbt/",
+                        url: links.welfare.LGBT_SWITCHBOARD,
                         info: [
                             "A confidential helpline for those who identify as LGBT+",
-                            "Instant Messaging: [link](https://switchboard.lgbt/contact)",
+                            `Instant Messaging: [link](${ links.welfare.LGBT_SWITCHBOARD_MESSAGING })`,
                             "Phone: [03003 300630](tel:03003300630) (10am-10pm everyday)",
                             "Email: [chris@switchboard.lgbt](mailto:chris@switchboard.lgbt)",
                         ],
@@ -390,23 +399,23 @@ const resources: {
                 items: [
                     {
                         title: "College Grants and Awards",
-                        url: "https://intranet.christs.cam.ac.uk/college-grants-and-awards",
+                        url: links.finance.COLLEGE_GRANTS,
                     },
                     {
                         title: "Cambridge SU Finance Page",
-                        url: "https://www.cambridgesu.co.uk/advice/information/finance/",
+                        url: links.finance.SU_FINANCE,
                     },
                     {
                         title: "Christ's Financial Support for Home Students",
-                        url: "https://www.christs.cam.ac.uk/admissions/undergraduate-admissions/finances/financial-support-home-students",
+                        url: links.finance.FINANCIAL_SUPPORT_HOME,
                     },
                     {
                         title: "Christ's Financial Support for Overseas Students",
-                        url: "https://www.christs.cam.ac.uk/international-students/financial-support",
+                        url: links.finance.FINANCIAL_SUPPORT_OVERSEAS,
                     },
                     {
                         title: "Christ's JCR Unified Funding Request Form 2024",
-                        url: "https://docs.google.com/forms/d/e/1FAIpQLSf9hatciSfMqo-IH1Vmok2X1MtLizfOlMmk8RViTpVp-dDmzg/viewform?usp=sf_link",
+                        url: links.finance.JCR_FUNDING_REQUEST_FORM,
                     },
                 ],
             },
@@ -415,7 +424,7 @@ const resources: {
                 items: [
                     {
                         title: "Flexible Grant 2023-24",
-                        url: "https://forms.office.com/e/kYUFX14fRm",
+                        url: links.finance.FLEXIBLE_GRANT,
                         info: [
                             "Every Christ's student is given a £1,200 grant for the duration of your degree",
                             "You can withdraw up to £400 of this per academic year (this doesn't have to be all at once, you can send in multiple forms throughout the year)",
@@ -426,7 +435,7 @@ const resources: {
                     },
                     {
                         title: "Cambridge Bursary",
-                        url: "https://www.cambridgestudents.cam.ac.uk/cambridge-bursary",
+                        url: links.finance.CAM_BURSARY,
                         info: [
                             "The University gives bursaries of varying sizes to any students with household income under £62,215 who has taken out a student loan",
                             "No application is needed, as you will be automatically considered based on your Student Finance Application",
@@ -449,10 +458,12 @@ const resources: {
                     },
                     {
                         title: "Cambridge SU",
-                        url: "https://www.cambridgesu.co.uk/advice/information/finance/",
+                        url: links.finance.SU_FINANCE,
                         info: [
-                            "Cambridge SU has a useful page dedicated to resources for financial hardship, linked [here](https://www.cambridgesu.co.uk/advice/information/finance/)",
-                            "You can also contact the SU for advice through the [Student Advice Service](https://www.cambridgesu.co.uk/advice/student-advice-service/contact/)",
+                            `Cambridge SU has a useful page dedicated to resources for financial hardship, linked 
+                                [here](${ links.finance.SU_FINANCE })`,
+                            `You can also contact the SU for advice through the 
+                                [Student Advice Service](${ links.welfare.CAM_STUDENT_ADVICE_CONTACT })`,
                         ],
                     },
                 ],
@@ -462,7 +473,7 @@ const resources: {
                 items: [
                     {
                         title: "Long Vacation Travel Grants",
-                        url: "https://intranet.christs.cam.ac.uk/college-grants-and-awards",
+                        url: links.finance.COLLEGE_GRANTS,
                         info: [
                             "There are many grants available for summer travel for all students",
                             "You can apply to any applicable grants using a single form, linked on the intranet (link above)",
@@ -471,7 +482,7 @@ const resources: {
                     },
                     {
                         title: "Easter Vacation Travel Grants",
-                        url: "https://intranet.christs.cam.ac.uk/college-grants-and-awards",
+                        url: links.finance.COLLEGE_GRANTS,
                         info: [
                             "There are 5 funds available to a small range of humanities degrees",
                         ],
@@ -483,7 +494,7 @@ const resources: {
                 items: [
                     {
                         title: "Unified JCR Funding Form 2024",
-                        url: "https://docs.google.com/forms/d/e/1FAIpQLSf9hatciSfMqo-IH1Vmok2X1MtLizfOlMmk8RViTpVp-dDmzg/viewform?usp=sf_link",
+                        url: links.finance.JCR_FUNDING_REQUEST_FORM,
                         info: [
                             "The JCR supports the financing of various college activities and amenities",
                             "All expenditure eligible for reimbursement from the JCR e.g. college society activities, JCR committee spendings and other subsidies can be claimed through the form linked above",
@@ -497,7 +508,7 @@ const resources: {
                 items: [
                     {
                         title: "Vacation Residence in College",
-                        url: "https://intranet.christs.cam.ac.uk/college-grants-and-awards",
+                        url: links.finance.COLLEGE_GRANTS,
                         info: [
                             "Support is available for students staying in the Long Vacation for academic reasons",
                             "No specific funding for accomodation is available for the Easter or Christmas vacations (beyond the Flexible Grant)",
@@ -505,7 +516,7 @@ const resources: {
                     },
                     {
                         title: "Other College Funding",
-                        url: "https://intranet.christs.cam.ac.uk/college-grants-and-awards",
+                        url: links.finance.COLLEGE_GRANTS,
                         info: [
                             "There are various other funds for specific causes, like sporting excellence, or furthering humanities' studies",
                             "The Levy-Plumb Fund for Humanities can ve used for long vacation residence in college, language courses, research etc",
@@ -514,7 +525,7 @@ const resources: {
                     },
                     {
                         title: "Other External Awards and Grants",
-                        url: "https://intranet.christs.cam.ac.uk/information-other-awards-and-grants",
+                        url: links.finance.EXTERNAL_GRANTS,
                     },
                 ],
             },
@@ -528,11 +539,11 @@ const resources: {
                 items: [
                     {
                         title: "JCR Google Drive",
-                        url: "https://drive.google.com/drive/folders/1T1LXnm76V5rMzHxrLuzkmb8RMcHhrDBE?usp=drive_link",
+                        url: links.internal.GOOGLE_DRIVE,
                     },
                     {
                         title: "Email Login Instructions",
-                        url: "https://docs.google.com/document/d/1B5sLX0fic28d83C9RmUXbpxEsV8sRdGaL9S18sHTVIk/edit?usp=sharing",
+                        url: links.internal.EMAIL_LOGIN_INSTRUCTION,
                     },
                 ],
             },

@@ -3,6 +3,7 @@
     import TrackedLink from "$components/elements/TrackedLink.svelte";
     import Calendar from "$components/events/Calendar.svelte";
     import PageHeader from "$components/PageHeader.svelte";
+    import links from "$data/links"
     import { 
         term, 
         startDate, 
@@ -59,26 +60,26 @@
         <h3>Meeting Minutes</h3>
         <p>
             You can access the minutes for all meetings <TrackedLink
-                href="https://drive.google.com/drive/u/2/folders/1gr4x820W2ZcDi8RGAz7fYeOEMiBLx6jA"
+                href={ links.internal.MINUTES_FOLDER }
                 id="meeting-minutes">here</TrackedLink
             >.
         </p>
 
         <h2 class="title is-2">{term} Term</h2>
         <p>
-            <a href={"https://calendar.google.com/calendar/ical/da5521c8c3b2c5e4461b8d84e3058d6874f5d6a13cd1f636b9693cfb40b76146%40group.calendar.google.com/public/basic.ics"}>
+            <a href={ links.calendar.JCR_EXEC_MEETINGS }>
                 <button class="button is-success"
                     >Subscribe to Exec Meetings</button>
             </a>
         </p>
         <p>
-            <a href={"https://calendar.google.com/calendar/ical/e0ea2c5ec1fb4dba96b45c86b06e46ffb2be9abf8b43ba317c6e9a3bd22d5ce9%40group.calendar.google.com/public/basic.ics"}>
+            <a href={ links.calendar.JCR_COUNCIL_MEETINGS }>
                 <button class="button is-primary"
                     >Subscribe to Council Meetings</button>
             </a>
         </p>
         <p>
-            <a href={"https://calendar.google.com/calendar/ical/6d53ff189078c025f719062586b21cbb6f84b256915d6f97d13069d25747b8b3%40group.calendar.google.com/public/basic.ics"}>
+            <a href={ links.calendar.JCR_OPEN_MEETINGS }>
                 <button class="button is-link"
                     >Subscribe to Open Meetings</button>
             </a>

@@ -1,10 +1,10 @@
 <script lang="ts">
     import NotificationLink from "$components/elements/NotificationLink.svelte";
     import PageHeader from "$components/PageHeader.svelte";
-    import week from "$lib/week";
     import UpperHallMenu from "$components/features/UpperHallMenu.svelte";
     import TrackedLink from "$components/elements/TrackedLink.svelte";
     import width, { desktop } from "$lib/width";
+    import links from "$data/links"
 </script>
 
 <PageHeader
@@ -76,16 +76,13 @@
                 <ul class="list">
                     <li>
                         <TrackedLink
-                            href={`https://intranet.christs.cam.ac.uk/upper-hall-menus#Week${week()}`}
+                            href={ links.meals.UPPER_HALL_MENU }
                             id="intranet-menu"
                             external>Menu</TrackedLink>
                     </li>
                     <li>
                         <TrackedLink
-                            href={
-                                "https://intranet.christs.cam.ac.uk/Shibboleth.sso/Login" + 
-                                "?target=%2Fshibboleth%2Flogin%3Fshiblogin%3D1%26destination%3D%2Fmealbooking%2F"
-                                }
+                            href={ links.meals.MEAL_BOOKING }
                             id="meal-booking"
                             external>Meal booking</TrackedLink>
                     </li>
@@ -98,13 +95,13 @@
                 <ul class="list">
                     <li>
                         <TrackedLink
-                            href="https://christscollege.roombookingsystem.co.uk/overviewday"
+                            href={ links.facilities.ROOM_BOOKING }
                             id="room-booking"
                             external>Room booking</TrackedLink>
                     </li>
                     <li>
                         <TrackedLink
-                            href="https://intranet.christs.cam.ac.uk/fault-reporting"
+                            href={ links.facilities.FAULT_REPORTING }
                             id="fault-reporting"
                             external>Fault reporting</TrackedLink>
                     </li>
@@ -117,12 +114,12 @@
                 <ul class="list">
                     <li>
                         <TrackedLink
-                            href="tel:+44-1223-334900"
+                            href={ links.contacts.PORTERS_PHONE }
                             id="phone-porters">+44 1223 334900</TrackedLink>
                     </li>
                     <li>
                         <TrackedLink
-                            href="mailto:porters@christs.cam.ac.uk"
+                            href={ links.contacts.PORTERS_EMAIL }
                             id="email-porters"
                             >porters@christs.cam.ac.uk</TrackedLink>
                     </li>
@@ -135,16 +132,13 @@
                 <ul class="list">
                     <li>
                         <TrackedLink
-                            href={
-                                "https://docs.google.com/forms/d/e/1FAIpQLSf9hatciSfMqo-IH1Vmok2X1MtLizfOlMmk8RViTpVp-dDmzg/viewform"
-                                + "?usp=sf_link"
-                            }
+                            href={ links.finance.JCR_FUNDING_REQUEST_FORM }
                             id="JCR-funding-form"
                             external>Unified JCR Funding Form</TrackedLink>
                     </li>
                     <li>
                         <TrackedLink
-                            href="https://forms.office.com/e/kYUFX14fRm"
+                            href={ links.finance.FLEXIBLE_GRANT }
                             id="flexible-grant"
                             external>Flexible Grant 2023/24</TrackedLink>
                     </li>

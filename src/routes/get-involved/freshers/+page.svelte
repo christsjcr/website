@@ -4,6 +4,7 @@
     import NotificationLink from "$components/elements/NotificationLink.svelte";
     import PageHeader from "$components/PageHeader.svelte";
     import { calendarDetails, startDate, endDate } from "./freshers";
+  import links from "$data/links"
 </script>
 
 <PageHeader
@@ -35,14 +36,14 @@
             <div class="columns">
                 <div class="column">
                     <NotificationLink
-                        href="https://drive.google.com/file/d/14EI6qLV49_kLvd9GedcMl5qMNUGW_VaJ/view?usp=drive_link"
+                        href={ links.freshers.FRESHERS_GUIDE }
                         title="Freshers' Guide 🐣"
                         external
                         compact />
                 </div>
                 <div class="column">
                     <NotificationLink
-                        href="https://drive.google.com/file/d/1NE1HYnA1JaFH1e7nRfF9fxNMcgazLnzB/view?usp=drive_link"
+                        href={ links.freshers.INTERNATIONAL_GUIDE }
                         title="International Freshers' Guide ✈️"
                         external
                         compact />
@@ -51,14 +52,14 @@
             <div class="columns">
                 <div class="column">
                     <NotificationLink
-                        href="https://drive.google.com/file/d/10B4hgiyuOBksYWfDC988anwTu8_0r_fu/view?usp=drive_link"
+                        href={ links.welfare.JCR_WELFARE_GUIDE }
                         title="Welfare Guide 💛"
                         external
                         compact />
                 </div>
                 <div class="column">
                     <NotificationLink
-                        href="https://www.timetable.cam.ac.uk"
+                        href={ links.academic.TIMETABLES }
                         title="Academic Timetable 📚"
                         external
                         compact />
@@ -75,20 +76,14 @@
         <div class="columns">
             <div class="column is-narrow">
                 <a
-                    href={
-                    "https://calendar.google.com/calendar/ical/\
-                    98f933efaa927a1b41a85f92bba67e064a0270676b3c1241ca901610f556ea84%40group.calendar.google.com/public/basic.ics"
-                }>
+                    href={ links.calendar.FRESHERS }>
                     <button class="button is-success"
                         >Subscribe to Compulsory Events</button>
                 </a>
             </div>
             <div class="column is-narrow">
                 <a
-                    href={
-                    "https://calendar.google.com/calendar/ical/\
-                    f47cb082566f93a9a682f20026f24aace73dc0203899ace553a6e54aaf2ca555%40group.calendar.google.com/public/basic.ics"
-                }>
+                    href={ links.calendar.FRESHERS_OPTIONAL }>
                     <button class="button is-primary"
                         >Subscribe to Optional Events</button>
                 </a>
@@ -106,7 +101,7 @@
                 <figure class="image">
                     <img
                         alt="Map of College"
-                        src="https://www.christs.cam.ac.uk/sites/default/files/inline-images/collegemap_1.jpg"
+                        src={ links.general.COLLEGE_MAP }
                         loading="lazy" />
                 </figure>
             </div>
