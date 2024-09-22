@@ -2,6 +2,7 @@
     import Content from "$components/elements/Content.svelte";
     import Calendar from "$components/events/Calendar.svelte";
     import PageHeader from "$components/PageHeader.svelte";
+    import links from "$data/links"
     import { 
         calendarDetails,
         term,
@@ -19,13 +20,13 @@
         <h2 class="title is-2">{term} Term</h2>
         <div class="columns">
             <div class="column is-narrow">
-                <a href={"https://calendar.google.com/calendar/ical/webmaster%40thejcr.co.uk/public/basic.ics"}>
+                <a href={ links.calendar.JCR_EVENTS }>
                     <button class="button is-primary"
                         >Subscribe to JCR Events</button>
                 </a>
             </div>
             <div class="column is-narrow">
-                <a href={"https://calendar.google.com/calendar/ical/72ffd45359a103efdda8c306de56f775f3005d51aaed7e8111b8d1f175575157%40group.calendar.google.com/public/basic.ics"}>
+                <a href={ links.calendar.SOC_EVENTS }>
                     <button class="button is-link"
                         >Subscribe to Society Events</button>
                 </a>
