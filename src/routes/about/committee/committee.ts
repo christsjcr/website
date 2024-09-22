@@ -30,11 +30,11 @@ const categories: RoleCategory[] = [
             },
             {
                 title: "Secretary",
-                name: "Chiara Delpiano Cordeiro",
+                name: "April O'Neill",
                 pronouns: "she/her",
                 id: "secretary",
                 description:
-                    "Hello! I'm Chiara, your JCR secretary! My job involves sending the weekly bulletin (an email that brings joy), running the JCR social media platforms, and taking the minutes/preparing the agendas for meetings throughout the year. My aims are to further publicise events and cool opportunities going on around Christ's, provide short summaries of what the JCR is doing, and create a dynamic calendar of events going on around college! I also hope to increase interaction with the JCR Instagram through fun content, student takeovers, and more. Just send me an email if you have anything you'd like to publicise in the weekly bulletin, cat photos for the JCR socials, or any ideas/suggestions and I'll be happy to help!",
+                    "Hi! I'm April, your JCR secretary! My role involves sending the weekly bulletin, running the JCR social media platforms, and taking the minutes/preparing the agendas for meetings throughout the year. My aims are to keep you updated about all things Christ’s, to publicise exciting events and opportunities, summarise what the JCR is up to, and create a dynamic (and navigable!) calendar of all the events going on in college! I am also hoping to create more fun content for the JCR Instagram, from student takeovers to interactive polls. Please do send me an email if you have anything you'd like to publicise in the weekly bulletin or on JCR socials, and if you have any ideas/suggestions do send them my way!",
             },
         ],
     },
