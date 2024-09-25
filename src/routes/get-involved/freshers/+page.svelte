@@ -72,28 +72,43 @@
                 add the relevant modules for them to show up.
             </p>
             <h2>Freshers' Week Timetable</h2>
+            <p>Note that international events are open to all freshers so do join if you end up at college early! 
+                Use the buttons below to subscribe to calendars you want to keep records of :)</p>
         </div>
-        <div class="columns">
-            <div class="column is-narrow">
-                <a
-                    href={ links.calendar.FRESHERS }>
-                    <button class="button is-success"
-                        >Subscribe to Compulsory Events</button>
-                </a>
-            </div>
-            <div class="column is-narrow">
-                <a
-                    href={ links.calendar.FRESHERS_OPTIONAL }>
-                    <button class="button is-primary"
-                        >Subscribe to Optional Events</button>
-                </a>
+        <div class="level">
+            <div class="level-left">
+                <div class="level-item">
+                    <a
+                        href={ links.calendar.FRESHERS }>
+                        <button class="button is-success"
+                            >Compulsory Events</button>
+                    </a>
+                </div>
+                <div class="level-item">
+                    <a
+                        href={ links.calendar.FRESHERS_OPTIONAL }>
+                        <button class="button is-primary"
+                            >Optional Events</button>
+                    </a>
+                </div>
+                <div class="level-item">
+                    <a
+                        href={ links.calendar.FRESHERS_INTERNATIONAL }>
+                        <button class="button is-link"
+                            >International Events</button>
+                    </a>
+                </div>
             </div>
         </div>
         <Calendar
             calendarDetails={ calendarDetails }
             timeMin={ startDate }
             timeMax={ endDate }
-            colors={{ compulsory: "#ad34cb", optional: "#146A46" }}
+            colors={{
+                compulsory: "#ad34cb",
+                optional: "#146A46",
+                international: "#A28000" 
+            }}
             type="timeGridDay" />
         <br />
         <div class="columns is-centered">

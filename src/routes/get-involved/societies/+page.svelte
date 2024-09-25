@@ -5,7 +5,7 @@
     import SocietyCard from "./Society.svelte";
     import { societies, type Society } from "./societies";
     import NotificationLink from "$components/elements/NotificationLink.svelte";
-  import links from "$data/links"
+    import links from "$data/links"
 
     function copy(society: Society): Society & { search: string } {
         return {

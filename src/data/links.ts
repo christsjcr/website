@@ -7,7 +7,8 @@ const links = {
         JCR_COUNCIL_MEETINGS: "https://calendar.google.com/calendar/ical/e0ea2c5ec1fb4dba96b45c86b06e46ffb2be9abf8b43ba317c6e9a3bd22d5ce9%40group.calendar.google.com/public/basic.ics",
         JCR_OPEN_MEETINGS: "https://calendar.google.com/calendar/ical/6d53ff189078c025f719062586b21cbb6f84b256915d6f97d13069d25747b8b3%40group.calendar.google.com/public/basic.ics",
         FRESHERS: "https://calendar.google.com/calendar/ical/98f933efaa927a1b41a85f92bba67e064a0270676b3c1241ca901610f556ea84%40group.calendar.google.com/public/basic.ics",
-        FRESHERS_OPTIONAL: "https://calendar.google.com/calendar/ical/f47cb082566f93a9a682f20026f24aace73dc0203899ace553a6e54aaf2ca555%40group.calendar.google.com/public/basic.ics"
+        FRESHERS_OPTIONAL: "https://calendar.google.com/calendar/ical/f47cb082566f93a9a682f20026f24aace73dc0203899ace553a6e54aaf2ca555%40group.calendar.google.com/public/basic.ics",
+        FRESHERS_INTERNATIONAL: "https://calendar.google.com/calendar/ical/12976251fe9451b67ab24ac082e838b261fd2521a0a24318890433515993c4c4%40group.calendar.google.com/public/basic.ics"
     },
     // general resources
     general: {
