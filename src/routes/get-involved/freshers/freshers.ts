@@ -1,6 +1,7 @@
 export enum FreshersEventTypes {
     com = "compulsory",
-    opt = "optional"
+    opt = "optional",
+    int = "international"
 }
 
 export const calendarDetails = [
@@ -11,6 +12,10 @@ export const calendarDetails = [
     {
         calendarId: "98f933efaa927a1b41a85f92bba67e064a0270676b3c1241ca901610f556ea84@group.calendar.google.com",
         type: FreshersEventTypes.opt
+    }, 
+    {
+        calendarId: "12976251fe9451b67ab24ac082e838b261fd2521a0a24318890433515993c4c4@group.calendar.google.com",
+        type: FreshersEventTypes.int
     }
 ];
 export const startDate = new Date(Date.UTC(2024, 8, 25));

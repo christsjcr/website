@@ -7,7 +7,8 @@ const links = {
         JCR_COUNCIL_MEETINGS: "https://calendar.google.com/calendar/ical/e0ea2c5ec1fb4dba96b45c86b06e46ffb2be9abf8b43ba317c6e9a3bd22d5ce9%40group.calendar.google.com/public/basic.ics",
         JCR_OPEN_MEETINGS: "https://calendar.google.com/calendar/ical/6d53ff189078c025f719062586b21cbb6f84b256915d6f97d13069d25747b8b3%40group.calendar.google.com/public/basic.ics",
         FRESHERS: "https://calendar.google.com/calendar/ical/98f933efaa927a1b41a85f92bba67e064a0270676b3c1241ca901610f556ea84%40group.calendar.google.com/public/basic.ics",
-        FRESHERS_OPTIONAL: "https://calendar.google.com/calendar/ical/f47cb082566f93a9a682f20026f24aace73dc0203899ace553a6e54aaf2ca555%40group.calendar.google.com/public/basic.ics"
+        FRESHERS_OPTIONAL: "https://calendar.google.com/calendar/ical/f47cb082566f93a9a682f20026f24aace73dc0203899ace553a6e54aaf2ca555%40group.calendar.google.com/public/basic.ics",
+        FRESHERS_INTERNATIONAL: "https://calendar.google.com/calendar/ical/12976251fe9451b67ab24ac082e838b261fd2521a0a24318890433515993c4c4%40group.calendar.google.com/public/basic.ics"
     },
     // general resources
     general: {
@@ -93,11 +94,13 @@ const links = {
         EMAIL_LOGIN_INSTRUCTION: "https://docs.google.com/document/d/1B5sLX0fic28d83C9RmUXbpxEsV8sRdGaL9S18sHTVIk/edit?usp=sharing",
         MINUTES_FOLDER: "https://drive.google.com/drive/folders/1RTdysf_izP9xddA0btJDxFM0a27xDMcQ?usp=sharing",
         UPDATE_SOCIETY_FORM: "https://docs.google.com/forms/d/e/1FAIpQLSfTnmDLCwVwiblfuTXfJzC64iIhH3ooZFJCkNIYG2p-Bn0wWg/viewform?usp=sf_link",
-        ALUMNI_WEBSITE_CREDS: "https://drive.google.com/file/d/1uGR_BrL7kvHU0iMnjfRpKJr0jBf09a9d/view?usp=sharing"
+        ALUMNI_WEBSITE_CREDS: "https://drive.google.com/file/d/1uGR_BrL7kvHU0iMnjfRpKJr0jBf09a9d/view?usp=sharing",
+        MOTIONS_FORM: "https://docs.google.com/forms/d/e/1FAIpQLSe7RkPfgVW9bJP2ppb6tjeO1PfqJxUTxQ0zhuG_w-l5a0jrKQ/viewform?usp=sf_link",
+        MOTIONS_GUIDE: "https://docs.google.com/document/d/1BTGKV1JbIeHLTbFeju-ODMUXd3GqvnZ4v5QOXOCite8/edit?usp=sharing"
     },
     freshers: {
-        FRESHERS_GUIDE: "https://drive.google.com/file/d/14EI6qLV49_kLvd9GedcMl5qMNUGW_VaJ/view?usp=drive_link",
-        INTERNATIONAL_GUIDE: "https://drive.google.com/file/d/1NE1HYnA1JaFH1e7nRfF9fxNMcgazLnzB/view?usp=drive_link"
+        FRESHERS_GUIDE: "https://drive.google.com/file/d/1hkcOm_ZzY_eRssSob5M_r1E8JYPGnnPO/view?usp=drive_link",
+        INTERNATIONAL_GUIDE: "https://drive.google.com/file/d/1NDgzQS0QgJTHbvA60w6Eh2OHJWTZ4Em0/view?usp=drive_link"
     }
 }
 

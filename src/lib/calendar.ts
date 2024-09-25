@@ -7,6 +7,10 @@ type EventDateTimes = {
     duration: [number, number]
 };
 
+function getUKDate (date: Date) {
+    return new Date(date.toLocaleString("en-US", { timeZone: "Europe/London" }));
+}
+
 function getEventDateTimes (start: Date, end: Date):EventDateTimes {
     const date = start.getDate();
     const month = start.getMonth() + 1;
@@ -30,21 +34,23 @@ type CalendarDetails<T> =
 
 export async function getEvents<T>(gapi, calendarDetails:CalendarDetails<T>, timeMin:Date, timeMax:Date): Promise<Events<T>> {
     let events:Events<T> = [];
+    const googleAPI = "https://www.googleapis.com/calendar/v3/calendars/";
+    const params = {
+        timeMin: timeMin.toISOString(),
+        timeMax: timeMax.toISOString()
+    };
+    const paramsString = Object.keys(params).map(k => `${ k }=${ params[k] }`).join("&");
 
     try {
-        await gapi.client.init({ 
-            apiKey: "AIzaSyDs-Xt2Y1ikLK7JjY5stobl9500GXTpyPo"
-        });
+        await gapi.client.init({ apiKey: "AIzaSyDs-Xt2Y1ikLK7JjY5stobl9500GXTpyPo" });
 
         for (let i = 0; i < calendarDetails.length; i++) {
             const { calendarId, type } = calendarDetails[i];
-            const rawRes = await gapi.client.request({
-                path: `https://www.googleapis.com/calendar/v3/calendars/${ calendarId }/events?timeMin=${ timeMin.toISOString() }&timeMax${ timeMax.toISOString() }`
-            });
+            const rawRes = await gapi.client.request({ path: `${ googleAPI }${ calendarId }/events?${ paramsString }` });
 
             const parsed = rawRes.result.items.map(e => {
-                const start = new Date(e.start.dateTime);
-                const end = new Date(e.end.dateTime);
+                const start = getUKDate(new Date(e.start.dateTime));
+                const end = getUKDate(new Date(e.end.dateTime));
                 const { date, time, duration } = getEventDateTimes(start, end);
                 
                 return {

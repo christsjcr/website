@@ -34,6 +34,8 @@
             <li>voting in SU elections</li>
             <li>the signing of open letters</li>
         </ul>
+        <p>Please refer to <a href={ links.internal.MOTIONS_GUIDE }>this guide</a> on drafting a motion,
+            and submit a form <a href={ links.internal.MOTIONS_FORM }>here</a> to register a motion for the next open meeting.</p>
         <h1>JCR Meetings</h1>
         <p>
             Undergraduate students of Christ's may attend JCR meetings, although
