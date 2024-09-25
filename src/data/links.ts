@@ -96,8 +96,8 @@ const links = {
         ALUMNI_WEBSITE_CREDS: "https://drive.google.com/file/d/1uGR_BrL7kvHU0iMnjfRpKJr0jBf09a9d/view?usp=sharing"
     },
     freshers: {
-        FRESHERS_GUIDE: "https://drive.google.com/file/d/14EI6qLV49_kLvd9GedcMl5qMNUGW_VaJ/view?usp=drive_link",
-        INTERNATIONAL_GUIDE: "https://drive.google.com/file/d/1NE1HYnA1JaFH1e7nRfF9fxNMcgazLnzB/view?usp=drive_link"
+        FRESHERS_GUIDE: "https://drive.google.com/file/d/1hkcOm_ZzY_eRssSob5M_r1E8JYPGnnPO/view?usp=drive_link",
+        INTERNATIONAL_GUIDE: "https://drive.google.com/file/d/1NDgzQS0QgJTHbvA60w6Eh2OHJWTZ4Em0/view?usp=drive_link"
     }
 }
 

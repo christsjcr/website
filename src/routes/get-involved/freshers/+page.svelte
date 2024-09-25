@@ -4,7 +4,7 @@
     import NotificationLink from "$components/elements/NotificationLink.svelte";
     import PageHeader from "$components/PageHeader.svelte";
     import { calendarDetails, startDate, endDate } from "./freshers";
-  import links from "$data/links"
+    import links from "$data/links"
 </script>
 
 <PageHeader
