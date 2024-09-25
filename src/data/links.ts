@@ -93,7 +93,9 @@ const links = {
         EMAIL_LOGIN_INSTRUCTION: "https://docs.google.com/document/d/1B5sLX0fic28d83C9RmUXbpxEsV8sRdGaL9S18sHTVIk/edit?usp=sharing",
         MINUTES_FOLDER: "https://drive.google.com/drive/folders/1RTdysf_izP9xddA0btJDxFM0a27xDMcQ?usp=sharing",
         UPDATE_SOCIETY_FORM: "https://docs.google.com/forms/d/e/1FAIpQLSfTnmDLCwVwiblfuTXfJzC64iIhH3ooZFJCkNIYG2p-Bn0wWg/viewform?usp=sf_link",
-        ALUMNI_WEBSITE_CREDS: "https://drive.google.com/file/d/1uGR_BrL7kvHU0iMnjfRpKJr0jBf09a9d/view?usp=sharing"
+        ALUMNI_WEBSITE_CREDS: "https://drive.google.com/file/d/1uGR_BrL7kvHU0iMnjfRpKJr0jBf09a9d/view?usp=sharing",
+        MOTIONS_FORM: "https://docs.google.com/forms/d/e/1FAIpQLSe7RkPfgVW9bJP2ppb6tjeO1PfqJxUTxQ0zhuG_w-l5a0jrKQ/viewform?usp=sf_link",
+        MOTIONS_GUIDE: "https://docs.google.com/document/d/1BTGKV1JbIeHLTbFeju-ODMUXd3GqvnZ4v5QOXOCite8/edit?usp=sharing"
     },
     freshers: {
         FRESHERS_GUIDE: "https://drive.google.com/file/d/1hkcOm_ZzY_eRssSob5M_r1E8JYPGnnPO/view?usp=drive_link",
