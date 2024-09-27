@@ -6,8 +6,8 @@ const links = {
         JCR_EXEC_MEETINGS: "https://calendar.google.com/calendar/ical/da5521c8c3b2c5e4461b8d84e3058d6874f5d6a13cd1f636b9693cfb40b76146%40group.calendar.google.com/public/basic.ics",
         JCR_COUNCIL_MEETINGS: "https://calendar.google.com/calendar/ical/e0ea2c5ec1fb4dba96b45c86b06e46ffb2be9abf8b43ba317c6e9a3bd22d5ce9%40group.calendar.google.com/public/basic.ics",
         JCR_OPEN_MEETINGS: "https://calendar.google.com/calendar/ical/6d53ff189078c025f719062586b21cbb6f84b256915d6f97d13069d25747b8b3%40group.calendar.google.com/public/basic.ics",
-        FRESHERS: "https://calendar.google.com/calendar/ical/98f933efaa927a1b41a85f92bba67e064a0270676b3c1241ca901610f556ea84%40group.calendar.google.com/public/basic.ics",
-        FRESHERS_OPTIONAL: "https://calendar.google.com/calendar/ical/f47cb082566f93a9a682f20026f24aace73dc0203899ace553a6e54aaf2ca555%40group.calendar.google.com/public/basic.ics",
+        FRESHERS: "https://calendar.google.com/calendar/ical/f47cb082566f93a9a682f20026f24aace73dc0203899ace553a6e54aaf2ca555%40group.calendar.google.com/public/basic.ics",
+        FRESHERS_OPTIONAL: "https://calendar.google.com/calendar/ical/98f933efaa927a1b41a85f92bba67e064a0270676b3c1241ca901610f556ea84%40group.calendar.google.com/public/basic.ics",
         FRESHERS_INTERNATIONAL: "https://calendar.google.com/calendar/ical/12976251fe9451b67ab24ac082e838b261fd2521a0a24318890433515993c4c4%40group.calendar.google.com/public/basic.ics"
     },
     // general resources
@@ -49,7 +49,7 @@ const links = {
         CHRISTS_LIBRARY: "https://www.christs.cam.ac.uk/library",
         IDISCOVER: "https://idiscover.lib.cam.ac.uk/primo-explore/search?vid=44CAM_PROD",
         CAMSIS: "https://camsis.cam.ac.uk/psp/ravenprod/?cmd=login",
-        CAMCORS: "https://www.camcors.cam.ac.uk/"
+        CAMCORS: "https://apps.casc.cam.ac.uk/ors"
     },
     careers: {
         UNI_CAREER_SERVICE: "https://www.careers.cam.ac.uk/",
@@ -84,7 +84,7 @@ const links = {
         FINANCIAL_SUPPORT_HOME: "https://www.christs.cam.ac.uk/admissions/undergraduate-admissions/finances/financial-support-home-students",
         FINANCIAL_SUPPORT_OVERSEAS: "https://www.christs.cam.ac.uk/international-students/financial-support",
         JCR_FUNDING_REQUEST_FORM: "https://docs.google.com/forms/d/e/1FAIpQLSf9hatciSfMqo-IH1Vmok2X1MtLizfOlMmk8RViTpVp-dDmzg/viewform?usp=sf_link",
-        FLEXIBLE_GRANT: "https://forms.office.com/e/kYUFX14fRm",
+        FLEXIBLE_GRANT: "https://forms.office.com/e/PV8Qpi36Ba",
         CAM_BURSARY: "https://www.cambridgestudents.cam.ac.uk/cambridge-bursary",
         EXTERNAL_GRANTS: "https://intranet.christs.cam.ac.uk/information-other-awards-and-grants"
     },
