@@ -44,10 +44,9 @@ const resources: {
                         url: links.meals.MEAL_TIMES,
                         info: [
                             "Breakfast: Mon-Fri 8:00-9:30 (Buttery)",
-                            "Brunch: Sat 11:00-12:30, Sun 10:30-12:00",
+                            "Brunch: Sat-Sun 10:30-12:00",
                             "Lunch: Mon-Fri 12.00-13:45",
-                            "Dinner (quiet period): 17:50-19:00 if there is a formal/grad hall, 17:50-20:00 otherwise",
-                            "Out of term times will be displayed locally.",
+                            "Dinner: Mon-Sun 17:50-19:00",
                         ],
                     },
 
@@ -96,7 +95,7 @@ const resources: {
                         ],
                     },
                     {
-                        title: "Panther Taxis",
+                        title: "Panther Taxis/Veezu",
                         url: links.contacts.PANTHER_TAXI_WEBSITE,
                         info: [
                             `Phone: [01223 715715](${ links.contacts.PANTHER_TAXI_PHONE })`,
