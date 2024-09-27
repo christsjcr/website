@@ -19,4 +19,4 @@ export const calendarDetails = [
     }
 ];
 export const startDate = new Date(Date.UTC(2024, 8, 25));
-export const endDate = new Date(Date.UTC(2024, 9, 10));
+export const endDate = new Date(Date.UTC(2024, 9, 13));
