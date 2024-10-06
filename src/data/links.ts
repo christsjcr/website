@@ -57,7 +57,7 @@ const links = {
         ALUMNI_DATABASE: "https://alumni.christs.cam.ac.uk/ccc-list"
     },
     welfare: {
-        JCR_WELFARE_GUIDE: "https://drive.google.com/file/d/10B4hgiyuOBksYWfDC988anwTu8_0r_fu/view?usp=drive_link",
+        JCR_WELFARE_GUIDE: "https://drive.google.com/file/d/1eywZxmZJHzdKacPcFBISYMAGaPidXYad/view?usp=sharing",
         JCR_WELFARE_INSTAGRAM: "https://www.instagram.com/christswelfare/",
         COLLEGE_NURSE_BOOKING: "https://christ-college.uk2.cliniko.com/bookings",
         CAM_STUDENT_ADVICE: "https://www.cambridgesu.co.uk/support/advice/",
