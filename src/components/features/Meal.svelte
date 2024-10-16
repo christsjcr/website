@@ -21,7 +21,7 @@
             if (dayOfWeek == 0) return "10:30-12:00";
             return "12:00-13:45";
         } else {
-            return "17:50-19:00/20:00";
+            return "17:50-19:00";
         }
     };
 </script>
