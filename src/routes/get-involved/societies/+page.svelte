@@ -12,7 +12,7 @@
             ...society,
             search:
                 society.title.toLowerCase() +
-                    society.description?.toLowerCase() ?? "",
+                    society.description?.toLowerCase(),
         };
     }
 

@@ -7,39 +7,39 @@
             "mains": [
                 {
                     "title": "Leek & Potato Soup",
-                    "allergens": [
+                    "allergies": [
                         "Celery"
                     ]
                 },
                 {
                     "title": "Cajun Spiced Chicken Breast, Vegetable Bayou Sauce",
-                    "allergens": [
+                    "allergies": [
                         "Celery"
                     ]
                 },
                 {
                     "title": "Fish of The Day",
-                    "allergens": [
+                    "allergies": [
                         "TBC"
                     ]
                 },
                 {
                     "title": "Grilled Aubergine, Spinach and Garlic Mushroom, Smoked Cheese and Mozzarella",
-                    "allergens": [
+                    "allergies": [
                         "Milk",
                         "Gluten"
                     ]
                 },
                 {
                     "title": "Chilli, Lime, Chickpea and Cauliflower Flatbread, Pickled Red Onions",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Sulphites"
                     ]
                 },
                 {
                     "title": "Mixed Pepper, Olive, Tomato & Basil Pasta",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Sulphites"
                     ]
@@ -50,34 +50,34 @@
             "mains": [
                 {
                     "title": "BBQ Chicken With Cheddar and Bacon",
-                    "allergens": [
+                    "allergies": [
                         "Milk",
                         "Mustard"
                     ]
                 },
                 {
                     "title": "Fish of The Day",
-                    "allergens": [
+                    "allergies": [
                         "TBC"
                     ]
                 },
                 {
                     "title": "Black Bean, Cheddar & Mozzarella Quesadilla, Créme Fraiche, Guacamole & Salsa",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Milk"
                     ]
                 },
                 {
                     "title": "Vegetable & Mushroom Bolognese",
-                    "allergens": [
+                    "allergies": [
                         "Celery",
                         "Soya"
                     ]
                 },
                 {
                     "title": "Pizza and Fries",
-                    "allergens": []
+                    "allergies": []
                 }
             ]
         }
@@ -88,13 +88,13 @@
             "mains": [
                 {
                     "title": "Spicy Mixed Bean & Vegetable Soup",
-                    "allergens": [
+                    "allergies": [
                         "Celery"
                     ]
                 },
                 {
                     "title": "Beef Lasagne",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Milk",
                         "Celery",
@@ -103,13 +103,13 @@
                 },
                 {
                     "title": "Fish of The Day",
-                    "allergens": [
+                    "allergies": [
                         "TBC"
                     ]
                 },
                 {
                     "title": "Cheddar, Onion, Sundried Tomato & Spinach Pasty",
-                    "allergens": [
+                    "allergies": [
                         "Milk",
                         "Gluten",
                         "Egg"
@@ -117,13 +117,13 @@
                 },
                 {
                     "title": "Mushroom & Artichoke Stroganoff",
-                    "allergens": [
+                    "allergies": [
                         "Celery"
                     ]
                 },
                 {
                     "title": "Pasta Carbonara with Smoked Bacon and Mushroom",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Milk",
                         "Sulphites"
@@ -135,7 +135,7 @@
             "mains": [
                 {
                     "title": "Bacon Cheeseburger, Burger Sauce, Gherkins, Tomato & Onion",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Milk",
                         "Mustard",
@@ -145,11 +145,11 @@
                 },
                 {
                     "title": "Fish of The Day",
-                    "allergens": []
+                    "allergies": []
                 },
                 {
                     "title": "Breaded Halloumi, BBQ Sauce, Peppers, Olives & Roasted Spiced Chickpeas",
-                    "allergens": [
+                    "allergies": [
                         "Milk",
                         "Gluten",
                         "Mustard",
@@ -158,7 +158,7 @@
                 },
                 {
                     "title": "Southern Fried Vegan Nuggets, BBQ Beans, Sweet & Sour Slaw",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Soya",
                         "Mustard",
@@ -167,7 +167,7 @@
                 },
                 {
                     "title": "Pizza and Fries",
-                    "allergens": [
+                    "allergies": [
                         "Gluten"
                     ]
                 }
@@ -180,40 +180,40 @@
             "mains": [
                 {
                     "title": "Tomato & Roasted Red Pepper Soup",
-                    "allergens": [
+                    "allergies": [
                         "Celery"
                     ]
                 },
                 {
                     "title": "Lemon Pepper Pork Schnitzel, Fresh Lemon",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Egg"
                     ]
                 },
                 {
                     "title": "Fish of The Day",
-                    "allergens": [
+                    "allergies": [
                         "TBC"
                     ]
                 },
                 {
                     "title": "Roasted Squash, Sauteed Mushroom, Chickpeas and Cherry Tomatoes on Sourdough",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Milk"
                     ]
                 },
                 {
                     "title": "Sticky Tofu & Broccoli Stir Fry with Chilli and Soya Sauce",
-                    "allergens": [
+                    "allergies": [
                         "Celery",
                         "Soya"
                     ]
                 },
                 {
                     "title": "Lemon and Black Pepper Sauteed Mushroom Pasta with Red Onions",
-                    "allergens": [
+                    "allergies": [
                         "Gluten"
                     ]
                 }
@@ -223,20 +223,20 @@
             "mains": [
                 {
                     "title": "Lamb Kofta Flatbread, Sumac Red Onion Slaw, Garlic & Lemon Yoghurt",
-                    "allergens": [
+                    "allergies": [
                         "Milk",
                         "Sulphites"
                     ]
                 },
                 {
                     "title": "Fish of The Day",
-                    "allergens": [
+                    "allergies": [
                         "TBC"
                     ]
                 },
                 {
                     "title": "Spinach & Ricotta Ravioli In A Tomato, Basil and Parmesan Sauce",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Egg",
                         "Milk"
@@ -244,14 +244,14 @@
                 },
                 {
                     "title": "Warm Falafel and Mint Wrap With Sauteed Red Onions and Mixed Peppers",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Sulphites"
                     ]
                 },
                 {
                     "title": "Pizza and Fries",
-                    "allergens": [
+                    "allergies": [
                         "Gluten"
                     ]
                 }
@@ -264,26 +264,26 @@
             "mains": [
                 {
                     "title": "Mushroom & Dill Soup",
-                    "allergens": [
+                    "allergies": [
                         "Celery"
                     ]
                 },
                 {
                     "title": "Lamb Bhuna with Naan Bread",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Mustard"
                     ]
                 },
                 {
                     "title": "Fish of The Day",
-                    "allergens": [
+                    "allergies": [
                         "TBC"
                     ]
                 },
                 {
                     "title": "Pumpkin Ravioli, Squash Cream and a Sage Gratin",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Milk",
                         "Egg",
@@ -292,7 +292,7 @@
                 },
                 {
                     "title": "Red Thai Coconut Curry with Tempeh and Baby Corn",
-                    "allergens": [
+                    "allergies": [
                         "Soya",
                         "Sesame",
                         "Celery"
@@ -300,7 +300,7 @@
                 },
                 {
                     "title": "Basil Pesto, Cherry Tomato and Halloumi Penne Pasta",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Milk"
                     ]
@@ -311,7 +311,7 @@
             "mains": [
                 {
                     "title": "Buttermilk Fried Chicken Burger With Ranch Dressing, Onion, Tomato & Lettuce",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Egg",
                         "Milk"
@@ -319,7 +319,7 @@
                 },
                 {
                     "title": "Crispy Tofu With Spicy Hoisin Vegetables & Egg Noodles, Spring Onions",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Egg",
                         "Soya"
@@ -327,14 +327,14 @@
                 },
                 {
                     "title": "Jacket Potato Filled With Bean & Vegetable Chilli, Red Onion, Lime & Coriander",
-                    "allergens": [
+                    "allergies": [
                         "Celery",
                         "Sulphites"
                     ]
                 },
                 {
                     "title": "Pizza and Fries",
-                    "allergens": [
+                    "allergies": [
                         "Gluten"
                     ]
                 }
@@ -347,13 +347,13 @@
             "mains": [
                 {
                     "title": "Sweetcorn Chowder Soup",
-                    "allergens": [
+                    "allergies": [
                         "Celery"
                     ]
                 },
                 {
                     "title": "French Onion Chicken Thighs",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Milk",
                         "Sulphites",
@@ -362,17 +362,17 @@
                 },
                 {
                     "title": "Fish of The Day",
-                    "allergens": [
+                    "allergies": [
                         "TBC"
                     ]
                 },
                 {
                     "title": "Leek, Mushroom and Spinach Lasagne with Goats' Cheese and Mozzarella (Gluten, Milk, Mustard",
-                    "allergens": []
+                    "allergies": []
                 },
                 {
                     "title": "Crispy Tofu, Sesame Fried Rice, Vegetable Spring Roll",
-                    "allergens": [
+                    "allergies": [
                         "Soya",
                         "Gluten",
                         "Sesame"
@@ -380,7 +380,7 @@
                 },
                 {
                     "title": "Lentil and Mushroom Ragu with Macaroni Pasta",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Celery"
                     ]
@@ -391,11 +391,11 @@
             "mains": [
                 {
                     "title": "Flavours of the World - Chinese Night",
-                    "allergens": []
+                    "allergies": []
                 },
                 {
                     "title": "Chicken Sweet and Sour",
-                    "allergens": [
+                    "allergies": [
                         "Celery",
                         "Sulphites",
                         "Soya"
@@ -403,14 +403,14 @@
                 },
                 {
                     "title": "Chinese Style BBQ Ribs",
-                    "allergens": [
+                    "allergies": [
                         "Soya",
                         "Celery"
                     ]
                 },
                 {
                     "title": "Kung Pao Tofu",
-                    "allergens": [
+                    "allergies": [
                         "Soya",
                         "Sesame",
                         "Peanuts"
@@ -418,13 +418,13 @@
                 },
                 {
                     "title": "Sichuanese Aubergine",
-                    "allergens": [
+                    "allergies": [
                         "Soya"
                     ]
                 },
                 {
                     "title": "Sides: Chow Mein, Onion Fried Rice, Egg Fried Rice, Spring Rolls, Bao Buns",
-                    "allergens": [
+                    "allergies": [
                         "Egg",
                         "Sesame",
                         "Soya",
@@ -438,14 +438,14 @@
                 },
                 {
                     "title": "Prawn Crackers",
-                    "allergens": [
+                    "allergies": [
                         "Sulphites",
                         "Crustaceans"
                     ]
                 },
                 {
                     "title": "Chinese Fortune Cake",
-                    "allergens": [
+                    "allergies": [
                         "Gluten"
                     ]
                 }
@@ -458,7 +458,7 @@
             "mains": [
                 {
                     "title": "Honey Mustard Pulled Pork Pretzel Bun, Apple Slaw and Crispy Onions",
-                    "allergens": [
+                    "allergies": [
                         "Mustard",
                         "Sulphites",
                         "Gluten"
@@ -466,7 +466,7 @@
                 },
                 {
                     "title": "Battered Fish & Chips Lemon & Tartar Sauce",
-                    "allergens": [
+                    "allergies": [
                         "Fish",
                         "Gluten",
                         "Egg",
@@ -476,7 +476,7 @@
                 },
                 {
                     "title": "Vegetable Spring Roll, & Egg Fried Rice, Soy Sauce",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Sesame",
                         "Soya",
@@ -485,14 +485,14 @@
                 },
                 {
                     "title": "Vegan Kofta Kebab Flatbread, Minted Yoghurt, Pickled Red Onion, Diced Tomato, Lime & Fresh Coriander",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Soya"
                     ]
                 },
                 {
                     "title": "Pizza and Fries",
-                    "allergens": [
+                    "allergies": [
                         "Gluten"
                     ]
                 }
@@ -505,7 +505,7 @@
             "mains": [
                 {
                     "title": "Roast Turkey Breast With Herbs & Smoked Paprika, Sage & Onion Stuffing, Gravy & Yorkshire Pudding",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Egg",
                         "Milk"
@@ -513,20 +513,20 @@
                 },
                 {
                     "title": "Roasted Vegetable Lasagne, Mozzarella & Parmesan Cheese",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Milk"
                     ]
                 },
                 {
                     "title": "Vegan Lentil Cottage Pie",
-                    "allergens": [
+                    "allergies": [
                         "Celery"
                     ]
                 },
                 {
                     "title": "Pizza and Fries",
-                    "allergens": [
+                    "allergies": [
                         "Gluten"
                     ]
                 }
@@ -539,13 +539,13 @@
             "mains": [
                 {
                     "title": "Curried Parsnip Soup",
-                    "allergens": [
+                    "allergies": [
                         "Celery"
                     ]
                 },
                 {
                     "title": "Breaded Chicken, Garlic Parsley Butter",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Milk",
                         "Egg"
@@ -553,13 +553,13 @@
                 },
                 {
                     "title": "Fish of The Day",
-                    "allergens": [
+                    "allergies": [
                         "TBC"
                     ]
                 },
                 {
                     "title": "Sweet Potato, Balsamic Red Onion & Parmesan Tart",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Egg",
                         "Sulphites",
@@ -568,14 +568,14 @@
                 },
                 {
                     "title": "Miso Vegetable & Onion Galette",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Soya"
                     ]
                 },
                 {
                     "title": "Macaroni Cheese",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Milk",
                         "Mustard"
@@ -587,20 +587,20 @@
             "mains": [
                 {
                     "title": "Harissa Spiced Lamb Cottage Pie, Sweet Potato and Chilli",
-                    "allergens": [
+                    "allergies": [
                         "Celery",
                         "Milk"
                     ]
                 },
                 {
                     "title": "Fish of The Day",
-                    "allergens": [
+                    "allergies": [
                         "TBC"
                     ]
                 },
                 {
                     "title": "Quorn Tikka Marsala, Naan Bread, Vegetable Samosa",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Egg",
                         "Soya",
@@ -609,7 +609,7 @@
                 },
                 {
                     "title": "Moving Mountain Burger, Burger Sauce, Onion, Tomato & Gherkins",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Soya",
                         "Sulphites",
@@ -619,7 +619,7 @@
                 },
                 {
                     "title": "Pizza and Fries",
-                    "allergens": []
+                    "allergies": []
                 }
             ]
         }
@@ -630,36 +630,36 @@
             "mains": [
                 {
                     "title": "Spiced Squash with Maple & Sage Soup",
-                    "allergens": [
+                    "allergies": [
                         "Celery"
                     ]
                 },
                 {
                     "title": "Cuban Mojo Pork with Orange, Garlic & Oregano",
-                    "allergens": []
+                    "allergies": []
                 },
                 {
                     "title": "Fish of The Day",
-                    "allergens": [
+                    "allergies": [
                         "TBC"
                     ]
                 },
                 {
                     "title": "Vegetable Goulash, New Potatoes",
-                    "allergens": [
+                    "allergies": [
                         "Celery",
                         "Sulphites"
                     ]
                 },
                 {
                     "title": "Spinach & Sweet Potato Dahl",
-                    "allergens": [
+                    "allergies": [
                         "Mustard"
                     ]
                 },
                 {
                     "title": "Tomato, Chilli & Bean Pasta",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Sulphites"
                     ]
@@ -670,33 +670,33 @@
             "mains": [
                 {
                     "title": "Smoky BBQ Chicken Wings",
-                    "allergens": [
+                    "allergies": [
                         "Mustard"
                     ]
                 },
                 {
                     "title": "Fish of The Day",
-                    "allergens": [
+                    "allergies": [
                         "TBC"
                     ]
                 },
                 {
                     "title": "Vegetable & Red Lentil Moussaka",
-                    "allergens": [
+                    "allergies": [
                         "Milk",
                         "Egg"
                     ]
                 },
                 {
                     "title": "Crispy Tofu With Sweet & Spicy Chilli Glaze, Spring Onions & Sesame Seeds",
-                    "allergens": [
+                    "allergies": [
                         "Soya",
                         "Sesame"
                     ]
                 },
                 {
                     "title": "Pizza and Fries",
-                    "allergens": []
+                    "allergies": []
                 }
             ]
         }
@@ -707,14 +707,14 @@
             "mains": [
                 {
                     "title": "Hot & Sour Broth Soup",
-                    "allergens": [
+                    "allergies": [
                         "Celery",
                         "Soya"
                     ]
                 },
                 {
                     "title": "Turkey, Leek & Sage Pie",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Milk",
                         "Mustard",
@@ -724,13 +724,13 @@
                 },
                 {
                     "title": "Fish of The Day",
-                    "allergens": [
+                    "allergies": [
                         "TBC"
                     ]
                 },
                 {
                     "title": "Roasted Winter Vegetable & Feta Pie with Coriander & Fennel Seeds",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Egg",
                         "Milk"
@@ -738,14 +738,14 @@
                 },
                 {
                     "title": "Cajun Vegetable & Bean Flatbread Red Onions, Chilli & Coriander",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Soya"
                     ]
                 },
                 {
                     "title": "Ratatouille, Basil, Parmesan Pasta",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Milk"
                     ]
@@ -756,7 +756,7 @@
             "mains": [
                 {
                     "title": "Chilli Dog With Onions & Mozzarella",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Milk",
                         "Celery"
@@ -764,13 +764,13 @@
                 },
                 {
                     "title": "Fish of The Day",
-                    "allergens": [
+                    "allergies": [
                         "TBC"
                     ]
                 },
                 {
                     "title": "Spinach & Ricotta Cannelloni, Tomato and Mushroom Sauce",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Milk",
                         "Egg"
@@ -778,14 +778,14 @@
                 },
                 {
                     "title": "Jamaican Lentil Patties, Pineapple Chutney",
-                    "allergens": [
+                    "allergies": [
                         "Soya",
                         "Sulphites"
                     ]
                 },
                 {
                     "title": "Pizza and Fries",
-                    "allergens": []
+                    "allergies": []
                 }
             ]
         }
@@ -796,25 +796,25 @@
             "mains": [
                 {
                     "title": "Honey Roasted Winter Vegetable Soup",
-                    "allergens": [
+                    "allergies": [
                         "Celery"
                     ]
                 },
                 {
                     "title": "Harissa Honey Chicken",
-                    "allergens": [
+                    "allergies": [
                         "Sulphites"
                     ]
                 },
                 {
                     "title": "Fish of The Day",
-                    "allergens": [
+                    "allergies": [
                         "TBC"
                     ]
                 },
                 {
                     "title": "Cauliflower Cheese, Roast Celeriac and Gnocchi Gratin",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Egg Milk",
                         "Mustard"
@@ -822,7 +822,7 @@
                 },
                 {
                     "title": "Hoisin Tempeh, Cashew & Vegetable Stir Fry",
-                    "allergens": [
+                    "allergies": [
                         "Celery",
                         "Soya",
                         "Nuts"
@@ -830,7 +830,7 @@
                 },
                 {
                     "title": "Cheese & Bacon Pasta Gratin",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Milk"
                     ]
@@ -841,7 +841,7 @@
             "mains": [
                 {
                     "title": "Cajun Grilled Chicken Burger, Jalapeno Lime Mayonnaise, Lettuce, Onion & Tomato",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Egg",
                         "Sulphites"
@@ -849,13 +849,13 @@
                 },
                 {
                     "title": "Fish of The Day",
-                    "allergens": [
+                    "allergies": [
                         "TBC"
                     ]
                 },
                 {
                     "title": "Halloumi, Ratatouille & Mixed Olive Flatbread With Basil Pesto",
-                    "allergens": [
+                    "allergies": [
                         "Milk",
                         "Gluten",
                         "Sulphites"
@@ -863,7 +863,7 @@
                 },
                 {
                     "title": "Vegan Schnitzel Burger Roasted Red Pepper Tartar Sauce, Salad Garnish, Pretzel Bun",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Mustard ",
                         "Soya",
@@ -872,7 +872,7 @@
                 },
                 {
                     "title": "Pizza and Fries",
-                    "allergens": []
+                    "allergies": []
                 }
             ]
         }
@@ -883,13 +883,13 @@
             "mains": [
                 {
                     "title": "Cauliflower, Celeriac & Thyme Soup",
-                    "allergens": [
+                    "allergies": [
                         "Celery"
                     ]
                 },
                 {
                     "title": "Beef, Button Mushroom & Potato Casserole",
-                    "allergens": [
+                    "allergies": [
                         "Celery",
                         "Gluten",
                         "Sulphites"
@@ -897,13 +897,13 @@
                 },
                 {
                     "title": "Fish of The Day",
-                    "allergens": [
+                    "allergies": [
                         "TBC"
                     ]
                 },
                 {
                     "title": "Goats' Cheese and Caramelised Onion Quiche",
-                    "allergens": [
+                    "allergies": [
                         "Milk",
                         "Gluten",
                         "Egg"
@@ -911,14 +911,14 @@
                 },
                 {
                     "title": "Vegan Cottage Pie",
-                    "allergens": [
+                    "allergies": [
                         "Soya",
                         "Celery"
                     ]
                 },
                 {
                     "title": "Penne with a Garlic Mushroom Cream",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Milk",
                         "Sulphites"
@@ -930,11 +930,11 @@
             "mains": [
                 {
                     "title": "Flavours of the World - British Pub Night Steak and Ale Pie",
-                    "allergens": []
+                    "allergies": []
                 },
                 {
                   "title": "Steak and Ale Pie",
-                  "allergens": [
+                  "allergies": [
                         "Gluten",
                         "Egg",
                         "Milk",
@@ -945,7 +945,7 @@
                 },
                 {
                     "title": "Sausages With Red Onion Gravy",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Sulphites",
                         "Celery"
@@ -953,14 +953,14 @@
                 },
                 {
                     "title": "Battered Fish Goujons",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Fish"
                     ]
                 },
                 {
                     "title": "Curried Vegetable Pie",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Milk",
                         "Egg"
@@ -968,7 +968,7 @@
                 },
                 {
                     "title": "Vegan Sausages With Red Onion Gravy",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Sulphites",
                         "Celery"
@@ -976,7 +976,7 @@
                 },
                 {
                     "title": "Prawn Cocktail",
-                    "allergens": [
+                    "allergies": [
                         "Crustaceans",
                         "Fish",
                         "Egg",
@@ -986,13 +986,13 @@
                 },
                 {
                     "title": "Sides: Mushy Peas, Mashed Potatoes, Hand Cut Chips, Peas and Carrots",
-                    "allergens": [
+                    "allergies": [
                       "Milk"
                     ]
                 },
                 {
                     "title": "Dessert: Sticky Toffee Pudding, Toffee Sauce",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Egg",
                         "Milk"
@@ -1007,14 +1007,14 @@
             "mains": [
                 {
                     "title": "Bao Buns With Teriyaki Beef & Vegetable Slaw, Fresh Coriander  Battered Fish & Chips Lemon & Tartar Sauce",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Soya"
                     ]
                 },
                 {
                   "title": "Battered Fish & Chips, Lemon & Tartar Sause",
-                  "allergens": [
+                  "allergies": [
                     "Fish",
                     "Gluten",
                     "Egg",
@@ -1024,7 +1024,7 @@
                 },
                 {
                     "title": "Aubergine Parmigiana Tomato Sauce, Parmesan Cheese",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Egg",
                         "Milk"
@@ -1032,7 +1032,7 @@
                 },
                 {
                     "title": "Vegan Chilli Dogs With Crispy Onions, Coriander Mayonnaise",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Soya",
                         "Celery",
@@ -1041,7 +1041,7 @@
                 },
                 {
                   "title": "Pizza and Fries",
-                  "allergens": []
+                  "allergies": []
                 }
             ]
         }
@@ -1052,7 +1052,7 @@
             "mains": [
                 {
                     "title": "Roast Pork Loin, Apple Sauce, Gravy & Yorkshire Pudding",
-                    "allergens": [
+                    "allergies": [
                         "Celery",
                         "Gluten",
                         "Egg",
@@ -1061,21 +1061,21 @@
                 },
                 {
                     "title": "Cheese, Onion & Spinach Wellington With Lentil Gravy",
-                    "allergens": [
+                    "allergies": [
                         "Gluten",
                         "Milk"
                     ]
                 },
                 {
                     "title": "Tofu Stir Fry Ginger Soy Sesame Sauce",
-                    "allergens": [
+                    "allergies": [
                         "Soya",
                         "Sesame"
                     ]
                 },
                 {
                     "title": "Pizza and Fries",
-                    "allergens": []
+                    "allergies": []
                 }
             ]
         }
