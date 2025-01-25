@@ -63,15 +63,17 @@ days = []
 def process_row(row_number):
     global days
     for col in "BCDEF":
-       day_json = {"weekend": False}
-       lunch_cell_code = f"{str(col)}{row_number}"
-       lunch_data = process_cell(lunch_cell_code)
-       day_json["lunch"] = {"mains": lunch_data}
+        day_json = {"weekend": False}
+        lunch_cell_code = f"{str(col)}{row_number}"
+        lunch_data = process_cell(lunch_cell_code)
+        lunch_data[0]["title"] += " Soup"
 
-       dinner_cell_code = f"{str(col)}{row_number+1}"
-       dinner_data = process_cell(dinner_cell_code)
-       day_json["dinner"] = {"mains": dinner_data}
-       days.append(day_json)
+        day_json["lunch"] = {"mains": lunch_data}
+
+        dinner_cell_code = f"{str(col)}{row_number+1}"
+        dinner_data = process_cell(dinner_cell_code)
+        day_json["dinner"] = {"mains": dinner_data}
+        days.append(day_json)
 
     for col in "GH":
        day_json = {"weekend": True}
