@@ -6,27 +6,63 @@ const categories: RoleCategory[] = [
         items: [
             {
                 title: "President",
-                name: "Isabelle Mohammed",
+                name: "Josie Iino",
                 pronouns: "she/her",
                 id: "president",
                 description:
-                    "Hi! I’m Isabelle and I’m your JCR President for 2024. I act as the bridge between the college and the undergraduate body, advocating on behalf of students and supporting our amazing JCR committee. My role sees me represent students on various committees, collaborate with the MCR and most importantly listen to any concerns students may have. My goal is ensure that the college remains a welcoming environment for all, and that students here feel as happy studying and living at Christ’s as possible. Some of my aims as President include working with college to solve the international student storage problem, offering JCR subsidies for bicycle safety and potentially introducing air fryers into kitchenettes. Please feel free to drop me an email if you have any concerns! You can also find me around college taking pictures of Finch and Baines or in the buttery enjoying a hot chocolate, so if you have any questions I am always happy to help!",
+                    "My name is Josie, I am a second year History and Politics student. I am half-American, half-Japanese, but I grew up in Vienna, Austria. I now live between New York and Thailand. I am very excited to be your President, and it is an honor I take seriously. Please message me with any questions! ",
+            },
+            {
+                title: "Secretary",
+                name: "Ev Kimber",
+                pronouns: "she/her",
+                id: "secretary",
+                description:
+                    "Hi! I’m Ev (she/her) a first year historian, and I’m excited to be your 2025 JCR Secretary! I’m in charge of the weekly bulletin, recording the meeting minutes and making sure you know exactly what’s happening at Christ’s each week. You’ll always hear from me in your emails! If you have any questions, ideas, or issues, feel free to get in touch.",
             }
         ],
     },
     {
         category: "Welfare Officers",
         items: [
+            {
+                title: "Welfare Officer",
+                label: "Zain",
+                name: "James Tam / Tanya Gupta",
+                pronouns: "he/him (James) / she/her (Tanya)",
+                id: "welfare",
+                description:
+                    "Hi! We are James and Tanya - your JCR Welfare Officers for 2025! Do come to speak to us if you have any suggestions or concerns, whether through our weekly drop-in sessions or dropping us an email. We are only one text away! Hope we can make college life a little less stressful this year for everyone, especially during exam season.",
+            },
         ],
     },
     {
         category: "Diversity",
         items: [
+            {
+                title: "LGBT+ Officer",
+                label: "LGBT+",
+                name: "Lily Owens",
+                pronouns: "they/them",
+                id: "lgbt",
+                description:
+                    "Hey! I’m Lily, your LGBT+ Officer. This year I am focusing on developing easier access pathways towards LGBT+ support resources and the Gender Expression Fund, as well as planning an engaging series of social events for Christ’s LGBT community, such as college swaps, themed charity formals and queer film screenings. I am looking to create a supportive environment and a dedicated queer space for students within college. As your JCR LGBT+ officer, I am always available for a chat. Feel free to send me an email If you’d like to talk or you’d like to make suggestions and changes within the college.",
+            }
         ],
     },
     {
         category: "Misc",
-        items: [],
+        items: [
+            {
+                title: "Access Officer",
+                label: "Access",
+                name: "Isma Mirza",
+                pronouns: "she/her",
+                id: "access",
+                description:
+                    "Hi, I'm Isma, and I am delighted to be your Access Officer!  I plan to work alongside other officers on the JCR, especially the Class Act and BME. I also aim to work with the College Admissions Team to continue developing and expanding the outreach initiatives and widening participation events that Christ's is renowned for. Having benefitted from these access programmes, I am passionate about supporting students who come from underrepresented backgrounds. I'm looking forward to working with the SU, collaborating on initiatives with Access Officers from other Colleges and working with our CRep community to deliver various outreach events and socials. Please feel free to contact me if you have any questions or if you would like to get involved with any outreach-related work!",
+            }
+        ],
     },
 ];
 
