@@ -242,7 +242,7 @@ export const societies: Society[] = [
         events: "Weekly recital series (normally Fridays at 6pm in the Chapel), ensemble rehearsals (which are organised by individual ensemble leaders), and end-of-term Christmas and Lent Concerts.",
         interested: "Contact one of the ensemble leaders (details on the website) to find the relevant rehearsal times.",
         people: [
-            { name: "Davon Halim", crsid: "dmh63" },
+            { name: "Aidan módica", crsid: "am3226" },
         ],
         type: "subject",
         status: "funded",
