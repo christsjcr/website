@@ -13,12 +13,28 @@ const categories: RoleCategory[] = [
                     "My name is Josie, I am a second year History and Politics student. I am half-American, half-Japanese, but I grew up in Vienna, Austria. I now live between New York and Thailand. I am very excited to be your President, and it is an honor I take seriously. Please message me with any questions! ",
             },
             {
+                title: "Vice-President",
+                name: "Diya Jalan",
+                pronouns: "she/her",
+                id: "vicepresident",
+                description:
+                    "Hi! I’m Diya, a first year law student here at Christ’s. I’m an international student from Singapore. I am excited to be your 2025 Vice-President and help represent your voice on student affairs at Christ’s ❤️💙 Feel free to come to me with any ideas and suggestions you have to make Christ’s a better place for all :)",
+            },
+            {
                 title: "Secretary",
                 name: "Ev Kimber",
                 pronouns: "she/her",
                 id: "secretary",
                 description:
                     "Hi! I’m Ev (she/her) a first year historian, and I’m excited to be your 2025 JCR Secretary! I’m in charge of the weekly bulletin, recording the meeting minutes and making sure you know exactly what’s happening at Christ’s each week. You’ll always hear from me in your emails! If you have any questions, ideas, or issues, feel free to get in touch.",
+            },
+            {
+                title: "Treasurer",
+                name: "Chris Lorde",
+                pronouns: "any",
+                id: "treasurer",
+                description:
+                    "Hey folks! My name’s Chris — I’m your JCR treasurer and a second-year sociologist here at Christ’s. My job is just making sure everyone gets paid — and that our bills do too. If you have any questions or concerns about reimbursements, budgets, or more, feel free to get in touch!",
             }
         ],
     },
