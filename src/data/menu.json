@@ -1,50 +1,54 @@
 {
-  "start": "2025-04-28T00:00:00.238Z",
+  "start": "2026-01-12T00:00:00.238Z",
   "days": [
     {
       "weekend": false,
       "lunch": {
         "mains": [
           {
-            "title": "Summer Minestrone Soup",
+            "title": "Roasted Tomato and Red Pepper Soup",
             "allergies": [
               "Celery",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Butternut Squash Stuffed with Spiced Black Beans, Rice and Sweetcorn",
+            "allergies": [
+              "Celery",
+              "Sulphites Mustard"
+            ]
+          },
+          {
+            "title": "Crispy Polenta Cakes, Roasted Red Peppers and Tomato Sauce",
+            "allergies": [
+              "Milk",
+              "Sulphites",
+              "Celery"
+            ]
+          },
+          {
+            "title": "Smoked Salmon and Cheddar Tart with Shallot and Dill Dressing",
+            "allergies": [
+              "Milk",
+              "Fish",
+              "Egg",
               "Gluten"
             ]
           },
           {
-            "title": "Chilli, Lime, Chickpea and Cauliflower Flatbread, Pickled Red Onions ",
+            "title": "Beef Bourguignon",
             "allergies": [
-              "Gluten",
+              "Celery",
               "Sulphites"
             ]
           },
           {
-            "title": "Grilled Aubergine, Spinach and Garlic Tomato Sauce, Feta Cheese and Mozzarella ",
+            "title": "Macaroni Cheese, Crispy Onions and Chives",
             "allergies": [
-              "Milk"
-            ]
-          },
-          {
-            "title": "Breaded Cod with Garlic & Herb Mayo",
-            "allergies": [
-              "Fish",
-              "Egg",
+              "Milk",
               "Gluten",
               "Mustard"
-            ]
-          },
-          {
-            "title": "Cajun Spiced Chicken Breast,Cherry Tomato and Chilli Salsa",
-            "allergies": [
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Mixed Pepper, Olive, Tomato & Basil Pasta",
-            "allergies": [
-              "Gluten",
-              "Sulphites"
             ]
           }
         ]
@@ -52,48 +56,29 @@
       "dinner": {
         "mains": [
           {
-            "title": "Leek, Potato and Nutmeg",
+            "title": "Chargrilled Aubergine, Ratatouille Of Vegetables, Mozzarella and Toasted Seeds",
             "allergies": [
-              "Celery"
-            ]
-          },
-          {
-            "title": "Spinach, Sweet Potato and Chickpea Dahl",
-            "allergies": [
-              "Mustard"
-            ]
-          },
-          {
-            "title": "Sweet Potato, Balsamic Red Onionand Parmesan Tart",
-            "allergies": [
-              "Gluten",
-              "Egg",
+              "Sesame",
               "Sulphites",
               "Milk"
             ]
           },
           {
-            "title": "Salmon Fishcakes with\nSiracha Mayonnaise",
+            "title": "Smoked Salmon and Cheddar Tart with Shallot and Dill Dressing",
             "allergies": [
+              "Milk",
+              "Fish",
               "Egg",
-              "Gluten",
-              "Fish"
+              "Gluten"
             ]
           },
           {
-            "title": "Breaded Chicken, Garlic Parsley Butter",
+            "title": "Chargrilled Chicken Burger, with Harissa Mayonnaise",
             "allergies": [
+              "Mustard",
               "Gluten",
-              "Milk",
-              "Egg"
-            ]
-          },
-          {
-            "title": "Macaroni Cheese",
-            "allergies": [
-              "Gluten",
-              "Milk",
-              "Mustard"
+              "Egg",
+              "Milk"
             ]
           }
         ]
@@ -104,87 +89,78 @@
       "lunch": {
         "mains": [
           {
-            "title": "Roast Plum Tomato Soup",
-            "allergies": [
-              "Celery)Mushroom&BeanChilliwithSmokedPaprikaRice(Celery"
-            ]
-          },
-          {
-            "title": "Goats Cheese, Red Onion & Spinach Tart",
-            "allergies": [
-              "Milk",
-              "Gluten",
-              "Egg"
-            ]
-          },
-          {
-            "title": "Grilled Tuna with a Nicoise Dressing",
-            "allergies": [
-              "Fish",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Beef Lasagne",
-            "allergies": [
-              "Gluten",
-              "Milk",
-              "Celery",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Pasta Carbonara with Smoked Baconand Mushroom",
-            "allergies": [
-              "Gluten",
-              "Milk",
-              "Sulphites"
-            ]
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Moroccan Spiced Vegetable",
+            "title": "Celeriac and Thyme Soup",
             "allergies": [
               "Celery"
             ]
           },
           {
-            "title": "Open Tart of Caramelised Onions, Cauliflower and Almond",
+            "title": "Vegetable and Crispy Quorn Sweet and Sour",
             "allergies": [
-              "Gluten"
-            ]
-          },
-          {
-            "title": "Porcini Ravioli, Button Mushroom and Rosemary Cream Sauce",
-            "allergies": [
-              "Gluten",
-              "Egg",
-              "Milk",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Miso Roast Cod",
-            "allergies": [
+              "Celery",
               "Soya"
             ]
           },
           {
-            "title": "Cuban Mojo Pork with Orange,Garlic and Oregano"
-          },
-          {
-            "title": "Tomato, Chilli & Chorizo Pasta",
+            "title": "Butternut Squash, Chilli and Feta Pie",
             "allergies": [
               "Gluten",
-              "Sulphites",
-              "Milk"
+              "Milk",
+              "Celery"
             ]
           },
           {
-            "title": ""
+            "title": "Seabass Fillet with Roasted Red Onion, Cherry Tomatoes and Pesto",
+            "allergies": [
+              "Fish",
+              "Milk",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Honey and Mustard Glazed Pork Loin Steak and Gravy",
+            "allergies": [
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Roasted Tomato and Red Pepper with Feta",
+            "allergies": [
+              "Sulphites",
+              "Gluten",
+              "Milk"
+            ]
+          }
+        ]
+      },
+      "dinner": {
+        "mains": [
+          {
+            "title": "Mac and Cheese Topped with Vegetable Chilli, Crispy Onions and Coriander",
+            "allergies": [
+              "Gluten",
+              "Milk",
+              "Mustard",
+              "Celery",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Seabass Fillet with Roasted Red Onion, Cherry Tomatoes and Pesto",
+            "allergies": [
+              "Fish",
+              "Milk",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Beef Meatballs, with Tomato and Basil Sauce, Parmesan",
+            "allergies": [
+              "Celery",
+              "Sulphites",
+              "Milk",
+              "Gluten"
+            ]
           }
         ]
       }
@@ -194,818 +170,83 @@
       "lunch": {
         "mains": [
           {
-            "title": "Courgette & Leek Soup",
+            "title": "Pea and Mint Soup",
             "allergies": [
-              "Celery)KungPoTofu&VegetableStirFrywithPeanuts(Celery",
-              "Soya",
+              "Celery"
+            ]
+          },
+          {
+            "title": "Root Vegetable and Lentil Wellington with Gravy",
+            "allergies": [
+              "Gluten",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Crispy Halloumi, Stir Fried Vegetables and Sweet Chilli Dressing",
+            "allergies": [
+              "Milk",
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Roasted Cod with Spinach, Wholegrain Mustard Cream Sauce",
+            "allergies": [
+              "Fish",
+              "Milk",
+              "Mustard",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Hunters Chicken",
+            "allergies": [
+              "Sulphites",
+              "Milk",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Basil Pesto, Cherry Tomato and Cheese",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          }
+        ]
+      },
+      "dinner": {
+        "mains": [
+          {
+            "title": "Chickpea Tagine with Toasted Almonds",
+            "allergies": [
+              "Celery",
+              "Sulphites",
               "Nuts"
             ]
           },
           {
-            "title": "Sun Dried Tomato Gnocchi with Roasted Red Peppers, Parmesan and Crispy Onions",
+            "title": "Piquillo Pepper and Blue Cheese Quiche, Olive and Herb Dressing",
             "allergies": [
-              "Gluten",
-              "Milk"
-            ]
-          },
-          {
-            "title": "Roasted Salmon with A Sesame and\nHoney Soy Sauce",
-            "allergies": [
-              "Fish",
-              "Soya",
+              "Milk",
               "Sulphites",
-              "Sesame"
-            ]
-          },
-          {
-            "title": "Coconut and Turmeric\nChicken Thighs with Coriander and Ginger"
-          },
-          {
-            "title": "Tomato and Mascarpone with\nRed Chilli and Aubergine",
-            "allergies": [
-              "Gluten",
-              "Milk"
-            ]
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Warm Onion Bhaji Wrap with Madras Spiced Peppers, Mint Mayo, Mango Chutney",
-            "allergies": [
-              "Gluten"
-            ]
-          },
-          {
-            "title": "Paneer Jalfrezi, Peppers, Ginger, Chillis, Tomatoes, Poppadum",
-            "allergies": [
-              "Milk",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Roasted Salmon with A Sesame and Honey Soy Sauce ",
-            "allergies": [
-              "Fish",
-              "Soya",
-              "Sulphites",
-              "Sesame"
-            ]
-          },
-          {
-            "title": "Braised Pork Belly, Cannellini Bean & Mixed Peppers In A Light Tomato & Herb Sauce."
-          }
-        ]
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Sweetcorn & Ginger Soup",
-            "allergies": [
-              "Celery)VegetableJalfreziwithNaanBread(Gluten",
-              "Mustard"
-            ]
-          },
-          {
-            "title": "Spinach & Ricotta Tortellini, Chive Cream Sauce",
-            "allergies": [
-              "Gluten",
-              "Milk",
-              "Egg",
-              "Celery",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Tikka Masala Coley with Cucumber Salsa",
-            "allergies": [
-              "Fish"
-            ]
-          },
-          {
-            "title": "Lamb Jalfrezi with Naan Bread",
-            "allergies": [
-              "Gluten",
-              "Mustard"
-            ]
-          },
-          {
-            "title": "Pulled Chicken, Basil Pesto Cream, Mozzarella Gratin",
-            "allergies": [
-              "Gluten",
-              "Milk"
-            ]
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Vegan Quorn, Edamame Bean, Broccoli, Red Pepper Ginger Soy & Mint Stir Fry",
-            "allergies": [
-              "Soya"
-            ]
-          },
-          {
-            "title": "Spinach & Ricotta Ravioli in A Tomato, Basil and Parmesan Sauce",
-            "allergies": [
-              "Gluten",
-              "Egg",
-              "Milk"
-            ]
-          },
-          {
-            "title": "Tikka Masala Coley with Cucumber Salsa",
-            "allergies": [
-              "Fish"
-            ]
-          },
-          {
-            "title": "Chicken Parmigiana ",
-            "allergies": [
-              "Gluten",
-              "Egg",
-              "Milk"
-            ]
-          },
-          {
-            "title": ""
-          }
-        ]
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Pea & Mint Soup",
-            "allergies": [
-              "Celery)QuornFilletwithSummerVegetablesCreamSauce(Soya",
-              "Mustard",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Vegetable Lasagne with Parmesanand Mozzarella",
-            "allergies": [
-              "Gluten",
-              "Milk",
-              "Mustard"
-            ]
-          },
-          {
-            "title": "Baked Seabass, Herb Dressing",
-            "allergies": [
-              "Fish"
-            ]
-          },
-          {
-            "title": "Hoisin Pork Steaks with Crunchy Slaw",
-            "allergies": [
-              "Soya",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Balsamic Roasted Vegetable and Tomato",
-            "allergies": [
-              "Gluten"
-            ]
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "THEME NIGHT: Flatbread Friday"
-          }
-        ]
-      }
-    },
-    {
-      "weekend": true,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Full English Breakfast (including Vegan Sausage option)"
-          },
-          {
-            "title": "Lunch Options: Pasta, Vegetables, Green Salad"
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Vegan Kofta Kebab Flatbread, Tomato Chutney, Pickled Red Onion & Fresh Coriander",
-            "allergies": [
-              "Gluten",
-              "Soya",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Vegetable Samosa, Cardamom Rice & Peas, Spiced Vegetable Slaw",
-            "allergies": [
-              "Gluten",
-              "Soya",
-              ""
-            ]
-          },
-          {
-            "title": "Battered Fish & Chips\nLemon & Tartar Sauce",
-            "allergies": [
-              "Fish",
-              "Gluten",
-              "Egg",
-              "Mustard",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Carolina BBQ Pulled Pork, Traditional Coleslaw and Crispy Onions",
-            "allergies": [
-              "Mustard",
-              "Sulphites",
-              "Gluten"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "weekend": true,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Full English Breakfast (including Vegan Sausage option)"
-          },
-          {
-            "title": "Lunch Options: Pasta, Vegetables, Green Salad"
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Chickpea & Spinach Curry Jacket Potato, Red Onion, Lime, Coriander Salad & Poppadum"
-          },
-          {
-            "title": "Herb & Garlic Roast Quorn Fillets, Sage Stuffing, Vegetable Gravy, Yorkshire Pudding",
-            "allergies": [
-              "Gluten",
-              "Milk",
-              "Egg"
-            ]
-          },
-          {
-            "title": "Roast Turkey Breast Maple BBQ Glaze, Sage & Onion Stuffing, Gravy & Yorkshire Pudding",
-            "allergies": [
-              "Gluten",
-              "Egg",
-              "Milk"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Spiced Pepper & Tomato Soup",
-            "allergies": [
-              "Celery)Spinach",
-              "SweetPotatoandChickpeaDahl(Mustard"
-            ]
-          },
-          {
-            "title": "Butternut Squash, Balsamic Red Onion and Parmesan Tart",
-            "allergies": [
-              "Gluten",
-              "Egg",
-              "Sulphites",
-              "Milk"
-            ]
-          },
-          {
-            "title": "Roast Cod with Miso Dressing",
-            "allergies": [
-              "Fish",
-              "Soya"
-            ]
-          },
-          {
-            "title": "Breaded Chicken, Garlic Parsley Butter",
-            "allergies": [
-              "Gluten",
-              "Milk",
-              "Egg"
-            ]
-          },
-          {
-            "title": "Macaroni Cheese",
-            "allergies": [
-              "Gluten",
-              "Milk",
-              "Mustard"
-            ]
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Moving Mountain Burger, Spicy Mayo, Onion Rings, Bread & Butter Pickles",
-            "allergies": [
-              "Gluten",
-              "Soya",
-              "Sulphites",
-              "Mustard",
-              ""
-            ]
-          },
-          {
-            "title": "Mixed Mushroom, Pak Choi & Vegetable Stir Fry, Teriyaki Black Bean Sauce",
-            "allergies": [
-              "Soya",
-              "Gluten"
-            ]
-          },
-          {
-            "title": "Roast Cod with Miso Dressing",
-            "allergies": [
-              "Fish",
-              "Soya"
-            ]
-          },
-          {
-            "title": "Grilled Hot Dog, Sauteed Onions, Peppers & Cheddar Cheese Sauce, Crispy Capers",
-            "allergies": [
-              "Gluten",
-              "Milk"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Watercress & Rocket Soup",
-            "allergies": [
-              "Celery)RoastedSpicedCauliflower&ButterbeanGratinwithCaramelisedOnions(Mustard"
-            ]
-          },
-          {
-            "title": "Porcini Ravioli, Minestrone Sauce",
-            "allergies": [
-              "Gluten",
-              "Egg",
-              "Milk",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Salmon Fishcakes With\nSiracha Mayonnaise",
-            "allergies": [
-              "Egg",
-              "Gluten",
-              "Fish"
-            ]
-          },
-          {
-            "title": "Cuban Mojo Pork with Orange,Garlic And Oregano"
-          },
-          {
-            "title": "Tomato, Chilli & Chorizo",
-            "allergies": [
-              "Gluten",
-              "Sulphites",
-              "Milk"
-            ]
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Crispy Cajun Fried Tofu, Red Cabbage, Carrot & Tomato Salad with Maple Mustard Dressing ",
-            "allergies": [
-              "Soya",
-              "Mustard"
-            ]
-          },
-          {
-            "title": "Halloumi, Basil & Butterbean Puree, Mixed Olive Flatbread, Rocket & Tomato Salad, Balsamic Dressing",
-            "allergies": [
-              "Milk",
-              "Gluten",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Salmon Fishcakes With\nSiracha Mayonnaise",
-            "allergies": [
-              "Egg",
-              "Gluten",
-              "Fish"
-            ]
-          },
-          {
-            "title": "Garlic, Lime & Smoked Paprika Baked Chicken Thighs, Hot Honey Dressing,Carrot & Coriander Slaw",
-            "allergies": [
-              "Sulphites"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Summer Bean & Bulgar Wheat  Soup",
-            "allergies": [
-              "Celery",
-              "Gluten)CajunVegetable&BeanFlatbreadRedOnions",
-              "Chilli&Coriander(Gluten",
-              "Soya"
-            ]
-          },
-          {
-            "title": "Grilled Halloumi with Lentils, Chickpeas & Beetroot, Sumac & Honey Dressing",
-            "allergies": [
-              "Milk",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Steamed Hake in Tomato, Chilli & Ginger Broth(Fish, Soya"
-          },
-          {
-            "title": "Turkey, Leek and Sage Pie",
-            "allergies": [
-              "Gluten",
-              "Milk",
-              "Mustard",
-              "Celery",
-              "Sulphites",
-              "Egg"
-            ]
-          },
-          {
-            "title": "Classic Arrabiata with Parmesan",
-            "allergies": [
-              "Gluten",
-              "Milk"
-            ]
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Vegan Meatball Sub, Rich Tomato Basil Sauce, Vegan Mozzarella",
-            "allergies": [
-              "Celery",
-              "Gluten",
-              "Soya"
-            ]
-          },
-          {
-            "title": "Grilled Vegetable Ravioli, Spicy Tomato, Pepper & Chilli Sauce\nParmesan Cheese",
-            "allergies": [
-              "Egg",
-              "Milk",
-              "Gluten"
-            ]
-          },
-          {
-            "title": "Steamed Hake in Tomato, Chilli & Ginger Broth",
-            "allergies": [
-              "Fish",
-              "Soya"
-            ]
-          },
-          {
-            "title": "Spiced Lamb Samosa,Pickled Red Onion & Coriander, Hot Honey Drizzle",
-            "allergies": [
-              "Gluten",
-              "Sulphites"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Carrot & Lentil   Soup",
-            "allergies": [
-              "Celery"
-            ]
-          },
-          {
-            "title": "Rice Noodle and Vegetable Stir-Fry,Miso Broth",
-            "allergies": [
-              "Soya"
-            ]
-          },
-          {
-            "title": "Vegetable Gumbo with Okra & Fried Onion Rice"
-          },
-          {
-            "title": "Smoked Haddock and Prawn Quiche",
-            "allergies": [
-              "Gluten",
-              "Egg",
-              "Milk",
-              "Fish",
-              "Crustacean"
-            ]
-          },
-          {
-            "title": "Harissa Honey Chicken",
-            "allergies": [
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Pulled Chicken, Basil Pesto Cream, Mozzarella Gratin",
-            "allergies": [
-              "Gluten",
-              "Milk"
-            ]
-          },
-          {
-            "title": "Cheese and Bacon Pasta ",
-            "allergies": [
-              "Gluten",
-              "Milk"
-            ]
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Vegan Schnitzel Burger, Mustard Slaw Spicy Mayo\nPretzel Bun",
-            "allergies": [
-              "Gluten",
-              "Mustard",
-              "Soya",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Quorn & Vegetable Stir Fry\nRice Noodles, Spring Rolls",
-            "allergies": [
-              "Gluten",
-              "Soya"
-            ]
-          },
-          {
-            "title": "Smoked Haddock and Prawn Quiche",
-            "allergies": [
-              "Gluten",
-              "Egg",
-              "Milk",
-              "Fish",
-              "Crustacean"
-            ]
-          },
-          {
-            "title": "Grilled Chicken Burger, Smoked Steaky Bacon, Burger Cheese, Honey Mustard Sauce, Gherkins(Gluten, Egg, Mustard, Sulphites"
-          }
-        ]
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Broccoli & Pea  Soup",
-            "allergies": [
-              "Celery)RedPepper&CourgettePaella(Celery"
-            ]
-          },
-          {
-            "title": "Spinach & Feta Filo with Hot Honey Dressing",
-            "allergies": [
-              "Milk",
-              "Gluten"
-            ]
-          },
-          {
-            "title": "Grilled Salmon with Oyster Sauce, Chilli & Spring Onion",
-            "allergies": [
-              "Fish",
-              "Celery",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Pork Belly and Chorizo Cassoulet",
-            "allergies": [
-              "Celery",
-              "Gluten",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Penne With a Garlic Mushroom Cream",
-            "allergies": [
-              "Gluten",
-              "Milk",
-              "Sulphites"
-            ]
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "THEME NIGHT: America North and South States "
-          }
-        ]
-      }
-    },
-    {
-      "weekend": true,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Full English Breakfast (including Vegan Sausage option)"
-          },
-          {
-            "title": "Lunch Options: Pasta, Vegetables, Green Salad"
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Vegan Hot Dog Sauteed Peppers, Onions, Fennel Seeds & Chilli Flakes, Tomato Mayo Crispy Onions",
-            "allergies": [
-              "Gluten",
-              "Soy",
-              "Mustard",
-              "Celery"
-            ]
-          },
-          {
-            "title": "Aubergine Parmigiana\nTomato Sauce, Parmesan Cheese ",
-            "allergies": [
-              "Gluten",
-              "Egg",
-              "Milk"
-            ]
-          },
-          {
-            "title": "Battered Fish & Chips\nLemon & Tartar Sauce",
-            "allergies": [
-              "Fish",
-              "Gluten",
-              "Egg",
-              "Mustard",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Bao Buns With Hoisin Chicken & Vegetable Slaw, Fresh Coriander",
-            "allergies": [
-              "Gluten",
-              "Soya"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "weekend": true,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Full English Breakfast (including Vegan Sausage option)"
-          },
-          {
-            "title": "Lunch Options: Pasta, Vegetables, Green Salad"
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Seared Smoked Tofu, Harissa Spiced Vegetables, Pickled Red Onions, Raisins & Cashews",
-            "allergies": [
-              "Soya",
-              "Nuts",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Vegetable & Red Lentil Moussaka",
-            "allergies": [
-              "Milk",
-              "Egg"
-            ]
-          },
-          {
-            "title": "Roast Pork Loin, Apple Sauce, Gravy & Yorkshire Pudding",
-            "allergies": [
-              "Celery",
-              "Gluten",
-              "Egg",
-              "Milk"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Mexican Charred Sweetcorn Soup",
-            "allergies": [
-              "Celery)VegetableAndBeanChilliWithCorianderandSpringOnions(Sulphites"
-            ]
-          },
-          {
-            "title": "Gnocchi With Courgette, Peas Mascarpone & Spring Onions",
-            "allergies": [
-              "Gluten",
-              "Milk"
-            ]
-          },
-          {
-            "title": "Baked Cod with Roasted Red Pepper Coulis & Lemon Salt",
-            "allergies": [
-              "Fish",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Southern Fried Turkey Escalope, Smoked Paprika and Herb Butter",
-            "allergies": [
-              "Milk",
               "Gluten",
               "Egg"
             ]
           },
           {
-            "title": "Classic Puttanesca",
+            "title": "Roasted Cod with Spinach, Wholegrain Mustard Cream Sauce",
             "allergies": [
-              "Gluten",
               "Fish",
-              "Sulphites"
-            ]
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Red Pepper Hummus & Roasted Vegetable Flatbread, Lemon Sriracha Mayo, Crispy Onions",
-            "allergies": [
+              "Milk",
               "Mustard",
-              "Gluten"
-            ]
-          },
-          {
-            "title": "Tofu Katsu Curry, Egg & Onion Fried Rice, Spring Onion & Chilli",
-            "allergies": [
-              "Egg",
-              "Gluten"
-            ]
-          },
-          {
-            "title": "Baked Cod with Roasted Red Pepper Coulis & Lemon Salt",
-            "allergies": [
-              "Fish",
               "Sulphites"
             ]
           },
           {
-            "title": "Lamb & Feta Burger, Garlic & Herb Mayo Pickled Red Onion, Tomato & Olive",
+            "title": "BBQ Pulled Pork, Pickled Red Onions",
             "allergies": [
-              "Sulphites",
-              "Gluten",
-              "Milk"
+              "Sulphites"
             ]
           }
         ]
@@ -1016,213 +257,50 @@
       "lunch": {
         "mains": [
           {
-            "title": "Vegetable & Bean Miso Broth Soup",
-            "allergies": [
-              "Celery",
-              "Soya)VeganMeatballs",
-              "TomatoandButtonMushroomSauce(Soya"
-            ]
-          },
-          {
-            "title": "Mushroom, Spinach and Lentil Filo Pie ",
-            "allergies": [
-              "Gluten",
-              "Milk",
-              "Mustard",
-              "Celery"
-            ]
-          },
-          {
-            "title": "Breaded Plaice with A Lemon Salsa Verde ",
-            "allergies": [
-              "Fish",
-              "Egg",
-              "Gluten"
-            ]
-          },
-          {
-            "title": "Maple Glazed Roast Gammon",
-            "allergies": [
-              "Mustard",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Beef Ragu, Tomato and Oregano Sauce",
-            "allergies": [
-              "Gluten",
-              "Celery",
-              "Sulphites"
-            ]
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Courgette, Butterbean, Cherry Tomato & Green Bean In A Light Tomato Sauce, Spiced Seeds,",
+            "title": "Mushroom and Tarragon Soup",
             "allergies": [
               "Celery"
             ]
           },
           {
-            "title": "Cajun Mushroom, Halloumi & Hummus Burger, Tomato, Onion, Cucumber & Mint Salsa, Brioche Bun",
-            "allergies": [
-              "Gluten",
-              "Egg",
-              "Milk",
-              "Soya"
-            ]
-          },
-          {
-            "title": "Breaded Plaice with A Lemon Salsa Verde",
-            "allergies": [
-              "Fish",
-              "Egg",
-              "Gluten"
-            ]
-          },
-          {
-            "title": "Ginger Soy Chicken Skewer,Spiced Onion Rice, Asian Slaw",
-            "allergies": [
-              "Soy"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Roast Plum Tomato Soup",
-            "allergies": [
-              "Celery",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Jackfruit & Sweet Potato Thai Curry",
-            "allergies": [
-              "Nuts",
-              "Soya"
-            ]
-          },
-          {
-            "title": "Tortelloni Formaggio With Red Pesto, Cherry Tomato & Olives",
-            "allergies": [
-              "Gluten",
-              "Egg",
-              "Milk",
-              "Mustard"
-            ]
-          },
-          {
-            "title": "Thai Fish Cakes with Stir Fry Vegetables & Sweet Chilli Sauce ",
-            "allergies": [
-              "Gluten",
-              "Soya",
-              "Fish",
-              "Sesame"
-            ]
-          },
-          {
-            "title": "Diced Beef Chilli with Beans, Cumin and Coriander",
-            "allergies": [
-              "Celery",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Ratatouille, Basil, Parmesan Pasta",
-            "allergies": [
-              "Gluten",
-              "Milk"
-            ]
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Thia Tofu Burger, Carrot & Cucumber Ribbons, Sweet & Sour, Spicy Soy Dressing",
-            "allergies": [
-              "Soya",
-              "Gluten",
-              "Mustard"
-            ]
-          },
-          {
-            "title": "Butternut Squash, Chickpea, Cauliflower Coconut Miso Curry, Boiled Egg, Chilli Coriander & Spring Onion",
-            "allergies": [
-              "Egg",
-              "Soya"
-            ]
-          },
-          {
-            "title": "Thai Fish Cakes with Stir Fry Vegetables & Sweet Chilli Sauce",
-            "allergies": [
-              "Gluten",
-              "Soya",
-              "Fish",
-              "Sesame"
-            ]
-          },
-          {
-            "title": "Grilled Pork Loin Steak,Pineapple Salsa",
-            "allergies": [
-              "Sulphites"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Roast Sweet Potato  Soup",
+            "title": "Vegetable and Chickpea Madras",
             "allergies": [
               "Celery",
               "Mustard"
             ]
           },
           {
-            "title": "Salt & Pepper Tofu on Stir Fried Vegetables with Spring Rolls  ",
+            "title": "Wild Mushroom Arancini Tomato Sauce",
             "allergies": [
-              "Celery"
+              "Milk",
+              "Sulphites",
+              "Celery",
+              "Egg",
+              "Gluten"
             ]
           },
           {
-            "title": "Aubergine & Potato Moussaka ",
-            "allergies": [
-              "Gluten",
-              "Milk"
-            ]
-          },
-          {
-            "title": "Baked Seabass Fillet With A Red Pepper Salsa",
+            "title": "Chargrilled Tuna Steak, with Caper, Red Onion and Chive Dressing",
             "allergies": [
               "Fish",
               "Sulphites"
             ]
           },
           {
-            "title": "Toad In the Hole with Red Onion Gravy",
+            "title": "Chorizo and Cheddar Quiche, Tomato and Herb Dressing",
             "allergies": [
               "Gluten",
-              "Celery",
+              "Egg",
+              "Milk",
               "Sulphites"
             ]
           },
           {
-            "title": "Sausage, Fennel Seed, Chilli and Smoked Cheddar",
+            "title": "Tomato and Olive Pasta",
             "allergies": [
-              "Gluten",
-              "Milk",
-              "Sulphites"
+              "Celery",
+              "Sulphites",
+              "Gluten"
             ]
           }
         ]
@@ -1230,33 +308,33 @@
       "dinner": {
         "mains": [
           {
-            "title": "Mac \u201cN\u201d Cheese, Sweet Potato Gratin with Buffalo Breadcrumbs",
+            "title": "Crispy Fried Tofu",
             "allergies": [
-              "Gluten"
+              "Gluten",
+              "Sulphites",
+              "Soya"
             ]
           },
           {
-            "title": "Spiced Bean & Tortilla Lasagne, Cheddar & Jalapenos",
+            "title": "Grilled Halloumi with a Bean and Tomato Casserole, Chilli Dressing",
             "allergies": [
-              "Gluten",
               "Milk",
               "Sulphites"
             ]
           },
           {
-            "title": "Baked Seabass Fillet With\nA Red Pepper Salsa",
+            "title": "Chargrilled Tuna Steak, with Caper, Red Onion and Chive Dressing",
             "allergies": [
               "Fish",
               "Sulphites"
             ]
           },
           {
-            "title": "Buttermilk Fried Chicken Burger, Cajun Mayo, Jalapenos, Red Onion &A Brioche Bun",
+            "title": "Chicken, Chorizo and Bean Casserole",
             "allergies": [
-              "Egg",
-              "Milk",
+              "Celery",
               "Sulphites",
-              "Gluten"
+              "Milk"
             ]
           }
         ]
@@ -1267,94 +345,77 @@
       "lunch": {
         "mains": [
           {
-            "title": "Carrot & Coriander Soup",
+            "title": "Curried Parsnip and Coconut Soup",
             "allergies": [
-              "Celery)TurmericRoastedCauliflowerFlatBreadwithHummus",
-              "Rocket",
-              "PomegranateandMint(Gluten"
+              "Celery"
             ]
           },
           {
-            "title": "Sweet Potato, Caramelised Onion,Red Pepper and Feta Frittata",
-            "allergies": [
-              "Egg",
-              "Milk"
-            ]
-          },
-          {
-            "title": "Lemon And Lime Grilled Mackerel",
-            "allergies": [
-              "Fish"
-            ]
-          },
-          {
-            "title": "Chicken Tikka Masala",
-            "allergies": [
-              "Mustard",
-              "Milk"
-            ]
-          },
-          {
-            "title": "Spinach, Feta and Black Olive",
+            "title": "Red Onion, Artichoke and Cherry Tomato Tart Fine",
             "allergies": [
               "Gluten",
-              "Sulphites",
-              "Milk"
-            ]
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "THEME NIGHT: Summer BBQ Night"
-          }
-        ]
-      }
-    },
-    {
-      "weekend": true,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Full English Breakfast (including Vegan Sausage option)"
-          },
-          {
-            "title": "Lunch Options: Pasta, Vegetables, Green Salad"
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Smoky BBQ Vegetable Stir Fry, Crispy Tofu, Sweetcorn Relish",
-            "allergies": [
-              "Mustard",
-              "Soya"
-            ]
-          },
-          {
-            "title": "Roasted Broccoli & Feta Flatbread, Beetroot Hummus, Chickpeas, Pomegranate Seeds, Crispy Onions",
-            "allergies": [
-              "Gluten",
-              "Milk"
-            ]
-          },
-          {
-            "title": "Battered Fish & Chips\nLemon & Tartar Sauce",
-            "allergies": [
-              "Fish",
-              "Gluten",
-              "Egg",
-              "Mustard",
               "Sulphites"
             ]
           },
           {
-            "title": "Slow Cooked Beef Ragu, Garlic Bread & Parmesan Cheese",
+            "title": "Roasted Pepper, Onion and Cheddar Quiche, Tomato and Herb Dressing",
+            "allergies": [
+              "Gluten",
+              "Egg",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Sweet Chilli Salmon Supreme with Spring Onion and Tomato Salsa",
+            "allergies": [
+              "Fish",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Chilli Con Carne",
             "allergies": [
               "Celery",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Chicken and Pancetta Cream Sauce",
+            "allergies": [
+              "Milk",
               "Gluten",
+              "Sulphites"
+            ]
+          }
+        ]
+      },
+      "dinner": {
+        "mains": [
+          {
+            "title": "THEME NIGHT- starting from January 23rd, 2026 Curry Spiced Cauliflower, Chickpeas, Cucumber Raita, Pickled Red Cabbage",
+            "allergies": [
+              "Sulphites",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Spiced Potato Wedges with A Mixed Bean Chilli, Sour Cream and Spring Onions",
+            "allergies": [
+              "Celery",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Sweet Chilli Salmon Supreme with Spring Onion and Tomato Salsa",
+            "allergies": [
+              "Fish",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Shepherd’s Pie",
+            "allergies": [
+              "Celery",
               "Milk"
             ]
           }
@@ -1366,134 +427,97 @@
       "lunch": {
         "mains": [
           {
-            "title": "Full English Breakfast (including Vegan Sausage option)"
+            "title": "Full English Breakfast including Vegan Sausage",
+            "allergies": []
           },
           {
-            "title": "Lunch Options: Pasta, Vegetables, Green Salad"
+            "title": "Lunch Options: Pasta, Vegetables, Green Salad",
+            "allergies": []
           }
         ]
       },
       "dinner": {
         "mains": [
           {
-            "title": "Grilled Aubergine Steak, Miso Sweet Potato Mash, Toasted Pumpkin Seeds, Fresh Ginger, Spring Onion, Chilli & Coriander",
+            "title": "Roasted Butternut Squash, Red Chilli Couscous, Herb Dressing",
             "allergies": [
-              "Soya"
+              "Gluten",
+              "Sulphites"
             ]
           },
           {
-            "title": "Spinach & Ricotta Cannelloni Tomato and Aubergine Sauce\nParmesan Cheese",
+            "title": "Spinach and Ricotta Ravioli, Mushroom Cream Sauce, Parmesan",
             "allergies": [
-              "Gluten",
               "Milk",
+              "Mustard",
+              "Sulphites",
+              "Gluten",
               "Egg"
             ]
           },
           {
-            "title": "Herb Roasted Chicken With Stuffing, Gravy & Yorkshire Pudding",
-            "allergies": [
-              "Gluten",
-              "Milk",
-              "Egg",
-              "Celery"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Summer Minestrone Soup",
-            "allergies": [
-              "Celery",
-              "Gluten"
-            ]
-          },
-          {
-            "title": "Chilli, Lime, Chickpea and Cauliflower Flatbread, Pickled Red Onions ",
-            "allergies": [
-              "Gluten",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Grilled Aubergine, Spinach and Garlic Tomato Sauce, Feta Cheese and Mozzarella ",
-            "allergies": [
-              "Milk"
-            ]
-          },
-          {
-            "title": "Breaded Cod with Garlic & Herb Mayo",
+            "title": "Battered Fish, Lemon and Tartare Sauce",
             "allergies": [
               "Fish",
-              "Egg",
-              "Gluten",
-              "Mustard"
-            ]
-          },
-          {
-            "title": "Cajun Spiced Chicken Breast,Cherry Tomato and Chilli Salsa",
-            "allergies": [
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Mixed Pepper, Olive, Tomato & Basil Pasta",
-            "allergies": [
-              "Gluten",
-              "Sulphites"
-            ]
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Leek, Potato and Nutmeg",
-            "allergies": [
-              "Celery"
-            ]
-          },
-          {
-            "title": "Spinach, Sweet Potato and Chickpea Dahl",
-            "allergies": [
-              "Mustard"
-            ]
-          },
-          {
-            "title": "Sweet Potato, Balsamic Red Onionand Parmesan Tart",
-            "allergies": [
-              "Gluten",
               "Egg",
               "Sulphites",
+              "Gluten",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Meat Feast Pizza",
+            "allergies": [
+              "Gluten",
+              "Milk",
+              "Sulphites"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "weekend": true,
+      "lunch": {
+        "mains": [
+          {
+            "title": "Full English Breakfast including Vegan Sausage",
+            "allergies": []
+          },
+          {
+            "title": "Lunch Options: Pasta, Vegetables, Green Salad",
+            "allergies": []
+          }
+        ]
+      },
+      "dinner": {
+        "mains": [
+          {
+            "title": "Vegetable, Paneer and Chickpea Curry",
+            "allergies": [
+              "Mustard",
+              "Sulphites",
+              "Celery",
               "Milk"
             ]
           },
           {
-            "title": "Salmon Fishcakes with\nSiracha Mayonnaise",
+            "title": "Hot Smoked Salmon and Baby Spinach Pasta with Spring Onions",
             "allergies": [
-              "Egg",
+              "Fish",
+              "Sulphites",
               "Gluten",
-              "Fish"
+              "Milk"
             ]
           },
           {
-            "title": "Breaded Chicken, Garlic Parsley Butter",
+            "title": "Chicken, Mushroom and Tarragon Pie",
             "allergies": [
               "Gluten",
               "Milk",
-              "Egg"
-            ]
-          },
-          {
-            "title": "Macaroni Cheese",
-            "allergies": [
-              "Gluten",
-              "Milk",
-              "Mustard"
+              "Mustard",
+              "Celery",
+              "Sulphites"
             ]
           }
         ]
@@ -1502,910 +526,542 @@
     {
       "weekend": false,
       "lunch": {
+        "mains": []
+      },
+      "dinner": {
+        "mains": []
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": []
+      },
+      "dinner": {
+        "mains": []
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
         "mains": [
           {
-            "title": "Roast Plum Tomato Soup",
+            "title": "Chargrilled Aubergine with Spinach and Ratatouille",
             "allergies": [
-              "Celery)Mushroom&BeanChilliwithSmokedPaprikaRice(Celery"
-            ]
-          },
-          {
-            "title": "Goats Cheese, Red Onion & Spinach Tart",
-            "allergies": [
-              "Milk",
-              "Gluten",
-              "Egg"
-            ]
-          },
-          {
-            "title": "Grilled Tuna with a Nicoise Dressing",
-            "allergies": [
-              "Fish",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Beef Lasagne",
-            "allergies": [
-              "Gluten",
-              "Milk",
               "Celery",
               "Sulphites"
             ]
           },
           {
-            "title": "Pasta Carbonara with Smoked Baconand Mushroom",
+            "title": "Stuffed Peppers with Spiced Rice and Med’ Veg, Tomato Sauce and Mozzarella",
             "allergies": [
-              "Gluten",
-              "Milk",
-              "Sulphites"
-            ]
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Moroccan Spiced Vegetable",
-            "allergies": [
-              "Celery"
-            ]
-          },
-          {
-            "title": "Open Tart of Caramelised Onions, Cauliflower and Almond",
-            "allergies": [
-              "Gluten"
-            ]
-          },
-          {
-            "title": "Porcini Ravioli, Button Mushroom and Rosemary Cream Sauce",
-            "allergies": [
-              "Gluten",
-              "Egg",
-              "Milk",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Miso Roast Cod",
-            "allergies": [
-              "Soya"
-            ]
-          },
-          {
-            "title": "Cuban Mojo Pork with Orange,Garlic and Oregano"
-          },
-          {
-            "title": "Tomato, Chilli & Chorizo Pasta",
-            "allergies": [
-              "Gluten",
+              "Celery",
               "Sulphites",
               "Milk"
             ]
           },
           {
-            "title": ""
-          }
-        ]
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Courgette & Leek Soup",
+            "title": "Smoked Haddock, Cheddar and Chive Tart with Tomato Salsa",
             "allergies": [
-              "Celery)KungPoTofu&VegetableStirFrywithPeanuts(Celery",
+              "Fish",
+              "Milk",
+              "Egg",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Roast Chicken Supreme with Mushroom Sauce",
+            "allergies": [
+              "Milk",
+              "Sulphites",
+              "Soya"
+            ]
+          },
+          {
+            "title": "Vegan Meatballs In Tomato and Chilli Sauce",
+            "allergies": [
               "Soya",
+              "Gluten",
+              "Sulphites"
+            ]
+          }
+        ]
+      },
+      "dinner": {
+        "mains": [
+          {
+            "title": "Spinach & Ricotta Cannelloni with Tomato Sauce and Mozzarella",
+            "allergies": [
+              "Milk",
+              "Gluten",
+              "Sulphites",
+              "Egg"
+            ]
+          },
+          {
+            "title": "Smoked Haddock, Cheddar and Chive Tart with Tomato Salsa",
+            "allergies": [
+              "Fish",
+              "Milk",
+              "Egg",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Lamb Keema Curry with Coriander, Mini Poppadums and Mint Yogurt",
+            "allergies": [
+              "Sulphites",
+              "Mustard",
+              "Milk"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": []
+      },
+      "dinner": {
+        "mains": []
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": []
+      },
+      "dinner": {
+        "mains": []
+      }
+    },
+    {
+      "weekend": true,
+      "lunch": {
+        "mains": [
+          {
+            "title": "Full English Breakfast including Vegan Sausage",
+            "allergies": []
+          },
+          {
+            "title": "Lunch Options: Pasta, Vegetables, Green Salad",
+            "allergies": []
+          }
+        ]
+      },
+      "dinner": {
+        "mains": []
+      }
+    },
+    {
+      "weekend": true,
+      "lunch": {
+        "mains": [
+          {
+            "title": "Full English Breakfast including Vegan Sausage",
+            "allergies": []
+          },
+          {
+            "title": "Lunch Options: Pasta, Vegetables, Green Salad",
+            "allergies": []
+          }
+        ]
+      },
+      "dinner": {
+        "mains": []
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": []
+      },
+      "dinner": {
+        "mains": []
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": []
+      },
+      "dinner": {
+        "mains": []
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          {
+            "title": "Harissa Roasted Cauliflower and Squash, Wilted Spinach with Pickled Red Onions and Coconut Yoghurt",
+            "allergies": [
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Red Pepper and Goats’ Cheese Arancini, Spiced Tomato Sauce",
+            "allergies": [
+              "Celery",
+              "Gluten",
+              "Egg",
+              "Milk",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Fish Pie",
+            "allergies": [
+              "Fish",
+              "Celery",
+              "Crustacean",
+              "Milk",
+              "Mustard",
+              "Gluten",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Crispy Sticky Beef and Vegetable Stir Fry",
+            "allergies": [
+              "Sesame",
+              "Sulphites",
+              "Soya"
+            ]
+          }
+        ]
+      },
+      "dinner": {
+        "mains": [
+          {
+            "title": "Sundried Tomato, Olive and Red Onion Pizza",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Fish Pie",
+            "allergies": [
+              "Fish",
+              "Celery",
+              "Crustacean",
+              "Milk",
+              "Mustard",
+              "Gluten",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Thai Green Chicken Curry with Coriander and Spring Onions",
+            "allergies": [
+              "Soya"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": []
+      },
+      "dinner": {
+        "mains": []
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": []
+      },
+      "dinner": {
+        "mains": []
+      }
+    },
+    {
+      "weekend": true,
+      "lunch": {
+        "mains": [
+          {
+            "title": "Full English Breakfast including Vegan Sausage",
+            "allergies": []
+          },
+          {
+            "title": "Lunch Options: Pasta, Vegetables, Green Salad",
+            "allergies": []
+          }
+        ]
+      },
+      "dinner": {
+        "mains": []
+      }
+    },
+    {
+      "weekend": true,
+      "lunch": {
+        "mains": [
+          {
+            "title": "Full English Breakfast including Vegan Sausage",
+            "allergies": []
+          },
+          {
+            "title": "Lunch Options: Pasta, Vegetables, Green Salad",
+            "allergies": []
+          }
+        ]
+      },
+      "dinner": {
+        "mains": []
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          {
+            "title": "Roasted Tomato and Red Pepper Soup",
+            "allergies": [
+              "Celery",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Butternut Squash Stuffed with Spiced Black Beans, Rice and Sweetcorn",
+            "allergies": [
+              "Celery",
+              "Sulphites Mustard"
+            ]
+          },
+          {
+            "title": "Crispy Polenta Cakes, Roasted Red Peppers and Tomato Sauce",
+            "allergies": [
+              "Milk",
+              "Sulphites",
+              "Celery"
+            ]
+          },
+          {
+            "title": "Smoked Salmon and Cheddar Tart with Shallot and Dill Dressing",
+            "allergies": [
+              "Milk",
+              "Fish",
+              "Egg",
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Beef Bourguignon",
+            "allergies": [
+              "Celery",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Macaroni Cheese, Crispy Onions and Chives",
+            "allergies": [
+              "Milk",
+              "Gluten",
+              "Mustard"
+            ]
+          }
+        ]
+      },
+      "dinner": {
+        "mains": [
+          {
+            "title": "Chargrilled Aubergine, Ratatouille Of Vegetables, Mozzarella and Toasted Seeds",
+            "allergies": [
+              "Sesame",
+              "Sulphites",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Smoked Salmon and Cheddar Tart with Shallot and Dill Dressing",
+            "allergies": [
+              "Milk",
+              "Fish",
+              "Egg",
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Chargrilled Chicken Burger, with Harissa Mayonnaise",
+            "allergies": [
+              "Mustard",
+              "Gluten",
+              "Egg",
+              "Milk"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          {
+            "title": "Celeriac and Thyme Soup",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Vegetable and Crispy Quorn Sweet and Sour",
+            "allergies": [
+              "Celery",
+              "Soya"
+            ]
+          },
+          {
+            "title": "Butternut Squash, Chilli and Feta Pie",
+            "allergies": [
+              "Gluten",
+              "Milk",
+              "Celery"
+            ]
+          },
+          {
+            "title": "Seabass Fillet with Roasted Red Onion, Cherry Tomatoes and Pesto",
+            "allergies": [
+              "Fish",
+              "Milk",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Honey and Mustard Glazed Pork Loin Steak and Gravy",
+            "allergies": [
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Roasted Tomato and Red Pepper with Feta",
+            "allergies": [
+              "Sulphites",
+              "Gluten",
+              "Milk"
+            ]
+          }
+        ]
+      },
+      "dinner": {
+        "mains": [
+          {
+            "title": "Mac and Cheese Topped with Vegetable Chilli, Crispy Onions and Coriander",
+            "allergies": [
+              "Gluten",
+              "Milk",
+              "Mustard",
+              "Celery",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Seabass Fillet with Roasted Red Onion, Cherry Tomatoes and Pesto",
+            "allergies": [
+              "Fish",
+              "Milk",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Beef Meatballs, with Tomato and Basil Sauce, Parmesan",
+            "allergies": [
+              "Celery",
+              "Sulphites",
+              "Milk",
+              "Gluten"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          {
+            "title": "Pea and Mint Soup",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Root Vegetable and Lentil Wellington with Gravy",
+            "allergies": [
+              "Gluten",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Crispy Halloumi, Stir Fried Vegetables and Sweet Chilli Dressing",
+            "allergies": [
+              "Milk",
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Roasted Cod with Spinach, Wholegrain Mustard Cream Sauce",
+            "allergies": [
+              "Fish",
+              "Milk",
+              "Mustard",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Hunters Chicken",
+            "allergies": [
+              "Sulphites",
+              "Milk",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Basil Pesto, Cherry Tomato and Cheese",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          }
+        ]
+      },
+      "dinner": {
+        "mains": [
+          {
+            "title": "Chickpea Tagine with Toasted Almonds",
+            "allergies": [
+              "Celery",
+              "Sulphites",
               "Nuts"
             ]
           },
           {
-            "title": "Sun Dried Tomato Gnocchi with Roasted Red Peppers, Parmesan and Crispy Onions",
+            "title": "Piquillo Pepper and Blue Cheese Quiche, Olive and Herb Dressing",
             "allergies": [
-              "Gluten",
-              "Milk"
-            ]
-          },
-          {
-            "title": "Roasted Salmon with A Sesame and\nHoney Soy Sauce",
-            "allergies": [
-              "Fish",
-              "Soya",
+              "Milk",
               "Sulphites",
-              "Sesame"
-            ]
-          },
-          {
-            "title": "Coconut and Turmeric\nChicken Thighs with Coriander and Ginger"
-          },
-          {
-            "title": "Tomato and Mascarpone with\nRed Chilli and Aubergine",
-            "allergies": [
-              "Gluten",
-              "Milk"
-            ]
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Warm Onion Bhaji Wrap with Madras Spiced Peppers, Mint Mayo, Mango Chutney",
-            "allergies": [
-              "Gluten"
-            ]
-          },
-          {
-            "title": "Paneer Jalfrezi, Peppers, Ginger, Chillis, Tomatoes, Poppadum",
-            "allergies": [
-              "Milk",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Roasted Salmon with A Sesame and Honey Soy Sauce ",
-            "allergies": [
-              "Fish",
-              "Soya",
-              "Sulphites",
-              "Sesame"
-            ]
-          },
-          {
-            "title": "Braised Pork Belly, Cannellini Bean & Mixed Peppers In A Light Tomato & Herb Sauce."
-          }
-        ]
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Sweetcorn & Ginger Soup",
-            "allergies": [
-              "Celery)VegetableJalfreziwithNaanBread(Gluten",
-              "Mustard"
-            ]
-          },
-          {
-            "title": "Spinach & Ricotta Tortellini, Chive Cream Sauce",
-            "allergies": [
-              "Gluten",
-              "Milk",
-              "Egg",
-              "Celery",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Tikka Masala Coley with Cucumber Salsa",
-            "allergies": [
-              "Fish"
-            ]
-          },
-          {
-            "title": "Lamb Jalfrezi with Naan Bread",
-            "allergies": [
-              "Gluten",
-              "Mustard"
-            ]
-          },
-          {
-            "title": "Pulled Chicken, Basil Pesto Cream, Mozzarella Gratin",
-            "allergies": [
-              "Gluten",
-              "Milk"
-            ]
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Vegan Quorn, Edamame Bean, Broccoli, Red Pepper Ginger Soy & Mint Stir Fry",
-            "allergies": [
-              "Soya"
-            ]
-          },
-          {
-            "title": "Spinach & Ricotta Ravioli in A Tomato, Basil and Parmesan Sauce",
-            "allergies": [
-              "Gluten",
-              "Egg",
-              "Milk"
-            ]
-          },
-          {
-            "title": "Tikka Masala Coley with Cucumber Salsa",
-            "allergies": [
-              "Fish"
-            ]
-          },
-          {
-            "title": "Chicken Parmigiana ",
-            "allergies": [
-              "Gluten",
-              "Egg",
-              "Milk"
-            ]
-          },
-          {
-            "title": ""
-          }
-        ]
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Pea & Mint Soup",
-            "allergies": [
-              "Celery)QuornFilletwithSummerVegetablesCreamSauce(Soya",
-              "Mustard",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Vegetable Lasagne with Parmesanand Mozzarella",
-            "allergies": [
-              "Gluten",
-              "Milk",
-              "Mustard"
-            ]
-          },
-          {
-            "title": "Baked Seabass, Herb Dressing",
-            "allergies": [
-              "Fish"
-            ]
-          },
-          {
-            "title": "Hoisin Pork Steaks with Crunchy Slaw",
-            "allergies": [
-              "Soya",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Balsamic Roasted Vegetable and Tomato",
-            "allergies": [
-              "Gluten"
-            ]
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "THEME NIGHT: Flatbread Friday"
-          }
-        ]
-      }
-    },
-    {
-      "weekend": true,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Full English Breakfast (including Vegan Sausage option)"
-          },
-          {
-            "title": "Lunch Options: Pasta, Vegetables, Green Salad"
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Vegan Kofta Kebab Flatbread, Tomato Chutney, Pickled Red Onion & Fresh Coriander",
-            "allergies": [
-              "Gluten",
-              "Soya",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Vegetable Samosa, Cardamom Rice & Peas, Spiced Vegetable Slaw",
-            "allergies": [
-              "Gluten",
-              "Soya",
-              ""
-            ]
-          },
-          {
-            "title": "Battered Fish & Chips\nLemon & Tartar Sauce",
-            "allergies": [
-              "Fish",
-              "Gluten",
-              "Egg",
-              "Mustard",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Carolina BBQ Pulled Pork, Traditional Coleslaw and Crispy Onions",
-            "allergies": [
-              "Mustard",
-              "Sulphites",
-              "Gluten"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "weekend": true,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Full English Breakfast (including Vegan Sausage option)"
-          },
-          {
-            "title": "Lunch Options: Pasta, Vegetables, Green Salad"
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Chickpea & Spinach Curry Jacket Potato, Red Onion, Lime, Coriander Salad & Poppadum"
-          },
-          {
-            "title": "Herb & Garlic Roast Quorn Fillets, Sage Stuffing, Vegetable Gravy, Yorkshire Pudding",
-            "allergies": [
-              "Gluten",
-              "Milk",
-              "Egg"
-            ]
-          },
-          {
-            "title": "Roast Turkey Breast Maple BBQ Glaze, Sage & Onion Stuffing, Gravy & Yorkshire Pudding",
-            "allergies": [
-              "Gluten",
-              "Egg",
-              "Milk"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Spiced Pepper & Tomato Soup",
-            "allergies": [
-              "Celery)Spinach",
-              "SweetPotatoandChickpeaDahl(Mustard"
-            ]
-          },
-          {
-            "title": "Butternut Squash, Balsamic Red Onion and Parmesan Tart",
-            "allergies": [
-              "Gluten",
-              "Egg",
-              "Sulphites",
-              "Milk"
-            ]
-          },
-          {
-            "title": "Roast Cod with Miso Dressing",
-            "allergies": [
-              "Fish",
-              "Soya"
-            ]
-          },
-          {
-            "title": "Breaded Chicken, Garlic Parsley Butter",
-            "allergies": [
-              "Gluten",
-              "Milk",
-              "Egg"
-            ]
-          },
-          {
-            "title": "Macaroni Cheese",
-            "allergies": [
-              "Gluten",
-              "Milk",
-              "Mustard"
-            ]
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Moving Mountain Burger, Spicy Mayo, Onion Rings, Bread & Butter Pickles",
-            "allergies": [
-              "Gluten",
-              "Soya",
-              "Sulphites",
-              "Mustard",
-              ""
-            ]
-          },
-          {
-            "title": "Mixed Mushroom, Pak Choi & Vegetable Stir Fry, Teriyaki Black Bean Sauce",
-            "allergies": [
-              "Soya",
-              "Gluten"
-            ]
-          },
-          {
-            "title": "Roast Cod with Miso Dressing",
-            "allergies": [
-              "Fish",
-              "Soya"
-            ]
-          },
-          {
-            "title": "Grilled Hot Dog, Sauteed Onions, Peppers & Cheddar Cheese Sauce, Crispy Capers",
-            "allergies": [
-              "Gluten",
-              "Milk"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Watercress & Rocket Soup",
-            "allergies": [
-              "Celery)RoastedSpicedCauliflower&ButterbeanGratinwithCaramelisedOnions(Mustard"
-            ]
-          },
-          {
-            "title": "Porcini Ravioli, Minestrone Sauce",
-            "allergies": [
-              "Gluten",
-              "Egg",
-              "Milk",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Salmon Fishcakes With\nSiracha Mayonnaise",
-            "allergies": [
-              "Egg",
-              "Gluten",
-              "Fish"
-            ]
-          },
-          {
-            "title": "Cuban Mojo Pork with Orange,Garlic And Oregano"
-          },
-          {
-            "title": "Tomato, Chilli & Chorizo",
-            "allergies": [
-              "Gluten",
-              "Sulphites",
-              "Milk"
-            ]
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Crispy Cajun Fried Tofu, Red Cabbage, Carrot & Tomato Salad with Maple Mustard Dressing ",
-            "allergies": [
-              "Soya",
-              "Mustard"
-            ]
-          },
-          {
-            "title": "Halloumi, Basil & Butterbean Puree, Mixed Olive Flatbread, Rocket & Tomato Salad, Balsamic Dressing",
-            "allergies": [
-              "Milk",
-              "Gluten",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Salmon Fishcakes With\nSiracha Mayonnaise",
-            "allergies": [
-              "Egg",
-              "Gluten",
-              "Fish"
-            ]
-          },
-          {
-            "title": "Garlic, Lime & Smoked Paprika Baked Chicken Thighs, Hot Honey Dressing,Carrot & Coriander Slaw",
-            "allergies": [
-              "Sulphites"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Summer Bean & Bulgar Wheat  Soup",
-            "allergies": [
-              "Celery",
-              "Gluten)CajunVegetable&BeanFlatbreadRedOnions",
-              "Chilli&Coriander(Gluten",
-              "Soya"
-            ]
-          },
-          {
-            "title": "Grilled Halloumi with Lentils, Chickpeas & Beetroot, Sumac & Honey Dressing",
-            "allergies": [
-              "Milk",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Steamed Hake in Tomato, Chilli & Ginger Broth(Fish, Soya"
-          },
-          {
-            "title": "Turkey, Leek and Sage Pie",
-            "allergies": [
-              "Gluten",
-              "Milk",
-              "Mustard",
-              "Celery",
-              "Sulphites",
-              "Egg"
-            ]
-          },
-          {
-            "title": "Classic Arrabiata with Parmesan",
-            "allergies": [
-              "Gluten",
-              "Milk"
-            ]
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Vegan Meatball Sub, Rich Tomato Basil Sauce, Vegan Mozzarella",
-            "allergies": [
-              "Celery",
-              "Gluten",
-              "Soya"
-            ]
-          },
-          {
-            "title": "Grilled Vegetable Ravioli, Spicy Tomato, Pepper & Chilli Sauce\nParmesan Cheese",
-            "allergies": [
-              "Egg",
-              "Milk",
-              "Gluten"
-            ]
-          },
-          {
-            "title": "Steamed Hake in Tomato, Chilli & Ginger Broth",
-            "allergies": [
-              "Fish",
-              "Soya"
-            ]
-          },
-          {
-            "title": "Spiced Lamb Samosa,Pickled Red Onion & Coriander, Hot Honey Drizzle",
-            "allergies": [
-              "Gluten",
-              "Sulphites"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Carrot & Lentil   Soup",
-            "allergies": [
-              "Celery"
-            ]
-          },
-          {
-            "title": "Rice Noodle and Vegetable Stir-Fry,Miso Broth",
-            "allergies": [
-              "Soya"
-            ]
-          },
-          {
-            "title": "Vegetable Gumbo with Okra & Fried Onion Rice"
-          },
-          {
-            "title": "Smoked Haddock and Prawn Quiche",
-            "allergies": [
-              "Gluten",
-              "Egg",
-              "Milk",
-              "Fish",
-              "Crustacean"
-            ]
-          },
-          {
-            "title": "Harissa Honey Chicken",
-            "allergies": [
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Pulled Chicken, Basil Pesto Cream, Mozzarella Gratin",
-            "allergies": [
-              "Gluten",
-              "Milk"
-            ]
-          },
-          {
-            "title": "Cheese and Bacon Pasta ",
-            "allergies": [
-              "Gluten",
-              "Milk"
-            ]
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Vegan Schnitzel Burger, Mustard Slaw Spicy Mayo\nPretzel Bun",
-            "allergies": [
-              "Gluten",
-              "Mustard",
-              "Soya",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Quorn & Vegetable Stir Fry\nRice Noodles, Spring Rolls",
-            "allergies": [
-              "Gluten",
-              "Soya"
-            ]
-          },
-          {
-            "title": "Smoked Haddock and Prawn Quiche",
-            "allergies": [
-              "Gluten",
-              "Egg",
-              "Milk",
-              "Fish",
-              "Crustacean"
-            ]
-          },
-          {
-            "title": "Grilled Chicken Burger, Smoked Steaky Bacon, Burger Cheese, Honey Mustard Sauce, Gherkins(Gluten, Egg, Mustard, Sulphites"
-          }
-        ]
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Broccoli & Pea  Soup",
-            "allergies": [
-              "Celery)RedPepper&CourgettePaella(Celery"
-            ]
-          },
-          {
-            "title": "Spinach & Feta Filo with Hot Honey Dressing",
-            "allergies": [
-              "Milk",
-              "Gluten"
-            ]
-          },
-          {
-            "title": "Grilled Salmon with Oyster Sauce, Chilli & Spring Onion",
-            "allergies": [
-              "Fish",
-              "Celery",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Pork Belly and Chorizo Cassoulet",
-            "allergies": [
-              "Celery",
-              "Gluten",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Penne With a Garlic Mushroom Cream",
-            "allergies": [
-              "Gluten",
-              "Milk",
-              "Sulphites"
-            ]
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "THEME NIGHT: America North and South States "
-          }
-        ]
-      }
-    },
-    {
-      "weekend": true,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Full English Breakfast (including Vegan Sausage option)"
-          },
-          {
-            "title": "Lunch Options: Pasta, Vegetables, Green Salad"
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Vegan Hot Dog Sauteed Peppers, Onions, Fennel Seeds & Chilli Flakes, Tomato Mayo Crispy Onions",
-            "allergies": [
-              "Gluten",
-              "Soy",
-              "Mustard",
-              "Celery"
-            ]
-          },
-          {
-            "title": "Aubergine Parmigiana\nTomato Sauce, Parmesan Cheese ",
-            "allergies": [
-              "Gluten",
-              "Egg",
-              "Milk"
-            ]
-          },
-          {
-            "title": "Battered Fish & Chips\nLemon & Tartar Sauce",
-            "allergies": [
-              "Fish",
-              "Gluten",
-              "Egg",
-              "Mustard",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Bao Buns With Hoisin Chicken & Vegetable Slaw, Fresh Coriander",
-            "allergies": [
-              "Gluten",
-              "Soya"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "weekend": true,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Full English Breakfast (including Vegan Sausage option)"
-          },
-          {
-            "title": "Lunch Options: Pasta, Vegetables, Green Salad"
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Seared Smoked Tofu, Harissa Spiced Vegetables, Pickled Red Onions, Raisins & Cashews",
-            "allergies": [
-              "Soya",
-              "Nuts",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Vegetable & Red Lentil Moussaka",
-            "allergies": [
-              "Milk",
-              "Egg"
-            ]
-          },
-          {
-            "title": "Roast Pork Loin, Apple Sauce, Gravy & Yorkshire Pudding",
-            "allergies": [
-              "Celery",
-              "Gluten",
-              "Egg",
-              "Milk"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Mexican Charred Sweetcorn Soup",
-            "allergies": [
-              "Celery)VegetableAndBeanChilliWithCorianderandSpringOnions(Sulphites"
-            ]
-          },
-          {
-            "title": "Gnocchi With Courgette, Peas Mascarpone & Spring Onions",
-            "allergies": [
-              "Gluten",
-              "Milk"
-            ]
-          },
-          {
-            "title": "Baked Cod with Roasted Red Pepper Coulis & Lemon Salt",
-            "allergies": [
-              "Fish",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Southern Fried Turkey Escalope, Smoked Paprika and Herb Butter",
-            "allergies": [
-              "Milk",
               "Gluten",
               "Egg"
             ]
           },
           {
-            "title": "Classic Puttanesca",
+            "title": "Roasted Cod with Spinach, Wholegrain Mustard Cream Sauce",
             "allergies": [
-              "Gluten",
               "Fish",
-              "Sulphites"
-            ]
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Red Pepper Hummus & Roasted Vegetable Flatbread, Lemon Sriracha Mayo, Crispy Onions",
-            "allergies": [
+              "Milk",
               "Mustard",
-              "Gluten"
-            ]
-          },
-          {
-            "title": "Tofu Katsu Curry, Egg & Onion Fried Rice, Spring Onion & Chilli",
-            "allergies": [
-              "Egg",
-              "Gluten"
-            ]
-          },
-          {
-            "title": "Baked Cod with Roasted Red Pepper Coulis & Lemon Salt",
-            "allergies": [
-              "Fish",
               "Sulphites"
             ]
           },
           {
-            "title": "Lamb & Feta Burger, Garlic & Herb Mayo Pickled Red Onion, Tomato & Olive",
+            "title": "BBQ Pulled Pork, Pickled Red Onions",
             "allergies": [
-              "Sulphites",
-              "Gluten",
-              "Milk"
+              "Sulphites"
             ]
           }
         ]
@@ -2416,213 +1072,50 @@
       "lunch": {
         "mains": [
           {
-            "title": "Vegetable & Bean Miso Broth Soup",
-            "allergies": [
-              "Celery",
-              "Soya)VeganMeatballs",
-              "TomatoandButtonMushroomSauce(Soya"
-            ]
-          },
-          {
-            "title": "Mushroom, Spinach and Lentil Filo Pie ",
-            "allergies": [
-              "Gluten",
-              "Milk",
-              "Mustard",
-              "Celery"
-            ]
-          },
-          {
-            "title": "Breaded Plaice with A Lemon Salsa Verde ",
-            "allergies": [
-              "Fish",
-              "Egg",
-              "Gluten"
-            ]
-          },
-          {
-            "title": "Maple Glazed Roast Gammon",
-            "allergies": [
-              "Mustard",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Beef Ragu, Tomato and Oregano Sauce",
-            "allergies": [
-              "Gluten",
-              "Celery",
-              "Sulphites"
-            ]
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Courgette, Butterbean, Cherry Tomato & Green Bean In A Light Tomato Sauce, Spiced Seeds,",
+            "title": "Mushroom and Tarragon Soup",
             "allergies": [
               "Celery"
             ]
           },
           {
-            "title": "Cajun Mushroom, Halloumi & Hummus Burger, Tomato, Onion, Cucumber & Mint Salsa, Brioche Bun",
-            "allergies": [
-              "Gluten",
-              "Egg",
-              "Milk",
-              "Soya"
-            ]
-          },
-          {
-            "title": "Breaded Plaice with A Lemon Salsa Verde",
-            "allergies": [
-              "Fish",
-              "Egg",
-              "Gluten"
-            ]
-          },
-          {
-            "title": "Ginger Soy Chicken Skewer,Spiced Onion Rice, Asian Slaw",
-            "allergies": [
-              "Soy"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Roast Plum Tomato Soup",
-            "allergies": [
-              "Celery",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Jackfruit & Sweet Potato Thai Curry",
-            "allergies": [
-              "Nuts",
-              "Soya"
-            ]
-          },
-          {
-            "title": "Tortelloni Formaggio With Red Pesto, Cherry Tomato & Olives",
-            "allergies": [
-              "Gluten",
-              "Egg",
-              "Milk",
-              "Mustard"
-            ]
-          },
-          {
-            "title": "Thai Fish Cakes with Stir Fry Vegetables & Sweet Chilli Sauce ",
-            "allergies": [
-              "Gluten",
-              "Soya",
-              "Fish",
-              "Sesame"
-            ]
-          },
-          {
-            "title": "Diced Beef Chilli with Beans, Cumin and Coriander",
-            "allergies": [
-              "Celery",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Ratatouille, Basil, Parmesan Pasta",
-            "allergies": [
-              "Gluten",
-              "Milk"
-            ]
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Thia Tofu Burger, Carrot & Cucumber Ribbons, Sweet & Sour, Spicy Soy Dressing",
-            "allergies": [
-              "Soya",
-              "Gluten",
-              "Mustard"
-            ]
-          },
-          {
-            "title": "Butternut Squash, Chickpea, Cauliflower Coconut Miso Curry, Boiled Egg, Chilli Coriander & Spring Onion",
-            "allergies": [
-              "Egg",
-              "Soya"
-            ]
-          },
-          {
-            "title": "Thai Fish Cakes with Stir Fry Vegetables & Sweet Chilli Sauce",
-            "allergies": [
-              "Gluten",
-              "Soya",
-              "Fish",
-              "Sesame"
-            ]
-          },
-          {
-            "title": "Grilled Pork Loin Steak,Pineapple Salsa",
-            "allergies": [
-              "Sulphites"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Roast Sweet Potato  Soup",
+            "title": "Vegetable and Chickpea Madras",
             "allergies": [
               "Celery",
               "Mustard"
             ]
           },
           {
-            "title": "Salt & Pepper Tofu on Stir Fried Vegetables with Spring Rolls  ",
+            "title": "Wild Mushroom Arancini Tomato Sauce",
             "allergies": [
-              "Celery"
+              "Milk",
+              "Sulphites",
+              "Celery",
+              "Egg",
+              "Gluten"
             ]
           },
           {
-            "title": "Aubergine & Potato Moussaka ",
-            "allergies": [
-              "Gluten",
-              "Milk"
-            ]
-          },
-          {
-            "title": "Baked Seabass Fillet With A Red Pepper Salsa",
+            "title": "Chargrilled Tuna Steak, with Caper, Red Onion and Chive Dressing",
             "allergies": [
               "Fish",
               "Sulphites"
             ]
           },
           {
-            "title": "Toad In the Hole with Red Onion Gravy",
+            "title": "Chorizo and Cheddar Quiche, Tomato and Herb Dressing",
             "allergies": [
               "Gluten",
-              "Celery",
+              "Egg",
+              "Milk",
               "Sulphites"
             ]
           },
           {
-            "title": "Sausage, Fennel Seed, Chilli and Smoked Cheddar",
+            "title": "Tomato and Olive Pasta",
             "allergies": [
-              "Gluten",
-              "Milk",
-              "Sulphites"
+              "Celery",
+              "Sulphites",
+              "Gluten"
             ]
           }
         ]
@@ -2630,33 +1123,33 @@
       "dinner": {
         "mains": [
           {
-            "title": "Mac \u201cN\u201d Cheese, Sweet Potato Gratin with Buffalo Breadcrumbs",
+            "title": "Crispy Fried Tofu",
             "allergies": [
-              "Gluten"
+              "Gluten",
+              "Sulphites",
+              "Soya"
             ]
           },
           {
-            "title": "Spiced Bean & Tortilla Lasagne, Cheddar & Jalapenos",
+            "title": "Grilled Halloumi with a Bean and Tomato Casserole, Chilli Dressing",
             "allergies": [
-              "Gluten",
               "Milk",
               "Sulphites"
             ]
           },
           {
-            "title": "Baked Seabass Fillet With\nA Red Pepper Salsa",
+            "title": "Chargrilled Tuna Steak, with Caper, Red Onion and Chive Dressing",
             "allergies": [
               "Fish",
               "Sulphites"
             ]
           },
           {
-            "title": "Buttermilk Fried Chicken Burger, Cajun Mayo, Jalapenos, Red Onion &A Brioche Bun",
+            "title": "Chicken, Chorizo and Bean Casserole",
             "allergies": [
-              "Egg",
-              "Milk",
+              "Celery",
               "Sulphites",
-              "Gluten"
+              "Milk"
             ]
           }
         ]
@@ -2667,94 +1160,77 @@
       "lunch": {
         "mains": [
           {
-            "title": "Carrot & Coriander Soup",
+            "title": "Curried Parsnip and Coconut Soup",
             "allergies": [
-              "Celery)TurmericRoastedCauliflowerFlatBreadwithHummus",
-              "Rocket",
-              "PomegranateandMint(Gluten"
+              "Celery"
             ]
           },
           {
-            "title": "Sweet Potato, Caramelised Onion,Red Pepper and Feta Frittata",
-            "allergies": [
-              "Egg",
-              "Milk"
-            ]
-          },
-          {
-            "title": "Lemon And Lime Grilled Mackerel",
-            "allergies": [
-              "Fish"
-            ]
-          },
-          {
-            "title": "Chicken Tikka Masala",
-            "allergies": [
-              "Mustard",
-              "Milk"
-            ]
-          },
-          {
-            "title": "Spinach, Feta and Black Olive",
+            "title": "Red Onion, Artichoke and Cherry Tomato Tart Fine",
             "allergies": [
               "Gluten",
-              "Sulphites",
-              "Milk"
-            ]
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "THEME NIGHT: Summer BBQ Night"
-          }
-        ]
-      }
-    },
-    {
-      "weekend": true,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Full English Breakfast (including Vegan Sausage option)"
-          },
-          {
-            "title": "Lunch Options: Pasta, Vegetables, Green Salad"
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Smoky BBQ Vegetable Stir Fry, Crispy Tofu, Sweetcorn Relish",
-            "allergies": [
-              "Mustard",
-              "Soya"
-            ]
-          },
-          {
-            "title": "Roasted Broccoli & Feta Flatbread, Beetroot Hummus, Chickpeas, Pomegranate Seeds, Crispy Onions",
-            "allergies": [
-              "Gluten",
-              "Milk"
-            ]
-          },
-          {
-            "title": "Battered Fish & Chips\nLemon & Tartar Sauce",
-            "allergies": [
-              "Fish",
-              "Gluten",
-              "Egg",
-              "Mustard",
               "Sulphites"
             ]
           },
           {
-            "title": "Slow Cooked Beef Ragu, Garlic Bread & Parmesan Cheese",
+            "title": "Roasted Pepper, Onion and Cheddar Quiche, Tomato and Herb Dressing",
+            "allergies": [
+              "Gluten",
+              "Egg",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Sweet Chilli Salmon Supreme with Spring Onion and Tomato Salsa",
+            "allergies": [
+              "Fish",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Chilli Con Carne",
             "allergies": [
               "Celery",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Chicken and Pancetta Cream Sauce",
+            "allergies": [
+              "Milk",
               "Gluten",
+              "Sulphites"
+            ]
+          }
+        ]
+      },
+      "dinner": {
+        "mains": [
+          {
+            "title": "THEME NIGHT- starting from January 23rd, 2026 Curry Spiced Cauliflower, Chickpeas, Cucumber Raita, Pickled Red Cabbage",
+            "allergies": [
+              "Sulphites",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Spiced Potato Wedges with A Mixed Bean Chilli, Sour Cream and Spring Onions",
+            "allergies": [
+              "Celery",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Sweet Chilli Salmon Supreme with Spring Onion and Tomato Salsa",
+            "allergies": [
+              "Fish",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Shepherd’s Pie",
+            "allergies": [
+              "Celery",
               "Milk"
             ]
           }
@@ -2766,134 +1242,97 @@
       "lunch": {
         "mains": [
           {
-            "title": "Full English Breakfast (including Vegan Sausage option)"
+            "title": "Full English Breakfast including Vegan Sausage",
+            "allergies": []
           },
           {
-            "title": "Lunch Options: Pasta, Vegetables, Green Salad"
+            "title": "Lunch Options: Pasta, Vegetables, Green Salad",
+            "allergies": []
           }
         ]
       },
       "dinner": {
         "mains": [
           {
-            "title": "Grilled Aubergine Steak, Miso Sweet Potato Mash, Toasted Pumpkin Seeds, Fresh Ginger, Spring Onion, Chilli & Coriander",
+            "title": "Roasted Butternut Squash, Red Chilli Couscous, Herb Dressing",
             "allergies": [
-              "Soya"
+              "Gluten",
+              "Sulphites"
             ]
           },
           {
-            "title": "Spinach & Ricotta Cannelloni Tomato and Aubergine Sauce\nParmesan Cheese",
+            "title": "Spinach and Ricotta Ravioli, Mushroom Cream Sauce, Parmesan",
             "allergies": [
-              "Gluten",
               "Milk",
+              "Mustard",
+              "Sulphites",
+              "Gluten",
               "Egg"
             ]
           },
           {
-            "title": "Herb Roasted Chicken With Stuffing, Gravy & Yorkshire Pudding",
-            "allergies": [
-              "Gluten",
-              "Milk",
-              "Egg",
-              "Celery"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Summer Minestrone Soup",
-            "allergies": [
-              "Celery",
-              "Gluten"
-            ]
-          },
-          {
-            "title": "Chilli, Lime, Chickpea and Cauliflower Flatbread, Pickled Red Onions ",
-            "allergies": [
-              "Gluten",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Grilled Aubergine, Spinach and Garlic Tomato Sauce, Feta Cheese and Mozzarella ",
-            "allergies": [
-              "Milk"
-            ]
-          },
-          {
-            "title": "Breaded Cod with Garlic & Herb Mayo",
+            "title": "Battered Fish, Lemon and Tartare Sauce",
             "allergies": [
               "Fish",
-              "Egg",
-              "Gluten",
-              "Mustard"
-            ]
-          },
-          {
-            "title": "Cajun Spiced Chicken Breast,Cherry Tomato and Chilli Salsa",
-            "allergies": [
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Mixed Pepper, Olive, Tomato & Basil Pasta",
-            "allergies": [
-              "Gluten",
-              "Sulphites"
-            ]
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Leek, Potato and Nutmeg",
-            "allergies": [
-              "Celery"
-            ]
-          },
-          {
-            "title": "Spinach, Sweet Potato and Chickpea Dahl",
-            "allergies": [
-              "Mustard"
-            ]
-          },
-          {
-            "title": "Sweet Potato, Balsamic Red Onionand Parmesan Tart",
-            "allergies": [
-              "Gluten",
               "Egg",
               "Sulphites",
+              "Gluten",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Meat Feast Pizza",
+            "allergies": [
+              "Gluten",
+              "Milk",
+              "Sulphites"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "weekend": true,
+      "lunch": {
+        "mains": [
+          {
+            "title": "Full English Breakfast including Vegan Sausage",
+            "allergies": []
+          },
+          {
+            "title": "Lunch Options: Pasta, Vegetables, Green Salad",
+            "allergies": []
+          }
+        ]
+      },
+      "dinner": {
+        "mains": [
+          {
+            "title": "Vegetable, Paneer and Chickpea Curry",
+            "allergies": [
+              "Mustard",
+              "Sulphites",
+              "Celery",
               "Milk"
             ]
           },
           {
-            "title": "Salmon Fishcakes with\nSiracha Mayonnaise",
+            "title": "Hot Smoked Salmon and Baby Spinach Pasta with Spring Onions",
             "allergies": [
-              "Egg",
+              "Fish",
+              "Sulphites",
               "Gluten",
-              "Fish"
+              "Milk"
             ]
           },
           {
-            "title": "Breaded Chicken, Garlic Parsley Butter",
+            "title": "Chicken, Mushroom and Tarragon Pie",
             "allergies": [
               "Gluten",
               "Milk",
-              "Egg"
-            ]
-          },
-          {
-            "title": "Macaroni Cheese",
-            "allergies": [
-              "Gluten",
-              "Milk",
-              "Mustard"
+              "Mustard",
+              "Celery",
+              "Sulphites"
             ]
           }
         ]
@@ -2902,910 +1341,542 @@
     {
       "weekend": false,
       "lunch": {
+        "mains": []
+      },
+      "dinner": {
+        "mains": []
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": []
+      },
+      "dinner": {
+        "mains": []
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
         "mains": [
           {
-            "title": "Roast Plum Tomato Soup",
+            "title": "Chargrilled Aubergine with Spinach and Ratatouille",
             "allergies": [
-              "Celery)Mushroom&BeanChilliwithSmokedPaprikaRice(Celery"
-            ]
-          },
-          {
-            "title": "Goats Cheese, Red Onion & Spinach Tart",
-            "allergies": [
-              "Milk",
-              "Gluten",
-              "Egg"
-            ]
-          },
-          {
-            "title": "Grilled Tuna with a Nicoise Dressing",
-            "allergies": [
-              "Fish",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Beef Lasagne",
-            "allergies": [
-              "Gluten",
-              "Milk",
               "Celery",
               "Sulphites"
             ]
           },
           {
-            "title": "Pasta Carbonara with Smoked Baconand Mushroom",
+            "title": "Stuffed Peppers with Spiced Rice and Med’ Veg, Tomato Sauce and Mozzarella",
             "allergies": [
-              "Gluten",
-              "Milk",
-              "Sulphites"
-            ]
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Moroccan Spiced Vegetable",
-            "allergies": [
-              "Celery"
-            ]
-          },
-          {
-            "title": "Open Tart of Caramelised Onions, Cauliflower and Almond",
-            "allergies": [
-              "Gluten"
-            ]
-          },
-          {
-            "title": "Porcini Ravioli, Button Mushroom and Rosemary Cream Sauce",
-            "allergies": [
-              "Gluten",
-              "Egg",
-              "Milk",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Miso Roast Cod",
-            "allergies": [
-              "Soya"
-            ]
-          },
-          {
-            "title": "Cuban Mojo Pork with Orange,Garlic and Oregano"
-          },
-          {
-            "title": "Tomato, Chilli & Chorizo Pasta",
-            "allergies": [
-              "Gluten",
+              "Celery",
               "Sulphites",
               "Milk"
             ]
           },
           {
-            "title": ""
-          }
-        ]
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Courgette & Leek Soup",
+            "title": "Smoked Haddock, Cheddar and Chive Tart with Tomato Salsa",
             "allergies": [
-              "Celery)KungPoTofu&VegetableStirFrywithPeanuts(Celery",
+              "Fish",
+              "Milk",
+              "Egg",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Roast Chicken Supreme with Mushroom Sauce",
+            "allergies": [
+              "Milk",
+              "Sulphites",
+              "Soya"
+            ]
+          },
+          {
+            "title": "Vegan Meatballs In Tomato and Chilli Sauce",
+            "allergies": [
               "Soya",
+              "Gluten",
+              "Sulphites"
+            ]
+          }
+        ]
+      },
+      "dinner": {
+        "mains": [
+          {
+            "title": "Spinach & Ricotta Cannelloni with Tomato Sauce and Mozzarella",
+            "allergies": [
+              "Milk",
+              "Gluten",
+              "Sulphites",
+              "Egg"
+            ]
+          },
+          {
+            "title": "Smoked Haddock, Cheddar and Chive Tart with Tomato Salsa",
+            "allergies": [
+              "Fish",
+              "Milk",
+              "Egg",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Lamb Keema Curry with Coriander, Mini Poppadums and Mint Yogurt",
+            "allergies": [
+              "Sulphites",
+              "Mustard",
+              "Milk"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": []
+      },
+      "dinner": {
+        "mains": []
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": []
+      },
+      "dinner": {
+        "mains": []
+      }
+    },
+    {
+      "weekend": true,
+      "lunch": {
+        "mains": [
+          {
+            "title": "Full English Breakfast including Vegan Sausage",
+            "allergies": []
+          },
+          {
+            "title": "Lunch Options: Pasta, Vegetables, Green Salad",
+            "allergies": []
+          }
+        ]
+      },
+      "dinner": {
+        "mains": []
+      }
+    },
+    {
+      "weekend": true,
+      "lunch": {
+        "mains": [
+          {
+            "title": "Full English Breakfast including Vegan Sausage",
+            "allergies": []
+          },
+          {
+            "title": "Lunch Options: Pasta, Vegetables, Green Salad",
+            "allergies": []
+          }
+        ]
+      },
+      "dinner": {
+        "mains": []
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": []
+      },
+      "dinner": {
+        "mains": []
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": []
+      },
+      "dinner": {
+        "mains": []
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          {
+            "title": "Harissa Roasted Cauliflower and Squash, Wilted Spinach with Pickled Red Onions and Coconut Yoghurt",
+            "allergies": [
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Red Pepper and Goats’ Cheese Arancini, Spiced Tomato Sauce",
+            "allergies": [
+              "Celery",
+              "Gluten",
+              "Egg",
+              "Milk",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Fish Pie",
+            "allergies": [
+              "Fish",
+              "Celery",
+              "Crustacean",
+              "Milk",
+              "Mustard",
+              "Gluten",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Crispy Sticky Beef and Vegetable Stir Fry",
+            "allergies": [
+              "Sesame",
+              "Sulphites",
+              "Soya"
+            ]
+          }
+        ]
+      },
+      "dinner": {
+        "mains": [
+          {
+            "title": "Sundried Tomato, Olive and Red Onion Pizza",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Fish Pie",
+            "allergies": [
+              "Fish",
+              "Celery",
+              "Crustacean",
+              "Milk",
+              "Mustard",
+              "Gluten",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Thai Green Chicken Curry with Coriander and Spring Onions",
+            "allergies": [
+              "Soya"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": []
+      },
+      "dinner": {
+        "mains": []
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": []
+      },
+      "dinner": {
+        "mains": []
+      }
+    },
+    {
+      "weekend": true,
+      "lunch": {
+        "mains": [
+          {
+            "title": "Full English Breakfast including Vegan Sausage",
+            "allergies": []
+          },
+          {
+            "title": "Lunch Options: Pasta, Vegetables, Green Salad",
+            "allergies": []
+          }
+        ]
+      },
+      "dinner": {
+        "mains": []
+      }
+    },
+    {
+      "weekend": true,
+      "lunch": {
+        "mains": [
+          {
+            "title": "Full English Breakfast including Vegan Sausage",
+            "allergies": []
+          },
+          {
+            "title": "Lunch Options: Pasta, Vegetables, Green Salad",
+            "allergies": []
+          }
+        ]
+      },
+      "dinner": {
+        "mains": []
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          {
+            "title": "Roasted Tomato and Red Pepper Soup",
+            "allergies": [
+              "Celery",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Butternut Squash Stuffed with Spiced Black Beans, Rice and Sweetcorn",
+            "allergies": [
+              "Celery",
+              "Sulphites Mustard"
+            ]
+          },
+          {
+            "title": "Crispy Polenta Cakes, Roasted Red Peppers and Tomato Sauce",
+            "allergies": [
+              "Milk",
+              "Sulphites",
+              "Celery"
+            ]
+          },
+          {
+            "title": "Smoked Salmon and Cheddar Tart with Shallot and Dill Dressing",
+            "allergies": [
+              "Milk",
+              "Fish",
+              "Egg",
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Beef Bourguignon",
+            "allergies": [
+              "Celery",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Macaroni Cheese, Crispy Onions and Chives",
+            "allergies": [
+              "Milk",
+              "Gluten",
+              "Mustard"
+            ]
+          }
+        ]
+      },
+      "dinner": {
+        "mains": [
+          {
+            "title": "Chargrilled Aubergine, Ratatouille Of Vegetables, Mozzarella and Toasted Seeds",
+            "allergies": [
+              "Sesame",
+              "Sulphites",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Smoked Salmon and Cheddar Tart with Shallot and Dill Dressing",
+            "allergies": [
+              "Milk",
+              "Fish",
+              "Egg",
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Chargrilled Chicken Burger, with Harissa Mayonnaise",
+            "allergies": [
+              "Mustard",
+              "Gluten",
+              "Egg",
+              "Milk"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          {
+            "title": "Celeriac and Thyme Soup",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Vegetable and Crispy Quorn Sweet and Sour",
+            "allergies": [
+              "Celery",
+              "Soya"
+            ]
+          },
+          {
+            "title": "Butternut Squash, Chilli and Feta Pie",
+            "allergies": [
+              "Gluten",
+              "Milk",
+              "Celery"
+            ]
+          },
+          {
+            "title": "Seabass Fillet with Roasted Red Onion, Cherry Tomatoes and Pesto",
+            "allergies": [
+              "Fish",
+              "Milk",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Honey and Mustard Glazed Pork Loin Steak and Gravy",
+            "allergies": [
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Roasted Tomato and Red Pepper with Feta",
+            "allergies": [
+              "Sulphites",
+              "Gluten",
+              "Milk"
+            ]
+          }
+        ]
+      },
+      "dinner": {
+        "mains": [
+          {
+            "title": "Mac and Cheese Topped with Vegetable Chilli, Crispy Onions and Coriander",
+            "allergies": [
+              "Gluten",
+              "Milk",
+              "Mustard",
+              "Celery",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Seabass Fillet with Roasted Red Onion, Cherry Tomatoes and Pesto",
+            "allergies": [
+              "Fish",
+              "Milk",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Beef Meatballs, with Tomato and Basil Sauce, Parmesan",
+            "allergies": [
+              "Celery",
+              "Sulphites",
+              "Milk",
+              "Gluten"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          {
+            "title": "Pea and Mint Soup",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Root Vegetable and Lentil Wellington with Gravy",
+            "allergies": [
+              "Gluten",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Crispy Halloumi, Stir Fried Vegetables and Sweet Chilli Dressing",
+            "allergies": [
+              "Milk",
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Roasted Cod with Spinach, Wholegrain Mustard Cream Sauce",
+            "allergies": [
+              "Fish",
+              "Milk",
+              "Mustard",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Hunters Chicken",
+            "allergies": [
+              "Sulphites",
+              "Milk",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Basil Pesto, Cherry Tomato and Cheese",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          }
+        ]
+      },
+      "dinner": {
+        "mains": [
+          {
+            "title": "Chickpea Tagine with Toasted Almonds",
+            "allergies": [
+              "Celery",
+              "Sulphites",
               "Nuts"
             ]
           },
           {
-            "title": "Sun Dried Tomato Gnocchi with Roasted Red Peppers, Parmesan and Crispy Onions",
+            "title": "Piquillo Pepper and Blue Cheese Quiche, Olive and Herb Dressing",
             "allergies": [
-              "Gluten",
-              "Milk"
-            ]
-          },
-          {
-            "title": "Roasted Salmon with A Sesame and\nHoney Soy Sauce",
-            "allergies": [
-              "Fish",
-              "Soya",
+              "Milk",
               "Sulphites",
-              "Sesame"
-            ]
-          },
-          {
-            "title": "Coconut and Turmeric\nChicken Thighs with Coriander and Ginger"
-          },
-          {
-            "title": "Tomato and Mascarpone with\nRed Chilli and Aubergine",
-            "allergies": [
-              "Gluten",
-              "Milk"
-            ]
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Warm Onion Bhaji Wrap with Madras Spiced Peppers, Mint Mayo, Mango Chutney",
-            "allergies": [
-              "Gluten"
-            ]
-          },
-          {
-            "title": "Paneer Jalfrezi, Peppers, Ginger, Chillis, Tomatoes, Poppadum",
-            "allergies": [
-              "Milk",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Roasted Salmon with A Sesame and Honey Soy Sauce ",
-            "allergies": [
-              "Fish",
-              "Soya",
-              "Sulphites",
-              "Sesame"
-            ]
-          },
-          {
-            "title": "Braised Pork Belly, Cannellini Bean & Mixed Peppers In A Light Tomato & Herb Sauce."
-          }
-        ]
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Sweetcorn & Ginger Soup",
-            "allergies": [
-              "Celery)VegetableJalfreziwithNaanBread(Gluten",
-              "Mustard"
-            ]
-          },
-          {
-            "title": "Spinach & Ricotta Tortellini, Chive Cream Sauce",
-            "allergies": [
-              "Gluten",
-              "Milk",
-              "Egg",
-              "Celery",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Tikka Masala Coley with Cucumber Salsa",
-            "allergies": [
-              "Fish"
-            ]
-          },
-          {
-            "title": "Lamb Jalfrezi with Naan Bread",
-            "allergies": [
-              "Gluten",
-              "Mustard"
-            ]
-          },
-          {
-            "title": "Pulled Chicken, Basil Pesto Cream, Mozzarella Gratin",
-            "allergies": [
-              "Gluten",
-              "Milk"
-            ]
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Vegan Quorn, Edamame Bean, Broccoli, Red Pepper Ginger Soy & Mint Stir Fry",
-            "allergies": [
-              "Soya"
-            ]
-          },
-          {
-            "title": "Spinach & Ricotta Ravioli in A Tomato, Basil and Parmesan Sauce",
-            "allergies": [
-              "Gluten",
-              "Egg",
-              "Milk"
-            ]
-          },
-          {
-            "title": "Tikka Masala Coley with Cucumber Salsa",
-            "allergies": [
-              "Fish"
-            ]
-          },
-          {
-            "title": "Chicken Parmigiana ",
-            "allergies": [
-              "Gluten",
-              "Egg",
-              "Milk"
-            ]
-          },
-          {
-            "title": ""
-          }
-        ]
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Pea & Mint Soup",
-            "allergies": [
-              "Celery)QuornFilletwithSummerVegetablesCreamSauce(Soya",
-              "Mustard",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Vegetable Lasagne with Parmesanand Mozzarella",
-            "allergies": [
-              "Gluten",
-              "Milk",
-              "Mustard"
-            ]
-          },
-          {
-            "title": "Baked Seabass, Herb Dressing",
-            "allergies": [
-              "Fish"
-            ]
-          },
-          {
-            "title": "Hoisin Pork Steaks with Crunchy Slaw",
-            "allergies": [
-              "Soya",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Balsamic Roasted Vegetable and Tomato",
-            "allergies": [
-              "Gluten"
-            ]
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "THEME NIGHT: Flatbread Friday"
-          }
-        ]
-      }
-    },
-    {
-      "weekend": true,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Full English Breakfast (including Vegan Sausage option)"
-          },
-          {
-            "title": "Lunch Options: Pasta, Vegetables, Green Salad"
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Vegan Kofta Kebab Flatbread, Tomato Chutney, Pickled Red Onion & Fresh Coriander",
-            "allergies": [
-              "Gluten",
-              "Soya",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Vegetable Samosa, Cardamom Rice & Peas, Spiced Vegetable Slaw",
-            "allergies": [
-              "Gluten",
-              "Soya",
-              ""
-            ]
-          },
-          {
-            "title": "Battered Fish & Chips\nLemon & Tartar Sauce",
-            "allergies": [
-              "Fish",
-              "Gluten",
-              "Egg",
-              "Mustard",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Carolina BBQ Pulled Pork, Traditional Coleslaw and Crispy Onions",
-            "allergies": [
-              "Mustard",
-              "Sulphites",
-              "Gluten"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "weekend": true,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Full English Breakfast (including Vegan Sausage option)"
-          },
-          {
-            "title": "Lunch Options: Pasta, Vegetables, Green Salad"
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Chickpea & Spinach Curry Jacket Potato, Red Onion, Lime, Coriander Salad & Poppadum"
-          },
-          {
-            "title": "Herb & Garlic Roast Quorn Fillets, Sage Stuffing, Vegetable Gravy, Yorkshire Pudding",
-            "allergies": [
-              "Gluten",
-              "Milk",
-              "Egg"
-            ]
-          },
-          {
-            "title": "Roast Turkey Breast Maple BBQ Glaze, Sage & Onion Stuffing, Gravy & Yorkshire Pudding",
-            "allergies": [
-              "Gluten",
-              "Egg",
-              "Milk"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Spiced Pepper & Tomato Soup",
-            "allergies": [
-              "Celery)Spinach",
-              "SweetPotatoandChickpeaDahl(Mustard"
-            ]
-          },
-          {
-            "title": "Butternut Squash, Balsamic Red Onion and Parmesan Tart",
-            "allergies": [
-              "Gluten",
-              "Egg",
-              "Sulphites",
-              "Milk"
-            ]
-          },
-          {
-            "title": "Roast Cod with Miso Dressing",
-            "allergies": [
-              "Fish",
-              "Soya"
-            ]
-          },
-          {
-            "title": "Breaded Chicken, Garlic Parsley Butter",
-            "allergies": [
-              "Gluten",
-              "Milk",
-              "Egg"
-            ]
-          },
-          {
-            "title": "Macaroni Cheese",
-            "allergies": [
-              "Gluten",
-              "Milk",
-              "Mustard"
-            ]
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Moving Mountain Burger, Spicy Mayo, Onion Rings, Bread & Butter Pickles",
-            "allergies": [
-              "Gluten",
-              "Soya",
-              "Sulphites",
-              "Mustard",
-              ""
-            ]
-          },
-          {
-            "title": "Mixed Mushroom, Pak Choi & Vegetable Stir Fry, Teriyaki Black Bean Sauce",
-            "allergies": [
-              "Soya",
-              "Gluten"
-            ]
-          },
-          {
-            "title": "Roast Cod with Miso Dressing",
-            "allergies": [
-              "Fish",
-              "Soya"
-            ]
-          },
-          {
-            "title": "Grilled Hot Dog, Sauteed Onions, Peppers & Cheddar Cheese Sauce, Crispy Capers",
-            "allergies": [
-              "Gluten",
-              "Milk"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Watercress & Rocket Soup",
-            "allergies": [
-              "Celery)RoastedSpicedCauliflower&ButterbeanGratinwithCaramelisedOnions(Mustard"
-            ]
-          },
-          {
-            "title": "Porcini Ravioli, Minestrone Sauce",
-            "allergies": [
-              "Gluten",
-              "Egg",
-              "Milk",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Salmon Fishcakes With\nSiracha Mayonnaise",
-            "allergies": [
-              "Egg",
-              "Gluten",
-              "Fish"
-            ]
-          },
-          {
-            "title": "Cuban Mojo Pork with Orange,Garlic And Oregano"
-          },
-          {
-            "title": "Tomato, Chilli & Chorizo",
-            "allergies": [
-              "Gluten",
-              "Sulphites",
-              "Milk"
-            ]
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Crispy Cajun Fried Tofu, Red Cabbage, Carrot & Tomato Salad with Maple Mustard Dressing ",
-            "allergies": [
-              "Soya",
-              "Mustard"
-            ]
-          },
-          {
-            "title": "Halloumi, Basil & Butterbean Puree, Mixed Olive Flatbread, Rocket & Tomato Salad, Balsamic Dressing",
-            "allergies": [
-              "Milk",
-              "Gluten",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Salmon Fishcakes With\nSiracha Mayonnaise",
-            "allergies": [
-              "Egg",
-              "Gluten",
-              "Fish"
-            ]
-          },
-          {
-            "title": "Garlic, Lime & Smoked Paprika Baked Chicken Thighs, Hot Honey Dressing,Carrot & Coriander Slaw",
-            "allergies": [
-              "Sulphites"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Summer Bean & Bulgar Wheat  Soup",
-            "allergies": [
-              "Celery",
-              "Gluten)CajunVegetable&BeanFlatbreadRedOnions",
-              "Chilli&Coriander(Gluten",
-              "Soya"
-            ]
-          },
-          {
-            "title": "Grilled Halloumi with Lentils, Chickpeas & Beetroot, Sumac & Honey Dressing",
-            "allergies": [
-              "Milk",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Steamed Hake in Tomato, Chilli & Ginger Broth(Fish, Soya"
-          },
-          {
-            "title": "Turkey, Leek and Sage Pie",
-            "allergies": [
-              "Gluten",
-              "Milk",
-              "Mustard",
-              "Celery",
-              "Sulphites",
-              "Egg"
-            ]
-          },
-          {
-            "title": "Classic Arrabiata with Parmesan",
-            "allergies": [
-              "Gluten",
-              "Milk"
-            ]
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Vegan Meatball Sub, Rich Tomato Basil Sauce, Vegan Mozzarella",
-            "allergies": [
-              "Celery",
-              "Gluten",
-              "Soya"
-            ]
-          },
-          {
-            "title": "Grilled Vegetable Ravioli, Spicy Tomato, Pepper & Chilli Sauce\nParmesan Cheese",
-            "allergies": [
-              "Egg",
-              "Milk",
-              "Gluten"
-            ]
-          },
-          {
-            "title": "Steamed Hake in Tomato, Chilli & Ginger Broth",
-            "allergies": [
-              "Fish",
-              "Soya"
-            ]
-          },
-          {
-            "title": "Spiced Lamb Samosa,Pickled Red Onion & Coriander, Hot Honey Drizzle",
-            "allergies": [
-              "Gluten",
-              "Sulphites"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Carrot & Lentil   Soup",
-            "allergies": [
-              "Celery"
-            ]
-          },
-          {
-            "title": "Rice Noodle and Vegetable Stir-Fry,Miso Broth",
-            "allergies": [
-              "Soya"
-            ]
-          },
-          {
-            "title": "Vegetable Gumbo with Okra & Fried Onion Rice"
-          },
-          {
-            "title": "Smoked Haddock and Prawn Quiche",
-            "allergies": [
-              "Gluten",
-              "Egg",
-              "Milk",
-              "Fish",
-              "Crustacean"
-            ]
-          },
-          {
-            "title": "Harissa Honey Chicken",
-            "allergies": [
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Pulled Chicken, Basil Pesto Cream, Mozzarella Gratin",
-            "allergies": [
-              "Gluten",
-              "Milk"
-            ]
-          },
-          {
-            "title": "Cheese and Bacon Pasta ",
-            "allergies": [
-              "Gluten",
-              "Milk"
-            ]
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Vegan Schnitzel Burger, Mustard Slaw Spicy Mayo\nPretzel Bun",
-            "allergies": [
-              "Gluten",
-              "Mustard",
-              "Soya",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Quorn & Vegetable Stir Fry\nRice Noodles, Spring Rolls",
-            "allergies": [
-              "Gluten",
-              "Soya"
-            ]
-          },
-          {
-            "title": "Smoked Haddock and Prawn Quiche",
-            "allergies": [
-              "Gluten",
-              "Egg",
-              "Milk",
-              "Fish",
-              "Crustacean"
-            ]
-          },
-          {
-            "title": "Grilled Chicken Burger, Smoked Steaky Bacon, Burger Cheese, Honey Mustard Sauce, Gherkins(Gluten, Egg, Mustard, Sulphites"
-          }
-        ]
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Broccoli & Pea  Soup",
-            "allergies": [
-              "Celery)RedPepper&CourgettePaella(Celery"
-            ]
-          },
-          {
-            "title": "Spinach & Feta Filo with Hot Honey Dressing",
-            "allergies": [
-              "Milk",
-              "Gluten"
-            ]
-          },
-          {
-            "title": "Grilled Salmon with Oyster Sauce, Chilli & Spring Onion",
-            "allergies": [
-              "Fish",
-              "Celery",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Pork Belly and Chorizo Cassoulet",
-            "allergies": [
-              "Celery",
-              "Gluten",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Penne With a Garlic Mushroom Cream",
-            "allergies": [
-              "Gluten",
-              "Milk",
-              "Sulphites"
-            ]
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "THEME NIGHT: America North and South States "
-          }
-        ]
-      }
-    },
-    {
-      "weekend": true,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Full English Breakfast (including Vegan Sausage option)"
-          },
-          {
-            "title": "Lunch Options: Pasta, Vegetables, Green Salad"
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Vegan Hot Dog Sauteed Peppers, Onions, Fennel Seeds & Chilli Flakes, Tomato Mayo Crispy Onions",
-            "allergies": [
-              "Gluten",
-              "Soy",
-              "Mustard",
-              "Celery"
-            ]
-          },
-          {
-            "title": "Aubergine Parmigiana\nTomato Sauce, Parmesan Cheese ",
-            "allergies": [
-              "Gluten",
-              "Egg",
-              "Milk"
-            ]
-          },
-          {
-            "title": "Battered Fish & Chips\nLemon & Tartar Sauce",
-            "allergies": [
-              "Fish",
-              "Gluten",
-              "Egg",
-              "Mustard",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Bao Buns With Hoisin Chicken & Vegetable Slaw, Fresh Coriander",
-            "allergies": [
-              "Gluten",
-              "Soya"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "weekend": true,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Full English Breakfast (including Vegan Sausage option)"
-          },
-          {
-            "title": "Lunch Options: Pasta, Vegetables, Green Salad"
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Seared Smoked Tofu, Harissa Spiced Vegetables, Pickled Red Onions, Raisins & Cashews",
-            "allergies": [
-              "Soya",
-              "Nuts",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Vegetable & Red Lentil Moussaka",
-            "allergies": [
-              "Milk",
-              "Egg"
-            ]
-          },
-          {
-            "title": "Roast Pork Loin, Apple Sauce, Gravy & Yorkshire Pudding",
-            "allergies": [
-              "Celery",
-              "Gluten",
-              "Egg",
-              "Milk"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Mexican Charred Sweetcorn Soup",
-            "allergies": [
-              "Celery)VegetableAndBeanChilliWithCorianderandSpringOnions(Sulphites"
-            ]
-          },
-          {
-            "title": "Gnocchi With Courgette, Peas Mascarpone & Spring Onions",
-            "allergies": [
-              "Gluten",
-              "Milk"
-            ]
-          },
-          {
-            "title": "Baked Cod with Roasted Red Pepper Coulis & Lemon Salt",
-            "allergies": [
-              "Fish",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Southern Fried Turkey Escalope, Smoked Paprika and Herb Butter",
-            "allergies": [
-              "Milk",
               "Gluten",
               "Egg"
             ]
           },
           {
-            "title": "Classic Puttanesca",
+            "title": "Roasted Cod with Spinach, Wholegrain Mustard Cream Sauce",
             "allergies": [
-              "Gluten",
               "Fish",
-              "Sulphites"
-            ]
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Red Pepper Hummus & Roasted Vegetable Flatbread, Lemon Sriracha Mayo, Crispy Onions",
-            "allergies": [
+              "Milk",
               "Mustard",
-              "Gluten"
-            ]
-          },
-          {
-            "title": "Tofu Katsu Curry, Egg & Onion Fried Rice, Spring Onion & Chilli",
-            "allergies": [
-              "Egg",
-              "Gluten"
-            ]
-          },
-          {
-            "title": "Baked Cod with Roasted Red Pepper Coulis & Lemon Salt",
-            "allergies": [
-              "Fish",
               "Sulphites"
             ]
           },
           {
-            "title": "Lamb & Feta Burger, Garlic & Herb Mayo Pickled Red Onion, Tomato & Olive",
+            "title": "BBQ Pulled Pork, Pickled Red Onions",
             "allergies": [
-              "Sulphites",
-              "Gluten",
-              "Milk"
+              "Sulphites"
             ]
           }
         ]
@@ -3816,213 +1887,50 @@
       "lunch": {
         "mains": [
           {
-            "title": "Vegetable & Bean Miso Broth Soup",
-            "allergies": [
-              "Celery",
-              "Soya)VeganMeatballs",
-              "TomatoandButtonMushroomSauce(Soya"
-            ]
-          },
-          {
-            "title": "Mushroom, Spinach and Lentil Filo Pie ",
-            "allergies": [
-              "Gluten",
-              "Milk",
-              "Mustard",
-              "Celery"
-            ]
-          },
-          {
-            "title": "Breaded Plaice with A Lemon Salsa Verde ",
-            "allergies": [
-              "Fish",
-              "Egg",
-              "Gluten"
-            ]
-          },
-          {
-            "title": "Maple Glazed Roast Gammon",
-            "allergies": [
-              "Mustard",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Beef Ragu, Tomato and Oregano Sauce",
-            "allergies": [
-              "Gluten",
-              "Celery",
-              "Sulphites"
-            ]
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Courgette, Butterbean, Cherry Tomato & Green Bean In A Light Tomato Sauce, Spiced Seeds,",
+            "title": "Mushroom and Tarragon Soup",
             "allergies": [
               "Celery"
             ]
           },
           {
-            "title": "Cajun Mushroom, Halloumi & Hummus Burger, Tomato, Onion, Cucumber & Mint Salsa, Brioche Bun",
-            "allergies": [
-              "Gluten",
-              "Egg",
-              "Milk",
-              "Soya"
-            ]
-          },
-          {
-            "title": "Breaded Plaice with A Lemon Salsa Verde",
-            "allergies": [
-              "Fish",
-              "Egg",
-              "Gluten"
-            ]
-          },
-          {
-            "title": "Ginger Soy Chicken Skewer,Spiced Onion Rice, Asian Slaw",
-            "allergies": [
-              "Soy"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Roast Plum Tomato Soup",
-            "allergies": [
-              "Celery",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Jackfruit & Sweet Potato Thai Curry",
-            "allergies": [
-              "Nuts",
-              "Soya"
-            ]
-          },
-          {
-            "title": "Tortelloni Formaggio With Red Pesto, Cherry Tomato & Olives",
-            "allergies": [
-              "Gluten",
-              "Egg",
-              "Milk",
-              "Mustard"
-            ]
-          },
-          {
-            "title": "Thai Fish Cakes with Stir Fry Vegetables & Sweet Chilli Sauce ",
-            "allergies": [
-              "Gluten",
-              "Soya",
-              "Fish",
-              "Sesame"
-            ]
-          },
-          {
-            "title": "Diced Beef Chilli with Beans, Cumin and Coriander",
-            "allergies": [
-              "Celery",
-              "Sulphites"
-            ]
-          },
-          {
-            "title": "Ratatouille, Basil, Parmesan Pasta",
-            "allergies": [
-              "Gluten",
-              "Milk"
-            ]
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Thia Tofu Burger, Carrot & Cucumber Ribbons, Sweet & Sour, Spicy Soy Dressing",
-            "allergies": [
-              "Soya",
-              "Gluten",
-              "Mustard"
-            ]
-          },
-          {
-            "title": "Butternut Squash, Chickpea, Cauliflower Coconut Miso Curry, Boiled Egg, Chilli Coriander & Spring Onion",
-            "allergies": [
-              "Egg",
-              "Soya"
-            ]
-          },
-          {
-            "title": "Thai Fish Cakes with Stir Fry Vegetables & Sweet Chilli Sauce",
-            "allergies": [
-              "Gluten",
-              "Soya",
-              "Fish",
-              "Sesame"
-            ]
-          },
-          {
-            "title": "Grilled Pork Loin Steak,Pineapple Salsa",
-            "allergies": [
-              "Sulphites"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "weekend": false,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Roast Sweet Potato  Soup",
+            "title": "Vegetable and Chickpea Madras",
             "allergies": [
               "Celery",
               "Mustard"
             ]
           },
           {
-            "title": "Salt & Pepper Tofu on Stir Fried Vegetables with Spring Rolls  ",
+            "title": "Wild Mushroom Arancini Tomato Sauce",
             "allergies": [
-              "Celery"
+              "Milk",
+              "Sulphites",
+              "Celery",
+              "Egg",
+              "Gluten"
             ]
           },
           {
-            "title": "Aubergine & Potato Moussaka ",
-            "allergies": [
-              "Gluten",
-              "Milk"
-            ]
-          },
-          {
-            "title": "Baked Seabass Fillet With A Red Pepper Salsa",
+            "title": "Chargrilled Tuna Steak, with Caper, Red Onion and Chive Dressing",
             "allergies": [
               "Fish",
               "Sulphites"
             ]
           },
           {
-            "title": "Toad In the Hole with Red Onion Gravy",
+            "title": "Chorizo and Cheddar Quiche, Tomato and Herb Dressing",
             "allergies": [
               "Gluten",
-              "Celery",
+              "Egg",
+              "Milk",
               "Sulphites"
             ]
           },
           {
-            "title": "Sausage, Fennel Seed, Chilli and Smoked Cheddar",
+            "title": "Tomato and Olive Pasta",
             "allergies": [
-              "Gluten",
-              "Milk",
-              "Sulphites"
+              "Celery",
+              "Sulphites",
+              "Gluten"
             ]
           }
         ]
@@ -4030,33 +1938,33 @@
       "dinner": {
         "mains": [
           {
-            "title": "Mac \u201cN\u201d Cheese, Sweet Potato Gratin with Buffalo Breadcrumbs",
+            "title": "Crispy Fried Tofu",
             "allergies": [
-              "Gluten"
+              "Gluten",
+              "Sulphites",
+              "Soya"
             ]
           },
           {
-            "title": "Spiced Bean & Tortilla Lasagne, Cheddar & Jalapenos",
+            "title": "Grilled Halloumi with a Bean and Tomato Casserole, Chilli Dressing",
             "allergies": [
-              "Gluten",
               "Milk",
               "Sulphites"
             ]
           },
           {
-            "title": "Baked Seabass Fillet With\nA Red Pepper Salsa",
+            "title": "Chargrilled Tuna Steak, with Caper, Red Onion and Chive Dressing",
             "allergies": [
               "Fish",
               "Sulphites"
             ]
           },
           {
-            "title": "Buttermilk Fried Chicken Burger, Cajun Mayo, Jalapenos, Red Onion &A Brioche Bun",
+            "title": "Chicken, Chorizo and Bean Casserole",
             "allergies": [
-              "Egg",
-              "Milk",
+              "Celery",
               "Sulphites",
-              "Gluten"
+              "Milk"
             ]
           }
         ]
@@ -4067,94 +1975,77 @@
       "lunch": {
         "mains": [
           {
-            "title": "Carrot & Coriander Soup",
+            "title": "Curried Parsnip and Coconut Soup",
             "allergies": [
-              "Celery)TurmericRoastedCauliflowerFlatBreadwithHummus",
-              "Rocket",
-              "PomegranateandMint(Gluten"
+              "Celery"
             ]
           },
           {
-            "title": "Sweet Potato, Caramelised Onion,Red Pepper and Feta Frittata",
-            "allergies": [
-              "Egg",
-              "Milk"
-            ]
-          },
-          {
-            "title": "Lemon And Lime Grilled Mackerel",
-            "allergies": [
-              "Fish"
-            ]
-          },
-          {
-            "title": "Chicken Tikka Masala",
-            "allergies": [
-              "Mustard",
-              "Milk"
-            ]
-          },
-          {
-            "title": "Spinach, Feta and Black Olive",
+            "title": "Red Onion, Artichoke and Cherry Tomato Tart Fine",
             "allergies": [
               "Gluten",
-              "Sulphites",
-              "Milk"
-            ]
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "THEME NIGHT: Summer BBQ Night"
-          }
-        ]
-      }
-    },
-    {
-      "weekend": true,
-      "lunch": {
-        "mains": [
-          {
-            "title": "Full English Breakfast (including Vegan Sausage option)"
-          },
-          {
-            "title": "Lunch Options: Pasta, Vegetables, Green Salad"
-          }
-        ]
-      },
-      "dinner": {
-        "mains": [
-          {
-            "title": "Smoky BBQ Vegetable Stir Fry, Crispy Tofu, Sweetcorn Relish",
-            "allergies": [
-              "Mustard",
-              "Soya"
-            ]
-          },
-          {
-            "title": "Roasted Broccoli & Feta Flatbread, Beetroot Hummus, Chickpeas, Pomegranate Seeds, Crispy Onions",
-            "allergies": [
-              "Gluten",
-              "Milk"
-            ]
-          },
-          {
-            "title": "Battered Fish & Chips\nLemon & Tartar Sauce",
-            "allergies": [
-              "Fish",
-              "Gluten",
-              "Egg",
-              "Mustard",
               "Sulphites"
             ]
           },
           {
-            "title": "Slow Cooked Beef Ragu, Garlic Bread & Parmesan Cheese",
+            "title": "Roasted Pepper, Onion and Cheddar Quiche, Tomato and Herb Dressing",
+            "allergies": [
+              "Gluten",
+              "Egg",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Sweet Chilli Salmon Supreme with Spring Onion and Tomato Salsa",
+            "allergies": [
+              "Fish",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Chilli Con Carne",
             "allergies": [
               "Celery",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Chicken and Pancetta Cream Sauce",
+            "allergies": [
+              "Milk",
               "Gluten",
+              "Sulphites"
+            ]
+          }
+        ]
+      },
+      "dinner": {
+        "mains": [
+          {
+            "title": "THEME NIGHT- starting from January 23rd, 2026 Curry Spiced Cauliflower, Chickpeas, Cucumber Raita, Pickled Red Cabbage",
+            "allergies": [
+              "Sulphites",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Spiced Potato Wedges with A Mixed Bean Chilli, Sour Cream and Spring Onions",
+            "allergies": [
+              "Celery",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Sweet Chilli Salmon Supreme with Spring Onion and Tomato Salsa",
+            "allergies": [
+              "Fish",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Shepherd’s Pie",
+            "allergies": [
+              "Celery",
               "Milk"
             ]
           }
@@ -4166,36 +2057,811 @@
       "lunch": {
         "mains": [
           {
-            "title": "Full English Breakfast (including Vegan Sausage option)"
+            "title": "Full English Breakfast including Vegan Sausage",
+            "allergies": []
           },
           {
-            "title": "Lunch Options: Pasta, Vegetables, Green Salad"
+            "title": "Lunch Options: Pasta, Vegetables, Green Salad",
+            "allergies": []
           }
         ]
       },
       "dinner": {
         "mains": [
           {
-            "title": "Grilled Aubergine Steak, Miso Sweet Potato Mash, Toasted Pumpkin Seeds, Fresh Ginger, Spring Onion, Chilli & Coriander",
+            "title": "Roasted Butternut Squash, Red Chilli Couscous, Herb Dressing",
             "allergies": [
-              "Soya"
+              "Gluten",
+              "Sulphites"
             ]
           },
           {
-            "title": "Spinach & Ricotta Cannelloni Tomato and Aubergine Sauce\nParmesan Cheese",
+            "title": "Spinach and Ricotta Ravioli, Mushroom Cream Sauce, Parmesan",
             "allergies": [
-              "Gluten",
               "Milk",
+              "Mustard",
+              "Sulphites",
+              "Gluten",
               "Egg"
             ]
           },
           {
-            "title": "Herb Roasted Chicken With Stuffing, Gravy & Yorkshire Pudding",
+            "title": "Battered Fish, Lemon and Tartare Sauce",
+            "allergies": [
+              "Fish",
+              "Egg",
+              "Sulphites",
+              "Gluten",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Meat Feast Pizza",
             "allergies": [
               "Gluten",
               "Milk",
+              "Sulphites"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "weekend": true,
+      "lunch": {
+        "mains": [
+          {
+            "title": "Full English Breakfast including Vegan Sausage",
+            "allergies": []
+          },
+          {
+            "title": "Lunch Options: Pasta, Vegetables, Green Salad",
+            "allergies": []
+          }
+        ]
+      },
+      "dinner": {
+        "mains": [
+          {
+            "title": "Vegetable, Paneer and Chickpea Curry",
+            "allergies": [
+              "Mustard",
+              "Sulphites",
+              "Celery",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Hot Smoked Salmon and Baby Spinach Pasta with Spring Onions",
+            "allergies": [
+              "Fish",
+              "Sulphites",
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Chicken, Mushroom and Tarragon Pie",
+            "allergies": [
+              "Gluten",
+              "Milk",
+              "Mustard",
+              "Celery",
+              "Sulphites"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": []
+      },
+      "dinner": {
+        "mains": []
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": []
+      },
+      "dinner": {
+        "mains": []
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          {
+            "title": "Chargrilled Aubergine with Spinach and Ratatouille",
+            "allergies": [
+              "Celery",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Stuffed Peppers with Spiced Rice and Med’ Veg, Tomato Sauce and Mozzarella",
+            "allergies": [
+              "Celery",
+              "Sulphites",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Smoked Haddock, Cheddar and Chive Tart with Tomato Salsa",
+            "allergies": [
+              "Fish",
+              "Milk",
               "Egg",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Roast Chicken Supreme with Mushroom Sauce",
+            "allergies": [
+              "Milk",
+              "Sulphites",
+              "Soya"
+            ]
+          },
+          {
+            "title": "Vegan Meatballs In Tomato and Chilli Sauce",
+            "allergies": [
+              "Soya",
+              "Gluten",
+              "Sulphites"
+            ]
+          }
+        ]
+      },
+      "dinner": {
+        "mains": [
+          {
+            "title": "Spinach & Ricotta Cannelloni with Tomato Sauce and Mozzarella",
+            "allergies": [
+              "Milk",
+              "Gluten",
+              "Sulphites",
+              "Egg"
+            ]
+          },
+          {
+            "title": "Smoked Haddock, Cheddar and Chive Tart with Tomato Salsa",
+            "allergies": [
+              "Fish",
+              "Milk",
+              "Egg",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Lamb Keema Curry with Coriander, Mini Poppadums and Mint Yogurt",
+            "allergies": [
+              "Sulphites",
+              "Mustard",
+              "Milk"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": []
+      },
+      "dinner": {
+        "mains": []
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": []
+      },
+      "dinner": {
+        "mains": []
+      }
+    },
+    {
+      "weekend": true,
+      "lunch": {
+        "mains": [
+          {
+            "title": "Full English Breakfast including Vegan Sausage",
+            "allergies": []
+          },
+          {
+            "title": "Lunch Options: Pasta, Vegetables, Green Salad",
+            "allergies": []
+          }
+        ]
+      },
+      "dinner": {
+        "mains": []
+      }
+    },
+    {
+      "weekend": true,
+      "lunch": {
+        "mains": [
+          {
+            "title": "Full English Breakfast including Vegan Sausage",
+            "allergies": []
+          },
+          {
+            "title": "Lunch Options: Pasta, Vegetables, Green Salad",
+            "allergies": []
+          }
+        ]
+      },
+      "dinner": {
+        "mains": []
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": []
+      },
+      "dinner": {
+        "mains": []
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": []
+      },
+      "dinner": {
+        "mains": []
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          {
+            "title": "Harissa Roasted Cauliflower and Squash, Wilted Spinach with Pickled Red Onions and Coconut Yoghurt",
+            "allergies": [
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Red Pepper and Goats’ Cheese Arancini, Spiced Tomato Sauce",
+            "allergies": [
+              "Celery",
+              "Gluten",
+              "Egg",
+              "Milk",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Fish Pie",
+            "allergies": [
+              "Fish",
+              "Celery",
+              "Crustacean",
+              "Milk",
+              "Mustard",
+              "Gluten",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Crispy Sticky Beef and Vegetable Stir Fry",
+            "allergies": [
+              "Sesame",
+              "Sulphites",
+              "Soya"
+            ]
+          }
+        ]
+      },
+      "dinner": {
+        "mains": [
+          {
+            "title": "Sundried Tomato, Olive and Red Onion Pizza",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Fish Pie",
+            "allergies": [
+              "Fish",
+              "Celery",
+              "Crustacean",
+              "Milk",
+              "Mustard",
+              "Gluten",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Thai Green Chicken Curry with Coriander and Spring Onions",
+            "allergies": [
+              "Soya"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": []
+      },
+      "dinner": {
+        "mains": []
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": []
+      },
+      "dinner": {
+        "mains": []
+      }
+    },
+    {
+      "weekend": true,
+      "lunch": {
+        "mains": [
+          {
+            "title": "Full English Breakfast including Vegan Sausage",
+            "allergies": []
+          },
+          {
+            "title": "Lunch Options: Pasta, Vegetables, Green Salad",
+            "allergies": []
+          }
+        ]
+      },
+      "dinner": {
+        "mains": []
+      }
+    },
+    {
+      "weekend": true,
+      "lunch": {
+        "mains": [
+          {
+            "title": "Full English Breakfast including Vegan Sausage",
+            "allergies": []
+          },
+          {
+            "title": "Lunch Options: Pasta, Vegetables, Green Salad",
+            "allergies": []
+          }
+        ]
+      },
+      "dinner": {
+        "mains": []
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          {
+            "title": "Roasted Tomato and Red Pepper Soup",
+            "allergies": [
+              "Celery",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Butternut Squash Stuffed with Spiced Black Beans, Rice and Sweetcorn",
+            "allergies": [
+              "Celery",
+              "Sulphites Mustard"
+            ]
+          },
+          {
+            "title": "Crispy Polenta Cakes, Roasted Red Peppers and Tomato Sauce",
+            "allergies": [
+              "Milk",
+              "Sulphites",
               "Celery"
+            ]
+          },
+          {
+            "title": "Smoked Salmon and Cheddar Tart with Shallot and Dill Dressing",
+            "allergies": [
+              "Milk",
+              "Fish",
+              "Egg",
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Beef Bourguignon",
+            "allergies": [
+              "Celery",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Macaroni Cheese, Crispy Onions and Chives",
+            "allergies": [
+              "Milk",
+              "Gluten",
+              "Mustard"
+            ]
+          }
+        ]
+      },
+      "dinner": {
+        "mains": [
+          {
+            "title": "Chargrilled Aubergine, Ratatouille Of Vegetables, Mozzarella and Toasted Seeds",
+            "allergies": [
+              "Sesame",
+              "Sulphites",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Smoked Salmon and Cheddar Tart with Shallot and Dill Dressing",
+            "allergies": [
+              "Milk",
+              "Fish",
+              "Egg",
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Chargrilled Chicken Burger, with Harissa Mayonnaise",
+            "allergies": [
+              "Mustard",
+              "Gluten",
+              "Egg",
+              "Milk"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          {
+            "title": "Celeriac and Thyme Soup",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Vegetable and Crispy Quorn Sweet and Sour",
+            "allergies": [
+              "Celery",
+              "Soya"
+            ]
+          },
+          {
+            "title": "Butternut Squash, Chilli and Feta Pie",
+            "allergies": [
+              "Gluten",
+              "Milk",
+              "Celery"
+            ]
+          },
+          {
+            "title": "Seabass Fillet with Roasted Red Onion, Cherry Tomatoes and Pesto",
+            "allergies": [
+              "Fish",
+              "Milk",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Honey and Mustard Glazed Pork Loin Steak and Gravy",
+            "allergies": [
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Roasted Tomato and Red Pepper with Feta",
+            "allergies": [
+              "Sulphites",
+              "Gluten",
+              "Milk"
+            ]
+          }
+        ]
+      },
+      "dinner": {
+        "mains": [
+          {
+            "title": "Mac and Cheese Topped with Vegetable Chilli, Crispy Onions and Coriander",
+            "allergies": [
+              "Gluten",
+              "Milk",
+              "Mustard",
+              "Celery",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Seabass Fillet with Roasted Red Onion, Cherry Tomatoes and Pesto",
+            "allergies": [
+              "Fish",
+              "Milk",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Beef Meatballs, with Tomato and Basil Sauce, Parmesan",
+            "allergies": [
+              "Celery",
+              "Sulphites",
+              "Milk",
+              "Gluten"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          {
+            "title": "Pea and Mint Soup",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Root Vegetable and Lentil Wellington with Gravy",
+            "allergies": [
+              "Gluten",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Crispy Halloumi, Stir Fried Vegetables and Sweet Chilli Dressing",
+            "allergies": [
+              "Milk",
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Roasted Cod with Spinach, Wholegrain Mustard Cream Sauce",
+            "allergies": [
+              "Fish",
+              "Milk",
+              "Mustard",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Hunters Chicken",
+            "allergies": [
+              "Sulphites",
+              "Milk",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Basil Pesto, Cherry Tomato and Cheese",
+            "allergies": [
+              "Gluten",
+              "Milk"
+            ]
+          }
+        ]
+      },
+      "dinner": {
+        "mains": [
+          {
+            "title": "Chickpea Tagine with Toasted Almonds",
+            "allergies": [
+              "Celery",
+              "Sulphites",
+              "Nuts"
+            ]
+          },
+          {
+            "title": "Piquillo Pepper and Blue Cheese Quiche, Olive and Herb Dressing",
+            "allergies": [
+              "Milk",
+              "Sulphites",
+              "Gluten",
+              "Egg"
+            ]
+          },
+          {
+            "title": "Roasted Cod with Spinach, Wholegrain Mustard Cream Sauce",
+            "allergies": [
+              "Fish",
+              "Milk",
+              "Mustard",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "BBQ Pulled Pork, Pickled Red Onions",
+            "allergies": [
+              "Sulphites"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          {
+            "title": "Mushroom and Tarragon Soup",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Vegetable and Chickpea Madras",
+            "allergies": [
+              "Celery",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Wild Mushroom Arancini Tomato Sauce",
+            "allergies": [
+              "Milk",
+              "Sulphites",
+              "Celery",
+              "Egg",
+              "Gluten"
+            ]
+          },
+          {
+            "title": "Chargrilled Tuna Steak, with Caper, Red Onion and Chive Dressing",
+            "allergies": [
+              "Fish",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Chorizo and Cheddar Quiche, Tomato and Herb Dressing",
+            "allergies": [
+              "Gluten",
+              "Egg",
+              "Milk",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Tomato and Olive Pasta",
+            "allergies": [
+              "Celery",
+              "Sulphites",
+              "Gluten"
+            ]
+          }
+        ]
+      },
+      "dinner": {
+        "mains": [
+          {
+            "title": "Crispy Fried Tofu",
+            "allergies": [
+              "Gluten",
+              "Sulphites",
+              "Soya"
+            ]
+          },
+          {
+            "title": "Grilled Halloumi with a Bean and Tomato Casserole, Chilli Dressing",
+            "allergies": [
+              "Milk",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Chargrilled Tuna Steak, with Caper, Red Onion and Chive Dressing",
+            "allergies": [
+              "Fish",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Chicken, Chorizo and Bean Casserole",
+            "allergies": [
+              "Celery",
+              "Sulphites",
+              "Milk"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "weekend": false,
+      "lunch": {
+        "mains": [
+          {
+            "title": "Curried Parsnip and Coconut Soup",
+            "allergies": [
+              "Celery"
+            ]
+          },
+          {
+            "title": "Red Onion, Artichoke and Cherry Tomato Tart Fine",
+            "allergies": [
+              "Gluten",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Roasted Pepper, Onion and Cheddar Quiche, Tomato and Herb Dressing",
+            "allergies": [
+              "Gluten",
+              "Egg",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Sweet Chilli Salmon Supreme with Spring Onion and Tomato Salsa",
+            "allergies": [
+              "Fish",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Chilli Con Carne",
+            "allergies": [
+              "Celery",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Chicken and Pancetta Cream Sauce",
+            "allergies": [
+              "Milk",
+              "Gluten",
+              "Sulphites"
+            ]
+          }
+        ]
+      },
+      "dinner": {
+        "mains": [
+          {
+            "title": "THEME NIGHT- starting from January 23rd, 2026 Curry Spiced Cauliflower, Chickpeas, Cucumber Raita, Pickled Red Cabbage",
+            "allergies": [
+              "Sulphites",
+              "Mustard"
+            ]
+          },
+          {
+            "title": "Spiced Potato Wedges with A Mixed Bean Chilli, Sour Cream and Spring Onions",
+            "allergies": [
+              "Celery",
+              "Milk"
+            ]
+          },
+          {
+            "title": "Sweet Chilli Salmon Supreme with Spring Onion and Tomato Salsa",
+            "allergies": [
+              "Fish",
+              "Sulphites"
+            ]
+          },
+          {
+            "title": "Shepherd’s Pie",
+            "allergies": [
+              "Celery",
+              "Milk"
             ]
           }
         ]
