@@ -83,7 +83,7 @@ const links = {
         SU_FINANCE: "https://www.cambridgesu.co.uk/advice/information/finance/",
         FINANCIAL_SUPPORT_HOME: "https://www.christs.cam.ac.uk/admissions/undergraduate-admissions/finances/financial-support-home-students",
         FINANCIAL_SUPPORT_OVERSEAS: "https://www.christs.cam.ac.uk/international-students/financial-support",
-        JCR_FUNDING_REQUEST_FORM: "https://forms.gle/PJWgt5XL4oVaFMYP7",
+        JCR_FUNDING_REQUEST_FORM: "https://docs.google.com/forms/d/e/1FAIpQLSetgbAo-nsMSh5ftj3vOypXtIvw_nxX80MbzMGWoKnJTQRRwQ/viewform?usp=dialog",
         FLEXIBLE_GRANT: "https://forms.office.com/e/PV8Qpi36Ba",
         CAM_BURSARY: "https://www.cambridgestudents.cam.ac.uk/cambridge-bursary",
         EXTERNAL_GRANTS: "https://intranet.christs.cam.ac.uk/information-other-awards-and-grants"
