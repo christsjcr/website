@@ -10,7 +10,7 @@ const categories: RoleCategory[] = [
                 pronouns: "she/her",
                 id: "president",
                 description:
-                    "My name is Josie, I am a second year History and Politics student. I am half-American, half-Japanese, but I grew up in Vienna, Austria. I now live between New York and Thailand. I am very excited to be your President, and it is an honor I take seriously. Please message me with any questions! ",
+                    "Testing for new info! ",
             },
             {
                 title: "Vice-President",
