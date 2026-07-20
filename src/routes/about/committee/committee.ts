@@ -77,7 +77,13 @@ const categories: RoleCategory[] = [
                 id: "access",
                 description:
                     "Hi, I'm Isma, and I am delighted to be your Access Officer!  I plan to work alongside other officers on the JCR, especially the Class Act and BME. I also aim to work with the College Admissions Team to continue developing and expanding the outreach initiatives and widening participation events that Christ's is renowned for. Having benefitted from these access programmes, I am passionate about supporting students who come from underrepresented backgrounds. I'm looking forward to working with the SU, collaborating on initiatives with Access Officers from other Colleges and working with our CRep community to deliver various outreach events and socials. Please feel free to contact me if you have any questions or if you would like to get involved with any outreach-related work!",
-            }
+            },
+            {title: "Webmaster",
+                name: "Patrick Bowers",
+                pronouns: "he/him",
+                id: "webmaster",
+                description:
+                    "Hi all, I'm Patrick - a second year Geography student from Liverpool and your JCR Webmaster! It's my job to keep the digital aspects of college life running smoothly (including our lovely website), so give me a shout if you need any help with anything!"},
         ],
     },
 ];

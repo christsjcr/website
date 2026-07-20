@@ -17,3 +17,10 @@ static/calendar
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+.idea/.gitignore
+.idea/encodings.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/website.iml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/inspectionProfiles/Project_Default.xml
