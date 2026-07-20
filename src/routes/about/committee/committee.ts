@@ -80,7 +80,7 @@ const categories: RoleCategory[] = [
             },
             {title: "Webmaster",
                 name: "Patrick Bowers",
-                pronouns: "He/him",
+                pronouns: "he/him",
                 id: "webmaster",
                 description:
                     "Hi all, I'm Patrick - a second year Geography student from Liverpool and your JCR Webmaster! It's my job to keep the digital aspects of college life running smoothly (including our lovely website), so give me a shout if you need any help with anything!"},
