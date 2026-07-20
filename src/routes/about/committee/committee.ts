@@ -81,7 +81,7 @@ const categories: RoleCategory[] = [
             {title: "First Year Reps",
                 name: "Esme Lawson & Isaac Tarragano",
                 pronouns: "she/her / He/Him",
-                id: "FReps",
+                id: "",
                 description: "Description Here"
             }
         ],
