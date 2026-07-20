@@ -5,7 +5,7 @@ const categories: RoleCategory[] = [
         category: "Core",
         items: [
             {
-                title: "President (testing123)",
+                title: "President",
                 name: "Diya Jalan",
                 pronouns: "she/her",
                 id: "president",
