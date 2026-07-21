@@ -10,10 +10,7 @@
     <input type="hidden" name="share-with" value="welfare-f" />
 
     <div class="field">
-    <div class="field">
-    <!-- svelte-ignore a11y-label-has-associated-control -->
-    <label class="label">Subject</label>
-    <div class="control">
+        <!-- svelte-ignore a11y-label-has-associated-control -->
         <label class="label">Subject</label>
         <div class="control">
             <input
@@ -25,10 +22,7 @@
         </div>
     </div>
     <div class="field">
-    <div class="field">
-    <!-- svelte-ignore a11y-label-has-associated-control -->
-    <label class="label">Subject</label>
-    <div class="control">
+        <!-- svelte-ignore a11y-label-has-associated-control -->
         <label class="label">Message</label>
         <div class="control">
             <textarea
@@ -39,10 +33,7 @@
         </div>
     </div>
     <div class="field">
-    <div class="field">
-    <!-- svelte-ignore a11y-label-has-associated-control -->
-    <label class="label">Subject</label>
-    <div class="control">
+        <!-- svelte-ignore a11y-label-has-associated-control -->
         <label class="label">Anonymity (optional)</label>
         <div class="control">
             <label class="checkbox">
@@ -55,10 +46,7 @@
         </div>
     </div>
     <div class="field">
-    <div class="field">
-    <!-- svelte-ignore a11y-label-has-associated-control -->
-    <label class="label">Subject</label>
-    <div class="control">
+        <!-- svelte-ignore a11y-label-has-associated-control -->
         <label class="label">Terms and Conditions</label>
         <div class="control">
             <label class="checkbox">
