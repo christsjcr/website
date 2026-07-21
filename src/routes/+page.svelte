@@ -23,7 +23,14 @@
         Cambridge. We are your student-elected Committee, representing your
         interests to help you make the most of your time here!
     </div>
-
+    <div class="columns my-6">
+        <div class="column">
+            <NotificationLink
+                href="/get-involved/talk-support"
+                title="Talk & Support 💬"
+                content="Need to talk to someone? Reach out to the Welfare Officers, anonymously if you'd like." />
+        </div>
+    </div>
     <div class="columns my-6">
         <div class="column is-one-third">
             <NotificationLink
