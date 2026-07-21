@@ -11,7 +11,11 @@
     metaDescription="Get in touch with the JCR welfare officers, anonymously if you'd like.">
     <Content>
         <p>
-            This is an optionally-anonymous form to voice any concerns or worries you may have during your time in college. No question or concern is silly! Only our lovely JCR Welfare officers will be able to view your response and you can choose to remain anonymous if you'd like.
+            This is an optionally-anonymous form to voice any concerns or worries
+            you may have during your time in college. No question or concern is silly!
+            Only our lovely JCR Welfare officers will be able to view your response and
+            you can choose to remain anonymous if you'd like.
+        </p>
         <p>
             This form isn't monitored in real time — if you or someone else needs
             urgent help, please contact the Porters, College nurse, 999, etc.
