@@ -56,7 +56,7 @@
             <button
                 class="button is-link"
                 disabled={!agreed || subject.length == 0 || message.length == 0}>
-                Login & Submit
+                Submit Securely
             </button>
         </div>
     </div>

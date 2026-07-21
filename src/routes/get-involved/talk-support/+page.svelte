@@ -16,6 +16,12 @@
             This form isn't monitored in real time — if you or someone else needs
             urgent help, please contact the Porters, Nightline, or 999 instead.
         </p>
+        <p>
+            You'll need to log in with Raven to submit this form — that's just to
+            confirm you're a Christ's student. If you tick "anonymous" below, the
+            welfare officers will only ever see an encrypted, unreadable version of
+            your identity, not your name or email.
+        </p>
         <WelfareForm />
         <h1>Terms and Conditions</h1>
         <ul>
