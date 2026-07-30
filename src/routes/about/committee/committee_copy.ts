@@ -15,25 +15,25 @@ const categories: RoleCategory[] = [
                 title: "Vice-President",
                 name: "Gautam Wadhwa",
                 pronouns: "he/him",
-                id: "",
+                id: "vicepresident",
                 description:
-                    "BIO HERE",
+                    "...",
             },
             {
                 title: "Secretary",
                 name: "Ev Kimber",
                 pronouns: "she/her",
-                id: "",
+                id: "secretary",
                 description:
-                    "BIO HERE",
+                    "...",
             },
             {
                 title: "Treasurer",
                 name: "Tanya Gupta",
                 pronouns: "she/her",
-                id: "",
+                id: "treasurer",
                 description:
-                    "BIO HERE",
+                    "...",
             }
         ],
     },
@@ -42,12 +42,12 @@ const categories: RoleCategory[] = [
         items: [
             {
                 title: "Welfare Officer",
-                label: "",
+                label: "welfare",
                 name: "Sam Johnson / Hannah Huang",
                 pronouns: "he/him (Sam) / she/her (Hannah)",
                 id: "welfare",
                 description:
-                    "BIO HERE",
+                    "...",
             },
         ],
     },
@@ -59,18 +59,18 @@ const categories: RoleCategory[] = [
                 label: "LGBT+",
                 name: "Lily Owens",
                 pronouns: "they/them",
-                id: "",
+                id: "lgbt",
                 description:
-                    "BIO HERE",
+                    "...",
             },
             {
                 title: "Ethnic Diversity Officer",
                 label: "Ethnic Diversity",
                 name: "Alisha Maybury",
                 pronouns: "she/her",
-                id: "",
+                id: "edo",
                 description:
-                    "BIO HERE",
+                    "...",
             },
         ],
     },
@@ -91,18 +91,18 @@ const categories: RoleCategory[] = [
                 label: "Class Act",
                 name: "Lori Flanagan",
                 pronouns: "she/her",
-                id: "",
+                id: "classact",
                 description:
-                    "BIO HERE",
+                    "...",
             },
             {
                 title: "Catering & Facilities Officer",
                 label: "Catering & Facilities",
                 name: "Evie Price",
                 pronouns: "he/him",
-                id: "",
+                id: "facilities",
                 description:
-                    "BIO HERE",
+                    "...",
             },
             {
                 title: "Webmaster",
