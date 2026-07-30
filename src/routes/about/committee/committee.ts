@@ -7,10 +7,9 @@ const categories: RoleCategory[] = [
             {
                 title: "President",
                 name: "Diya Jalan",
-                pronouns: "she/her",
                 id: "president",
                 description:
-                    "BIO HERE",
+                    "Hi! I'm Diya, a third year law student here at Christ's. I'm an international student from Singapore. I am excited to be your 2026 President and help represent your voice on student affairs at Christ's ❤️💙 Feel free to come to me with any ideas and suggestions you have to make Christ's a much better place for all 🙂",
             },
             {
                 title: "Vice-President",
