@@ -70,7 +70,7 @@ const categories: RoleCategory[] = [
                 pronouns: "she/her",
                 id: "edo",
                 description:
-                    "...",
+                    "Hello, my name is Alisha. I’m from Greater Manchester and going into my third year of PBS. Please get in touch if you want to chat about anything, my role is to make everyone feel comfortable and welcome here :))!",
             },
         ],
     },

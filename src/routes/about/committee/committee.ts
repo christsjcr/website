@@ -17,15 +17,15 @@ const categories: RoleCategory[] = [
                 pronouns: "he/him",
                 id: "vicepresident",
                 description:
-                    "BIO HERE",
+                    "...",
             },
             {
                 title: "Secretary",
-                name: "Ev Kimber",
+                name: "Malaika Subhani",
                 pronouns: "she/her",
                 id: "secretary",
                 description:
-                    "Hi! I’m Ev (she/her) a first year historian, and I’m excited to be your 2025 JCR Secretary! I’m in charge of the weekly bulletin, recording the meeting minutes and making sure you know exactly what’s happening at Christ’s each week. You’ll always hear from me in your emails! If you have any questions, ideas, or issues, feel free to get in touch.",
+                    "...",
             },
             {
                 title: "Treasurer",
@@ -33,7 +33,7 @@ const categories: RoleCategory[] = [
                 pronouns: "she/her",
                 id: "treasurer",
                 description:
-                    "BIO HERE",
+                    "...",
             }
         ],
     },
@@ -42,13 +42,42 @@ const categories: RoleCategory[] = [
         items: [
             {
                 title: "Welfare Officer",
-                label: "Welfare",
-                name: "Sam Johnson / Hannah Huang",
-                pronouns: "he/him (Sam) / she/her (Hannah)",
-                id: "welfare",
+                name: "Sam Johnson",
+                pronouns: "he/him",
+                id: "welfare-m",
                 description:
-                    "BIO HERE",
+                    "...",
             },
+            {
+                title: "Welfare Officer",
+                name: "Hannah Huang",
+                pronouns: "she/her",
+                id: "welfare-f",
+                description:
+                    "...",
+            },
+        ],
+    },
+    {
+        category: "Events",
+        items: [
+            {
+                title: "Freshers' Rep",
+                name: "Esme Lawson & Isaac Tarragano",
+                pronouns: "she/her & he/him",
+                id: "firstyearrep",
+                description:
+                    "...",
+            },
+            {
+                title: "ents",
+                name: "...",
+                pronouns: "...",
+                id: "ents",
+                description:
+                    "...",
+            },
+
         ],
     },
     {
@@ -56,7 +85,6 @@ const categories: RoleCategory[] = [
         items: [
             {
                 title: "LGBT+ Officer",
-                label: "LGBT+",
                 name: "Lily Owens",
                 pronouns: "they/them",
                 id: "lgbt",
@@ -65,12 +93,12 @@ const categories: RoleCategory[] = [
             },
             {
                 title: "Ethnic Diversity Officer",
-                label: "Ethnic Diversity",
                 name: "Alisha Maybury",
                 pronouns: "she/her",
                 id: "edo",
                 description:
-                    "BIO HERE",
+                    "Hello, my name is Alisha. I’m from Greater Manchester and going into my third year of PBS. Please get in touch if you want to chat about anything, my role is to make everyone feel comfortable and welcome here :))!"
+
             },
         ],
     },
@@ -79,7 +107,6 @@ const categories: RoleCategory[] = [
         items: [
             {
                 title: "Access Officer",
-                label: "Access",
                 name: "Georgia Halliday",
                 pronouns: "she/her",
                 id: "access",
@@ -88,21 +115,19 @@ const categories: RoleCategory[] = [
             },
             {
                 title: "Class Act Officer",
-                label: "Class Act",
                 name: "Lori Flanagan",
                 pronouns: "she/her",
                 id: "classact",
                 description:
-                    "BIO HERE",
+                    "Hi, I'm Lori, the JCR Class Act Officer! My job is to work with the college to provide support and a space for students from socio-economically disadvantaged backgrounds",
             },
             {
                 title: "Catering & Facilities Officer",
-                label: "Catering & Facilities",
                 name: "Evie Price",
                 pronouns: "he/him",
                 id: "facilities",
                 description:
-                    "BIO HERE",
+                    "...",
             },
             {
                 title: "Webmaster",
