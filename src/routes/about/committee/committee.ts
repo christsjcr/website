@@ -70,9 +70,9 @@ const categories: RoleCategory[] = [
                     "...",
             },
             {
-                title: "ents",
-                name: "...",
-                pronouns: "...",
+                title: "Entertainments Officer",
+                name: "Sophia Bosworth-Gerbino & Helena Simpson",
+                pronouns: "she/her & she/her",
                 id: "ents",
                 description:
                     "...",
@@ -89,7 +89,7 @@ const categories: RoleCategory[] = [
                 pronouns: "they/them",
                 id: "lgbt",
                 description:
-                    "Hey! I’m Lily, your LGBT+ Officer. This year I am focusing on developing easier access pathways towards LGBT+ support resources and the Gender Expression Fund, as well as planning an engaging series of social events for Christ’s LGBT community, such as college swaps, themed charity formals and queer film screenings. I am looking to create a supportive environment and a dedicated queer space for students within college. As your JCR LGBT+ officer, I am always available for a chat. Feel free to send me an email If you’d like to talk or you’d like to make suggestions and changes within the college.",
+                    "...",
             },
             {
                 title: "Ethnic Diversity Officer",
