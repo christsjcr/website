@@ -42,17 +42,10 @@ const categories: RoleCategory[] = [
         items: [
             {
                 title: "Welfare Officer",
-                name: "Sam Johnson",
-                pronouns: "he/him",
-                id: "welfare-m",
-                description:
-                    "...",
-            },
-            {
-                title: "Welfare Officer",
-                name: "Hannah Huang",
-                pronouns: "she/her",
-                id: "welfare-f",
+                label: "welfare",
+                name: "Sam Johnson / Hannah Huang",
+                pronouns: "he/him (Sam) / she/her (Hannah)",
+                id: "welfare",
                 description:
                     "...",
             },
