@@ -33,7 +33,7 @@ const categories: RoleCategory[] = [
                 pronouns: "she/her",
                 id: "treasurer",
                 description:
-                    "...",
+                    "Hola! I am Tanya - a third year HSPS student and currently your JCR Treasurer! I ensure that all students have been reimbursed and we are all sticking to the budget! I am always available over email so please reach out if you need anything at all :)",
             }
         ],
     },
@@ -117,7 +117,7 @@ const categories: RoleCategory[] = [
             {
                 title: "Catering & Facilities Officer",
                 name: "Evie Price",
-                pronouns: "he/him",
+                pronouns: "she/her",
                 id: "facilities",
                 description:
                     "...",
