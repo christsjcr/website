@@ -68,7 +68,7 @@ const categories: RoleCategory[] = [
                 pronouns: "she/her & she/her",
                 id: "ents",
                 description:
-                    "...",
+                    "Hi everyone, I'm Sophia! As well as being one of your Ents Officers, I am also a 3rd year HMLer currently on my year abroad in Paris. I love engaging in college life, and am very excited to continue organising bops and events either from France or when I come visit!",
             },
 
         ],
@@ -77,10 +77,10 @@ const categories: RoleCategory[] = [
         category: "Diversity",
         items: [
             {
-                title: "LGBT+ Officer",
-                name: "Lily Owens",
-                pronouns: "they/them",
-                id: "lgbt",
+                title: "Women's Officer",
+                name: "Evelyn Kimber",
+                pronouns: "she/her",
+                id: "womens",
                 description:
                     "...",
             },
@@ -93,6 +93,15 @@ const categories: RoleCategory[] = [
                     "Hello, my name is Alisha. I’m from Greater Manchester and going into my third year of PBS. Please get in touch if you want to chat about anything, my role is to make everyone feel comfortable and welcome here :))!"
 
             },
+            {
+                title: "Internationals' Officer",
+                name: "Armaan Hooda",
+                pronouns: "he/him",
+                id: "intI",
+                description:
+                    "Hey guys, Armaan here. I am a second year Computer Science student from Finland and I will be serving as the International Officer. I will be in charge of organizing social and cultural events for the international students at Christ's, including the international freshers week, culturally diverse potluck dinners, movie nights, and much more. Additionally, if you have any ideas for any such events, I would love to hear and try implementing them!",
+            },
+
         ],
     },
     {
@@ -121,6 +130,15 @@ const categories: RoleCategory[] = [
                 id: "facilities",
                 description:
                     "...",
+            },
+            {
+                title: "Green & Charities Officer",
+                name: "Jessica Taylor",
+                pronouns: "she,her",
+                id: "green",
+                description:
+                    "..."
+
             },
             {
                 title: "Webmaster",
