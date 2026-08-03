@@ -134,7 +134,7 @@ const categories: RoleCategory[] = [
             {
                 title: "Green & Charities Officer",
                 name: "Jessica Taylor",
-                pronouns: "she,her",
+                pronouns: "she/her",
                 id: "green",
                 description:
                     "..."
