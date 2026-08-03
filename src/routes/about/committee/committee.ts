@@ -17,7 +17,7 @@ const categories: RoleCategory[] = [
                 pronouns: "he/him",
                 id: "vicepresident",
                 description:
-                    "...",
+                    "Hi everyone! I’m Gautam - a third-year Law student and your JCR Vice-President. As well as supporting the President, it’s my role to run JCR elections and supply amazing JCR stash. If you have any questions, just give me a shout!",
             },
             {
                 title: "Secretary",
@@ -47,7 +47,7 @@ const categories: RoleCategory[] = [
                 pronouns: "he/him (Sam) / she/her (Hannah)",
                 id: "welfare",
                 description:
-                    "...",
+                    "Hi, we're Sam and Hannah and we are your welfare officers! We run college welfare events, including 'alt bops' and our weekly welfare drop ins, to help clear your mind and cast away those week 5 blues. Please feel free to find us (online or in-person) if you want to talk, whether it's a simple chat or just looking for signposting. Anything goes ❤️",
             },
         ],
     },
