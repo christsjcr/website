@@ -147,7 +147,7 @@ const categories: RoleCategory[] = [
                 pronouns: "he/him",
                 id: "webmaster",
                 description:
-                    "Hi all, I'm Patrick - a second year Geography student from Liverpool and your JCR Webmaster! It's my job to keep the digital aspects of college life running smoothly (including our lovely website), so give me a shout if you need any help with anything!"
+                    "Hi all, I'm Patrick - a second year Geography student from Liverpool and your JCR Webmaster! It's my job to keep the digital aspects of college life running smoothly (including our lovely website and the College email domains), so give me a shout if you need any help with anything... unless it's about Eduroam as nobody understands that!"
             },
         ],
     },
