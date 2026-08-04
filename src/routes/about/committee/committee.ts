@@ -130,7 +130,7 @@ const categories: RoleCategory[] = [
                 pronouns: "she/her",
                 id: "facilities",
                 description:
-                    "...",
+                    "Hey! I'm Evie, a third-year History student and your Catering and Facilities Officer! I ensure that all things catering and facilities run well and that student feedback gets heard. Please don't hesitate to get in touch with any questions or concerns!",
             },
             {
                 title: "Green & Charities Officer",
