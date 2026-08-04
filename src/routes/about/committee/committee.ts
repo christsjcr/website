@@ -78,11 +78,12 @@ const categories: RoleCategory[] = [
         items: [
             {
                 title: "Women's Officer",
-                name: "Evelyn Kimber",
+                name: "Ev Kimber",
                 pronouns: "she/her",
                 id: "womens",
                 description:
-                    "...",
+                    "Hi! I’m Ev, a third year historian, and your JCR Women’s Officer. I represent all female and non-binary students at Christ’s, ensuring our community is an inclusive, empowering, and supportive environment. " +
+                    "I help to run charity events throughout the year and organise a free sanitary product scheme for Christ’s students. Feel free to reach out if you have any questions - I’m always open to suggestions 💖🩷💝",
             },
             {
                 title: "Ethnic Diversity Officer",
