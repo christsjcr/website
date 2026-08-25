@@ -7,6 +7,7 @@ const categories: RoleCategory[] = [
             {
                 title: "President",
                 name: "Diya Jalan",
+                pronouns: "she/her",
                 id: "president",
                 description:
                     "Hi! I'm Diya, a third year law student here at Christ's. I'm an international student from Singapore. I am excited to be your 2026 President and help represent your voice on student affairs at Christ's ❤️💙 Feel free to come to me with any ideas and suggestions you have to make Christ's a much better place for all 🙂",
@@ -68,7 +69,7 @@ const categories: RoleCategory[] = [
                 pronouns: "she/her & she/her",
                 id: "ents",
                 description:
-                    "Hi everyone, I'm Sophia! As well as being one of your Ents Officers, I am also a 3rd year HMLer currently on my year abroad in Paris. I love engaging in college life, and am very excited to continue organising bops and events either from France or when I come visit!",
+                    "Hi all, we are your JCR Ents Officers! I am Sophia (on the right), a 3rd year HMLer currently on my year abroad in Paris (though I'll still be helping out with ents from afar). And I'm Helena (on the left), I study Computer Science, and I'll be holding down the fort here at college! We both love getting involved in college life and are really excited for this term's upcoming events.",
             },
 
         ],
