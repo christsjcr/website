@@ -59,7 +59,7 @@ const categories: RoleCategory[] = [
                 title: "Freshers' Rep",
                 name: "Esme Lawson & Isaac Tarragano",
                 pronouns: "she/her & he/him",
-                id: "firstyearrep",
+                id: "frep",
                 description:
                     "Hi everyone! We're Esmé and Isaac, second year HSPS students and your JCR 'Freps'. It's our job to help make freshers' transition into Uni life as smooth as possible, and help welcome you into the Christ's community. We're your first port of call for anything Fresher's week related!",
             },
