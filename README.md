@@ -66,6 +66,8 @@ To upgrade dependencies, use `yarn upgrade-interactive --latest` to select the p
 
 ### I don't understand the code, and I'm feeling overwhelmed
 
+- Firstly, there's some helpful information in the Webmaster user Guides that may help you!
+
 The website was created from scratch using:
  - [Typescript](https://www.typescriptlang.org/) - language
    - [Node.js Wikipedia](https://en.wikipedia.org/wiki/Node.js) - first paragraph
